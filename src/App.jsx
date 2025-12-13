@@ -8,6 +8,7 @@ import TestimonialsPage from './pages/TestimonialsPage'
 import FAQPage from './pages/FAQPage'
 import FeaturesPage from './pages/FeaturesPage'
 import BlogPage from './pages/BlogPage'
+import BlogPostPage from './pages/BlogPostPage'
 import ContactPage from './pages/ContactPage'
 import AboutPage from './pages/AboutPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
@@ -35,6 +36,7 @@ function App() {
         <Route path="/faq" element={<Layout><FAQPage /></Layout>} />
         <Route path="/features" element={<Layout><FeaturesPage /></Layout>} />
         <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
+        <Route path="/blog/:slug" element={<Layout><BlogPostPage /></Layout>} />
         <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
         <Route path="/about" element={<Layout><AboutPage /></Layout>} />
         <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
