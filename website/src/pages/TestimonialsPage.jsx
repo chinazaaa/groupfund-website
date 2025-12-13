@@ -1,0 +1,103 @@
+import React from 'react'
+import SEO from '../components/SEO'
+import '../App.css'
+
+export default function TestimonialsPage() {
+  const testimonials = [
+    {
+      quote: "GroupWallet transformed how our family handles birthday contributions. No more endless WhatsApp messages or forgotten payments. Everything is organized and transparent.",
+      author: "Adebayo Okafor",
+      role: "Family Group Admin",
+      location: "Lagos, Nigeria",
+      group: "Okafor Family Circle"
+    },
+    {
+      quote: "As a church administrator, managing contributions for member birthdays was always stressful. GroupWallet made it effortless. The automatic reminders are a game-changer!",
+      author: "Pastor Grace Williams",
+      role: "Church Administrator",
+      location: "Abuja, Nigeria",
+      group: "Grace Community Church"
+    },
+    {
+      quote: "Our school class uses GroupWallet for all birthday contributions. The fixed amount feature and payment tracking make it so easy. Parents love the transparency.",
+      author: "Mrs. Chidinma Okoro",
+      role: "Class Parent Coordinator",
+      location: "Port Harcourt, Nigeria",
+      group: "Class of 2024 Parents"
+    },
+    {
+      quote: "I was skeptical at first, but GroupWallet has made our friend group's birthday contributions so much smoother. No more awkward conversations about who paid what.",
+      author: "Emeka Nwosu",
+      role: "Friend Group Organizer",
+      location: "Enugu, Nigeria",
+      group: "The Crew"
+    },
+    {
+      quote: "The multi-currency support is perfect for our international family group. Some of us are in Nigeria, others in the UK and US. GroupWallet handles it all seamlessly.",
+      author: "Dr. Fatima Ibrahim",
+      role: "Family Group Coordinator",
+      location: "Kano, Nigeria",
+      group: "Ibrahim Family Worldwide"
+    },
+    {
+      quote: "Before GroupWallet, I spent hours tracking contributions in Excel. Now it's all automated. The calendar view helps me plan ahead, and the reminders ensure no one forgets.",
+      author: "Olumide Adeyemi",
+      role: "Group Administrator",
+      location: "Ibadan, Nigeria",
+      group: "Adeyemi Extended Family"
+    }
+  ]
+
+  return (
+    <>
+      <SEO
+        title="GroupWallet Success Stories & Testimonials - Real Users Share Their Experience"
+        description="Read success stories from families, churches, and groups using GroupWallet to organize birthday contributions. Real testimonials from users across Nigeria."
+        keywords="groupfund testimonials, birthday app reviews, group payment app success stories, Nigeria, family contributions, church contributions"
+        canonical="https://groupfund.app/testimonials"
+      />
+
+      <section className="page-hero">
+        <div className="container">
+          <h1 className="page-title">Success Stories & Testimonials</h1>
+          <p className="page-subtitle">
+            See how GroupWallet is helping families, churches, and groups across Nigeria organize their birthday contributions effortlessly.
+          </p>
+        </div>
+      </section>
+
+      <section className="testimonials-page">
+        <div className="container">
+          <div className="testimonials-grid">
+            {testimonials.map((testimonial, index) => (
+              <article key={index} className="testimonial-card">
+                <div className="testimonial-quote-icon">"</div>
+                <blockquote className="testimonial-quote">
+                  {testimonial.quote}
+                </blockquote>
+                <div className="testimonial-author">
+                  <div className="author-info">
+                    <cite className="author-name">{testimonial.author}</cite>
+                    <p className="author-role">{testimonial.role}</p>
+                    <p className="author-location">{testimonial.location}</p>
+                  </div>
+                  <div className="author-group">
+                    <span className="group-label">Group:</span>
+                    <span className="group-name">{testimonial.group}</span>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="cta-box">
+            <h2>Join These Happy Groups</h2>
+            <p>Start organizing your group's birthday contributions today. It's free to get started!</p>
+            <a href="#download" className="btn btn-primary btn-large">Start Your Free Group</a>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+

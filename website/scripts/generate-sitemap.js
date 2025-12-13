@@ -1,0 +1,100 @@
+#!/usr/bin/env node
+
+/**
+ * Generate sitemap.xml dynamically
+ * Run this script before building: node scripts/generate-sitemap.js
+ */
+
+const fs = require('fs')
+const path = require('path')
+
+const baseUrl = 'https://groupfund.app'
+const currentDate = new Date().toISOString().split('T')[0]
+
+const pages = [
+  {
+    url: '/',
+    priority: '1.0',
+    changefreq: 'weekly',
+    lastmod: currentDate
+  },
+  {
+    url: '/how-it-works',
+    priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/features',
+    priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/testimonials',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/faq',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/blog',
+    priority: '0.8',
+    changefreq: 'weekly',
+    lastmod: currentDate
+  },
+  {
+    url: '/contact',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/about',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/privacy',
+    priority: '0.5',
+    changefreq: 'yearly',
+    lastmod: currentDate
+  },
+  {
+    url: '/terms',
+    priority: '0.5',
+    changefreq: 'yearly',
+    lastmod: currentDate
+  }
+]
+
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+${pages.map(page => `  <url>
+    <loc>${baseUrl}${page.url}</loc>
+    <lastmod>${page.lastmod}</lastmod>
+    <changefreq>${page.changefreq}</changefreq>
+    <priority>${page.priority}</priority>
+  </url>`).join('\n')}
+</urlset>`
+
+const publicDir = path.join(__dirname, '..', 'public')
+if (!fs.existsSync(publicDir)) {
+  fs.mkdirSync(publicDir, { recursive: true })
+}
+
+const sitemapPath = path.join(publicDir, 'sitemap.xml')
+fs.writeFileSync(sitemapPath, sitemap, 'utf8')
+
+console.log('✅ Sitemap generated successfully at:', sitemapPath)
+console.log(`📄 Generated ${pages.length} URLs`)
+

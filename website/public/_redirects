@@ -1,0 +1,10 @@
+# Netlify redirects file
+# This file is used for Netlify deployments
+
+# SPA fallback - redirect all routes to index.html
+/*    /index.html   200
+
+# Force HTTPS
+http://groupfund.app/*    https://groupfund.app/:splat    301!
+http://www.groupfund.app/*    https://groupfund.app/:splat    301!
+
