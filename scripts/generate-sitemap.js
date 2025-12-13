@@ -11,6 +11,16 @@ const path = require('path')
 const baseUrl = 'https://groupfund.app'
 const currentDate = new Date().toISOString().split('T')[0]
 
+// Blog post slugs (should match BlogPostPage.jsx)
+const blogPosts = [
+  'organize-birthday-contributions-without-stress',
+  'why-whatsapp-groups-fail-tracking-payments',
+  'best-ways-collect-money-events-nigeria',
+  'groupfund-vs-traditional-methods-comparison',
+  'tips-fair-birthday-contribution-management',
+  'churches-streamline-member-birthday-contributions'
+]
+
 const pages = [
   {
     url: '/',
@@ -48,6 +58,13 @@ const pages = [
     changefreq: 'weekly',
     lastmod: currentDate
   },
+  // Add individual blog posts
+  ...blogPosts.map(slug => ({
+    url: `/blog/${slug}`,
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  })),
   {
     url: '/contact',
     priority: '0.7',
