@@ -20,7 +20,7 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="GroupWallet - Organize Group Birthday Contributions | Track Payments & Reminders"
+        title="GroupFund - Organize Group Birthday Contributions | Track Payments & Reminders"
         description="End birthday contribution chaos for families, churches, and groups. Track who paid, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
         keywords="birthday contributions, group payments, birthday tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
         canonical="https://groupfund.app/"
@@ -75,7 +75,7 @@ export default function HomePage() {
           <div className="problem-content">
             <h2 id="problem-heading" className="section-title">Tired of Chasing Contributions?</h2>
             <p className="section-subtitle">
-              Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupWallet brings order to group birthday contributions.
+              Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to group birthday contributions.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function HomePage() {
             <p className="trust-stats">100+ Active Groups</p>
             <div className="testimonials">
               <blockquote className="testimonial">
-                <p>"Finally, no more chasing people on WhatsApp! GroupWallet made our family birthday contributions so much easier."</p>
+                <p>"Finally, no more chasing people on WhatsApp! GroupFund made our family birthday contributions so much easier."</p>
                 <cite>— Family Group Admin, Lagos</cite>
               </blockquote>
             </div>
@@ -208,12 +208,12 @@ export default function HomePage() {
         <div className="container">
           <div className="cta-content">
             <h2 id="cta-heading" className="cta-title">Ready to Organize Your Group?</h2>
-            <p className="cta-subtitle">Join 100+ groups already using GroupWallet to manage their birthday contributions</p>
+            <p className="cta-subtitle">Join 100+ groups already using GroupFund to manage their birthday contributions</p>
             <div className="app-store-badges">
               <a 
                 href="#" 
                 className="app-badge" 
-                aria-label="Download GroupWallet on the App Store"
+                aria-label="Download GroupFund on the App Store"
                 rel="noopener noreferrer"
               >
                 <img 
@@ -227,7 +227,7 @@ export default function HomePage() {
               <a 
                 href="#" 
                 className="app-badge" 
-                aria-label="Get GroupWallet on Google Play"
+                aria-label="Get GroupFund on Google Play"
                 rel="noopener noreferrer"
               >
                 <img 

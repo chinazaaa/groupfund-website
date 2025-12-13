@@ -5,42 +5,42 @@ import '../App.css'
 export default function TestimonialsPage() {
   const testimonials = [
     {
-      quote: "GroupWallet transformed how our family handles birthday contributions. No more endless WhatsApp messages or forgotten payments. Everything is organized and transparent.",
+      quote: "GroupFund transformed how our family handles birthday contributions. No more endless WhatsApp messages or forgotten payments. Everything is organized and transparent.",
       author: "Adebayo Okafor",
       role: "Family Group Admin",
       location: "Lagos, Nigeria",
       group: "Okafor Family Circle"
     },
     {
-      quote: "As a church administrator, managing contributions for member birthdays was always stressful. GroupWallet made it effortless. The automatic reminders are a game-changer!",
+      quote: "As a church administrator, managing contributions for member birthdays was always stressful. GroupFund made it effortless. The automatic reminders are a game-changer!",
       author: "Pastor Grace Williams",
       role: "Church Administrator",
       location: "Abuja, Nigeria",
       group: "Grace Community Church"
     },
     {
-      quote: "Our school class uses GroupWallet for all birthday contributions. The fixed amount feature and payment tracking make it so easy. Parents love the transparency.",
+      quote: "Our school class uses GroupFund for all birthday contributions. The fixed amount feature and payment tracking make it so easy. Parents love the transparency.",
       author: "Mrs. Chidinma Okoro",
       role: "Class Parent Coordinator",
       location: "Port Harcourt, Nigeria",
       group: "Class of 2024 Parents"
     },
     {
-      quote: "I was skeptical at first, but GroupWallet has made our friend group's birthday contributions so much smoother. No more awkward conversations about who paid what.",
+      quote: "I was skeptical at first, but GroupFund has made our friend group's birthday contributions so much smoother. No more awkward conversations about who paid what.",
       author: "Emeka Nwosu",
       role: "Friend Group Organizer",
       location: "Enugu, Nigeria",
       group: "The Crew"
     },
     {
-      quote: "The multi-currency support is perfect for our international family group. Some of us are in Nigeria, others in the UK and US. GroupWallet handles it all seamlessly.",
+      quote: "The multi-currency support is perfect for our international family group. Some of us are in Nigeria, others in the UK and US. GroupFund handles it all seamlessly.",
       author: "Dr. Fatima Ibrahim",
       role: "Family Group Coordinator",
       location: "Kano, Nigeria",
       group: "Ibrahim Family Worldwide"
     },
     {
-      quote: "Before GroupWallet, I spent hours tracking contributions in Excel. Now it's all automated. The calendar view helps me plan ahead, and the reminders ensure no one forgets.",
+      quote: "Before GroupFund, I spent hours tracking contributions in Excel. Now it's all automated. The calendar view helps me plan ahead, and the reminders ensure no one forgets.",
       author: "Olumide Adeyemi",
       role: "Group Administrator",
       location: "Ibadan, Nigeria",
@@ -51,8 +51,8 @@ export default function TestimonialsPage() {
   return (
     <>
       <SEO
-        title="GroupWallet Success Stories & Testimonials - Real Users Share Their Experience"
-        description="Read success stories from families, churches, and groups using GroupWallet to organize birthday contributions. Real testimonials from users across Nigeria."
+        title="GroupFund Success Stories & Testimonials - Real Users Share Their Experience"
+        description="Read success stories from families, churches, and groups using GroupFund to organize birthday contributions. Real testimonials from users across Nigeria."
         keywords="groupfund testimonials, birthday app reviews, group payment app success stories, Nigeria, family contributions, church contributions"
         canonical="https://groupfund.app/testimonials"
       />
@@ -61,7 +61,7 @@ export default function TestimonialsPage() {
         <div className="container">
           <h1 className="page-title">Success Stories & Testimonials</h1>
           <p className="page-subtitle">
-            See how GroupWallet is helping families, churches, and groups across Nigeria organize their birthday contributions effortlessly.
+            See how GroupFund is helping families, churches, and groups across Nigeria organize their birthday contributions effortlessly.
           </p>
         </div>
       </section>

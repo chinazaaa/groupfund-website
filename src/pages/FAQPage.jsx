@@ -7,12 +7,12 @@ export default function FAQPage() {
 
   const faqs = [
     {
-      question: "Is my money safe with GroupWallet?",
-      answer: "GroupWallet doesn't hold or process payments directly. We're a tracking and organization tool. All payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We simply help you track who has paid and who hasn't, ensuring transparency and organization."
+      question: "Is my money safe with GroupFund?",
+      answer: "GroupFund doesn't hold or process payments directly. We're a tracking and organization tool. All payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We simply help you track who has paid and who hasn't, ensuring transparency and organization."
     },
     {
       question: "Can I use any currency?",
-      answer: "Yes! GroupWallet supports multiple currencies including NGN (Nigerian Naira), USD (US Dollar), GBP (British Pound), EUR (Euro), and more. Each group can choose its preferred currency, and the app will display local bank details accordingly. This makes it perfect for international groups with members in different countries."
+      answer: "Yes! GroupFund supports multiple currencies including NGN (Nigerian Naira), USD (US Dollar), GBP (British Pound), EUR (Euro), and more. Each group can choose its preferred currency, and the app will display local bank details accordingly. This makes it perfect for international groups with members in different countries."
     },
     {
       question: "How do I confirm payments?",
@@ -20,23 +20,23 @@ export default function FAQPage() {
     },
     {
       question: "What happens if someone doesn't pay?",
-      answer: "GroupWallet sends automatic reminders 7 days before each birthday and on the deadline day. If someone still doesn't pay, the group administrator can see their status clearly marked as 'Not Paid'. The app provides helpful recaps showing payment progress (e.g., '8 out of 10 members have paid'). This transparency helps group administrators follow up appropriately while maintaining fairness."
+      answer: "GroupFund sends automatic reminders 7 days before each birthday and on the deadline day. If someone still doesn't pay, the group administrator can see their status clearly marked as 'Not Paid'. The app provides helpful recaps showing payment progress (e.g., '8 out of 10 members have paid'). This transparency helps group administrators follow up appropriately while maintaining fairness."
     },
     {
       question: "Is there a limit to group size?",
       answer: "Each group has a maximum size that's set when you create the group. This helps you calculate your total yearly contribution amount upfront. The maximum size is displayed clearly, so you know exactly how many members can join and what your total contribution commitment will be."
     },
     {
-      question: "How much does GroupWallet cost?",
-      answer: "GroupWallet is free to start! You can create your first group and start organizing birthday contributions at no cost. We believe in making group organization accessible to everyone."
+      question: "How much does GroupFund cost?",
+      answer: "GroupFund is free to start! You can create your first group and start organizing birthday contributions at no cost. We believe in making group organization accessible to everyone."
     },
     {
-      question: "Can I use GroupWallet for events other than birthdays?",
-      answer: "Currently, GroupWallet is optimized for birthday contributions. However, many groups use it creatively for other recurring group events. We're always working on new features based on user feedback."
+      question: "Can I use GroupFund for events other than birthdays?",
+      answer: "Currently, GroupFund is optimized for birthday contributions. However, many groups use it creatively for other recurring group events. We're always working on new features based on user feedback."
     },
     {
       question: "Do I need to download an app?",
-      answer: "Yes, GroupWallet is available as a mobile app for iOS and Android devices. You can download it from the App Store or Google Play Store. The mobile app provides the best experience with push notifications for reminders."
+      answer: "Yes, GroupFund is available as a mobile app for iOS and Android devices. You can download it from the App Store or Google Play Store. The mobile app provides the best experience with push notifications for reminders."
     },
     {
       question: "Can I export payment history?",
@@ -55,8 +55,8 @@ export default function FAQPage() {
   return (
     <>
       <SEO
-        title="GroupWallet FAQ - Frequently Asked Questions About Birthday Contributions"
-        description="Get answers to common questions about GroupWallet: Is my money safe? Can I use any currency? How do I confirm payments? What happens if someone doesn't pay? Learn more about our birthday contribution app."
+        title="GroupFund FAQ - Frequently Asked Questions About Birthday Contributions"
+        description="Get answers to common questions about GroupFund: Is my money safe? Can I use any currency? How do I confirm payments? What happens if someone doesn't pay? Learn more about our birthday contribution app."
         keywords="groupfund FAQ, birthday app questions, group payment FAQ, is groupfund safe, currency support, payment confirmation, Nigeria"
         canonical="https://groupfund.app/faq"
       />
@@ -65,7 +65,7 @@ export default function FAQPage() {
         <div className="container">
           <h1 className="page-title">Frequently Asked Questions</h1>
           <p className="page-subtitle">
-            Everything you need to know about GroupWallet and organizing group birthday contributions.
+            Everything you need to know about GroupFund and organizing group birthday contributions.
           </p>
         </div>
       </section>

@@ -1,4 +1,4 @@
-# .htaccess for GroupWallet
+# .htaccess for GroupFund
 # Redirect rules and security headers
 
 # Force HTTPS (uncomment when SSL is configured)

@@ -15,7 +15,7 @@ export default function BlogPage() {
     },
     {
       title: "Why WhatsApp Groups Fail at Tracking Group Payments",
-      excerpt: "WhatsApp groups seem convenient, but they're terrible for tracking payments. Discover the common pitfalls and why dedicated tools like GroupWallet are essential for organized contributions.",
+      excerpt: "WhatsApp groups seem convenient, but they're terrible for tracking payments. Discover the common pitfalls and why dedicated tools like GroupFund are essential for organized contributions.",
       date: "January 10, 2024",
       readTime: "6 min read",
       slug: "why-whatsapp-groups-fail-tracking-payments",
@@ -30,12 +30,12 @@ export default function BlogPage() {
       keywords: "collect money Nigeria, group payments Nigeria, event contributions Nigeria"
     },
     {
-      title: "GroupWallet vs. Traditional Methods: A Comparison",
-      excerpt: "Compare GroupWallet with traditional methods like Excel spreadsheets, WhatsApp groups, and manual tracking. See why modern tools are essential for organized group contributions.",
+      title: "GroupFund vs. Traditional Methods: A Comparison",
+      excerpt: "Compare GroupFund with traditional methods like Excel spreadsheets, WhatsApp groups, and manual tracking. See why modern tools are essential for organized group contributions.",
       date: "December 28, 2023",
       readTime: "8 min read",
       slug: "groupfund-vs-traditional-methods-comparison",
-      keywords: "GroupWallet comparison, traditional payment methods, group contribution tools"
+      keywords: "GroupFund comparison, traditional payment methods, group contribution tools"
     },
     {
       title: "5 Tips for Fair Birthday Contribution Management",
@@ -47,7 +47,7 @@ export default function BlogPage() {
     },
     {
       title: "How Churches Can Streamline Member Birthday Contributions",
-      excerpt: "Churches often struggle with organizing member contributions. Learn how GroupWallet helps churches manage birthday contributions efficiently while maintaining transparency and fairness.",
+      excerpt: "Churches often struggle with organizing member contributions. Learn how GroupFund helps churches manage birthday contributions efficiently while maintaining transparency and fairness.",
       date: "December 15, 2023",
       readTime: "6 min read",
       slug: "churches-streamline-member-birthday-contributions",
@@ -58,7 +58,7 @@ export default function BlogPage() {
   return (
     <>
       <SEO
-        title="GroupWallet Blog - Tips, Guides & Insights on Organizing Group Contributions"
+        title="GroupFund Blog - Tips, Guides & Insights on Organizing Group Contributions"
         description="Read our blog for tips on organizing birthday contributions, why WhatsApp groups fail, best practices for collecting money in Nigeria, and comparisons with traditional methods."
         keywords="birthday contribution tips, group payment blog, organize contributions Nigeria, WhatsApp payment problems, group contribution guides"
         canonical="https://groupfund.app/blog"

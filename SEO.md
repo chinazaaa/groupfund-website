@@ -1,6 +1,6 @@
 # SEO Configuration Guide
 
-This document outlines the SEO setup for the GroupWallet website.
+This document outlines the SEO setup for the GroupFund website.
 
 ## Files Created
 

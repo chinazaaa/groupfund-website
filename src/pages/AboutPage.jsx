@@ -6,15 +6,15 @@ export default function AboutPage() {
   return (
     <>
       <SEO
-        title="About GroupWallet - Our Mission to End Birthday Contribution Chaos"
-        description="Learn about GroupWallet's mission to help families, churches, and groups organize birthday contributions effortlessly. Discover why we built this app and our commitment to transparency."
+        title="About GroupFund - Our Mission to End Birthday Contribution Chaos"
+        description="Learn about GroupFund's mission to help families, churches, and groups organize birthday contributions effortlessly. Discover why we built this app and our commitment to transparency."
         keywords="about groupfund, groupfund mission, birthday app Nigeria, group contribution mission, our story"
         canonical="https://groupfund.app/about"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">About GroupWallet</h1>
+          <h1 className="page-title">About GroupFund</h1>
           <p className="page-subtitle">
             We're on a mission to end birthday contribution chaos for groups everywhere.
           </p>
@@ -27,15 +27,15 @@ export default function AboutPage() {
             <div className="about-section">
               <h2>Our Mission</h2>
               <p>
-                GroupWallet was born from a simple frustration: organizing birthday contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. We saw families, churches, schools, and friend groups struggling with the same problems—forgotten payments, unclear amounts, and endless WhatsApp messages.
+                GroupFund was born from a simple frustration: organizing birthday contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. We saw families, churches, schools, and friend groups struggling with the same problems—forgotten payments, unclear amounts, and endless WhatsApp messages.
               </p>
               <p>
-                Our mission is to bring order, transparency, and fairness to group birthday contributions. We believe that celebrating birthdays should be joyful, not stressful. That's why we built GroupWallet—to make organizing contributions effortless so groups can focus on what matters: celebrating together.
+                Our mission is to bring order, transparency, and fairness to group birthday contributions. We believe that celebrating birthdays should be joyful, not stressful. That's why we built GroupFund—to make organizing contributions effortless so groups can focus on what matters: celebrating together.
               </p>
             </div>
 
             <div className="about-section">
-              <h2>Why We Built GroupWallet</h2>
+              <h2>Why We Built GroupFund</h2>
               <p>
                 After experiencing the frustration of managing group contributions ourselves, we realized there had to be a better way. Traditional methods like WhatsApp groups and Excel spreadsheets fail because they:
               </p>
@@ -47,7 +47,7 @@ export default function AboutPage() {
                 <li>Create awkward situations when following up on payments</li>
               </ul>
               <p>
-                GroupWallet solves all these problems with a simple, intuitive app that handles the organization automatically. We built it to be free, accessible, and powerful enough for any group size.
+                GroupFund solves all these problems with a simple, intuitive app that handles the organization automatically. We built it to be free, accessible, and powerful enough for any group size.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 </div>
                 <div className="value-card">
                   <h3>Accessibility</h3>
-                  <p>GroupWallet is free to start because we believe everyone deserves organized, stress-free contributions.</p>
+                  <p>GroupFund is free to start because we believe everyone deserves organized, stress-free contributions.</p>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function AboutPage() {
             <div className="about-section">
               <h2>Our Commitment</h2>
               <p>
-                We're committed to continuously improving GroupWallet based on user feedback. We listen to our community of families, churches, schools, and friend groups to make the app better every day. Your success in organizing contributions is our success.
+                We're committed to continuously improving GroupFund based on user feedback. We listen to our community of families, churches, schools, and friend groups to make the app better every day. Your success in organizing contributions is our success.
               </p>
               <p>
                 Whether you're managing a small family group or a large church community, we're here to make birthday contributions effortless. Join us in ending the chaos, one group at a time.

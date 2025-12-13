@@ -1,4 +1,4 @@
-# robots.txt for GroupWallet
+# robots.txt for GroupFund
 # https://groupfund.app/robots.txt
 
 User-agent: *

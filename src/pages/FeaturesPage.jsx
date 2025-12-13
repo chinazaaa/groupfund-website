@@ -55,8 +55,8 @@ export default function FeaturesPage() {
   return (
     <>
       <SEO
-        title="GroupWallet Features - Multi-Currency, Reminders, Payment Tracking & More"
-        description="Discover GroupWallet's powerful features: multi-currency support, automatic reminders, real-time payment tracking, fixed amounts, max group size, and more. Perfect for organizing birthday contributions."
+        title="GroupFund Features - Multi-Currency, Reminders, Payment Tracking & More"
+        description="Discover GroupFund's powerful features: multi-currency support, automatic reminders, real-time payment tracking, fixed amounts, max group size, and more. Perfect for organizing birthday contributions."
         keywords="groupfund features, birthday app features, multi-currency payments, payment tracking, automatic reminders, group contribution app, Nigeria"
         canonical="https://groupfund.app/features"
       />
@@ -93,7 +93,7 @@ export default function FeaturesPage() {
               <a 
                 href="#" 
                 className="app-badge" 
-                aria-label="Download GroupWallet on the App Store"
+                aria-label="Download GroupFund on the App Store"
                 rel="noopener noreferrer"
               >
                 <img 
@@ -107,7 +107,7 @@ export default function FeaturesPage() {
               <a 
                 href="#" 
                 className="app-badge" 
-                aria-label="Get GroupWallet on Google Play"
+                aria-label="Get GroupFund on Google Play"
                 rel="noopener noreferrer"
               >
                 <img 

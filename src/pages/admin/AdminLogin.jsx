@@ -63,7 +63,7 @@ export default function AdminLogin() {
     <div className="admin-login-page">
       <div className="admin-login-container">
         <div className="admin-login-header">
-          <h1 className="admin-login-logo">GroupWallet</h1>
+          <h1 className="admin-login-logo">GroupFund</h1>
           <h2>Admin Login</h2>
           <p>Sign in to access the admin dashboard</p>
         </div>

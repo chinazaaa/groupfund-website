@@ -45,15 +45,15 @@ export default function HowItWorksPage() {
   return (
     <>
       <SEO
-        title="How GroupWallet Works - Simple Steps to Organize Birthday Contributions"
-        description="Learn how GroupWallet works in 6 simple steps: create group, add members, set amount/currency, track payments, get reminders. Perfect for families, churches, and groups in Nigeria."
+        title="How GroupFund Works - Simple Steps to Organize Birthday Contributions"
+        description="Learn how GroupFund works in 6 simple steps: create group, add members, set amount/currency, track payments, get reminders. Perfect for families, churches, and groups in Nigeria."
         keywords="how groupfund works, birthday contribution app, group payment tracking, how to organize birthday contributions, group wallet tutorial, Nigeria"
         canonical="https://groupfund.app/how-it-works"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">How GroupWallet Works</h1>
+          <h1 className="page-title">How GroupFund Works</h1>
           <p className="page-subtitle">
             Organizing group birthday contributions has never been easier. Follow these simple steps to get started.
           </p>
@@ -75,7 +75,7 @@ export default function HowItWorksPage() {
 
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
-            <p>Join hundreds of groups already using GroupWallet to organize their birthday contributions.</p>
+            <p>Join hundreds of groups already using GroupFund to organize their birthday contributions.</p>
             <a href="#download" className="btn btn-primary btn-large">Start Your Free Group</a>
           </div>
         </div>

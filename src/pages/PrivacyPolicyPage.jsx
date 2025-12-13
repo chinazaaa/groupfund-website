@@ -6,8 +6,8 @@ export default function PrivacyPolicyPage() {
   return (
     <>
       <SEO
-        title="Privacy Policy - GroupWallet"
-        description="Read GroupWallet's Privacy Policy to understand how we collect, use, and protect your personal information when using our birthday contribution app."
+        title="Privacy Policy - GroupFund"
+        description="Read GroupFund's Privacy Policy to understand how we collect, use, and protect your personal information when using our birthday contribution app."
         keywords="privacy policy, data protection, user privacy, groupfund privacy"
         canonical="https://groupfund.app/privacy"
       />
@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
             <div className="legal-section">
               <h2>1. Introduction</h2>
               <p>
-                GroupWallet ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services.
+                GroupFund ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
             <div className="legal-section">
               <h2>6. Payment Information</h2>
               <p>
-                <strong>Important:</strong> GroupWallet does not process payments directly. We do not store your bank account details, credit card information, or payment credentials. All payments are made directly between group members using their preferred payment methods. We only track payment statuses for organizational purposes.
+                <strong>Important:</strong> GroupFund does not process payments directly. We do not store your bank account details, credit card information, or payment credentials. All payments are made directly between group members using their preferred payment methods. We only track payment statuses for organizational purposes.
               </p>
             </div>
 

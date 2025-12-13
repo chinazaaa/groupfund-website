@@ -18,7 +18,7 @@ export default function AdminLayout({ children }) {
       {/* Sidebar */}
       <aside className="admin-sidebar">
         <div className="admin-sidebar-header">
-          <h2 className="admin-logo">GroupWallet</h2>
+          <h2 className="admin-logo">GroupFund</h2>
           <span className="admin-badge">Admin</span>
         </div>
         

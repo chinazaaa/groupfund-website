@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <div className="container">
           <div className="nav-content">
-            <Link to="/" className="logo" style={{ textDecoration: 'none' }}>GroupWallet</Link>
+            <Link to="/" className="logo" style={{ textDecoration: 'none' }}>GroupFund</Link>
             <div className="nav-links">
               <Link to="/how-it-works" className="nav-link">How It Works</Link>
               <Link to="/features" className="nav-link">Features</Link>
@@ -30,7 +30,7 @@ export default function Layout({ children }) {
         <div className="container">
           <div className="footer-content">
             <div className="footer-section">
-              <h3 className="footer-logo">GroupWallet</h3>
+              <h3 className="footer-logo">GroupFund</h3>
               <p className="footer-tagline">Organizing group contributions, one birthday at a time.</p>
             </div>
             <div className="footer-section">
@@ -59,7 +59,7 @@ export default function Layout({ children }) {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2025 GroupWallet. All rights reserved.</p>
+            <p>&copy; 2025 GroupFund. All rights reserved.</p>
           </div>
         </div>
       </footer>

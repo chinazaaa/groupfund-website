@@ -1,7 +1,7 @@
 {
   "name": "groupfund-website",
   "version": "1.0.0",
-  "description": "GroupWallet Landing Page",
+  "description": "GroupFund Landing Page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

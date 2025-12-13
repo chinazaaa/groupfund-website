@@ -1,6 +1,6 @@
-# GroupWallet Landing Page
+# GroupFund Landing Page
 
-A modern, SEO-optimized, and responsive landing page for GroupWallet built with React and Vite.
+A modern, SEO-optimized, and responsive landing page for GroupFund built with React and Vite.
 
 ## Features
 

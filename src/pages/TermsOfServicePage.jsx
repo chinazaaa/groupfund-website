@@ -6,8 +6,8 @@ export default function TermsOfServicePage() {
   return (
     <>
       <SEO
-        title="Terms of Service - GroupWallet"
-        description="Read GroupWallet's Terms of Service to understand the rules and guidelines for using our birthday contribution app and services."
+        title="Terms of Service - GroupFund"
+        description="Read GroupFund's Terms of Service to understand the rules and guidelines for using our birthday contribution app and services."
         keywords="terms of service, user agreement, terms and conditions, groupfund terms"
         canonical="https://groupfund.app/terms"
       />
@@ -27,14 +27,14 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>1. Acceptance of Terms</h2>
               <p>
-                By accessing or using GroupWallet ("the Service"), you agree to be bound by these Terms of Service ("Terms"). If you disagree with any part of these terms, you may not access the Service.
+                By accessing or using GroupFund ("the Service"), you agree to be bound by these Terms of Service ("Terms"). If you disagree with any part of these terms, you may not access the Service.
               </p>
             </div>
 
             <div className="legal-section">
               <h2>2. Description of Service</h2>
               <p>
-                GroupWallet is a mobile application that helps users organize and track group birthday contributions. The Service allows users to:
+                GroupFund is a mobile application that helps users organize and track group birthday contributions. The Service allows users to:
               </p>
               <ul>
                 <li>Create and manage groups</li>
@@ -44,7 +44,7 @@ export default function TermsOfServicePage() {
                 <li>View contribution history and calendars</li>
               </ul>
               <p>
-                <strong>Important:</strong> GroupWallet is a tracking and organization tool. We do not process, hold, or facilitate payments. All payments are made directly between group members using their preferred payment methods.
+                <strong>Important:</strong> GroupFund is a tracking and organization tool. We do not process, hold, or facilitate payments. All payments are made directly between group members using their preferred payment methods.
               </p>
             </div>
 
@@ -83,11 +83,11 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>5. Payment and Financial Transactions</h2>
               <p>
-                <strong>GroupWallet does not process payments.</strong> We are a tracking and organization tool only. All financial transactions occur directly between group members using their chosen payment methods (bank transfers, mobile money, etc.).
+                <strong>GroupFund does not process payments.</strong> We are a tracking and organization tool only. All financial transactions occur directly between group members using their chosen payment methods (bank transfers, mobile money, etc.).
               </p>
               <p>You acknowledge and agree that:</p>
               <ul>
-                <li>GroupWallet is not responsible for any payment disputes between group members</li>
+                <li>GroupFund is not responsible for any payment disputes between group members</li>
                 <li>We do not guarantee the accuracy of payment statuses reported by users</li>
                 <li>You are solely responsible for verifying payments before marking them as confirmed</li>
                 <li>We are not liable for any financial losses or disputes arising from group contributions</li>
@@ -97,7 +97,7 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>6. Intellectual Property</h2>
               <p>
-                The Service and its original content, features, and functionality are owned by GroupWallet and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+                The Service and its original content, features, and functionality are owned by GroupFund and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
               </p>
               <p>
                 You are granted a limited, non-exclusive, non-transferable license to access and use the Service for personal, non-commercial purposes in accordance with these Terms.
@@ -134,7 +134,7 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>10. Limitation of Liability</h2>
               <p>
-                To the maximum extent permitted by law, GroupWallet shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from:
+                To the maximum extent permitted by law, GroupFund shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from:
               </p>
               <ul>
                 <li>Your use or inability to use the Service</li>
@@ -148,7 +148,7 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>11. Indemnification</h2>
               <p>
-                You agree to defend, indemnify, and hold harmless GroupWallet and its officers, directors, employees, and agents from and against any claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from your use of the Service or violation of these Terms.
+                You agree to defend, indemnify, and hold harmless GroupFund and its officers, directors, employees, and agents from and against any claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from your use of the Service or violation of these Terms.
               </p>
             </div>
 

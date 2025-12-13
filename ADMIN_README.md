@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-A comprehensive admin interface for managing the GroupWallet application.
+A comprehensive admin interface for managing the GroupFund application.
 
 ## Features
 
