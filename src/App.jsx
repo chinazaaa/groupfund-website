@@ -9,10 +9,12 @@ import FAQPage from './pages/FAQPage'
 import FeaturesPage from './pages/FeaturesPage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
+import DownloadPage from './pages/DownloadPage'
 import ContactPage from './pages/ContactPage'
 import AboutPage from './pages/AboutPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsOfServicePage from './pages/TermsOfServicePage'
+import NotFoundPage from './pages/NotFoundPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -37,10 +39,14 @@ function App() {
         <Route path="/features" element={<Layout><FeaturesPage /></Layout>} />
         <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
         <Route path="/blog/:slug" element={<Layout><BlogPostPage /></Layout>} />
+        <Route path="/download" element={<Layout><DownloadPage /></Layout>} />
         <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
         <Route path="/about" element={<Layout><AboutPage /></Layout>} />
         <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
         <Route path="/terms" element={<Layout><TermsOfServicePage /></Layout>} />
+        
+        {/* 404 - Catch all unmatched routes */}
+        <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
         {/* Admin routes */}
         <Route path="/admin/login" element={<AdminLogin />} />

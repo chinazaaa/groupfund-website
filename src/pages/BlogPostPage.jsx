@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
@@ -624,6 +624,80 @@ export default function BlogPostPage() {
   const { slug } = useParams()
   const post = blogPostsData[slug]
 
+  // Convert date string to ISO format for structured data
+  const parseDate = (dateString) => {
+    // Convert "December 13, 2025" to "2025-12-13"
+    const months = {
+      'January': '01', 'February': '02', 'March': '03', 'April': '04',
+      'May': '05', 'June': '06', 'July': '07', 'August': '08',
+      'September': '09', 'October': '10', 'November': '11', 'December': '12'
+    }
+    const parts = dateString.split(' ')
+    if (parts.length === 3) {
+      const month = months[parts[0]]
+      const day = parts[1].replace(',', '').padStart(2, '0')
+      const year = parts[2]
+      return `${year}-${month}-${day}`
+    }
+    return new Date().toISOString().split('T')[0]
+  }
+
+  // Add Article structured data
+  useEffect(() => {
+    if (!post) return
+
+    const publishedDate = parseDate(post.date)
+    const articleStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": post.title,
+      "description": post.excerpt,
+      "image": "https://groupfund.app/og-image.jpg",
+      "datePublished": publishedDate,
+      "dateModified": publishedDate,
+      "author": {
+        "@type": "Organization",
+        "name": "GroupFund",
+        "url": "https://groupfund.app"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "GroupFund",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://groupfund.app/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": `https://groupfund.app/blog/${post.slug}`
+      },
+      "keywords": post.keywords,
+      "articleSection": "Group Contributions",
+      "wordCount": post.content.split(' ').length
+    }
+
+    // Remove existing article structured data if any
+    const existingScript = document.querySelector('script[data-article-schema]')
+    if (existingScript) {
+      existingScript.remove()
+    }
+
+    // Add new structured data
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-article-schema', 'true')
+    script.textContent = JSON.stringify(articleStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-article-schema]')
+      if (scriptToRemove) {
+        scriptToRemove.remove()
+      }
+    }
+  }, [post, slug])
+
   if (!post) {
     return <Navigate to="/blog" replace />
   }
@@ -635,6 +709,7 @@ export default function BlogPostPage() {
         description={post.excerpt}
         keywords={post.keywords}
         canonical={`https://groupfund.app/blog/${post.slug}`}
+        ogImage="https://groupfund.app/og-image.jpg"
       />
 
       <section className="page-hero">

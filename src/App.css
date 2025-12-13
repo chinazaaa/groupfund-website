@@ -1327,6 +1327,426 @@
   }
 }
 
+/* 404 Not Found Page */
+.not-found-page {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.not-found-title {
+  font-size: 8rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 24px;
+  line-height: 1;
+}
+
+.not-found-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.not-found-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.not-found-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.not-found-links {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.not-found-links h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.not-found-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.not-found-links li {
+  margin: 0;
+}
+
+.not-found-links a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.not-found-links a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .not-found-title {
+    font-size: 5rem;
+  }
+
+  .not-found-heading {
+    font-size: 2rem;
+  }
+
+  .not-found-actions {
+    flex-direction: column;
+  }
+
+  .not-found-actions .btn {
+    width: 100%;
+  }
+
+  .not-found-links ul {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  background: #f8f9fa;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.breadcrumb-link {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  color: #999;
+  margin: 0 8px;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-current {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs {
+    padding: 12px 0;
+  }
+
+  .breadcrumb-list {
+    font-size: 0.85rem;
+  }
+}
+
+/* Download Page */
+.download-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.download-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.download-features {
+  margin-bottom: 80px;
+}
+
+.download-features h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #1a1a1a;
+}
+
+.download-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.download-feature-card {
+  background: #f8f9fa;
+  padding: 32px;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.download-feature-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.download-feature-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.download-feature-card p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.download-cta-section {
+  text-align: center;
+  padding: 60px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+
+.download-cta-section h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.download-cta-section > p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download-alternative {
+  margin-top: 32px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.download-alternative a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-alternative a:hover {
+  text-decoration: underline;
+}
+
+.download-steps {
+  margin-bottom: 80px;
+}
+
+.download-steps h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #1a1a1a;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.step-card {
+  text-align: center;
+  padding: 32px;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.step-card:hover {
+  border-color: #667eea;
+  transform: translateY(-4px);
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.step-card p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.download-faq {
+  margin-bottom: 80px;
+}
+
+.download-faq h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #1a1a1a;
+}
+
+.download-faq .faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.download-faq .faq-item {
+  margin-bottom: 32px;
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.download-faq .faq-item h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.download-faq .faq-item p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.download-faq .faq-item a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-faq .faq-item a:hover {
+  text-decoration: underline;
+}
+
+.download-cta-box {
+  text-align: center;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 24px;
+  color: white;
+}
+
+.download-cta-box h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.download-cta-box p {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  opacity: 0.95;
+}
+
+.download-cta-box .cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .download-features-grid,
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .download-cta-section,
+  .download-cta-box {
+    padding: 40px 24px;
+  }
+
+  .download-cta-box .cta-buttons {
+    flex-direction: column;
+  }
+
+  .download-cta-box .cta-buttons .btn {
+    width: 100%;
+  }
+}
+
 /* Legal Pages (Privacy Policy, Terms of Service) */
 .legal-page {
   padding: 100px 0;

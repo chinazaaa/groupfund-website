@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Breadcrumbs from './Breadcrumbs'
 import './Layout.css'
 
 export default function Layout({ children }) {
@@ -21,6 +22,9 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
+
+      {/* Breadcrumbs */}
+      <Breadcrumbs />
 
       {/* Main Content */}
       <main>{children}</main>
