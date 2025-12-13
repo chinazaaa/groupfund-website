@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function HelpPage() {
   const [openSection, setOpenSection] = useState(null)
+  const [searchQuery, setSearchQuery] = useState('')
 
   const toggleSection = (index) => {
     setOpenSection(openSection === index ? null : index)
@@ -133,6 +134,49 @@ export default function HelpPage() {
     }
   ]
 
+  // Filter sections and topics based on search query
+  const filterSections = (sections, query) => {
+    if (!query.trim()) return sections
+
+    const lowerQuery = query.toLowerCase()
+    
+    return sections.map(section => {
+      const matchingTopics = section.topics.filter(topic => 
+        topic.question.toLowerCase().includes(lowerQuery) ||
+        topic.answer.toLowerCase().includes(lowerQuery) ||
+        section.title.toLowerCase().includes(lowerQuery)
+      )
+
+      if (matchingTopics.length > 0) {
+        return {
+          ...section,
+          topics: matchingTopics
+        }
+      }
+      return null
+    }).filter(Boolean)
+  }
+
+  const filteredSections = filterSections(helpSections, searchQuery)
+
+  // Auto-open sections when searching
+  useEffect(() => {
+    if (searchQuery.trim()) {
+      const filtered = filterSections(helpSections, searchQuery)
+      if (filtered.length > 0) {
+        // Open the first matching section
+        const firstMatchingIndex = helpSections.findIndex(section => 
+          filtered.some(filteredSection => filteredSection.title === section.title)
+        )
+        if (firstMatchingIndex !== -1) {
+          setOpenSection(firstMatchingIndex)
+        }
+      }
+    } else {
+      setOpenSection(null)
+    }
+  }, [searchQuery])
+
   return (
     <>
       <SEO
@@ -158,23 +202,44 @@ export default function HelpPage() {
               type="text" 
               placeholder="Search for help..." 
               className="help-search-input"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
+            {searchQuery && (
+              <button 
+                className="help-search-clear"
+                onClick={() => setSearchQuery('')}
+                aria-label="Clear search"
+              >
+                ×
+              </button>
+            )}
           </div>
 
+          {searchQuery && filteredSections.length === 0 && (
+            <div className="help-no-results">
+              <p>No results found for "{searchQuery}"</p>
+              <p>Try different keywords or <Link to="/contact">contact support</Link> for help.</p>
+            </div>
+          )}
+
           <div className="help-sections">
-            {helpSections.map((section, sectionIndex) => (
+            {filteredSections.map((section, sectionIndex) => {
+              // Find original index for opening/closing
+              const originalIndex = helpSections.findIndex(s => s.title === section.title)
+              return (
               <div key={sectionIndex} className="help-section">
                 <button
                   className="help-section-header"
-                  onClick={() => toggleSection(sectionIndex)}
+                  onClick={() => toggleSection(originalIndex)}
                 >
                   <span className="help-section-icon">{section.icon}</span>
                   <h2>{section.title}</h2>
                   <span className="help-section-toggle">
-                    {openSection === sectionIndex ? '−' : '+'}
+                    {openSection === originalIndex ? '−' : '+'}
                   </span>
                 </button>
-                {openSection === sectionIndex && (
+                {openSection === originalIndex && (
                   <div className="help-section-content">
                     {section.topics.map((topic, topicIndex) => (
                       <div key={topicIndex} className="help-topic">
@@ -185,7 +250,8 @@ export default function HelpPage() {
                   </div>
                 )}
               </div>
-            ))}
+              )
+            })}
           </div>
 
           <div className="help-cta">
