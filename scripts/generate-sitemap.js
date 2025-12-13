@@ -64,6 +64,24 @@ const pages = [
     changefreq: 'monthly',
     lastmod: currentDate
   },
+  {
+    url: '/help',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/sitemap',
+    priority: '0.5',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/thank-you',
+    priority: '0.3',
+    changefreq: 'yearly',
+    lastmod: currentDate
+  },
   // Add individual blog posts
   ...blogPosts.map(slug => ({
     url: `/blog/${slug}`,

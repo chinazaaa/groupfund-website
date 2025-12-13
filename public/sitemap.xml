@@ -46,6 +46,24 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://groupfund.app/help</loc>
+    <lastmod>2025-12-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://groupfund.app/sitemap</loc>
+    <lastmod>2025-12-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://groupfund.app/thank-you</loc>
+    <lastmod>2025-12-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://groupfund.app/blog/organize-birthday-contributions-without-stress</loc>
     <lastmod>2025-12-13</lastmod>
     <changefreq>monthly</changefreq>

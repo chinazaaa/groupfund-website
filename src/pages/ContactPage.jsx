@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ContactPage() {
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -44,9 +46,10 @@ export default function ContactPage() {
 
       setSubmitted(true)
       setFormData({ name: '', email: '', subject: '', message: '' })
+      // Redirect to thank you page after 1 second
       setTimeout(() => {
-        setSubmitted(false)
-      }, 5000)
+        navigate('/thank-you')
+      }, 1000)
     } catch (err) {
       setError(err.message || 'Failed to submit form. Please try again.')
     } finally {
