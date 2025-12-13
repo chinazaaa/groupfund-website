@@ -23,7 +23,7 @@ export default function TestimonialsPage() {
       author: "Mrs. Chidinma Okoro",
       role: "Class Parent Coordinator",
       location: "Port Harcourt, Nigeria",
-      group: "Class of 2024 Parents"
+      group: "Class of 2025 Parents"
     },
     {
       quote: "I was skeptical at first, but GroupFund has made our friend group's birthday contributions so much smoother. No more awkward conversations about who paid what.",

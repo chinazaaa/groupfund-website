@@ -8,7 +8,7 @@ export default function BlogPage() {
     {
       title: "How to Organize Birthday Contributions Without Stress",
       excerpt: "Learn proven strategies for organizing group birthday contributions. Discover how to set clear expectations, track payments, and maintain fairness without the WhatsApp chaos.",
-      date: "January 15, 2024",
+      date: "December 13, 2025",
       readTime: "5 min read",
       slug: "organize-birthday-contributions-without-stress",
       keywords: "organize birthday contributions, group payment organization, stress-free contributions"
@@ -16,7 +16,7 @@ export default function BlogPage() {
     {
       title: "Why WhatsApp Groups Fail at Tracking Group Payments",
       excerpt: "WhatsApp groups seem convenient, but they're terrible for tracking payments. Discover the common pitfalls and why dedicated tools like GroupFund are essential for organized contributions.",
-      date: "January 10, 2024",
+      date: "December 12, 2025",
       readTime: "6 min read",
       slug: "why-whatsapp-groups-fail-tracking-payments",
       keywords: "WhatsApp payment tracking, group payment problems, WhatsApp limitations"
@@ -24,7 +24,7 @@ export default function BlogPage() {
     {
       title: "The Best Ways to Collect Money for Events in Nigeria",
       excerpt: "Explore the most effective methods for collecting money for group events in Nigeria. From bank transfers to mobile money, learn what works best for different group sizes and contexts.",
-      date: "January 5, 2024",
+      date: "December 11, 2025",
       readTime: "7 min read",
       slug: "best-ways-collect-money-events-nigeria",
       keywords: "collect money Nigeria, group payments Nigeria, event contributions Nigeria"
@@ -32,7 +32,7 @@ export default function BlogPage() {
     {
       title: "GroupFund vs. Traditional Methods: A Comparison",
       excerpt: "Compare GroupFund with traditional methods like Excel spreadsheets, WhatsApp groups, and manual tracking. See why modern tools are essential for organized group contributions.",
-      date: "December 28, 2023",
+      date: "December 10, 2025",
       readTime: "8 min read",
       slug: "groupfund-vs-traditional-methods-comparison",
       keywords: "GroupFund comparison, traditional payment methods, group contribution tools"
@@ -40,7 +40,7 @@ export default function BlogPage() {
     {
       title: "5 Tips for Fair Birthday Contribution Management",
       excerpt: "Discover five essential tips for managing birthday contributions fairly. Learn how to set amounts, handle late payments, and maintain transparency in your group.",
-      date: "December 20, 2023",
+      date: "December 09, 2025",
       readTime: "5 min read",
       slug: "tips-fair-birthday-contribution-management",
       keywords: "fair contribution management, birthday payment tips, group fairness"
@@ -48,7 +48,7 @@ export default function BlogPage() {
     {
       title: "How Churches Can Streamline Member Birthday Contributions",
       excerpt: "Churches often struggle with organizing member contributions. Learn how GroupFund helps churches manage birthday contributions efficiently while maintaining transparency and fairness.",
-      date: "December 15, 2023",
+      date: "December 08, 2025",
       readTime: "6 min read",
       slug: "churches-streamline-member-birthday-contributions",
       keywords: "church contributions, member birthday contributions, church organization"

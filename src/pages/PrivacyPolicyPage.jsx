@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
         <div className="container">
           <h1 className="page-title">Privacy Policy</h1>
           <p className="page-subtitle">
-            Last updated: January 2024
+            Last updated: December 2025
           </p>
         </div>
       </section>

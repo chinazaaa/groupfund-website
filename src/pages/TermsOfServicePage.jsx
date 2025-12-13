@@ -16,7 +16,7 @@ export default function TermsOfServicePage() {
         <div className="container">
           <h1 className="page-title">Terms of Service</h1>
           <p className="page-subtitle">
-            Last updated: January 2024
+            Last updated:  December 2025
           </p>
         </div>
       </section>

@@ -17,7 +17,7 @@ A comprehensive admin interface for managing the GroupFund application.
 
    Create a `.env` file in the `website` directory:
    ```env
-   VITE_API_URL=http://localhost:3000/api
+   VITE_API_URL=https://groupfund-backend.onrender.com/api
    ```
 
 2. **Start the Development Server**
