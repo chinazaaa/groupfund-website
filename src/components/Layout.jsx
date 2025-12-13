@@ -9,7 +9,9 @@ export default function Layout({ children }) {
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <div className="container">
           <div className="nav-content">
-            <Link to="/" className="logo" style={{ textDecoration: 'none' }}>GroupFund</Link>
+            <Link to="/" className="logo" style={{ textDecoration: 'none' }}>
+              <img src="/logo.png" alt="GroupFund" className="logo-img" />
+            </Link>
             <div className="nav-links">
               <Link to="/how-it-works" className="nav-link">How It Works</Link>
               <Link to="/features" className="nav-link">Features</Link>
@@ -42,6 +44,7 @@ export default function Layout({ children }) {
               <ul className="footer-links">
                 <li><Link to="/how-it-works">How It Works</Link></li>
                 <li><Link to="/features">Features</Link></li>
+                <li><Link to="/download">Download</Link></li>
                 <li><Link to="/faq">FAQ</Link></li>
               </ul>
             </div>

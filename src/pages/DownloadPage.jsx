@@ -1,15 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
+import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
 export default function DownloadPage() {
-  // Replace these with actual app store URLs when available
-  const appStoreUrl = "#" // iOS App Store URL
-  const playStoreUrl = "#" // Google Play Store URL
+  const [modalOpen, setModalOpen] = useState(false)
+  const [storeName, setStoreName] = useState('')
+
+  const handleAppStoreClick = (e, name) => {
+    e.preventDefault()
+    setStoreName(name)
+    setModalOpen(true)
+  }
 
   return (
     <>
+      <ComingSoonModal 
+        isOpen={modalOpen} 
+        onClose={() => setModalOpen(false)} 
+        storeName={storeName}
+      />
       <SEO
         title="Download GroupFund App - iOS & Android | GroupFund"
         description="Download GroupFund app for iOS and Android. Organize group birthday contributions effortlessly. Track payments, set reminders, manage multiple groups. Free to start."
@@ -71,10 +82,11 @@ export default function DownloadPage() {
               
               <div className="app-store-badges">
                 <a 
-                  href={appStoreUrl}
+                  href="#"
                   className="app-badge" 
                   aria-label="Download GroupFund on the App Store"
                   rel="noopener noreferrer"
+                  onClick={(e) => handleAppStoreClick(e, 'the App Store')}
                 >
                   <img 
                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000&type=ios10" 
@@ -85,10 +97,11 @@ export default function DownloadPage() {
                   />
                 </a>
                 <a 
-                  href={playStoreUrl}
+                  href="#"
                   className="app-badge" 
                   aria-label="Get GroupFund on Google Play"
                   rel="noopener noreferrer"
+                  onClick={(e) => handleAppStoreClick(e, 'Google Play')}
                 >
                   <img 
                     src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 

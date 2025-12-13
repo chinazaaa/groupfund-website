@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
+import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
 export default function FeaturesPage() {
+  const [modalOpen, setModalOpen] = useState(false)
+  const [storeName, setStoreName] = useState('')
+
+  const handleAppStoreClick = (e, name) => {
+    e.preventDefault()
+    setStoreName(name)
+    setModalOpen(true)
+  }
+
   const features = [
     {
       title: "Multi-Currency Support",
@@ -54,6 +64,11 @@ export default function FeaturesPage() {
 
   return (
     <>
+      <ComingSoonModal 
+        isOpen={modalOpen} 
+        onClose={() => setModalOpen(false)} 
+        storeName={storeName}
+      />
       <SEO
         title="GroupFund Features - Multi-Currency, Reminders, Payment Tracking & More"
         description="Discover GroupFund's powerful features: multi-currency support, automatic reminders, real-time payment tracking, fixed amounts, max group size, and more. Perfect for organizing birthday contributions."
@@ -95,6 +110,7 @@ export default function FeaturesPage() {
                 className="app-badge" 
                 aria-label="Download GroupFund on the App Store"
                 rel="noopener noreferrer"
+                onClick={(e) => handleAppStoreClick(e, 'the App Store')}
               >
                 <img 
                   src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000&type=ios10" 
@@ -109,6 +125,7 @@ export default function FeaturesPage() {
                 className="app-badge" 
                 aria-label="Get GroupFund on Google Play"
                 rel="noopener noreferrer"
+                onClick={(e) => handleAppStoreClick(e, 'Google Play')}
               >
                 <img 
                   src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
