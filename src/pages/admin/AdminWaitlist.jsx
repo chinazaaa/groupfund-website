@@ -11,6 +11,7 @@ export default function AdminWaitlist() {
   const [filters, setFilters] = useState({ groupType: '', search: '' })
   const [selectedEntry, setSelectedEntry] = useState(null)
   const [showModal, setShowModal] = useState(false)
+  const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, entryId: null })
 
   useEffect(() => {
     loadEntries()
@@ -37,16 +38,21 @@ export default function AdminWaitlist() {
   }
 
   const handleDelete = async (id) => {
-    if (!confirm('Are you sure you want to delete this waitlist entry?')) {
-      return
-    }
-    try {
-      await adminApi.deleteWaitlistEntry(id)
-      loadEntries()
-      alert('Waitlist entry deleted successfully')
-    } catch (err) {
-      alert('Error deleting entry: ' + err.message)
-    }
+    setConfirmModal({
+      show: true,
+      message: 'Are you sure you want to delete this waitlist entry?',
+      entryId: id,
+      onConfirm: async () => {
+        try {
+          await adminApi.deleteWaitlistEntry(id)
+          setConfirmModal({ show: false, message: '', onConfirm: null, entryId: null })
+          loadEntries()
+          alert('Waitlist entry deleted successfully')
+        } catch (err) {
+          alert('Error deleting entry: ' + err.message)
+        }
+      }
+    })
   }
 
   const handleViewEntry = (entry) => {
@@ -280,7 +286,43 @@ export default function AdminWaitlist() {
             </div>
           </div>
         )}
+
+        {/* Confirmation Modal */}
+        {confirmModal.show && (
+          <ConfirmModal
+            message={confirmModal.message}
+            onConfirm={confirmModal.onConfirm}
+            onCancel={() => setConfirmModal({ show: false, message: '', onConfirm: null, entryId: null })}
+            action="delete"
+          />
+        )}
       </div>
     </AdminLayout>
+  )
+}
+
+function ConfirmModal({ message, onConfirm, onCancel, action }) {
+  return (
+    <div className="admin-modal-overlay" onClick={onCancel}>
+      <div className="admin-confirm-modal" onClick={(e) => e.stopPropagation()}>
+        <div className="admin-confirm-header">
+          <h3>Confirm Action</h3>
+        </div>
+        <div className="admin-confirm-body">
+          <p>{message}</p>
+        </div>
+        <div className="admin-confirm-footer">
+          <button onClick={onCancel} className="btn btn-secondary">
+            Cancel
+          </button>
+          <button 
+            onClick={onConfirm} 
+            className={`btn ${action === 'delete' ? 'btn-danger' : 'btn-primary'}`}
+          >
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }
