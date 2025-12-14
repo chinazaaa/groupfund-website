@@ -179,21 +179,22 @@ export default function AdminUsers() {
                       <td>{user.group_count || 0}</td>
                       <td>{formatDate(user.created_at)}</td>
                       <td>
-                        <button
-                          onClick={() => handleUserClick(user.id)}
-                          className="btn-sm btn-primary"
-                          style={{ marginRight: '8px' }}
-                        >
-                          View
-                        </button>
-                        {!user.is_admin && (
+                        <div className="admin-actions">
                           <button
-                            onClick={() => handleDeactivateUser(user.id, user.is_active !== false)}
-                            className={`btn-sm ${user.is_active !== false ? 'btn-danger' : 'btn-primary'}`}
+                            onClick={() => handleUserClick(user.id)}
+                            className="btn btn-small btn-secondary"
                           >
-                            {user.is_active !== false ? 'Deactivate' : 'Activate'}
+                            View
                           </button>
-                        )}
+                          {!user.is_admin && (
+                            <button
+                              onClick={() => handleDeactivateUser(user.id, user.is_active !== false)}
+                              className={`btn btn-small ${user.is_active !== false ? 'btn-danger' : 'btn-primary'}`}
+                            >
+                              {user.is_active !== false ? 'Deactivate' : 'Activate'}
+                            </button>
+                          )}
+                        </div>
                       </td>
                     </tr>
                   ))}
