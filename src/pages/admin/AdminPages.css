@@ -503,7 +503,16 @@
 /* Responsive */
 @media (max-width: 768px) {
   .admin-page {
-    padding: 20px;
+    padding: 16px;
+    margin-top: 64px;
+  }
+
+  .admin-page-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .admin-page-header p {
+    font-size: 0.9rem;
   }
 
   .admin-page-header-content {
@@ -513,15 +522,36 @@
 
   .header-actions {
     margin-top: 16px;
+    flex-wrap: wrap;
   }
 
   .header-actions .btn-sm {
-    flex: 1;
+    flex: 1 1 auto;
     min-width: 0;
+    font-size: 0.85rem;
+    padding: 8px 12px;
   }
 
   .stats-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .stat-card {
+    padding: 16px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stat-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+
+  .stat-value {
+    font-size: 2rem;
   }
 
   .stat-card.large {
@@ -530,6 +560,11 @@
 
   .admin-filters {
     flex-direction: column;
+    gap: 12px;
+  }
+
+  .admin-search-input {
+    min-width: 0;
   }
 
   .admin-search-input,
@@ -538,12 +573,39 @@
   }
 
   .admin-table-container {
-    overflow-x: scroll;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .admin-table {
+    font-size: 0.85rem;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 12px 8px;
+    white-space: nowrap;
+  }
+
+  .admin-pagination {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .admin-pagination button {
+    width: 100%;
   }
 
   .modal-content {
     max-width: 100%;
-    margin: 20px;
+    margin: 10px;
+    max-height: 95vh;
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: 16px;
   }
 
   .modal-footer {
@@ -552,6 +614,16 @@
 
   .modal-footer .btn {
     width: 100%;
+  }
+
+  .notification-message,
+  .message-preview {
+    max-width: 200px;
+  }
+
+  .action-message {
+    font-size: 0.85rem;
+    padding: 10px 12px;
   }
 }
 

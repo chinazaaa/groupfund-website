@@ -1,9 +1,11 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 import './AdminLayout.css'
 
 export default function AdminLayout({ children }) {
   const location = useLocation()
   const navigate = useNavigate()
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const handleLogout = () => {
     localStorage.removeItem('adminToken')
@@ -13,19 +15,43 @@ export default function AdminLayout({ children }) {
 
   const isActive = (path) => location.pathname === path
 
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen)
+  }
+
+  const closeSidebar = () => {
+    setSidebarOpen(false)
+  }
+
   return (
     <div className="admin-layout">
+      {/* Mobile Menu Toggle */}
+      <button className="admin-mobile-menu-toggle" onClick={toggleSidebar}>
+        <span>☰</span>
+      </button>
+
+      {/* Mobile Overlay */}
+      {sidebarOpen && (
+        <div className="admin-sidebar-overlay" onClick={closeSidebar}></div>
+      )}
+
       {/* Sidebar */}
-      <aside className="admin-sidebar">
+      <aside className={`admin-sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="admin-sidebar-header">
           <h2 className="admin-logo">GroupFund</h2>
-          <span className="admin-badge">Admin</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span className="admin-badge">Admin</span>
+            <button className="admin-sidebar-close" onClick={closeSidebar}>
+              ✕
+            </button>
+          </div>
         </div>
         
         <nav className="admin-nav">
           <Link 
             to="/admin" 
             className={`admin-nav-item ${isActive('/admin') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">📊</span>
             <span>Dashboard</span>
@@ -34,6 +60,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/users" 
             className={`admin-nav-item ${isActive('/admin/users') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">👥</span>
             <span>Users</span>
@@ -42,6 +69,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/groups" 
             className={`admin-nav-item ${isActive('/admin/groups') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">👨‍👩‍👧‍👦</span>
             <span>Groups</span>
@@ -50,6 +78,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/contributions" 
             className={`admin-nav-item ${isActive('/admin/contributions') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">🎁</span>
             <span>Contributions</span>
@@ -58,6 +87,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/birthdays" 
             className={`admin-nav-item ${isActive('/admin/birthdays') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">🎂</span>
             <span>Today's Birthdays</span>
@@ -66,6 +96,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/contact-submissions" 
             className={`admin-nav-item ${isActive('/admin/contact-submissions') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">📧</span>
             <span>Contact Submissions</span>
@@ -74,6 +105,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/waitlist" 
             className={`admin-nav-item ${isActive('/admin/waitlist') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">📋</span>
             <span>Waitlist</span>
@@ -82,6 +114,7 @@ export default function AdminLayout({ children }) {
           <Link 
             to="/admin/notifications" 
             className={`admin-nav-item ${isActive('/admin/notifications') ? 'active' : ''}`}
+            onClick={closeSidebar}
           >
             <span className="nav-icon">🔔</span>
             <span>Notifications</span>
