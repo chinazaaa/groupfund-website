@@ -27,16 +27,16 @@ export default function ComingSoonFeaturesPage() {
       statusColor: "purple"
     },
     {
-      title: "Recurring Contributions",
-      description: "Set up automatic recurring contributions for members who want to contribute monthly or quarterly. Simplify long-term group management.",
-      icon: "🔄",
+      title: "Multi-Event Support",
+      description: "Expand beyond birthdays to support other group events like weddings, graduations, anniversaries, and special occasions.",
+      icon: "🎉",
       status: "Planned",
       statusColor: "purple"
     },
     {
-      title: "Multi-Event Support",
-      description: "Expand beyond birthdays to support other group events like weddings, graduations, anniversaries, and special occasions.",
-      icon: "🎉",
+      title: "Recurring Contributions",
+      description: "Set up automatic recurring contributions for members who want to contribute monthly or quarterly. Simplify long-term group management.",
+      icon: "🔄",
       status: "Planned",
       statusColor: "purple"
     },
