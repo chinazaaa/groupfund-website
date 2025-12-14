@@ -129,6 +129,14 @@ export default function HelpPage() {
         {
           question: "How do I contact support?",
           answer: "You can reach out to us through the contact form on our website, and we'll get back to you within 24 hours. We're here to help!"
+        },
+        {
+          question: "How do I delete my account?",
+          answer: (
+            <p>
+              You can delete your account at any time by logging into the app and accessing the account deletion option in your settings. This will permanently delete your account and all associated data. For detailed instructions, visit our <Link to="/delete-account">Delete Account page</Link>.
+            </p>
+          )
         }
       ]
     }
@@ -244,7 +252,7 @@ export default function HelpPage() {
                     {section.topics.map((topic, topicIndex) => (
                       <div key={topicIndex} className="help-topic">
                         <h3>{topic.question}</h3>
-                        <p>{topic.answer}</p>
+                        <div>{typeof topic.answer === 'string' ? <p>{topic.answer}</p> : topic.answer}</div>
                       </div>
                     ))}
                   </div>

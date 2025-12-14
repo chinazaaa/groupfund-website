@@ -99,7 +99,8 @@ export default function PrivacyPolicyPage() {
                 <li>Opt-out of certain communications</li>
                 <li>Export your data</li>
               </ul>
-              <p>To exercise these rights, please contact us at support@groupfund.app</p>
+              <p><strong>Deleting Your Account:</strong> You can delete your account at any time by logging into the app and accessing the account deletion option in your settings. This will permanently delete your account and associated data. For more information, visit our <a href="/delete-account">Delete Account page</a>.</p>
+              <p>To exercise other rights or if you need assistance, please contact us at support@groupfund.app</p>
             </div>
 
             <div className="legal-section">

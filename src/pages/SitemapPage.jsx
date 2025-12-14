@@ -34,7 +34,8 @@ export default function SitemapPage() {
       category: "Legal",
       links: [
         { path: "/privacy", label: "Privacy Policy" },
-        { path: "/terms", label: "Terms of Service" }
+        { path: "/terms", label: "Terms of Service" },
+        { path: "/delete-account", label: "Delete Account" }
       ]
     },
     {

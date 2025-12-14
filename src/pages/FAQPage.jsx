@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
@@ -45,6 +46,14 @@ export default function FAQPage() {
     {
       question: "What if I need help or have questions?",
       answer: "We're here to help! You can reach out to our support team through the Contact page. We typically respond within 24 hours and are happy to assist with any questions or issues you might have."
+    },
+    {
+      question: "How do I delete my account?",
+      answer: (
+        <>
+          You can delete your account at any time by logging into the app and accessing the account deletion option in your settings. This will permanently delete your account and all associated data. For detailed instructions, visit our <Link to="/delete-account">Delete Account page</Link>.
+        </>
+      )
     }
   ]
 
