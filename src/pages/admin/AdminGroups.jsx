@@ -13,6 +13,7 @@ export default function AdminGroups() {
   const [members, setMembers] = useState([])
   const [loadingMembers, setLoadingMembers] = useState(false)
   const [showMembersModal, setShowMembersModal] = useState(false)
+  const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, group: null })
 
   useEffect(() => {
     loadGroups()
@@ -61,6 +62,26 @@ export default function AdminGroups() {
     setMembers([])
   }
 
+  const handleCloseGroup = (group) => {
+    setConfirmModal({
+      show: true,
+      message: `Are you sure you want to close the group "${group.name}"? This action cannot be undone.`,
+      onConfirm: async () => {
+        try {
+          await adminApi.closeGroup(group.id)
+          // Reload groups to reflect the updated status
+          await loadGroups()
+          setError(null)
+          setConfirmModal({ show: false, message: '', onConfirm: null, group: null })
+        } catch (err) {
+          setError(err.message || 'Failed to close group')
+          setConfirmModal({ show: false, message: '', onConfirm: null, group: null })
+        }
+      },
+      group: group
+    })
+  }
+
   return (
     <AdminLayout>
       <div className="admin-page">
@@ -104,6 +125,7 @@ export default function AdminGroups() {
                     <th>Contribution</th>
                     <th>Currency</th>
                     <th>Members</th>
+                    <th>Status</th>
                     <th>Admin</th>
                     <th>Created</th>
                     <th>Actions</th>
@@ -126,16 +148,34 @@ export default function AdminGroups() {
                           </span>
                         )}
                       </td>
+                      <td>
+                        <span className={`badge ${
+                          group.status === 'closed' ? 'badge-danger' :
+                          group.status === 'active' ? 'badge-success' :
+                          'badge-info'
+                        }`}>
+                          {group.status || 'active'}
+                        </span>
+                      </td>
                       <td>{group.admin_name} ({group.admin_email})</td>
                       <td>{formatDate(group.created_at)}</td>
                       <td>
-                        <button
-                          onClick={() => handleViewMembers(group)}
-                          className="btn-sm btn-primary"
-                          style={{ marginRight: '8px' }}
-                        >
-                          View Members
-                        </button>
+                        <div className="admin-actions">
+                          <button
+                            onClick={() => handleViewMembers(group)}
+                            className="btn-sm btn-primary"
+                          >
+                            View Members
+                          </button>
+                          {group.status !== 'closed' && (
+                            <button
+                              onClick={() => handleCloseGroup(group)}
+                              className="btn-sm btn-danger"
+                            >
+                              Close Group
+                            </button>
+                          )}
+                        </div>
                       </td>
                     </tr>
                   ))}
@@ -239,8 +279,44 @@ export default function AdminGroups() {
             </div>
           </div>
         )}
+
+        {/* Confirmation Modal */}
+        {confirmModal.show && (
+          <ConfirmModal
+            message={confirmModal.message}
+            onConfirm={confirmModal.onConfirm}
+            onCancel={() => setConfirmModal({ show: false, message: '', onConfirm: null, group: null })}
+            action="close"
+          />
+        )}
       </div>
     </AdminLayout>
+  )
+}
+
+function ConfirmModal({ message, onConfirm, onCancel, action }) {
+  return (
+    <div className="admin-modal-overlay" onClick={onCancel}>
+      <div className="admin-confirm-modal" onClick={(e) => e.stopPropagation()}>
+        <div className="admin-confirm-header">
+          <h3>Confirm Action</h3>
+        </div>
+        <div className="admin-confirm-body">
+          <p>{message}</p>
+        </div>
+        <div className="admin-confirm-footer">
+          <button onClick={onCancel} className="btn btn-secondary">
+            Cancel
+          </button>
+          <button 
+            onClick={onConfirm} 
+            className={`btn ${action === 'close' ? 'btn-danger' : 'btn-primary'}`}
+          >
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }
 

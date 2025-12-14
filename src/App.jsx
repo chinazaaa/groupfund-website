@@ -7,6 +7,7 @@ import HowItWorksPage from './pages/HowItWorksPage'
 import TestimonialsPage from './pages/TestimonialsPage'
 import FAQPage from './pages/FAQPage'
 import FeaturesPage from './pages/FeaturesPage'
+import ComingSoonFeaturesPage from './pages/ComingSoonFeaturesPage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 import DownloadPage from './pages/DownloadPage'
@@ -50,6 +51,7 @@ function App() {
         <Route path="/testimonials" element={<Layout><TestimonialsPage /></Layout>} />
         <Route path="/faq" element={<Layout><FAQPage /></Layout>} />
         <Route path="/features" element={<Layout><FeaturesPage /></Layout>} />
+        <Route path="/coming-soon-features" element={<Layout><ComingSoonFeaturesPage /></Layout>} />
         <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
         <Route path="/blog/:slug" element={<Layout><BlogPostPage /></Layout>} />
         <Route path="/download" element={<Layout><DownloadPage /></Layout>} />

@@ -73,9 +73,16 @@ export default function AdminBirthdays() {
               </div>
             ) : (
               <>
+                <div className="admin-stats">
+                  <div className="stat-card">
+                    <span className="stat-label">Total Birthdays</span>
+                    <span className="stat-value">{pagination.total || birthdays.length}</span>
+                  </div>
+                </div>
+
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '15px', marginBottom: '20px' }}>
                   <div className="admin-stats-card" style={{ padding: '15px' }}>
-                    <strong>Total Birthdays: {pagination.total}</strong>
+                    <strong>Total Birthdays: {pagination.total || birthdays.length}</strong>
                   </div>
                   <div className="admin-stats-card" style={{ padding: '15px' }}>
                     <strong>📱 In-App Sent: {birthdays.filter(u => u.notifications?.in_app_sent).length} / {birthdays.length}</strong>

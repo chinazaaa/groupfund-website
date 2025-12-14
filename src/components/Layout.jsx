@@ -45,6 +45,7 @@ export default function Layout({ children }) {
               <ul className="footer-links">
                 <li><Link to="/how-it-works">How It Works</Link></li>
                 <li><Link to="/features">Features</Link></li>
+                <li><Link to="/coming-soon-features">Coming Soon</Link></li>
                 <li><Link to="/download">Download</Link></li>
                 <li><Link to="/faq">FAQ</Link></li>
               </ul>

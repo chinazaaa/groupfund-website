@@ -959,6 +959,69 @@
   color: #0f172a;
 }
 
+/* Pipeline/Coming Soon Features Page */
+.pipeline-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.pipeline-intro {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pipeline-description {
+  font-size: 1.125rem;
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.pipeline-feature-card {
+  position: relative;
+}
+
+.feature-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  margin-left: auto;
+}
+
+.status-badge-blue {
+  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  color: white;
+}
+
+.status-badge-purple {
+  background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+  color: white;
+}
+
+.status-badge-green {
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+  color: white;
+}
+
+.status-badge-orange {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  color: white;
+}
+
 /* Blog Page */
 .blog-page {
   padding: 100px 0;
@@ -1339,6 +1402,20 @@
 
   .values-grid {
     grid-template-columns: 1fr;
+  }
+
+  .feature-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .status-badge {
+    margin-left: 0;
+  }
+
+  .pipeline-description {
+    font-size: 1rem;
   }
 
   .cta-buttons {

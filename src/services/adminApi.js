@@ -69,6 +69,12 @@ export const adminApi = {
     return apiRequest(`/admin/groups/${groupId}/members`);
   },
 
+  closeGroup: (groupId) => {
+    return apiRequest(`/admin/groups/${groupId}/close`, {
+      method: 'PUT',
+    });
+  },
+
   // Transactions
   getTransactions: (params = {}) => {
     const queryString = new URLSearchParams(params).toString();

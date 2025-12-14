@@ -104,6 +104,11 @@ export default function FeaturesPage() {
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               <Link to="/download" className="btn btn-primary btn-large">Download App</Link>
             </div>
+            <p style={{ marginTop: '24px', fontSize: '0.95rem', color: '#64748b' }}>
+              <Link to="/coming-soon-features" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: '500' }}>
+                View upcoming features in our pipeline →
+              </Link>
+            </p>
             <div className="app-store-badges">
               <a 
                 href="#" 
