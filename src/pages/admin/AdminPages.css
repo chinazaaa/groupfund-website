@@ -280,6 +280,10 @@
   background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
 }
 
+.stat-icon.birthdays {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ffa500 100%);
+}
+
 .stat-icon.wallet {
   background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
 }

@@ -5,11 +5,13 @@ import './AdminPages.css'
 
 export default function AdminDashboard() {
   const [stats, setStats] = useState(null)
+  const [todayBirthdays, setTodayBirthdays] = useState(0)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   useEffect(() => {
     loadStats()
+    loadTodayBirthdays()
   }, [])
 
   const loadStats = async () => {
@@ -22,6 +24,16 @@ export default function AdminDashboard() {
       setError(err.message)
     } finally {
       setLoading(false)
+    }
+  }
+
+  const loadTodayBirthdays = async () => {
+    try {
+      const data = await adminApi.getTodayBirthdays({ limit: 1 })
+      setTodayBirthdays(data.pagination?.total || 0)
+    } catch (err) {
+      // Silently fail for birthdays - don't break the dashboard
+      console.error('Failed to load today\'s birthdays:', err)
     }
   }
 
@@ -102,6 +114,20 @@ export default function AdminDashboard() {
                 </span>
                 <span className="stat-detail-item highlight">
                   ✓ Confirmed: {stats?.contributions?.confirmed || 0}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Today's Birthdays Stats */}
+          <div className="stat-card">
+            <div className="stat-icon birthdays">🎂</div>
+            <div className="stat-content">
+              <h3>Today's Birthday</h3>
+              <div className="stat-value">{todayBirthdays}</div>
+              <div className="stat-details">
+                <span className="stat-detail-item highlight">
+                  🎉 Celebrating Today
                 </span>
               </div>
             </div>
