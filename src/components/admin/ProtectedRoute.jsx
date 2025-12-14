@@ -59,7 +59,7 @@ export default function ProtectedRoute({ children }) {
         alignItems: 'center', 
         height: '100vh',
         fontSize: '1.1rem',
-        color: '#666'
+        color: '#64748b'
       }}>
         Loading...
       </div>

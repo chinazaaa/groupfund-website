@@ -119,11 +119,11 @@ export default function ContactPage() {
               {error && (
                 <div style={{ 
                   padding: '12px 16px', 
-                  background: '#fff5f5', 
-                  color: '#ff6b6b', 
+                  background: 'rgba(239, 68, 68, 0.1)', 
+                  color: '#ef4444', 
                   borderRadius: '8px', 
                   marginBottom: '20px',
-                  border: '1px solid #ffcccc'
+                  border: '1px solid rgba(239, 68, 68, 0.2)'
                 }}>
                   {error}
                 </div>

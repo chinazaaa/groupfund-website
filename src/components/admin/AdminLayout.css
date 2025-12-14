@@ -1,13 +1,13 @@
 .admin-layout {
   display: flex;
   min-height: 100vh;
-  background: #f5f7fa;
+  background: #f8fafc;
 }
 
 /* Sidebar */
 .admin-sidebar {
   width: 260px;
-  background: #1a1a1a;
+  background: #1e293b;
   color: white;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
 
 .admin-sidebar-header {
   padding: 24px 20px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgba(30, 41, 59, 0.3);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +30,7 @@
 .admin-logo {
   font-size: 1.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -38,7 +38,7 @@
 }
 
 .admin-badge {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
   color: white;
   padding: 4px 12px;
   border-radius: 12px;
@@ -70,9 +70,9 @@
 }
 
 .admin-nav-item.active {
-  background: rgba(102, 126, 234, 0.15);
+  background: rgba(99, 102, 241, 0.15);
   color: white;
-  border-left-color: #667eea;
+  border-left-color: #6366f1;
 }
 
 .nav-icon {
@@ -83,7 +83,7 @@
 
 .admin-sidebar-footer {
   padding: 20px;
-  border-top: 1px solid #333;
+  border-top: 1px solid rgba(30, 41, 59, 0.3);
 }
 
 .admin-logout-btn {
@@ -93,7 +93,7 @@
   gap: 12px;
   padding: 14px 20px;
   background: rgba(255, 255, 255, 0.05);
-  color: #ff6b6b;
+  color: #ef4444;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -104,8 +104,8 @@
 }
 
 .admin-logout-btn:hover {
-  background: rgba(255, 107, 107, 0.1);
-  color: #ff5252;
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
 }
 
 /* Main Content */
