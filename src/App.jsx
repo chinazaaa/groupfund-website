@@ -12,6 +12,7 @@ import BlogPostPage from './pages/BlogPostPage'
 import DownloadPage from './pages/DownloadPage'
 import ContactPage from './pages/ContactPage'
 import AboutPage from './pages/AboutPage'
+import BrandingPage from './pages/BrandingPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsOfServicePage from './pages/TermsOfServicePage'
 import ThankYouPage from './pages/ThankYouPage'
@@ -49,6 +50,7 @@ function App() {
         <Route path="/download" element={<Layout><DownloadPage /></Layout>} />
         <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
         <Route path="/about" element={<Layout><AboutPage /></Layout>} />
+        <Route path="/branding" element={<Layout><BrandingPage /></Layout>} />
         <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
         <Route path="/terms" element={<Layout><TermsOfServicePage /></Layout>} />
         <Route path="/thank-you" element={<Layout><ThankYouPage /></Layout>} />

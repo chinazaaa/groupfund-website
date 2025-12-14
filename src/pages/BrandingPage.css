@@ -1,0 +1,243 @@
+.branding-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.branding-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.branding-section {
+  margin-bottom: 80px;
+}
+
+.branding-section:last-child {
+  margin-bottom: 0;
+}
+
+.branding-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+/* Color Grid */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.color-card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.color-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.2);
+}
+
+.color-swatch {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.color-hex {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  backdrop-filter: blur(10px);
+}
+
+.color-info {
+  padding: 24px;
+}
+
+.color-info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.color-info p {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Usage Examples */
+.usage-examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.example-card {
+  background: #f8fafc;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.example-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.button-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.status-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Color Combinations */
+.combination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.combination-card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.combination-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.1);
+}
+
+.combination-preview {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.combination-note {
+  font-size: 0.9rem;
+  color: #10b981;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.combination-note::before {
+  content: '✓';
+  font-size: 1.2rem;
+}
+
+/* Guidelines */
+.guidelines-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.guideline-item {
+  background: #f8fafc;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.guideline-item h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.guideline-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guideline-item li {
+  font-size: 1rem;
+  color: #1e293b;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.guideline-item li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.guideline-item li:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .branding-section h2 {
+    font-size: 2rem;
+  }
+
+  .color-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .usage-examples {
+    grid-template-columns: 1fr;
+  }
+
+  .combination-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guidelines-list {
+    grid-template-columns: 1fr;
+  }
+}
