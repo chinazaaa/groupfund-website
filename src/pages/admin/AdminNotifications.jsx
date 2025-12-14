@@ -60,6 +60,7 @@ export default function AdminNotifications() {
             <option value="contribution_confirmed">Contribution Confirmed</option>
             <option value="birthday_reminder">Birthday Reminder</option>
             <option value="birthday_wish">Birthday Wish</option>
+            <option value="monthly_newsletter">Monthly Newsletter</option>
           </select>
           <select
             value={filters.is_read}
@@ -165,6 +166,7 @@ function formatNotificationType(type) {
     'contribution_confirmed': 'Contribution Confirmed',
     'birthday_reminder': 'Birthday Reminder',
     'birthday_wish': 'Birthday Wish',
+    'monthly_newsletter': 'Monthly Newsletter',
   }
   return typeMap[type] || type
 }
