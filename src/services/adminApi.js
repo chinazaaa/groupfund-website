@@ -134,19 +134,19 @@ export const adminApi = {
   },
 
   triggerReminders: () => {
-    return apiRequest('/birthdays/trigger-reminders', {
+    return apiRequest('/admin/birthdays/trigger-reminders', {
       method: 'POST',
     });
   },
 
   triggerBirthdayWishes: () => {
-    return apiRequest('/birthdays/trigger-birthday-wishes', {
+    return apiRequest('/admin/birthdays/trigger-birthday-wishes', {
       method: 'POST',
     });
   },
 
   sendMonthlyNewsletter: () => {
-    return apiRequest('/birthdays/send-monthly-newsletter', {
+    return apiRequest('/admin/birthdays/send-monthly-newsletter', {
       method: 'POST',
     });
   },
