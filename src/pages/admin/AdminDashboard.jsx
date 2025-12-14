@@ -10,6 +10,7 @@ export default function AdminDashboard() {
   const [error, setError] = useState(null)
   const [triggeringReminders, setTriggeringReminders] = useState(false)
   const [triggeringWishes, setTriggeringWishes] = useState(false)
+  const [sendingNewsletter, setSendingNewsletter] = useState(false)
   const [actionMessage, setActionMessage] = useState(null)
 
   useEffect(() => {
@@ -68,6 +69,20 @@ export default function AdminDashboard() {
     }
   }
 
+  const handleSendMonthlyNewsletter = async () => {
+    try {
+      setSendingNewsletter(true)
+      setActionMessage(null)
+      await adminApi.sendMonthlyNewsletter()
+      setActionMessage({ type: 'success', text: 'Monthly newsletter sent successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to send monthly newsletter' })
+    } finally {
+      setSendingNewsletter(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
   if (loading) {
     return (
       <AdminLayout>
@@ -107,6 +122,13 @@ export default function AdminDashboard() {
                 className="btn-sm btn-primary"
               >
                 {triggeringWishes ? 'Triggering...' : 'Trigger Birthday Wishes'}
+              </button>
+              <button
+                onClick={handleSendMonthlyNewsletter}
+                disabled={sendingNewsletter}
+                className="btn-sm btn-primary"
+              >
+                {sendingNewsletter ? 'Sending...' : 'Send Monthly Newsletter'}
               </button>
             </div>
           </div>

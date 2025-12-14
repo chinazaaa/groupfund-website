@@ -144,5 +144,11 @@ export const adminApi = {
       method: 'POST',
     });
   },
+
+  sendMonthlyNewsletter: () => {
+    return apiRequest('/birthdays/send-monthly-newsletter', {
+      method: 'POST',
+    });
+  },
 };
 
