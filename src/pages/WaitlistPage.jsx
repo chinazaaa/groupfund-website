@@ -29,7 +29,7 @@ export default function WaitlistPage() {
 
     try {
       const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://groupfund-backend.onrender.com/api'
-      const response = await fetch(`${API_BASE_URL}/waitlist/submit`, {
+      const response = await fetch(`${API_BASE_URL}/waitlist`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -40,6 +40,11 @@ export default function WaitlistPage() {
       const data = await response.json()
 
       if (!response.ok) {
+        // Handle validation errors
+        if (data.errors && Array.isArray(data.errors)) {
+          const errorMessages = data.errors.map(err => err.msg || err.message).join(', ')
+          throw new Error(errorMessages)
+        }
         throw new Error(data.error || 'Failed to join waitlist')
       }
 
