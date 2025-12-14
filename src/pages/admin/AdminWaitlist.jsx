@@ -8,7 +8,7 @@ export default function AdminWaitlist() {
   const [pagination, setPagination] = useState({ page: 1, limit: 50, total: 0, totalPages: 0 })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
-  const [filters, setFilters] = useState({ groupType: '' })
+  const [filters, setFilters] = useState({ groupType: '', search: '' })
   const [selectedEntry, setSelectedEntry] = useState(null)
   const [showModal, setShowModal] = useState(false)
 
@@ -22,10 +22,11 @@ export default function AdminWaitlist() {
       const params = {
         page: pagination.page,
         limit: pagination.limit,
-        ...(filters.groupType && { group_type: filters.groupType }),
+        ...(filters.groupType && { groupType: filters.groupType }),
+        ...(filters.search && { search: filters.search }),
       }
       const data = await adminApi.getWaitlistEntries(params)
-      setEntries(data.entries || data.waitlist || [])
+      setEntries(data.entries || [])
       setPagination(data.pagination || pagination)
       setError(null)
     } catch (err) {
@@ -87,12 +88,25 @@ export default function AdminWaitlist() {
         </div>
 
         <div className="admin-filters">
+          <input
+            type="text"
+            placeholder="Search by name, email, or phone..."
+            value={filters.search}
+            onChange={(e) => {
+              setFilters({ ...filters, search: e.target.value })
+              setPagination({ ...pagination, page: 1 })
+            }}
+            className="admin-filter-input"
+            style={{ flex: 1, maxWidth: '400px' }}
+          />
+          
           <select
             value={filters.groupType}
             onChange={(e) => {
               setFilters({ ...filters, groupType: e.target.value })
               setPagination({ ...pagination, page: 1 })
             }}
+            className="admin-filter-select"
           >
             <option value="">All Group Types</option>
             <option value="family">Family</option>
