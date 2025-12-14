@@ -132,5 +132,17 @@ export const adminApi = {
     const queryString = new URLSearchParams(params).toString();
     return apiRequest(`/admin/birthdays/today${queryString ? `?${queryString}` : ''}`);
   },
+
+  triggerReminders: () => {
+    return apiRequest('/birthdays/trigger-reminders', {
+      method: 'POST',
+    });
+  },
+
+  triggerBirthdayWishes: () => {
+    return apiRequest('/birthdays/trigger-birthday-wishes', {
+      method: 'POST',
+    });
+  },
 };
 

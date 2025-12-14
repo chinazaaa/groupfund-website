@@ -8,6 +8,9 @@ export default function AdminDashboard() {
   const [todayBirthdays, setTodayBirthdays] = useState(0)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [triggeringReminders, setTriggeringReminders] = useState(false)
+  const [triggeringWishes, setTriggeringWishes] = useState(false)
+  const [actionMessage, setActionMessage] = useState(null)
 
   useEffect(() => {
     loadStats()
@@ -37,6 +40,34 @@ export default function AdminDashboard() {
     }
   }
 
+  const handleTriggerReminders = async () => {
+    try {
+      setTriggeringReminders(true)
+      setActionMessage(null)
+      await adminApi.triggerReminders()
+      setActionMessage({ type: 'success', text: 'Reminders triggered successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to trigger reminders' })
+    } finally {
+      setTriggeringReminders(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
+  const handleTriggerBirthdayWishes = async () => {
+    try {
+      setTriggeringWishes(true)
+      setActionMessage(null)
+      await adminApi.triggerBirthdayWishes()
+      setActionMessage({ type: 'success', text: 'Birthday wishes triggered successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to trigger birthday wishes' })
+    } finally {
+      setTriggeringWishes(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
   if (loading) {
     return (
       <AdminLayout>
@@ -57,8 +88,33 @@ export default function AdminDashboard() {
     <AdminLayout>
       <div className="admin-page">
         <div className="admin-page-header">
-          <h1>Admin Dashboard</h1>
-          <p>System overview and statistics</p>
+          <div className="admin-page-header-content">
+            <div>
+              <h1>Admin Dashboard</h1>
+              <p>System overview and statistics</p>
+            </div>
+            <div className="header-actions">
+              <button
+                onClick={handleTriggerReminders}
+                disabled={triggeringReminders}
+                className="btn-sm btn-primary"
+              >
+                {triggeringReminders ? 'Triggering...' : 'Trigger Reminders'}
+              </button>
+              <button
+                onClick={handleTriggerBirthdayWishes}
+                disabled={triggeringWishes}
+                className="btn-sm btn-primary"
+              >
+                {triggeringWishes ? 'Triggering...' : 'Trigger Birthday Wishes'}
+              </button>
+            </div>
+          </div>
+          {actionMessage && (
+            <div className={`action-message ${actionMessage.type}`}>
+              {actionMessage.text}
+            </div>
+          )}
         </div>
 
         <div className="stats-grid">

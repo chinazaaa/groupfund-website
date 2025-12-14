@@ -13,6 +13,13 @@
   border-bottom: 2px solid #f0f0f0;
 }
 
+.admin-page-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
 .admin-page-header h1 {
   font-size: 2rem;
   font-weight: 800;
@@ -24,6 +31,13 @@
   color: #64748b;
   font-size: 1rem;
   margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 /* Filters */
@@ -329,6 +343,26 @@
   font-weight: 600;
 }
 
+.action-message {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.action-message.success {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+
+.action-message.error {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
 /* Modal */
 .modal-overlay {
   position: fixed;
@@ -469,6 +503,20 @@
 @media (max-width: 768px) {
   .admin-page {
     padding: 20px;
+  }
+
+  .admin-page-header-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-actions {
+    margin-top: 16px;
+  }
+
+  .header-actions .btn-sm {
+    flex: 1;
+    min-width: 0;
   }
 
   .stats-grid {
