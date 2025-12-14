@@ -29,6 +29,7 @@ import AdminContributions from './pages/admin/AdminContributions'
 import AdminContactSubmissions from './pages/admin/AdminContactSubmissions'
 import AdminWaitlist from './pages/admin/AdminWaitlist'
 import AdminNotifications from './pages/admin/AdminNotifications'
+import AdminBirthdays from './pages/admin/AdminBirthdays'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import './App.css'
 
@@ -68,6 +69,7 @@ function App() {
         <Route path="/admin/contact-submissions" element={<ProtectedRoute><AdminContactSubmissions /></ProtectedRoute>} />
         <Route path="/admin/waitlist" element={<ProtectedRoute><AdminWaitlist /></ProtectedRoute>} />
         <Route path="/admin/notifications" element={<ProtectedRoute><AdminNotifications /></ProtectedRoute>} />
+        <Route path="/admin/birthdays" element={<ProtectedRoute><AdminBirthdays /></ProtectedRoute>} />
       </Routes>
     </Router>
   )

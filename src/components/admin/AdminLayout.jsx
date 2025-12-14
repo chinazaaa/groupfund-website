@@ -56,6 +56,14 @@ export default function AdminLayout({ children }) {
           </Link>
           
           <Link 
+            to="/admin/birthdays" 
+            className={`admin-nav-item ${isActive('/admin/birthdays') ? 'active' : ''}`}
+          >
+            <span className="nav-icon">🎂</span>
+            <span>Today's Birthdays</span>
+          </Link>
+          
+          <Link 
             to="/admin/contact-submissions" 
             className={`admin-nav-item ${isActive('/admin/contact-submissions') ? 'active' : ''}`}
           >

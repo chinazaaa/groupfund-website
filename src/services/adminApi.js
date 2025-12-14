@@ -126,5 +126,11 @@ export const adminApi = {
       method: 'DELETE',
     });
   },
+
+  // Birthdays
+  getTodayBirthdays: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/birthdays/today${queryString ? `?${queryString}` : ''}`);
+  },
 };
 
