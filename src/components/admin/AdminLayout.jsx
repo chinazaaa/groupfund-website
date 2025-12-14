@@ -64,6 +64,14 @@ export default function AdminLayout({ children }) {
           </Link>
           
           <Link 
+            to="/admin/waitlist" 
+            className={`admin-nav-item ${isActive('/admin/waitlist') ? 'active' : ''}`}
+          >
+            <span className="nav-icon">📋</span>
+            <span>Waitlist</span>
+          </Link>
+          
+          <Link 
             to="/admin/notifications" 
             className={`admin-nav-item ${isActive('/admin/notifications') ? 'active' : ''}`}
           >

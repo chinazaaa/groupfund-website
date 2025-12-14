@@ -26,6 +26,7 @@ import AdminUsers from './pages/admin/AdminUsers'
 import AdminGroups from './pages/admin/AdminGroups'
 import AdminContributions from './pages/admin/AdminContributions'
 import AdminContactSubmissions from './pages/admin/AdminContactSubmissions'
+import AdminWaitlist from './pages/admin/AdminWaitlist'
 import AdminNotifications from './pages/admin/AdminNotifications'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import './App.css'
@@ -63,6 +64,7 @@ function App() {
         <Route path="/admin/groups" element={<ProtectedRoute><AdminGroups /></ProtectedRoute>} />
         <Route path="/admin/contributions" element={<ProtectedRoute><AdminContributions /></ProtectedRoute>} />
         <Route path="/admin/contact-submissions" element={<ProtectedRoute><AdminContactSubmissions /></ProtectedRoute>} />
+        <Route path="/admin/waitlist" element={<ProtectedRoute><AdminWaitlist /></ProtectedRoute>} />
         <Route path="/admin/notifications" element={<ProtectedRoute><AdminNotifications /></ProtectedRoute>} />
       </Routes>
     </Router>

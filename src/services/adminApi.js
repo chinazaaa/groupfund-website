@@ -110,5 +110,21 @@ export const adminApi = {
       method: 'DELETE',
     });
   },
+
+  // Waitlist
+  getWaitlistEntries: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/waitlist${queryString ? `?${queryString}` : ''}`);
+  },
+
+  getWaitlistEntry: (id) => {
+    return apiRequest(`/admin/waitlist/${id}`);
+  },
+
+  deleteWaitlistEntry: (id) => {
+    return apiRequest(`/admin/waitlist/${id}`, {
+      method: 'DELETE',
+    });
+  },
 };
 
