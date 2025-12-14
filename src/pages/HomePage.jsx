@@ -56,7 +56,7 @@ export default function HomePage() {
               End Birthday Contribution Chaos Forever
             </h1>
             <p className="hero-subheadline">
-              The smart way to organize group birthday contributions. Track payments in real-time, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency—NGN, USD, GBP, and more.
+              The smart way to organize group birthday contributions. Track payments in real-time, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.
             </p>
             <div className="hero-features">
               <div className="feature-tag">
@@ -121,7 +121,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Fixed Amounts & Clear Totals</h3>
-              <p>Set a fixed contribution amount per person (like ₦5,000) and see your group's maximum size upfront. Instantly calculate your yearly total—no surprises.</p>
+              <p>Set a fixed contribution amount per person (like 5,000) and see your group's maximum size upfront. Instantly calculate your yearly total, no surprises.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -152,7 +152,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Global Currency Support</h3>
-              <p>Choose your group's currency—NGN, USD, GBP, EUR, and more. Local bank details are displayed automatically, making international groups seamless.</p>
+              <p>Choose your group's currency: NGN, USD, GBP, EUR, and more. Local bank details are displayed automatically, making international groups seamless.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -196,14 +196,14 @@ export default function HomePage() {
             <article className="use-case-card">
               <div className="use-case-icon">👥</div>
               <h3>Friend Groups</h3>
-              <p>Keep your friend group's birthday contributions organized. No more awkward reminders or forgotten payments—just smooth, fair celebrations.</p>
+              <p>Keep your friend group's birthday contributions organized. No more awkward reminders or forgotten payments, just smooth, fair celebrations.</p>
             </article>
           </div>
         </div>
       </section>
 
       {/* Social Proof Section */}
-      <section className="social-proof" aria-labelledby="social-proof-heading">
+      {/* <section className="social-proof" aria-labelledby="social-proof-heading">
         <div className="container">
           <div className="social-proof-content">
             <h2 id="social-proof-heading" className="section-title">Trusted by Groups Across Nigeria</h2>
@@ -216,14 +216,14 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section id="download" className="cta-section" aria-labelledby="cta-heading">
         <div className="container">
           <div className="cta-content">
             <h2 id="cta-heading" className="cta-title">Ready to Organize Your Group?</h2>
-            <p className="cta-subtitle">Join 100+ groups already using GroupFund to manage their birthday contributions</p>
+            <p className="cta-subtitle">Join 100+ groups already on waitlist for GroupFund to manage their birthday contributions</p>
             <div className="app-store-badges">
               <a 
                 href="#" 
