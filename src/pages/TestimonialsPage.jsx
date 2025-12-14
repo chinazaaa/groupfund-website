@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
@@ -93,7 +94,7 @@ export default function TestimonialsPage() {
           <div className="cta-box">
             <h2>Join These Happy Groups</h2>
             <p>Start organizing your group's birthday contributions today. It's free to get started!</p>
-            <a href="#download" className="btn btn-primary btn-large">Start Your Free Group</a>
+            <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
           </div>
         </div>
       </section>

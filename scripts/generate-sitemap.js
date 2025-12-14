@@ -82,6 +82,12 @@ const pages = [
     changefreq: 'yearly',
     lastmod: currentDate
   },
+  {
+    url: '/waitlist',
+    priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
   // Add individual blog posts
   ...blogPosts.map(slug => ({
     url: `/blog/${slug}`,

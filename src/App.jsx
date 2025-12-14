@@ -17,6 +17,7 @@ import TermsOfServicePage from './pages/TermsOfServicePage'
 import ThankYouPage from './pages/ThankYouPage'
 import HelpPage from './pages/HelpPage'
 import SitemapPage from './pages/SitemapPage'
+import WaitlistPage from './pages/WaitlistPage'
 import NotFoundPage from './pages/NotFoundPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
@@ -50,6 +51,7 @@ function App() {
         <Route path="/thank-you" element={<Layout><ThankYouPage /></Layout>} />
         <Route path="/help" element={<Layout><HelpPage /></Layout>} />
         <Route path="/sitemap" element={<Layout><SitemapPage /></Layout>} />
+        <Route path="/waitlist" element={<Layout><WaitlistPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

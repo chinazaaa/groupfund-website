@@ -73,7 +73,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="hero-cta">
-              <Link to="/features" className="btn btn-primary" aria-label="Start your free group">
+              <Link to="/waitlist" className="btn btn-primary" aria-label="Start your free group">
                 Start Your Free Group
               </Link>
               <Link to="/how-it-works" className="btn btn-secondary" aria-label="Learn more about features">
@@ -256,7 +256,7 @@ export default function HomePage() {
                 />
               </a>
             </div>
-            <Link to="/features" className="btn btn-primary btn-large" aria-label="Start your free group now">
+            <Link to="/waitlist" className="btn btn-primary btn-large" aria-label="Start your free group now">
               Start Your Free Group Now
             </Link>
           </div>

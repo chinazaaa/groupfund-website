@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
@@ -76,7 +77,7 @@ export default function HowItWorksPage() {
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
             <p>Join hundreds of groups already using GroupFund to organize their birthday contributions.</p>
-            <a href="#download" className="btn btn-primary btn-large">Start Your Free Group</a>
+            <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
           </div>
         </div>
       </section>
