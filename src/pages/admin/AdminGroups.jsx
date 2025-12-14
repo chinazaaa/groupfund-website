@@ -13,7 +13,8 @@ export default function AdminGroups() {
   const [members, setMembers] = useState([])
   const [loadingMembers, setLoadingMembers] = useState(false)
   const [showMembersModal, setShowMembersModal] = useState(false)
-  const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, group: null })
+  const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, group: null, action: 'close' })
+  const [processing, setProcessing] = useState(false)
 
   useEffect(() => {
     loadGroups()
@@ -68,17 +69,50 @@ export default function AdminGroups() {
       message: `Are you sure you want to close the group "${group.name}"? This action cannot be undone.`,
       onConfirm: async () => {
         try {
+          setProcessing(true)
+          setError(null)
           await adminApi.closeGroup(group.id)
           // Reload groups to reflect the updated status
           await loadGroups()
-          setError(null)
-          setConfirmModal({ show: false, message: '', onConfirm: null, group: null })
+          setConfirmModal({ show: false, message: '', onConfirm: null, group: null, action: 'close' })
         } catch (err) {
-          setError(err.message || 'Failed to close group')
-          setConfirmModal({ show: false, message: '', onConfirm: null, group: null })
+          const errorMessage = err.message || 'Failed to close group'
+          setError(errorMessage)
+          alert(`Error: ${errorMessage}`) // Also show alert for visibility
+        } finally {
+          setProcessing(false)
         }
       },
-      group: group
+      group: group,
+      action: 'close'
+    })
+  }
+
+  const handleReopenGroup = (group) => {
+    setConfirmModal({
+      show: true,
+      message: `Are you sure you want to reopen the group "${group.name}"?`,
+      onConfirm: async () => {
+        try {
+          setProcessing(true)
+          setError(null)
+          console.log('Reopening group:', group.id)
+          const result = await adminApi.reopenGroup(group.id)
+          console.log('Reopen result:', result)
+          // Reload groups to reflect the updated status
+          await loadGroups()
+          setConfirmModal({ show: false, message: '', onConfirm: null, group: null, action: 'close' })
+        } catch (err) {
+          console.error('Reopen group error:', err)
+          const errorMessage = err.message || 'Failed to reopen group'
+          setError(errorMessage)
+          alert(`Error: ${errorMessage}`) // Also show alert for visibility
+        } finally {
+          setProcessing(false)
+        }
+      },
+      group: group,
+      action: 'reopen'
     })
   }
 
@@ -167,7 +201,14 @@ export default function AdminGroups() {
                           >
                             View Members
                           </button>
-                          {group.status !== 'closed' && (
+                          {group.status === 'closed' ? (
+                            <button
+                              onClick={() => handleReopenGroup(group)}
+                              className="btn-sm btn-success"
+                            >
+                              Reopen Group
+                            </button>
+                          ) : (
                             <button
                               onClick={() => handleCloseGroup(group)}
                               className="btn-sm btn-danger"
@@ -285,8 +326,9 @@ export default function AdminGroups() {
           <ConfirmModal
             message={confirmModal.message}
             onConfirm={confirmModal.onConfirm}
-            onCancel={() => setConfirmModal({ show: false, message: '', onConfirm: null, group: null })}
-            action="close"
+            onCancel={() => setConfirmModal({ show: false, message: '', onConfirm: null, group: null, action: 'close' })}
+            action={confirmModal.action || 'close'}
+            processing={processing}
           />
         )}
       </div>
@@ -294,9 +336,9 @@ export default function AdminGroups() {
   )
 }
 
-function ConfirmModal({ message, onConfirm, onCancel, action }) {
+function ConfirmModal({ message, onConfirm, onCancel, action, processing }) {
   return (
-    <div className="admin-modal-overlay" onClick={onCancel}>
+    <div className="admin-modal-overlay" onClick={processing ? undefined : onCancel}>
       <div className="admin-confirm-modal" onClick={(e) => e.stopPropagation()}>
         <div className="admin-confirm-header">
           <h3>Confirm Action</h3>
@@ -305,14 +347,15 @@ function ConfirmModal({ message, onConfirm, onCancel, action }) {
           <p>{message}</p>
         </div>
         <div className="admin-confirm-footer">
-          <button onClick={onCancel} className="btn btn-secondary">
+          <button onClick={onCancel} className="btn btn-secondary" disabled={processing}>
             Cancel
           </button>
           <button 
             onClick={onConfirm} 
-            className={`btn ${action === 'close' ? 'btn-danger' : 'btn-primary'}`}
+            className={`btn ${action === 'close' ? 'btn-danger' : action === 'reopen' ? 'btn-success' : 'btn-primary'}`}
+            disabled={processing}
           >
-            Confirm
+            {processing ? 'Processing...' : 'Confirm'}
           </button>
         </div>
       </div>

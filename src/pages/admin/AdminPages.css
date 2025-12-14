@@ -218,6 +218,15 @@
   background: #dc2626;
 }
 
+.btn-success {
+  background: #10b981;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #059669;
+}
+
 .btn-sm:disabled {
   opacity: 0.5;
   cursor: not-allowed;

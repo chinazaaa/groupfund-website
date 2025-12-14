@@ -75,6 +75,12 @@ export const adminApi = {
     });
   },
 
+  reopenGroup: (groupId) => {
+    return apiRequest(`/groups/${groupId}/reopen`, {
+      method: 'PUT',
+    });
+  },
+
   // Transactions
   getTransactions: (params = {}) => {
     const queryString = new URLSearchParams(params).toString();
