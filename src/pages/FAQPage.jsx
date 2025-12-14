@@ -16,11 +16,11 @@ export default function FAQPage() {
     },
     {
       question: "How do I confirm payments?",
-      answer: "When a member makes a payment, they can mark it as 'Paid' in the app. The group administrator can then verify and mark it as 'Confirmed'. This two-step process ensures accuracy. Administrators can also see payment details and timestamps for full transparency."
+      answer: "When a member makes a payment, they can mark it as 'Paid' in the app. The celebrant can then verify and mark it as 'Confirmed'. This two-step process ensures accuracy. Everyone can also see payment details and timestamps for full transparency."
     },
     {
       question: "What happens if someone doesn't pay?",
-      answer: "GroupFund sends automatic reminders 7 days before each birthday and on the deadline day. If someone still doesn't pay, the group administrator can see their status clearly marked as 'Not Paid'. The app provides helpful recaps showing payment progress (e.g., '8 out of 10 members have paid'). This transparency helps group administrators follow up appropriately while maintaining fairness."
+      answer: "GroupFund sends automatic reminders 7 days before each birthday and on the deadline day. If someone still doesn't pay, the group administrator can see their status clearly marked as 'Not Paid'. The app provides helpful recaps showing payment progress (e.g., '8 out of 10 members have paid'). This transparency helps people follow up appropriately while maintaining fairness."
     },
     {
       question: "Is there a limit to group size?",
@@ -36,11 +36,11 @@ export default function FAQPage() {
     },
     {
       question: "Do I need to download an app?",
-      answer: "Yes, GroupFund is available as a mobile app for iOS and Android devices. You can download it from the App Store or Google Play Store. The mobile app provides the best experience with push notifications for reminders."
+      answer: "Yes, GroupFund will be available as a mobile app for iOS and Android devices. You can download it from the App Store or Google Play Store soon. The mobile app provides the best experience with push notifications for reminders."
     },
     {
       question: "Can I export payment history?",
-      answer: "Yes, group administrators can view and export contribution history. This helps with record-keeping and provides transparency for all group members."
+      answer: "Not at the moment. We're working on it."
     },
     {
       question: "What if I need help or have questions?",

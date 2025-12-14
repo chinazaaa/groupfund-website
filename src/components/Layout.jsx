@@ -15,7 +15,6 @@ export default function Layout({ children }) {
             <div className="nav-links">
               <Link to="/how-it-works" className="nav-link">How It Works</Link>
               <Link to="/features" className="nav-link">Features</Link>
-              <Link to="/testimonials" className="nav-link">Testimonials</Link>
               <Link to="/blog" className="nav-link">Blog</Link>
               <Link to="/faq" className="nav-link">FAQ</Link>
               <Link to="/about" className="nav-link">About</Link>
@@ -52,7 +51,6 @@ export default function Layout({ children }) {
               <h4>Resources</h4>
               <ul className="footer-links">
                 <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="/testimonials">Testimonials</Link></li>
                 <li><Link to="/help">Help Center</Link></li>
                 <li><Link to="/about">About Us</Link></li>
               </ul>
