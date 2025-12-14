@@ -34,11 +34,10 @@
 }
 
 .header-actions {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
-  flex-wrap: nowrap;
   align-items: center;
-  white-space: nowrap;
 }
 
 /* Filters */
@@ -522,12 +521,11 @@
 
   .header-actions {
     margin-top: 16px;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr;
   }
 
   .header-actions .btn-sm {
-    flex: 1 1 auto;
-    min-width: 0;
+    width: 100%;
     font-size: 0.85rem;
     padding: 8px 12px;
   }

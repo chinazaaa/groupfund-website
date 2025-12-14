@@ -156,5 +156,11 @@ export const adminApi = {
       method: 'POST',
     });
   },
+
+  triggerOverdueReminders: () => {
+    return apiRequest('/admin/birthdays/trigger-overdue-reminders', {
+      method: 'POST',
+    });
+  },
 };
 

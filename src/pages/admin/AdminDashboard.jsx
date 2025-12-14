@@ -11,6 +11,7 @@ export default function AdminDashboard() {
   const [triggeringReminders, setTriggeringReminders] = useState(false)
   const [triggeringWishes, setTriggeringWishes] = useState(false)
   const [sendingNewsletter, setSendingNewsletter] = useState(false)
+  const [triggeringOverdueReminders, setTriggeringOverdueReminders] = useState(false)
   const [actionMessage, setActionMessage] = useState(null)
 
   useEffect(() => {
@@ -83,6 +84,20 @@ export default function AdminDashboard() {
     }
   }
 
+  const handleTriggerOverdueReminders = async () => {
+    try {
+      setTriggeringOverdueReminders(true)
+      setActionMessage(null)
+      await adminApi.triggerOverdueReminders()
+      setActionMessage({ type: 'success', text: 'Overdue reminders triggered successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to trigger overdue reminders' })
+    } finally {
+      setTriggeringOverdueReminders(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
   if (loading) {
     return (
       <AdminLayout>
@@ -129,6 +144,13 @@ export default function AdminDashboard() {
                 className="btn-sm btn-primary"
               >
                 {sendingNewsletter ? 'Sending...' : 'Send Monthly Newsletter'}
+              </button>
+              <button
+                onClick={handleTriggerOverdueReminders}
+                disabled={triggeringOverdueReminders}
+                className="btn-sm btn-primary"
+              >
+                {triggeringOverdueReminders ? 'Triggering...' : 'Trigger Overdue Reminders'}
               </button>
             </div>
           </div>
