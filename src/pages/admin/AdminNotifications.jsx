@@ -55,6 +55,7 @@ export default function AdminNotifications() {
             <option value="group_invite">Group Invite</option>
             <option value="group_approved">Group Approved</option>
             <option value="group_rejected">Group Rejected</option>
+            <option value="group_removed">Group Removed</option>
             <option value="contribution_paid">Contribution Paid</option>
             <option value="contribution_not_received">Contribution Not Received</option>
             <option value="contribution_confirmed">Contribution Confirmed</option>
@@ -161,6 +162,7 @@ function formatNotificationType(type) {
     'group_invite': 'Group Invite',
     'group_approved': 'Group Approved',
     'group_rejected': 'Group Rejected',
+    'group_removed': 'Group Removed',
     'contribution_paid': 'Contribution Paid',
     'contribution_not_received': 'Contribution Not Received',
     'contribution_confirmed': 'Contribution Confirmed',
