@@ -73,8 +73,19 @@ export default function AdminBirthdays() {
               </div>
             ) : (
               <>
-                <div className="admin-stats-card" style={{ marginBottom: '20px', padding: '15px' }}>
-                  <strong>Total Birthdays Today: {pagination.total}</strong>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '15px', marginBottom: '20px' }}>
+                  <div className="admin-stats-card" style={{ padding: '15px' }}>
+                    <strong>Total Birthdays: {pagination.total}</strong>
+                  </div>
+                  <div className="admin-stats-card" style={{ padding: '15px' }}>
+                    <strong>📱 In-App Sent: {birthdays.filter(u => u.notifications?.in_app_sent).length} / {birthdays.length}</strong>
+                  </div>
+                  <div className="admin-stats-card" style={{ padding: '15px' }}>
+                    <strong>🔔 Push Sent: {birthdays.filter(u => u.notifications?.push_sent).length} / {birthdays.filter(u => u.notifications?.push_token_available).length}</strong>
+                  </div>
+                  <div className="admin-stats-card" style={{ padding: '15px' }}>
+                    <strong>📧 Email Sent: {birthdays.filter(u => u.notifications?.email_sent).length} / {birthdays.filter(u => u.notifications?.email_available).length}</strong>
+                  </div>
                 </div>
 
                 <div className="admin-table-container">
@@ -89,37 +100,63 @@ export default function AdminBirthdays() {
                         <th>Verified</th>
                         <th>Status</th>
                         <th>Groups</th>
+                        <th>Notifications</th>
                         <th>Joined</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {birthdays.map(user => (
-                        <tr key={user.id}>
-                          <td>
-                            <strong>{user.name}</strong>
-                          </td>
-                          <td>{user.email}</td>
-                          <td>{user.phone || 'N/A'}</td>
-                          <td>{formatBirthday(user.birthday)}</td>
-                          <td>
-                            <span className="badge badge-info">
-                              {getAge(user.birthday)} years
-                            </span>
-                          </td>
-                          <td>
-                            <span className={`badge ${user.is_verified ? 'badge-success' : 'badge-warning'}`}>
-                              {user.is_verified ? '✓ Verified' : '✗ Unverified'}
-                            </span>
-                          </td>
-                          <td>
-                            <span className={`badge ${user.is_active !== false ? 'badge-success' : 'badge-danger'}`}>
-                              {user.is_active !== false ? 'Active' : 'Inactive'}
-                            </span>
-                          </td>
-                          <td>{user.group_count || 0}</td>
-                          <td>{formatDate(user.created_at)}</td>
-                        </tr>
-                      ))}
+                      {birthdays.map(user => {
+                        const notifications = user.notifications || {}
+                        return (
+                          <tr key={user.id}>
+                            <td>
+                              <strong>{user.name}</strong>
+                            </td>
+                            <td>{user.email}</td>
+                            <td>{user.phone || 'N/A'}</td>
+                            <td>{formatBirthday(user.birthday)}</td>
+                            <td>
+                              <span className="badge badge-info">
+                                {getAge(user.birthday)} years
+                              </span>
+                            </td>
+                            <td>
+                              <span className={`badge ${user.is_verified ? 'badge-success' : 'badge-warning'}`}>
+                                {user.is_verified ? '✓ Verified' : '✗ Unverified'}
+                              </span>
+                            </td>
+                            <td>
+                              <span className={`badge ${user.is_active !== false ? 'badge-success' : 'badge-danger'}`}>
+                                {user.is_active !== false ? 'Active' : 'Inactive'}
+                              </span>
+                            </td>
+                            <td>{user.group_count || 0}</td>
+                            <td>
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '3px', fontSize: '11px', minWidth: '120px' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                  <span style={{ minWidth: '50px' }}>📱 In-App:</span>
+                                  <span className={`badge ${notifications.in_app_sent ? 'badge-success' : 'badge-secondary'}`} style={{ fontSize: '10px', padding: '2px 6px' }}>
+                                    {notifications.in_app_sent ? '✓' : '✗'}
+                                  </span>
+                                </div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                  <span style={{ minWidth: '50px' }}>🔔 Push:</span>
+                                  <span className={`badge ${notifications.push_sent ? 'badge-success' : notifications.push_token_available ? 'badge-warning' : 'badge-secondary'}`} style={{ fontSize: '10px', padding: '2px 6px' }}>
+                                    {notifications.push_sent ? '✓' : notifications.push_token_available ? '⚠' : '✗'}
+                                  </span>
+                                </div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                  <span style={{ minWidth: '50px' }}>📧 Email:</span>
+                                  <span className={`badge ${notifications.email_sent ? 'badge-success' : notifications.email_available ? 'badge-warning' : 'badge-secondary'}`} style={{ fontSize: '10px', padding: '2px 6px' }}>
+                                    {notifications.email_sent ? '✓' : notifications.email_available ? '⚠' : '✗'}
+                                  </span>
+                                </div>
+                              </div>
+                            </td>
+                            <td>{formatDate(user.created_at)}</td>
+                          </tr>
+                        )
+                      })}
                     </tbody>
                   </table>
                 </div>
