@@ -11,6 +11,7 @@ export default function SitemapPage() {
         { path: "/", label: "Home" },
         { path: "/how-it-works", label: "How It Works" },
         { path: "/features", label: "Features" },
+        { path: "/coming-soon-features", label: "Coming Soon Features" },
         { path: "/download", label: "Download" }
       ]
     },
