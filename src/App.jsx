@@ -15,6 +15,11 @@ import AboutPage from './pages/AboutPage'
 import BrandingPage from './pages/BrandingPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsOfServicePage from './pages/TermsOfServicePage'
+import CookiePolicyPage from './pages/CookiePolicyPage'
+import SecurityPage from './pages/SecurityPage'
+import AccessibilityPage from './pages/AccessibilityPage'
+import PressPage from './pages/PressPage'
+import CareersPage from './pages/CareersPage'
 import ThankYouPage from './pages/ThankYouPage'
 import HelpPage from './pages/HelpPage'
 import SitemapPage from './pages/SitemapPage'
@@ -53,6 +58,11 @@ function App() {
         <Route path="/branding" element={<Layout><BrandingPage /></Layout>} />
         <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
         <Route path="/terms" element={<Layout><TermsOfServicePage /></Layout>} />
+        <Route path="/cookie-policy" element={<Layout><CookiePolicyPage /></Layout>} />
+        <Route path="/security" element={<Layout><SecurityPage /></Layout>} />
+        <Route path="/accessibility" element={<Layout><AccessibilityPage /></Layout>} />
+        <Route path="/press" element={<Layout><PressPage /></Layout>} />
+        <Route path="/careers" element={<Layout><CareersPage /></Layout>} />
         <Route path="/thank-you" element={<Layout><ThankYouPage /></Layout>} />
         <Route path="/help" element={<Layout><HelpPage /></Layout>} />
         <Route path="/sitemap" element={<Layout><SitemapPage /></Layout>} />

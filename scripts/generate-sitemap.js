@@ -108,6 +108,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/branding',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/privacy',
     priority: '0.5',
     changefreq: 'yearly',
@@ -117,6 +123,36 @@ const pages = [
     url: '/terms',
     priority: '0.5',
     changefreq: 'yearly',
+    lastmod: currentDate
+  },
+  {
+    url: '/cookie-policy',
+    priority: '0.5',
+    changefreq: 'yearly',
+    lastmod: currentDate
+  },
+  {
+    url: '/security',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/accessibility',
+    priority: '0.6',
+    changefreq: 'yearly',
+    lastmod: currentDate
+  },
+  {
+    url: '/press',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/careers',
+    priority: '0.7',
+    changefreq: 'monthly',
     lastmod: currentDate
   }
 ]
