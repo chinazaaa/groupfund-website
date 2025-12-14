@@ -35,7 +35,9 @@ export default function Layout({ children }) {
         <div className="container">
           <div className="footer-content">
             <div className="footer-section">
-              <h3 className="footer-logo">GroupFund</h3>
+              <Link to="/" className="footer-logo-link">
+                <img src="/icon.png" alt="GroupFund" className="footer-logo-img" />
+              </Link>
               <p className="footer-tagline">Organizing group contributions, one birthday at a time.</p>
             </div>
             <div className="footer-section">

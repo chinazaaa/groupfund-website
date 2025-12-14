@@ -521,12 +521,22 @@
   font-weight: 700;
 }
 
-.footer-logo {
-  font-size: 1.5rem;
-  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-logo-link:hover {
+  opacity: 0.8;
+}
+
+.footer-logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .footer-tagline {
