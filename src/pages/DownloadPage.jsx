@@ -56,12 +56,12 @@ export default function DownloadPage() {
                 <div className="download-feature-card">
                   <div className="download-feature-icon">📅</div>
                   <h3>Calendar Integration</h3>
-                  <p>Sync with your device calendar to never miss a birthday or contribution deadline.</p>
+                  <p>Sync with your device calendar to never miss a birthday or contribution deadline. <strong>Coming soon</strong>.</p>
                 </div>
                 <div className="download-feature-card">
                   <div className="download-feature-icon">⚡</div>
                   <h3>Offline Access</h3>
-                  <p>View your groups and contribution status even when you're offline. Syncs automatically when you're back online.</p>
+                  <p>View your groups and contribution status even when you're offline. Syncs automatically when you're back online. <strong>Coming soon</strong>.</p>
                 </div>
                 <div className="download-feature-card">
                   <div className="download-feature-icon">🔒</div>

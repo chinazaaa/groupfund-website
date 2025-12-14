@@ -76,7 +76,7 @@ export default function HelpPage() {
       topics: [
         {
           question: "How do I add members to my group?",
-          answer: "You can add members by inviting them via email or phone number. They'll receive an invitation to join the group. Once they accept, they'll be added to the group."
+          answer: "Share your group invite code with people you want to join. They can use the code to request to join your group, and you can approve or reject their invitation."
         },
         {
           question: "Can I remove members from a group?",

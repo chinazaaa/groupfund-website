@@ -57,7 +57,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Easy Group Management",
-      description: "Add or remove members, update birthdays, and manage group settings all in one place. Simple and intuitive.",
+      description: "Approve or reject member requests, manage group settings, and let members add their own birthdays. Simple and intuitive.",
       icon: "⚙️"
     }
   ]

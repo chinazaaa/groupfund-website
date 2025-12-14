@@ -38,7 +38,7 @@ export default function TermsOfServicePage() {
               </p>
               <ul>
                 <li>Create and manage groups</li>
-                <li>Add members and birthday dates</li>
+                <li>Invite members who add their own birthday dates</li>
                 <li>Set contribution amounts and track payment statuses</li>
                 <li>Receive automatic reminders about upcoming birthdays</li>
                 <li>View contribution history and calendars</li>

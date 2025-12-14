@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
     {
       number: '2',
       title: 'Add Members',
-      description: 'Invite members to your group by adding their names and contact information. You can add as many members as your group allows.',
+      description: 'Share your group invite code with people you want to join. They can use the code to request to join your group, and you can approve or reject their invitation.',
       icon: '➕'
     },
     {
@@ -26,7 +26,7 @@ export default function HowItWorksPage() {
     {
       number: '4',
       title: 'Add Birthdays',
-      description: 'Add birthday dates for each member. The app will automatically track upcoming birthdays and calculate contribution deadlines.',
+      description: 'Each member adds their own birthday date when they sign up. The app will automatically track upcoming birthdays and calculate contribution deadlines.',
       icon: '🎂'
     },
     {
