@@ -13,6 +13,7 @@ export default function AdminUsers() {
   const [selectedUser, setSelectedUser] = useState(null)
   const [showModal, setShowModal] = useState(false)
   const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, action: '' })
+  const [notification, setNotification] = useState({ show: false, message: '', type: 'success' })
 
   useEffect(() => {
     loadUsers()
@@ -50,13 +51,20 @@ export default function AdminUsers() {
     setPagination(prev => ({ ...prev, page: 1 }))
   }
 
+  const showNotification = (message, type = 'success') => {
+    setNotification({ show: true, message, type })
+    setTimeout(() => {
+      setNotification({ show: false, message: '', type: 'success' })
+    }, 3000)
+  }
+
   const handleUserClick = async (userId) => {
     try {
       const user = await adminApi.getUser(userId)
       setSelectedUser(user)
       setShowModal(true)
     } catch (err) {
-      alert('Error loading user: ' + err.message)
+      showNotification('Error loading user: ' + err.message, 'error')
     }
   }
 
@@ -65,9 +73,9 @@ export default function AdminUsers() {
       await adminApi.updateUser(userId, updates)
       setShowModal(false)
       loadUsers()
-      alert('User updated successfully')
+      showNotification('User updated successfully', 'success')
     } catch (err) {
-      alert('Error updating user: ' + err.message)
+      showNotification('Error updating user: ' + err.message, 'error')
     }
   }
 
@@ -82,9 +90,9 @@ export default function AdminUsers() {
           await adminApi.deactivateUser(userId)
           setConfirmModal({ show: false, message: '', onConfirm: null, action: '' })
           loadUsers()
-          alert(`User ${action}d successfully`)
+          showNotification(`User ${action}d successfully`, 'success')
         } catch (err) {
-          alert(`Error ${action}ing user: ` + err.message)
+          showNotification(`Error ${action}ing user: ` + err.message, 'error')
         }
       }
     })
@@ -142,6 +150,13 @@ export default function AdminUsers() {
           <div className="admin-loading">Loading users...</div>
         ) : (
           <>
+            <div className="admin-stats">
+              <div className="stat-card">
+                <span className="stat-label">Total Users</span>
+                <span className="stat-value">{pagination.total || users.length}</span>
+              </div>
+            </div>
+
             <div className="admin-table-container">
               <table className="admin-table">
                 <thead>
@@ -242,6 +257,15 @@ export default function AdminUsers() {
             onConfirm={confirmModal.onConfirm}
             onCancel={() => setConfirmModal({ show: false, message: '', onConfirm: null, action: '' })}
             action={confirmModal.action}
+          />
+        )}
+
+        {/* Notification Toast */}
+        {notification.show && (
+          <NotificationToast
+            message={notification.message}
+            type={notification.type}
+            onClose={() => setNotification({ show: false, message: '', type: 'success' })}
           />
         )}
       </div>
@@ -364,6 +388,17 @@ function ConfirmModal({ message, onConfirm, onCancel, action }) {
             Confirm
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function NotificationToast({ message, type, onClose }) {
+  return (
+    <div className={`admin-toast admin-toast-${type}`}>
+      <div className="admin-toast-content">
+        <span className="admin-toast-message">{message}</span>
+        <button onClick={onClose} className="admin-toast-close">×</button>
       </div>
     </div>
   )

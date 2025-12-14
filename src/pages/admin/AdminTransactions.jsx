@@ -78,6 +78,13 @@ export default function AdminTransactions() {
           <div className="admin-loading">Loading transactions...</div>
         ) : (
           <>
+            <div className="admin-stats">
+              <div className="stat-card">
+                <span className="stat-label">Total Transactions</span>
+                <span className="stat-value">{pagination.total || transactions.length}</span>
+              </div>
+            </div>
+
             <div className="admin-table-container">
               <table className="admin-table">
                 <thead>

@@ -64,6 +64,13 @@ export default function AdminContributions() {
           <div className="admin-loading">Loading contributions...</div>
         ) : (
           <>
+            <div className="admin-stats">
+              <div className="stat-card">
+                <span className="stat-label">Total Contributions</span>
+                <span className="stat-value">{pagination.total || contributions.length}</span>
+              </div>
+            </div>
+
             <div className="admin-table-container">
               <table className="admin-table">
                 <thead>

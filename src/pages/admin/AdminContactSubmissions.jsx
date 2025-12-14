@@ -95,6 +95,13 @@ export default function AdminContactSubmissions() {
           <div className="admin-loading">Loading submissions...</div>
         ) : (
           <>
+            <div className="admin-stats">
+              <div className="stat-card">
+                <span className="stat-label">Total Submissions</span>
+                <span className="stat-value">{pagination.total || submissions.length}</span>
+              </div>
+            </div>
+
             <div className="admin-table-container">
               <table className="admin-table">
                 <thead>

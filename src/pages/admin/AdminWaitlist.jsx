@@ -12,6 +12,7 @@ export default function AdminWaitlist() {
   const [selectedEntry, setSelectedEntry] = useState(null)
   const [showModal, setShowModal] = useState(false)
   const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, entryId: null })
+  const [notification, setNotification] = useState({ show: false, message: '', type: 'success' })
 
   useEffect(() => {
     loadEntries()
@@ -37,6 +38,13 @@ export default function AdminWaitlist() {
     }
   }
 
+  const showNotification = (message, type = 'success') => {
+    setNotification({ show: true, message, type })
+    setTimeout(() => {
+      setNotification({ show: false, message: '', type: 'success' })
+    }, 3000)
+  }
+
   const handleDelete = async (id) => {
     setConfirmModal({
       show: true,
@@ -47,9 +55,9 @@ export default function AdminWaitlist() {
           await adminApi.deleteWaitlistEntry(id)
           setConfirmModal({ show: false, message: '', onConfirm: null, entryId: null })
           loadEntries()
-          alert('Waitlist entry deleted successfully')
+          showNotification('Waitlist entry deleted successfully', 'success')
         } catch (err) {
-          alert('Error deleting entry: ' + err.message)
+          showNotification('Error deleting entry: ' + err.message, 'error')
         }
       }
     })
@@ -296,6 +304,15 @@ export default function AdminWaitlist() {
             action="delete"
           />
         )}
+
+        {/* Notification Toast */}
+        {notification.show && (
+          <NotificationToast
+            message={notification.message}
+            type={notification.type}
+            onClose={() => setNotification({ show: false, message: '', type: 'success' })}
+          />
+        )}
       </div>
     </AdminLayout>
   )
@@ -322,6 +339,17 @@ function ConfirmModal({ message, onConfirm, onCancel, action }) {
             Confirm
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function NotificationToast({ message, type, onClose }) {
+  return (
+    <div className={`admin-toast admin-toast-${type}`}>
+      <div className="admin-toast-content">
+        <span className="admin-toast-message">{message}</span>
+        <button onClick={onClose} className="admin-toast-close">×</button>
       </div>
     </div>
   )

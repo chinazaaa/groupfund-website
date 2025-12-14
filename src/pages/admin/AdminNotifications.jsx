@@ -83,6 +83,13 @@ export default function AdminNotifications() {
           <div className="admin-loading">Loading notifications...</div>
         ) : (
           <>
+            <div className="admin-stats">
+              <div className="stat-card">
+                <span className="stat-label">Total Notifications</span>
+                <span className="stat-value">{pagination.total || notifications.length}</span>
+              </div>
+            </div>
+
             <div className="admin-table-container">
               <table className="admin-table">
                 <thead>
