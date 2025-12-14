@@ -301,7 +301,7 @@ function UserDetailModal({ user, onClose, onUpdate, onDeactivate }) {
 
           <div className="user-detail-section">
             <h3>Statistics</h3>
-            <p><strong>Transactions:</strong> {user.transaction_count || 0}</p>
+            <p><strong>Contributions:</strong> {user.transaction_count || 0}</p>
           </div>
         </div>
         <div className="modal-footer">
