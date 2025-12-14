@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
             <div className="legal-section">
               <h2>6. Payment Information</h2>
               <p>
-                <strong>Important:</strong> GroupFund does not process payments directly. We do not store your bank account details, credit card information, or payment credentials. All payments are made directly between group members using their preferred payment methods. We only track payment statuses for organizational purposes.
+                <strong>Important:</strong> GroupFund does not process payments directly. We do not store your credit card information, or payment credentials. All payments are made directly between group members using their preferred payment methods. We only track payment statuses for organizational purposes.
               </p>
             </div>
 

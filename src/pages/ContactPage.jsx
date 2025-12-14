@@ -104,14 +104,14 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="social-links">
+              {/* <div className="social-links">
                 <h3>Follow Us</h3>
                 <div className="social-icons">
                   <a href="#" aria-label="Twitter" rel="noopener noreferrer">Twitter</a>
                   <a href="#" aria-label="Facebook" rel="noopener noreferrer">Facebook</a>
                   <a href="#" aria-label="LinkedIn" rel="noopener noreferrer">LinkedIn</a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="contact-form-container">

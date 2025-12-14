@@ -102,7 +102,7 @@ export default function FeaturesPage() {
             <p>Start organizing your group's birthday contributions today. It's free to get started!</p>
             <div className="cta-buttons">
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
-              <a href="#download" className="btn btn-primary btn-large">Download App</a>
+              <Link to="/download" className="btn btn-primary btn-large">Download App</Link>
             </div>
             <div className="app-store-badges">
               <a 

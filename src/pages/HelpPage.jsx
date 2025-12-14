@@ -18,7 +18,7 @@ export default function HelpPage() {
       topics: [
         {
           question: "How do I create my first group?",
-          answer: "Creating a group is easy! Click 'Start Your Free Group' on the homepage, sign up with your email or phone number, and follow the simple setup wizard. You'll be organizing contributions in minutes."
+          answer: "Once we launch, creating a group is easy! Click 'Start Your Free Group' on the homepage, sign up with your email or phone number, and follow the simple setup wizard. You'll be organizing contributions in minutes."
         },
         {
           question: "Do I need to pay to use GroupFund?",
@@ -44,11 +44,11 @@ export default function HelpPage() {
         },
         {
           question: "Can I change contribution amounts?",
-          answer: "Yes, group administrators can update contribution amounts at any time. Changes will be reflected for all future birthdays, and members will be notified of any updates."
+          answer: "This feature is not available in the MVP. In future updates, group administrators will be able to update contribution amounts at any time. Changes will be reflected for all future birthdays, and members will be notified of any updates."
         },
         {
           question: "How do I mark a payment as confirmed?",
-          answer: "When a member marks their payment as 'Paid', the group administrator can verify and mark it as 'Confirmed'. This two-step process ensures accuracy and transparency."
+          answer: "When a member marks their payment as 'Paid', the celebrant can verify and mark it as 'Confirmed'. This two-step process ensures accuracy and transparency."
         }
       ]
     },
@@ -66,7 +66,7 @@ export default function HelpPage() {
         },
         {
           question: "How do I share payment details with members?",
-          answer: "Group administrators can add bank account details or payment instructions in the group settings. These details are visible to all group members for easy reference."
+          answer: "All members can add bank account details in their profile. These details are visible to all group members for easy reference."
         }
       ]
     },
@@ -88,7 +88,7 @@ export default function HelpPage() {
         },
         {
           question: "Can members see each other's information?",
-          answer: "Group members can see who has contributed and payment statuses, but personal payment details and account information remain private to maintain security."
+          answer: "Group members can see who has contributed and payment statuses."
         }
       ]
     },
@@ -116,7 +116,7 @@ export default function HelpPage() {
       topics: [
         {
           question: "The app isn't loading properly. What should I do?",
-          answer: "Try refreshing the page or clearing your browser cache. If the problem persists, make sure you're using a supported browser (Chrome, Firefox, Safari, or Edge) and have a stable internet connection."
+          answer: "Try closing and reopening the app, or restarting your device. Make sure you have a stable internet connection and that your app is updated to the latest version. If the problem persists, try uninstalling and reinstalling the app, or contact support for further assistance."
         },
         {
           question: "I forgot my password. How do I reset it?",

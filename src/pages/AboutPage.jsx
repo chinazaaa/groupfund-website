@@ -28,10 +28,10 @@ export default function AboutPage() {
             <div className="about-section">
               <h2>Our Mission</h2>
               <p>
-                GroupFund was born from a simple frustration: organizing birthday contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. We saw families, churches, schools, and friend groups struggling with the same problems—forgotten payments, unclear amounts, and endless WhatsApp messages.
+                GroupFund was born from a simple frustration: organizing birthday contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. We saw families, churches, schools, and friend groups struggling with the same problems, like forgotten payments, unclear amounts, and endless WhatsApp messages.
               </p>
               <p>
-                Our mission is to bring order, transparency, and fairness to group birthday contributions. We believe that celebrating birthdays should be joyful, not stressful. That's why we built GroupFund—to make organizing contributions effortless so groups can focus on what matters: celebrating together.
+                Our mission is to bring order, transparency, and fairness to group birthday contributions. We believe that celebrating birthdays should be joyful, not stressful. That's why we built GroupFund, to make organizing contributions effortless so groups can focus on what matters: celebrating together.
               </p>
             </div>
 

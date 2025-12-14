@@ -175,7 +175,7 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>14. Governing Law</h2>
               <p>
-                These Terms shall be governed by and construed in accordance with the laws of Nigeria, without regard to its conflict of law provisions. Any disputes arising from these Terms or the Service shall be subject to the exclusive jurisdiction of the courts of Nigeria.
+                These Terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law provisions. Any disputes arising from these Terms or the Service shall be resolved through appropriate legal channels in accordance with your local jurisdiction and applicable international laws.
               </p>
             </div>
 
