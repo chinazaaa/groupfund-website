@@ -886,3 +886,69 @@
   }
 }
 
+/* Confirmation Modal */
+.admin-confirm-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+.admin-confirm-header {
+  padding: 24px 24px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.admin-confirm-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.admin-confirm-body {
+  padding: 24px;
+}
+
+.admin-confirm-body p {
+  margin: 0;
+  font-size: 1rem;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.admin-confirm-footer {
+  display: flex;
+  gap: 12px;
+  padding: 16px 24px 24px;
+  justify-content: flex-end;
+}
+
+.admin-confirm-footer .btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+@media (max-width: 768px) {
+  .admin-confirm-modal {
+    max-width: 90%;
+    margin: 20px;
+  }
+
+  .admin-confirm-footer {
+    flex-direction: column;
+  }
+
+  .admin-confirm-footer .btn {
+    width: 100%;
+  }
+}
+

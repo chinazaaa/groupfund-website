@@ -12,6 +12,7 @@ export default function AdminUsers() {
   const [filters, setFilters] = useState({ is_verified: '', is_admin: '', is_active: '' })
   const [selectedUser, setSelectedUser] = useState(null)
   const [showModal, setShowModal] = useState(false)
+  const [confirmModal, setConfirmModal] = useState({ show: false, message: '', onConfirm: null, action: '' })
 
   useEffect(() => {
     loadUsers()
@@ -72,16 +73,21 @@ export default function AdminUsers() {
 
   const handleDeactivateUser = async (userId, isActive) => {
     const action = isActive ? 'deactivate' : 'activate'
-    if (!confirm(`Are you sure you want to ${action} this user?`)) {
-      return
-    }
-    try {
-      await adminApi.deactivateUser(userId)
-      loadUsers()
-      alert(`User ${action}d successfully`)
-    } catch (err) {
-      alert(`Error ${action}ing user: ` + err.message)
-    }
+    setConfirmModal({
+      show: true,
+      message: `Are you sure you want to ${action} this user?`,
+      action: action,
+      onConfirm: async () => {
+        try {
+          await adminApi.deactivateUser(userId)
+          setConfirmModal({ show: false, message: '', onConfirm: null, action: '' })
+          loadUsers()
+          alert(`User ${action}d successfully`)
+        } catch (err) {
+          alert(`Error ${action}ing user: ` + err.message)
+        }
+      }
+    })
   }
 
   return (
@@ -227,6 +233,16 @@ export default function AdminUsers() {
             onDeactivate={handleDeactivateUser}
           />
         )}
+
+        {/* Confirmation Modal */}
+        {confirmModal.show && (
+          <ConfirmModal
+            message={confirmModal.message}
+            onConfirm={confirmModal.onConfirm}
+            onCancel={() => setConfirmModal({ show: false, message: '', onConfirm: null, action: '' })}
+            action={confirmModal.action}
+          />
+        )}
       </div>
     </AdminLayout>
   )
@@ -324,6 +340,32 @@ function formatCurrency(amount) {
     currency: 'NGN',
     minimumFractionDigits: 2,
   }).format(amount)
+}
+
+function ConfirmModal({ message, onConfirm, onCancel, action }) {
+  return (
+    <div className="admin-modal-overlay" onClick={onCancel}>
+      <div className="admin-confirm-modal" onClick={(e) => e.stopPropagation()}>
+        <div className="admin-confirm-header">
+          <h3>Confirm Action</h3>
+        </div>
+        <div className="admin-confirm-body">
+          <p>{message}</p>
+        </div>
+        <div className="admin-confirm-footer">
+          <button onClick={onCancel} className="btn btn-secondary">
+            Cancel
+          </button>
+          <button 
+            onClick={onConfirm} 
+            className={`btn ${action === 'deactivate' ? 'btn-danger' : 'btn-primary'}`}
+          >
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 function formatDate(dateString) {
