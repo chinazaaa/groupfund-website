@@ -41,6 +41,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/coming-soon-features',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/testimonials',
     priority: '0.8',
     changefreq: 'monthly',
