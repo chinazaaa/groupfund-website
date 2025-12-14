@@ -7,7 +7,7 @@ export default function CareersPage() {
     <>
       <SEO
         title="Careers - Join the GroupFund Team"
-        description="Join GroupFund and help us revolutionize how groups organize birthday contributions. View open positions and learn about our culture."
+        description="Learn about working at GroupFund and our company culture. While we don't have open positions right now, we're always open to hearing from exceptional candidates."
         keywords="careers, jobs, hiring, employment, groupfund careers, software engineer, product designer"
         canonical="https://groupfund.app/careers"
       />
@@ -60,7 +60,10 @@ export default function CareersPage() {
             <div className="legal-section">
               <h2>Open Positions</h2>
               <p>
-                We're always looking for talented people to join our team. Even if you don't see a position that matches your skills, we'd love to hear from you. We're particularly interested in:
+                <strong>We're not currently hiring for specific roles, but we're always open to hearing from exceptional candidates.</strong> If you're passionate about what we're building and think you'd be a great fit, we'd love to hear from you.
+              </p>
+              <p>
+                When we do have openings, we typically look for talented people in these areas:
               </p>
               
               <h3>Engineering</h3>
@@ -92,7 +95,7 @@ export default function CareersPage() {
               </ul>
 
               <p>
-                <strong>Don't see a role that fits?</strong> We're always open to talking with exceptional people. Send us your resume and tell us how you'd like to contribute.
+                Even if we don't have an open position right now, we keep promising applications on file for when opportunities arise. If you're exceptional and excited about GroupFund, send us your resume and tell us how you'd like to contribute.
               </p>
             </div>
 
@@ -131,11 +134,11 @@ export default function CareersPage() {
             <div className="legal-section">
               <h2>How to Apply</h2>
               <p>
-                To apply for a position or express interest in working with us:
+                Even though we don't have open positions right now, we're always interested in connecting with exceptional people. To express interest in working with us:
               </p>
               <p>
                 <strong>Email:</strong> careers@groupfund.app<br />
-                <strong>Subject Line:</strong> [Position Name] Application - [Your Name]
+                <strong>Subject Line:</strong> General Application - [Your Name]
               </p>
               <p>
                 Please include:
@@ -143,8 +146,12 @@ export default function CareersPage() {
               <ul>
                 <li>Your resume or CV</li>
                 <li>A brief note about why you're interested in GroupFund</li>
+                <li>What role or area you're interested in (if applicable)</li>
                 <li>Links to your portfolio, GitHub, or relevant work (if applicable)</li>
               </ul>
+              <p>
+                We'll keep your application on file and reach out if a suitable opportunity arises.
+              </p>
             </div>
 
             <div className="legal-section">

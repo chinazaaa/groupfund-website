@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
@@ -130,6 +130,15 @@ export default function WaitlistPage() {
                   <p className="waitlist-form-subtitle">
                     Fill out the form below and we'll notify you when GroupFund is ready.
                   </p>
+                  
+                  <div className="waitlist-cta">
+                    <p>
+                      Want to know more about GroupFund?{' '}
+                      <Link to="/how-it-works" className="cta-link">
+                        Visit How It Works
+                      </Link>
+                    </p>
+                  </div>
                   
                   <form className="waitlist-form" onSubmit={handleSubmit}>
                     {error && (
