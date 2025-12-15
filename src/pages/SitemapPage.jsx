@@ -34,7 +34,10 @@ export default function SitemapPage() {
       links: [
         { path: "/comparisons", label: "Comparisons Overview" },
         { path: "/comparisons/whatsapp-groups", label: "vs. WhatsApp Groups" },
-        { path: "/comparisons/excel-spreadsheets", label: "vs. Excel Spreadsheets" }
+        { path: "/comparisons/excel-spreadsheets", label: "vs. Excel Spreadsheets" },
+        { path: "/comparisons/google-sheets", label: "vs. Google Sheets" },
+        { path: "/comparisons/manual-methods", label: "vs. Manual Methods" },
+        { path: "/comparisons/splitwise", label: "vs. Splitwise" }
       ]
     },
     {

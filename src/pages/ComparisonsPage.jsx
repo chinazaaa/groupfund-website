@@ -30,15 +30,54 @@ export default function ComparisonsPage() {
         'No manual updates needed'
       ],
       keywords: 'groupfund vs excel, excel vs groupfund, excel alternative'
+    },
+    {
+      slug: 'google-sheets',
+      title: 'GroupFund vs Google Sheets',
+      description: 'Compare GroupFund with Google Sheets. See why automation, mobile access, and birthday-specific features make GroupFund superior.',
+      icon: '📈',
+      keyFeatures: [
+        'Fully automated reminders',
+        'Mobile-first design',
+        'Real-time updates',
+        'Purpose-built for birthdays'
+      ],
+      keywords: 'groupfund vs google sheets, google sheets alternative, better than google sheets'
+    },
+    {
+      slug: 'manual-methods',
+      title: 'GroupFund vs Manual Methods',
+      description: 'Compare GroupFund with manual tracking, cash, and paper methods. See why automation saves time and prevents errors.',
+      icon: '📝',
+      keyFeatures: [
+        'Zero manual work',
+        'Digital record keeping',
+        'Error-free tracking',
+        'Access from anywhere'
+      ],
+      keywords: 'groupfund vs manual tracking, better than cash contributions, automated tracking'
+    },
+    {
+      slug: 'splitwise',
+      title: 'GroupFund vs Splitwise',
+      description: 'Compare GroupFund with Splitwise for birthday contributions. See why GroupFund is purpose-built for birthday celebrations.',
+      icon: '💳',
+      keyFeatures: [
+        'Birthday-specific features',
+        'Automatic birthday reminders',
+        'Birthday calendar',
+        'Member reliability scores'
+      ],
+      keywords: 'groupfund vs splitwise, splitwise alternative, birthday contribution app'
     }
   ]
 
   return (
     <>
       <SEO
-        title="GroupFund Comparisons - vs WhatsApp Groups, Excel Spreadsheets & More"
-        description="Compare GroupFund with WhatsApp groups, Excel spreadsheets, and other alternatives. See why GroupFund is the best choice for organizing birthday contributions."
-        keywords="groupfund comparisons, groupfund vs whatsapp, groupfund vs excel, birthday contribution app comparison, best birthday tracker"
+        title="GroupFund Comparisons - vs WhatsApp Groups, Excel, Google Sheets, Splitwise & More"
+        description="Compare GroupFund with WhatsApp groups, Excel spreadsheets, Google Sheets, Splitwise, and manual methods. See why GroupFund is the best choice for organizing birthday contributions."
+        keywords="groupfund comparisons, groupfund vs whatsapp, groupfund vs excel, groupfund vs google sheets, groupfund vs splitwise, birthday contribution app comparison, best birthday tracker"
         canonical="https://groupfund.app/comparisons"
       />
 
@@ -56,7 +95,7 @@ export default function ComparisonsPage() {
           <div className="comparisons-intro">
             <h2>Why Compare?</h2>
             <p>
-              Many groups start with WhatsApp groups or Excel spreadsheets to organize birthday contributions, but these methods have significant limitations. GroupFund was built specifically to solve the problems these traditional methods create.
+              Many groups start with WhatsApp groups, Excel spreadsheets, Google Sheets, Splitwise, or manual methods to organize birthday contributions, but these methods have significant limitations. GroupFund was built specifically to solve the problems these traditional methods create.
             </p>
             <p>
               Below, you'll find detailed comparisons showing exactly how GroupFund is better than the alternatives. Each comparison includes real-world scenarios and detailed feature breakdowns.
@@ -130,10 +169,16 @@ export default function ComparisonsPage() {
                 <div className="comparison-cell highlight">GroupFund</div>
                 <div className="comparison-cell">WhatsApp Groups</div>
                 <div className="comparison-cell">Excel Spreadsheets</div>
+                <div className="comparison-cell">Google Sheets</div>
+                <div className="comparison-cell">Manual Methods</div>
+                <div className="comparison-cell">Splitwise</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Cost</div>
                 <div className="comparison-cell highlight">Free</div>
+                <div className="comparison-cell">Free</div>
+                <div className="comparison-cell">Free</div>
+                <div className="comparison-cell">Free</div>
                 <div className="comparison-cell">Free</div>
                 <div className="comparison-cell">Free</div>
               </div>
@@ -142,16 +187,25 @@ export default function ComparisonsPage() {
                 <div className="comparison-cell highlight">✓ Yes</div>
                 <div className="comparison-cell">✗ Manual</div>
                 <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ Manual</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Payment Tracking</div>
                 <div className="comparison-cell highlight">✓ Real-time</div>
                 <div className="comparison-cell">✗ Manual</div>
                 <div className="comparison-cell">✗ Manual</div>
+                <div className="comparison-cell">✗ Manual</div>
+                <div className="comparison-cell">✗ Manual</div>
+                <div className="comparison-cell">✓ Yes</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Member Reliability Scores</div>
                 <div className="comparison-cell highlight">✓ Yes</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
                 <div className="comparison-cell">✗ No</div>
                 <div className="comparison-cell">✗ No</div>
               </div>
@@ -160,11 +214,26 @@ export default function ComparisonsPage() {
                 <div className="comparison-cell highlight">✓ Yes</div>
                 <div className="comparison-cell">✗ No</div>
                 <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✓ Yes</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Mobile App</div>
                 <div className="comparison-cell highlight">✓ Yes</div>
                 <div className="comparison-cell">✓ Yes</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">⚠ Limited</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✓ Yes</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Birthday Calendar</div>
+                <div className="comparison-cell highlight">✓ Yes</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
                 <div className="comparison-cell">✗ No</div>
               </div>
               <div className="comparison-row">
@@ -172,6 +241,9 @@ export default function ComparisonsPage() {
                 <div className="comparison-cell highlight">✓ Full</div>
                 <div className="comparison-cell">✗ None</div>
                 <div className="comparison-cell">✗ None</div>
+                <div className="comparison-cell">✗ None</div>
+                <div className="comparison-cell">✗ None</div>
+                <div className="comparison-cell">⚠ Partial</div>
               </div>
             </div>
           </div>

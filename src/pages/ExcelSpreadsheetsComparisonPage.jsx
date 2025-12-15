@@ -350,12 +350,13 @@ export default function ExcelSpreadsheetsComparisonPage() {
 
             {/* Related Comparisons */}
             <div className="related-links">
-              <h3>Other Comparisons</h3>
+              <h3>Related Comparisons</h3>
               <div className="related-links-grid">
                 <Link to="/comparisons">View All Comparisons →</Link>
                 <Link to="/comparisons/whatsapp-groups">GroupFund vs WhatsApp Groups →</Link>
-                <Link to="/features">View All Features →</Link>
-                <Link to="/pricing">See Pricing →</Link>
+                <Link to="/comparisons/google-sheets">GroupFund vs Google Sheets →</Link>
+                <Link to="/comparisons/manual-methods">GroupFund vs Manual Methods →</Link>
+                <Link to="/comparisons/splitwise">GroupFund vs Splitwise →</Link>
               </div>
             </div>
           </div>

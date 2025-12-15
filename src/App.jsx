@@ -37,6 +37,9 @@ import WorkplaceUseCasePage from './pages/WorkplaceUseCasePage'
 import CommunityOrganizationsUseCasePage from './pages/CommunityOrganizationsUseCasePage'
 import WhatsAppGroupsComparisonPage from './pages/WhatsAppGroupsComparisonPage'
 import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparisonPage'
+import GoogleSheetsComparisonPage from './pages/GoogleSheetsComparisonPage'
+import ManualMethodsComparisonPage from './pages/ManualMethodsComparisonPage'
+import SplitwiseComparisonPage from './pages/SplitwiseComparisonPage'
 import ComparisonsPage from './pages/ComparisonsPage'
 import LocationsPage from './pages/LocationsPage'
 import ResourcesPage from './pages/ResourcesPage'
@@ -138,6 +141,9 @@ function App() {
         <Route path="/comparisons" element={<Layout><ComparisonsPage /></Layout>} />
         <Route path="/comparisons/whatsapp-groups" element={<Layout><WhatsAppGroupsComparisonPage /></Layout>} />
         <Route path="/comparisons/excel-spreadsheets" element={<Layout><ExcelSpreadsheetsComparisonPage /></Layout>} />
+        <Route path="/comparisons/google-sheets" element={<Layout><GoogleSheetsComparisonPage /></Layout>} />
+        <Route path="/comparisons/manual-methods" element={<Layout><ManualMethodsComparisonPage /></Layout>} />
+        <Route path="/comparisons/splitwise" element={<Layout><SplitwiseComparisonPage /></Layout>} />
         <Route path="/locations" element={<Layout><LocationsPage /></Layout>} />
         <Route path="/locations/nigeria" element={<Layout><NigeriaLocationPage /></Layout>} />
         <Route path="/locations/lagos" element={<Layout><LagosLocationPage /></Layout>} />

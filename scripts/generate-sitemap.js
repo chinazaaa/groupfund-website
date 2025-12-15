@@ -143,6 +143,24 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/comparisons/google-sheets',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/comparisons/manual-methods',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/comparisons/splitwise',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/locations',
     priority: '0.8',
     changefreq: 'monthly',
