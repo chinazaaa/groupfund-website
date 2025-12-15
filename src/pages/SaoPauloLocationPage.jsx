@@ -1,9 +1,38 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function SaoPauloLocationPage() {
+  useEffect(() => {
+    const localBusinessStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GroupFund",
+      "description": "Organize birthday contributions in São Paulo, Brazil with GroupFund. Perfect for São Paulo families, churches, schools, and groups.",
+      "url": "https://groupfund.app/locations/sao-paulo",
+      "logo": "https://groupfund.app/logo.png",
+      "areaServed": [
+        { "@type": "City", "name": "São Paulo" },
+        { "@type": "Country", "name": "Brazil" }
+      ],
+      "serviceType": "Birthday Contribution Management",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
+      "sameAs": ["https://groupfund.app"]
+    }
+    const existingScript = document.querySelector('script[data-localbusiness-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-localbusiness-schema', 'true')
+    script.textContent = JSON.stringify(localBusinessStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-localbusiness-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO
