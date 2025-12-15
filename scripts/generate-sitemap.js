@@ -13,6 +13,12 @@ const currentDate = new Date().toISOString().split('T')[0]
 
 // Blog post slugs (should match BlogPostPage.jsx)
 const blogPosts = [
+  'managing-group-contributions-during-holiday-seasons',
+  'building-trust-contribution-groups-complete-guide',
+  'handle-contribution-disputes-fairly-professionally',
+  'mobile-first-contribution-management-why-matters',
+  'scaling-contribution-group-5-to-50-members',
+  'psychology-group-contributions-makes-people-pay-time',
   'organize-birthday-contributions-without-stress',
   'why-whatsapp-groups-fail-tracking-payments',
   'best-ways-collect-money-events-nigeria',

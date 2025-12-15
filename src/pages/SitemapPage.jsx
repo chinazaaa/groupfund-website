@@ -121,6 +121,12 @@ export default function SitemapPage() {
     {
       category: "Blog Posts",
       links: [
+        { path: "/blog/managing-group-contributions-during-holiday-seasons", label: "Managing Group Contributions During Holiday Seasons" },
+        { path: "/blog/building-trust-contribution-groups-complete-guide", label: "Building Trust in Contribution Groups: A Complete Guide" },
+        { path: "/blog/handle-contribution-disputes-fairly-professionally", label: "How to Handle Contribution Disputes Fairly and Professionally" },
+        { path: "/blog/mobile-first-contribution-management-why-matters", label: "Mobile-First Contribution Management: Why It Matters" },
+        { path: "/blog/scaling-contribution-group-5-to-50-members", label: "Scaling Your Contribution Group: From 5 to 50 Members" },
+        { path: "/blog/psychology-group-contributions-makes-people-pay-time", label: "The Psychology of Group Contributions: What Makes People Pay on Time" },
         { path: "/blog/organize-birthday-contributions-without-stress", label: "How to Organize Birthday Contributions Without Stress" },
         { path: "/blog/why-whatsapp-groups-fail-tracking-payments", label: "Why WhatsApp Groups Fail at Tracking Group Payments" },
         { path: "/blog/best-ways-collect-money-events-nigeria", label: "The Best Ways to Collect Money for Events in Nigeria" },
