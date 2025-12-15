@@ -184,6 +184,16 @@ export default function HomePage() {
               <h3>Birthday Calendar</h3>
               <p>Never miss a birthday with our integrated calendar view. See all upcoming birthdays at a glance and plan contributions ahead of time.</p>
             </article>
+            <article className="feature-card">
+              <div className="feature-icon-wrapper">
+                <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <h3>Contribution Confirmation</h3>
+              <p>Celebrants can confirm or reject contributions they receive, ensuring transparency and accuracy. Track confirmed payments and handle any discrepancies with clear status updates.</p>
+            </article>
           </div>
         </div>
       </section>
