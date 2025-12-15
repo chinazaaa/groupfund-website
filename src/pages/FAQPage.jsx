@@ -17,11 +17,47 @@ export default function FAQPage() {
     },
     {
       question: "How do I confirm payments?",
-      answer: "When a member makes a payment, they can mark it as 'Paid' in the app. The celebrant can then verify and mark it as 'Confirmed'. This two-step process ensures accuracy. Everyone can also see payment details and timestamps for full transparency."
+      answer: "When a member makes a payment, they can mark it as 'Paid' in the app. The celebrant can then verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. This two-step process ensures accuracy. Everyone can also see payment details and timestamps for full transparency."
+    },
+    {
+      question: "What is a member reliability score?",
+      answer: "Member reliability scores (0-100) help you make informed decisions about joining groups. The score is based on a member's total contributions, on-time payment rate, total groups joined, and overdue contributions. Members are rated as Excellent, Good, Moderate, Poor, or New. You can view these scores before joining a group to ensure you're joining reliable members."
+    },
+    {
+      question: "What is group health scoring?",
+      answer: "Group health scoring tracks compliance metrics and overall group performance. It shows how well a group maintains contribution standards, member participation rates, and overall reliability. Groups with higher health scores are more likely to have consistent contributions and active members. You can preview a group's health score before joining."
+    },
+    {
+      question: "Can I preview a group before joining?",
+      answer: "Yes! When you receive an invite code, you can preview the group details including member reliability scores, group health metrics, contribution amounts, currency, and maximum group size. This helps you make an informed decision before requesting to join."
+    },
+    {
+      question: "How do I pause accepting new members to my group?",
+      answer: "Group administrators can pause accepting new member requests at any time. This is useful when you want to temporarily stop new members from joining. You can resume accepting requests whenever you're ready. This doesn't affect existing members or their contributions."
+    },
+    {
+      question: "Can I close a group?",
+      answer: "Yes, group administrators can close a group, which freezes all activity including new member requests and contributions. This is useful when a group has reached its goal or is no longer active. You can reopen closed groups at any time if needed."
+    },
+    {
+      question: "What notification types does GroupFund send?",
+      answer: "GroupFund sends various notifications including birthday wishes, birthday reminders (7 days before, 1 day before, and on the same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize your notification preferences in settings."
+    },
+    {
+      question: "How does OTP verification work?",
+      answer: "When you sign up, you'll receive a One-Time Password (OTP) via email to verify your account. Enter the OTP code to complete verification. If you don't receive it, you can request a resend. OTP verification ensures account security and helps prevent unauthorized access."
+    },
+    {
+      question: "Can I see past birthdays and contribution history?",
+      answer: "Yes! The birthday calendar shows both upcoming and past birthdays. You can view complete contribution history for each member, including received contributions, payment confirmations, and overdue contributions. This helps maintain transparency and track long-term participation."
+    },
+    {
+      question: "What happens if a celebrant rejects a contribution?",
+      answer: "If a celebrant marks a contribution as 'Not Received', the status changes to 'Not Received' and the member will be notified. The member can then follow up to resolve the issue. This two-step confirmation system (Paid → Confirmed/Not Received) ensures accuracy and helps resolve payment disputes."
     },
     {
       question: "What happens if someone doesn't pay?",
-      answer: "GroupFund sends automatic reminders 7 days before each birthday and on the deadline day. If someone still doesn't pay, the group administrator can see their status clearly marked as 'Not Paid'. The app provides helpful recaps showing payment progress (e.g., '8 out of 10 members have paid'). This transparency helps people follow up appropriately while maintaining fairness."
+      answer: "GroupFund sends automatic reminders 7 days before each birthday, 1 day before, and on the deadline day. If someone still doesn't pay, the system tracks it as an overdue contribution and sends additional reminders. The group administrator can see their status clearly marked as 'Not Paid' or 'Overdue'. The app provides helpful recaps showing payment progress (e.g., '8 out of 10 members have paid'). This transparency helps people follow up appropriately while maintaining fairness. Overdue contributions also affect member reliability scores."
     },
     {
       question: "Is there a limit to group size?",
@@ -65,8 +101,8 @@ export default function FAQPage() {
     <>
       <SEO
         title="GroupFund FAQ - Frequently Asked Questions About Birthday Contributions"
-        description="Get answers to common questions about GroupFund: Is my money safe? Can I use any currency? How do I confirm payments? What happens if someone doesn't pay? Learn more about our birthday contribution app."
-        keywords="groupfund FAQ, birthday app questions, group payment FAQ, is groupfund safe, currency support, payment confirmation, Nigeria"
+        description="Get answers to common questions about GroupFund: member reliability scores, group health metrics, payment confirmation, OTP verification, group management, notifications, and more. Learn everything about our birthday contribution app."
+        keywords="groupfund FAQ, birthday app questions, member reliability scores, group health metrics, group payment FAQ, is groupfund safe, currency support, payment confirmation, OTP verification, Nigeria"
         canonical="https://groupfund.app/faq"
       />
 

@@ -7,39 +7,45 @@ export default function HowItWorksPage() {
   const steps = [
     {
       number: '1',
-      title: 'Create Your Group',
-      description: 'Start by creating a group and giving it a name. You can create groups for your family, church, school, or any friend circle.',
-      icon: '👥'
+      title: 'Sign Up & Verify',
+      description: 'Create your account with email or phone number. Verify your account with OTP (One-Time Password) sent to your email. Set up your profile and add your birthday.',
+      icon: '🔐'
     },
     {
       number: '2',
-      title: 'Add Members',
-      description: 'Share your group invite code with people you want to join. They can use the code to request to join your group, and you can approve or reject their invitation.',
-      icon: '➕'
+      title: 'Create or Join Groups',
+      description: 'Create your own group or preview existing groups using invite codes. See member reliability scores and group health metrics before joining to make informed decisions.',
+      icon: '👥'
     },
     {
       number: '3',
       title: 'Set Amount & Currency',
-      description: 'Choose a fixed contribution amount per person (e.g., ₦5,000) and select your preferred currency (NGN, USD, GBP, EUR, etc.).',
+      description: 'Choose a fixed contribution amount per person (e.g., ₦5,000) and select your preferred currency (NGN, USD, GBP, EUR, etc.). Set maximum group size to calculate total commitment.',
       icon: '💰'
     },
     {
       number: '4',
-      title: 'Add Birthdays',
-      description: 'Each member adds their own birthday date when they sign up. The app will automatically track upcoming birthdays and calculate contribution deadlines.',
-      icon: '🎂'
+      title: 'Manage Members',
+      description: 'Approve or reject member requests based on their reliability scores. View member metrics: total groups joined, contributions made, on-time payment rates, and reliability ratings.',
+      icon: '✅'
     },
     {
       number: '5',
-      title: 'Track Payments',
-      description: 'Monitor payment statuses in real-time. See who has paid (Paid/Confirmed) and who still needs to contribute (Not Paid).',
-      icon: '📊'
+      title: 'Track Birthdays & Contributions',
+      description: 'View upcoming and past birthdays in the calendar. Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track overdue contributions automatically.',
+      icon: '🎂'
     },
     {
       number: '6',
-      title: 'Get Automatic Reminders',
-      description: 'Receive automatic reminders 7 days before each birthday and on the deadline day. Get helpful recaps showing payment progress.',
+      title: 'Get Smart Notifications',
+      description: 'Receive automatic reminders 7 days before, 1 day before, and on the birthday deadline. Get in-app and push notifications for birthdays, overdue contributions, member requests, and confirmations.',
       icon: '🔔'
+    },
+    {
+      number: '7',
+      title: 'Monitor Group Health',
+      description: 'Track group compliance metrics and health ratings. See how well your group maintains contribution standards. Pause/resume accepting members or close/reopen groups as needed.',
+      icon: '📈'
     }
   ]
 
@@ -47,8 +53,8 @@ export default function HowItWorksPage() {
     <>
       <SEO
         title="How GroupFund Works - Simple Steps to Organize Birthday Contributions"
-        description="Learn how GroupFund works in 6 simple steps: create group, add members, set amount/currency, track payments, get reminders. Perfect for families, churches, and groups in Nigeria."
-        keywords="how groupfund works, birthday contribution app, group payment tracking, how to organize birthday contributions, group wallet tutorial, Nigeria"
+        description="Learn how GroupFund works in 7 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, and monitor group health. Perfect for families, churches, and groups in Nigeria."
+        keywords="how groupfund works, birthday contribution app, group payment tracking, member reliability scores, group health metrics, how to organize birthday contributions, group wallet tutorial, Nigeria"
         canonical="https://groupfund.app/how-it-works"
       />
 

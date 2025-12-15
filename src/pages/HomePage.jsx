@@ -35,9 +35,9 @@ export default function HomePage() {
         storeName={storeName}
       />
       <SEO
-        title="GroupFund - Organize Group Birthday Contributions | Track Payments & Reminders"
-        description="End birthday contribution chaos for families, churches, and groups. Track who paid, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
-        keywords="birthday contributions, group payments, birthday tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
+        title="GroupFund - Organize Group Birthday Contributions | Member Reliability & Group Health"
+        description="End birthday contribution chaos for families, churches, and groups. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
+        keywords="birthday contributions, group payments, member reliability scores, group health metrics, birthday tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
         canonical="https://groupfund.app/"
       />
 
@@ -56,7 +56,7 @@ export default function HomePage() {
               End Birthday Contribution Chaos Forever
             </h1>
             <p className="hero-subheadline">
-              The smart way to organize group birthday contributions. Track payments in real-time, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.
+              The smart way to organize group birthday contributions. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.
             </p>
             <div className="hero-features">
               <div className="feature-tag">
@@ -142,7 +142,25 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Real-Time Status Tracking</h3>
-              <p>See contribution statuses at a glance: Not Paid, Paid, or Confirmed. Know exactly who has paid and who still needs a gentle reminder.</p>
+              <p>See contribution statuses at a glance: Not Paid, Paid (awaiting confirmation), Confirmed, or Not Received. Know exactly who has paid and who still needs a gentle reminder.</p>
+            </article>
+            <article className="feature-card">
+              <div className="feature-icon-wrapper">
+                <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <h3>Member Reliability Scores</h3>
+              <p>See member reliability scores (0-100) and ratings before joining groups. View total contributions, on-time payment rates, and make informed decisions about group participation.</p>
+            </article>
+            <article className="feature-card">
+              <div className="feature-icon-wrapper">
+                <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M3 3h18v18H3zM9 9h6v6H9z"/>
+                </svg>
+              </div>
+              <h3>Group Health Metrics</h3>
+              <p>Track group compliance metrics and health ratings. Preview groups before joining to see how well they maintain contribution standards and member participation.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">

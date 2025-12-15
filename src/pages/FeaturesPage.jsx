@@ -31,33 +31,83 @@ export default function FeaturesPage() {
       icon: "👥"
     },
     {
+      title: "Member Reliability Metrics",
+      description: "See member reliability scores (0-100) before joining groups. View total contributions, on-time payment rates, and member ratings (excellent/good/moderate/poor/new) to make informed decisions.",
+      icon: "⭐"
+    },
+    {
+      title: "Group Health Scoring",
+      description: "Track group compliance metrics and health ratings. See how well groups maintain contribution standards and make data-driven decisions about which groups to join.",
+      icon: "📈"
+    },
+    {
+      title: "Preview Groups Before Joining",
+      description: "Preview group details, member reliability scores, and group health metrics before requesting to join. Make informed decisions about group participation.",
+      icon: "👀"
+    },
+    {
+      title: "Advanced Group Controls",
+      description: "Pause or resume accepting new member requests, close groups to freeze all activity, or reopen closed groups. Full control over your group's status and membership.",
+      icon: "🎛️"
+    },
+    {
       title: "Automatic Reminders",
-      description: "Get smart reminders 7 days before each birthday and on the deadline day. Never miss a contribution deadline again.",
+      description: "Get smart reminders 7 days before each birthday, 1 day before, and on the deadline day. Never miss a contribution deadline again.",
       icon: "🔔"
     },
     {
+      title: "In-App & Push Notifications",
+      description: "Receive in-app notifications and push notifications for birthday wishes, reminders, overdue contributions, member requests, confirmations, and group updates. Mark as read and manage preferences.",
+      icon: "📱"
+    },
+    {
+      title: "Email Notifications",
+      description: "Get email notifications for OTP verification, password resets, birthday wishes, reminders (7 days, 1 day, same day), overdue contributions, and comprehensive birthday summaries.",
+      icon: "📧"
+    },
+    {
       title: "Real-Time Payment Tracking",
-      description: "See payment statuses at a glance: Not Paid, Paid, or Confirmed. Know exactly who has contributed and who still needs to.",
+      description: "See payment statuses at a glance: Not Paid, Paid (awaiting confirmation), Confirmed, or Not Received. Know exactly who has contributed and who still needs to.",
       icon: "📊"
     },
     {
       title: "Payment Progress Recaps",
-      description: "Get helpful updates like '8 out of 10 members have paid for John's birthday.' Stay informed about contribution progress.",
+      description: "Get helpful updates like '8 out of 10 members have paid for John's birthday.' Stay informed about contribution progress in real-time.",
       icon: "📈"
     },
     {
-      title: "Birthday Calendar",
-      description: "Never miss a birthday with our integrated calendar view. See all upcoming birthdays and plan contributions ahead of time.",
+      title: "Contribution Confirmation System",
+      description: "Members mark contributions as 'Paid', then celebrants can confirm receipt or reject if not received. Two-step verification ensures accuracy and transparency.",
+      icon: "✅"
+    },
+    {
+      title: "Birthday Calendar & History",
+      description: "Never miss a birthday with our integrated calendar view. See all upcoming and past birthdays, plan contributions ahead of time, and track contribution history.",
       icon: "📅"
     },
     {
+      title: "Overdue Contributions Tracking",
+      description: "Automatically track overdue contributions and send reminders. See which members have missed deadlines and get notified about overdue payments.",
+      icon: "⏰"
+    },
+    {
       title: "Transparent History",
-      description: "View complete contribution history for each member. Export records for your own record-keeping and transparency.",
+      description: "View complete contribution history for each member. See received contributions, payment confirmations, and export records for your own record-keeping and transparency.",
       icon: "📋"
     },
     {
+      title: "Secure Authentication",
+      description: "Sign up with email or phone, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP and manage your profile securely.",
+      icon: "🔐"
+    },
+    {
+      title: "User Profile Management",
+      description: "View and update your profile information, manage account settings, and control your verification status. Full control over your account details.",
+      icon: "👤"
+    },
+    {
       title: "Easy Group Management",
-      description: "Approve or reject member requests, manage group settings, and let members add their own birthdays. Simple and intuitive.",
+      description: "Approve or reject member requests, update group settings (name, amount, max members), remove members, and let members add their own birthdays. Simple and intuitive.",
       icon: "⚙️"
     }
   ]
@@ -70,9 +120,9 @@ export default function FeaturesPage() {
         storeName={storeName}
       />
       <SEO
-        title="GroupFund Features - Multi-Currency, Reminders, Payment Tracking & More"
-        description="Discover GroupFund's powerful features: multi-currency support, automatic reminders, real-time payment tracking, fixed amounts, max group size, and more. Perfect for organizing birthday contributions."
-        keywords="groupfund features, birthday app features, multi-currency payments, payment tracking, automatic reminders, group contribution app, Nigeria"
+        title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & More"
+        description="Discover GroupFund's powerful features: member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more. Perfect for organizing birthday contributions."
+        keywords="groupfund features, birthday app features, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders, group contribution app, Nigeria"
         canonical="https://groupfund.app/features"
       />
 

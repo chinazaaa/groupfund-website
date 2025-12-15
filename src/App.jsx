@@ -27,6 +27,12 @@ import SitemapPage from './pages/SitemapPage'
 import WaitlistPage from './pages/WaitlistPage'
 import DeleteAccountPage from './pages/DeleteAccountPage'
 import NotFoundPage from './pages/NotFoundPage'
+import UseCasesPage from './pages/UseCasesPage'
+import FamiliesUseCasePage from './pages/FamiliesUseCasePage'
+import ChurchesUseCasePage from './pages/ChurchesUseCasePage'
+import SchoolsUseCasePage from './pages/SchoolsUseCasePage'
+import FriendGroupsUseCasePage from './pages/FriendGroupsUseCasePage'
+import WorkplaceUseCasePage from './pages/WorkplaceUseCasePage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -70,6 +76,12 @@ function App() {
         <Route path="/sitemap" element={<Layout><SitemapPage /></Layout>} />
         <Route path="/waitlist" element={<Layout><WaitlistPage /></Layout>} />
         <Route path="/delete-account" element={<Layout><DeleteAccountPage /></Layout>} />
+        <Route path="/use-cases" element={<Layout><UseCasesPage /></Layout>} />
+        <Route path="/use-cases/families" element={<Layout><FamiliesUseCasePage /></Layout>} />
+        <Route path="/use-cases/churches" element={<Layout><ChurchesUseCasePage /></Layout>} />
+        <Route path="/use-cases/schools" element={<Layout><SchoolsUseCasePage /></Layout>} />
+        <Route path="/use-cases/friend-groups" element={<Layout><FriendGroupsUseCasePage /></Layout>} />
+        <Route path="/use-cases/workplace" element={<Layout><WorkplaceUseCasePage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

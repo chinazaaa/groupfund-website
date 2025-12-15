@@ -63,10 +63,22 @@ export default function SecurityPage() {
               <h2>Account Security</h2>
               <h3>Authentication</h3>
               <ul>
-                <li><strong>Secure Passwords:</strong> We require strong passwords and use secure hashing algorithms to store them</li>
+                <li><strong>Secure Signup:</strong> Sign up with email or phone number. All accounts require verification before activation</li>
+                <li><strong>OTP Verification:</strong> One-Time Password (OTP) verification via email ensures account authenticity. You'll receive an OTP code when signing up or when verification is required. OTPs expire after a short period for security</li>
+                <li><strong>Secure Passwords:</strong> We require strong passwords and use secure hashing algorithms to store them. Passwords are never stored in plain text</li>
+                <li><strong>Password Reset:</strong> Reset passwords securely via OTP sent to your email. This ensures only authorized users can reset account passwords</li>
+                <li><strong>JWT Authentication:</strong> Secure login using JSON Web Tokens (JWT) that are cryptographically signed and expire after periods of inactivity</li>
                 <li><strong>Multi-Factor Authentication:</strong> Available as an additional layer of security for your account</li>
-                <li><strong>Session Management:</strong> Secure session tokens that expire after periods of inactivity</li>
+                <li><strong>Session Management:</strong> Secure session tokens that expire after periods of inactivity. You'll be automatically logged out for security</li>
                 <li><strong>Device Recognition:</strong> We monitor for suspicious login attempts from unrecognized devices</li>
+              </ul>
+
+              <h3>User Verification System</h3>
+              <ul>
+                <li>All users must verify their accounts via OTP before full access is granted</li>
+                <li>User verification status is displayed on profiles to build trust within groups</li>
+                <li>Users can resend OTP codes if they don't receive them initially</li>
+                <li>Account status (active/inactive) is managed to ensure only active users participate in groups</li>
               </ul>
 
               <h3>Access Controls</h3>
@@ -97,6 +109,26 @@ export default function SecurityPage() {
             </div>
 
             <div className="legal-section">
+              <h2>Email System Security</h2>
+              <p>
+                GroupFund uses a secure email service (Resend) to send important communications:
+              </p>
+              <ul>
+                <li><strong>OTP Emails:</strong> Secure One-Time Password codes sent for account verification and password resets</li>
+                <li><strong>Password Reset Emails:</strong> Secure links and OTP codes for password recovery</li>
+                <li><strong>Birthday Wish Emails:</strong> Automated birthday wishes sent to celebrants</li>
+                <li><strong>Birthday Reminder Emails:</strong> Reminders sent 7 days before, 1 day before, and on the birthday deadline</li>
+                <li><strong>Overdue Contribution Reminders:</strong> Notifications about missed payment deadlines</li>
+                <li><strong>Comprehensive Birthday Reminders:</strong> Summary emails with multiple upcoming birthdays</li>
+                <li><strong>Contact Form Confirmations:</strong> Confirmation emails when you contact support</li>
+                <li><strong>Waitlist Confirmations:</strong> Confirmation emails when joining the waitlist</li>
+              </ul>
+              <p>
+                All emails are sent through secure, encrypted channels. We never share your email address with third parties except for email delivery services. You can customize email notification preferences in your account settings.
+              </p>
+            </div>
+
+            <div className="legal-section">
               <h2>Privacy Protection</h2>
               <p>
                 We are committed to protecting your privacy. Our privacy practices include:
@@ -107,6 +139,7 @@ export default function SecurityPage() {
                 <li><strong>Access Controls:</strong> Only authorized personnel have access to user data, and access is logged and monitored</li>
                 <li><strong>Data Retention:</strong> We only retain your data for as long as necessary to provide our services</li>
                 <li><strong>Right to Deletion:</strong> You can delete your account and all associated data at any time</li>
+                <li><strong>Profile Management:</strong> You have full control over your profile information and can update it at any time</li>
               </ul>
               <p>
                 For more details, please review our <a href="/privacy">Privacy Policy</a>.

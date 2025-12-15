@@ -397,6 +397,224 @@
   line-height: 1.7;
 }
 
+.use-case-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.use-case-description {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.use-case-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  text-align: left;
+}
+
+.use-case-benefits li {
+  padding: 8px 0 8px 24px;
+  position: relative;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+.use-case-benefits li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #6366f1;
+  font-weight: 700;
+}
+
+/* Use Cases Page */
+.use-cases-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.use-cases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+/* Use Case Detail Page */
+.use-case-detail-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.use-case-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.use-case-section {
+  margin-bottom: 60px;
+}
+
+.use-case-section h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.use-case-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.use-case-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.feature-item {
+  background: #f8fafc;
+  padding: 24px;
+  border-radius: 12px;
+  border-left: 4px solid #6366f1;
+}
+
+.feature-item h3 {
+  margin-bottom: 8px;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.scenarios-list,
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.scenarios-list li,
+.benefits-list li {
+  padding: 12px 0 12px 32px;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.scenarios-list li::before,
+.benefits-list li::before {
+  content: '•';
+  position: absolute;
+  left: 12px;
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  counter-reset: step-counter;
+}
+
+.steps-list li {
+  padding: 20px 0 20px 60px;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.steps-list li:last-child {
+  border-bottom: none;
+}
+
+.steps-list li::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.steps-list li strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.related-links {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid #e2e8f0;
+}
+
+.related-links h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.related-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.related-links-grid a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #f8fafc;
+  color: #6366f1;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.related-links-grid a:hover {
+  background: #6366f1;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
 /* Social Proof Section */
 .social-proof {
   padding: 100px 0;
@@ -1424,6 +1642,41 @@
 
   .cta-buttons .btn {
     width: 100%;
+  }
+
+  .use-cases-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .use-case-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .use-case-section h3 {
+    font-size: 1.25rem;
+  }
+
+  .features-list {
+    gap: 16px;
+  }
+
+  .feature-item {
+    padding: 20px;
+  }
+
+  .steps-list li {
+    padding-left: 50px;
+  }
+
+  .steps-list li::before {
+    width: 32px;
+    height: 32px;
+    font-size: 0.95rem;
+  }
+
+  .related-links-grid {
+    grid-template-columns: 1fr;
   }
 }
 
