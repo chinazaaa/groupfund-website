@@ -1,28 +1,55 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import Breadcrumbs from './Breadcrumbs'
 import './Layout.css'
 
 export default function Layout({ children }) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false)
+  }
+
   return (
     <div className="App">
       {/* Navigation */}
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <div className="container">
           <div className="nav-content">
-            <Link to="/" className="logo" style={{ textDecoration: 'none' }}>
+            <Link to="/" className="logo" style={{ textDecoration: 'none' }} onClick={closeMobileMenu}>
               <img src="/logo.png" alt="GroupFund" className="logo-img" />
             </Link>
-            <div className="nav-links">
-              <Link to="/how-it-works" className="nav-link">How It Works</Link>
-              <Link to="/features" className="nav-link">Features</Link>
-              <Link to="/blog" className="nav-link">Blog</Link>
-              <Link to="/faq" className="nav-link">FAQ</Link>
-              <Link to="/about" className="nav-link">About</Link>
-              <Link to="/contact" className="nav-cta" style={{ textDecoration: 'none' }}>Contact</Link>
+            <button 
+              className="mobile-menu-toggle" 
+              onClick={toggleMobileMenu}
+              aria-label="Toggle mobile menu"
+              aria-expanded={mobileMenuOpen}
+            >
+              <span className={mobileMenuOpen ? 'hamburger open' : 'hamburger'}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+            <div className={`nav-links ${mobileMenuOpen ? 'mobile-open' : ''}`}>
+              <Link to="/how-it-works" className="nav-link" onClick={closeMobileMenu}>How It Works</Link>
+              <Link to="/features" className="nav-link" onClick={closeMobileMenu}>Features</Link>
+              <Link to="/blog" className="nav-link" onClick={closeMobileMenu}>Blog</Link>
+              <Link to="/faq" className="nav-link" onClick={closeMobileMenu}>FAQ</Link>
+              <Link to="/about" className="nav-link" onClick={closeMobileMenu}>About</Link>
+              <Link to="/contact" className="nav-cta" style={{ textDecoration: 'none' }} onClick={closeMobileMenu}>Contact</Link>
             </div>
           </div>
         </div>
       </nav>
+      {/* Mobile Menu Overlay */}
+      {mobileMenuOpen && (
+        <div className="mobile-menu-overlay" onClick={closeMobileMenu}></div>
+      )}
 
       {/* Breadcrumbs */}
       <Breadcrumbs />

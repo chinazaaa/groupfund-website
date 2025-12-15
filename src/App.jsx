@@ -65,6 +65,25 @@ import IrelandLocationPage from './pages/IrelandLocationPage'
 import FranceLocationPage from './pages/FranceLocationPage'
 import NetherlandsLocationPage from './pages/NetherlandsLocationPage'
 import SwitzerlandLocationPage from './pages/SwitzerlandLocationPage'
+import NewYorkLocationPage from './pages/NewYorkLocationPage'
+import TorontoLocationPage from './pages/TorontoLocationPage'
+import SydneyLocationPage from './pages/SydneyLocationPage'
+import AccraLocationPage from './pages/AccraLocationPage'
+import JohannesburgLocationPage from './pages/JohannesburgLocationPage'
+import SaoPauloLocationPage from './pages/SaoPauloLocationPage'
+import BerlinLocationPage from './pages/BerlinLocationPage'
+import DublinLocationPage from './pages/DublinLocationPage'
+import ParisLocationPage from './pages/ParisLocationPage'
+import AmsterdamLocationPage from './pages/AmsterdamLocationPage'
+import ZurichLocationPage from './pages/ZurichLocationPage'
+import UnitedKingdomLocationPage from './pages/UnitedKingdomLocationPage'
+import IndiaLocationPage from './pages/IndiaLocationPage'
+import KenyaLocationPage from './pages/KenyaLocationPage'
+import MexicoLocationPage from './pages/MexicoLocationPage'
+import LondonLocationPage from './pages/LondonLocationPage'
+import MumbaiLocationPage from './pages/MumbaiLocationPage'
+import NairobiLocationPage from './pages/NairobiLocationPage'
+import MexicoCityLocationPage from './pages/MexicoCityLocationPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -133,6 +152,25 @@ function App() {
         <Route path="/locations/france" element={<Layout><FranceLocationPage /></Layout>} />
         <Route path="/locations/netherlands" element={<Layout><NetherlandsLocationPage /></Layout>} />
         <Route path="/locations/switzerland" element={<Layout><SwitzerlandLocationPage /></Layout>} />
+        <Route path="/locations/new-york" element={<Layout><NewYorkLocationPage /></Layout>} />
+        <Route path="/locations/toronto" element={<Layout><TorontoLocationPage /></Layout>} />
+        <Route path="/locations/sydney" element={<Layout><SydneyLocationPage /></Layout>} />
+        <Route path="/locations/accra" element={<Layout><AccraLocationPage /></Layout>} />
+        <Route path="/locations/johannesburg" element={<Layout><JohannesburgLocationPage /></Layout>} />
+        <Route path="/locations/sao-paulo" element={<Layout><SaoPauloLocationPage /></Layout>} />
+        <Route path="/locations/berlin" element={<Layout><BerlinLocationPage /></Layout>} />
+        <Route path="/locations/dublin" element={<Layout><DublinLocationPage /></Layout>} />
+        <Route path="/locations/paris" element={<Layout><ParisLocationPage /></Layout>} />
+        <Route path="/locations/amsterdam" element={<Layout><AmsterdamLocationPage /></Layout>} />
+        <Route path="/locations/zurich" element={<Layout><ZurichLocationPage /></Layout>} />
+        <Route path="/locations/united-kingdom" element={<Layout><UnitedKingdomLocationPage /></Layout>} />
+        <Route path="/locations/india" element={<Layout><IndiaLocationPage /></Layout>} />
+        <Route path="/locations/kenya" element={<Layout><KenyaLocationPage /></Layout>} />
+        <Route path="/locations/mexico" element={<Layout><MexicoLocationPage /></Layout>} />
+        <Route path="/locations/london" element={<Layout><LondonLocationPage /></Layout>} />
+        <Route path="/locations/mumbai" element={<Layout><MumbaiLocationPage /></Layout>} />
+        <Route path="/locations/nairobi" element={<Layout><NairobiLocationPage /></Layout>} />
+        <Route path="/locations/mexico-city" element={<Layout><MexicoCityLocationPage /></Layout>} />
         <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} />
         <Route path="/resources/how-to-organize-birthday-contributions" element={<Layout><HowToOrganizeBirthdayContributionsPage /></Layout>} />
         <Route path="/resources/birthday-contribution-etiquette" element={<Layout><BirthdayContributionEtiquettePage /></Layout>} />
