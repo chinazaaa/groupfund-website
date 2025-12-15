@@ -3517,6 +3517,263 @@
   }
 }
 
+/* Resources Page */
+.resources-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.resources-intro {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.resources-intro h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.resources-intro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+.category-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.category-filter {
+  padding: 10px 20px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-filter:hover {
+  border-color: #6366f1;
+  color: #6366f1;
+}
+
+.category-filter.active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: white;
+}
+
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.guide-card {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 32px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.12);
+  border-color: #6366f1;
+}
+
+.guide-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.guide-category {
+  display: inline-block;
+  padding: 6px 16px;
+  background: #f0f4ff;
+  color: #6366f1;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  width: fit-content;
+}
+
+.guide-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.guide-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #64748b;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.guide-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.guide-read-time {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.guide-card .btn {
+  width: 100%;
+  margin-top: auto;
+}
+
+/* Resource Detail Page */
+.resource-detail-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.resource-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.resource-meta {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.resource-category {
+  padding: 6px 16px;
+  background: #f0f4ff;
+  color: #6366f1;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.resource-read-time {
+  padding: 6px 16px;
+  background: #f8fafc;
+  color: #64748b;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.resource-section {
+  margin-bottom: 48px;
+}
+
+.resource-section h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.resource-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.resource-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.resource-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.resource-list li {
+  padding: 12px 0 12px 32px;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.resource-list li::before {
+  content: '•';
+  position: absolute;
+  left: 12px;
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.resource-list li strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.formula-box {
+  background: #f8fafc;
+  border-left: 4px solid #6366f1;
+  padding: 24px;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.formula-box p {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+/* Responsive Resources */
+@media (max-width: 768px) {
+  .guides-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-filters {
+    justify-content: flex-start;
+  }
+
+  .resource-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .resource-section h3 {
+    font-size: 1.25rem;
+  }
+}
+
 .sitemap-note p {
   color: #64748b;
   font-size: 0.95rem;

@@ -44,6 +44,8 @@ import HowToOrganizeBirthdayContributionsPage from './pages/HowToOrganizeBirthda
 import BirthdayContributionEtiquettePage from './pages/BirthdayContributionEtiquettePage'
 import CalculatingGroupContributionsPage from './pages/CalculatingGroupContributionsPage'
 import MultiCurrencyGroupPaymentsPage from './pages/MultiCurrencyGroupPaymentsPage'
+import ManagingLargeGroupContributionsPage from './pages/ManagingLargeGroupContributionsPage'
+import AvoidingBirthdayContributionMistakesPage from './pages/AvoidingBirthdayContributionMistakesPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -130,6 +132,8 @@ function App() {
         <Route path="/resources/birthday-contribution-etiquette" element={<Layout><BirthdayContributionEtiquettePage /></Layout>} />
         <Route path="/resources/calculating-group-contributions" element={<Layout><CalculatingGroupContributionsPage /></Layout>} />
         <Route path="/resources/multi-currency-group-payments" element={<Layout><MultiCurrencyGroupPaymentsPage /></Layout>} />
+        <Route path="/resources/managing-large-group-contributions" element={<Layout><ManagingLargeGroupContributionsPage /></Layout>} />
+        <Route path="/resources/avoiding-birthday-contribution-mistakes" element={<Layout><AvoidingBirthdayContributionMistakesPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
