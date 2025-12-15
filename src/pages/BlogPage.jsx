@@ -6,6 +6,54 @@ import '../App.css'
 export default function BlogPage() {
   const blogPosts = [
     {
+      title: "Managing Group Contributions During Holiday Seasons",
+      excerpt: "Holiday seasons bring unique challenges for group contributions. Learn how to navigate increased expenses, busy schedules, and gift coordination while maintaining group harmony during festive periods.",
+      date: "December 15, 2025",
+      readTime: "6 min read",
+      slug: "managing-group-contributions-during-holiday-seasons",
+      keywords: "holiday contributions, group payments holidays, managing contributions festive season"
+    },
+    {
+      title: "Building Trust in Contribution Groups: A Complete Guide",
+      excerpt: "Trust is the foundation of successful contribution groups. Discover practical strategies for building and maintaining trust, from transparent communication to reliable payment tracking systems.",
+      date: "December 15, 2025",
+      readTime: "7 min read",
+      slug: "building-trust-contribution-groups-complete-guide",
+      keywords: "trust in groups, contribution group trust, building group trust, payment transparency"
+    },
+    {
+      title: "How to Handle Contribution Disputes Fairly and Professionally",
+      excerpt: "Disputes are inevitable in group contributions. Learn proven strategies for resolving payment disagreements, handling misunderstandings, and maintaining group relationships when conflicts arise.",
+      date: "December 15, 2025",
+      readTime: "6 min read",
+      slug: "handle-contribution-disputes-fairly-professionally",
+      keywords: "contribution disputes, payment conflicts, resolving group disputes, fair dispute resolution"
+    },
+    {
+      title: "Mobile-First Contribution Management: Why It Matters",
+      excerpt: "Most people manage contributions on their phones. Discover why mobile-first design is crucial for contribution tools and how it improves participation rates and user experience.",
+      date: "December 15, 2025",
+      readTime: "5 min read",
+      slug: "mobile-first-contribution-management-why-matters",
+      keywords: "mobile contribution management, mobile payment tracking, smartphone contributions"
+    },
+    {
+      title: "Scaling Your Contribution Group: From 5 to 50 Members",
+      excerpt: "Growing a contribution group requires different strategies than managing a small circle. Learn how to scale your group effectively, maintain organization, and keep the personal touch as you grow.",
+      date: "December 15, 2025",
+      readTime: "8 min read",
+      slug: "scaling-contribution-group-5-to-50-members",
+      keywords: "scaling contribution groups, large group management, growing contribution groups"
+    },
+    {
+      title: "The Psychology of Group Contributions: What Makes People Pay on Time",
+      excerpt: "Understanding human psychology can dramatically improve contribution rates. Explore the psychological factors that influence payment behavior and how to design systems that encourage timely contributions.",
+      date: "December 15, 2025",
+      readTime: "7 min read",
+      slug: "psychology-group-contributions-makes-people-pay-time",
+      keywords: "contribution psychology, payment behavior, group payment psychology, timely payments"
+    },
+    {
       title: "How to Organize Birthday Contributions Without Stress",
       excerpt: "Learn proven strategies for organizing group birthday contributions. Discover how to set clear expectations, track payments, and maintain fairness without the WhatsApp chaos.",
       date: "December 13, 2025",
