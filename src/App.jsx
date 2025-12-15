@@ -46,6 +46,12 @@ import CalculatingGroupContributionsPage from './pages/CalculatingGroupContribut
 import MultiCurrencyGroupPaymentsPage from './pages/MultiCurrencyGroupPaymentsPage'
 import ManagingLargeGroupContributionsPage from './pages/ManagingLargeGroupContributionsPage'
 import AvoidingBirthdayContributionMistakesPage from './pages/AvoidingBirthdayContributionMistakesPage'
+import SettingUpYourFirstGroupPage from './pages/SettingUpYourFirstGroupPage'
+import UnderstandingMemberReliabilityScoresPage from './pages/UnderstandingMemberReliabilityScoresPage'
+import BudgetingForGroupContributionsPage from './pages/BudgetingForGroupContributionsPage'
+import ChoosingTheRightContributionAmountPage from './pages/ChoosingTheRightContributionAmountPage'
+import AdvancedGroupManagementStrategiesPage from './pages/AdvancedGroupManagementStrategiesPage'
+import OptimizingPaymentConfirmationWorkflowsPage from './pages/OptimizingPaymentConfirmationWorkflowsPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -134,6 +140,12 @@ function App() {
         <Route path="/resources/multi-currency-group-payments" element={<Layout><MultiCurrencyGroupPaymentsPage /></Layout>} />
         <Route path="/resources/managing-large-group-contributions" element={<Layout><ManagingLargeGroupContributionsPage /></Layout>} />
         <Route path="/resources/avoiding-birthday-contribution-mistakes" element={<Layout><AvoidingBirthdayContributionMistakesPage /></Layout>} />
+        <Route path="/resources/setting-up-your-first-group" element={<Layout><SettingUpYourFirstGroupPage /></Layout>} />
+        <Route path="/resources/understanding-member-reliability-scores" element={<Layout><UnderstandingMemberReliabilityScoresPage /></Layout>} />
+        <Route path="/resources/budgeting-for-group-contributions" element={<Layout><BudgetingForGroupContributionsPage /></Layout>} />
+        <Route path="/resources/choosing-the-right-contribution-amount" element={<Layout><ChoosingTheRightContributionAmountPage /></Layout>} />
+        <Route path="/resources/advanced-group-management-strategies" element={<Layout><AdvancedGroupManagementStrategiesPage /></Layout>} />
+        <Route path="/resources/optimizing-payment-confirmation-workflows" element={<Layout><OptimizingPaymentConfirmationWorkflowsPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

@@ -263,6 +263,42 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/resources/setting-up-your-first-group',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/understanding-member-reliability-scores',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/budgeting-for-group-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/choosing-the-right-contribution-amount',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/advanced-group-management-strategies',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/optimizing-payment-confirmation-workflows',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/help',
     priority: '0.8',
     changefreq: 'monthly',

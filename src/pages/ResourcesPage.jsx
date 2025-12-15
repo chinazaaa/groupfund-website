@@ -14,28 +14,28 @@ export default function ResourcesPage() {
       readTime: '5 min read'
     },
     {
+      slug: 'setting-up-your-first-group',
+      title: 'Setting Up Your First Group',
+      description: 'Quick start guide for creating your first birthday contribution group. Perfect for beginners getting started with GroupFund.',
+      icon: '🚀',
+      category: 'Getting Started',
+      readTime: '4 min read'
+    },
+    {
+      slug: 'understanding-member-reliability-scores',
+      title: 'Understanding Member Reliability Scores',
+      description: 'Complete guide to how member reliability scores work, how they\'re calculated, and how to use them effectively.',
+      icon: '⭐',
+      category: 'Getting Started',
+      readTime: '5 min read'
+    },
+    {
       slug: 'birthday-contribution-etiquette',
       title: 'Birthday Contribution Etiquette',
       description: 'Learn the dos and don\'ts of birthday contributions. Best practices for fair, respectful, and stress-free group contributions.',
       icon: '🤝',
       category: 'Best Practices',
       readTime: '4 min read'
-    },
-    {
-      slug: 'calculating-group-contributions',
-      title: 'Calculating Group Contributions',
-      description: 'How to calculate fair contribution amounts for your group. Tips for setting amounts that work for everyone.',
-      icon: '💰',
-      category: 'Planning',
-      readTime: '6 min read'
-    },
-    {
-      slug: 'multi-currency-group-payments',
-      title: 'Multi-Currency Group Payments',
-      description: 'Complete guide to organizing birthday contributions for international groups with members in different countries.',
-      icon: '🌍',
-      category: 'Advanced',
-      readTime: '7 min read'
     },
     {
       slug: 'managing-large-group-contributions',
@@ -52,6 +52,54 @@ export default function ResourcesPage() {
       icon: '⚠️',
       category: 'Best Practices',
       readTime: '4 min read'
+    },
+    {
+      slug: 'calculating-group-contributions',
+      title: 'Calculating Group Contributions',
+      description: 'How to calculate fair contribution amounts for your group. Tips for setting amounts that work for everyone.',
+      icon: '💰',
+      category: 'Planning',
+      readTime: '6 min read'
+    },
+    {
+      slug: 'budgeting-for-group-contributions',
+      title: 'Budgeting for Group Contributions',
+      description: 'Learn how to budget for group birthday contributions. Plan your annual expenses and manage finances effectively.',
+      icon: '📊',
+      category: 'Planning',
+      readTime: '6 min read'
+    },
+    {
+      slug: 'choosing-the-right-contribution-amount',
+      title: 'Choosing the Right Contribution Amount',
+      description: 'Guide for setting fair contribution amounts. Factors to consider, examples by group type, and tips for choosing amounts.',
+      icon: '💵',
+      category: 'Planning',
+      readTime: '5 min read'
+    },
+    {
+      slug: 'multi-currency-group-payments',
+      title: 'Multi-Currency Group Payments',
+      description: 'Complete guide to organizing birthday contributions for international groups with members in different countries.',
+      icon: '🌍',
+      category: 'Advanced',
+      readTime: '7 min read'
+    },
+    {
+      slug: 'advanced-group-management-strategies',
+      title: 'Advanced Group Management Strategies',
+      description: 'Expert tips and strategies for advanced group management. Optimize your group\'s performance and handle complex situations.',
+      icon: '🎯',
+      category: 'Advanced',
+      readTime: '7 min read'
+    },
+    {
+      slug: 'optimizing-payment-confirmation-workflows',
+      title: 'Optimizing Payment Confirmation Workflows',
+      description: 'Advanced strategies for efficient and accurate payment confirmations. Optimize workflows for large groups.',
+      icon: '⚙️',
+      category: 'Advanced',
+      readTime: '6 min read'
     }
   ]
 
