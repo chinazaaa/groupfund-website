@@ -12,12 +12,60 @@ export default function SitemapPage() {
         { path: "/how-it-works", label: "How It Works" },
         { path: "/features", label: "Features" },
         { path: "/coming-soon-features", label: "Coming Soon Features" },
-        { path: "/download", label: "Download" }
+        { path: "/download", label: "Download" },
+        { path: "/pricing", label: "Pricing" },
+        { path: "/waitlist", label: "Join Waitlist" }
+      ]
+    },
+    {
+      category: "Use Cases",
+      links: [
+        { path: "/use-cases", label: "Use Cases Overview" },
+        { path: "/use-cases/families", label: "For Families" },
+        { path: "/use-cases/churches", label: "For Churches" },
+        { path: "/use-cases/schools", label: "For Schools" },
+        { path: "/use-cases/friend-groups", label: "For Friend Groups" },
+        { path: "/use-cases/workplace", label: "For Workplace" },
+        { path: "/use-cases/community-organizations", label: "For Community Organizations" }
+      ]
+    },
+    {
+      category: "Comparisons",
+      links: [
+        { path: "/comparisons", label: "Comparisons Overview" },
+        { path: "/comparisons/whatsapp-groups", label: "vs. WhatsApp Groups" },
+        { path: "/comparisons/excel-spreadsheets", label: "vs. Excel Spreadsheets" }
+      ]
+    },
+    {
+      category: "Locations",
+      links: [
+        { path: "/locations", label: "Locations Overview" },
+        { path: "/locations/nigeria", label: "Nigeria" },
+        { path: "/locations/lagos", label: "Lagos" },
+        { path: "/locations/united-states", label: "United States" },
+        { path: "/locations/canada", label: "Canada" },
+        { path: "/locations/australia", label: "Australia" },
+        { path: "/locations/ghana", label: "Ghana" },
+        { path: "/locations/south-africa", label: "South Africa" },
+        { path: "/locations/brazil", label: "Brazil" },
+        { path: "/locations/germany", label: "Germany" },
+        { path: "/locations/ireland", label: "Ireland" },
+        { path: "/locations/france", label: "France" },
+        { path: "/locations/netherlands", label: "Netherlands" },
+        { path: "/locations/switzerland", label: "Switzerland" }
       ]
     },
     {
       category: "Resources",
       links: [
+        { path: "/resources", label: "Resources Overview" },
+        { path: "/resources/how-to-organize-birthday-contributions", label: "How to Organize Birthday Contributions" },
+        { path: "/resources/birthday-contribution-etiquette", label: "Birthday Contribution Etiquette" },
+        { path: "/resources/calculating-group-contributions", label: "Calculating Group Contributions" },
+        { path: "/resources/multi-currency-group-payments", label: "Multi-Currency Group Payments" },
+        { path: "/resources/managing-large-group-contributions", label: "Managing Large Group Contributions" },
+        { path: "/resources/avoiding-birthday-contribution-mistakes", label: "Avoiding Birthday Contribution Mistakes" },
         { path: "/blog", label: "Blog" },
         { path: "/testimonials", label: "Testimonials" },
         { path: "/faq", label: "FAQ" },
@@ -28,14 +76,20 @@ export default function SitemapPage() {
       category: "Company",
       links: [
         { path: "/about", label: "About Us" },
-        { path: "/contact", label: "Contact" }
+        { path: "/contact", label: "Contact" },
+        { path: "/press", label: "Press" },
+        { path: "/careers", label: "Careers" },
+        { path: "/branding", label: "Branding Guidelines" }
       ]
     },
     {
-      category: "Legal",
+      category: "Legal & Policies",
       links: [
         { path: "/privacy", label: "Privacy Policy" },
         { path: "/terms", label: "Terms of Service" },
+        { path: "/cookie-policy", label: "Cookie Policy" },
+        { path: "/security", label: "Security" },
+        { path: "/accessibility", label: "Accessibility" },
         { path: "/delete-account", label: "Delete Account" }
       ]
     },
