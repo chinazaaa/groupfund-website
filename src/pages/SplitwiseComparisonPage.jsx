@@ -284,6 +284,7 @@ export default function SplitwiseComparisonPage() {
                 <Link to="/comparisons/excel-spreadsheets">GroupFund vs Excel Spreadsheets →</Link>
                 <Link to="/comparisons/google-sheets">GroupFund vs Google Sheets →</Link>
                 <Link to="/comparisons/manual-methods">GroupFund vs Manual Methods →</Link>
+                <Link to="/comparisons/venmo">GroupFund vs Venmo →</Link>
                 <Link to="/comparisons">View All Comparisons →</Link>
               </div>
             </div>

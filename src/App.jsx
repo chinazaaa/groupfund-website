@@ -40,6 +40,7 @@ import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparison
 import GoogleSheetsComparisonPage from './pages/GoogleSheetsComparisonPage'
 import ManualMethodsComparisonPage from './pages/ManualMethodsComparisonPage'
 import SplitwiseComparisonPage from './pages/SplitwiseComparisonPage'
+import VenmoComparisonPage from './pages/VenmoComparisonPage'
 import ComparisonsPage from './pages/ComparisonsPage'
 import LocationsPage from './pages/LocationsPage'
 import ResourcesPage from './pages/ResourcesPage'
@@ -144,6 +145,7 @@ function App() {
         <Route path="/comparisons/google-sheets" element={<Layout><GoogleSheetsComparisonPage /></Layout>} />
         <Route path="/comparisons/manual-methods" element={<Layout><ManualMethodsComparisonPage /></Layout>} />
         <Route path="/comparisons/splitwise" element={<Layout><SplitwiseComparisonPage /></Layout>} />
+        <Route path="/comparisons/venmo" element={<Layout><VenmoComparisonPage /></Layout>} />
         <Route path="/locations" element={<Layout><LocationsPage /></Layout>} />
         <Route path="/locations/nigeria" element={<Layout><NigeriaLocationPage /></Layout>} />
         <Route path="/locations/lagos" element={<Layout><LagosLocationPage /></Layout>} />

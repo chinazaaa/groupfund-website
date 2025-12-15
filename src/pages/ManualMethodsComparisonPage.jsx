@@ -284,6 +284,7 @@ export default function ManualMethodsComparisonPage() {
                 <Link to="/comparisons/excel-spreadsheets">GroupFund vs Excel Spreadsheets →</Link>
                 <Link to="/comparisons/google-sheets">GroupFund vs Google Sheets →</Link>
                 <Link to="/comparisons/splitwise">GroupFund vs Splitwise →</Link>
+                <Link to="/comparisons/venmo">GroupFund vs Venmo →</Link>
                 <Link to="/comparisons">View All Comparisons →</Link>
               </div>
             </div>

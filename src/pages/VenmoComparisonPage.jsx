@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
-export default function GoogleSheetsComparisonPage() {
+export default function VenmoComparisonPage() {
   return (
     <>
       <SEO
-        title="GroupFund vs Google Sheets - Better Birthday Contribution Tracking"
-        description="Compare GroupFund with Google Sheets for organizing birthday contributions. See why GroupFund is better: automation, mobile access, real-time collaboration, and no manual updates needed."
-        keywords="groupfund vs google sheets, google sheets vs groupfund, google sheets alternative for birthday tracking, groupfund comparison, better than google sheets"
-        canonical="https://groupfund.app/comparisons/google-sheets"
+        title="GroupFund vs Venmo - Better Birthday Contribution Tracking"
+        description="Compare GroupFund with Venmo for organizing birthday contributions. See why GroupFund is purpose-built for birthday contributions with automatic reminders, birthday calendar, and member reliability scores."
+        keywords="groupfund vs venmo, venmo vs groupfund, venmo alternative for birthday contributions, birthday contribution app comparison, groupfund comparison"
+        canonical="https://groupfund.app/comparisons/venmo"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">GroupFund vs Google Sheets</h1>
+          <h1 className="page-title">GroupFund vs Venmo</h1>
           <p className="page-subtitle">
-            Why GroupFund is better than Google Sheets for organizing birthday contributions
+            Why GroupFund is better than Venmo for organizing birthday contributions
           </p>
         </div>
       </section>
@@ -26,9 +26,9 @@ export default function GoogleSheetsComparisonPage() {
         <div className="container">
           <div className="comparison-content">
             <div className="comparison-intro">
-              <h2>The Problem with Google Sheets</h2>
+              <h2>The Problem with Venmo</h2>
               <p>
-                Google Sheets is great for basic spreadsheets, but it wasn't designed for organizing group birthday contributions. You still need to manually update payment statuses, send reminders yourself, and track everything manually. GroupFund automates all of this, saving you hours of work.
+                Venmo is great for sending money to friends, but it wasn't designed for organizing recurring birthday contributions in groups. It lacks birthday-specific features like automatic reminders, birthday calendars, member reliability scores, and contribution tracking. GroupFund is purpose-built specifically for birthday contributions.
               </p>
             </div>
 
@@ -38,21 +38,21 @@ export default function GoogleSheetsComparisonPage() {
               <div className="comparison-features">
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Automatic Payment Reminders</h3>
+                    <h3>Birthday-Specific Features</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders sent 7 days before, 1 day before, and on deadline day. No manual work required.</span>
+                        <span>Built specifically for birthday contributions. Birthday calendar, automatic reminders, and contribution tracking designed for birthdays.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>You must manually send reminders via email, WhatsApp, or other methods. Easy to forget or miss people.</span>
+                        <span>General peer-to-peer payment app. No birthday calendar, no birthday-specific reminders, not designed for recurring contributions.</span>
                       </div>
                     </div>
                   </div>
@@ -60,21 +60,21 @@ export default function GoogleSheetsComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Real-Time Payment Tracking</h3>
+                    <h3>Automatic Birthday Reminders</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Members mark payments as paid, celebrants confirm receipt. Everyone sees updates instantly in real-time.</span>
+                        <span>Automatic reminders 7 days before each birthday, 1 day before, and on deadline day. Birthday-specific reminders.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>You must manually update the sheet when someone pays. Others may not see updates immediately, leading to confusion.</span>
+                        <span>No automatic birthday reminders. You must manually remember to send money and remind others to contribute.</span>
                       </div>
                     </div>
                   </div>
@@ -82,21 +82,43 @@ export default function GoogleSheetsComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Mobile App Access</h3>
+                    <h3>Birthday Calendar</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Native mobile app with push notifications. Mark payments, view status, and get reminders on the go.</span>
+                        <span>Built-in birthday calendar showing all upcoming birthdays. Never miss a birthday celebration.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>Mobile app exists but editing sheets on mobile is clunky. No push notifications for deadlines or reminders.</span>
+                        <span>No birthday calendar. You must manually remember birthdays and create payment requests.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="comparison-feature-item">
+                  <div className="feature-header">
+                    <h3>Group Contribution Tracking</h3>
+                  </div>
+                  <div className="feature-comparison">
+                    <div className="comparison-option">
+                      <div className="option-name">GroupFund</div>
+                      <div className="option-details">
+                        <span className="check-mark">✓</span>
+                        <span>Dedicated group contribution tracking. See who has paid, who hasn't, and payment status in real-time.</span>
+                      </div>
+                    </div>
+                    <div className="comparison-option">
+                      <div className="option-name">Venmo</div>
+                      <div className="option-details">
+                        <span className="cross-mark">✗</span>
+                        <span>No group contribution tracking. You see individual transactions but no organized view of who has contributed to a birthday.</span>
                       </div>
                     </div>
                   </div>
@@ -115,10 +137,10 @@ export default function GoogleSheetsComparisonPage() {
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>No reliability tracking. You'd need to manually calculate and track this yourself, which is time-consuming.</span>
+                        <span>No reliability tracking. You can't see payment history or reliability before joining groups.</span>
                       </div>
                     </div>
                   </div>
@@ -126,43 +148,21 @@ export default function GoogleSheetsComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Group Health Metrics</h3>
+                    <h3>Fixed Contribution Amounts</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic group health scores showing compliance rates and overall group performance.</span>
+                        <span>Set fixed contribution amounts per person. Everyone contributes the same amount, ensuring fairness.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>No built-in metrics. You'd need to create formulas and charts manually to track group health.</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="comparison-feature-item">
-                  <div className="feature-header">
-                    <h3>Multi-Currency Support</h3>
-                  </div>
-                  <div className="feature-comparison">
-                    <div className="comparison-option">
-                      <div className="option-name">GroupFund</div>
-                      <div className="option-details">
-                        <span className="check-mark">✓</span>
-                        <span>Built-in support for NGN, USD, GBP, EUR, and more. Automatic currency display and conversion.</span>
-                      </div>
-                    </div>
-                    <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
-                      <div className="option-details">
-                        <span className="cross-mark">✗</span>
-                        <span>You can add currency symbols manually, but no automatic currency conversion or multi-currency features.</span>
+                        <span>No fixed amount system. People send whatever they want, leading to inconsistent contributions.</span>
                       </div>
                     </div>
                   </div>
@@ -181,10 +181,10 @@ export default function GoogleSheetsComparisonPage() {
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>No confirmation system. You manually mark payments, which can lead to errors and disputes.</span>
+                        <span>No confirmation system. You see transactions but no way for celebrants to confirm receipt of contributions.</span>
                       </div>
                     </div>
                   </div>
@@ -192,21 +192,43 @@ export default function GoogleSheetsComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Automation</h3>
+                    <h3>Group Health Metrics</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Fully automated: reminders, tracking, calculations, and updates happen automatically.</span>
+                        <span>Automatic group health scores showing compliance rates and overall group performance.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
-                      <div className="option-name">Google Sheets</div>
+                      <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>Everything is manual. You update statuses, send reminders, and track payments yourself.</span>
+                        <span>No group health tracking. Can't see overall group compliance or performance metrics.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="comparison-feature-item">
+                  <div className="feature-header">
+                    <h3>Multi-Currency Support</h3>
+                  </div>
+                  <div className="feature-comparison">
+                    <div className="comparison-option">
+                      <div className="option-name">GroupFund</div>
+                      <div className="option-details">
+                        <span className="check-mark">✓</span>
+                        <span>Built-in support for NGN, USD, GBP, EUR, and more. Automatic currency display and conversion.</span>
+                      </div>
+                    </div>
+                    <div className="comparison-option">
+                      <div className="option-name">Venmo</div>
+                      <div className="option-details">
+                        <span className="cross-mark">✗</span>
+                        <span>USD only. Not available in many countries. Can't handle multi-currency groups.</span>
                       </div>
                     </div>
                   </div>
@@ -216,31 +238,31 @@ export default function GoogleSheetsComparisonPage() {
 
             {/* Why Choose GroupFund */}
             <div className="why-choose-section">
-              <h2>Why Choose GroupFund Over Google Sheets?</h2>
+              <h2>Why Choose GroupFund Over Venmo?</h2>
               <div className="reasons-grid">
                 <div className="reason-card">
-                  <h3>🤖 Fully Automated</h3>
-                  <p>GroupFund handles reminders, tracking, and updates automatically. Google Sheets requires constant manual work.</p>
+                  <h3>🎂 Birthday-Focused</h3>
+                  <p>GroupFund is built specifically for birthday contributions. Venmo is a general payment app.</p>
                 </div>
                 <div className="reason-card">
-                  <h3>📱 Mobile-First</h3>
-                  <p>Native mobile app designed for contributions. Google Sheets mobile editing is clunky and limited.</p>
+                  <h3>📅 Birthday Calendar</h3>
+                  <p>Built-in calendar showing all upcoming birthdays. Venmo has no birthday calendar feature.</p>
                 </div>
                 <div className="reason-card">
-                  <h3>⚡ Real-Time Updates</h3>
-                  <p>Everyone sees payment statuses instantly. Google Sheets updates may not be visible to all members immediately.</p>
+                  <h3>🤖 Automatic Reminders</h3>
+                  <p>Automatic birthday reminders. Venmo requires manual payment requests and reminders.</p>
                 </div>
                 <div className="reason-card">
-                  <h3>📊 Better Insights</h3>
-                  <p>Automatic reliability scores and group health metrics. Google Sheets requires manual calculations.</p>
+                  <h3>⭐ Reliability Scores</h3>
+                  <p>See member reliability before joining groups. Venmo has no reliability tracking.</p>
                 </div>
                 <div className="reason-card">
-                  <h3>✅ Purpose-Built</h3>
-                  <p>Designed specifically for birthday contributions. Google Sheets is a general-purpose tool repurposed for contributions.</p>
+                  <h3>💰 Fixed Amounts</h3>
+                  <p>Perfect for fixed contribution amounts. Venmo has no system for ensuring consistent contributions.</p>
                 </div>
                 <div className="reason-card">
-                  <h3>🌍 Multi-Currency</h3>
-                  <p>Built-in support for multiple currencies. Google Sheets requires manual currency management.</p>
+                  <h3>🌍 International Support</h3>
+                  <p>Multi-currency support for global groups. Venmo is USD-only and not available in many countries.</p>
                 </div>
               </div>
             </div>
@@ -250,27 +272,33 @@ export default function GoogleSheetsComparisonPage() {
               <h2>Real-World Scenarios</h2>
               
               <div className="scenario-card">
-                <h3>Scenario 1: Sending Reminders</h3>
-                <p><strong>With Google Sheets:</strong> You must manually check the sheet, identify who hasn't paid, and send individual reminders via WhatsApp or email. This takes 15-20 minutes per birthday.</p>
-                <p><strong>With GroupFund:</strong> Automatic reminders are sent 7 days before, 1 day before, and on deadline day. Zero manual work required.</p>
+                <h3>Scenario 1: Managing Multiple Birthdays</h3>
+                <p><strong>With Venmo:</strong> You must manually remember each birthday, send payment requests, and track who has paid. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
+                <p><strong>With GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
               </div>
 
               <div className="scenario-card">
-                <h3>Scenario 2: Tracking Payments</h3>
-                <p><strong>With Google Sheets:</strong> Members must tell you when they paid, then you manually update the sheet. Others may not see the update immediately, leading to confusion.</p>
-                <p><strong>With GroupFund:</strong> Members mark payments as paid, celebrants confirm receipt. Everyone sees updates instantly in real-time.</p>
+                <h3>Scenario 2: Fixed Contribution Amounts</h3>
+                <p><strong>With Venmo:</strong> People send whatever amount they want. No way to enforce fixed amounts. Leads to inconsistent contributions and unfairness.</p>
+                <p><strong>With GroupFund:</strong> Perfect for fixed contribution amounts. Everyone contributes the same amount (e.g., $50 per person), ensuring fairness.</p>
               </div>
 
               <div className="scenario-card">
-                <h3>Scenario 3: Mobile Access</h3>
-                <p><strong>With Google Sheets:</strong> Editing sheets on mobile is difficult. You often need to wait until you're at a computer to update payment statuses.</p>
-                <p><strong>With GroupFund:</strong> Native mobile app makes it easy to mark payments, view status, and get push notifications on the go.</p>
+                <h3>Scenario 3: International Groups</h3>
+                <p><strong>With Venmo:</strong> USD only, not available in many countries. International group members can't use Venmo.</p>
+                <p><strong>With GroupFund:</strong> Multi-currency support (NGN, USD, GBP, EUR, etc.). Perfect for international groups with members in different countries.</p>
+              </div>
+
+              <div className="scenario-card">
+                <h3>Scenario 4: Tracking Contributions</h3>
+                <p><strong>With Venmo:</strong> You see individual transactions but no organized view of who has contributed to a specific birthday. Hard to track group contributions.</p>
+                <p><strong>With GroupFund:</strong> Dedicated group contribution tracking. See who has paid, who hasn't, and payment status in real-time for each birthday.</p>
               </div>
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Switch from Google Sheets?</h2>
-              <p>Join thousands of groups using GroupFund for better birthday contribution organization. Free to start, no credit card required.</p>
+              <h2>Ready to Switch from Venmo?</h2>
+              <p>Join thousands of groups using GroupFund for birthday-specific contribution management. Free to start, purpose-built for birthdays.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
@@ -280,11 +308,11 @@ export default function GoogleSheetsComparisonPage() {
             <div className="related-links">
               <h3>Related Comparisons</h3>
               <div className="related-links-grid">
-                <Link to="/comparisons/excel-spreadsheets">GroupFund vs Excel Spreadsheets →</Link>
                 <Link to="/comparisons/whatsapp-groups">GroupFund vs WhatsApp Groups →</Link>
+                <Link to="/comparisons/excel-spreadsheets">GroupFund vs Excel Spreadsheets →</Link>
+                <Link to="/comparisons/google-sheets">GroupFund vs Google Sheets →</Link>
                 <Link to="/comparisons/manual-methods">GroupFund vs Manual Methods →</Link>
                 <Link to="/comparisons/splitwise">GroupFund vs Splitwise →</Link>
-                <Link to="/comparisons/venmo">GroupFund vs Venmo →</Link>
                 <Link to="/comparisons">View All Comparisons →</Link>
               </div>
             </div>
