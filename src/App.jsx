@@ -35,6 +35,9 @@ import SchoolsUseCasePage from './pages/SchoolsUseCasePage'
 import FriendGroupsUseCasePage from './pages/FriendGroupsUseCasePage'
 import WorkplaceUseCasePage from './pages/WorkplaceUseCasePage'
 import CommunityOrganizationsUseCasePage from './pages/CommunityOrganizationsUseCasePage'
+import WhatsAppGroupsComparisonPage from './pages/WhatsAppGroupsComparisonPage'
+import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparisonPage'
+import ComparisonsPage from './pages/ComparisonsPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -86,6 +89,9 @@ function App() {
         <Route path="/use-cases/friend-groups" element={<Layout><FriendGroupsUseCasePage /></Layout>} />
         <Route path="/use-cases/workplace" element={<Layout><WorkplaceUseCasePage /></Layout>} />
         <Route path="/use-cases/community-organizations" element={<Layout><CommunityOrganizationsUseCasePage /></Layout>} />
+        <Route path="/comparisons" element={<Layout><ComparisonsPage /></Layout>} />
+        <Route path="/comparisons/whatsapp-groups" element={<Layout><WhatsAppGroupsComparisonPage /></Layout>} />
+        <Route path="/comparisons/excel-spreadsheets" element={<Layout><ExcelSpreadsheetsComparisonPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
