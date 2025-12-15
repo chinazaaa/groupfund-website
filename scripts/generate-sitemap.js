@@ -161,6 +161,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/comparisons/venmo',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/locations',
     priority: '0.8',
     changefreq: 'monthly',

@@ -37,7 +37,8 @@ export default function SitemapPage() {
         { path: "/comparisons/excel-spreadsheets", label: "vs. Excel Spreadsheets" },
         { path: "/comparisons/google-sheets", label: "vs. Google Sheets" },
         { path: "/comparisons/manual-methods", label: "vs. Manual Methods" },
-        { path: "/comparisons/splitwise", label: "vs. Splitwise" }
+        { path: "/comparisons/splitwise", label: "vs. Splitwise" },
+        { path: "/comparisons/venmo", label: "vs. Venmo" }
       ]
     },
     {

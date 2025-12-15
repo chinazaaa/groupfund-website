@@ -12,6 +12,7 @@ export default function AdminDashboard() {
   const [triggeringWishes, setTriggeringWishes] = useState(false)
   const [sendingNewsletter, setSendingNewsletter] = useState(false)
   const [triggeringOverdueReminders, setTriggeringOverdueReminders] = useState(false)
+  const [sendingBetaInvitations, setSendingBetaInvitations] = useState(false)
   const [actionMessage, setActionMessage] = useState(null)
 
   useEffect(() => {
@@ -98,6 +99,20 @@ export default function AdminDashboard() {
     }
   }
 
+  const handleSendBetaInvitations = async () => {
+    try {
+      setSendingBetaInvitations(true)
+      setActionMessage(null)
+      await adminApi.sendBetaInvitations()
+      setActionMessage({ type: 'success', text: 'Beta invitations sent successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to send beta invitations' })
+    } finally {
+      setSendingBetaInvitations(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
   if (loading) {
     return (
       <AdminLayout>
@@ -151,6 +166,13 @@ export default function AdminDashboard() {
                 className="btn-sm btn-primary"
               >
                 {triggeringOverdueReminders ? 'Triggering...' : 'Trigger Overdue Reminders'}
+              </button>
+              <button
+                onClick={handleSendBetaInvitations}
+                disabled={sendingBetaInvitations}
+                className="btn-sm btn-primary"
+              >
+                {sendingBetaInvitations ? 'Sending...' : 'Send Beta Invitations'}
               </button>
             </div>
           </div>

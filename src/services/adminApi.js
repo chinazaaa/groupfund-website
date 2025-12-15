@@ -168,5 +168,12 @@ export const adminApi = {
       method: 'POST',
     });
   },
+
+  // Waitlist Actions
+  sendBetaInvitations: () => {
+    return apiRequest('/admin/waitlist/send-beta-invitations', {
+      method: 'POST',
+    });
+  },
 };
 
