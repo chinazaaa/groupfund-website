@@ -39,6 +39,11 @@ import WhatsAppGroupsComparisonPage from './pages/WhatsAppGroupsComparisonPage'
 import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparisonPage'
 import ComparisonsPage from './pages/ComparisonsPage'
 import LocationsPage from './pages/LocationsPage'
+import ResourcesPage from './pages/ResourcesPage'
+import HowToOrganizeBirthdayContributionsPage from './pages/HowToOrganizeBirthdayContributionsPage'
+import BirthdayContributionEtiquettePage from './pages/BirthdayContributionEtiquettePage'
+import CalculatingGroupContributionsPage from './pages/CalculatingGroupContributionsPage'
+import MultiCurrencyGroupPaymentsPage from './pages/MultiCurrencyGroupPaymentsPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -120,6 +125,11 @@ function App() {
         <Route path="/locations/france" element={<Layout><FranceLocationPage /></Layout>} />
         <Route path="/locations/netherlands" element={<Layout><NetherlandsLocationPage /></Layout>} />
         <Route path="/locations/switzerland" element={<Layout><SwitzerlandLocationPage /></Layout>} />
+        <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} />
+        <Route path="/resources/how-to-organize-birthday-contributions" element={<Layout><HowToOrganizeBirthdayContributionsPage /></Layout>} />
+        <Route path="/resources/birthday-contribution-etiquette" element={<Layout><BirthdayContributionEtiquettePage /></Layout>} />
+        <Route path="/resources/calculating-group-contributions" element={<Layout><CalculatingGroupContributionsPage /></Layout>} />
+        <Route path="/resources/multi-currency-group-payments" element={<Layout><MultiCurrencyGroupPaymentsPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

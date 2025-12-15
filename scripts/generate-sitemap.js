@@ -41,6 +41,48 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/use-cases',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/families',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/churches',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/schools',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/friend-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/workplace',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/community-organizations',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/coming-soon-features',
     priority: '0.8',
     changefreq: 'monthly',
@@ -67,6 +109,114 @@ const pages = [
   {
     url: '/download',
     priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/pricing',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/comparisons',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/comparisons/whatsapp-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/comparisons/excel-spreadsheets',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/nigeria',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/lagos',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/united-states',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/canada',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/australia',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/ghana',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/south-africa',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/brazil',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/germany',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/ireland',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/france',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/netherlands',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/switzerland',
+    priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate
   },
