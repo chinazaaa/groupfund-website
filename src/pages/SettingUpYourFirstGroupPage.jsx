@@ -1,9 +1,76 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function SettingUpYourFirstGroupPage() {
+  // Add HowTo structured data
+  useEffect(() => {
+    const howToStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Setting Up Your First Group",
+      "description": "Quick start guide for creating your first birthday contribution group",
+      "image": "https://groupfund.app/og-image.jpg",
+      "totalTime": "PT4M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Download and Sign Up",
+          "text": "Download GroupFund from the App Store or Google Play. Sign up with your email or phone number. Verify your account with the OTP code sent to you. Complete your profile with your name and birthday."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Create Your Group",
+          "text": "Tap the 'Create Group' button. Enter a group name. Choose your group's currency (NGN, USD, EUR, etc.). Set the contribution amount per person. Set the maximum number of members."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Add Member Birthdays",
+          "text": "Add birthdays for all group members. You can add birthdays yourself as the group creator, or let members add their own birthdays when they join. Make sure all birthdays are added to the calendar."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Invite Members",
+          "text": "Share the group invite code with potential members. Members can request to join using the code. You'll receive notifications for join requests. Approve or reject requests based on your preferences."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Set Up Payment Details",
+          "text": "Celebrants can add their bank account details. Bank details are displayed to members when it's time to contribute. Members transfer directly to celebrants' accounts. GroupFund tracks the payments but doesn't process them."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Start Contributing",
+          "text": "When a birthday approaches, members receive automatic reminders. Members transfer money to the celebrant's account. Members mark their payment as 'Paid' in the app. Celebrants confirm receipt of payments. Everyone can see payment statuses in real-time."
+        }
+      ]
+    }
+
+    const existingScript = document.querySelector('script[data-howto-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-howto-schema', 'true')
+    script.textContent = JSON.stringify(howToStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-howto-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO
