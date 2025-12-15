@@ -352,6 +352,7 @@ export default function WhatsAppGroupsComparisonPage() {
                 <Link to="/comparisons/google-sheets">GroupFund vs Google Sheets →</Link>
                 <Link to="/comparisons/manual-methods">GroupFund vs Manual Methods →</Link>
                 <Link to="/comparisons/splitwise">GroupFund vs Splitwise →</Link>
+                <Link to="/comparisons/venmo">GroupFund vs Venmo →</Link>
               </div>
             </div>
           </div>

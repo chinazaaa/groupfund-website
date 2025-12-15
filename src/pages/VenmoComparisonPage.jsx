@@ -270,29 +270,27 @@ export default function VenmoComparisonPage() {
             {/* Real-World Scenarios */}
             <div className="scenarios-section">
               <h2>Real-World Scenarios</h2>
-              
-              <div className="scenario-card">
-                <h3>Scenario 1: Managing Multiple Birthdays</h3>
-                <p><strong>With Venmo:</strong> You must manually remember each birthday, send payment requests, and track who has paid. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
-                <p><strong>With GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 2: Fixed Contribution Amounts</h3>
-                <p><strong>With Venmo:</strong> People send whatever amount they want. No way to enforce fixed amounts. Leads to inconsistent contributions and unfairness.</p>
-                <p><strong>With GroupFund:</strong> Perfect for fixed contribution amounts. Everyone contributes the same amount (e.g., $50 per person), ensuring fairness.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 3: International Groups</h3>
-                <p><strong>With Venmo:</strong> USD only, not available in many countries. International group members can't use Venmo.</p>
-                <p><strong>With GroupFund:</strong> Multi-currency support (NGN, USD, GBP, EUR, etc.). Perfect for international groups with members in different countries.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 4: Tracking Contributions</h3>
-                <p><strong>With Venmo:</strong> You see individual transactions but no organized view of who has contributed to a specific birthday. Hard to track group contributions.</p>
-                <p><strong>With GroupFund:</strong> Dedicated group contribution tracking. See who has paid, who hasn't, and payment status in real-time for each birthday.</p>
+              <div className="scenario-items">
+                <div className="scenario-item">
+                  <h3>Scenario 1: Managing Multiple Birthdays</h3>
+                  <p><strong>Venmo:</strong> You must manually remember each birthday, send payment requests, and track who has paid. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
+                  <p><strong>GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 2: Fixed Contribution Amounts</h3>
+                  <p><strong>Venmo:</strong> People send whatever amount they want. No way to enforce fixed amounts. Leads to inconsistent contributions and unfairness.</p>
+                  <p><strong>GroupFund:</strong> Perfect for fixed contribution amounts. Everyone contributes the same amount (e.g., $50 per person), ensuring fairness.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 3: International Groups</h3>
+                  <p><strong>Venmo:</strong> USD only, not available in many countries. International group members can't use Venmo.</p>
+                  <p><strong>GroupFund:</strong> Multi-currency support (NGN, USD, GBP, EUR, etc.). Perfect for international groups with members in different countries.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 4: Tracking Contributions</h3>
+                  <p><strong>Venmo:</strong> You see individual transactions but no organized view of who has contributed to a specific birthday. Hard to track group contributions.</p>
+                  <p><strong>GroupFund:</strong> Dedicated group contribution tracking. See who has paid, who hasn't, and payment status in real-time for each birthday.</p>
+                </div>
               </div>
             </div>
 

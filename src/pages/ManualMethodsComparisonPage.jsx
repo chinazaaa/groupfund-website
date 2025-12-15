@@ -248,23 +248,22 @@ export default function ManualMethodsComparisonPage() {
             {/* Real-World Scenarios */}
             <div className="scenarios-section">
               <h2>Real-World Scenarios</h2>
-              
-              <div className="scenario-card">
-                <h3>Scenario 1: Cash Collection</h3>
-                <p><strong>With Manual Methods:</strong> You must meet people in person to collect cash. Track who gave what on paper. Easy to lose cash or make counting errors. No record if paper is lost.</p>
-                <p><strong>With GroupFund:</strong> Members transfer directly to celebrants' bank accounts. Digital tracking shows who paid instantly. Complete records that never get lost.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 2: Sending Reminders</h3>
-                <p><strong>With Manual Methods:</strong> You must remember to remind people yourself. Call, text, or message each person individually. Easy to forget someone or miss the deadline.</p>
-                <p><strong>With GroupFund:</strong> Automatic reminders sent 7 days before, 1 day before, and on deadline day. Everyone gets reminded consistently, no one is missed.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 3: Tracking Who Paid</h3>
-                <p><strong>With Manual Methods:</strong> Keep a paper list or try to remember. Others must ask you who paid. Creates suspicion and reduces trust. Easy to make mistakes.</p>
-                <p><strong>With GroupFund:</strong> Everyone can see payment statuses in real-time. Complete transparency builds trust. No confusion about who paid.</p>
+              <div className="scenario-items">
+                <div className="scenario-item">
+                  <h3>Scenario 1: Cash Collection</h3>
+                  <p><strong>Manual Methods:</strong> You must meet people in person to collect cash. Track who gave what on paper. Easy to lose cash or make counting errors. No record if paper is lost.</p>
+                  <p><strong>GroupFund:</strong> Members transfer directly to celebrants' bank accounts. Digital tracking shows who paid instantly. Complete records that never get lost.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 2: Sending Reminders</h3>
+                  <p><strong>Manual Methods:</strong> You must remember to remind people yourself. Call, text, or message each person individually. Easy to forget someone or miss the deadline.</p>
+                  <p><strong>GroupFund:</strong> Automatic reminders sent 7 days before, 1 day before, and on deadline day. Everyone gets reminded consistently, no one is missed.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 3: Tracking Who Paid</h3>
+                  <p><strong>Manual Methods:</strong> Keep a paper list or try to remember. Others must ask you who paid. Creates suspicion and reduces trust. Easy to make mistakes.</p>
+                  <p><strong>GroupFund:</strong> Everyone can see payment statuses in real-time. Complete transparency builds trust. No confusion about who paid.</p>
+                </div>
               </div>
             </div>
 

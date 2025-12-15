@@ -248,23 +248,22 @@ export default function SplitwiseComparisonPage() {
             {/* Real-World Scenarios */}
             <div className="scenarios-section">
               <h2>Real-World Scenarios</h2>
-              
-              <div className="scenario-card">
-                <h3>Scenario 1: Managing Multiple Birthdays</h3>
-                <p><strong>With Splitwise:</strong> You must manually create a new expense for each birthday as it comes. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
-                <p><strong>With GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 2: Fixed Contribution Amounts</h3>
-                <p><strong>With Splitwise:</strong> Designed for splitting expenses unevenly (e.g., "I paid $100, split 3 ways"). Not ideal for fixed amounts where everyone pays the same.</p>
-                <p><strong>With GroupFund:</strong> Perfect for fixed contribution amounts. Everyone contributes the same amount (e.g., ₦5,000 per person), ensuring fairness.</p>
-              </div>
-
-              <div className="scenario-card">
-                <h3>Scenario 3: Member Reliability</h3>
-                <p><strong>With Splitwise:</strong> No way to see if someone is reliable at paying before joining a group. You discover payment issues after joining.</p>
-                <p><strong>With GroupFund:</strong> See member reliability scores before joining. Make informed decisions about which groups to join.</p>
+              <div className="scenario-items">
+                <div className="scenario-item">
+                  <h3>Scenario 1: Managing Multiple Birthdays</h3>
+                  <p><strong>Splitwise:</strong> You must manually create a new expense for each birthday as it comes. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
+                  <p><strong>GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 2: Fixed Contribution Amounts</h3>
+                  <p><strong>Splitwise:</strong> Designed for splitting expenses unevenly (e.g., "I paid $100, split 3 ways"). Not ideal for fixed amounts where everyone pays the same.</p>
+                  <p><strong>GroupFund:</strong> Perfect for fixed contribution amounts. Everyone contributes the same amount (e.g., ₦5,000 per person), ensuring fairness.</p>
+                </div>
+                <div className="scenario-item">
+                  <h3>Scenario 3: Member Reliability</h3>
+                  <p><strong>Splitwise:</strong> No way to see if someone is reliable at paying before joining a group. You discover payment issues after joining.</p>
+                  <p><strong>GroupFund:</strong> See member reliability scores before joining. Make informed decisions about which groups to join.</p>
+                </div>
               </div>
             </div>
 
