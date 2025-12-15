@@ -1309,7 +1309,7 @@
 /* Blog Post Page */
 .blog-back-link {
   display: inline-block;
-  color: #6366f1;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   margin-bottom: 24px;
@@ -1317,7 +1317,7 @@
 }
 
 .blog-back-link:hover {
-  color: #4f46e5;
+  color: #e0e0e0;
 }
 
 .blog-meta {
@@ -1325,7 +1325,7 @@
   gap: 24px;
   margin-top: 16px;
   font-size: 0.95rem;
-  color: #64748b;
+  color: #ffffff;
 }
 
 .blog-post-content {
