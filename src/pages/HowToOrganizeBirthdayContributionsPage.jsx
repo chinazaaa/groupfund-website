@@ -1,9 +1,96 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function HowToOrganizeBirthdayContributionsPage() {
+  // Add HowTo structured data
+  useEffect(() => {
+    const howToStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Organize Birthday Contributions",
+      "description": "A complete step-by-step guide to organizing birthday contributions for your group",
+      "image": "https://groupfund.app/og-image.jpg",
+      "totalTime": "PT5M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Define Your Group",
+          "text": "Before you start organizing contributions, clearly define who is in your group. Determine group size, group purpose, and membership rules."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Set Contribution Amounts",
+          "text": "Set a standard amount per person. Consider group members' financial situation. Calculate annual totals. Choose the currency that works best for your group."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Create a Birthday Calendar",
+          "text": "Gather all group member birthdays. Organize by month to see busy periods. Set deadlines for when contributions are due. Use a digital calendar tool."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Set Up Payment Tracking",
+          "text": "Track payment status in real-time. Keep records of all contributions. Implement a two-step confirmation process: members mark as paid, celebrants confirm receipt."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Set Up Reminders",
+          "text": "Send reminders 7 days before each birthday deadline, 1 day before, and on the deadline day. Use multiple channels: email, push notifications, and in-app notifications."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Establish Communication",
+          "text": "Clearly communicate contribution amounts, deadlines, and expectations. Make payment statuses visible to all members. Send regular updates about contribution progress."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Handle Late Payments",
+          "text": "Use a system that automatically tracks overdue contributions. Send automatic reminders for overdue payments. Track member reliability scores. Establish clear policies."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Review and Improve",
+          "text": "Ask members for feedback on the process. Monitor group health scores and member reliability. Review contribution amounts annually. Look for ways to simplify the process."
+        }
+      ]
+    }
+
+    // Remove existing HowTo structured data if any
+    const existingScript = document.querySelector('script[data-howto-schema]')
+    if (existingScript) {
+      existingScript.remove()
+    }
+
+    // Add new structured data
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-howto-schema', 'true')
+    script.textContent = JSON.stringify(howToStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-howto-schema]')
+      if (scriptToRemove) {
+        scriptToRemove.remove()
+      }
+    }
+  }, [])
+
   return (
     <>
       <SEO

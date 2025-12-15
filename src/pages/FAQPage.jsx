@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
@@ -96,6 +96,57 @@ export default function FAQPage() {
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index)
   }
+
+  // Add FAQPage structured data
+  useEffect(() => {
+    // Helper function to extract text from React elements
+    const extractText = (answer) => {
+      if (typeof answer === 'string') {
+        return answer
+      }
+      if (answer && answer.props && answer.props.children) {
+        if (typeof answer.props.children === 'string') {
+          return answer.props.children
+        }
+        // For nested elements, try to get text content
+        return answer.props.children.toString()
+      }
+      return String(answer)
+    }
+
+    const faqStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": extractText(faq.answer)
+        }
+      }))
+    }
+
+    // Remove existing FAQ structured data if any
+    const existingScript = document.querySelector('script[data-faq-schema]')
+    if (existingScript) {
+      existingScript.remove()
+    }
+
+    // Add new structured data
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-faq-schema', 'true')
+    script.textContent = JSON.stringify(faqStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-faq-schema]')
+      if (scriptToRemove) {
+        scriptToRemove.remove()
+      }
+    }
+  }, [])
 
   return (
     <>
