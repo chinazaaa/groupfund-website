@@ -6,7 +6,9 @@ import '../App.css'
 export default function LocationsPage() {
   const locations = [
     { slug: 'nigeria', name: 'Nigeria', flag: '🇳🇬', type: 'country' },
+    { slug: 'united-kingdom', name: 'United Kingdom', flag: '🇬🇧', type: 'country' },
     { slug: 'lagos', name: 'Lagos, Nigeria', flag: '🇳🇬', type: 'city', parent: 'nigeria' },
+    { slug: 'london', name: 'London, UK', flag: '🇬🇧', type: 'city', parent: 'united-kingdom' },
     { slug: 'united-states', name: 'United States', flag: '🇺🇸', type: 'country' },
     { slug: 'new-york', name: 'New York, USA', flag: '🇺🇸', type: 'city', parent: 'united-states' },
     { slug: 'canada', name: 'Canada', flag: '🇨🇦', type: 'country' },
@@ -29,8 +31,6 @@ export default function LocationsPage() {
     { slug: 'amsterdam', name: 'Amsterdam, Netherlands', flag: '🇳🇱', type: 'city', parent: 'netherlands' },
     { slug: 'switzerland', name: 'Switzerland', flag: '🇨🇭', type: 'country' },
     { slug: 'zurich', name: 'Zurich, Switzerland', flag: '🇨🇭', type: 'city', parent: 'switzerland' },
-    { slug: 'united-kingdom', name: 'United Kingdom', flag: '🇬🇧', type: 'country' },
-    { slug: 'london', name: 'London, UK', flag: '🇬🇧', type: 'city', parent: 'united-kingdom' },
     { slug: 'india', name: 'India', flag: '🇮🇳', type: 'country' },
     { slug: 'mumbai', name: 'Mumbai, India', flag: '🇮🇳', type: 'city', parent: 'india' },
     { slug: 'kenya', name: 'Kenya', flag: '🇰🇪', type: 'country' },
