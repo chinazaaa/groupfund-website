@@ -69,6 +69,19 @@ export default function UseCasesPage() {
         'Professional and transparent system',
         'Easy to manage workplace groups'
       ]
+    },
+    {
+      slug: 'community-organizations',
+      title: 'For Community Organizations',
+      description: 'Organize birthday contributions for community organizations, neighborhood groups, alumni associations, and clubs. Perfect for any community-based group.',
+      icon: '🏘️',
+      keywords: 'community birthday contributions, neighborhood birthday fund, alumni birthday contributions, community organization contributions',
+      benefits: [
+        'Perfect for neighborhood groups and alumni associations',
+        'Manage sports clubs and hobby groups',
+        'Transparent system for community organizations',
+        'Easy to set up for any community group'
+      ]
     }
   ]
 
@@ -76,8 +89,8 @@ export default function UseCasesPage() {
     <>
       <SEO
         title="Use Cases - GroupFund for Families, Churches, Schools & More"
-        description="Discover how GroupFund helps families, churches, schools, friend groups, and workplaces organize birthday contributions effortlessly. Find the perfect solution for your group."
-        keywords="birthday contributions use cases, family birthday app, church birthday contributions, school birthday fund, friend group contributions, workplace birthday fund"
+        description="Discover how GroupFund helps families, churches, schools, friend groups, workplaces, and community organizations organize birthday contributions effortlessly. Find the perfect solution for your group."
+        keywords="birthday contributions use cases, family birthday app, church birthday contributions, school birthday fund, friend group contributions, workplace birthday fund, community organization contributions"
         canonical="https://groupfund.app/use-cases"
       />
 

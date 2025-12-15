@@ -58,6 +58,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://groupfund.app/use-cases/community-organizations</loc>
+    <lastmod>2025-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://groupfund.app/coming-soon-features</loc>
     <lastmod>2025-12-14</lastmod>
     <changefreq>monthly</changefreq>

@@ -123,6 +123,7 @@ export default function ChurchesUseCasePage() {
                 <Link to="/use-cases/schools">For Schools →</Link>
                 <Link to="/use-cases/friend-groups">For Friend Groups →</Link>
                 <Link to="/use-cases/workplace">For Workplace →</Link>
+                <Link to="/use-cases/community-organizations">For Community Organizations →</Link>
               </div>
             </div>
           </div>
