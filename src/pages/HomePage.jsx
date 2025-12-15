@@ -216,6 +216,16 @@ export default function HomePage() {
               <h3>Friend Groups</h3>
               <p>Keep your friend group's birthday contributions organized. No more awkward reminders or forgotten payments, just smooth, fair celebrations.</p>
             </article>
+            <article className="use-case-card">
+              <div className="use-case-icon">💼</div>
+              <h3>Workplace</h3>
+              <p>Organize office birthday funds professionally. Maintain clear records, ensure fairness, and reduce administrative burden for HR and office managers.</p>
+            </article>
+            <article className="use-case-card">
+              <div className="use-case-icon">🏘️</div>
+              <h3>Community Organizations</h3>
+              <p>Perfect for neighborhood groups, alumni associations, sports clubs, and hobby organizations. Maintain transparency and fairness across diverse community groups.</p>
+            </article>
           </div>
         </div>
       </section>
