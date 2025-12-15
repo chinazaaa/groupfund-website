@@ -38,6 +38,20 @@ import CommunityOrganizationsUseCasePage from './pages/CommunityOrganizationsUse
 import WhatsAppGroupsComparisonPage from './pages/WhatsAppGroupsComparisonPage'
 import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparisonPage'
 import ComparisonsPage from './pages/ComparisonsPage'
+import LocationsPage from './pages/LocationsPage'
+import NigeriaLocationPage from './pages/NigeriaLocationPage'
+import LagosLocationPage from './pages/LagosLocationPage'
+import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
+import CanadaLocationPage from './pages/CanadaLocationPage'
+import AustraliaLocationPage from './pages/AustraliaLocationPage'
+import GhanaLocationPage from './pages/GhanaLocationPage'
+import SouthAfricaLocationPage from './pages/SouthAfricaLocationPage'
+import BrazilLocationPage from './pages/BrazilLocationPage'
+import GermanyLocationPage from './pages/GermanyLocationPage'
+import IrelandLocationPage from './pages/IrelandLocationPage'
+import FranceLocationPage from './pages/FranceLocationPage'
+import NetherlandsLocationPage from './pages/NetherlandsLocationPage'
+import SwitzerlandLocationPage from './pages/SwitzerlandLocationPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -92,6 +106,20 @@ function App() {
         <Route path="/comparisons" element={<Layout><ComparisonsPage /></Layout>} />
         <Route path="/comparisons/whatsapp-groups" element={<Layout><WhatsAppGroupsComparisonPage /></Layout>} />
         <Route path="/comparisons/excel-spreadsheets" element={<Layout><ExcelSpreadsheetsComparisonPage /></Layout>} />
+        <Route path="/locations" element={<Layout><LocationsPage /></Layout>} />
+        <Route path="/locations/nigeria" element={<Layout><NigeriaLocationPage /></Layout>} />
+        <Route path="/locations/lagos" element={<Layout><LagosLocationPage /></Layout>} />
+        <Route path="/locations/united-states" element={<Layout><UnitedStatesLocationPage /></Layout>} />
+        <Route path="/locations/canada" element={<Layout><CanadaLocationPage /></Layout>} />
+        <Route path="/locations/australia" element={<Layout><AustraliaLocationPage /></Layout>} />
+        <Route path="/locations/ghana" element={<Layout><GhanaLocationPage /></Layout>} />
+        <Route path="/locations/south-africa" element={<Layout><SouthAfricaLocationPage /></Layout>} />
+        <Route path="/locations/brazil" element={<Layout><BrazilLocationPage /></Layout>} />
+        <Route path="/locations/germany" element={<Layout><GermanyLocationPage /></Layout>} />
+        <Route path="/locations/ireland" element={<Layout><IrelandLocationPage /></Layout>} />
+        <Route path="/locations/france" element={<Layout><FranceLocationPage /></Layout>} />
+        <Route path="/locations/netherlands" element={<Layout><NetherlandsLocationPage /></Layout>} />
+        <Route path="/locations/switzerland" element={<Layout><SwitzerlandLocationPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

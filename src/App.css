@@ -3394,6 +3394,129 @@
   }
 }
 
+/* Locations Page */
+.locations-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.locations-intro {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.locations-intro h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.locations-intro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+.locations-section {
+  margin: 60px 0;
+}
+
+.locations-section h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 32px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.location-card {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.12);
+  border-color: #6366f1;
+}
+
+.location-flag {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.location-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.location-link {
+  color: #6366f1;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: auto;
+}
+
+/* Location Detail Page */
+.location-detail-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.location-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.location-section {
+  margin-bottom: 60px;
+}
+
+.location-section h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.location-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+/* Responsive Locations */
+@media (max-width: 768px) {
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-section h2 {
+    font-size: 1.75rem;
+  }
+}
+
 .sitemap-note p {
   color: #64748b;
   font-size: 0.95rem;
