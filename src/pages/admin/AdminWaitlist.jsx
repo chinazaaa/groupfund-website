@@ -162,13 +162,14 @@ export default function AdminWaitlist() {
                     <th>Phone</th>
                     <th>Group Type</th>
                     <th>Date Joined</th>
+                    <th>Beta Invite Sent</th>
                     <th>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   {entries.length === 0 ? (
                     <tr>
-                      <td colSpan="6" className="admin-empty">
+                      <td colSpan="7" className="admin-empty">
                         No waitlist entries found
                       </td>
                     </tr>
@@ -188,6 +189,17 @@ export default function AdminWaitlist() {
                           </span>
                         </td>
                         <td>{formatDate(entry.created_at)}</td>
+                        <td>
+                          {entry.beta_email_sent ? (
+                            <span className="admin-badge-small" style={{ backgroundColor: '#10b981', color: 'white' }}>
+                              ✓ Sent
+                            </span>
+                          ) : (
+                            <span className="admin-badge-small" style={{ backgroundColor: '#ef4444', color: 'white' }}>
+                              Not Sent
+                            </span>
+                          )}
+                        </td>
                         <td>
                           <div className="admin-actions">
                             <button
@@ -272,6 +284,20 @@ export default function AdminWaitlist() {
                 <div className="admin-detail-item">
                   <strong>Date Joined:</strong>
                   <span>{formatDate(selectedEntry.created_at)}</span>
+                </div>
+                <div className="admin-detail-item">
+                  <strong>Beta Invite Sent:</strong>
+                  <span>
+                    {selectedEntry.beta_email_sent ? (
+                      <span className="admin-badge-small" style={{ backgroundColor: '#10b981', color: 'white' }}>
+                        ✓ Sent
+                      </span>
+                    ) : (
+                      <span className="admin-badge-small" style={{ backgroundColor: '#ef4444', color: 'white' }}>
+                        Not Sent
+                      </span>
+                    )}
+                  </span>
                 </div>
               </div>
               <div className="admin-modal-footer">
