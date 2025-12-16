@@ -51,7 +51,7 @@ export default function AppRulesPage() {
                 <li>We do not process payments through the app</li>
                 <li>We do not hold money in escrow or any account</li>
                 <li>We do not facilitate money transfers</li>
-                <li>We do not store credit card or payment credentials</li>
+                <li>We do not store credit card or payment credentials, only bank account details to display to the contributors</li>
                 <li>We do not act as a payment intermediary</li>
               </ul>
               <p>
