@@ -127,7 +127,7 @@ export default function CookiePolicyPage() {
 
               <h3>6.2 Mobile App Settings</h3>
               <p>
-                For mobile apps, you can manage cookie preferences through your device settings. On iOS, you can manage this through Settings > Privacy & Security. On Android, you can manage this through Settings > Privacy.
+                For mobile apps, you can manage cookie preferences through your device settings. On iOS, you can manage this through Settings &gt; Privacy &amp; Security. On Android, you can manage this through Settings &gt; Privacy.
               </p>
 
               <h3>6.3 Opt-Out Links</h3>
