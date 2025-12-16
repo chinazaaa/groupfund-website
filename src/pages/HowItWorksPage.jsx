@@ -46,6 +46,18 @@ export default function HowItWorksPage() {
       title: 'Monitor Group Health',
       description: 'Track group compliance metrics and health ratings. See how well your group maintains contribution standards. Pause/resume accepting members or close/reopen groups as needed.',
       icon: '📈'
+    },
+    {
+      number: '8',
+      title: 'Member Reliability Scoring',
+      description: 'Every member has a comprehensive reliability score (0-100) based on their contribution history. View detailed metrics: total groups joined, total contributions made, overdue contributions, on-time payment rate, and summary ratings (excellent/good/moderate/poor/new). Make informed decisions when approving new members.',
+      icon: '⭐'
+    },
+    {
+      number: '9',
+      title: 'Two-Step Contribution Confirmation',
+      description: 'Contributions follow a transparent two-step process: members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track status in real-time: not_paid → paid (awaiting confirmation) → confirmed or not_received. This ensures accountability and trust in every transaction.',
+      icon: '🔄'
     }
   ]
 
@@ -53,8 +65,8 @@ export default function HowItWorksPage() {
     <>
       <SEO
         title="How GroupFund Works - Simple Steps to Organize Birthday Contributions"
-        description="Learn how GroupFund works in 7 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, and monitor group health. Perfect for families, churches, and groups in Nigeria."
-        keywords="how groupfund works, birthday contribution app, group payment tracking, member reliability scores, group health metrics, how to organize birthday contributions, group wallet tutorial, Nigeria"
+        description="Learn how GroupFund works in 9 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, and two-step contribution confirmation. Perfect for families, churches, and groups in Nigeria."
+        keywords="how groupfund works, birthday contribution app, group payment tracking, member reliability scores, group health metrics, contribution confirmation, two-step payment process, how to organize birthday contributions, group wallet tutorial, Nigeria"
         canonical="https://groupfund.app/how-it-works"
       />
 
@@ -63,6 +75,9 @@ export default function HowItWorksPage() {
           <h1 className="page-title">How GroupFund Works</h1>
           <p className="page-subtitle">
             Organizing group birthday contributions has never been easier. Follow these simple steps to get started.
+          </p>
+          <p className="page-subtitle" style={{ fontSize: '1rem', marginTop: '0.5rem', opacity: 0.8 }}>
+            From signup to contribution tracking, discover how GroupFund makes group birthday contributions transparent and reliable.
           </p>
         </div>
       </section>
