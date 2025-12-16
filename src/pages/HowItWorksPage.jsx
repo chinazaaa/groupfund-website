@@ -50,13 +50,13 @@ export default function HowItWorksPage() {
     {
       number: '8',
       title: 'Member Reliability Scoring',
-      description: 'Every member has a comprehensive reliability score (0-100) based on their contribution history. View detailed metrics: total groups joined, total contributions made, overdue contributions, on-time payment rate, and summary ratings (excellent/good/moderate/poor/new). Make informed decisions when approving new members.',
+      description: 'Every member has a reliability score (0-100) based on their contribution history. View metrics like on-time payment rates and summary ratings to make informed decisions when approving new members.',
       icon: '⭐'
     },
     {
       number: '9',
       title: 'Two-Step Contribution Confirmation',
-      description: 'Contributions follow a transparent two-step process: members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track status in real-time: not_paid → paid (awaiting confirmation) → confirmed or not_received. This ensures accountability and trust in every transaction.',
+      description: 'Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track status in real-time from not paid to confirmed or not received for full transparency.',
       icon: '🔄'
     }
   ]
