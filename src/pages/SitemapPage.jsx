@@ -117,6 +117,7 @@ export default function SitemapPage() {
         { path: "/privacy", label: "Privacy Policy" },
         { path: "/terms", label: "Terms of Service" },
         { path: "/cookie-policy", label: "Cookie Policy" },
+        { path: "/app-rules", label: "App Rules" },
         { path: "/security", label: "Security" },
         { path: "/accessibility", label: "Accessibility" },
         { path: "/delete-account", label: "Delete Account" }
