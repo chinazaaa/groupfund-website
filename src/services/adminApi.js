@@ -175,5 +175,12 @@ export const adminApi = {
       method: 'POST',
     });
   },
+
+  testBetaInvitation: (data) => {
+    return apiRequest('/admin/waitlist/test-beta-invitation', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  },
 };
 

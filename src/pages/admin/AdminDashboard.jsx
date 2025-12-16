@@ -13,6 +13,9 @@ export default function AdminDashboard() {
   const [sendingNewsletter, setSendingNewsletter] = useState(false)
   const [triggeringOverdueReminders, setTriggeringOverdueReminders] = useState(false)
   const [sendingBetaInvitations, setSendingBetaInvitations] = useState(false)
+  const [testingBetaInvitation, setTestingBetaInvitation] = useState(false)
+  const [testEmail, setTestEmail] = useState('')
+  const [testName, setTestName] = useState('')
   const [actionMessage, setActionMessage] = useState(null)
 
   useEffect(() => {
@@ -113,6 +116,32 @@ export default function AdminDashboard() {
     }
   }
 
+  const handleTestBetaInvitation = async () => {
+    if (!testEmail.trim()) {
+      setActionMessage({ type: 'error', text: 'Email is required' })
+      setTimeout(() => setActionMessage(null), 5000)
+      return
+    }
+
+    try {
+      setTestingBetaInvitation(true)
+      setActionMessage(null)
+      const data = {
+        email: testEmail.trim(),
+        ...(testName.trim() && { name: testName.trim() })
+      }
+      await adminApi.testBetaInvitation(data)
+      setActionMessage({ type: 'success', text: 'Test beta invitation sent successfully!' })
+      setTestEmail('')
+      setTestName('')
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to send test beta invitation' })
+    } finally {
+      setTestingBetaInvitation(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
   if (loading) {
     return (
       <AdminLayout>
@@ -175,6 +204,41 @@ export default function AdminDashboard() {
                 {sendingBetaInvitations ? 'Sending...' : 'Send Beta Invitations'}
               </button>
             </div>
+          </div>
+          <div className="test-beta-invitation-form" style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f5f5f5', borderRadius: '8px', display: 'flex', gap: '0.5rem', alignItems: 'flex-end', flexWrap: 'wrap' }}>
+            <div style={{ flex: '1', minWidth: '200px' }}>
+              <label style={{ display: 'block', marginBottom: '0.25rem', fontSize: '0.875rem', fontWeight: '500' }}>
+                Test Email <span style={{ color: 'red' }}>*</span>
+              </label>
+              <input
+                type="email"
+                value={testEmail}
+                onChange={(e) => setTestEmail(e.target.value)}
+                placeholder="nazaalistic@gmail.com"
+                style={{ width: '100%', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '4px', fontSize: '0.875rem' }}
+                disabled={testingBetaInvitation}
+              />
+            </div>
+            <div style={{ flex: '1', minWidth: '150px' }}>
+              <label style={{ display: 'block', marginBottom: '0.25rem', fontSize: '0.875rem', fontWeight: '500' }}>
+                Name (optional)
+              </label>
+              <input
+                type="text"
+                value={testName}
+                onChange={(e) => setTestName(e.target.value)}
+                placeholder="Chinaza"
+                style={{ width: '100%', padding: '0.5rem', border: '1px solid #ddd', borderRadius: '4px', fontSize: '0.875rem' }}
+                disabled={testingBetaInvitation}
+              />
+            </div>
+            <button
+              onClick={handleTestBetaInvitation}
+              disabled={testingBetaInvitation || !testEmail.trim()}
+              className="btn-sm btn-primary"
+            >
+              {testingBetaInvitation ? 'Sending...' : 'Test Beta Invitation'}
+            </button>
           </div>
           {actionMessage && (
             <div className={`action-message ${actionMessage.type}`}>
