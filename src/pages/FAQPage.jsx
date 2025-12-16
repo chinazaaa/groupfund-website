@@ -191,7 +191,10 @@ export default function FAQPage() {
           <div className="cta-box">
             <h2>Still Have Questions?</h2>
             <p>Can't find what you're looking for? Our support team is here to help.</p>
-            <a href="/contact" className="btn btn-primary btn-large">Contact Support</a>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+              <a href="/contact" className="btn btn-primary btn-large">Contact Support</a>
+              <Link to="/app-rules" className="btn btn-secondary btn-large">View App Rules</Link>
+            </div>
           </div>
         </div>
       </section>

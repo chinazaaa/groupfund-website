@@ -18,6 +18,7 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsOfServicePage from './pages/TermsOfServicePage'
 import CookiePolicyPage from './pages/CookiePolicyPage'
 import SecurityPage from './pages/SecurityPage'
+import AppRulesPage from './pages/AppRulesPage'
 import AccessibilityPage from './pages/AccessibilityPage'
 import PressPage from './pages/PressPage'
 import CareersPage from './pages/CareersPage'
@@ -123,6 +124,7 @@ function App() {
         <Route path="/terms" element={<Layout><TermsOfServicePage /></Layout>} />
         <Route path="/cookie-policy" element={<Layout><CookiePolicyPage /></Layout>} />
         <Route path="/security" element={<Layout><SecurityPage /></Layout>} />
+        <Route path="/app-rules" element={<Layout><AppRulesPage /></Layout>} />
         <Route path="/accessibility" element={<Layout><AccessibilityPage /></Layout>} />
         <Route path="/press" element={<Layout><PressPage /></Layout>} />
         <Route path="/careers" element={<Layout><CareersPage /></Layout>} />

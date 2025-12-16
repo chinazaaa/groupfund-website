@@ -516,6 +516,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/app-rules',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/accessibility',
     priority: '0.6',
     changefreq: 'yearly',

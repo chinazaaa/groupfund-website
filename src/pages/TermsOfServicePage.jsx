@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
@@ -46,6 +47,9 @@ export default function TermsOfServicePage() {
               <p>
                 <strong>Important:</strong> GroupFund is a tracking and organization tool. We do not process, hold, or facilitate payments. All payments are made directly between group members using their preferred payment methods.
               </p>
+              <p>
+                For more detailed information about how payment tracking works, including the two-step confirmation process, please see our <Link to="/app-rules">App Rules</Link> page.
+              </p>
             </div>
 
             <div className="legal-section">
@@ -92,6 +96,9 @@ export default function TermsOfServicePage() {
                 <li>You are solely responsible for verifying payments before marking them as confirmed</li>
                 <li>We are not liable for any financial losses or disputes arising from group contributions</li>
               </ul>
+              <p>
+                For more information about how payment tracking works, including the contributor and celebrant confirmation process, visit our <Link to="/app-rules">App Rules</Link> page.
+              </p>
             </div>
 
             <div className="legal-section">
