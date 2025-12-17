@@ -13,6 +13,13 @@ export default function ComingSoonFeaturesPage() {
       statusColor: "blue"
     },
     {
+      title: "Advanced Notification Settings",
+      description: "Customize notification preferences for each group. Choose channels (email, SMS, push), frequency, and notification types.",
+      icon: "🔔",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
       title: "In-App Payment Processing",
       description: "Process payments directly within the app using secure payment gateways. Support for cards, bank transfers, and mobile money.",
       icon: "💳",
@@ -82,13 +89,6 @@ export default function ComingSoonFeaturesPage() {
       status: "Planned",
       statusColor: "purple"
     },
-    {
-      title: "Advanced Notification Settings",
-      description: "Customize notification preferences for each group. Choose channels (email, SMS, push), frequency, and notification types.",
-      icon: "🔔",
-      status: "Planned",
-      statusColor: "purple"
-    }
   ]
 
   const getStatusBadgeClass = (statusColor) => {
