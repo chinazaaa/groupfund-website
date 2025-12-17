@@ -20,13 +20,6 @@ export default function ComingSoonFeaturesPage() {
       statusColor: "purple"
     },
     {
-      title: "In-App Payment Processing",
-      description: "Process payments directly within the app using secure payment gateways. Support for cards, bank transfers, and mobile money.",
-      icon: "💳",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
       title: "Group Analytics Dashboard",
       description: "Comprehensive analytics and insights for group admins. Track contribution trends, member engagement, and financial summaries.",
       icon: "📊",
@@ -51,6 +44,13 @@ export default function ComingSoonFeaturesPage() {
       title: "Group Chat Integration",
       description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
       icon: "💬",
+      status: "Planned",
+      statusColor: "purple"
+    },
+     {
+      title: "In-App Payment Processing",
+      description: "Process payments directly within the app using secure payment gateways. Support for cards, bank transfers, and mobile money.",
+      icon: "💳",
       status: "Planned",
       statusColor: "purple"
     },
