@@ -47,6 +47,7 @@ import LocationsPage from './pages/LocationsPage'
 import ResourcesPage from './pages/ResourcesPage'
 import HowToOrganizeBirthdayContributionsPage from './pages/HowToOrganizeBirthdayContributionsPage'
 import BirthdayContributionEtiquettePage from './pages/BirthdayContributionEtiquettePage'
+import UsingBirthdayWishlistsPage from './pages/UsingBirthdayWishlistsPage'
 import CalculatingGroupContributionsPage from './pages/CalculatingGroupContributionsPage'
 import MultiCurrencyGroupPaymentsPage from './pages/MultiCurrencyGroupPaymentsPage'
 import ManagingLargeGroupContributionsPage from './pages/ManagingLargeGroupContributionsPage'
@@ -194,6 +195,7 @@ function App() {
         <Route path="/resources/choosing-the-right-contribution-amount" element={<Layout><ChoosingTheRightContributionAmountPage /></Layout>} />
         <Route path="/resources/advanced-group-management-strategies" element={<Layout><AdvancedGroupManagementStrategiesPage /></Layout>} />
         <Route path="/resources/optimizing-payment-confirmation-workflows" element={<Layout><OptimizingPaymentConfirmationWorkflowsPage /></Layout>} />
+        <Route path="/resources/using-birthday-wishlists" element={<Layout><UsingBirthdayWishlistsPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

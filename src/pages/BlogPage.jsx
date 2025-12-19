@@ -6,6 +6,14 @@ import '../App.css'
 export default function BlogPage() {
   const blogPosts = [
     {
+      title: "How Birthday Wishlists Make Gift Giving Easier for Groups",
+      excerpt: "Discover how birthday wishlists transform group gift giving. Learn how to create effective wishlists, coordinate gifts with group members, and avoid duplicate presents while ensuring everyone gets what they want.",
+      date: "December 20, 2025",
+      readTime: "6 min read",
+      slug: "how-birthday-wishlists-make-gift-giving-easier",
+      keywords: "birthday wishlists, group gift giving, birthday gift coordination, wishlist management, gift giving tips"
+    },
+    {
       title: "Managing Group Contributions During Holiday Seasons",
       excerpt: "Holiday seasons bring unique challenges for group contributions. Learn how to navigate increased expenses, busy schedules, and gift coordination while maintaining group harmony during festive periods.",
       date: "December 15, 2025",

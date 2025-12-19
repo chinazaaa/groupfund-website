@@ -100,6 +100,14 @@ export default function ResourcesPage() {
       icon: '⚙️',
       category: 'Advanced',
       readTime: '6 min read'
+    },
+    {
+      slug: 'using-birthday-wishlists',
+      title: 'How to Use Birthday Wishlists',
+      description: 'Complete guide to creating and using birthday wishlists for coordinated group gift giving. Learn how to share wishlists, claim items, and avoid duplicate gifts.',
+      icon: '🎁',
+      category: 'Best Practices',
+      readTime: '10 min read'
     }
   ]
 
