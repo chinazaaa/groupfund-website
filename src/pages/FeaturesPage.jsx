@@ -51,8 +51,13 @@ export default function FeaturesPage() {
       icon: "🎛️"
     },
     {
+      title: "Multiple Group Types",
+      description: "Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions like Netflix, Spotify - monthly or annual), or General Groups (for weddings, events, any purpose). Each type has features tailored to your needs.",
+      icon: "🎯"
+    },
+    {
       title: "Automatic Reminders",
-      description: "Get smart reminders 7 days before each birthday, 1 day before, and on the deadline day. Never miss a contribution deadline again.",
+      description: "Get smart reminders before deadlines: 7 days, 1 day, and same day for birthdays; before subscription deadlines; before event deadlines. Never miss a contribution deadline again.",
       icon: "🔔"
     },
     {
@@ -82,8 +87,18 @@ export default function FeaturesPage() {
     },
     {
       title: "Birthday Calendar & History",
-      description: "Never miss a birthday with our integrated calendar view. See all upcoming and past birthdays, plan contributions ahead of time, and track contribution history.",
+      description: "For Birthday Groups: Never miss a birthday with our integrated calendar view. See all upcoming and past birthdays, plan contributions ahead of time, and track contribution history.",
       icon: "📅"
+    },
+    {
+      title: "Subscription Deadline Tracking",
+      description: "For Subscription Groups: Track monthly or annual subscription deadlines. Set deadline day (and month for annual). Get reminders before deadlines and track overdue subscriptions.",
+      icon: "📺"
+    },
+    {
+      title: "Event Deadline Tracking",
+      description: "For General Groups: Set optional deadline dates for events, weddings, or any purpose. Track upcoming deadlines and get reminders. Monitor overdue contributions if deadlines pass.",
+      icon: "🎉"
     },
     {
       title: "Overdue Contributions Tracking",
@@ -112,8 +127,13 @@ export default function FeaturesPage() {
     },
     {
       title: "Birthday Wishlist",
-      description: "Create and share your birthday wishlist with group members. Add items with pictures, prices, and quantities. Group members can claim items they want to gift, and you can track what's been claimed and what's still available. Mark items as done when received.",
+      description: "For Birthday Groups: Create and share your birthday wishlist with group members. Add items with pictures, prices, and quantities. Group members can claim items they want to gift, and you can track what's been claimed and what's still available. Mark items as done when received.",
       icon: "🎁"
+    },
+    {
+      title: "Admin Account Details",
+      description: "For Subscription and General Groups: View the group creator's (admin's) account details for making contributions. The admin is responsible for managing the subscription or funds. For Birthday Groups, see the celebrant's account details.",
+      icon: "👤"
     }
   ]
 
@@ -126,8 +146,8 @@ export default function FeaturesPage() {
       />
       <SEO
         title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & More"
-        description="Discover GroupFund's powerful features: member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more. Perfect for organizing birthday contributions."
-        keywords="groupfund features, birthday app features, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders, group contribution app, Nigeria"
+        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more."
+        keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders"
         canonical="https://groupfund.app/features"
       />
 
@@ -135,7 +155,7 @@ export default function FeaturesPage() {
         <div className="container">
           <h1 className="page-title">Powerful Features for Organized Contributions</h1>
           <p className="page-subtitle">
-            Everything you need to organize group birthday contributions effortlessly. No more WhatsApp chaos or Excel spreadsheets.
+            Everything you need to organize group contributions effortlessly - for birthdays, subscriptions, events, and more. No more WhatsApp chaos or Excel spreadsheets.
           </p>
         </div>
       </section>
@@ -154,7 +174,7 @@ export default function FeaturesPage() {
 
           <div className="cta-box">
             <h2>Ready to Experience These Features?</h2>
-            <p>Start organizing your group's birthday contributions today. It's free to get started!</p>
+            <p>Start organizing your group's contributions today - for birthdays, subscriptions, or any purpose. It's free to get started!</p>
             <div className="cta-buttons">
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               <Link to="/download" className="btn btn-primary btn-large">Download App</Link>

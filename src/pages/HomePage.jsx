@@ -35,9 +35,9 @@ export default function HomePage() {
         storeName={storeName}
       />
       <SEO
-        title="GroupFund - Organize Group Birthday Contributions | Member Reliability & Group Health"
-        description="End birthday contribution chaos for families, churches, and groups. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
-        keywords="birthday contributions, group payments, member reliability scores, group health metrics, birthday tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
+        title="GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"
+        description="Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
+        keywords="group contributions, birthday contributions, subscription groups, group payments, member reliability scores, group health metrics, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
         canonical="https://groupfund.app/"
       />
 
@@ -53,10 +53,10 @@ export default function HomePage() {
               <span>✨ Trusted by 100+ Groups</span>
             </div>
             <h1 className="hero-headline">
-              End Birthday Contribution Chaos Forever
+              Organize Group Contributions for Any Purpose
             </h1>
             <p className="hero-subheadline">
-              The smart way to organize group birthday contributions. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.
+              The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.
             </p>
             <div className="hero-features">
               <div className="feature-tag">
@@ -90,7 +90,7 @@ export default function HomePage() {
           <div className="problem-content">
             <h2 id="problem-heading" className="section-title">Tired of Chasing Contributions?</h2>
             <p className="section-subtitle">
-              Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to group birthday contributions.
+              Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to group contributions for birthdays, subscriptions, events, and more.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Centralized Organization</h3>
-              <p>Replace scattered WhatsApp chats and messy spreadsheets with a single, organized platform. All your group's birthdays and contributions in one clear dashboard.</p>
+              <p>Replace scattered WhatsApp chats and messy spreadsheets with a single, organized platform. All your group's contributions, birthdays, subscriptions, and events in one clear dashboard.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -141,7 +141,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Smart Reminders</h3>
-              <p>Automatic reminders sent 7 days before each birthday and on the deadline. Get helpful recaps like "8 out of 10 members have paid for John's birthday."</p>
+              <p>Automatic reminders sent before deadlines for birthdays, subscriptions, and events. Get helpful recaps like "8 out of 10 members have paid" to stay informed about contribution progress.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -191,8 +191,8 @@ export default function HomePage() {
                   <line x1="3" y1="10" x2="21" y2="10"></line>
                 </svg>
               </div>
-              <h3>Birthday Calendar</h3>
-              <p>Never miss a birthday with our integrated calendar view. See all upcoming birthdays at a glance and plan contributions ahead of time.</p>
+              <h3>Multiple Group Types</h3>
+              <p>Create Birthday Groups, Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Each type has features tailored to your needs.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -200,8 +200,8 @@ export default function HomePage() {
                   <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
               </div>
-              <h3>Birthday Wishlist</h3>
-              <p>Create and share your birthday wishlist with group members. Add items with pictures and prices. Group members can claim items they want to gift, and you can track what's been claimed and what's still available.</p>
+              <h3>Birthday Calendar & Wishlist</h3>
+              <p>Never miss a birthday with our integrated calendar view. For birthday groups, create and share wishlists with items, pictures, and prices. Group members can claim items they want to gift.</p>
             </article>
           </div>
         </div>
@@ -218,27 +218,27 @@ export default function HomePage() {
             <article className="use-case-card">
               <div className="use-case-icon">👨‍👩‍👧‍👦</div>
               <h3>Families</h3>
-              <p>Transform your family WhatsApp group into an organized contribution system. Fair, transparent, and stress-free birthday celebrations for everyone.</p>
+              <p>Transform your family WhatsApp group into an organized contribution system. Fair, transparent, and stress-free contributions for birthdays, subscriptions, and events.</p>
             </article>
             <article className="use-case-card">
               <div className="use-case-icon">⛪</div>
               <h3>Churches</h3>
-              <p>Manage church group contributions without the administrative headache. Keep track of member contributions for birthdays and special events effortlessly.</p>
+              <p>Manage church group contributions without the administrative headache. Keep track of member contributions for birthdays, subscriptions, and special events effortlessly.</p>
             </article>
             <article className="use-case-card">
               <div className="use-case-icon">🏫</div>
               <h3>Schools</h3>
-              <p>Organize class or school group contributions with ease. Set clear expectations, track payments, and ensure everyone contributes fairly.</p>
+              <p>Organize class or school group contributions with ease. Set clear expectations, track payments, and ensure everyone contributes fairly for any purpose.</p>
             </article>
             <article className="use-case-card">
               <div className="use-case-icon">👥</div>
               <h3>Friend Groups</h3>
-              <p>Keep your friend group's birthday contributions organized. No more awkward reminders or forgotten payments, just smooth, fair celebrations.</p>
+              <p>Keep your friend group's contributions organized - birthdays, shared subscriptions, events. No more awkward reminders or forgotten payments.</p>
             </article>
             <article className="use-case-card">
               <div className="use-case-icon">💼</div>
               <h3>Workplace</h3>
-              <p>Organize office birthday funds professionally. Maintain clear records, ensure fairness, and reduce administrative burden for HR and office managers.</p>
+              <p>Organize office funds professionally - birthday contributions, shared subscriptions, team events. Maintain clear records and reduce administrative burden.</p>
             </article>
             <article className="use-case-card">
               <div className="use-case-icon">🏘️</div>
@@ -270,7 +270,7 @@ export default function HomePage() {
         <div className="container">
           <div className="cta-content">
             <h2 id="cta-heading" className="cta-title">Ready to Organize Your Group?</h2>
-            <p className="cta-subtitle">Join 100+ groups already on waitlist for GroupFund to manage their birthday contributions</p>
+            <p className="cta-subtitle">Join 100+ groups already on waitlist for GroupFund to manage their contributions</p>
             <div className="app-store-badges">
               <a 
                 href="#" 

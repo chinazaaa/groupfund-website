@@ -8,8 +8,8 @@ export default function AppRulesPage() {
     <>
       <SEO
         title="App Rules - How GroupFund Works | Payment Tracking Guidelines"
-        description="Understand how GroupFund works: We don't collect payments, only track contributions. Learn the two-step payment confirmation process and how contributors and celebrants interact."
-        keywords="groupfund rules, how groupfund works, payment tracking, contribution rules, app guidelines, payment confirmation process"
+        description="Understand how GroupFund works: We don't collect payments, only track contributions for birthday, subscription, and general groups. Learn the two-step payment confirmation process and how contributors and admins/celebrants interact."
+        keywords="groupfund rules, how groupfund works, payment tracking, contribution rules, app guidelines, payment confirmation process, birthday groups, subscription groups, general groups"
         canonical="https://groupfund.app/app-rules"
       />
 
@@ -28,11 +28,14 @@ export default function AppRulesPage() {
             <div className="legal-section">
               <h2>What GroupFund Does</h2>
               <p>
-                GroupFund is a <strong>tracking and organization tool</strong> designed to help groups manage birthday contributions. We provide:
+                GroupFund is a <strong>tracking and organization tool</strong> designed to help groups manage contributions for birthdays, subscriptions, events, and any purpose. We provide:
               </p>
               <ul>
+                <li>Multiple group types: Birthday Groups, Subscription Groups, and General Groups</li>
                 <li>Group creation and member management</li>
-                <li>Birthday calendar and tracking</li>
+                <li>Birthday calendar and tracking (for Birthday Groups)</li>
+                <li>Subscription deadline tracking (for Subscription Groups)</li>
+                <li>Event deadline tracking (for General Groups)</li>
                 <li>Contribution amount settings</li>
                 <li>Payment status tracking</li>
                 <li>Automatic reminders</li>
@@ -68,22 +71,25 @@ export default function AppRulesPage() {
               <div style={{ marginTop: '2rem' }}>
                 <h3>Step 1: Contributor Marks Payment as Paid</h3>
                 <p>
-                  After making a payment to the celebrant <strong>outside the app</strong> (via bank transfer, mobile money, cash, etc.), the contributor:
+                  After making a payment <strong>outside the app</strong> (via bank transfer, mobile money, cash, etc.), the contributor:
                 </p>
                 <ul>
                   <li>Opens the GroupFund app</li>
-                  <li>Finds the relevant birthday/contribution</li>
+                  <li>Finds the relevant contribution (birthday, subscription, or general group)</li>
                   <li>Marks their payment as <strong>"Paid"</strong></li>
                 </ul>
                 <p>
                   At this point, the status shows as <strong>"Paid" (awaiting confirmation)</strong>, indicating that the contributor has notified the app that they've made the payment.
                 </p>
+                <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                  <strong>Note:</strong> For Birthday Groups, payments go to the celebrant. For Subscription Groups and General Groups, payments go to the admin (group creator).
+                </p>
               </div>
 
               <div style={{ marginTop: '2rem' }}>
-                <h3>Step 2: Celebrant Confirms or Rejects</h3>
+                <h3>Step 2: Admin/Celebrant Confirms or Rejects</h3>
                 <p>
-                  The celebrant (the person receiving the contribution) then:
+                  The person receiving the contribution (celebrant for Birthday Groups, admin for Subscription/General Groups) then:
                 </p>
                 <ul>
                   <li>Receives a notification that a payment has been marked as "Paid"</li>
@@ -121,14 +127,14 @@ export default function AppRulesPage() {
             <div className="legal-section">
               <h2>What Happens If Payment Is Marked "Not Received"?</h2>
               <p>
-                If a celebrant marks a payment as "Not Received":
+                If an admin or celebrant marks a payment as "Not Received":
               </p>
               <ul>
                 <li>The status changes to "Not Received"</li>
                 <li>The contributor is notified</li>
-                <li>The contributor can follow up with the celebrant to resolve the issue</li>
+                <li>The contributor can follow up with the admin/celebrant to resolve the issue</li>
                 <li>This might involve checking payment details, transaction references, or making the payment again</li>
-                <li>Once resolved, the contributor can mark it as "Paid" again for the celebrant to confirm</li>
+                <li>Once resolved, the contributor can mark it as "Paid" again for the admin/celebrant to confirm</li>
               </ul>
               <p>
                 This system helps ensure accurate tracking and resolves payment disputes transparently.
@@ -141,7 +147,7 @@ export default function AppRulesPage() {
               <ul>
                 <li><strong>Make payments outside the app:</strong> All payments happen directly between you and other group members</li>
                 <li><strong>Accurately mark payment status:</strong> Only mark payments as "Paid" after you've actually made the payment</li>
-                <li><strong>Verify payments before confirming:</strong> Celebrants should check their accounts before confirming receipt</li>
+                <li><strong>Verify payments before confirming:</strong> Admins and celebrants should check their accounts before confirming receipt</li>
                 <li><strong>Resolve disputes directly:</strong> If there's a payment issue, work it out directly with the other party</li>
                 <li><strong>Use appropriate payment methods:</strong> Choose payment methods that work for your group (bank transfers, mobile money, etc.)</li>
               </ul>
@@ -154,8 +160,8 @@ export default function AppRulesPage() {
               </p>
               <ul>
                 <li>Providing a platform to track payment statuses</li>
-                <li>Organizing group information and birthdays</li>
-                <li>Sending reminders about upcoming contributions</li>
+                <li>Organizing group information for birthdays, subscriptions, and events</li>
+                <li>Sending reminders about upcoming contributions and deadlines</li>
                 <li>Displaying payment history and transparency</li>
                 <li>Calculating reliability scores based on payment behavior</li>
               </ul>
@@ -202,7 +208,7 @@ export default function AppRulesPage() {
             <div className="legal-section" style={{ padding: '1.5rem', backgroundColor: '#e7f3ff', borderRadius: '8px', borderLeft: '4px solid #007bff' }}>
               <h2 style={{ marginTop: '0' }}>Summary</h2>
               <p style={{ marginBottom: '0', fontWeight: '500' }}>
-                GroupFund is a tracking tool, not a payment processor. Contributors make payments outside the app and mark them as "Paid" in the app. Celebrants then confirm receipt or mark as "Not Received." This two-step process ensures accuracy and transparency while keeping payments simple and secure.
+                GroupFund is a tracking tool, not a payment processor. Contributors make payments outside the app and mark them as "Paid" in the app. Admins (for Subscription/General Groups) or celebrants (for Birthday Groups) then confirm receipt or mark as "Not Received." This two-step process ensures accuracy and transparency while keeping payments simple and secure.
               </p>
             </div>
           </div>

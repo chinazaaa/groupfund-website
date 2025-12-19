@@ -7,9 +7,9 @@ export default function PricingPage() {
   return (
     <>
       <SEO
-        title="GroupFund Pricing - Free Birthday Contribution App | No Hidden Fees"
-        description="GroupFund is completely free to start! Organize birthday contributions for your group at no cost. No hidden fees, no credit card required. Free forever for organizing group birthday contributions."
-        keywords="groupfund pricing, free birthday contribution app, free group payment app, birthday app free, groupfund cost, free birthday tracker, no cost birthday contributions"
+        title="GroupFund Pricing - Free Group Contribution App | No Hidden Fees"
+        description="GroupFund is completely free to start! Organize contributions for birthdays, subscriptions, and events at no cost. No hidden fees, no credit card required. Free forever for organizing group contributions."
+        keywords="groupfund pricing, free group contribution app, free group payment app, contribution app free, groupfund cost, free contribution tracker, no cost group contributions"
         canonical="https://groupfund.app/pricing"
       />
 
@@ -17,7 +17,7 @@ export default function PricingPage() {
         <div className="container">
           <h1 className="page-title">Simple, Transparent Pricing</h1>
           <p className="page-subtitle">
-            GroupFund is free to start. No hidden fees, no credit card required. Organize birthday contributions for your group at no cost.
+            GroupFund is free to start. No hidden fees, no credit card required. Organize contributions for birthdays, subscriptions, and events at no cost.
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function PricingPage() {
                   <span className="price-period">/forever</span>
                 </div>
                 <p className="pricing-description">
-                  Everything you need to organize birthday contributions for your group. No credit card required.
+                  Everything you need to organize contributions for birthdays, subscriptions, and events. No credit card required.
                 </p>
               </div>
               <div className="pricing-features">
@@ -71,7 +71,19 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Birthday calendar & history</span>
+                    <span>Multiple group types (Birthday, Subscription, General)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Birthday calendar & history (for Birthday Groups)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Subscription deadline tracking (for Subscription Groups)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Event deadline tracking (for General Groups)</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -112,10 +124,10 @@ export default function PricingPage() {
           <div className="pricing-value-section">
             <h2>Why GroupFund is Free</h2>
             <p>
-              We believe that organizing birthday contributions shouldn't cost money. GroupFund is free because we want to make group organization accessible to everyone—families, churches, schools, friend groups, workplaces, and community organizations.
+              We believe that organizing group contributions shouldn't cost money. GroupFund is free because we want to make group organization accessible to everyone—families, churches, schools, friend groups, workplaces, and community organizations.
             </p>
             <p>
-              Our mission is to end birthday contribution chaos, and charging for basic organization would go against that mission. That's why GroupFund will always be free for organizing group birthday contributions.
+              Our mission is to end group contribution chaos, and charging for basic organization would go against that mission. That's why GroupFund will always be free for organizing group contributions.
             </p>
           </div>
 
@@ -193,7 +205,7 @@ export default function PricingPage() {
               <div className="faq-item">
                 <h3>Will GroupFund always be free?</h3>
                 <p>
-                  Yes, GroupFund will always be free for organizing birthday contributions. Our mission is to make group organization accessible to everyone, and we're committed to keeping the core features free forever.
+                  Yes, GroupFund will always be free for organizing group contributions. Our mission is to make group organization accessible to everyone, and we're committed to keeping the core features free forever.
                 </p>
               </div>
               <div className="faq-item">
@@ -211,13 +223,13 @@ export default function PricingPage() {
               <div className="faq-item">
                 <h3>Will there be premium features in the future?</h3>
                 <p>
-                  We're focused on making GroupFund the best free tool for organizing birthday contributions. While we may add optional premium features in the future, all core functionality will always remain free.
+                  We're focused on making GroupFund the best free tool for organizing group contributions. While we may add optional premium features in the future, all core functionality will always remain free.
                 </p>
               </div>
               <div className="faq-item">
                 <h3>How do you make money if it's free?</h3>
                 <p>
-                  Our primary goal is to solve the problem of organizing birthday contributions, not to maximize revenue. We're building GroupFund to help groups everywhere, and we believe that keeping it free is the best way to achieve our mission.
+                  Our primary goal is to solve the problem of organizing group contributions, not to maximize revenue. We're building GroupFund to help groups everywhere, and we believe that keeping it free is the best way to achieve our mission.
                 </p>
               </div>
             </div>
@@ -226,7 +238,7 @@ export default function PricingPage() {
           {/* CTA Section */}
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
-            <p>Join thousands of groups using GroupFund to organize birthday contributions—completely free.</p>
+            <p>Join thousands of groups using GroupFund to organize contributions—completely free.</p>
             <div className="cta-buttons">
               <Link to="/waitlist" className="btn btn-primary btn-large">Start Free Today</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

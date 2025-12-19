@@ -8,7 +8,7 @@ export default function UseCasesPage() {
     {
       slug: 'families',
       title: 'For Families',
-      description: 'Organize birthday contributions for your extended family with ease. Keep track of everyone\'s contributions, set fair amounts, and celebrate together without the stress.',
+      description: 'Organize contributions for birthdays, shared subscriptions, and family events with ease. Keep track of everyone\'s contributions, set fair amounts, and celebrate together without the stress.',
       icon: '👨‍👩‍👧‍👦',
       keywords: 'family birthday contributions, family group payments, extended family birthday fund',
       benefits: [
@@ -21,7 +21,7 @@ export default function UseCasesPage() {
     {
       slug: 'churches',
       title: 'For Churches',
-      description: 'Streamline birthday contributions for church members. Manage large groups efficiently, track member reliability, and maintain transparency in your church community.',
+      description: 'Streamline contributions for birthdays, subscriptions, and church events. Manage large groups efficiently, track member reliability, and maintain transparency in your church community.',
       icon: '⛪',
       keywords: 'church birthday contributions, church member contributions, church birthday fund Nigeria',
       benefits: [
@@ -47,7 +47,7 @@ export default function UseCasesPage() {
     {
       slug: 'friend-groups',
       title: 'For Friend Groups',
-      description: 'Keep your friend group\'s birthday celebrations organized. No more awkward reminders or forgotten contributions. Celebrate together effortlessly.',
+      description: 'Keep your friend group\'s contributions organized - for birthdays, shared subscriptions, or events. No more awkward reminders or forgotten contributions.',
       icon: '👥',
       keywords: 'friend group birthday contributions, friend group birthday fund, group birthday tracker',
       benefits: [
@@ -60,7 +60,7 @@ export default function UseCasesPage() {
     {
       slug: 'workplace',
       title: 'For Workplace',
-      description: 'Organize birthday contributions for colleagues and team members. Perfect for office birthday funds, team celebrations, and workplace communities.',
+      description: 'Organize contributions for colleagues and team members - birthdays, shared subscriptions, team events. Perfect for office funds and workplace communities.',
       icon: '💼',
       keywords: 'workplace birthday contributions, office birthday fund, colleague birthday contributions Nigeria',
       benefits: [
@@ -89,8 +89,8 @@ export default function UseCasesPage() {
     <>
       <SEO
         title="Use Cases - GroupFund for Families, Churches, Schools & More"
-        description="Discover how GroupFund helps families, churches, schools, friend groups, workplaces, and community organizations organize birthday contributions effortlessly. Find the perfect solution for your group."
-        keywords="birthday contributions use cases, family birthday app, church birthday contributions, school birthday fund, friend group contributions, workplace birthday fund, community organization contributions"
+        description="Discover how GroupFund helps families, churches, schools, friend groups, workplaces, and community organizations organize contributions for birthdays, subscriptions, and events effortlessly. Find the perfect solution for your group."
+        keywords="group contributions use cases, birthday groups, subscription groups, general groups, family contribution app, church contributions, school fund, friend group contributions, workplace fund, community organization contributions"
         canonical="https://groupfund.app/use-cases"
       />
 
@@ -98,7 +98,7 @@ export default function UseCasesPage() {
         <div className="container">
           <h1 className="page-title">Use Cases</h1>
           <p className="page-subtitle">
-            GroupFund works perfectly for any group that wants to organize birthday contributions effortlessly.
+            GroupFund works perfectly for any group that wants to organize contributions for birthdays, subscriptions, events, and more.
           </p>
         </div>
       </section>
@@ -128,7 +128,7 @@ export default function UseCasesPage() {
 
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
-            <p>Choose the use case that fits your group and start organizing birthday contributions today.</p>
+            <p>Choose the use case that fits your group and start organizing contributions today - for birthdays, subscriptions, or any purpose.</p>
             <Link to="/waitlist" className="btn btn-primary btn-large">Join the Waitlist</Link>
           </div>
         </div>

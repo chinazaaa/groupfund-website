@@ -7,9 +7,9 @@ export default function AboutPage() {
   return (
     <>
       <SEO
-        title="About GroupFund - Our Mission to End Birthday Contribution Chaos"
-        description="Learn about GroupFund's mission to help families, churches, and groups organize birthday contributions effortlessly. Discover why we built this app and our commitment to transparency."
-        keywords="about groupfund, groupfund mission, birthday app Nigeria, group contribution mission, our story"
+        title="About GroupFund - Our Mission to End Group Contribution Chaos"
+        description="Learn about GroupFund's mission to help families, churches, and groups organize contributions for birthdays, subscriptions, and events effortlessly. Discover why we built this app and our commitment to transparency."
+        keywords="about groupfund, groupfund mission, group contribution app, group contribution mission, our story"
         canonical="https://groupfund.app/about"
       />
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="container">
           <h1 className="page-title">About GroupFund</h1>
           <p className="page-subtitle">
-            We're on a mission to end birthday contribution chaos for groups everywhere.
+            We're on a mission to end group contribution chaos for groups everywhere.
           </p>
         </div>
       </section>
@@ -28,10 +28,10 @@ export default function AboutPage() {
             <div className="about-section">
               <h2>Our Mission</h2>
               <p>
-                GroupFund was born from a simple frustration: organizing birthday contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. We saw families, churches, schools, and friend groups struggling with the same problems, like forgotten payments, unclear amounts, and endless WhatsApp messages.
+                GroupFund was born from a simple frustration: organizing group contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. We saw families, churches, schools, and friend groups struggling with the same problems, like forgotten payments, unclear amounts, and endless WhatsApp messages - whether for birthdays, shared subscriptions, or events.
               </p>
               <p>
-                Our mission is to bring order, transparency, and fairness to group birthday contributions. We believe that celebrating birthdays should be joyful, not stressful. That's why we built GroupFund, to make organizing contributions effortless so groups can focus on what matters: celebrating together.
+                Our mission is to bring order, transparency, and fairness to group contributions of all kinds. We believe that organizing contributions should be effortless, not stressful. That's why we built GroupFund to support Birthday Groups, Subscription Groups (for shared subscriptions like Netflix, Spotify), and General Groups (for weddings, events, any purpose), so groups can focus on what matters: coming together.
               </p>
             </div>
 
@@ -80,13 +80,13 @@ export default function AboutPage() {
                 We're committed to continuously improving GroupFund based on user feedback. We listen to our community of families, churches, schools, and friend groups to make the app better every day. Your success in organizing contributions is our success.
               </p>
               <p>
-                Whether you're managing a small family group or a large church community, we're here to make birthday contributions effortless. Join us in ending the chaos, one group at a time.
+                Whether you're managing a small family group or a large church community, we're here to make group contributions effortless - for birthdays, subscriptions, events, and more. Join us in ending the chaos, one group at a time.
               </p>
             </div>
 
             <div className="cta-box">
               <h2>Ready to Join Our Mission?</h2>
-              <p>Start organizing your group's birthday contributions today. It's free to get started!</p>
+              <p>Start organizing your group's contributions today - for birthdays, subscriptions, or any purpose. It's free to get started!</p>
               <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
             </div>
           </div>

@@ -41,7 +41,7 @@ export default function FAQPage() {
     },
     {
       question: "What notification types does GroupFund send?",
-      answer: "GroupFund sends various notifications including birthday wishes, birthday reminders (7 days before, 1 day before, and on the same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize your notification preferences in settings."
+      answer: "GroupFund sends various notifications including birthday wishes (for birthday groups), reminders (7 days before, 1 day before, and on the same day for birthdays; before subscription deadlines; before event deadlines), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize your notification preferences in settings."
     },
     {
       question: "How does OTP verification work?",
@@ -49,7 +49,7 @@ export default function FAQPage() {
     },
     {
       question: "Can I see past birthdays and contribution history?",
-      answer: "Yes! The birthday calendar shows both upcoming and past birthdays. You can view complete contribution history for each member, including received contributions, payment confirmations, and overdue contributions. This helps maintain transparency and track long-term participation."
+      answer: "Yes! For Birthday Groups, the calendar shows both upcoming and past birthdays. For all group types, you can view complete contribution history for each member, including received contributions, payment confirmations, and overdue contributions. This helps maintain transparency and track long-term participation."
     },
     {
       question: "What happens if a celebrant rejects a contribution?",
@@ -68,8 +68,24 @@ export default function FAQPage() {
       answer: "GroupFund is free to start! You can create your first group and start organizing birthday contributions at no cost. We believe in making group organization accessible to everyone."
     },
     {
-      question: "Can I use GroupFund for events other than birthdays?",
-      answer: "Currently, GroupFund is optimized for birthday contributions. However, many groups use it creatively for other recurring group events. We're always working on new features based on user feedback."
+      question: "What types of groups can I create?",
+      answer: "GroupFund supports three types of groups: 1) Birthday Groups - for organizing birthday contributions with wishlists and birthday reminders (requires birthday to be set in profile); 2) Subscription Groups - for managing shared subscriptions like Netflix, Spotify (monthly or annual frequency, no birthday required); 3) General Groups - for any purpose like weddings, baby showers, events (optional deadline, no birthday required)."
+    },
+    {
+      question: "Do I need to set my birthday to use GroupFund?",
+      answer: "You only need to set your birthday if you want to create or join Birthday Groups. For Subscription Groups and General Groups, no birthday is required. You can set your birthday in your profile settings at any time."
+    },
+    {
+      question: "How do Subscription Groups work?",
+      answer: "Subscription Groups are for managing shared subscriptions like Netflix, Spotify, etc. You set the subscription platform name, choose monthly or annual frequency, set a deadline day (and month for annual subscriptions), and set the contribution amount. Members contribute to the admin (group creator) who pays for the subscription. You'll get reminders before subscription deadlines."
+    },
+    {
+      question: "How do General Groups work?",
+      answer: "General Groups are for any purpose - weddings, baby showers, events, or anything else. You set a contribution amount, optional deadline date, and maximum members. Members contribute to the admin (group creator) who manages the funds. You'll get reminders before deadlines (if set) and overdue reminders if deadlines pass."
+    },
+    {
+      question: "Who receives contributions in different group types?",
+      answer: "For Birthday Groups, contributions go to the birthday celebrant (their account details are shown). For Subscription Groups and General Groups, contributions go to the admin (group creator) - their account details are displayed to members. The admin is responsible for paying the subscription or managing the funds."
     },
     {
       question: "Do I need to download an app?",
@@ -151,9 +167,9 @@ export default function FAQPage() {
   return (
     <>
       <SEO
-        title="GroupFund FAQ - Frequently Asked Questions About Birthday Contributions"
-        description="Get answers to common questions about GroupFund: member reliability scores, group health metrics, payment confirmation, OTP verification, group management, notifications, and more. Learn everything about our birthday contribution app."
-        keywords="groupfund FAQ, birthday app questions, member reliability scores, group health metrics, group payment FAQ, is groupfund safe, currency support, payment confirmation, OTP verification, Nigeria"
+        title="GroupFund FAQ - Frequently Asked Questions About Group Contributions"
+        description="Get answers to common questions about GroupFund: group types (birthday, subscription, general), member reliability scores, group health metrics, payment confirmation, OTP verification, group management, notifications, and more."
+        keywords="groupfund FAQ, group contribution app questions, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, group payment FAQ, is groupfund safe, currency support, payment confirmation, OTP verification"
         canonical="https://groupfund.app/faq"
       />
 
@@ -161,7 +177,7 @@ export default function FAQPage() {
         <div className="container">
           <h1 className="page-title">Frequently Asked Questions</h1>
           <p className="page-subtitle">
-            Everything you need to know about GroupFund and organizing group birthday contributions.
+            Everything you need to know about GroupFund and organizing group contributions for birthdays, subscriptions, and events.
           </p>
         </div>
       </section>

@@ -8,13 +8,13 @@ export default function HowItWorksPage() {
     {
       number: '1',
       title: 'Sign Up & Verify',
-      description: 'Create your account with email or phone number. Verify your account with OTP (One-Time Password) sent to your email. Set up your profile and add your birthday.',
+      description: 'Create your account with email or phone number. Verify your account with OTP (One-Time Password) sent to your email. Set up your profile. For birthday groups, add your birthday to create or join.',
       icon: '🔐'
     },
     {
       number: '2',
-      title: 'Create or Join Groups',
-      description: 'Create your own group or preview existing groups using invite codes. See member reliability scores and group health metrics before joining to make informed decisions.',
+      title: 'Choose Group Type & Create',
+      description: 'Create Birthday Groups (for birthdays), Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Preview existing groups using invite codes and see member reliability scores before joining.',
       icon: '👥'
     },
     {
@@ -31,14 +31,14 @@ export default function HowItWorksPage() {
     },
     {
       number: '5',
-      title: 'Track Birthdays & Contributions',
-      description: 'View upcoming and past birthdays in the calendar. Create and share birthday wishlists with items you want. Group members can claim items from your wishlist. Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track overdue contributions automatically.',
-      icon: '🎂'
+      title: 'Track Contributions & Deadlines',
+      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Members mark contributions as "Paid", then admins/celebrants confirm receipt or reject if not received. Track overdue contributions automatically.',
+      icon: '📅'
     },
     {
       number: '6',
       title: 'Get Smart Notifications',
-      description: 'Receive automatic reminders 7 days before, 1 day before, and on the birthday deadline. Get in-app and push notifications for birthdays, overdue contributions, member requests, and confirmations.',
+      description: 'Receive automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Get in-app and push notifications for contributions, overdue payments, member requests, and confirmations.',
       icon: '🔔'
     },
     {
@@ -64,9 +64,9 @@ export default function HowItWorksPage() {
   return (
     <>
       <SEO
-        title="How GroupFund Works - Simple Steps to Organize Birthday Contributions"
-        description="Learn how GroupFund works in 9 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, and two-step contribution confirmation. Perfect for families, churches, and groups in Nigeria."
-        keywords="how groupfund works, birthday contribution app, group payment tracking, member reliability scores, group health metrics, contribution confirmation, two-step payment process, how to organize birthday contributions, group wallet tutorial, Nigeria"
+        title="How GroupFund Works - Simple Steps to Organize Group Contributions"
+        description="Learn how GroupFund works in 9 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, and two-step contribution confirmation. Perfect for birthdays, subscriptions, and any group purpose."
+        keywords="how groupfund works, group contribution app, birthday groups, subscription groups, general groups, group payment tracking, member reliability scores, group health metrics, contribution confirmation, two-step payment process, how to organize group contributions, group wallet tutorial"
         canonical="https://groupfund.app/how-it-works"
       />
 
@@ -74,10 +74,10 @@ export default function HowItWorksPage() {
         <div className="container">
           <h1 className="page-title">How GroupFund Works</h1>
           <p className="page-subtitle">
-            Organizing group birthday contributions has never been easier. Follow these simple steps to get started.
+            Organizing group contributions has never been easier. Follow these simple steps to get started.
           </p>
           <p className="page-subtitle" style={{ fontSize: '1rem', marginTop: '0.5rem', opacity: 0.8 }}>
-            From signup to contribution tracking, discover how GroupFund makes group birthday contributions transparent and reliable.
+            From signup to contribution tracking, discover how GroupFund makes group contributions transparent and reliable for birthdays, subscriptions, and any purpose.
           </p>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default function HowItWorksPage() {
 
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
-            <p>Join hundreds of groups already using GroupFund to organize their birthday contributions.</p>
+            <p>Join hundreds of groups already using GroupFund to organize their contributions for birthdays, subscriptions, and events.</p>
             <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
           </div>
         </div>
