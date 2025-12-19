@@ -26,7 +26,7 @@ export default function HelpPage() {
         },
         {
           question: "Do I need to pay to use GroupFund?",
-          answer: "No! GroupFund is free to start. You can create your first group and start organizing birthday contributions at no cost. We believe in making group organization accessible to everyone."
+          answer: "No! GroupFund is free to start. You can create your first group and start organizing group contributions at no cost - for birthdays, subscriptions, events, and more. We believe in making group organization accessible to everyone."
         },
         {
           question: "How many groups can I create?",

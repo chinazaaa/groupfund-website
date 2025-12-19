@@ -161,14 +161,14 @@ export default function DownloadPage() {
                 </div>
                 <div className="faq-item">
                   <h3>What if the app isn't available in my country?</h3>
-                  <p>You can still use GroupFund through our web app. Visit <Link to="/">groupfund.app</Link> to get started.</p>
+                  <p>We are working on making the app available in more countries.</p>
                 </div>
               </div>
             </div>
 
             <div className="download-cta-box">
               <h2>Ready to Get Started?</h2>
-              <p>Join 100+ groups already using GroupFund to organize their birthday contributions.</p>
+              <p>Join 100+ groups already using GroupFund to organize their group contributions.</p>
               <div className="cta-buttons">
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">
                   Learn How It Works

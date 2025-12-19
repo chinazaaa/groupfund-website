@@ -35,7 +35,7 @@ export default function ThankYouPage() {
               <div className="thank-you-card">
                 <div className="thank-you-card-icon">📚</div>
                 <h3>Learn More</h3>
-                <p>Explore our features and see how GroupFund can help organize your group's birthday contributions.</p>
+                <p>Explore our features and see how GroupFund can help organize your group's contributions - for birthdays, subscriptions, events, and more.</p>
                 <Link to="/features" className="btn btn-secondary">
                   View Features
                 </Link>

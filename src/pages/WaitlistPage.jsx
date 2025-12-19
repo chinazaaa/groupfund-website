@@ -66,7 +66,7 @@ export default function WaitlistPage() {
     <>
       <SEO
         title="Join the Waitlist - GroupFund"
-        description="Join the GroupFund waitlist and be among the first to organize your group's birthday contributions. Get early access when we launch."
+        description="Join the GroupFund waitlist and be among the first to organize your group's contributions - for birthdays, subscriptions, events, and more. Get early access when we launch."
         keywords="GroupFund waitlist, early access, join waitlist, group contribution app"
         canonical="https://groupfund.app/waitlist"
       />

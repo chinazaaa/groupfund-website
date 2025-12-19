@@ -61,7 +61,7 @@ export default function ContactPage() {
     <>
       <SEO
         title="Contact GroupFund - Get Help, Support & Feedback"
-        description="Contact GroupFund for support, questions, or feedback. We're here to help you organize your group birthday contributions. Get in touch today."
+        description="Contact GroupFund for support, questions, or feedback. We're here to help you organize your group contributions - for birthdays, subscriptions, events, and more. Get in touch today."
         keywords="contact groupfund, groupfund support, customer support, help center, feedback"
         canonical="https://groupfund.app/contact"
       />

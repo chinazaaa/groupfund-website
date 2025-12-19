@@ -27,7 +27,7 @@ export default function PressPage() {
             <div className="legal-section">
               <h2>About GroupFund</h2>
               <p>
-                GroupFund is a mobile application that helps families, churches, schools, and friend groups organize and track birthday contributions. We eliminate the chaos of managing group payments through WhatsApp groups and spreadsheets by providing a simple, transparent platform for tracking who has paid and who hasn't.
+                GroupFund is a mobile application that helps families, churches, schools, and friend groups organize and track group contributions - for birthdays, shared subscriptions, events, and more. We eliminate the chaos of managing group payments through WhatsApp groups and spreadsheets by providing a simple, transparent platform for tracking who has paid and who hasn't.
               </p>
               <p>
                 <strong>Key Facts:</strong>
@@ -36,7 +36,7 @@ export default function PressPage() {
                 <li>Founded: 2025</li>
                 <li>Headquarters: Global</li>
                 <li>Platform: iOS and Android mobile app</li>
-                <li>Mission: Bring order, transparency, and fairness to group birthday contributions</li>
+                <li>Mission: Bring order, transparency, and fairness to group contributions</li>
                 <li>Unique Value: We don't process payments - we're a tracking tool only</li>
               </ul>
             </div>
@@ -87,12 +87,12 @@ export default function PressPage() {
               
               <h3>Problem We Solve</h3>
               <p>
-                Organizing birthday contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. Traditional methods fail because they lack transparency, make it easy to forget payments, and don't support multiple currencies.
+                Organizing group contributions in group chats and spreadsheets is chaotic, time-consuming, and often unfair. Traditional methods fail because they lack transparency, make it easy to forget payments, and don't support multiple currencies.
               </p>
 
               <h3>Our Solution</h3>
               <p>
-                GroupFund is a simple, intuitive app that automatically handles the organization of group birthday contributions. We provide transparency, automatic reminders, multi-currency support, and fair contribution tracking - all for free.
+                GroupFund is a simple, intuitive app that automatically handles the organization of group contributions - for birthdays, subscriptions, events, and more. We provide transparency, automatic reminders, multi-currency support, and fair contribution tracking - all for free.
               </p>
 
               <h3>Key Differentiators</h3>
@@ -152,7 +152,7 @@ export default function PressPage() {
               <h2>Quick Facts</h2>
               <p>
                 <strong>What is GroupFund?</strong><br />
-                A mobile app that helps groups organize and track birthday contributions.
+                A mobile app that helps groups organize and track group contributions - for birthdays, subscriptions, events, and more.
               </p>
               <p>
                 <strong>How does it work?</strong><br />

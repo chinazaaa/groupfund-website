@@ -45,9 +45,9 @@ export default function LocationsPage() {
   return (
     <>
       <SEO
-        title="GroupFund Locations - Birthday Contributions Worldwide"
-        description="GroupFund helps organize birthday contributions in Nigeria, United States, Canada, Australia, Ghana, South Africa, and many more countries. Find your location and start organizing group contributions."
-        keywords="birthday contributions worldwide, groupfund locations, birthday app Nigeria, birthday app USA, birthday contributions by country"
+        title="GroupFund Locations - Group Contributions Worldwide"
+        description="GroupFund helps organize group contributions in Nigeria, United States, Canada, Australia, Ghana, South Africa, and many more countries. Find your location and start organizing group contributions."
+        keywords="group contributions worldwide, groupfund locations, contribution app Nigeria, contribution app USA, group contributions by country"
         canonical="https://groupfund.app/locations"
       />
 
@@ -55,7 +55,7 @@ export default function LocationsPage() {
         <div className="container">
           <h1 className="page-title">GroupFund Locations</h1>
           <p className="page-subtitle">
-            GroupFund helps organize birthday contributions in countries and cities worldwide. Find your location and start organizing group contributions.
+            GroupFund helps organize group contributions in countries and cities worldwide - for birthdays, subscriptions, events, and more. Find your location and start organizing group contributions.
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ export default function LocationsPage() {
           <div className="locations-intro">
             <h2>Available Worldwide</h2>
             <p>
-              GroupFund supports multiple currencies and is available in countries around the world. Whether you're organizing birthday contributions in Nigeria, the United States, Canada, or anywhere else, GroupFund makes it easy.
+              GroupFund supports multiple currencies and is available in countries around the world. Whether you're organizing group contributions in Nigeria, the United States, Canada, or anywhere else, GroupFund makes it easy.
             </p>
             <p>
               Select your country or city below to learn more about using GroupFund in your location.
@@ -113,7 +113,7 @@ export default function LocationsPage() {
           {/* CTA Section */}
           <div className="cta-box">
             <h2>Don't See Your Location?</h2>
-            <p>GroupFund works worldwide! Even if your specific country or city isn't listed, you can still use GroupFund to organize birthday contributions.</p>
+            <p>GroupFund works worldwide! Even if your specific country or city isn't listed, you can still use GroupFund to organize group contributions - for birthdays, subscriptions, events, and more.</p>
             <div className="cta-buttons">
               <Link to="/waitlist" className="btn btn-primary btn-large">Get Started Free</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

@@ -53,8 +53,8 @@ export default function TestimonialsPage() {
     <>
       <SEO
         title="GroupFund Success Stories & Testimonials - Real Users Share Their Experience"
-        description="Read success stories from families, churches, and groups using GroupFund to organize birthday contributions. Real testimonials from users across Nigeria."
-        keywords="groupfund testimonials, birthday app reviews, group payment app success stories, Nigeria, family contributions, church contributions"
+        description="Read success stories from families, churches, and groups using GroupFund to organize group contributions. Real testimonials from users across Nigeria."
+        keywords="groupfund testimonials, group contribution app reviews, group payment app success stories, Nigeria, family contributions, church contributions"
         canonical="https://groupfund.app/testimonials"
       />
 
@@ -62,7 +62,7 @@ export default function TestimonialsPage() {
         <div className="container">
           <h1 className="page-title">Success Stories & Testimonials</h1>
           <p className="page-subtitle">
-            See how GroupFund is helping families, churches, and groups across Nigeria organize their birthday contributions effortlessly.
+            See how GroupFund is helping families, churches, and groups across Nigeria organize their group contributions effortlessly - for birthdays, subscriptions, events, and more.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function TestimonialsPage() {
 
           <div className="cta-box">
             <h2>Join These Happy Groups</h2>
-            <p>Start organizing your group's birthday contributions today. It's free to get started!</p>
+            <p>Start organizing your group's contributions today - for birthdays, subscriptions, events, and more. It's free to get started!</p>
             <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
           </div>
         </div>

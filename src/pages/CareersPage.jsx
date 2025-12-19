@@ -27,7 +27,7 @@ export default function CareersPage() {
             <div className="legal-section">
               <h2>Why Work at GroupFund?</h2>
               <p>
-                At GroupFund, we're solving a real problem that affects millions of people: the chaos of organizing group birthday contributions. We're building a product that brings order, transparency, and fairness to how groups manage their financial contributions.
+                At GroupFund, we're solving a real problem that affects millions of people: the chaos of organizing group contributions. We're building a product that brings order, transparency, and fairness to how groups manage their financial contributions - for birthdays, subscriptions, events, and more.
               </p>
               <p>
                 We're a small, passionate team focused on creating an exceptional user experience. If you're excited about building products that make people's lives easier, we'd love to hear from you.

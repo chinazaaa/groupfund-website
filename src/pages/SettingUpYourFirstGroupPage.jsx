@@ -10,7 +10,7 @@ export default function SettingUpYourFirstGroupPage() {
       "@context": "https://schema.org",
       "@type": "HowTo",
       "name": "Setting Up Your First Group",
-      "description": "Quick start guide for creating your first birthday contribution group",
+      "description": "Quick start guide for creating your first group - birthday, subscription, or general",
       "image": "https://groupfund.app/og-image.jpg",
       "totalTime": "PT4M",
       "estimatedCost": {
@@ -29,13 +29,13 @@ export default function SettingUpYourFirstGroupPage() {
           "@type": "HowToStep",
           "position": 2,
           "name": "Create Your Group",
-          "text": "Tap the 'Create Group' button. Enter a group name. Choose your group's currency (NGN, USD, EUR, etc.). Set the contribution amount per person. Set the maximum number of members."
+          "text": "Tap the 'Create Group' button. Choose your group type (Birthday, Subscription, or General). Enter a group name. Choose your group's currency (NGN, USD, EUR, etc.). Set the contribution amount per person. Set the maximum number of members. For Subscription Groups: Set frequency, platform, and deadline. For General Groups: Optionally set a deadline."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Add Member Birthdays",
-          "text": "Add birthdays for all group members. You can add birthdays yourself as the group creator, or let members add their own birthdays when they join. Make sure all birthdays are added to the calendar."
+          "name": "Set Up Group-Specific Details",
+          "text": "For Birthday Groups: Add birthdays for all group members. For Subscription Groups: Subscription deadline is already set. For General Groups: Optional deadline can be set."
         },
         {
           "@type": "HowToStep",
@@ -53,7 +53,7 @@ export default function SettingUpYourFirstGroupPage() {
           "@type": "HowToStep",
           "position": 6,
           "name": "Start Contributing",
-          "text": "When a birthday approaches, members receive automatic reminders. Members transfer money to the celebrant's account. Members mark their payment as 'Paid' in the app. Celebrants confirm receipt of payments. Everyone can see payment statuses in real-time."
+          "text": "Before deadlines, members receive automatic reminders. Members transfer money to the appropriate account (celebrant's for Birthday Groups, admin's for Subscription/General Groups). Members mark their payment as 'Paid' in the app. Admins or celebrants confirm receipt of payments. Everyone can see payment statuses in real-time."
         }
       ]
     }
@@ -75,8 +75,8 @@ export default function SettingUpYourFirstGroupPage() {
     <>
       <SEO
         title="Setting Up Your First Group - Quick Start Guide"
-        description="Learn how to set up your first birthday contribution group step-by-step. Quick start guide for beginners. Perfect for first-time users."
-        keywords="setting up birthday contribution group, first group setup, how to create birthday group, group setup guide, beginner guide"
+        description="Learn how to set up your first group step-by-step - birthday, subscription, or general. Quick start guide for beginners. Perfect for first-time users."
+        keywords="setting up group, first group setup, how to create group, group setup guide, beginner guide, birthday groups, subscription groups, general groups"
         canonical="https://groupfund.app/resources/setting-up-your-first-group"
       />
 
@@ -84,7 +84,7 @@ export default function SettingUpYourFirstGroupPage() {
         <div className="container">
           <h1 className="page-title">Setting Up Your First Group</h1>
           <p className="page-subtitle">
-            Quick start guide for creating your first birthday contribution group
+            Quick start guide for creating your first group - birthday, subscription, or general
           </p>
         </div>
       </section>
@@ -100,7 +100,7 @@ export default function SettingUpYourFirstGroupPage() {
             <div className="resource-section">
               <h2>Introduction</h2>
               <p>
-                Setting up your first birthday contribution group is easier than you think. This quick start guide will walk you through the process step-by-step, so you can have your group up and running in minutes.
+                Setting up your first group is easier than you think. This quick start guide will walk you through the process step-by-step, so you can have your group up and running in minutes - whether it's a Birthday Group, Subscription Group, or General Group.
               </p>
             </div>
 
@@ -122,22 +122,26 @@ export default function SettingUpYourFirstGroupPage() {
               </p>
               <ul className="resource-list">
                 <li>Tap the "Create Group" button</li>
-                <li>Enter a group name (e.g., "Smith Family", "St. Mary's Church", "Office Team")</li>
+                <li>Choose your group type: Birthday Group, Subscription Group (for shared subscriptions), or General Group (for events, any purpose)</li>
+                <li>Enter a group name (e.g., "Smith Family", "Netflix Subscription", "Wedding Fund")</li>
                 <li>Choose your group's currency (NGN, USD, EUR, etc.)</li>
                 <li>Set the contribution amount per person</li>
                 <li>Set the maximum number of members</li>
+                <li>For Subscription Groups: Set frequency (monthly/annual), platform name, and deadline day</li>
+                <li>For General Groups: Optionally set a deadline date</li>
+                <li>For Birthday Groups: You'll need to have your birthday set in your profile</li>
               </ul>
             </div>
 
             <div className="resource-section">
-              <h2>Step 3: Add Member Birthdays</h2>
+              <h2>Step 3: Set Up Group-Specific Details</h2>
               <p>
-                Add birthdays for all group members:
+                Configure details based on your group type:
               </p>
               <ul className="resource-list">
-                <li>You can add birthdays yourself as the group creator</li>
-                <li>Or let members add their own birthdays when they join</li>
-                <li>Make sure all birthdays are added to the calendar</li>
+                <li><strong>For Birthday Groups:</strong> Add birthdays for all group members. You can add birthdays yourself or let members add their own when they join. Make sure all birthdays are added to the calendar.</li>
+                <li><strong>For Subscription Groups:</strong> The subscription deadline is already set. Members will get reminders before the deadline.</li>
+                <li><strong>For General Groups:</strong> If you set a deadline, members will get reminders before it. If no deadline, you can track contributions without a specific date.</li>
               </ul>
             </div>
 
@@ -173,10 +177,10 @@ export default function SettingUpYourFirstGroupPage() {
                 Once your group is set up, you're ready to start:
               </p>
               <ul className="resource-list">
-                <li>When a birthday approaches, members receive automatic reminders</li>
-                <li>Members transfer money to the celebrant's account</li>
+                <li>Before deadlines, members receive automatic reminders (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines)</li>
+                <li>Members transfer money to the appropriate account (celebrant's for Birthday Groups, admin's for Subscription/General Groups)</li>
                 <li>Members mark their payment as "Paid" in the app</li>
-                <li>Celebrants confirm receipt of payments</li>
+                <li>Admins or celebrants confirm receipt of payments</li>
                 <li>Everyone can see payment statuses in real-time</li>
               </ul>
             </div>

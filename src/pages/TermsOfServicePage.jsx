@@ -35,7 +35,7 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>2. Description of Service</h2>
               <p>
-                GroupFund is a mobile application that helps users organize and track group birthday contributions. The Service allows users to:
+                GroupFund is a mobile application that helps users organize and track group contributions - for birthdays, subscriptions, events, and more. The Service allows users to:
               </p>
               <ul>
                 <li>Create and manage groups</li>
