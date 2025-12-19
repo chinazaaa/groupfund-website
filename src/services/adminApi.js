@@ -146,7 +146,7 @@ export const adminApi = {
   },
 
   triggerReminders: () => {
-    return apiRequest('/admin/birthdays/trigger-reminders', {
+    return apiRequest('/admin/contributions/trigger-reminders', {
       method: 'POST',
     });
   },
@@ -164,7 +164,13 @@ export const adminApi = {
   },
 
   triggerOverdueReminders: () => {
-    return apiRequest('/admin/birthdays/trigger-overdue-reminders', {
+    return apiRequest('/admin/contributions/trigger-overdue-reminders', {
+      method: 'POST',
+    });
+  },
+
+  sendNotifications: (userId) => {
+    return apiRequest(`/admin/birthdays/${userId}/send-notifications`, {
       method: 'POST',
     });
   },
