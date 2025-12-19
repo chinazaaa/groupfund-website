@@ -108,6 +108,78 @@ export default function ResourcesPage() {
       icon: '🎁',
       category: 'Best Practices',
       readTime: '10 min read'
+    },
+    {
+      slug: 'setting-up-subscription-groups',
+      title: 'Setting Up Subscription Groups',
+      description: 'Complete guide to creating and managing Subscription Groups. Learn how to set up shared subscriptions, configure payment schedules, and manage admin account details.',
+      icon: '📺',
+      category: 'Getting Started',
+      readTime: '6 min read'
+    },
+    {
+      slug: 'creating-general-groups-for-events',
+      title: 'Creating General Groups for Events',
+      description: 'Step-by-step guide to creating General Groups for weddings, baby showers, graduations, and any event. Learn how to set deadlines and manage contributions effectively.',
+      icon: '🎉',
+      category: 'Getting Started',
+      readTime: '5 min read'
+    },
+    {
+      slug: 'subscription-group-best-practices',
+      title: 'Subscription Group Best Practices',
+      description: 'Learn best practices for managing Subscription Groups. Tips for setting frequencies, handling account details, tracking deadlines, and maintaining group harmony.',
+      icon: '✅',
+      category: 'Best Practices',
+      readTime: '6 min read'
+    },
+    {
+      slug: 'managing-event-contributions',
+      title: 'Managing Event Contributions',
+      description: 'Complete guide to organizing contributions for events using General Groups. Tips for weddings, baby showers, graduations, and special occasions.',
+      icon: '🎊',
+      category: 'Best Practices',
+      readTime: '6 min read'
+    },
+    {
+      slug: 'choosing-between-group-types',
+      title: 'Choosing Between Group Types',
+      description: 'Learn when to use Birthday Groups, Subscription Groups, or General Groups. Understand the differences and choose the right type for your needs.',
+      icon: '🤔',
+      category: 'Planning',
+      readTime: '5 min read'
+    },
+    {
+      slug: 'subscription-deadline-management',
+      title: 'Subscription Deadline Management',
+      description: 'Master subscription deadline tracking. Learn how to set monthly or annual frequencies, configure deadlines, and ensure timely payments for shared subscriptions.',
+      icon: '📅',
+      category: 'Planning',
+      readTime: '5 min read'
+    },
+    {
+      slug: 'admin-account-details-guide',
+      title: 'Admin Account Details Guide',
+      description: 'Complete guide to managing admin account details for Subscription and General Groups. Learn how to securely share payment information with group members.',
+      icon: '🏦',
+      category: 'Best Practices',
+      readTime: '4 min read'
+    },
+    {
+      slug: 'organizing-international-group-contributions',
+      title: 'Organizing International Group Contributions',
+      description: 'Guide to managing contributions for groups with members across different countries. Handle multiple currencies, time zones, and payment methods effectively.',
+      icon: '🌐',
+      category: 'Advanced',
+      readTime: '8 min read'
+    },
+    {
+      slug: 'subscription-group-payment-schedules',
+      title: 'Subscription Group Payment Schedules',
+      description: 'Learn how to set up and manage payment schedules for Subscription Groups. Understand monthly vs. annual frequencies and how to configure deadlines.',
+      icon: '⏰',
+      category: 'Planning',
+      readTime: '5 min read'
     }
   ]
 
@@ -122,8 +194,8 @@ export default function ResourcesPage() {
     <>
       <SEO
         title="Resources & Guides - Group Contribution Tips & Best Practices"
-        description="Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing group contributions - for birthdays, subscriptions, events, and more. Educational resources for families, churches, schools, and groups."
-        keywords="group contribution guides, how to organize group contributions, contribution tips, group payment guides, contribution best practices, educational resources"
+        description="Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing Birthday Groups, Subscription Groups, and General Groups. Educational resources covering subscription management, event planning, payment tracking, and more for families, churches, schools, and groups."
+        keywords="group contribution guides, how to organize group contributions, subscription group guide, general group guide, birthday group guide, contribution tips, group payment guides, contribution best practices, educational resources, subscription management guide, event planning guide, shared subscription guide"
         canonical="https://groupfund.app/resources"
       />
 
@@ -143,6 +215,32 @@ export default function ResourcesPage() {
             <p>
               Whether you're organizing group contributions for the first time or looking to improve your current process, our guides cover everything you need to know. From basic setup to advanced strategies, these resources will help you organize contributions effectively - for Birthday Groups, Subscription Groups, and General Groups.
             </p>
+            <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
+              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>📋 Getting Started</h3>
+                <p style={{ fontSize: '0.9rem', color: '#666' }}>
+                  New to GroupFund? Start here with guides on setting up your first group, understanding member reliability scores, and choosing the right group type for your needs.
+                </p>
+              </div>
+              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>✅ Best Practices</h3>
+                <p style={{ fontSize: '0.9rem', color: '#666' }}>
+                  Learn proven strategies for managing contributions effectively. Discover etiquette guidelines, common mistakes to avoid, and tips for maintaining group harmony.
+                </p>
+              </div>
+              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>📊 Planning</h3>
+                <p style={{ fontSize: '0.9rem', color: '#666' }}>
+                  Plan your contributions strategically. Learn how to calculate amounts, budget effectively, manage deadlines, and choose the right contribution structure for your group.
+                </p>
+              </div>
+              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>🎯 Advanced</h3>
+                <p style={{ fontSize: '0.9rem', color: '#666' }}>
+                  Master advanced techniques for large groups, international contributions, multi-currency payments, and optimizing workflows for maximum efficiency.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Category Filter */}
