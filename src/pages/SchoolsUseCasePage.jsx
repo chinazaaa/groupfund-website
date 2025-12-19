@@ -7,9 +7,9 @@ export default function SchoolsUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Schools - Organize School Birthday Contributions"
-        description="Organize birthday contributions for teachers, staff, and students with GroupFund. Perfect for class groups, teacher associations, and school communities."
-        keywords="school birthday contributions, class birthday fund, teacher birthday contributions, school birthday tracker, birthday contributions for schools"
+        title="GroupFund for Schools - Organize School Group Contributions"
+        description="Organize group contributions for teachers, staff, and students with GroupFund - birthdays, subscriptions, events. Perfect for class groups, teacher associations, and school communities."
+        keywords="school group contributions, class contribution fund, teacher contributions, school contribution tracker, group contributions for schools"
         canonical="https://groupfund.app/use-cases/schools"
       />
 
@@ -17,7 +17,7 @@ export default function SchoolsUseCasePage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Schools</h1>
           <p className="page-subtitle">
-            Organize birthday contributions for teachers, staff, or students. Perfect for class groups, teacher associations, and school communities.
+            Organize group contributions for teachers, staff, or students - birthdays, subscriptions, events. Perfect for class groups, teacher associations, and school communities.
           </p>
         </div>
       </section>

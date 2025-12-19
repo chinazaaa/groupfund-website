@@ -7,9 +7,9 @@ export default function WorkplaceUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Workplace - Organize Office Birthday Contributions"
-        description="Organize birthday contributions for colleagues and team members with GroupFund. Perfect for office birthday funds, team celebrations, and workplace communities."
-        keywords="workplace birthday contributions, office birthday fund, colleague birthday contributions Nigeria, workplace birthday tracker, office birthday contributions"
+        title="GroupFund for Workplace - Organize Office Group Contributions"
+        description="Organize group contributions for colleagues and team members with GroupFund - birthdays, shared subscriptions, team events. Perfect for office funds and workplace communities."
+        keywords="workplace group contributions, office contribution fund, colleague contributions, workplace contribution tracker, office group contributions"
         canonical="https://groupfund.app/use-cases/workplace"
       />
 
@@ -17,7 +17,7 @@ export default function WorkplaceUseCasePage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Workplace</h1>
           <p className="page-subtitle">
-            Organize birthday contributions for colleagues and team members. Perfect for office birthday funds and workplace communities.
+            Organize group contributions for colleagues and team members - birthdays, shared subscriptions, team events. Perfect for office funds and workplace communities.
           </p>
         </div>
       </section>

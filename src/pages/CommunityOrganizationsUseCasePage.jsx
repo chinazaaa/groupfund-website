@@ -7,9 +7,9 @@ export default function CommunityOrganizationsUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Community Organizations - Organize Community Birthday Contributions"
-        description="Organize birthday contributions for community organizations, neighborhood groups, alumni associations, and clubs with GroupFund. Perfect for any community-based group."
-        keywords="community birthday contributions, neighborhood birthday fund, alumni birthday contributions, community organization contributions, club birthday fund"
+        title="GroupFund for Community Organizations - Organize Community Group Contributions"
+        description="Organize group contributions for community organizations, neighborhood groups, alumni associations, and clubs with GroupFund - birthdays, subscriptions, events. Perfect for any community-based group."
+        keywords="community group contributions, neighborhood contribution fund, alumni contributions, community organization contributions, club contribution fund"
         canonical="https://groupfund.app/use-cases/community-organizations"
       />
 
@@ -17,7 +17,7 @@ export default function CommunityOrganizationsUseCasePage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Community Organizations</h1>
           <p className="page-subtitle">
-            Organize birthday contributions for community organizations, neighborhood groups, alumni associations, and clubs. Perfect for any community-based group.
+            Organize group contributions for community organizations, neighborhood groups, alumni associations, and clubs - birthdays, subscriptions, events. Perfect for any community-based group.
           </p>
         </div>
       </section>

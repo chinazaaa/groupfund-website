@@ -7,9 +7,9 @@ export default function FamiliesUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Families - Organize Family Birthday Contributions"
-        description="Organize birthday contributions for your extended family with GroupFund. Track contributions, set fair amounts, and celebrate together without the stress. Perfect for large families."
-        keywords="family birthday contributions, family group payments, extended family birthday fund, family birthday tracker, birthday contributions for families"
+        title="GroupFund for Families - Organize Family Group Contributions"
+        description="Organize group contributions for your extended family with GroupFund - birthdays, subscriptions, events. Track contributions, set fair amounts, and celebrate together without the stress. Perfect for large families."
+        keywords="family group contributions, family group payments, extended family contribution fund, family contribution tracker, group contributions for families"
         canonical="https://groupfund.app/use-cases/families"
       />
 
@@ -17,7 +17,7 @@ export default function FamiliesUseCasePage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Families</h1>
           <p className="page-subtitle">
-            Organize birthday contributions for your extended family with ease. Keep track of everyone's contributions and celebrate together without the stress.
+            Organize group contributions for your extended family with ease - birthdays, subscriptions, events. Keep track of everyone's contributions and celebrate together without the stress.
           </p>
         </div>
       </section>
@@ -28,10 +28,10 @@ export default function FamiliesUseCasePage() {
             <div className="use-case-section">
               <h2>Why Families Love GroupFund</h2>
               <p>
-                Managing birthday contributions in large families can be overwhelming. With multiple family members, different contribution amounts, and varying payment schedules, it's easy for things to get chaotic. GroupFund brings order and transparency to family birthday contributions.
+                Managing group contributions in large families can be overwhelming. With multiple family members, different contribution amounts, and varying payment schedules, it's easy for things to get chaotic. GroupFund brings order and transparency to family contributions - for birthdays, shared subscriptions, events, and more.
               </p>
               <p>
-                Whether you're organizing contributions for grandparents, parents, siblings, cousins, or extended family members, GroupFund makes it simple to track who has contributed and who still needs to pay.
+                Whether you're organizing contributions for birthdays, shared subscriptions (like Netflix, Spotify), or events (weddings, baby showers), GroupFund makes it simple to track who has contributed and who still needs to pay.
               </p>
             </div>
 
@@ -47,8 +47,8 @@ export default function FamiliesUseCasePage() {
                   <p>Set a fixed amount per person so everyone knows exactly what to contribute. No confusion or awkward conversations.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Never Miss a Birthday</h3>
-                  <p>Get automatic reminders 7 days before, 1 day before, and on the birthday deadline. Never forget a family member's special day.</p>
+                  <h3>📅 Never Miss Deadlines</h3>
+                  <p>Get automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Never forget important dates.</p>
                 </div>
                 <div className="feature-item">
                   <h3>✅ Transparent Tracking</h3>
@@ -63,8 +63,8 @@ export default function FamiliesUseCasePage() {
                   <p>See which family members consistently contribute on time. Make informed decisions about group participation.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>🎁 Birthday Wishlists</h3>
-                  <p>Create and share birthday wishlists with family members. Add items with pictures and prices. Family members can claim items they want to gift, making gift coordination easy and avoiding duplicates.</p>
+                  <h3>🎁 Birthday Wishlists (Birthday Groups)</h3>
+                  <p>For Birthday Groups: Create and share birthday wishlists with family members. Add items with pictures and prices. Family members can claim items they want to gift, making gift coordination easy and avoiding duplicates.</p>
                 </div>
               </div>
             </div>
@@ -72,9 +72,9 @@ export default function FamiliesUseCasePage() {
             <div className="use-case-section">
               <h2>Common Family Scenarios</h2>
               <ul className="scenarios-list">
-                <li><strong>Extended Family Groups:</strong> Organize contributions for grandparents, aunts, uncles, and cousins all in one group.</li>
-                <li><strong>Sibling Groups:</strong> Keep track of birthday contributions among siblings and their families.</li>
-                <li><strong>Multi-Generational Families:</strong> Manage contributions across different generations with varying contribution amounts.</li>
+                <li><strong>Extended Family Groups:</strong> Organize contributions for grandparents, aunts, uncles, and cousins all in one group - birthdays, subscriptions, events.</li>
+                <li><strong>Sibling Groups:</strong> Keep track of contributions among siblings and their families - birthdays, shared subscriptions, events.</li>
+                <li><strong>Multi-Generational Families:</strong> Manage contributions across different generations with varying contribution amounts for any purpose.</li>
                 <li><strong>International Families:</strong> Handle contributions when family members live in different countries with different currencies.</li>
               </ul>
             </div>
@@ -83,7 +83,8 @@ export default function FamiliesUseCasePage() {
               <h2>How It Works for Families</h2>
               <ol className="steps-list">
                 <li><strong>Create Your Family Group:</strong> Set up a group with your family members and choose a contribution amount that works for everyone.</li>
-                <li><strong>Add Family Birthdays:</strong> Add all family member birthdays to the calendar so you never miss a celebration.</li>
+                <li><strong>Choose Group Type:</strong> Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions), or General Groups (for events, any purpose).</li>
+                <li><strong>Set Deadlines:</strong> For Birthday Groups, add birthdays to the calendar. For Subscription Groups, set monthly/annual deadlines. For General Groups, set optional event deadlines.</li>
                 <li><strong>Set Contribution Amounts:</strong> Decide on a fair amount per person (e.g., ₦5,000 or $20) that everyone can afford.</li>
                 <li><strong>Track Contributions:</strong> See in real-time who has contributed and who still needs to pay.</li>
                 <li><strong>Get Automatic Reminders:</strong> Receive reminders before each birthday so you never forget to contribute.</li>
@@ -92,8 +93,8 @@ export default function FamiliesUseCasePage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Your Family's Birthday Contributions?</h2>
-              <p>Join thousands of families who use GroupFund to make birthday celebrations stress-free.</p>
+              <h2>Ready to Organize Your Family's Group Contributions?</h2>
+              <p>Join thousands of families who use GroupFund to make contributions stress-free - for birthdays, subscriptions, events, and more.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Family Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

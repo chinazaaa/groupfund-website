@@ -9,8 +9,8 @@ export default function HowToOrganizeBirthdayContributionsPage() {
     const howToStructuredData = {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "name": "How to Organize Birthday Contributions",
-      "description": "A complete step-by-step guide to organizing birthday contributions for your group",
+      "name": "How to Organize Group Contributions",
+      "description": "A complete step-by-step guide to organizing group contributions for birthdays, subscriptions, and events",
       "image": "https://groupfund.app/og-image.jpg",
       "totalTime": "PT5M",
       "estimatedCost": {
@@ -94,17 +94,17 @@ export default function HowToOrganizeBirthdayContributionsPage() {
   return (
     <>
       <SEO
-        title="How to Organize Birthday Contributions - Complete Step-by-Step Guide"
-        description="Learn how to organize birthday contributions for your group step-by-step. Complete guide covering setup, tracking, reminders, and best practices. Perfect for families, churches, and groups."
-        keywords="how to organize birthday contributions, birthday contribution guide, organize group birthday contributions, birthday contribution setup, group payment organization"
+        title="How to Organize Group Contributions - Complete Step-by-Step Guide"
+        description="Learn how to organize group contributions for birthdays, subscriptions, and events step-by-step. Complete guide covering setup, tracking, reminders, and best practices. Perfect for families, churches, and groups."
+        keywords="how to organize group contributions, group contribution guide, organize group contributions, contribution setup, group payment organization"
         canonical="https://groupfund.app/resources/how-to-organize-birthday-contributions"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">How to Organize Birthday Contributions</h1>
+          <h1 className="page-title">How to Organize Group Contributions</h1>
           <p className="page-subtitle">
-            A complete step-by-step guide to organizing birthday contributions for your group
+            A complete step-by-step guide to organizing group contributions for birthdays, subscriptions, events, and more
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
             <div className="resource-section">
               <h2>Introduction</h2>
               <p>
-                Organizing birthday contributions for a group can seem overwhelming, but with the right approach, it becomes simple and stress-free. This guide will walk you through everything you need to know to organize birthday contributions effectively, whether you're managing a family group, church community, school, or any other group.
+                Organizing group contributions can seem overwhelming, but with the right approach, it becomes simple and stress-free. This guide will walk you through everything you need to know to organize group contributions effectively - for birthdays, shared subscriptions, events, and more - whether you're managing a family group, church community, school, or any other group.
               </p>
             </div>
 
@@ -131,7 +131,8 @@ export default function HowToOrganizeBirthdayContributionsPage() {
               </p>
               <ul className="resource-list">
                 <li><strong>Group Size:</strong> Determine how many members will be in your group. This helps you calculate total contribution amounts.</li>
-                <li><strong>Group Purpose:</strong> Is this for family birthdays, church members, school staff, or friends?</li>
+                <li><strong>Group Purpose:</strong> Is this for birthdays, shared subscriptions (like Netflix, Spotify), events (weddings, baby showers), or any other purpose?</li>
+                <li><strong>Group Type:</strong> Choose the right group type: Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions), or General Groups (for events, any purpose).</li>
                 <li><strong>Membership Rules:</strong> Decide if membership is open or closed, and how new members can join.</li>
               </ul>
             </div>
@@ -150,16 +151,15 @@ export default function HowToOrganizeBirthdayContributionsPage() {
             </div>
 
             <div className="resource-section">
-              <h2>Step 3: Create a Birthday Calendar</h2>
+              <h2>Step 3: Set Up Deadlines and Calendars</h2>
               <p>
-                A birthday calendar helps you plan ahead and never miss a celebration:
+                Setting up deadlines helps you plan ahead and never miss important dates:
               </p>
               <ul className="resource-list">
-                <li><strong>Collect Birthdays:</strong> Gather all group member birthdays. You can ask members to add their own.</li>
-                <li><strong>Organize by Month:</strong> Group birthdays by month to see busy periods.</li>
-                <li><strong>Set Deadlines:</strong> Decide when contributions are due (e.g., on the birthday or a few days before).</li>
-                <li><strong>Use a Calendar Tool:</strong> Digital calendars make it easy to track and get reminders.</li>
-                <li><strong>Share Wishlists:</strong> Encourage members to create birthday wishlists with items they want. This helps group members coordinate gifts and avoid duplicates.</li>
+                <li><strong>For Birthday Groups:</strong> Collect all group member birthdays. Organize by month to see busy periods. Set deadlines (e.g., on the birthday or a few days before). Encourage members to create birthday wishlists.</li>
+                <li><strong>For Subscription Groups:</strong> Set subscription platform name (e.g., Netflix, Spotify). Choose frequency (monthly or annual). Set deadline day (and month for annual subscriptions).</li>
+                <li><strong>For General Groups:</strong> Set optional deadline dates for events, weddings, or any purpose. Plan ahead for important dates.</li>
+                <li><strong>Use a Calendar Tool:</strong> Digital calendars make it easy to track and get reminders for all group types.</li>
               </ul>
             </div>
 
@@ -182,7 +182,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
                 Automatic reminders prevent missed contributions and reduce awkward follow-ups:
               </p>
               <ul className="resource-list">
-                <li><strong>Early Reminders:</strong> Send reminders 7 days before each birthday deadline.</li>
+                <li><strong>Early Reminders:</strong> Send reminders 7 days before deadlines (for birthdays, subscription deadlines, event deadlines).</li>
                 <li><strong>Final Reminders:</strong> Send reminders 1 day before and on the deadline day.</li>
                 <li><strong>Multiple Channels:</strong> Use email, push notifications, and in-app notifications.</li>
                 <li><strong>Consistent Timing:</strong> Send reminders at the same time each day for consistency.</li>
@@ -245,15 +245,15 @@ export default function HowToOrganizeBirthdayContributionsPage() {
                 Using the right tools makes organizing birthday contributions much easier:
               </p>
               <ul className="resource-list">
-                <li><strong>GroupFund:</strong> A dedicated app for organizing birthday contributions with automatic reminders, payment tracking, and member reliability scores.</li>
+                <li><strong>GroupFund:</strong> A dedicated app for organizing group contributions (birthdays, subscriptions, events) with automatic reminders, payment tracking, and member reliability scores. Supports multiple group types.</li>
                 <li><strong>Calendar Apps:</strong> For tracking birthdays and deadlines.</li>
                 <li><strong>Payment Apps:</strong> For facilitating bank transfers and payments.</li>
               </ul>
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Your Group's Birthday Contributions?</h2>
-              <p>GroupFund makes organizing birthday contributions effortless. Get automatic reminders, real-time tracking, and member reliability scores.</p>
+              <h2>Ready to Organize Your Group's Contributions?</h2>
+              <p>GroupFund makes organizing group contributions effortless - for birthdays, subscriptions, events, and more. Get automatic reminders, real-time tracking, and member reliability scores.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

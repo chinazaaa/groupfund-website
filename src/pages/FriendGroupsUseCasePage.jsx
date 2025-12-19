@@ -7,9 +7,9 @@ export default function FriendGroupsUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Friend Groups - Organize Friend Birthday Contributions"
-        description="Keep your friend group's birthday celebrations organized with GroupFund. No more awkward reminders or forgotten contributions. Celebrate together effortlessly."
-        keywords="friend group birthday contributions, friend group birthday fund, group birthday tracker, birthday contributions for friends, friend group payments"
+        title="GroupFund for Friend Groups - Organize Friend Group Contributions"
+        description="Keep your friend group's contributions organized with GroupFund - birthdays, shared subscriptions, events. No more awkward reminders or forgotten contributions."
+        keywords="friend group contributions, friend group fund, group contribution tracker, group contributions for friends, friend group payments"
         canonical="https://groupfund.app/use-cases/friend-groups"
       />
 
@@ -17,7 +17,7 @@ export default function FriendGroupsUseCasePage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Friend Groups</h1>
           <p className="page-subtitle">
-            Keep your friend group's birthday celebrations organized. No more awkward reminders or forgotten contributions.
+            Keep your friend group's contributions organized - birthdays, shared subscriptions, events. No more awkward reminders or forgotten contributions.
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function FriendGroupsUseCasePage() {
             <div className="use-case-section">
               <h2>Why Friend Groups Love GroupFund</h2>
               <p>
-                Organizing birthday contributions in friend groups can be awkward. Nobody wants to be the one constantly reminding friends to pay, and nobody wants to be the friend who forgot to contribute. GroupFund removes the awkwardness and makes celebrating birthdays together effortless.
+                Organizing group contributions in friend groups can be awkward. Nobody wants to be the one constantly reminding friends to pay, and nobody wants to be the friend who forgot to contribute. GroupFund removes the awkwardness and makes organizing contributions effortless - for birthdays, shared subscriptions, events, and more.
               </p>
               <p>
                 With automatic reminders, transparent tracking, and fair contribution amounts, GroupFund ensures everyone contributes fairly without the need for awkward conversations or constant follow-ups.
@@ -40,7 +40,7 @@ export default function FriendGroupsUseCasePage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>👥 Keep Groups Organized</h3>
-                  <p>Manage birthday contributions for your entire friend group in one place. See everyone's payment status at a glance.</p>
+                  <p>Manage contributions for your entire friend group in one place - birthdays, shared subscriptions, events. See everyone's payment status at a glance.</p>
                 </div>
                 <div className="feature-item">
                   <h3>😊 No Awkward Reminders</h3>
@@ -55,8 +55,8 @@ export default function FriendGroupsUseCasePage() {
                   <p>Everyone can see who has contributed and who hasn't. No more wondering if someone forgot or if you missed a payment.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Never Forget a Birthday</h3>
-                  <p>Get automatic reminders 7 days before, 1 day before, and on the birthday deadline. Never miss a friend's special day.</p>
+                  <h3>📅 Never Forget Deadlines</h3>
+                  <p>Get automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Never miss important dates.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🎉 Celebrate Together</h3>

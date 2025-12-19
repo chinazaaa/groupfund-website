@@ -112,7 +112,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Secure Authentication",
-      description: "Sign up with email or phone, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP and manage your profile securely.",
+      description: "Sign up with email, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP and manage your profile securely.",
       icon: "🔐"
     },
     {

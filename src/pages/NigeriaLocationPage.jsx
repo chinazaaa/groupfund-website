@@ -10,14 +10,14 @@ export default function NigeriaLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Nigeria with GroupFund. Perfect for Nigerian families, churches, schools, and groups.",
+      "description": "Organize group contributions in Nigeria with GroupFund. Perfect for Nigerian families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/nigeria",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": {
         "@type": "Country",
         "name": "Nigeria"
       },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -52,9 +52,9 @@ export default function NigeriaLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Nigeria - Birthday Contributions App for Nigeria"
-        description="Organize birthday contributions in Nigeria with GroupFund. Perfect for families, churches, schools, and groups in Nigeria. Support for NGN (Nigerian Naira). Free to start."
-        keywords="birthday contributions Nigeria, Nigerian birthday app, groupfund Nigeria, birthday contributions app Nigeria, NGN birthday tracker, Nigeria group payments"
+        title="GroupFund Nigeria - Group Contributions App for Nigeria"
+        description="Organize group contributions in Nigeria with GroupFund. Perfect for families, churches, schools, and groups in Nigeria. Support for NGN (Nigerian Naira). Free to start."
+        keywords="group contributions Nigeria, Nigerian contribution app, groupfund Nigeria, group contributions app Nigeria, NGN contribution tracker, Nigeria group payments"
         canonical="https://groupfund.app/locations/nigeria"
       />
 
@@ -62,7 +62,7 @@ export default function NigeriaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Nigeria 🇳🇬</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in Nigeria with GroupFund. Perfect for Nigerian families, churches, schools, and groups.
+            Organize group contributions in Nigeria with GroupFund. Perfect for Nigerian families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function NigeriaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Nigeria</h2>
               <p>
-                GroupFund is perfect for organizing birthday contributions in Nigeria. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+                GroupFund is perfect for organizing group contributions in Nigeria - for birthdays, shared subscriptions, events, and more. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
                 With support for Nigerian Naira (NGN) and local bank details, GroupFund is designed to work seamlessly for Nigerian groups.
@@ -93,15 +93,15 @@ export default function NigeriaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Nigerian Families</h3>
-                  <p>Organize contributions for extended Nigerian families. Track who has contributed across multiple family members.</p>
+                  <p>Organize contributions for extended Nigerian families - birthdays, subscriptions, events. Track who has contributed across multiple family members.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church Groups</h3>
-                  <p>Ideal for Nigerian churches organizing birthday contributions for members. Manage large congregations efficiently.</p>
+                  <p>Ideal for Nigerian churches organizing contributions for members - birthdays, subscriptions, events. Manage large congregations efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Perfect for Nigerian schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for Nigerian schools, universities, and student groups organizing contributions for any purpose.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
@@ -113,12 +113,12 @@ export default function NigeriaLocationPage() {
             <div className="location-section">
               <h2>Common Use Cases in Nigeria</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Nigerian families across different states.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Nigerian churches.</li>
-                <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Nigerian schools.</li>
+                <li><strong>Family Contributions:</strong> Organize contributions for extended Nigerian families across different states - birthdays, subscriptions, events.</li>
+                <li><strong>Church Member Contributions:</strong> Manage contributions for church members in Nigerian churches - birthdays, subscriptions, events.</li>
+                <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Nigerian schools for any purpose.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Nigerian university and school alumni groups.</li>
-                <li><strong>Workplace Groups:</strong> Organize office birthday funds for Nigerian companies and organizations.</li>
-                <li><strong>Friend Groups:</strong> Keep friend groups organized for birthday celebrations in Nigeria.</li>
+                <li><strong>Workplace Groups:</strong> Organize office funds for Nigerian companies and organizations - birthdays, shared subscriptions, team events.</li>
+                <li><strong>Friend Groups:</strong> Keep friend groups organized for birthdays, shared subscriptions, and events in Nigeria.</li>
               </ul>
             </div>
 
@@ -127,9 +127,10 @@ export default function NigeriaLocationPage() {
               <ol className="steps-list">
                 <li><strong>Create Your Group:</strong> Set up a group with Nigerian Naira (NGN) as the currency.</li>
                 <li><strong>Set Contribution Amounts:</strong> Set amounts in NGN (e.g., ₦5,000 or ₦10,000 per person).</li>
-                <li><strong>Add Member Birthdays:</strong> Add all group member birthdays to the calendar.</li>
+                <li><strong>Choose Group Type:</strong> Create Birthday Groups, Subscription Groups (for shared subscriptions), or General Groups (for events, any purpose).</li>
+                <li><strong>Set Deadlines:</strong> For Birthday Groups, add birthdays to the calendar. For Subscription Groups, set monthly/annual deadlines. For General Groups, set optional event deadlines.</li>
                 <li><strong>Track Contributions:</strong> Members mark payments as paid after transferring to bank accounts.</li>
-                <li><strong>Automatic Reminders:</strong> Get reminders 7 days before, 1 day before, and on deadline day.</li>
+                <li><strong>Automatic Reminders:</strong> Get reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines).</li>
                 <li><strong>Celebrate Together:</strong> Focus on celebrating birthdays instead of managing contributions.</li>
               </ol>
             </div>
@@ -149,8 +150,8 @@ export default function NigeriaLocationPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Nigeria?</h2>
-              <p>Join Nigerian groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Nigeria?</h2>
+              <p>Join Nigerian groups using GroupFund to make contributions organized and stress-free - for birthdays, subscriptions, events, and more.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Nigerian Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

@@ -7,9 +7,9 @@ export default function ChurchesUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Churches - Streamline Church Birthday Contributions"
-        description="Streamline birthday contributions for church members with GroupFund. Manage large groups efficiently, track member reliability, and maintain transparency in your church community."
-        keywords="church birthday contributions, church member contributions, church birthday fund Nigeria, church contribution tracker, birthday contributions for churches"
+        title="GroupFund for Churches - Streamline Church Group Contributions"
+        description="Streamline group contributions for church members with GroupFund - birthdays, subscriptions, events. Manage large groups efficiently, track member reliability, and maintain transparency in your church community."
+        keywords="church group contributions, church member contributions, church contribution fund, church contribution tracker, group contributions for churches"
         canonical="https://groupfund.app/use-cases/churches"
       />
 
@@ -17,7 +17,7 @@ export default function ChurchesUseCasePage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Churches</h1>
           <p className="page-subtitle">
-            Streamline birthday contributions for church members. Manage large groups efficiently and maintain transparency in your church community.
+            Streamline group contributions for church members - birthdays, subscriptions, events. Manage large groups efficiently and maintain transparency in your church community.
           </p>
         </div>
       </section>
@@ -28,10 +28,10 @@ export default function ChurchesUseCasePage() {
             <div className="use-case-section">
               <h2>Why Churches Choose GroupFund</h2>
               <p>
-                Managing birthday contributions for church members can be challenging, especially in large congregations. Traditional methods like WhatsApp groups or manual tracking often lead to confusion, missed contributions, and lack of transparency.
+                Managing group contributions for church members can be challenging, especially in large congregations. Traditional methods like WhatsApp groups or manual tracking often lead to confusion, missed contributions, and lack of transparency.
               </p>
               <p>
-                GroupFund provides churches with a professional, transparent system for organizing member birthday contributions. Track member reliability, maintain clear records, and ensure fairness across your entire congregation.
+                GroupFund provides churches with a professional, transparent system for organizing member contributions - for birthdays, shared subscriptions, events, and more. Track member reliability, maintain clear records, and ensure fairness across your entire congregation.
               </p>
             </div>
 
@@ -40,7 +40,7 @@ export default function ChurchesUseCasePage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>⛪ Manage Large Congregations</h3>
-                  <p>Easily handle birthday contributions for hundreds of church members. Set maximum group sizes and manage membership efficiently.</p>
+                  <p>Easily handle contributions for hundreds of church members - birthdays, subscriptions, events. Set maximum group sizes and manage membership efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⭐ Member Reliability Tracking</h3>
@@ -56,7 +56,7 @@ export default function ChurchesUseCasePage() {
                 </div>
                 <div className="feature-item">
                   <h3>🔔 Automatic Reminders</h3>
-                  <p>Send automatic reminders to church members before birthdays. Reduce the need for manual follow-ups.</p>
+                  <p>Send automatic reminders to church members before deadlines (birthdays, subscription deadlines, event deadlines). Reduce the need for manual follow-ups.</p>
                 </div>
                 <div className="feature-item">
                   <h3>👥 Member Approval System</h3>
