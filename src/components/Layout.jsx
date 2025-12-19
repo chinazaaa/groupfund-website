@@ -65,7 +65,7 @@ export default function Layout({ children }) {
               <Link to="/" className="footer-logo-link">
                 <img src="/icon.png" alt="GroupFund" className="footer-logo-img" />
               </Link>
-              <p className="footer-tagline">Organizing group contributions, one birthday at a time.</p>
+              <p className="footer-tagline">Organizing group contributions for birthdays, subscriptions, and events.</p>
             </div>
             <div className="footer-section">
               <h4>Product</h4>

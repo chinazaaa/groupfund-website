@@ -48,7 +48,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I change contribution amounts?",
-          answer: "Yes, group administrators can update contribution amounts at any time. Changes will be reflected for all future birthdays, and members will be notified of any updates. Past contributions remain unchanged."
+          answer: " Not currently. We are working on this feature."
         },
         {
           question: "How do I mark a payment as confirmed?",

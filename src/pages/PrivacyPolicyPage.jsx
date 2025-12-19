@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
     <>
       <SEO
         title="Privacy Policy - GroupFund"
-        description="Read GroupFund's Privacy Policy to understand how we collect, use, and protect your personal information when using our birthday contribution app."
+        description="Read GroupFund's Privacy Policy to understand how we collect, use, and protect your personal information when using our group contribution app."
         keywords="privacy policy, data protection, user privacy, groupfund privacy"
         canonical="https://groupfund.app/privacy"
       />
@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
               <p>We collect information that you provide directly to us, including:</p>
               <ul>
                 <li>Account information (name, email address)</li>
-                <li>Group information (group names, member details, birthday dates)</li>
+                <li>Group information (group names, member details, birthday dates for Birthday Groups, subscription details for Subscription Groups, event details for General Groups)</li>
                 <li>Payment information (contribution amounts, payment statuses)</li>
                 <li>Communication data (messages, feedback, support requests)</li>
               </ul>
@@ -57,7 +57,7 @@ export default function PrivacyPolicyPage() {
               <ul>
                 <li>Provide, maintain, and improve our services</li>
                 <li>Process and manage group contributions and payments</li>
-                <li>Send you notifications and reminders about birthdays and contributions</li>
+                <li>Send you notifications and reminders about birthdays, subscriptions, events, and contributions</li>
                 <li>Respond to your inquiries and provide customer support</li>
                 <li>Detect, prevent, and address technical issues</li>
                 <li>Comply with legal obligations</li>

@@ -8,7 +8,7 @@ export default function TermsOfServicePage() {
     <>
       <SEO
         title="Terms of Service - GroupFund"
-        description="Read GroupFund's Terms of Service to understand the rules and guidelines for using our birthday contribution app and services."
+        description="Read GroupFund's Terms of Service to understand the rules and guidelines for using our group contribution app and services."
         keywords="terms of service, user agreement, terms and conditions, groupfund terms"
         canonical="https://groupfund.app/terms"
       />
@@ -39,9 +39,9 @@ export default function TermsOfServicePage() {
               </p>
               <ul>
                 <li>Create and manage groups</li>
-                <li>Invite members who add their own birthday dates</li>
+                <li>Invite members (who add their own birthday dates for Birthday Groups)</li>
                 <li>Set contribution amounts and track payment statuses</li>
-                <li>Receive automatic reminders about upcoming birthdays</li>
+                <li>Receive automatic reminders about upcoming birthdays, subscription deadlines, and events</li>
                 <li>View contribution history and calendars</li>
               </ul>
               <p>
@@ -97,7 +97,7 @@ export default function TermsOfServicePage() {
                 <li>We are not liable for any financial losses or disputes arising from group contributions</li>
               </ul>
               <p>
-                For more information about how payment tracking works, including the contributor and celebrant confirmation process, visit our <Link to="/app-rules">App Rules</Link> page.
+                For more information about how payment tracking works, including the contributor and admin/celebrant confirmation process, visit our <Link to="/app-rules">App Rules</Link> page.
               </p>
             </div>
 

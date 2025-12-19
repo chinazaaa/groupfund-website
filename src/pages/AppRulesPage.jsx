@@ -117,9 +117,9 @@ export default function AppRulesPage() {
               <p>Here's what each payment status means:</p>
               <ul>
                 <li><strong>Not Paid:</strong> The contributor has not yet marked their payment as paid</li>
-                <li><strong>Paid (awaiting confirmation):</strong> The contributor has marked it as paid, but the celebrant hasn't confirmed yet</li>
-                <li><strong>Confirmed:</strong> The celebrant has verified they received the payment</li>
-                <li><strong>Not Received:</strong> The celebrant has marked that they did not receive the payment</li>
+                <li><strong>Paid (awaiting confirmation):</strong> The contributor has marked it as paid, but the admin/celebrant hasn't confirmed yet</li>
+                <li><strong>Confirmed:</strong> The admin (for Subscription/General Groups) or celebrant (for Birthday Groups) has verified they received the payment</li>
+                <li><strong>Not Received:</strong> The admin/celebrant has marked that they did not receive the payment</li>
                 <li><strong>Overdue:</strong> The payment deadline has passed and the payment is still not confirmed</li>
               </ul>
             </div>
