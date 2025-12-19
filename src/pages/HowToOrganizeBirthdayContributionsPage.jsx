@@ -159,6 +159,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
                 <li><strong>Organize by Month:</strong> Group birthdays by month to see busy periods.</li>
                 <li><strong>Set Deadlines:</strong> Decide when contributions are due (e.g., on the birthday or a few days before).</li>
                 <li><strong>Use a Calendar Tool:</strong> Digital calendars make it easy to track and get reminders.</li>
+                <li><strong>Share Wishlists:</strong> Encourage members to create birthday wishlists with items they want. This helps group members coordinate gifts and avoid duplicates.</li>
               </ul>
             </div>
 

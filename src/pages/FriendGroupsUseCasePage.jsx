@@ -70,6 +70,10 @@ export default function FriendGroupsUseCasePage() {
                   <h3>🌍 Multi-Currency Support</h3>
                   <p>Perfect for friend groups with members in different countries. Support for NGN, USD, GBP, EUR, and more.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>🎁 Birthday Wishlists</h3>
+                  <p>Create and share birthday wishlists with your friend group. Add items with pictures and prices. Friends can claim items they want to gift, making gift coordination effortless and avoiding duplicate gifts.</p>
+                </div>
               </div>
             </div>
 

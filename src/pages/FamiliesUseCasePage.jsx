@@ -62,6 +62,10 @@ export default function FamiliesUseCasePage() {
                   <h3>⭐ Member Reliability Scores</h3>
                   <p>See which family members consistently contribute on time. Make informed decisions about group participation.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>🎁 Birthday Wishlists</h3>
+                  <p>Create and share birthday wishlists with family members. Add items with pictures and prices. Family members can claim items they want to gift, making gift coordination easy and avoiding duplicates.</p>
+                </div>
               </div>
             </div>
 
