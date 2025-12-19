@@ -52,23 +52,23 @@ export default function HelpPage() {
         },
         {
           question: "How do I mark a payment as confirmed?",
-          answer: "When a member marks their payment as 'Paid', the celebrant can verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. This two-step process ensures accuracy and transparency. The status will show as 'Paid' (awaiting confirmation), 'Confirmed' (received), or 'Not Received' (rejected)."
+          answer: "When a member marks their payment as 'Paid', the admin (for Subscription/General Groups) or celebrant (for Birthday Groups) can verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. This two-step process ensures accuracy and transparency. The status will show as 'Paid' (awaiting confirmation), 'Confirmed' (received), or 'Not Received' (rejected)."
         },
         {
-          question: "What if a celebrant rejects my contribution?",
-          answer: "If a celebrant marks your contribution as 'Not Received', you'll be notified and the status will change to 'Not Received'. You can then follow up with the celebrant to resolve the issue. This helps ensure accurate tracking and resolves payment disputes."
+          question: "What if an admin or celebrant rejects my contribution?",
+          answer: "If an admin (for Subscription/General Groups) or celebrant (for Birthday Groups) marks your contribution as 'Not Received', you'll be notified and the status will change to 'Not Received'. You can then follow up with them to resolve the issue. This helps ensure accurate tracking and resolves payment disputes."
         },
         {
           question: "What happens if someone doesn't pay?",
-          answer: "GroupFund sends automatic reminders 7 days before each birthday, 1 day before, and on the deadline day. If someone still doesn't pay, the system tracks it as an overdue contribution and sends additional reminders. The app clearly shows who has paid and who hasn't, making it easy to follow up while maintaining transparency. Overdue contributions affect member reliability scores."
+          answer: "GroupFund sends automatic reminders 7 days before each deadline (birthday for Birthday Groups, subscription deadline for Subscription Groups, event deadline for General Groups), 1 day before, and on the deadline day. If someone still doesn't pay, the system tracks it as an overdue contribution and sends additional reminders. The app clearly shows who has paid and who hasn't, making it easy to follow up while maintaining transparency. Overdue contributions affect member reliability scores."
         },
         {
           question: "How do I track overdue contributions?",
           answer: "The app automatically tracks overdue contributions. You'll see which members have missed deadlines, and the system will send reminders. Overdue contributions are clearly marked and affect member reliability scores. Group administrators can view all overdue contributions in the group."
         },
         {
-          question: "Can I see past birthdays and contribution history?",
-          answer: "Yes! The birthday calendar shows both upcoming and past birthdays. You can view complete contribution history for each member, including received contributions, payment confirmations, overdue contributions, and payment statuses. This helps maintain transparency and track long-term participation."
+          question: "Can I see past contributions and contribution history?",
+          answer: "Yes! For Birthday Groups, the birthday calendar shows both upcoming and past birthdays. For all group types, you can view complete contribution history for each member, including received contributions, payment confirmations, overdue contributions, and payment statuses. This helps maintain transparency and track long-term participation."
         }
       ]
     },
@@ -116,7 +116,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I leave a group?",
-          answer: "Yes, you can leave a group at any time. Your contribution history will be preserved, but you'll no longer receive notifications or be able to contribute to future birthdays in that group."
+          answer: "Yes, you can leave a group at any time. Your contribution history will be preserved, but you'll no longer receive notifications or be able to contribute to future contributions in that group."
         },
         {
           question: "What is the maximum group size?",
@@ -132,7 +132,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I update group settings?",
-          answer: "Yes, group administrators can update group settings including the group name, contribution amount, maximum members, and whether the group is accepting new requests. Changes to contribution amounts will apply to future birthdays, and members will be notified of updates."
+          answer: "Yes, group administrators can update group settings including the group name, contribution amount, maximum members, and whether the group is accepting new requests. Changes to contribution amounts will apply to future contributions, and members will be notified of updates."
         },
         {
           question: "Can members see each other's information?",
@@ -146,11 +146,11 @@ export default function HelpPage() {
       topics: [
         {
           question: "How do reminders work?",
-          answer: "GroupFund automatically sends reminders 7 days before each birthday, 1 day before, and on the deadline day. You can receive reminders via in-app notifications, push notifications, and email. You can customize your notification preferences in settings."
+          answer: "GroupFund automatically sends reminders 7 days before each deadline (birthday for Birthday Groups, subscription deadline for Subscription Groups, event deadline for General Groups), 1 day before, and on the deadline day. You can receive reminders via in-app notifications, push notifications, and email. You can customize your notification preferences in settings."
         },
         {
           question: "What types of notifications does GroupFund send?",
-          answer: "GroupFund sends various notifications including birthday wishes, birthday reminders (7 days before, 1 day before, and same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize which notifications you receive."
+          answer: "GroupFund sends various notifications including birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days before, 1 day before, and same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize which notifications you receive."
         },
         {
           question: "Can I customize reminder settings?",
@@ -162,11 +162,11 @@ export default function HelpPage() {
         },
         {
           question: "What information do reminders include?",
-          answer: "Reminders include the birthday person's name, contribution amount, deadline, and current payment status (e.g., '8 out of 10 members have paid'). Email reminders may include comprehensive information about multiple upcoming birthdays."
+          answer: "Reminders include the recipient's name (celebrant for Birthday Groups, admin for Subscription/General Groups), contribution amount, deadline, and current payment status (e.g., '8 out of 10 members have paid'). Email reminders may include comprehensive information about multiple upcoming deadlines."
         },
         {
           question: "Do I receive email notifications?",
-          answer: "Yes! GroupFund sends email notifications for OTP verification, password resets, birthday wishes, birthday reminders (7 days, 1 day, same day), overdue contribution reminders, comprehensive birthday summaries, contact form confirmations, and waitlist confirmations. You can customize email notification preferences in settings."
+          answer: "Yes! GroupFund sends email notifications for OTP verification, password resets, birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days, 1 day, same day), overdue contribution reminders, comprehensive summaries, contact form confirmations, and waitlist confirmations. You can customize email notification preferences in settings."
         }
       ]
     },

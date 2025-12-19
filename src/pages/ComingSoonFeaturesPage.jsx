@@ -13,9 +13,25 @@ export default function ComingSoonFeaturesPage() {
       statusColor: "blue"
     },
     {
-      title: "Advanced Notification Settings",
-      description: "Customize notification preferences for each group. Choose channels (email, SMS, push), frequency, and notification types.",
-      icon: "🔔",
+      title: "Multi-Event Support",
+      description: "Expand beyond birthdays to support other group events like weddings, graduations, anniversaries, and special occasions.",
+      icon: "🎉",
+      status: "In Development",
+      statusColor: "blue"
+    },
+    {
+      title: "Recurring Contributions",
+      description: "Set up automatic recurring contributions for members who want to contribute monthly or annually. Simplify long-term group management.",
+      icon: "🔄",
+      status: "In Development",
+      statusColor: "blue"
+    },
+ 
+
+    {
+      title: "Group Chat Integration",
+      description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
+      icon: "💬",
       status: "Planned",
       statusColor: "purple"
     },
@@ -23,27 +39,6 @@ export default function ComingSoonFeaturesPage() {
       title: "Group Analytics Dashboard",
       description: "Comprehensive analytics and insights for group admins. Track contribution trends, member engagement, and financial summaries.",
       icon: "📊",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
-      title: "Multi-Event Support",
-      description: "Expand beyond birthdays to support other group events like weddings, graduations, anniversaries, and special occasions.",
-      icon: "🎉",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
-      title: "Recurring Contributions",
-      description: "Set up automatic recurring contributions for members who want to contribute monthly or quarterly. Simplify long-term group management.",
-      icon: "🔄",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
-      title: "Group Chat Integration",
-      description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
-      icon: "💬",
       status: "Planned",
       statusColor: "purple"
     },
@@ -56,8 +51,15 @@ export default function ComingSoonFeaturesPage() {
     },
     {
       title: "Automated Payouts",
-      description: "Automatically distribute collected funds to birthday recipients. Set up bank accounts and enable one-click payouts.",
+      description: "Automatically distribute collected funds to recipients (celebrants for Birthday Groups, admins for Subscription/General Groups). Set up bank accounts and enable one-click payouts.",
       icon: "⚡",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Advanced Notification Settings",
+      description: "Customize notification preferences for each group. Choose channels (email, SMS, push), frequency, and notification types.",
+      icon: "🔔",
       status: "Planned",
       statusColor: "purple"
     },
@@ -106,7 +108,7 @@ export default function ComingSoonFeaturesPage() {
       <SEO
         title="Coming Soon Features - GroupFund Roadmap & Pipeline"
         description="Explore GroupFund's upcoming features and product roadmap. See what's in development: mobile apps, in-app payments, analytics, recurring contributions, and more exciting features coming soon."
-        keywords="groupfund roadmap, coming soon features, product pipeline, birthday app features, upcoming features, group contribution app updates"
+        keywords="groupfund roadmap, coming soon features, product pipeline, group contribution app features, upcoming features, group contribution app updates"
         canonical="https://groupfund.app/coming-soon-features"
       />
 

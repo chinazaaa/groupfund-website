@@ -76,7 +76,7 @@ export default function AdminContributions() {
                 <thead>
                   <tr>
                     <th>Amount</th>
-                    <th>Birthday User</th>
+                    <th> User</th>
                     <th>Contributor</th>
                     <th>Group</th>
                     <th>Date</th>
