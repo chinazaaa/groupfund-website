@@ -7,17 +7,17 @@ export default function BirthdayContributionEtiquettePage() {
   return (
     <>
       <SEO
-        title="Birthday Contribution Etiquette - Best Practices & Guidelines"
-        description="Learn the dos and don'ts of birthday contributions. Best practices for fair, respectful, and stress-free group contributions. Etiquette guide for families, churches, and groups."
-        keywords="birthday contribution etiquette, birthday contribution best practices, group payment etiquette, birthday contribution guidelines, respectful birthday contributions"
+        title="Group Contribution Etiquette - Best Practices & Guidelines"
+        description="Learn the dos and don'ts of group contributions. Best practices for fair, respectful, and stress-free group contributions. Etiquette guide for families, churches, and groups - applicable to Birthday Groups, Subscription Groups, and General Groups."
+        keywords="group contribution etiquette, contribution best practices, group payment etiquette, contribution guidelines, respectful group contributions"
         canonical="https://groupfund.app/resources/birthday-contribution-etiquette"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Birthday Contribution Etiquette</h1>
+          <h1 className="page-title">Group Contribution Etiquette</h1>
           <p className="page-subtitle">
-            Best practices for fair, respectful, and stress-free group birthday contributions
+            Best practices for fair, respectful, and stress-free group contributions - for birthdays, subscriptions, events, and more
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function BirthdayContributionEtiquettePage() {
             <div className="resource-section">
               <h2>Introduction</h2>
               <p>
-                Organizing birthday contributions involves more than just collecting money. It's about maintaining relationships, showing respect, and ensuring fairness. This guide covers the etiquette and best practices that help groups organize contributions smoothly without awkwardness or conflict.
+                Organizing group contributions involves more than just collecting money. It's about maintaining relationships, showing respect, and ensuring fairness. This guide covers the etiquette and best practices that help groups organize contributions smoothly without awkwardness or conflict - whether for Birthday Groups, Subscription Groups, or General Groups.
               </p>
             </div>
 
@@ -189,7 +189,7 @@ export default function BirthdayContributionEtiquettePage() {
 
             <div className="cta-box">
               <h2>Ready to Organize Contributions with Good Etiquette?</h2>
-              <p>GroupFund helps you maintain professional, respectful communication with automatic reminders and transparent tracking.</p>
+              <p>GroupFund helps you maintain professional, respectful communication with automatic reminders and transparent tracking - for birthdays, subscriptions, events, and more.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

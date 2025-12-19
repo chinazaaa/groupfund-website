@@ -37,8 +37,8 @@ export default function AdminContributions() {
     <AdminLayout>
       <div className="admin-page">
         <div className="admin-page-header">
-          <h1>Birthday Contributions</h1>
-          <p>View all birthday contributions</p>
+          <h1>Group Contributions</h1>
+          <p>View all group contributions - birthdays, subscriptions, and general groups</p>
         </div>
 
         <div className="admin-filters">

@@ -6,7 +6,7 @@ import '../App.css'
 export default function TestimonialsPage() {
   const testimonials = [
     {
-      quote: "GroupFund transformed how our family handles birthday contributions. No more endless WhatsApp messages or forgotten payments. Everything is organized and transparent.",
+      quote: "GroupFund transformed how our family handles group contributions. No more endless WhatsApp messages or forgotten payments. Everything is organized and transparent.",
       author: "Adebayo Okafor",
       role: "Family Group Admin",
       location: "Lagos, Nigeria",
@@ -20,14 +20,14 @@ export default function TestimonialsPage() {
       group: "Grace Community Church"
     },
     {
-      quote: "Our school class uses GroupFund for all birthday contributions. The fixed amount feature and payment tracking make it so easy. Parents love the transparency.",
+      quote: "Our school class uses GroupFund for all group contributions. The fixed amount feature and payment tracking make it so easy. Parents love the transparency.",
       author: "Mrs. Chidinma Okoro",
       role: "Class Parent Coordinator",
       location: "Port Harcourt, Nigeria",
       group: "Class of 2025 Parents"
     },
     {
-      quote: "I was skeptical at first, but GroupFund has made our friend group's birthday contributions so much smoother. No more awkward conversations about who paid what.",
+      quote: "I was skeptical at first, but GroupFund has made our friend group's contributions so much smoother. No more awkward conversations about who paid what.",
       author: "Emeka Nwosu",
       role: "Friend Group Organizer",
       location: "Enugu, Nigeria",

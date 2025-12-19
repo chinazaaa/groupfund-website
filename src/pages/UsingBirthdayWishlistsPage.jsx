@@ -77,8 +77,8 @@ export default function UsingBirthdayWishlistsPage() {
     <>
       <SEO
         title="How to Use Birthday Wishlists - Complete Guide for Group Gift Giving"
-        description="Learn how to create and use birthday wishlists for coordinated group gift giving. Step-by-step guide to sharing wishlists, claiming items, and avoiding duplicate gifts."
-        keywords="birthday wishlists, how to use wishlists, group gift giving, birthday gift coordination, wishlist guide, gift giving tips"
+        description="Learn how to create and use birthday wishlists for coordinated group gift giving in Birthday Groups. Step-by-step guide to sharing wishlists, claiming items, and avoiding duplicate gifts. Note: Wishlists are available for Birthday Groups only."
+        keywords="birthday wishlists, how to use wishlists, group gift giving, birthday gift coordination, wishlist guide, gift giving tips, birthday groups"
         canonical="https://groupfund.app/resources/using-birthday-wishlists"
       />
 
@@ -86,7 +86,7 @@ export default function UsingBirthdayWishlistsPage() {
         <div className="container">
           <h1 className="page-title">How to Use Birthday Wishlists</h1>
           <p className="page-subtitle">
-            A complete guide to creating and using birthday wishlists for coordinated group gift giving
+            A complete guide to creating and using birthday wishlists for coordinated group gift giving (available for Birthday Groups)
           </p>
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function UsingBirthdayWishlistsPage() {
             <div className="resource-section">
               <h2>Introduction</h2>
               <p>
-                Birthday wishlists transform group gift giving from a guessing game into a coordinated, thoughtful process. Instead of receiving duplicate gifts or items you don't need, wishlists let you share exactly what you want while helping group members coordinate their purchases. This guide will walk you through everything you need to know about using birthday wishlists effectively.
+                Birthday wishlists transform group gift giving from a guessing game into a coordinated, thoughtful process. Available for Birthday Groups in GroupFund, wishlists let you share exactly what you want while helping group members coordinate their purchases. Instead of receiving duplicate gifts or items you don't need, wishlists ensure everyone gets what they want. This guide will walk you through everything you need to know about using birthday wishlists effectively.
               </p>
             </div>
 
@@ -286,7 +286,7 @@ export default function UsingBirthdayWishlistsPage() {
 
             <div className="cta-box">
               <h2>Ready to Start Using Birthday Wishlists?</h2>
-              <p>GroupFund makes creating and managing birthday wishlists effortless. Share your preferences, coordinate gifts, and ensure everyone gets what they want.</p>
+              <p>GroupFund makes creating and managing birthday wishlists effortless for Birthday Groups. Share your preferences, coordinate gifts, and ensure everyone gets what they want. Note: Wishlists are available for Birthday Groups only.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

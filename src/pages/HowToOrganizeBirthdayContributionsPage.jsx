@@ -242,7 +242,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
             <div className="resource-section">
               <h2>Tools That Help</h2>
               <p>
-                Using the right tools makes organizing birthday contributions much easier:
+                Using the right tools makes organizing group contributions much easier:
               </p>
               <ul className="resource-list">
                 <li><strong>GroupFund:</strong> A dedicated app for organizing group contributions (birthdays, subscriptions, events) with automatic reminders, payment tracking, and member reliability scores. Supports multiple group types.</li>

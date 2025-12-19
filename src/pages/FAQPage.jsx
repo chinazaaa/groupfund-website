@@ -65,7 +65,7 @@ export default function FAQPage() {
     },
     {
       question: "How much does GroupFund cost?",
-      answer: "GroupFund is free to start! You can create your first group and start organizing birthday contributions at no cost. We believe in making group organization accessible to everyone."
+      answer: "GroupFund is free to start! You can create your first group and start organizing group contributions at no cost. We believe in making group organization accessible to everyone."
     },
     {
       question: "What types of groups can I create?",

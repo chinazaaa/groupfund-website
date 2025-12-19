@@ -232,8 +232,8 @@ export default function SettingUpYourFirstGroupPage() {
             <div className="related-links">
               <h3>Related Guides</h3>
               <div className="related-links-grid">
-                <Link to="/resources/how-to-organize-birthday-contributions">How to Organize Birthday Contributions →</Link>
-                <Link to="/resources/birthday-contribution-etiquette">Birthday Contribution Etiquette →</Link>
+                <Link to="/resources/how-to-organize-birthday-contributions">How to Organize Group Contributions →</Link>
+                <Link to="/resources/birthday-contribution-etiquette">Group Contribution Etiquette →</Link>
                 <Link to="/resources/calculating-group-contributions">Calculating Contributions →</Link>
                 <Link to="/resources">View All Resources →</Link>
               </div>

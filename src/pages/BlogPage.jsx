@@ -115,8 +115,8 @@ export default function BlogPage() {
     <>
       <SEO
         title="GroupFund Blog - Tips, Guides & Insights on Organizing Group Contributions"
-        description="Read our blog for tips on organizing birthday contributions, why WhatsApp groups fail, best practices for collecting money in Nigeria, and comparisons with traditional methods."
-        keywords="birthday contribution tips, group payment blog, organize contributions Nigeria, WhatsApp payment problems, group contribution guides"
+        description="Read our blog for tips on organizing group contributions, why WhatsApp groups fail, best practices for collecting money in Nigeria, and comparisons with traditional methods."
+        keywords="group contribution tips, group payment blog, organize contributions Nigeria, WhatsApp payment problems, group contribution guides"
         canonical="https://groupfund.app/blog"
       />
 
@@ -124,7 +124,7 @@ export default function BlogPage() {
         <div className="container">
           <h1 className="page-title">Blog & Resources</h1>
           <p className="page-subtitle">
-            Tips, guides, and insights on organizing group birthday contributions effectively.
+            Tips, guides, and insights on organizing group contributions effectively - for birthdays, subscriptions, events, and more.
           </p>
         </div>
       </section>

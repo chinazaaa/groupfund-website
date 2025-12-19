@@ -83,12 +83,12 @@ export default function SitemapPage() {
       category: "Resources",
       links: [
         { path: "/resources", label: "Resources Overview" },
-        { path: "/resources/how-to-organize-birthday-contributions", label: "How to Organize Birthday Contributions" },
-        { path: "/resources/birthday-contribution-etiquette", label: "Birthday Contribution Etiquette" },
+        { path: "/resources/how-to-organize-birthday-contributions", label: "How to Organize Group Contributions" },
+        { path: "/resources/birthday-contribution-etiquette", label: "Group Contribution Etiquette" },
         { path: "/resources/calculating-group-contributions", label: "Calculating Group Contributions" },
         { path: "/resources/multi-currency-group-payments", label: "Multi-Currency Group Payments" },
         { path: "/resources/managing-large-group-contributions", label: "Managing Large Group Contributions" },
-        { path: "/resources/avoiding-birthday-contribution-mistakes", label: "Avoiding Birthday Contribution Mistakes" },
+        { path: "/resources/avoiding-birthday-contribution-mistakes", label: "Avoiding Group Contribution Mistakes" },
         { path: "/resources/setting-up-your-first-group", label: "Setting Up Your First Group" },
         { path: "/resources/understanding-member-reliability-scores", label: "Understanding Member Reliability Scores" },
         { path: "/resources/budgeting-for-group-contributions", label: "Budgeting for Group Contributions" },
@@ -132,12 +132,12 @@ export default function SitemapPage() {
         { path: "/blog/mobile-first-contribution-management-why-matters", label: "Mobile-First Contribution Management: Why It Matters" },
         { path: "/blog/scaling-contribution-group-5-to-50-members", label: "Scaling Your Contribution Group: From 5 to 50 Members" },
         { path: "/blog/psychology-group-contributions-makes-people-pay-time", label: "The Psychology of Group Contributions: What Makes People Pay on Time" },
-        { path: "/blog/organize-birthday-contributions-without-stress", label: "How to Organize Birthday Contributions Without Stress" },
+        { path: "/blog/organize-birthday-contributions-without-stress", label: "How to Organize Group Contributions Without Stress" },
         { path: "/blog/why-whatsapp-groups-fail-tracking-payments", label: "Why WhatsApp Groups Fail at Tracking Group Payments" },
         { path: "/blog/best-ways-collect-money-events-nigeria", label: "The Best Ways to Collect Money for Events in Nigeria" },
         { path: "/blog/groupfund-vs-traditional-methods-comparison", label: "GroupFund vs. Traditional Methods: A Comparison" },
-        { path: "/blog/tips-fair-birthday-contribution-management", label: "5 Tips for Fair Birthday Contribution Management" },
-        { path: "/blog/churches-streamline-member-birthday-contributions", label: "How Churches Can Streamline Member Birthday Contributions" }
+        { path: "/blog/tips-fair-birthday-contribution-management", label: "5 Tips for Fair Group Contribution Management" },
+        { path: "/blog/churches-streamline-member-birthday-contributions", label: "How Churches Can Streamline Member Contributions" }
       ]
     }
   ]

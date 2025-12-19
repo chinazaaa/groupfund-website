@@ -7,8 +7,8 @@ export default function ResourcesPage() {
   const guides = [
     {
       slug: 'how-to-organize-birthday-contributions',
-      title: 'How to Organize Birthday Contributions',
-      description: 'A complete step-by-step guide to organizing birthday contributions for your group. Learn best practices and avoid common mistakes.',
+      title: 'How to Organize Group Contributions',
+      description: 'A complete step-by-step guide to organizing group contributions for your group - birthdays, subscriptions, events. Learn best practices and avoid common mistakes.',
       icon: '📋',
       category: 'Getting Started',
       readTime: '5 min read'
@@ -16,7 +16,7 @@ export default function ResourcesPage() {
     {
       slug: 'setting-up-your-first-group',
       title: 'Setting Up Your First Group',
-      description: 'Quick start guide for creating your first birthday contribution group. Perfect for beginners getting started with GroupFund.',
+      description: 'Quick start guide for creating your first group - birthday, subscription, or general. Perfect for beginners getting started with GroupFund.',
       icon: '🚀',
       category: 'Getting Started',
       readTime: '4 min read'
@@ -31,8 +31,8 @@ export default function ResourcesPage() {
     },
     {
       slug: 'birthday-contribution-etiquette',
-      title: 'Birthday Contribution Etiquette',
-      description: 'Learn the dos and don\'ts of birthday contributions. Best practices for fair, respectful, and stress-free group contributions.',
+      title: 'Group Contribution Etiquette',
+      description: 'Learn the dos and don\'ts of group contributions. Best practices for fair, respectful, and stress-free group contributions - for birthdays, subscriptions, events, and more.',
       icon: '🤝',
       category: 'Best Practices',
       readTime: '4 min read'
@@ -40,15 +40,15 @@ export default function ResourcesPage() {
     {
       slug: 'managing-large-group-contributions',
       title: 'Managing Large Group Contributions',
-      description: 'Tips and strategies for organizing birthday contributions in large groups like churches, schools, and organizations.',
+      description: 'Tips and strategies for organizing group contributions in large groups like churches, schools, and organizations - for birthdays, subscriptions, events, and more.',
       icon: '👥',
       category: 'Best Practices',
       readTime: '5 min read'
     },
     {
       slug: 'avoiding-birthday-contribution-mistakes',
-      title: 'Avoiding Birthday Contribution Mistakes',
-      description: 'Common mistakes people make when organizing birthday contributions and how to avoid them.',
+      title: 'Avoiding Group Contribution Mistakes',
+      description: 'Common mistakes people make when organizing group contributions and how to avoid them - for birthdays, subscriptions, events, and more.',
       icon: '⚠️',
       category: 'Best Practices',
       readTime: '4 min read'
@@ -64,7 +64,7 @@ export default function ResourcesPage() {
     {
       slug: 'budgeting-for-group-contributions',
       title: 'Budgeting for Group Contributions',
-      description: 'Learn how to budget for group birthday contributions. Plan your annual expenses and manage finances effectively.',
+      description: 'Learn how to budget for group contributions. Plan your annual expenses and manage finances effectively - for birthdays, subscriptions, events, and more.',
       icon: '📊',
       category: 'Planning',
       readTime: '6 min read'
@@ -80,7 +80,7 @@ export default function ResourcesPage() {
     {
       slug: 'multi-currency-group-payments',
       title: 'Multi-Currency Group Payments',
-      description: 'Complete guide to organizing birthday contributions for international groups with members in different countries.',
+      description: 'Complete guide to organizing group contributions for international groups with members in different countries - for birthdays, subscriptions, events, and more.',
       icon: '🌍',
       category: 'Advanced',
       readTime: '7 min read'
@@ -121,9 +121,9 @@ export default function ResourcesPage() {
   return (
     <>
       <SEO
-        title="Resources & Guides - Birthday Contribution Tips & Best Practices"
-        description="Learn how to organize birthday contributions effectively. Free guides, tips, and best practices for managing group birthday contributions. Educational resources for families, churches, schools, and groups."
-        keywords="birthday contribution guides, how to organize birthday contributions, birthday contribution tips, group payment guides, birthday contribution best practices, educational resources"
+        title="Resources & Guides - Group Contribution Tips & Best Practices"
+        description="Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing group contributions - for birthdays, subscriptions, events, and more. Educational resources for families, churches, schools, and groups."
+        keywords="group contribution guides, how to organize group contributions, contribution tips, group payment guides, contribution best practices, educational resources"
         canonical="https://groupfund.app/resources"
       />
 
@@ -131,7 +131,7 @@ export default function ResourcesPage() {
         <div className="container">
           <h1 className="page-title">Resources & Guides</h1>
           <p className="page-subtitle">
-            Learn how to organize birthday contributions effectively. Free guides, tips, and best practices for managing group contributions.
+            Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing group contributions - for birthdays, subscriptions, events, and more.
           </p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function ResourcesPage() {
           <div className="resources-intro">
             <h2>Educational Resources</h2>
             <p>
-              Whether you're organizing birthday contributions for the first time or looking to improve your current process, our guides cover everything you need to know. From basic setup to advanced strategies, these resources will help you organize contributions effectively.
+              Whether you're organizing group contributions for the first time or looking to improve your current process, our guides cover everything you need to know. From basic setup to advanced strategies, these resources will help you organize contributions effectively - for Birthday Groups, Subscription Groups, and General Groups.
             </p>
           </div>
 
@@ -182,7 +182,7 @@ export default function ResourcesPage() {
           {/* CTA Section */}
           <div className="cta-box">
             <h2>Ready to Start Organizing?</h2>
-            <p>Put these guides into practice with GroupFund. Start organizing birthday contributions for your group today.</p>
+            <p>Put these guides into practice with GroupFund. Start organizing group contributions for your group today - for birthdays, subscriptions, events, and more.</p>
             <div className="cta-buttons">
               <Link to="/waitlist" className="btn btn-primary btn-large">Get Started Free</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

@@ -34,7 +34,7 @@ export default function UseCasesPage() {
     {
       slug: 'schools',
       title: 'For Schools',
-      description: 'Organize birthday contributions for teachers, staff, or students. Perfect for class groups, teacher associations, and school communities.',
+      description: 'Organize group contributions for teachers, staff, or students. Perfect for class groups, teacher associations, and school communities - for birthdays, subscriptions, events, and more.',
       icon: '🏫',
       keywords: 'school birthday contributions, class birthday fund, teacher birthday contributions',
       benefits: [

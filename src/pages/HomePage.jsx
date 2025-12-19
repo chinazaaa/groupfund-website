@@ -238,7 +238,7 @@ export default function HomePage() {
             <article className="use-case-card">
               <div className="use-case-icon">💼</div>
               <h3>Workplace</h3>
-              <p>Organize office funds professionally - birthday contributions, shared subscriptions, team events. Maintain clear records and reduce administrative burden.</p>
+              <p>Organize office funds professionally - group contributions, shared subscriptions, team events. Maintain clear records and reduce administrative burden.</p>
             </article>
             <article className="use-case-card">
               <div className="use-case-icon">🏘️</div>
@@ -257,7 +257,7 @@ export default function HomePage() {
             <p className="trust-stats">100+ Active Groups</p>
             <div className="testimonials">
               <blockquote className="testimonial">
-                <p>"Finally, no more chasing people on WhatsApp! GroupFund made our family birthday contributions so much easier."</p>
+                <p>"Finally, no more chasing people on WhatsApp! GroupFund made our family group contributions so much easier."</p>
                 <cite>— Family Group Admin, Lagos</cite>
               </blockquote>
             </div>

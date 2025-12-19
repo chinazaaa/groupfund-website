@@ -889,14 +889,14 @@ const blogPostsData = {
     `
   },
   "organize-birthday-contributions-without-stress": {
-    title: "How to Organize Birthday Contributions Without Stress",
-    excerpt: "Learn proven strategies for organizing group birthday contributions. Discover how to set clear expectations, track payments, and maintain fairness without the WhatsApp chaos.",
+    title: "How to Organize Group Contributions Without Stress",
+    excerpt: "Learn proven strategies for organizing group contributions. Discover how to set clear expectations, track payments, and maintain fairness without the WhatsApp chaos.",
     date: "December 13, 2025",
     readTime: "5 min read",
     slug: "organize-birthday-contributions-without-stress",
-    keywords: "organize birthday contributions, group payment organization, stress-free contributions",
+    keywords: "organize group contributions, group payment organization, stress-free contributions",
     content: `
-      <p>Organizing birthday contributions for a group can quickly become overwhelming. Between tracking who has paid, following up with late contributors, and ensuring fairness, it's easy to feel stressed. However, with the right approach and tools, you can manage group birthday contributions smoothly and efficiently.</p>
+      <p>Organizing group contributions can quickly become overwhelming. Between tracking who has paid, following up with late contributors, and ensuring fairness, it's easy to feel stressed. However, with the right approach and tools, you can manage group contributions smoothly and efficiently - whether for birthdays, subscriptions, events, or other purposes.</p>
 
       <h2>Set Clear Expectations from the Start</h2>
       <p>The foundation of stress-free contribution management is clear communication. Before collecting any money, establish:</p>
@@ -942,7 +942,7 @@ const blogPostsData = {
       <p>Once all contributions are collected, acknowledge everyone's participation. A simple thank you message goes a long way in maintaining group harmony and encouraging future participation.</p>
 
       <h2>Conclusion</h2>
-      <p>Organizing birthday contributions doesn't have to be stressful. By setting clear expectations, using the right tools, maintaining transparency, and handling edge cases gracefully, you can create a smooth experience for everyone involved. Tools like GroupFund are specifically designed to eliminate the chaos and make group contributions simple and stress-free.</p>
+      <p>Organizing group contributions doesn't have to be stressful. By setting clear expectations, using the right tools, maintaining transparency, and handling edge cases gracefully, you can create a smooth experience for everyone involved. Tools like GroupFund are specifically designed to eliminate the chaos and make group contributions simple and stress-free - for birthdays, subscriptions, events, and more.</p>
     `
   },
   "why-whatsapp-groups-fail-tracking-payments": {
@@ -1269,14 +1269,14 @@ const blogPostsData = {
     `
   },
   "tips-fair-birthday-contribution-management": {
-    title: "5 Tips for Fair Birthday Contribution Management",
-    excerpt: "Discover five essential tips for managing birthday contributions fairly. Learn how to set amounts, handle late payments, and maintain transparency in your group.",
+    title: "5 Tips for Fair Group Contribution Management",
+    excerpt: "Discover five essential tips for managing group contributions fairly. Learn how to set amounts, handle late payments, and maintain transparency in your group.",
     date: "December 09, 2025",
     readTime: "5 min read",
     slug: "tips-fair-birthday-contribution-management",
-    keywords: "fair contribution management, birthday payment tips, group fairness",
+    keywords: "fair contribution management, group payment tips, group fairness",
     content: `
-      <p>Fairness is crucial when managing birthday contributions. When people feel the system is unfair, it creates tension, reduces participation, and can even break up groups. Here are five essential tips to ensure your birthday contribution management is fair and maintains group harmony.</p>
+      <p>Fairness is crucial when managing group contributions. When people feel the system is unfair, it creates tension, reduces participation, and can even break up groups. Here are five essential tips to ensure your group contribution management is fair and maintains group harmony - whether for birthdays, subscriptions, events, or other purposes.</p>
 
       <h2>1. Set Clear, Consistent Contribution Amounts</h2>
       <p>Fairness starts with consistency. Decide on a standard contribution amount and apply it to everyone's birthday. This eliminates:</p>
@@ -1362,24 +1362,24 @@ const blogPostsData = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Fair birthday contribution management requires clear rules, consistent application, transparency, and good communication. By following these five tips, you can create a system that everyone sees as fair, which leads to better participation, stronger group bonds, and less stress for organizers. Remember, fairness isn't about perfection—it's about consistency, transparency, and treating everyone equally.</p>
+      <p>Fair group contribution management requires clear rules, consistent application, transparency, and good communication. By following these five tips, you can create a system that everyone sees as fair, which leads to better participation, stronger group bonds, and less stress for organizers. Remember, fairness isn't about perfection—it's about consistency, transparency, and treating everyone equally - whether for birthdays, subscriptions, events, or other purposes.</p>
     `
   },
   "churches-streamline-member-birthday-contributions": {
-    title: "How Churches Can Streamline Member Birthday Contributions",
-    excerpt: "Churches often struggle with organizing member contributions. Learn how GroupFund helps churches manage birthday contributions efficiently while maintaining transparency and fairness.",
+    title: "How Churches Can Streamline Member Contributions",
+    excerpt: "Churches often struggle with organizing member contributions. Learn how GroupFund helps churches manage contributions efficiently while maintaining transparency and fairness.",
     date: "December 08, 2025",
     readTime: "6 min read",
     slug: "churches-streamline-member-birthday-contributions",
-    keywords: "church contributions, member birthday contributions, church organization",
+    keywords: "church contributions, member contributions, church organization",
     content: `
-      <p>Churches often have large congregations with many members celebrating birthdays throughout the year. Organizing birthday contributions for church members can be a significant administrative challenge. However, with the right approach and tools, churches can streamline this process while maintaining the warmth and community spirit that makes church contributions meaningful.</p>
+      <p>Churches often have large congregations with many members celebrating birthdays, managing subscriptions, and organizing events throughout the year. Organizing contributions for church members can be a significant administrative challenge. However, with the right approach and tools, churches can streamline this process while maintaining the warmth and community spirit that makes church contributions meaningful.</p>
 
       <h2>The Challenge for Churches</h2>
-      <p>Churches face unique challenges when organizing member birthday contributions:</p>
+      <p>Churches face unique challenges when organizing member contributions:</p>
       <ul>
         <li><strong>Large Numbers:</strong> Managing contributions for dozens or hundreds of members</li>
-        <li><strong>Multiple Birthdays:</strong> Several birthdays happening simultaneously</li>
+        <li><strong>Multiple Events:</strong> Several birthdays, subscriptions, and events happening simultaneously</li>
         <li><strong>Volunteer Organizers:</strong> Often managed by volunteers with limited time</li>
         <li><strong>Transparency Requirements:</strong> Members expect transparency in how contributions are handled</li>
         <li><strong>Fairness Concerns:</strong> Ensuring all members are treated equally</li>
@@ -1498,7 +1498,7 @@ const blogPostsData = {
       <p><strong>Solution:</strong> Use consistent rules, maintain transparency, document everything</p>
 
       <h2>Conclusion</h2>
-      <p>Streamlining member birthday contributions doesn't mean losing the personal touch that makes church communities special. Instead, it frees up time and energy for what matters most: building relationships and serving the community. By using modern tools like GroupFund, churches can manage contributions efficiently while maintaining transparency, fairness, and the warm community spirit that defines church life.</p>
+      <p>Streamlining member contributions doesn't mean losing the personal touch that makes church communities special. Instead, it frees up time and energy for what matters most: building relationships and serving the community. By using modern tools like GroupFund, churches can manage contributions efficiently while maintaining transparency, fairness, and the warm community spirit that defines church life - for birthdays, subscriptions, events, and more.</p>
     `
   },
   "how-birthday-wishlists-make-gift-giving-easier": {

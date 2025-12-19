@@ -7,17 +7,17 @@ export default function AvoidingBirthdayContributionMistakesPage() {
   return (
     <>
       <SEO
-        title="Avoiding Birthday Contribution Mistakes - Common Pitfalls & Solutions"
-        description="Common mistakes people make when organizing birthday contributions and how to avoid them. Learn from others' experiences to organize contributions successfully."
-        keywords="birthday contribution mistakes, common contribution mistakes, avoiding payment mistakes, group contribution errors, birthday contribution pitfalls"
+        title="Avoiding Group Contribution Mistakes - Common Pitfalls & Solutions"
+        description="Common mistakes people make when organizing group contributions and how to avoid them. Learn from others' experiences to organize contributions successfully - for birthdays, subscriptions, events, and more."
+        keywords="group contribution mistakes, common contribution mistakes, avoiding payment mistakes, group contribution errors, contribution pitfalls"
         canonical="https://groupfund.app/resources/avoiding-birthday-contribution-mistakes"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Avoiding Birthday Contribution Mistakes</h1>
+          <h1 className="page-title">Avoiding Group Contribution Mistakes</h1>
           <p className="page-subtitle">
-            Common mistakes people make when organizing birthday contributions and how to avoid them
+            Common mistakes people make when organizing group contributions and how to avoid them - for birthdays, subscriptions, events, and more
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function AvoidingBirthdayContributionMistakesPage() {
             <div className="resource-section">
               <h2>Introduction</h2>
               <p>
-                Organizing birthday contributions can be challenging, and many groups make the same mistakes. Learning from others' experiences helps you avoid these pitfalls and organize contributions successfully. This guide covers the most common mistakes and how to avoid them.
+                Organizing group contributions can be challenging, and many groups make the same mistakes. Learning from others' experiences helps you avoid these pitfalls and organize contributions successfully - whether for Birthday Groups, Subscription Groups, or General Groups. This guide covers the most common mistakes and how to avoid them.
               </p>
             </div>
 
@@ -170,7 +170,7 @@ export default function AvoidingBirthdayContributionMistakesPage() {
             <div className="resource-section">
               <h2>How to Avoid These Mistakes</h2>
               <p>
-                The best way to avoid these mistakes is to use a system designed for organizing birthday contributions:
+                The best way to avoid these mistakes is to use a system designed for organizing group contributions:
               </p>
               <ul className="resource-list">
                 <li><strong>Fixed Amounts:</strong> GroupFund lets you set fixed contribution amounts</li>
