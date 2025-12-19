@@ -112,7 +112,7 @@ export default function BlogPage() {
     {
       title: "How to Manage Shared Subscriptions with Subscription Groups",
       excerpt: "Learn how Subscription Groups make managing shared Netflix, Spotify, and other subscriptions effortless. Set monthly or annual frequencies, track deadlines, and never miss a payment.",
-      date: "December 07, 2025",
+      date: "December 19, 2025",
       readTime: "6 min read",
       slug: "how-to-manage-shared-subscriptions-subscription-groups",
       keywords: "shared subscriptions, subscription groups, Netflix subscription sharing, Spotify group subscription, subscription management"
@@ -120,7 +120,7 @@ export default function BlogPage() {
     {
       title: "Organizing Group Contributions for Weddings and Events",
       excerpt: "Planning a wedding or event? Discover how General Groups help you organize contributions, track payments, and manage deadlines for any occasion - from baby showers to graduations.",
-      date: "December 06, 2025",
+      date: "December 19, 2025",
       readTime: "7 min read",
       slug: "organizing-group-contributions-weddings-events",
       keywords: "wedding contributions, event contributions, baby shower contributions, graduation contributions, group event planning"
@@ -128,7 +128,7 @@ export default function BlogPage() {
     {
       title: "Subscription Groups vs. Manual Payment Tracking: Which is Better?",
       excerpt: "Compare Subscription Groups with manual tracking methods. Learn why automated subscription management saves time, prevents missed payments, and keeps groups organized.",
-      date: "December 05, 2025",
+      date: "December 19, 2025",
       readTime: "6 min read",
       slug: "subscription-groups-vs-manual-payment-tracking",
       keywords: "subscription management, subscription tracking, automated subscription payments, subscription group benefits"
@@ -136,7 +136,7 @@ export default function BlogPage() {
     {
       title: "Setting Up Your First Subscription Group: Step-by-Step Guide",
       excerpt: "New to Subscription Groups? Follow this complete guide to set up your first shared subscription group, configure payment schedules, and manage members effectively.",
-      date: "December 04, 2025",
+      date: "December 19, 2025",
       readTime: "5 min read",
       slug: "setting-up-first-subscription-group-step-by-step",
       keywords: "subscription group setup, shared subscription guide, how to create subscription group"
@@ -144,7 +144,7 @@ export default function BlogPage() {
     {
       title: "Best Practices for General Groups: Events, Weddings, and More",
       excerpt: "Master the art of organizing General Groups for any purpose. Learn best practices for setting deadlines, managing contributions, and ensuring successful group events.",
-      date: "December 03, 2025",
+      date: "December 19, 2025",
       readTime: "6 min read",
       slug: "best-practices-general-groups-events-weddings",
       keywords: "general groups, event planning, wedding contributions, group event management"
@@ -152,7 +152,7 @@ export default function BlogPage() {
     {
       title: "How to Collect Money for Group Events in Lagos, Nigeria",
       excerpt: "Discover the most effective methods for collecting money for group events in Lagos. Learn about bank transfers, mobile money, and how GroupFund simplifies the process.",
-      date: "December 02, 2025",
+      date: "December 19, 2025",
       readTime: "7 min read",
       slug: "how-to-collect-money-group-events-lagos-nigeria",
       keywords: "collect money Lagos, group payments Lagos, event contributions Lagos Nigeria, Lagos group fund"
@@ -160,7 +160,7 @@ export default function BlogPage() {
     {
       title: "Managing Multiple Subscription Groups: Tips and Strategies",
       excerpt: "Juggling multiple shared subscriptions? Learn how to efficiently manage Netflix, Spotify, and other subscription groups without confusion or missed payments.",
-      date: "December 01, 2025",
+      date: "December 19, 2025",
       readTime: "6 min read",
       slug: "managing-multiple-subscription-groups-tips-strategies",
       keywords: "multiple subscriptions, subscription group management, shared subscription tips"
@@ -168,7 +168,7 @@ export default function BlogPage() {
     {
       title: "GroupFund vs. Splitwise: Which is Better for Group Payments?",
       excerpt: "Compare GroupFund with Splitwise for group payment tracking. See which platform works better for birthdays, subscriptions, events, and different group types.",
-      date: "November 30, 2025",
+      date: "December 19, 2025",
       readTime: "8 min read",
       slug: "groupfund-vs-splitwise-group-payments-comparison",
       keywords: "GroupFund vs Splitwise, group payment comparison, Splitwise alternative, group contribution apps"
@@ -176,7 +176,7 @@ export default function BlogPage() {
     {
       title: "How to Organize Baby Shower Contributions with General Groups",
       excerpt: "Planning a baby shower? Learn how General Groups help you organize contributions, track who's paid, and ensure the celebration is stress-free for everyone involved.",
-      date: "November 29, 2025",
+      date: "December 19, 2025",
       readTime: "5 min read",
       slug: "how-to-organize-baby-shower-contributions-general-groups",
       keywords: "baby shower contributions, baby shower planning, group gift organization, event contributions"
@@ -184,7 +184,7 @@ export default function BlogPage() {
     {
       title: "Subscription Group Admin Guide: Managing Shared Services",
       excerpt: "Everything subscription group admins need to know. Learn how to set up payment schedules, manage members, track deadlines, and handle account details effectively.",
-      date: "November 28, 2025",
+      date: "December 19, 2025",
       readTime: "7 min read",
       slug: "subscription-group-admin-guide-managing-shared-services",
       keywords: "subscription admin, shared service management, subscription group admin, managing subscriptions"
@@ -192,7 +192,7 @@ export default function BlogPage() {
     {
       title: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General",
       excerpt: "Understand the three group types in GroupFund: Birthday Groups, Subscription Groups, and General Groups. Learn when to use each type and how they differ.",
-      date: "November 27, 2025",
+      date: "December 19, 2025",
       readTime: "8 min read",
       slug: "complete-guide-group-contribution-types-birthday-subscription-general",
       keywords: "group types, birthday groups, subscription groups, general groups, group contribution types"
