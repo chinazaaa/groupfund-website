@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
               <h3>2.1 Information You Provide</h3>
               <p>We collect information that you provide directly to us, including:</p>
               <ul>
-                <li>Account information (name, email address, phone number)</li>
+                <li>Account information (name, email address)</li>
                 <li>Group information (group names, member details, birthday dates)</li>
                 <li>Payment information (contribution amounts, payment statuses)</li>
                 <li>Communication data (messages, feedback, support requests)</li>

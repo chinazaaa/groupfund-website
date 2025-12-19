@@ -23,7 +23,7 @@ export default function SettingUpYourFirstGroupPage() {
           "@type": "HowToStep",
           "position": 1,
           "name": "Download and Sign Up",
-          "text": "Download GroupFund from the App Store or Google Play. Sign up with your email or phone number. Verify your account with the OTP code sent to you. Complete your profile with your name and birthday."
+          "text": "Download GroupFund from the App Store or Google Play. Sign up with your email. Verify your account with the OTP code sent to you. Complete your profile with your name and birthday."
         },
         {
           "@type": "HowToStep",
@@ -111,10 +111,8 @@ export default function SettingUpYourFirstGroupPage() {
               </p>
               <ul className="resource-list">
                 <li>Download GroupFund from the App Store or Google Play</li>
-                <li>Sign up with your email or phone number</li>
-                <li>Verify your account with the OTP code sent to you</li>
-                <li>Complete your profile with your name and birthday</li>
-              </ul>
+                <li>Sign up with your email </li>
+                <li>Verify your account with the OTP code sent to you</li>              </ul>
             </div>
 
             <div className="resource-section">

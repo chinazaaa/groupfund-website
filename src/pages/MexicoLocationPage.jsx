@@ -9,11 +9,11 @@ export default function MexicoLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups.",
+      "description": "Organize group contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/mexico",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Mexico" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "MXN" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,15 +33,15 @@ export default function MexicoLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Mexico - Birthday Contributions App for Mexico"
-        description="Organize birthday contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups. Support for MXN (Mexican Peso). Free to start."
-        keywords="birthday contributions Mexico, Mexico birthday app, groupfund Mexico, birthday contributions app Mexico, MXN birthday tracker, Mexico group payments"
+        title="GroupFund Mexico - Group Contributions App for Mexico"
+        description="Organize group contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups. Support for MXN (Mexican Peso). Free to start."
+        keywords="group contributions Mexico, Mexico contribution app, groupfund Mexico, group contributions app Mexico, MXN contribution tracker, Mexico group payments"
         canonical="https://groupfund.app/locations/mexico"
       />
       <section className="page-hero">
         <div className="container">
           <h1 className="page-title">GroupFund for Mexico 🇲🇽</h1>
-          <p className="page-subtitle">Organize birthday contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups.</p>
+          <p className="page-subtitle">Organize group contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups.</p>
         </div>
       </section>
       <section className="location-detail-page">
@@ -49,7 +49,7 @@ export default function MexicoLocationPage() {
           <div className="location-content">
             <div className="location-section">
               <h2>Why GroupFund Works Great in Mexico</h2>
-              <p>GroupFund is perfect for organizing birthday contributions in Mexico. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.</p>
+              <p>GroupFund is perfect for organizing group contributions in Mexico. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.</p>
               <p>With support for Mexican Peso (MXN) and local bank details, GroupFund is designed to work seamlessly for Mexican groups.</p>
             </div>
             <div className="location-section">
@@ -58,16 +58,16 @@ export default function MexicoLocationPage() {
                 <div className="feature-item"><h3>🇲🇽 Mexican Peso (MXN) Support</h3><p>Full support for Mexican Peso. Set contribution amounts in MXN, and local bank details are displayed automatically.</p></div>
                 <div className="feature-item"><h3>🏦 Local Bank Transfers</h3><p>Perfect for Mexican bank transfers (SPEI). Members can transfer directly to celebrants' bank accounts.</p></div>
                 <div className="feature-item"><h3>👨‍👩‍👧‍👦 Perfect for Mexican Families</h3><p>Organize contributions for extended Mexican families. Track who has contributed across multiple family members.</p></div>
-                <div className="feature-item"><h3>⛪ Church Groups</h3><p>Ideal for Mexican churches organizing birthday contributions for members. Manage large congregations efficiently.</p></div>
-                <div className="feature-item"><h3>🏫 Schools & Universities</h3><p>Perfect for Mexican schools, universities, and student groups organizing birthday contributions.</p></div>
+                <div className="feature-item"><h3>⛪ Church Groups</h3><p>Ideal for Mexican churches organizing group contributions for members. Manage large congregations efficiently.</p></div>
+                <div className="feature-item"><h3>🏫 Schools & Universities</h3><p>Perfect for Mexican schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>📱 Mobile-First</h3><p>Native mobile app perfect for Mexico's mobile culture. Access from anywhere, get push notifications.</p></div>
               </div>
             </div>
             <div className="location-section">
               <h2>Common Use Cases in Mexico</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Mexican families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Mexican churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended Mexican families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in Mexican churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Mexican schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Mexican university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for Mexican companies and organizations.</li>
@@ -99,8 +99,8 @@ export default function MexicoLocationPage() {
               </ul>
             </div>
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Mexico?</h2>
-              <p>Join Mexican groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Mexico?</h2>
+              <p>Join Mexican groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Mexico Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

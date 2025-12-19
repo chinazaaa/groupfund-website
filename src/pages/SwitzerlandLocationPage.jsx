@@ -9,11 +9,11 @@ export default function SwitzerlandLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups.",
+      "description": "Organize group contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/switzerland",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Switzerland" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,9 +33,9 @@ export default function SwitzerlandLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Switzerland - Birthday Contributions App for Switzerland"
-        description="Organize birthday contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups. Support for CHF (Swiss Franc). Free to start."
-        keywords="birthday contributions Switzerland, Swiss birthday app, groupfund Switzerland, birthday contributions app Switzerland, CHF birthday tracker, Switzerland group payments"
+        title="GroupFund Switzerland - Group Contributions App for Switzerland"
+        description="Organize group contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups. Support for CHF (Swiss Franc). Free to start."
+        keywords="group contributions Switzerland, Swiss contribution app, groupfund Switzerland, group contributions app Switzerland, CHF contribution tracker, Switzerland group payments"
         canonical="https://groupfund.app/locations/switzerland"
       />
 
@@ -43,7 +43,7 @@ export default function SwitzerlandLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Switzerland 🇨🇭</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups.
+            Organize group contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function SwitzerlandLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Switzerland</h2>
               <p>
-                GroupFund is perfect for organizing birthday contributions in Switzerland. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+                GroupFund is perfect for organizing group contributions in Switzerland. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
                 With support for Swiss Franc (CHF) and local bank details, GroupFund is designed to work seamlessly for Swiss groups.
@@ -78,11 +78,11 @@ export default function SwitzerlandLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church Groups</h3>
-                  <p>Ideal for Swiss churches organizing birthday contributions for members. Manage large congregations efficiently.</p>
+                  <p>Ideal for Swiss churches organizing group contributions for members. Manage large congregations efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Perfect for Swiss schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for Swiss schools, universities, and student groups organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
@@ -94,8 +94,8 @@ export default function SwitzerlandLocationPage() {
             <div className="location-section">
               <h2>Common Use Cases in Switzerland</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Swiss families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Swiss churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended Swiss families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in Swiss churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Swiss schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Swiss university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for Swiss companies and organizations.</li>
@@ -130,8 +130,8 @@ export default function SwitzerlandLocationPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Switzerland?</h2>
-              <p>Join Swiss groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Switzerland?</h2>
+              <p>Join Swiss groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Swiss Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

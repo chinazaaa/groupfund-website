@@ -9,11 +9,11 @@ export default function IndiaLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups.",
+      "description": "Organize group contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/india",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "India" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,15 +33,15 @@ export default function IndiaLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund India - Birthday Contributions App for India"
-        description="Organize birthday contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups. Support for INR (Indian Rupee). Free to start."
-        keywords="birthday contributions India, India birthday app, groupfund India, birthday contributions app India, INR birthday tracker, India group payments"
+        title="GroupFund India - Group Contributions App for India"
+        description="Organize group contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups. Support for INR (Indian Rupee). Free to start."
+        keywords="group contributions India, India contribution app, groupfund India, group contributions app India, INR contribution tracker, India group payments"
         canonical="https://groupfund.app/locations/india"
       />
       <section className="page-hero">
         <div className="container">
           <h1 className="page-title">GroupFund for India 🇮🇳</h1>
-          <p className="page-subtitle">Organize birthday contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups.</p>
+          <p className="page-subtitle">Organize group contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups.</p>
         </div>
       </section>
       <section className="location-detail-page">
@@ -49,7 +49,7 @@ export default function IndiaLocationPage() {
           <div className="location-content">
             <div className="location-section">
               <h2>Why GroupFund Works Great in India</h2>
-              <p>GroupFund is perfect for organizing birthday contributions in India. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.</p>
+              <p>GroupFund is perfect for organizing group contributions in India. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.</p>
               <p>With support for Indian Rupee (INR) and local bank details, GroupFund is designed to work seamlessly for Indian groups.</p>
             </div>
             <div className="location-section">
@@ -58,16 +58,16 @@ export default function IndiaLocationPage() {
                 <div className="feature-item"><h3>🇮🇳 Indian Rupee (INR) Support</h3><p>Full support for Indian Rupee. Set contribution amounts in INR, and local bank details are displayed automatically.</p></div>
                 <div className="feature-item"><h3>🏦 Local Bank Transfers</h3><p>Perfect for Indian bank transfers (UPI, NEFT, IMPS). Members can transfer directly to celebrants' bank accounts.</p></div>
                 <div className="feature-item"><h3>👨‍👩‍👧‍👦 Perfect for Indian Families</h3><p>Organize contributions for extended Indian families. Track who has contributed across multiple family members.</p></div>
-                <div className="feature-item"><h3>⛪ Church Groups</h3><p>Ideal for Indian churches organizing birthday contributions for members. Manage large congregations efficiently.</p></div>
-                <div className="feature-item"><h3>🏫 Schools & Universities</h3><p>Perfect for Indian schools, universities, and student groups organizing birthday contributions.</p></div>
+                <div className="feature-item"><h3>⛪ Church Groups</h3><p>Ideal for Indian churches organizing group contributions for members. Manage large congregations efficiently.</p></div>
+                <div className="feature-item"><h3>🏫 Schools & Universities</h3><p>Perfect for Indian schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>📱 Mobile-First</h3><p>Native mobile app perfect for India's mobile-first culture. Access from anywhere, get push notifications.</p></div>
               </div>
             </div>
             <div className="location-section">
               <h2>Common Use Cases in India</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Indian families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Indian churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended Indian families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in Indian churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Indian schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Indian university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for Indian companies and organizations.</li>
@@ -99,8 +99,8 @@ export default function IndiaLocationPage() {
               </ul>
             </div>
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in India?</h2>
-              <p>Join Indian groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in India?</h2>
+              <p>Join Indian groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your India Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

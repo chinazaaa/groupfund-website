@@ -9,11 +9,11 @@ export default function IrelandLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups.",
+      "description": "Organize group contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/ireland",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Ireland" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,9 +33,9 @@ export default function IrelandLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Ireland - Birthday Contributions App for Ireland"
-        description="Organize birthday contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups. Support for EUR (Euro). Free to start."
-        keywords="birthday contributions Ireland, Irish birthday app, groupfund Ireland, birthday contributions app Ireland, EUR birthday tracker, Ireland group payments"
+        title="GroupFund Ireland - Group Contributions App for Ireland"
+        description="Organize group contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups. Support for EUR (Euro). Free to start."
+        keywords="group contributions Ireland, Irish contribution app, groupfund Ireland, group contributions app Ireland, EUR contribution tracker, Ireland group payments"
         canonical="https://groupfund.app/locations/ireland"
       />
 
@@ -43,7 +43,7 @@ export default function IrelandLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Ireland 🇮🇪</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups.
+            Organize group contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function IrelandLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Ireland</h2>
               <p>
-                GroupFund is perfect for organizing birthday contributions in Ireland. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+                GroupFund is perfect for organizing group contributions in Ireland. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
                 With support for Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Irish groups.
@@ -78,11 +78,11 @@ export default function IrelandLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church Groups</h3>
-                  <p>Ideal for Irish churches organizing birthday contributions for members. Manage large congregations efficiently.</p>
+                  <p>Ideal for Irish churches organizing group contributions for members. Manage large congregations efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Perfect for Irish schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for Irish schools, universities, and student groups organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
@@ -94,8 +94,8 @@ export default function IrelandLocationPage() {
             <div className="location-section">
               <h2>Common Use Cases in Ireland</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Irish families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Irish churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended Irish families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in Irish churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Irish schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Irish university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for Irish companies and organizations.</li>
@@ -130,8 +130,8 @@ export default function IrelandLocationPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Ireland?</h2>
-              <p>Join Irish groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Ireland?</h2>
+              <p>Join Irish groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Irish Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

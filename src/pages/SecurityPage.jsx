@@ -63,7 +63,7 @@ export default function SecurityPage() {
               <h2>Account Security</h2>
               <h3>Authentication</h3>
               <ul>
-                <li><strong>Secure Signup:</strong> Sign up with email or phone number. All accounts require verification before activation</li>
+                <li><strong>Secure Signup:</strong> Sign up with email. All accounts require verification before activation</li>
                 <li><strong>OTP Verification:</strong> One-Time Password (OTP) verification via email ensures account authenticity. You'll receive an OTP code when signing up or when verification is required. OTPs expire after a short period for security</li>
                 <li><strong>Secure Passwords:</strong> We require strong passwords and use secure hashing algorithms to store them. Passwords are never stored in plain text</li>
                 <li><strong>Password Reset:</strong> Reset passwords securely via OTP sent to your email. This ensures only authorized users can reset account passwords</li>

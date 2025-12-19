@@ -9,11 +9,11 @@ export default function SouthAfricaLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups.",
+      "description": "Organize group contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/south-africa",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "South Africa" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ZAR" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,9 +33,9 @@ export default function SouthAfricaLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund South Africa - Birthday Contributions App for South Africa"
-        description="Organize birthday contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups. Support for ZAR (South African Rand). Free to start."
-        keywords="birthday contributions South Africa, South African birthday app, groupfund South Africa, birthday contributions app South Africa, ZAR birthday tracker, South Africa group payments"
+        title="GroupFund South Africa - Group Contributions App for South Africa"
+        description="Organize group contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups. Support for ZAR (South African Rand). Free to start."
+        keywords="group contributions South Africa, South African contribution app, groupfund South Africa, group contributions app South Africa, ZAR contribution tracker, South Africa group payments"
         canonical="https://groupfund.app/locations/south-africa"
       />
 
@@ -43,7 +43,7 @@ export default function SouthAfricaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for South Africa 🇿🇦</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups.
+            Organize group contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function SouthAfricaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in South Africa</h2>
               <p>
-                GroupFund is perfect for organizing birthday contributions in South Africa. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+                GroupFund is perfect for organizing group contributions in South Africa. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
                 With support for South African Rand (ZAR) and local bank details, GroupFund is designed to work seamlessly for South African groups.
@@ -78,11 +78,11 @@ export default function SouthAfricaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church Groups</h3>
-                  <p>Ideal for South African churches organizing birthday contributions for members. Manage large congregations efficiently.</p>
+                  <p>Ideal for South African churches organizing group contributions for members. Manage large congregations efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Perfect for South African schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for South African schools, universities, and student groups organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
@@ -94,8 +94,8 @@ export default function SouthAfricaLocationPage() {
             <div className="location-section">
               <h2>Common Use Cases in South Africa</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended South African families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in South African churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended South African families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in South African churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in South African schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for South African university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for South African companies and organizations.</li>
@@ -130,8 +130,8 @@ export default function SouthAfricaLocationPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in South Africa?</h2>
-              <p>Join South African groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in South Africa?</h2>
+              <p>Join South African groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your South African Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

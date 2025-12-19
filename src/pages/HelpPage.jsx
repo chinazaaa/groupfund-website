@@ -18,11 +18,11 @@ export default function HelpPage() {
       topics: [
         {
           question: "How do I create my first group?",
-          answer: "Once we launch, creating a group is easy! Click 'Start Your Free Group' on the homepage, sign up with your email or phone number, verify your account with the OTP sent to your email, and follow the simple setup wizard. You'll be organizing contributions in minutes."
+          answer: "Once we launch, creating a group is easy! Click 'Start Your Free Group' on the homepage, sign up with your email, verify your account with the OTP sent to your email, and follow the simple setup wizard. You'll be organizing contributions in minutes."
         },
         {
           question: "How do I sign up?",
-          answer: "You can sign up with either your email address or phone number. After entering your details, you'll receive an OTP (One-Time Password) via email to verify your account. Enter the OTP code to complete verification. If you don't receive it, you can request a resend."
+          answer: "You can sign up with either your email address. After entering your details, you'll receive an OTP (One-Time Password) via email to verify your account. Enter the OTP code to complete verification. If you don't receive it, you can request a resend."
         },
         {
           question: "Do I need to pay to use GroupFund?",
@@ -34,7 +34,7 @@ export default function HelpPage() {
         },
         {
           question: "How do I update my profile?",
-          answer: "You can view and update your profile information at any time from your account settings. This includes your name, email, phone number, birthday, and other personal details. Your profile information helps other members identify you in groups."
+          answer: "You can view and update your profile information at any time from your account settings. However, you can only update your name, ema, as. To update others, please contact support@groupfund.app."
         }
       ]
     },
@@ -188,7 +188,7 @@ export default function HelpPage() {
         },
         {
           question: "How do I update my profile?",
-          answer: "You can view and update your profile information from your account settings. This includes your name, email, phone number, birthday, and other personal details. Changes to your profile will be reflected across all your groups."
+          answer: "You can view and update your profile information from your account settings. However, you can only update includes your name. To update others, please contact support@groupfund.app."
         },
         {
           question: "What is user verification?",

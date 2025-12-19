@@ -9,14 +9,14 @@ export default function LondonLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in London, UK with GroupFund. Perfect for London families, churches, schools, and groups.",
+      "description": "Organize group contributions in London, UK with GroupFund. Perfect for London families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/london",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "London" },
         { "@type": "Country", "name": "United Kingdom" }
       ],
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -36,15 +36,15 @@ export default function LondonLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund London - Birthday Contributions App for London, UK"
-        description="Organize birthday contributions in London, UK with GroupFund. Perfect for London families, churches, schools, and groups. Support for GBP. Free to start."
-        keywords="birthday contributions London, London birthday app, groupfund London, birthday contributions app London UK, London group payments, GBP birthday tracker London"
+        title="GroupFund London - Group Contributions App for London, UK"
+        description="Organize group contributions in London, UK with GroupFund. Perfect for London families, churches, schools, and groups. Support for GBP. Free to start."
+        keywords="group contributions London, London contribution app, groupfund London, group contributions app London UK, London group payments, GBP contribution tracker London"
         canonical="https://groupfund.app/locations/london"
       />
       <section className="page-hero">
         <div className="container">
           <h1 className="page-title">GroupFund for London, UK 🇬🇧</h1>
-          <p className="page-subtitle">Organize birthday contributions in London with GroupFund. Perfect for London families, churches, schools, and groups.</p>
+          <p className="page-subtitle">Organize group contributions in London with GroupFund. Perfect for London families, churches, schools, and groups.</p>
         </div>
       </section>
       <section className="location-detail-page">
@@ -52,16 +52,16 @@ export default function LondonLocationPage() {
           <div className="location-content">
             <div className="location-section">
               <h2>Why GroupFund Works Great in London</h2>
-              <p>London is the UK's capital and largest city. GroupFund helps Londoners organize birthday contributions effortlessly, whether for family celebrations, church groups, workplace teams, or friend circles.</p>
+              <p>London is the UK's capital and largest city. GroupFund helps Londoners organize group contributions effortlessly - for birthdays, shared subscriptions, events, and more - whether for family celebrations, church groups, workplace teams, or friend circles.</p>
               <p>With support for British Pound (GBP) and seamless bank transfers, GroupFund is perfect for London groups of all sizes.</p>
             </div>
             <div className="location-section">
               <h2>Perfect for London Groups</h2>
               <div className="features-list">
-                <div className="feature-item"><h3>🏙️ London Families</h3><p>Organize birthday contributions for extended London families. Track contributions across London boroughs.</p></div>
-                <div className="feature-item"><h3>⛪ London Churches</h3><p>Manage birthday contributions for London church members. Perfect for large London congregations.</p></div>
-                <div className="feature-item"><h3>🏢 London Workplaces</h3><p>Organize office birthday funds for London companies. Professional and transparent system.</p></div>
-                <div className="feature-item"><h3>🏫 London Schools</h3><p>Perfect for London schools, universities, and student groups organizing birthday contributions.</p></div>
+                <div className="feature-item"><h3>🏙️ London Families</h3><p>Organize contributions for extended London families - birthdays, subscriptions, events. Track contributions across London boroughs.</p></div>
+                <div className="feature-item"><h3>⛪ London Churches</h3><p>Manage contributions for London church members - birthdays, subscriptions, events. Perfect for large London congregations.</p></div>
+                <div className="feature-item"><h3>🏢 London Workplaces</h3><p>Organize office funds for London companies - birthdays, shared subscriptions, team events. Professional and transparent system.</p></div>
+                <div className="feature-item"><h3>🏫 London Schools</h3><p>Perfect for London schools, universities, and student groups organizing contributions for any purpose.</p></div>
                 <div className="feature-item"><h3>💰 GBP Support</h3><p>Full support for British Pound. Set amounts in GBP, perfect for London bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for London's fast-paced lifestyle. Access from anywhere in London.</p></div>
               </div>
@@ -69,16 +69,16 @@ export default function LondonLocationPage() {
             <div className="location-section">
               <h2>How London Groups Use GroupFund</h2>
               <ul className="scenarios-list">
-                <li><strong>London Family Groups:</strong> Organize contributions for extended families across London boroughs.</li>
-                <li><strong>London Church Communities:</strong> Manage birthday contributions for large London church congregations.</li>
-                <li><strong>London Office Teams:</strong> Organize workplace birthday funds for London companies and organizations.</li>
-                <li><strong>London School Groups:</strong> Manage contributions for London schools, universities, and student associations.</li>
-                <li><strong>London Friend Circles:</strong> Keep friend groups organized for birthday celebrations in London.</li>
+                <li><strong>London Family Groups:</strong> Organize contributions for extended families across London boroughs - birthdays, subscriptions, events.</li>
+                <li><strong>London Church Communities:</strong> Manage contributions for large London church congregations - birthdays, subscriptions, events.</li>
+                <li><strong>London Office Teams:</strong> Organize workplace funds for London companies and organizations - birthdays, shared subscriptions, team events.</li>
+                <li><strong>London School Groups:</strong> Manage contributions for London schools, universities, and student associations for any purpose.</li>
+                <li><strong>London Friend Circles:</strong> Keep friend groups organized for birthdays, shared subscriptions, and events in London.</li>
               </ul>
             </div>
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in London?</h2>
-              <p>Join London groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in London?</h2>
+              <p>Join London groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your London Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

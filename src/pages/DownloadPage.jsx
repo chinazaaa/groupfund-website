@@ -23,8 +23,8 @@ export default function DownloadPage() {
       />
       <SEO
         title="Download GroupFund App - iOS & Android | GroupFund"
-        description="Download GroupFund app for iOS and Android. Organize group birthday contributions effortlessly. Track payments, set reminders, manage multiple groups. Free to start."
-        keywords="download GroupFund, GroupFund app, iOS download, Android download, group contribution app, birthday tracking app"
+        description="Download GroupFund app for iOS and Android. Organize group contributions effortlessly - birthdays, subscriptions, events. Track payments, set reminders, manage multiple groups. Free to start."
+        keywords="download GroupFund, GroupFund app, iOS download, Android download, group contribution app, contribution tracking app"
         canonical="https://groupfund.app/download"
       />
 
@@ -113,9 +113,9 @@ export default function DownloadPage() {
                 </a>
               </div>
 
-              <div className="download-alternative">
+              {/* <div className="download-alternative">
                 <p>Don't have a smartphone? <Link to="/features">Use GroupFund on the web</Link></p>
-              </div>
+              </div> */}
             </div>
 
             <div className="download-steps">
@@ -129,7 +129,7 @@ export default function DownloadPage() {
                 <div className="step-card">
                   <div className="step-number">2</div>
                   <h3>Create Your Account</h3>
-                  <p>Sign up with your email or phone number. No credit card required.</p>
+                  <p>Sign up with your email. No credit card required.</p>
                 </div>
                 <div className="step-card">
                   <div className="step-number">3</div>

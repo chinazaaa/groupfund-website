@@ -9,11 +9,11 @@ export default function GhanaLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups.",
+      "description": "Organize group contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/ghana",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Ghana" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GHS" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,9 +33,9 @@ export default function GhanaLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Ghana - Birthday Contributions App for Ghana"
-        description="Organize birthday contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups. Support for GHS (Ghanaian Cedi). Free to start."
-        keywords="birthday contributions Ghana, Ghanaian birthday app, groupfund Ghana, birthday contributions app Ghana, GHS birthday tracker, Ghana group payments"
+        title="GroupFund Ghana - Group Contributions App for Ghana"
+        description="Organize group contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups. Support for GHS (Ghanaian Cedi). Free to start."
+        keywords="group contributions Ghana, Ghanaian contribution app, groupfund Ghana, group contributions app Ghana, GHS contribution tracker, Ghana group payments"
         canonical="https://groupfund.app/locations/ghana"
       />
 
@@ -43,7 +43,7 @@ export default function GhanaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Ghana 🇬🇭</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups.
+            Organize group contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function GhanaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Ghana</h2>
               <p>
-                GroupFund is perfect for organizing birthday contributions in Ghana. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+                GroupFund is perfect for organizing group contributions in Ghana. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
                 With support for Ghanaian Cedi (GHS) and local bank details, GroupFund is designed to work seamlessly for Ghanaian groups.
@@ -78,11 +78,11 @@ export default function GhanaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church Groups</h3>
-                  <p>Ideal for Ghanaian churches organizing birthday contributions for members. Manage large congregations efficiently.</p>
+                  <p>Ideal for Ghanaian churches organizing group contributions for members. Manage large congregations efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Perfect for Ghanaian schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for Ghanaian schools, universities, and student groups organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
@@ -94,8 +94,8 @@ export default function GhanaLocationPage() {
             <div className="location-section">
               <h2>Common Use Cases in Ghana</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Ghanaian families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Ghanaian churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended Ghanaian families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in Ghanaian churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Ghanaian schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Ghanaian university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for Ghanaian companies and organizations.</li>
@@ -130,8 +130,8 @@ export default function GhanaLocationPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Ghana?</h2>
-              <p>Join Ghanaian groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Ghana?</h2>
+              <p>Join Ghanaian groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Ghanaian Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

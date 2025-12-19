@@ -9,11 +9,11 @@ export default function BrazilLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups.",
+      "description": "Organize group contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/brazil",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Brazil" },
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -33,9 +33,9 @@ export default function BrazilLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Brazil - Birthday Contributions App for Brazil"
-        description="Organize birthday contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups. Support for BRL (Brazilian Real). Free to start."
-        keywords="birthday contributions Brazil, Brazilian birthday app, groupfund Brazil, birthday contributions app Brazil, BRL birthday tracker, Brazil group payments"
+        title="GroupFund Brazil - Group Contributions App for Brazil"
+        description="Organize group contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups. Support for BRL (Brazilian Real). Free to start."
+        keywords="group contributions Brazil, Brazilian contribution app, groupfund Brazil, group contributions app Brazil, BRL contribution tracker, Brazil group payments"
         canonical="https://groupfund.app/locations/brazil"
       />
 
@@ -43,7 +43,7 @@ export default function BrazilLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Brazil 🇧🇷</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups.
+            Organize group contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function BrazilLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Brazil</h2>
               <p>
-                GroupFund is perfect for organizing birthday contributions in Brazil. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+                GroupFund is perfect for organizing group contributions in Brazil. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
                 With support for Brazilian Real (BRL) and local bank details, GroupFund is designed to work seamlessly for Brazilian groups.
@@ -78,11 +78,11 @@ export default function BrazilLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church Groups</h3>
-                  <p>Ideal for Brazilian churches organizing birthday contributions for members. Manage large congregations efficiently.</p>
+                  <p>Ideal for Brazilian churches organizing group contributions for members. Manage large congregations efficiently.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Perfect for Brazilian schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for Brazilian schools, universities, and student groups organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
@@ -94,8 +94,8 @@ export default function BrazilLocationPage() {
             <div className="location-section">
               <h2>Common Use Cases in Brazil</h2>
               <ul className="scenarios-list">
-                <li><strong>Family Birthday Contributions:</strong> Organize contributions for extended Brazilian families.</li>
-                <li><strong>Church Member Contributions:</strong> Manage birthday contributions for church members in Brazilian churches.</li>
+                <li><strong>Family Group Contributions:</strong> Organize contributions for extended Brazilian families.</li>
+                <li><strong>Church Member Contributions:</strong> Manage group contributions for church members in Brazilian churches.</li>
                 <li><strong>School Groups:</strong> Organize contributions for teachers, staff, and students in Brazilian schools.</li>
                 <li><strong>Alumni Associations:</strong> Manage contributions for Brazilian university and school alumni groups.</li>
                 <li><strong>Workplace Groups:</strong> Organize office birthday funds for Brazilian companies and organizations.</li>
@@ -130,8 +130,8 @@ export default function BrazilLocationPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Brazil?</h2>
-              <p>Join Brazilian groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Brazil?</h2>
+              <p>Join Brazilian groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Brazilian Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
