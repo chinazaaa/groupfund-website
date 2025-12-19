@@ -8,7 +8,7 @@ export default function ComparisonsPage() {
     {
       slug: 'whatsapp-groups',
       title: 'GroupFund vs WhatsApp Groups',
-      description: 'See why GroupFund is better than WhatsApp groups for organizing birthday contributions. Automatic reminders, payment tracking, and member reliability scores.',
+      description: 'See why GroupFund is better than WhatsApp groups for organizing group contributions. Automatic reminders, payment tracking, and member reliability scores.',
       icon: '💬',
       keyFeatures: [
         'Automatic payment reminders',
@@ -34,13 +34,13 @@ export default function ComparisonsPage() {
     {
       slug: 'google-sheets',
       title: 'GroupFund vs Google Sheets',
-      description: 'Compare GroupFund with Google Sheets. See why automation, mobile access, and birthday-specific features make GroupFund superior.',
+      description: 'Compare GroupFund with Google Sheets. See why automation, mobile access, and group contribution features make GroupFund superior.',
       icon: '📈',
       keyFeatures: [
         'Fully automated reminders',
         'Mobile-first design',
         'Real-time updates',
-        'Purpose-built for birthdays'
+        'Purpose-built for group contributions'
       ],
       keywords: 'groupfund vs google sheets, google sheets alternative, better than google sheets'
     },
@@ -60,28 +60,28 @@ export default function ComparisonsPage() {
     {
       slug: 'splitwise',
       title: 'GroupFund vs Splitwise',
-      description: 'Compare GroupFund with Splitwise for birthday contributions. See why GroupFund is purpose-built for birthday celebrations.',
+      description: 'Compare GroupFund with Splitwise for group contributions. See why GroupFund is purpose-built for organizing group contributions.',
       icon: '💳',
       keyFeatures: [
-        'Birthday-specific features',
-        'Automatic birthday reminders',
-        'Birthday calendar',
+        'Multiple group types (Birthday, Subscription, General)',
+        'Automatic reminders',
+        'Deadline tracking',
         'Member reliability scores'
       ],
-      keywords: 'groupfund vs splitwise, splitwise alternative, birthday contribution app'
+      keywords: 'groupfund vs splitwise, splitwise alternative, group contribution app'
     },
     {
       slug: 'venmo',
       title: 'GroupFund vs Venmo',
-      description: 'Compare GroupFund with Venmo for birthday contributions. See why GroupFund is purpose-built for birthday celebrations with automatic reminders and birthday calendar.',
+      description: 'Compare GroupFund with Venmo for group contributions. See why GroupFund is purpose-built for organizing group contributions with automatic reminders and deadline tracking.',
       icon: '💸',
       keyFeatures: [
-        'Birthday-specific features',
-        'Automatic birthday reminders',
-        'Birthday calendar',
+        'Multiple group types (Birthday, Subscription, General)',
+        'Automatic reminders',
+        'Deadline tracking',
         'Group contribution tracking'
       ],
-      keywords: 'groupfund vs venmo, venmo alternative, birthday contribution app comparison'
+      keywords: 'groupfund vs venmo, venmo alternative, group contribution app comparison'
     }
   ]
 
@@ -89,8 +89,8 @@ export default function ComparisonsPage() {
     <>
       <SEO
         title="GroupFund Comparisons - vs WhatsApp Groups, Excel, Google Sheets, Venmo, Splitwise & More"
-        description="Compare GroupFund with WhatsApp groups, Excel spreadsheets, Google Sheets, Venmo, Splitwise, and manual methods. See why GroupFund is the best choice for organizing birthday contributions."
-        keywords="groupfund comparisons, groupfund vs whatsapp, groupfund vs excel, groupfund vs google sheets, groupfund vs venmo, groupfund vs splitwise, birthday contribution app comparison, best birthday tracker"
+        description="Compare GroupFund with WhatsApp groups, Excel spreadsheets, Google Sheets, Venmo, Splitwise, and manual methods. See why GroupFund is the best choice for organizing group contributions."
+        keywords="groupfund comparisons, groupfund vs whatsapp, groupfund vs excel, groupfund vs google sheets, groupfund vs venmo, groupfund vs splitwise, group contribution app comparison, best group contribution tracker"
         canonical="https://groupfund.app/comparisons"
       />
 
@@ -98,7 +98,7 @@ export default function ComparisonsPage() {
         <div className="container">
           <h1 className="page-title">Compare GroupFund</h1>
           <p className="page-subtitle">
-            See how GroupFund compares to other methods for organizing birthday contributions. Find out why thousands of groups choose GroupFund.
+            See how GroupFund compares to other methods for organizing group contributions. Find out why thousands of groups choose GroupFund.
           </p>
         </div>
       </section>
@@ -108,7 +108,7 @@ export default function ComparisonsPage() {
           <div className="comparisons-intro">
             <h2>Why Compare?</h2>
             <p>
-              Many groups start with WhatsApp groups, Excel spreadsheets, Google Sheets, Venmo, Splitwise, or manual methods to organize birthday contributions, but these methods have significant limitations. GroupFund was built specifically to solve the problems these traditional methods create.
+              Many groups start with WhatsApp groups, Excel spreadsheets, Google Sheets, Venmo, Splitwise, or manual methods to organize group contributions, but these methods have significant limitations. GroupFund was built specifically to solve the problems these traditional methods create.
             </p>
             <p>
               Below, you'll find detailed comparisons showing exactly how GroupFund is better than the alternatives. Each comparison includes real-world scenarios and detailed feature breakdowns.
@@ -248,8 +248,8 @@ export default function ComparisonsPage() {
                 <div className="comparison-cell">✓ Yes</div>
               </div>
               <div className="comparison-row">
-                <div className="comparison-cell">Birthday Calendar</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
+                <div className="comparison-cell">Multiple Group Types</div>
+                <div className="comparison-cell highlight">✓ Yes (Birthday, Subscription, General)</div>
                 <div className="comparison-cell">✗ No</div>
                 <div className="comparison-cell">✗ No</div>
                 <div className="comparison-cell">✗ No</div>
@@ -273,7 +273,7 @@ export default function ComparisonsPage() {
           {/* CTA Section */}
           <div className="cta-box">
             <h2>Ready to Make the Switch?</h2>
-            <p>Join thousands of groups using GroupFund for better birthday contribution organization.</p>
+            <p>Join thousands of groups using GroupFund for better group contribution organization.</p>
             <div className="cta-buttons">
               <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

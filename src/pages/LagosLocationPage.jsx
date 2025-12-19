@@ -9,14 +9,14 @@ export default function LagosLocationPage() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "GroupFund",
-      "description": "Organize birthday contributions in Lagos, Nigeria with GroupFund. Perfect for Lagos families, churches, schools, and groups.",
+      "description": "Organize group contributions in Lagos, Nigeria with GroupFund. Perfect for Lagos families, churches, schools, and groups.",
       "url": "https://groupfund.app/locations/lagos",
       "logo": "https://groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Lagos" },
         { "@type": "Country", "name": "Nigeria" }
       ],
-      "serviceType": "Birthday Contribution Management",
+      "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "NGN" },
       "sameAs": ["https://groupfund.app"]
     }
@@ -36,9 +36,9 @@ export default function LagosLocationPage() {
   return (
     <>
       <SEO
-        title="GroupFund Lagos - Birthday Contributions App for Lagos, Nigeria"
-        description="Organize birthday contributions in Lagos, Nigeria with GroupFund. Perfect for Lagos families, churches, schools, and groups. Support for NGN. Free to start."
-        keywords="birthday contributions Lagos, Lagos birthday app, groupfund Lagos, birthday contributions app Lagos Nigeria, Lagos group payments, NGN birthday tracker Lagos"
+        title="GroupFund Lagos - Group Contributions App for Lagos, Nigeria"
+        description="Organize group contributions in Lagos, Nigeria with GroupFund. Perfect for Lagos families, churches, schools, and groups. Support for NGN. Free to start."
+        keywords="group contributions Lagos, Lagos contribution app, groupfund Lagos, group contributions app Lagos Nigeria, Lagos group payments, NGN contribution tracker Lagos"
         canonical="https://groupfund.app/locations/lagos"
       />
 
@@ -46,7 +46,7 @@ export default function LagosLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Lagos, Nigeria 🇳🇬</h1>
           <p className="page-subtitle">
-            Organize birthday contributions in Lagos with GroupFund. Perfect for Lagos families, churches, schools, and groups.
+            Organize group contributions in Lagos with GroupFund. Perfect for Lagos families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function LagosLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Lagos</h2>
               <p>
-                Lagos is Nigeria's largest city and a hub of activity. GroupFund helps Lagos residents organize birthday contributions effortlessly, whether for family celebrations, church groups, workplace teams, or friend circles.
+                Lagos is Nigeria's largest city and a hub of activity. GroupFund helps Lagos residents organize group contributions effortlessly - for birthdays, shared subscriptions, events, and more - whether for family celebrations, church groups, workplace teams, or friend circles.
               </p>
               <p>
                 With support for Nigerian Naira (NGN) and seamless bank transfers, GroupFund is perfect for Lagos groups of all sizes.
@@ -69,19 +69,19 @@ export default function LagosLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Lagos Families</h3>
-                  <p>Organize birthday contributions for extended Lagos families. Track contributions across different areas of Lagos.</p>
+                  <p>Organize contributions for extended Lagos families - birthdays, subscriptions, events. Track contributions across different areas of Lagos.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Lagos Churches</h3>
-                  <p>Manage birthday contributions for Lagos church members. Perfect for large Lagos congregations.</p>
+                  <p>Manage contributions for Lagos church members - birthdays, subscriptions, events. Perfect for large Lagos congregations.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Lagos Workplaces</h3>
-                  <p>Organize office birthday funds for Lagos companies. Professional and transparent system.</p>
+                  <p>Organize office funds for Lagos companies - birthdays, shared subscriptions, team events. Professional and transparent system.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Lagos Schools</h3>
-                  <p>Perfect for Lagos schools, universities, and student groups organizing birthday contributions.</p>
+                  <p>Perfect for Lagos schools, universities, and student groups organizing contributions for any purpose.</p>
                 </div>
                 <div className="feature-item">
                   <h3>💰 NGN Support</h3>
@@ -97,17 +97,17 @@ export default function LagosLocationPage() {
             <div className="location-section">
               <h2>How Lagos Groups Use GroupFund</h2>
               <ul className="scenarios-list">
-                <li><strong>Lagos Family Groups:</strong> Organize contributions for extended families across Lagos neighborhoods.</li>
-                <li><strong>Lagos Church Communities:</strong> Manage birthday contributions for large Lagos church congregations.</li>
-                <li><strong>Lagos Office Teams:</strong> Organize workplace birthday funds for Lagos companies and organizations.</li>
-                <li><strong>Lagos School Groups:</strong> Manage contributions for Lagos schools, universities, and student associations.</li>
-                <li><strong>Lagos Friend Circles:</strong> Keep friend groups organized for birthday celebrations in Lagos.</li>
+                <li><strong>Lagos Family Groups:</strong> Organize contributions for extended families across Lagos neighborhoods - birthdays, subscriptions, events.</li>
+                <li><strong>Lagos Church Communities:</strong> Manage contributions for large Lagos church congregations - birthdays, subscriptions, events.</li>
+                <li><strong>Lagos Office Teams:</strong> Organize workplace funds for Lagos companies and organizations - birthdays, shared subscriptions, team events.</li>
+                <li><strong>Lagos School Groups:</strong> Manage contributions for Lagos schools, universities, and student associations for any purpose.</li>
+                <li><strong>Lagos Friend Circles:</strong> Keep friend groups organized for birthdays, shared subscriptions, and events in Lagos.</li>
               </ul>
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Organize Birthday Contributions in Lagos?</h2>
-              <p>Join Lagos groups using GroupFund to make birthday celebrations organized and stress-free.</p>
+              <h2>Ready to Organize Group Contributions in Lagos?</h2>
+              <p>Join Lagos groups using GroupFund to make contributions organized and stress-free - for birthdays, subscriptions, events, and more.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Lagos Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

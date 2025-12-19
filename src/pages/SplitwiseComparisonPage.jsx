@@ -7,9 +7,9 @@ export default function SplitwiseComparisonPage() {
   return (
     <>
       <SEO
-        title="GroupFund vs Splitwise - Better Birthday Contribution Tracking"
-        description="Compare GroupFund with Splitwise for organizing birthday contributions. See why GroupFund is purpose-built for birthday contributions with automatic reminders and member reliability scores."
-        keywords="groupfund vs splitwise, splitwise vs groupfund, splitwise alternative for birthday contributions, birthday contribution app comparison, groupfund comparison"
+        title="GroupFund vs Splitwise - Better Group Contribution Tracking"
+        description="Compare GroupFund with Splitwise for organizing group contributions. See why GroupFund is purpose-built for group contributions with automatic reminders and member reliability scores."
+        keywords="groupfund vs splitwise, splitwise vs groupfund, splitwise alternative for group contributions, group contribution app comparison, groupfund comparison"
         canonical="https://groupfund.app/comparisons/splitwise"
       />
 
@@ -17,7 +17,7 @@ export default function SplitwiseComparisonPage() {
         <div className="container">
           <h1 className="page-title">GroupFund vs Splitwise</h1>
           <p className="page-subtitle">
-            Why GroupFund is better than Splitwise for organizing birthday contributions
+            Why GroupFund is better than Splitwise for organizing group contributions
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function SplitwiseComparisonPage() {
             <div className="comparison-intro">
               <h2>The Problem with Splitwise</h2>
               <p>
-                Splitwise is great for splitting expenses like restaurant bills or rent, but it wasn't designed for recurring birthday contributions. It lacks birthday-specific features like automatic reminders, member reliability scores, and contribution calendars. GroupFund is purpose-built specifically for birthday contributions.
+                Splitwise is great for splitting expenses like restaurant bills or rent, but it wasn't designed for recurring group contributions. It lacks group contribution features like automatic reminders, member reliability scores, and deadline tracking. GroupFund is purpose-built specifically for organizing group contributions - birthdays, subscriptions, events, and more.
               </p>
             </div>
 
@@ -38,21 +38,21 @@ export default function SplitwiseComparisonPage() {
               <div className="comparison-features">
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Birthday-Specific Features</h3>
+                    <h3>Group Contribution Features</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Built specifically for birthday contributions. Birthday calendar, automatic reminders, and contribution tracking designed for birthdays.</span>
+                        <span>Built specifically for group contributions. Multiple group types (Birthday, Subscription, General), automatic reminders, deadline tracking, and contribution tracking designed for all purposes.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
                       <div className="option-name">Splitwise</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>General expense splitting tool. No birthday calendar, no birthday-specific reminders, not designed for recurring contributions.</span>
+                        <span>General expense splitting tool. No deadline tracking, no group-specific reminders, not designed for recurring contributions.</span>
                       </div>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ export default function SplitwiseComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Automatic Birthday Reminders</h3>
+                    <h3>Automatic Reminders</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">

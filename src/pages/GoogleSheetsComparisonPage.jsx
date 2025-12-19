@@ -7,9 +7,9 @@ export default function GoogleSheetsComparisonPage() {
   return (
     <>
       <SEO
-        title="GroupFund vs Google Sheets - Better Birthday Contribution Tracking"
-        description="Compare GroupFund with Google Sheets for organizing birthday contributions. See why GroupFund is better: automation, mobile access, real-time collaboration, and no manual updates needed."
-        keywords="groupfund vs google sheets, google sheets vs groupfund, google sheets alternative for birthday tracking, groupfund comparison, better than google sheets"
+        title="GroupFund vs Google Sheets - Better Group Contribution Tracking"
+        description="Compare GroupFund with Google Sheets for organizing group contributions. See why GroupFund is better: automation, mobile access, real-time collaboration, and no manual updates needed."
+        keywords="groupfund vs google sheets, google sheets vs groupfund, google sheets alternative for group tracking, groupfund comparison, better than google sheets"
         canonical="https://groupfund.app/comparisons/google-sheets"
       />
 
@@ -17,7 +17,7 @@ export default function GoogleSheetsComparisonPage() {
         <div className="container">
           <h1 className="page-title">GroupFund vs Google Sheets</h1>
           <p className="page-subtitle">
-            Why GroupFund is better than Google Sheets for organizing birthday contributions
+            Why GroupFund is better than Google Sheets for organizing group contributions
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function GoogleSheetsComparisonPage() {
             <div className="comparison-intro">
               <h2>The Problem with Google Sheets</h2>
               <p>
-                Google Sheets is great for basic spreadsheets, but it wasn't designed for organizing group birthday contributions. You still need to manually update payment statuses, send reminders yourself, and track everything manually. GroupFund automates all of this, saving you hours of work.
+                Google Sheets is great for basic spreadsheets, but it wasn't designed for organizing group contributions. You still need to manually update payment statuses, send reminders yourself, and track everything manually. GroupFund automates all of this, saving you hours of work.
               </p>
             </div>
 
@@ -236,7 +236,7 @@ export default function GoogleSheetsComparisonPage() {
                 </div>
                 <div className="reason-card">
                   <h3>✅ Purpose-Built</h3>
-                  <p>Designed specifically for birthday contributions. Google Sheets is a general-purpose tool repurposed for contributions.</p>
+                  <p>Designed specifically for group contributions. Google Sheets is a general-purpose tool repurposed for contributions.</p>
                 </div>
                 <div className="reason-card">
                   <h3>🌍 Multi-Currency</h3>
@@ -269,7 +269,7 @@ export default function GoogleSheetsComparisonPage() {
 
             <div className="cta-box">
               <h2>Ready to Switch from Google Sheets?</h2>
-              <p>Join thousands of groups using GroupFund for better birthday contribution organization. Free to start, no credit card required.</p>
+              <p>Join thousands of groups using GroupFund for better group contribution organization. Free to start, no credit card required.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

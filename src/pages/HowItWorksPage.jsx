@@ -8,7 +8,7 @@ export default function HowItWorksPage() {
     {
       number: '1',
       title: 'Sign Up & Verify',
-      description: 'Create your account with email or phone number. Verify your account with OTP (One-Time Password) sent to your email. Set up your profile. For birthday groups, add your birthday to create or join.',
+      description: 'Create your account with email. Verify your account with OTP (One-Time Password) sent to your email.',
       icon: '🔐'
     },
     {

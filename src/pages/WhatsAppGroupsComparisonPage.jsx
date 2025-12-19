@@ -7,9 +7,9 @@ export default function WhatsAppGroupsComparisonPage() {
   return (
     <>
       <SEO
-        title="GroupFund vs WhatsApp Groups - Better Birthday Contribution Tracking"
-        description="Compare GroupFund with WhatsApp groups for organizing birthday contributions. See why GroupFund is better: automatic reminders, payment tracking, member reliability scores, and more."
-        keywords="groupfund vs whatsapp, whatsapp groups vs groupfund, better than whatsapp for group payments, whatsapp birthday contributions, groupfund comparison"
+        title="GroupFund vs WhatsApp Groups - Better Group Contribution Tracking"
+        description="Compare GroupFund with WhatsApp groups for organizing group contributions. See why GroupFund is better: automatic reminders, payment tracking, member reliability scores, and more."
+        keywords="groupfund vs whatsapp, whatsapp groups vs groupfund, better than whatsapp for group payments, whatsapp group contributions, groupfund comparison"
         canonical="https://groupfund.app/comparisons/whatsapp-groups"
       />
 
@@ -17,7 +17,7 @@ export default function WhatsAppGroupsComparisonPage() {
         <div className="container">
           <h1 className="page-title">GroupFund vs WhatsApp Groups</h1>
           <p className="page-subtitle">
-            Why GroupFund is better than WhatsApp groups for organizing birthday contributions
+            Why GroupFund is better than WhatsApp groups for organizing group contributions
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function WhatsAppGroupsComparisonPage() {
             <div className="comparison-intro">
               <h2>The Problem with WhatsApp Groups</h2>
               <p>
-                WhatsApp groups are great for chatting, but they're terrible for organizing birthday contributions. Messages get lost, payment statuses are unclear, and someone always forgets to contribute. GroupFund solves all these problems with a dedicated app designed specifically for group contributions.
+                WhatsApp groups are great for chatting, but they're terrible for organizing group contributions. Messages get lost, payment statuses are unclear, and someone always forgets to contribute. GroupFund solves all these problems with a dedicated app designed specifically for group contributions - birthdays, subscriptions, events, and more.
               </p>
             </div>
 
@@ -45,7 +45,7 @@ export default function WhatsAppGroupsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders 7 days before, 1 day before, and on deadline day. No manual follow-ups needed.</span>
+                        <span>Automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). No manual follow-ups needed.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -170,21 +170,21 @@ export default function WhatsAppGroupsComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Birthday Calendar</h3>
+                    <h3>Multiple Group Types</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Integrated calendar view. See all upcoming birthdays, plan ahead, never miss a celebration.</span>
+                        <span>Create Birthday Groups, Subscription Groups (for shared subscriptions), or General Groups (for events, any purpose). Each type has tailored features.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
                       <div className="option-name">WhatsApp Groups</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>No calendar. Birthdays mentioned in chat, easy to miss or forget.</span>
+                        <span>No group type distinction. Everything is just a chat group.</span>
                       </div>
                     </div>
                   </div>
@@ -192,14 +192,14 @@ export default function WhatsAppGroupsComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Birthday Wishlist</h3>
+                    <h3>Birthday Calendar & Wishlist (Birthday Groups)</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Create and share birthday wishlists with group members. Add items with pictures and prices. Group members can claim items they want to gift, and you can track what's been claimed and what's still available.</span>
+                        <span>For Birthday Groups: Integrated calendar view and wishlist feature. See all upcoming birthdays, plan ahead, create and share wishlists with items, pictures, and prices.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -221,7 +221,7 @@ export default function WhatsAppGroupsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Two-step confirmation: members mark as paid, celebrants confirm receipt. Ensures accuracy.</span>
+                        <span>Two-step confirmation: members mark as paid, admins/celebrants confirm receipt. Ensures accuracy for all group types.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -358,7 +358,7 @@ export default function WhatsAppGroupsComparisonPage() {
             {/* CTA Section */}
             <div className="cta-box">
               <h2>Ready to Switch from WhatsApp Groups?</h2>
-              <p>Join thousands of groups using GroupFund for better birthday contribution organization.</p>
+              <p>Join thousands of groups using GroupFund for better group contribution organization.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

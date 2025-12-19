@@ -7,9 +7,9 @@ export default function ExcelSpreadsheetsComparisonPage() {
   return (
     <>
       <SEO
-        title="GroupFund vs Excel Spreadsheets - Better Birthday Contribution Tracking"
-        description="Compare GroupFund with Excel spreadsheets for organizing birthday contributions. See why GroupFund is better: automatic reminders, real-time tracking, mobile app, and more."
-        keywords="groupfund vs excel, excel vs groupfund, excel alternative for birthday tracking, excel spreadsheet birthday contributions, groupfund comparison"
+        title="GroupFund vs Excel Spreadsheets - Better Group Contribution Tracking"
+        description="Compare GroupFund with Excel spreadsheets for organizing group contributions. See why GroupFund is better: automatic reminders, real-time tracking, mobile app, and more."
+        keywords="groupfund vs excel, excel vs groupfund, excel alternative for group tracking, excel spreadsheet group contributions, groupfund comparison"
         canonical="https://groupfund.app/comparisons/excel-spreadsheets"
       />
 
@@ -17,7 +17,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
         <div className="container">
           <h1 className="page-title">GroupFund vs Excel Spreadsheets</h1>
           <p className="page-subtitle">
-            Why GroupFund is better than Excel spreadsheets for organizing birthday contributions
+            Why GroupFund is better than Excel spreadsheets for organizing group contributions
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
             <div className="comparison-intro">
               <h2>The Problem with Excel Spreadsheets</h2>
               <p>
-                Excel spreadsheets might seem like a good solution for tracking birthday contributions, but they're manual, time-consuming, and error-prone. Someone has to constantly update the spreadsheet, send reminders, and track payments. GroupFund automates all of this, making it effortless.
+                Excel spreadsheets might seem like a good solution for tracking group contributions, but they're manual, time-consuming, and error-prone. Someone has to constantly update the spreadsheet, send reminders, and track payments. GroupFund automates all of this, making it effortless.
               </p>
             </div>
 

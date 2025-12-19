@@ -7,9 +7,9 @@ export default function ManualMethodsComparisonPage() {
   return (
     <>
       <SEO
-        title="GroupFund vs Manual Methods - Better Birthday Contribution Tracking"
-        description="Compare GroupFund with manual methods (cash, paper tracking, memory) for organizing birthday contributions. See why automation saves time and prevents errors."
-        keywords="groupfund vs manual tracking, better than cash contributions, manual birthday tracking vs groupfund, automated contribution tracking, groupfund comparison"
+        title="GroupFund vs Manual Methods - Better Group Contribution Tracking"
+        description="Compare GroupFund with manual methods (cash, paper tracking, memory) for organizing group contributions. See why automation saves time and prevents errors."
+        keywords="groupfund vs manual tracking, better than cash contributions, manual group tracking vs groupfund, automated contribution tracking, groupfund comparison"
         canonical="https://groupfund.app/comparisons/manual-methods"
       />
 
@@ -28,7 +28,7 @@ export default function ManualMethodsComparisonPage() {
             <div className="comparison-intro">
               <h2>The Problem with Manual Methods</h2>
               <p>
-                Many groups still use manual methods like cash collection, paper lists, or relying on memory to track birthday contributions. These methods are error-prone, time-consuming, and create stress. GroupFund automates everything, making contribution management effortless.
+                Many groups still use manual methods like cash collection, paper lists, or relying on memory to track group contributions. These methods are error-prone, time-consuming, and create stress. GroupFund automates everything, making contribution management effortless.
               </p>
             </div>
 
@@ -269,7 +269,7 @@ export default function ManualMethodsComparisonPage() {
 
             <div className="cta-box">
               <h2>Ready to Move Beyond Manual Methods?</h2>
-              <p>Join thousands of groups using GroupFund for automated, stress-free birthday contribution management. Free to start.</p>
+              <p>Join thousands of groups using GroupFund for automated, stress-free group contribution management. Free to start.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
