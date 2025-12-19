@@ -32,7 +32,7 @@ export default function HowItWorksPage() {
     {
       number: '5',
       title: 'Track Birthdays & Contributions',
-      description: 'View upcoming and past birthdays in the calendar. Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track overdue contributions automatically.',
+      description: 'View upcoming and past birthdays in the calendar. Create and share birthday wishlists with items you want. Group members can claim items from your wishlist. Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track overdue contributions automatically.',
       icon: '🎂'
     },
     {

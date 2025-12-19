@@ -104,6 +104,28 @@ export default function VenmoComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
+                    <h3>Birthday Wishlist</h3>
+                  </div>
+                  <div className="feature-comparison">
+                    <div className="comparison-option">
+                      <div className="option-name">GroupFund</div>
+                      <div className="option-details">
+                        <span className="check-mark">✓</span>
+                        <span>Create and share birthday wishlists with group members. Add items with pictures and prices. Group members can claim items they want to gift, and you can track what's been claimed and what's still available.</span>
+                      </div>
+                    </div>
+                    <div className="comparison-option">
+                      <div className="option-name">Venmo</div>
+                      <div className="option-details">
+                        <span className="cross-mark">✗</span>
+                        <span>No wishlist feature. No way to share gift preferences or coordinate gift purchases with group members.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="comparison-feature-item">
+                  <div className="feature-header">
                     <h3>Group Contribution Tracking</h3>
                   </div>
                   <div className="feature-comparison">

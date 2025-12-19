@@ -109,6 +109,11 @@ export default function FeaturesPage() {
       title: "Easy Group Management",
       description: "Approve or reject member requests, update group settings (name, amount, max members), remove members, and let members add their own birthdays. Simple and intuitive.",
       icon: "⚙️"
+    },
+    {
+      title: "Birthday Wishlist",
+      description: "Create and share your birthday wishlist with group members. Add items with pictures, prices, and quantities. Group members can claim items they want to gift, and you can track what's been claimed and what's still available. Mark items as done when received.",
+      icon: "🎁"
     }
   ]
 
