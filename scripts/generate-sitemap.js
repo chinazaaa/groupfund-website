@@ -24,7 +24,19 @@ const blogPosts = [
   'best-ways-collect-money-events-nigeria',
   'groupfund-vs-traditional-methods-comparison',
   'tips-fair-birthday-contribution-management',
-  'churches-streamline-member-birthday-contributions'
+  'churches-streamline-member-birthday-contributions',
+  'how-birthday-wishlists-make-gift-giving-easier',
+  'how-to-manage-shared-subscriptions-subscription-groups',
+  'organizing-group-contributions-weddings-events',
+  'subscription-groups-vs-manual-payment-tracking',
+  'setting-up-first-subscription-group-step-by-step',
+  'best-practices-general-groups-events-weddings',
+  'how-to-collect-money-group-events-lagos-nigeria',
+  'managing-multiple-subscription-groups-tips-strategies',
+  'groupfund-vs-splitwise-group-payments-comparison',
+  'how-to-organize-baby-shower-contributions-general-groups',
+  'subscription-group-admin-guide-managing-shared-services',
+  'complete-guide-group-contribution-types-birthday-subscription-general'
 ]
 
 const pages = [
@@ -84,6 +96,48 @@ const pages = [
   },
   {
     url: '/use-cases/community-organizations',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/shared-subscriptions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/weddings',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/baby-showers',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/graduations',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/sports-teams',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/hobby-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/alumni-associations',
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate
@@ -438,6 +492,66 @@ const pages = [
   },
   {
     url: '/resources/optimizing-payment-confirmation-workflows',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/using-birthday-wishlists',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/setting-up-subscription-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/creating-general-groups-for-events',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/subscription-group-best-practices',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/managing-event-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/choosing-between-group-types',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/subscription-deadline-management',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/admin-account-details-guide',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/organizing-international-group-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/subscription-group-payment-schedules',
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate

@@ -210,7 +210,7 @@ export default function ResourcesPage() {
 
       <section className="resources-page">
         <div className="container">
-          <div className="resources-intro">
+          {/* <div className="resources-intro">
             <h2>Educational Resources</h2>
             <p>
               Whether you're organizing group contributions for the first time or looking to improve your current process, our guides cover everything you need to know. From basic setup to advanced strategies, these resources will help you organize contributions effectively - for Birthday Groups, Subscription Groups, and General Groups.
@@ -241,7 +241,7 @@ export default function ResourcesPage() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Category Filter */}
           <div className="category-filters">

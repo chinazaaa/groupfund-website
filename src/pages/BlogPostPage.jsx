@@ -1655,6 +1655,499 @@ const blogPostsData = {
       <p>Birthday wishlists transform group gift giving from a guessing game into a coordinated, thoughtful process. By using wishlists, groups can ensure celebrants receive gifts they actually want while avoiding duplicates and coordination chaos. Whether you're organizing family contributions or managing friend group gifts, wishlists make the entire process smoother and more enjoyable for everyone involved.</p>
       <p>With GroupFund's integrated wishlist feature, creating and managing wishlists is seamless. Group members can easily see what's available, claim items they want to purchase, and track what's been claimed—all in one place. This eliminates the need for endless group chat messages and ensures everyone gets gifts they'll actually use and appreciate.</p>
     `
+  },
+  "how-to-manage-shared-subscriptions-subscription-groups": {
+    title: "How to Manage Shared Subscriptions with Subscription Groups",
+    excerpt: "Learn how Subscription Groups make managing shared Netflix, Spotify, and other subscriptions effortless. Set monthly or annual frequencies, track deadlines, and never miss a payment.",
+    date: "December 19, 2025",
+    readTime: "6 min read",
+    slug: "how-to-manage-shared-subscriptions-subscription-groups",
+    keywords: "shared subscriptions, subscription groups, Netflix subscription sharing, Spotify group subscription, subscription management",
+    content: `
+      <p>Managing shared subscriptions like Netflix, Spotify, Disney+, and other streaming services can be a hassle. Who's paying this month? When is the payment due? Did everyone contribute? Subscription Groups in GroupFund solve these problems by providing a dedicated system for managing shared subscription payments.</p>
+
+      <h2>What Are Subscription Groups?</h2>
+      <p>Subscription Groups are a specialized group type in GroupFund designed specifically for managing shared subscriptions. Unlike Birthday Groups or General Groups, Subscription Groups include features tailored for recurring payments:</p>
+      <ul>
+        <li><strong>Payment Frequency:</strong> Set monthly or annual payment schedules</li>
+        <li><strong>Platform Name:</strong> Specify which service you're sharing (Netflix, Spotify, etc.)</li>
+        <li><strong>Deadline Tracking:</strong> Automatic reminders based on subscription deadlines</li>
+        <li><strong>Admin Account Details:</strong> Securely share payment account information</li>
+        <li><strong>No Birthday Required:</strong> Perfect for groups that don't need birthday tracking</li>
+      </ul>
+
+      <h2>Setting Up Your First Subscription Group</h2>
+      <p>Creating a Subscription Group is straightforward:</p>
+      <ol>
+        <li><strong>Choose Subscription Group Type:</strong> Select "Subscription Group" when creating a new group</li>
+        <li><strong>Enter Platform Details:</strong> Add the platform name (e.g., "Netflix Premium", "Spotify Family")</li>
+        <li><strong>Set Payment Frequency:</strong> Choose monthly or annual</li>
+        <li><strong>Configure Deadline:</strong> Set the day and month when payments are due</li>
+        <li><strong>Set Contribution Amount:</strong> Determine how much each member should contribute</li>
+        <li><strong>Add Admin Account Details:</strong> Share payment account information securely</li>
+      </ol>
+
+      <h2>Managing Subscription Payments</h2>
+      <p>Once your Subscription Group is set up, managing payments becomes simple:</p>
+      <ul>
+        <li><strong>Automatic Reminders:</strong> GroupFund sends reminders before each payment deadline</li>
+        <li><strong>Payment Tracking:</strong> See who has paid and who hasn't in real-time</li>
+        <li><strong>Admin Confirmation:</strong> The admin (group creator) confirms when payments are received</li>
+        <li><strong>Payment History:</strong> Track all subscription payments over time</li>
+      </ul>
+
+      <h2>Best Practices for Subscription Groups</h2>
+      <ul>
+        <li><strong>Set Clear Deadlines:</strong> Choose deadlines that give everyone time to pay</li>
+        <li><strong>Communicate Early:</strong> Remind members about upcoming payments</li>
+        <li><strong>Keep Account Details Updated:</strong> Ensure admin account information is current</li>
+        <li><strong>Track Consistently:</strong> Confirm payments promptly to maintain accuracy</li>
+        <li><strong>Handle Late Payments:</strong> Have a plan for members who pay late</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Subscription Groups make managing shared subscriptions effortless. By automating reminders, tracking payments, and providing a clear system for contributions, you can enjoy your shared services without the stress of payment management.</p>
+    `
+  },
+  "organizing-group-contributions-weddings-events": {
+    title: "Organizing Group Contributions for Weddings and Events",
+    excerpt: "Planning a wedding or event? Discover how General Groups help you organize contributions, track payments, and manage deadlines for any occasion - from baby showers to graduations.",
+    date: "December 19, 2025",
+    readTime: "7 min read",
+    slug: "organizing-group-contributions-weddings-events",
+    keywords: "wedding contributions, event contributions, baby shower contributions, graduation contributions, group event planning",
+    content: `
+      <p>Planning a wedding, baby shower, graduation, or any special event often involves organizing contributions from friends and family. General Groups in GroupFund provide the perfect solution for managing these contributions without the complexity of birthday tracking or subscription schedules.</p>
+
+      <h2>What Are General Groups?</h2>
+      <p>General Groups are flexible group types designed for any purpose. They're perfect for:</p>
+      <ul>
+        <li><strong>Weddings:</strong> Organize wedding contributions and gifts</li>
+        <li><strong>Baby Showers:</strong> Coordinate group gifts for expecting parents</li>
+        <li><strong>Graduations:</strong> Collect contributions for graduation celebrations</li>
+        <li><strong>Anniversaries:</strong> Organize group gifts for milestone anniversaries</li>
+        <li><strong>Any Event:</strong> Use for any occasion that requires group contributions</li>
+      </ul>
+
+      <h2>Setting Up a General Group for Your Event</h2>
+      <p>Creating a General Group is simple:</p>
+      <ol>
+        <li><strong>Choose General Group Type:</strong> Select "General Group" when creating a new group</li>
+        <li><strong>Set Event Details:</strong> Add a descriptive group name (e.g., "Sarah & John's Wedding Fund")</li>
+        <li><strong>Optional Deadline:</strong> Set a deadline if your event has a specific date</li>
+        <li><strong>Set Contribution Amount:</strong> Determine how much each person should contribute</li>
+        <li><strong>Add Admin Account Details:</strong> Share payment information for receiving contributions</li>
+      </ol>
+
+      <h2>Managing Event Contributions</h2>
+      <p>Once your General Group is set up:</p>
+      <ul>
+        <li><strong>Track Payments:</strong> See who has contributed and who hasn't</li>
+        <li><strong>Set Deadlines:</strong> Optional deadline tracking helps ensure timely contributions</li>
+        <li><strong>Admin Confirmation:</strong> The admin confirms when payments are received</li>
+        <li><strong>Transparency:</strong> All members can see contribution status</li>
+      </ul>
+
+      <h2>Best Practices for Event Contributions</h2>
+      <ul>
+        <li><strong>Set Realistic Deadlines:</strong> Give people enough time to contribute</li>
+        <li><strong>Communicate Clearly:</strong> Explain what contributions are for</li>
+        <li><strong>Be Transparent:</strong> Let everyone see who has contributed</li>
+        <li><strong>Thank Contributors:</strong> Acknowledge those who contribute</li>
+        <li><strong>Handle Gracefully:</strong> Be understanding of those who can't contribute</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>General Groups make organizing event contributions simple and stress-free. Whether you're planning a wedding, baby shower, or any special occasion, GroupFund helps you manage contributions transparently and efficiently.</p>
+    `
+  },
+  "subscription-groups-vs-manual-payment-tracking": {
+    title: "Subscription Groups vs. Manual Payment Tracking: Which is Better?",
+    excerpt: "Compare Subscription Groups with manual tracking methods. Learn why automated subscription management saves time, prevents missed payments, and keeps groups organized.",
+    date: "December 19, 2025",
+    readTime: "6 min read",
+    slug: "subscription-groups-vs-manual-payment-tracking",
+    keywords: "subscription management, subscription tracking, automated subscription payments, subscription group benefits",
+    content: `
+      <p>Managing shared subscriptions manually can be time-consuming and error-prone. Subscription Groups offer a better alternative. Let's compare the two approaches.</p>
+
+      <h2>Manual Payment Tracking</h2>
+      <p>Traditional methods of tracking subscription payments include:</p>
+      <ul>
+        <li><strong>Spreadsheets:</strong> Excel or Google Sheets with manual updates</li>
+        <li><strong>WhatsApp Groups:</strong> Messages and reminders in chat</li>
+        <li><strong>Memory:</strong> Relying on people to remember deadlines</li>
+        <li><strong>Paper Records:</strong> Physical notes and receipts</li>
+      </ul>
+      <p><strong>Problems with manual tracking:</strong></p>
+      <ul>
+        <li>Easy to forget deadlines</li>
+        <li>No automatic reminders</li>
+        <li>Difficult to see who has paid</li>
+        <li>Time-consuming to update</li>
+        <li>Prone to errors</li>
+      </ul>
+
+      <h2>Subscription Groups</h2>
+      <p>Subscription Groups provide:</p>
+      <ul>
+        <li><strong>Automatic Reminders:</strong> System sends reminders before deadlines</li>
+        <li><strong>Real-Time Tracking:</strong> See payment status instantly</li>
+        <li><strong>Deadline Management:</strong> Automatic deadline tracking</li>
+        <li><strong>Payment History:</strong> Complete record of all payments</li>
+        <li><strong>Transparency:</strong> Everyone sees the same information</li>
+      </ul>
+
+      <h2>Key Advantages of Subscription Groups</h2>
+      <ul>
+        <li><strong>Time Savings:</strong> No manual updates needed</li>
+        <li><strong>Accuracy:</strong> Reduced errors and confusion</li>
+        <li><strong>Convenience:</strong> Access from anywhere, anytime</li>
+        <li><strong>Reliability:</strong> Never miss a payment deadline</li>
+        <li><strong>Transparency:</strong> Clear visibility for all members</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Subscription Groups offer significant advantages over manual tracking. They save time, reduce errors, and ensure no payments are missed. For any group sharing subscriptions, Subscription Groups are the better choice.</p>
+    `
+  },
+  "setting-up-first-subscription-group-step-by-step": {
+    title: "Setting Up Your First Subscription Group: Step-by-Step Guide",
+    excerpt: "New to Subscription Groups? Follow this complete guide to set up your first shared subscription group, configure payment schedules, and manage members effectively.",
+    date: "December 19, 2025",
+    readTime: "5 min read",
+    slug: "setting-up-first-subscription-group-step-by-step",
+    keywords: "subscription group setup, shared subscription guide, how to create subscription group",
+    content: `
+      <p>Setting up your first Subscription Group is easy. Follow these steps to get started.</p>
+
+      <h2>Step 1: Create a New Group</h2>
+      <p>Start by creating a new group in GroupFund and select "Subscription Group" as the type.</p>
+
+      <h2>Step 2: Enter Platform Information</h2>
+      <p>Add details about the subscription:</p>
+      <ul>
+        <li>Platform name (e.g., "Netflix Premium", "Spotify Family")</li>
+        <li>Payment frequency (monthly or annual)</li>
+        <li>Deadline day and month</li>
+      </ul>
+
+      <h2>Step 3: Set Contribution Amount</h2>
+      <p>Determine how much each member should contribute. Consider:</p>
+      <ul>
+        <li>Total subscription cost</li>
+        <li>Number of members</li>
+        <li>Fair distribution</li>
+      </ul>
+
+      <h2>Step 4: Add Admin Account Details</h2>
+      <p>Share payment account information so members know where to send payments.</p>
+
+      <h2>Step 5: Invite Members</h2>
+      <p>Share your group invite code with people you want to join.</p>
+
+      <h2>Conclusion</h2>
+      <p>That's it! Your Subscription Group is ready. GroupFund will automatically send reminders and track payments for you.</p>
+    `
+  },
+  "best-practices-general-groups-events-weddings": {
+    title: "Best Practices for General Groups: Events, Weddings, and More",
+    excerpt: "Master the art of organizing General Groups for any purpose. Learn best practices for setting deadlines, managing contributions, and ensuring successful group events.",
+    date: "December 19, 2025",
+    readTime: "6 min read",
+    slug: "best-practices-general-groups-events-weddings",
+    keywords: "general groups, event planning, wedding contributions, group event management",
+    content: `
+      <p>General Groups are versatile tools for organizing contributions for any event. Here are best practices to ensure success.</p>
+
+      <h2>Setting Up Your General Group</h2>
+      <ul>
+        <li><strong>Clear Group Name:</strong> Use descriptive names that explain the purpose</li>
+        <li><strong>Set Realistic Deadlines:</strong> Give people enough time to contribute</li>
+        <li><strong>Fair Contribution Amounts:</strong> Consider everyone's financial situation</li>
+        <li><strong>Clear Communication:</strong> Explain what contributions are for</li>
+      </ul>
+
+      <h2>Managing Contributions</h2>
+      <ul>
+        <li><strong>Track Regularly:</strong> Monitor payment status frequently</li>
+        <li><strong>Send Reminders:</strong> Use automatic reminders before deadlines</li>
+        <li><strong>Be Transparent:</strong> Let everyone see contribution status</li>
+        <li><strong>Confirm Promptly:</strong> Confirm payments when received</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Following these best practices will help you organize successful event contributions using General Groups.</p>
+    `
+  },
+  "how-to-collect-money-group-events-lagos-nigeria": {
+    title: "How to Collect Money for Group Events in Lagos, Nigeria",
+    excerpt: "Discover the most effective methods for collecting money for group events in Lagos. Learn about bank transfers, mobile money, and how GroupFund simplifies the process.",
+    date: "December 19, 2025",
+    readTime: "7 min read",
+    slug: "how-to-collect-money-group-events-lagos-nigeria",
+    keywords: "collect money Lagos, group payments Lagos, event contributions Lagos Nigeria, Lagos group fund",
+    content: `
+      <p>Collecting money for group events in Lagos, Nigeria requires understanding local payment methods and preferences. Here's how to do it effectively.</p>
+
+      <h2>Popular Payment Methods in Lagos</h2>
+      <ul>
+        <li><strong>Bank Transfers:</strong> Direct transfers to bank accounts</li>
+        <li><strong>Mobile Money:</strong> USSD codes and mobile banking</li>
+        <li><strong>Cash:</strong> Physical cash payments</li>
+        <li><strong>Online Platforms:</strong> Digital payment solutions</li>
+      </ul>
+
+      <h2>Using GroupFund in Lagos</h2>
+      <p>GroupFund simplifies the process by:</p>
+      <ul>
+        <li>Tracking all payment methods</li>
+        <li>Sending automatic reminders</li>
+        <li>Providing transparent tracking</li>
+        <li>Supporting NGN currency</li>
+      </ul>
+
+      <h2>Best Practices</h2>
+      <ul>
+        <li>Accept multiple payment methods</li>
+        <li>Set clear deadlines</li>
+        <li>Communicate payment details clearly</li>
+        <li>Track payments transparently</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>GroupFund makes collecting money for events in Lagos simple and efficient, regardless of the payment method your group prefers.</p>
+    `
+  },
+  "managing-multiple-subscription-groups-tips-strategies": {
+    title: "Managing Multiple Subscription Groups: Tips and Strategies",
+    excerpt: "Juggling multiple shared subscriptions? Learn how to efficiently manage Netflix, Spotify, and other subscription groups without confusion or missed payments.",
+    date: "December 19, 2025",
+    readTime: "6 min read",
+    slug: "managing-multiple-subscription-groups-tips-strategies",
+    keywords: "multiple subscriptions, subscription group management, shared subscription tips",
+    content: `
+      <p>Many people share multiple subscriptions - Netflix, Spotify, Disney+, and more. Managing multiple Subscription Groups requires organization and strategy.</p>
+
+      <h2>Organizing Multiple Groups</h2>
+      <ul>
+        <li><strong>Clear Naming:</strong> Use descriptive names for each subscription</li>
+        <li><strong>Track Deadlines:</strong> Keep track of different payment schedules</li>
+        <li><strong>Separate Groups:</strong> Create separate groups for each subscription</li>
+        <li><strong>Consistent Amounts:</strong> Set similar contribution amounts when possible</li>
+      </ul>
+
+      <h2>Tips for Success</h2>
+      <ul>
+        <li>Use automatic reminders</li>
+        <li>Track all payments in one place</li>
+        <li>Maintain transparency across all groups</li>
+        <li>Communicate clearly with members</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>With proper organization, managing multiple Subscription Groups becomes straightforward. GroupFund helps you keep everything organized and on track.</p>
+    `
+  },
+  "groupfund-vs-splitwise-group-payments-comparison": {
+    title: "GroupFund vs. Splitwise: Which is Better for Group Payments?",
+    excerpt: "Compare GroupFund with Splitwise for group payment tracking. See which platform works better for birthdays, subscriptions, events, and different group types.",
+    date: "December 19, 2025",
+    readTime: "8 min read",
+    slug: "groupfund-vs-splitwise-group-payments-comparison",
+    keywords: "GroupFund vs Splitwise, group payment comparison, Splitwise alternative, group contribution apps",
+    content: `
+      <p>Both GroupFund and Splitwise help with group payments, but they serve different purposes. Let's compare them.</p>
+
+      <h2>GroupFund</h2>
+      <p>Designed specifically for organized group contributions:</p>
+      <ul>
+        <li><strong>Multiple Group Types:</strong> Birthday, Subscription, and General Groups</li>
+        <li><strong>Fixed Amounts:</strong> Set standard contribution amounts</li>
+        <li><strong>Automatic Reminders:</strong> Built-in reminder system</li>
+        <li><strong>Member Reliability:</strong> Track member payment history</li>
+        <li><strong>Group Health:</strong> Monitor group compliance</li>
+      </ul>
+
+      <h2>Splitwise</h2>
+      <p>Designed for splitting expenses:</p>
+      <ul>
+        <li><strong>Expense Splitting:</strong> Divide costs among friends</li>
+        <li><strong>Flexible Amounts:</strong> Different amounts for different people</li>
+        <li><strong>IOU Tracking:</strong> Track who owes what</li>
+        <li><strong>Simplified Debts:</strong> Minimize transactions</li>
+      </ul>
+
+      <h2>Which Should You Use?</h2>
+      <p><strong>Use GroupFund for:</strong></p>
+      <ul>
+        <li>Organized group contributions (birthdays, subscriptions, events)</li>
+        <li>Fixed contribution amounts</li>
+        <li>Long-term group management</li>
+        <li>Tracking member reliability</li>
+      </ul>
+      <p><strong>Use Splitwise for:</strong></p>
+      <ul>
+        <li>One-time expense splitting</li>
+        <li>Variable amounts</li>
+        <li>Quick IOU tracking</li>
+        <li>Simplifying debts</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>GroupFund is better for organized, recurring group contributions, while Splitwise excels at splitting one-time expenses. Choose based on your needs.</p>
+    `
+  },
+  "how-to-organize-baby-shower-contributions-general-groups": {
+    title: "How to Organize Baby Shower Contributions with General Groups",
+    excerpt: "Planning a baby shower? Learn how General Groups help you organize contributions, track who's paid, and ensure the celebration is stress-free for everyone involved.",
+    date: "December 19, 2025",
+    readTime: "5 min read",
+    slug: "how-to-organize-baby-shower-contributions-general-groups",
+    keywords: "baby shower contributions, baby shower planning, group gift organization, event contributions",
+    content: `
+      <p>Planning a baby shower involves coordinating contributions from friends and family. General Groups make this process simple and stress-free.</p>
+
+      <h2>Setting Up a Baby Shower General Group</h2>
+      <ol>
+        <li>Create a General Group with a clear name (e.g., "Sarah's Baby Shower Fund")</li>
+        <li>Set a deadline for contributions</li>
+        <li>Determine contribution amount</li>
+        <li>Add admin account details</li>
+        <li>Invite friends and family</li>
+      </ol>
+
+      <h2>Managing Contributions</h2>
+      <ul>
+        <li>Track who has contributed</li>
+        <li>Send reminders before the deadline</li>
+        <li>Confirm payments when received</li>
+        <li>Maintain transparency</li>
+      </ul>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>No stress about tracking payments</li>
+        <li>Clear visibility for everyone</li>
+        <li>Automatic reminders</li>
+        <li>Easy to manage</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>General Groups make organizing baby shower contributions effortless, allowing you to focus on celebrating the expecting parents.</p>
+    `
+  },
+  "subscription-group-admin-guide-managing-shared-services": {
+    title: "Subscription Group Admin Guide: Managing Shared Services",
+    excerpt: "Everything subscription group admins need to know. Learn how to set up payment schedules, manage members, track deadlines, and handle account details effectively.",
+    date: "December 19, 2025",
+    readTime: "7 min read",
+    slug: "subscription-group-admin-guide-managing-shared-services",
+    keywords: "subscription admin, shared service management, subscription group admin, managing subscriptions",
+    content: `
+      <p>As a Subscription Group admin, you're responsible for managing the shared subscription. Here's everything you need to know.</p>
+
+      <h2>Admin Responsibilities</h2>
+      <ul>
+        <li><strong>Set Up the Group:</strong> Configure payment schedules and deadlines</li>
+        <li><strong>Manage Members:</strong> Approve or reject member requests</li>
+        <li><strong>Track Payments:</strong> Confirm when payments are received</li>
+        <li><strong>Share Account Details:</strong> Provide payment information securely</li>
+        <li><strong>Handle Issues:</strong> Resolve payment disputes and late payments</li>
+      </ul>
+
+      <h2>Setting Up Payment Schedules</h2>
+      <ul>
+        <li>Choose monthly or annual frequency</li>
+        <li>Set deadline day and month</li>
+        <li>Determine contribution amount</li>
+        <li>Configure automatic reminders</li>
+      </ul>
+
+      <h2>Managing Members</h2>
+      <ul>
+        <li>Review member reliability scores</li>
+        <li>Approve or reject requests</li>
+        <li>Remove problematic members if needed</li>
+        <li>Maintain group size limits</li>
+      </ul>
+
+      <h2>Best Practices</h2>
+      <ul>
+        <li>Confirm payments promptly</li>
+        <li>Communicate clearly with members</li>
+        <li>Keep account details updated</li>
+        <li>Handle late payments professionally</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Being a Subscription Group admin is straightforward with GroupFund. The platform handles reminders and tracking, so you can focus on managing your shared subscription effectively.</p>
+    `
+  },
+  "complete-guide-group-contribution-types-birthday-subscription-general": {
+    title: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General",
+    excerpt: "Understand the three group types in GroupFund: Birthday Groups, Subscription Groups, and General Groups. Learn when to use each type and how they differ.",
+    date: "December 19, 2025",
+    readTime: "8 min read",
+    slug: "complete-guide-group-contribution-types-birthday-subscription-general",
+    keywords: "group types, birthday groups, subscription groups, general groups, group contribution types",
+    content: `
+      <p>GroupFund offers three distinct group types, each designed for specific purposes. Understanding the differences helps you choose the right type for your needs.</p>
+
+      <h2>Birthday Groups</h2>
+      <p>Designed for organizing birthday contributions:</p>
+      <ul>
+        <li><strong>Requires Birthdays:</strong> Members must have birthdays set in their profiles</li>
+        <li><strong>Birthday Calendar:</strong> Automatic calendar tracking</li>
+        <li><strong>Wishlists:</strong> Profile-level wishlists for gift coordination</li>
+        <li><strong>Celebrant Confirmation:</strong> Birthday person confirms payments</li>
+        <li><strong>Best For:</strong> Family groups, friend groups organizing birthdays</li>
+      </ul>
+
+      <h2>Subscription Groups</h2>
+      <p>Designed for managing shared subscriptions:</p>
+      <ul>
+        <li><strong>No Birthday Required:</strong> Perfect for subscription-only groups</li>
+        <li><strong>Payment Frequency:</strong> Monthly or annual schedules</li>
+        <li><strong>Platform Name:</strong> Specify which service (Netflix, Spotify, etc.)</li>
+        <li><strong>Deadline Tracking:</strong> Automatic deadline reminders</li>
+        <li><strong>Admin Account Details:</strong> Share payment information</li>
+        <li><strong>Best For:</strong> Shared Netflix, Spotify, Disney+, and other subscriptions</li>
+      </ul>
+
+      <h2>General Groups</h2>
+      <p>Designed for any purpose:</p>
+      <ul>
+        <li><strong>No Birthday Required:</strong> Flexible for any use case</li>
+        <li><strong>Optional Deadline:</strong> Set deadlines when needed</li>
+        <li><strong>Admin Account Details:</strong> Share payment information</li>
+        <li><strong>Flexible Use:</strong> Weddings, baby showers, events, or any purpose</li>
+        <li><strong>Best For:</strong> One-time events, special occasions, flexible contributions</li>
+      </ul>
+
+      <h2>Choosing the Right Type</h2>
+      <p><strong>Use Birthday Groups when:</strong></p>
+      <ul>
+        <li>You want to organize birthday contributions</li>
+        <li>Members have birthdays to track</li>
+        <li>You want wishlist functionality</li>
+      </ul>
+      <p><strong>Use Subscription Groups when:</strong></p>
+      <ul>
+        <li>You're sharing a subscription service</li>
+        <li>You need recurring payment tracking</li>
+        <li>You want automatic deadline reminders</li>
+      </ul>
+      <p><strong>Use General Groups when:</strong></p>
+      <ul>
+        <li>You're organizing for a specific event</li>
+        <li>You need flexibility</li>
+        <li>You don't need birthday or subscription features</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Each group type serves a specific purpose. Choose Birthday Groups for birthdays, Subscription Groups for shared subscriptions, and General Groups for events or flexible use cases.</p>
+    `
   }
 }
 
