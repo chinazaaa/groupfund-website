@@ -78,14 +78,14 @@ export default function AdminReports() {
 
     try {
       setUpdatingStatus(true)
-      await adminApi.updateReportStatus(selectedReport.id, {
+      const response = await adminApi.updateReportStatus(selectedReport.id, {
         status: newStatus,
         ...(adminNotes && { admin_notes: adminNotes }),
       })
-      setShowModal(false)
-      setSelectedReport(null)
-      setAdminNotes('')
-      setNewStatus('')
+      // Update the selected report with the response data
+      if (response.report) {
+        setSelectedReport(response.report)
+      }
       loadReports()
       showNotification('Report status updated successfully', 'success')
     } catch (err) {
@@ -245,23 +245,23 @@ export default function AdminReports() {
                         <td>{getReportTypeBadge(report.report_type)}</td>
                         <td>{getReasonBadge(report.reason)}</td>
                         <td>
-                          {report.reporter_name || report.reporter_email || 'Anonymous'}
-                          {report.reporter_email && (
+                          {(report.reporter?.name || report.reporter_name) || (report.reporter?.email || report.reporter_email) || 'Anonymous'}
+                          {(report.reporter?.email || report.reporter_email) && (
                             <div style={{ fontSize: '0.75rem', color: '#666' }}>
-                              {report.reporter_email}
+                              {report.reporter?.email || report.reporter_email}
                             </div>
                           )}
                         </td>
                         <td>
                           {report.report_type === 'group' 
-                            ? (report.reported_group_name || `Group #${report.group_id}`)
-                            : (report.reported_user_name || `User #${report.user_id}`)
+                            ? (report.reported_group?.name || report.reported_group_name || `Group #${report.reported_group_id || report.reported_group?.id || report.group_id}`)
+                            : (report.reported_user?.name || report.reported_user_name || `User #${report.reported_user_id || report.reported_user?.id || report.user_id}`)
                           }
                         </td>
                         <td>{formatDate(report.created_at)}</td>
                         <td>{getStatusBadge(report.status)}</td>
                         <td>
-                          {report.reviewed_by_name || report.reviewed_by_email || '-'}
+                          {(report.reviewer?.name || report.reviewed_by_name) || '-'}
                           {report.reviewed_at && (
                             <div style={{ fontSize: '0.75rem', color: '#666' }}>
                               {formatDate(report.reviewed_at)}
@@ -345,13 +345,13 @@ export default function AdminReports() {
                   <h3>Reporter Information</h3>
                   <div className="admin-detail-grid">
                     <div>
-                      <strong>Name:</strong> {selectedReport.reporter_name || 'N/A'}
+                      <strong>Name:</strong> {selectedReport.reporter?.name || selectedReport.reporter_name || 'N/A'}
                     </div>
                     <div>
-                      <strong>Email:</strong> {selectedReport.reporter_email || 'N/A'}
+                      <strong>Email:</strong> {selectedReport.reporter?.email || selectedReport.reporter_email || 'N/A'}
                     </div>
                     <div>
-                      <strong>User ID:</strong> {selectedReport.reporter_id || 'N/A'}
+                      <strong>User ID:</strong> {selectedReport.reporter?.id || selectedReport.reporter_id || 'N/A'}
                     </div>
                   </div>
                 </div>
@@ -361,13 +361,16 @@ export default function AdminReports() {
                     <h3>Reported Group</h3>
                     <div className="admin-detail-grid">
                       <div>
-                        <strong>Group Name:</strong> {selectedReport.reported_group_name || 'N/A'}
+                        <strong>Group Name:</strong> {selectedReport.reported_group?.name || selectedReport.reported_group_name || 'N/A'}
                       </div>
                       <div>
-                        <strong>Group ID:</strong> {selectedReport.group_id || 'N/A'}
+                        <strong>Group ID:</strong> {selectedReport.reported_group?.id || selectedReport.reported_group_id || selectedReport.group_id || 'N/A'}
                       </div>
                       <div>
-                        <strong>Group Type:</strong> {selectedReport.group_type || 'N/A'}
+                        <strong>Group Type:</strong> {selectedReport.reported_group?.group_type || selectedReport.group_type || 'N/A'}
+                      </div>
+                      <div>
+                        <strong>Group Status:</strong> {selectedReport.reported_group?.status || selectedReport.group_status || 'N/A'}
                       </div>
                     </div>
                   </div>
@@ -376,13 +379,16 @@ export default function AdminReports() {
                     <h3>Reported Member</h3>
                     <div className="admin-detail-grid">
                       <div>
-                        <strong>User Name:</strong> {selectedReport.reported_user_name || 'N/A'}
+                        <strong>User Name:</strong> {selectedReport.reported_user?.name || selectedReport.reported_user_name || 'N/A'}
                       </div>
                       <div>
-                        <strong>User ID:</strong> {selectedReport.user_id || 'N/A'}
+                        <strong>User ID:</strong> {selectedReport.reported_user?.id || selectedReport.reported_user_id || selectedReport.user_id || 'N/A'}
                       </div>
                       <div>
-                        <strong>Group ID:</strong> {selectedReport.group_id || 'N/A'}
+                        <strong>Email:</strong> {selectedReport.reported_user?.email || selectedReport.reported_user_email || 'N/A'}
+                      </div>
+                      <div>
+                        <strong>Is Active:</strong> {(selectedReport.reported_user?.is_active !== undefined ? selectedReport.reported_user.is_active : selectedReport.reported_user_is_active) !== false ? 'Yes' : 'No'}
                       </div>
                     </div>
                   </div>
@@ -395,15 +401,18 @@ export default function AdminReports() {
                   </p>
                 </div>
 
-                {selectedReport.reviewed_by_name && (
+                {(selectedReport.reviewer || selectedReport.reviewed_by_name) && (
                   <div className="admin-detail-section">
                     <h3>Review Information</h3>
                     <div className="admin-detail-grid">
                       <div>
-                        <strong>Reviewed By:</strong> {selectedReport.reviewed_by_name}
+                        <strong>Reviewed By:</strong> {selectedReport.reviewer?.name || selectedReport.reviewed_by_name || 'N/A'}
                       </div>
                       <div>
-                        <strong>Reviewed At:</strong> {formatDate(selectedReport.reviewed_at)}
+                        <strong>Reviewer ID:</strong> {selectedReport.reviewer?.id || selectedReport.reviewed_by || 'N/A'}
+                      </div>
+                      <div>
+                        <strong>Reviewed At:</strong> {formatDate(selectedReport.reviewed_at) || 'N/A'}
                       </div>
                     </div>
                   </div>
