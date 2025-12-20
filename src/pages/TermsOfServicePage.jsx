@@ -96,6 +96,9 @@ export default function TermsOfServicePage() {
                 <li>You are solely responsible for verifying payments before marking them as confirmed</li>
                 <li>We are not liable for any financial losses or disputes arising from group contributions</li>
               </ul>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
+              </p>
               <p>
                 For more information about how payment tracking works, including the contributor and admin/celebrant confirmation process, visit our <Link to="/app-rules">App Rules</Link> page.
               </p>

@@ -148,12 +148,16 @@ export default function DiscoveringSubscriptionGroupsPage() {
               </p>
               <ol className="resource-list">
                 <li><strong>Review the Group:</strong> Check all the details—health metrics, member count, contribution amount</li>
+                <li><strong>Verify Admin Identity:</strong> Before joining, verify the identity of the group admin. Only join groups with people you trust</li>
                 <li><strong>Request to Join:</strong> Click "Request to Join" on the group</li>
                 <li><strong>Wait for Approval:</strong> The group admin will review your request</li>
                 <li><strong>Get Notified:</strong> You'll be notified when your request is approved or rejected</li>
               </ol>
               <p>
                 <strong>Note:</strong> Admins can see your reliability score when reviewing your request. If you have a good reliability score, you're more likely to be approved by quality groups.
+              </p>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
               </p>
             </div>
 

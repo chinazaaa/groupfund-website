@@ -87,6 +87,9 @@ export default function PrivacyPolicyPage() {
               <p>
                 <strong>Important:</strong> GroupFund does not process payments directly. We do not store your credit card information, or payment credentials. All payments are made directly between group members using their preferred payment methods. We only track payment statuses for organizational purposes.
               </p>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
+              </p>
             </div>
 
             <div className="legal-section">

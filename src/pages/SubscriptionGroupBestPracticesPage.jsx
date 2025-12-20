@@ -53,6 +53,22 @@ export default function SubscriptionGroupBestPracticesPage() {
             </div>
 
             <div className="resource-section">
+              <h2>Sharing Subscription Login Credentials</h2>
+              <p>To help members access the shared subscription after contributing:</p>
+              <ul className="resource-list">
+                <li><strong>Use Group Notes/Description:</strong> Add instructions in the group description field (e.g., "Email me at abc@example.com for login details")</li>
+                <li><strong>Contact Information:</strong> Provide clear contact methods (email, WhatsApp, etc.) for members to request credentials</li>
+                <li><strong>Verify Payment First:</strong> Share credentials only after confirming a member's payment</li>
+                <li><strong>Clear Instructions:</strong> Make it obvious how members should contact you for access</li>
+                <li><strong>Privacy:</strong> Don't post login credentials directly in the group - use contact methods instead</li>
+                <li><strong>Consistency:</strong> Respond to credential requests promptly and consistently</li>
+              </ul>
+              <p>
+                <strong>Best Practice:</strong> In your group description, include something like: "After your payment is confirmed, email me at [your-email] to receive the login credentials. Please include your name so I can verify your payment status."
+              </p>
+            </div>
+
+            <div className="resource-section">
               <h2>Tracking Deadlines</h2>
               <p>Effective deadline management:</p>
               <ul className="resource-list">

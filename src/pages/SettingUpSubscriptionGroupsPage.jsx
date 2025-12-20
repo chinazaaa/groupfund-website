@@ -84,6 +84,22 @@ export default function SettingUpSubscriptionGroupsPage() {
             </div>
 
             <div className="resource-section">
+              <h2>Step 3.5: Share Subscription Login Credentials (Optional)</h2>
+              <p>
+                To help members access the shared subscription after they've contributed, you can add instructions in the group notes or description field:
+              </p>
+              <ul className="resource-list">
+                <li><strong>Contact Information:</strong> Add instructions like "Email me at abc@example.com for login details"</li>
+                <li><strong>Alternative Contact:</strong> You can also say "Contact me via WhatsApp for credentials" or similar</li>
+                <li><strong>Visibility:</strong> The group description/notes are visible to all members, making it easy for them to know how to get access</li>
+                <li><strong>Security:</strong> This approach allows you to share credentials securely after verifying payment, rather than posting them publicly</li>
+              </ul>
+              <p>
+                <strong>Example:</strong> In your group description, you could write: "After contributing, email me at netflix@example.com to receive the login credentials. Please include your name so I can verify your payment."
+              </p>
+            </div>
+
+            <div className="resource-section">
               <h2>Step 4: Invite Members</h2>
               <p>
                 Share your group invite code with people you want to join. Members can:

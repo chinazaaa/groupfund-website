@@ -60,6 +60,9 @@ export default function AppRulesPage() {
               <p>
                 All payments are made <strong>directly between group members</strong> using their preferred payment methods (bank transfers, mobile money, cash, online payment platforms, etc.).
               </p>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
+              </p>
             </div>
 
             <div className="legal-section">
@@ -150,7 +153,11 @@ export default function AppRulesPage() {
                 <li><strong>Verify payments before confirming:</strong> Admins and celebrants should check their accounts before confirming receipt</li>
                 <li><strong>Resolve disputes directly:</strong> If there's a payment issue, work it out directly with the other party</li>
                 <li><strong>Use appropriate payment methods:</strong> Choose payment methods that work for your group (bank transfers, mobile money, etc.)</li>
+                <li><strong>Verify group admin identity:</strong> Before joining any group, verify the identity of the group admin. Only join groups with people you trust</li>
               </ul>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Important Warning:</strong> GroupFund is not liable for any fraudulent activities or financial losses. Always verify the identity of group admins before joining and contributing.
+              </p>
             </div>
 
             <div className="legal-section">

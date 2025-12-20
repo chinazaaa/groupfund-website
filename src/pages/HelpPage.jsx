@@ -104,7 +104,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I preview a group before joining?",
-          answer: "Yes! When you receive an invite code, you can preview the group details including member reliability scores, group health metrics, contribution amounts, currency, maximum group size, and current members. This helps you make an informed decision before requesting to join."
+          answer: "Yes! When you receive an invite code, you can preview the group details including member reliability scores, group health metrics, contribution amounts, currency, maximum group size, and current members. This helps you make an informed decision before requesting to join. ⚠️ Important: Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust."
         },
         {
           question: "What are member reliability scores?",
@@ -157,6 +157,10 @@ export default function HelpPage() {
         {
           question: "How do I make my subscription group discoverable?",
           answer: "As a group admin, you can make your subscription group public (discoverable) by updating the group settings. Set 'isPublic' to true in your group settings. Only subscription groups can be made public - birthday and general groups remain private. Your group is private by default. When public, others can search for and discover your group, but you still need to approve all join requests to maintain control."
+        },
+        {
+          question: "How do I share subscription login credentials with group members?",
+          answer: "You can share subscription login credentials (email, password, etc.) with group members using the group notes or description field. Add instructions in the group description like 'Email me at abc@example.com for login details' or 'Contact me via WhatsApp for credentials'. This way, all members can see how to get access to the subscription after they've contributed. The group description is visible to all members, making it easy to share contact information or instructions for accessing the shared subscription service."
         }
       ]
     },

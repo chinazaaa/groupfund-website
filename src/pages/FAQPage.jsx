@@ -29,7 +29,7 @@ export default function FAQPage() {
     },
     {
       question: "Can I preview a group before joining?",
-      answer: "Yes! When you receive an invite code, you can preview the group details including member reliability scores, group health metrics, contribution amounts, currency, and maximum group size. This helps you make an informed decision before requesting to join."
+      answer: "Yes! When you receive an invite code, you can preview the group details including member reliability scores, group health metrics, contribution amounts, currency, and maximum group size. This helps you make an informed decision before requesting to join. ⚠️ Important: Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust."
     },
     {
       question: "How do I pause accepting new members to my group?",
@@ -78,6 +78,10 @@ export default function FAQPage() {
     {
       question: "How do Subscription Groups work?",
       answer: "Subscription Groups are for managing shared subscriptions like Netflix, Spotify, etc. You set the subscription platform name, choose monthly or annual frequency, set a deadline day (and month for annual subscriptions), and set the contribution amount. Members contribute to the admin (group creator) who pays for the subscription. You'll get reminders before subscription deadlines."
+    },
+    {
+      question: "How do I share subscription login credentials with group members?",
+      answer: "You can share subscription login credentials (email, password, etc.) with group members using the group notes or description field. For example, you can add instructions like 'Email me at abc@example.com for login details' or 'Contact me via WhatsApp for credentials' in the group description. This way, members can see how to get access to the subscription after they've contributed. The group description is visible to all members, making it easy to share contact information or instructions for accessing the shared subscription."
     },
     {
       question: "Can I discover and join public subscription groups?",

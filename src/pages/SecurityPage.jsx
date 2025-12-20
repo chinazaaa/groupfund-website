@@ -57,6 +57,9 @@ export default function SecurityPage() {
               <p>
                 This design significantly reduces security risks by ensuring that sensitive payment information is never stored on our servers.
               </p>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Security Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
+              </p>
             </div>
 
             <div className="legal-section">

@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
     {
       number: '2',
       title: 'Choose Group Type & Create or Discover',
-      description: 'Create Birthday Groups (for birthdays), Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Preview existing groups using invite codes and see member reliability scores before joining. For subscription groups, you can also search for and discover public groups by platform name or group name, and see health metrics before joining.',
+      description: 'Create Birthday Groups (for birthdays), Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Preview existing groups using invite codes and see member reliability scores before joining. For subscription groups, you can also search for and discover public groups by platform name or group name, and see health metrics before joining. ⚠️ Important: Verify the identity of group admins before joining. Only join groups with people you trust.',
       icon: '👥'
     },
     {
@@ -98,6 +98,9 @@ export default function HowItWorksPage() {
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
             <p>Join hundreds of groups already using GroupFund to organize their contributions for birthdays, subscriptions, and events.</p>
+            <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px', fontSize: '0.9rem' }}>
+              <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
+            </p>
             <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
           </div>
         </div>

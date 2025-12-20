@@ -82,10 +82,12 @@ export default function SubscriptionGroupsPage() {
                 <li>Create a Subscription Group and specify the platform</li>
                 <li>Set payment frequency (monthly or annual) and deadline</li>
                 <li>Add admin account details for receiving payments</li>
+                <li>Add instructions in group notes/description for sharing login credentials (e.g., "Email me at abc@example.com for login details")</li>
                 <li>Invite members to join the group, or make your group discoverable (optional)</li>
                 <li>Automatic reminders are sent before deadlines</li>
                 <li>Members mark payments as "Paid" after transferring</li>
                 <li>Admin confirms receipt of payments</li>
+                <li>Members can access subscription credentials via group description/notes</li>
                 <li>Everyone can see payment statuses in real-time</li>
               </ol>
             </div>
