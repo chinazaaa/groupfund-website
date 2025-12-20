@@ -41,7 +41,7 @@ export default function FAQPage() {
     },
     {
       question: "What notification types does GroupFund send?",
-      answer: "GroupFund sends various notifications including birthday wishes (for birthday groups), reminders (7 days before, 1 day before, and on the same day for birthdays; before subscription deadlines; before event deadlines), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize your notification preferences in settings."
+      answer: "GroupFund sends various notifications including birthday wishes (for birthday groups), reminders (7 days before, 1 day before, and on the same day for birthdays; before subscription deadlines; before event deadlines), overdue contribution reminders, member join requests, contribution confirmations/rejections, contribution amount updates (when group admins change contribution amounts - includes email with old/new amounts, push, and in-app notifications), and group updates. You can customize your notification preferences in settings."
     },
     {
       question: "How does OTP verification work?",
@@ -97,7 +97,7 @@ export default function FAQPage() {
     },
     {
       question: "Can I change contribution amounts after creating a group?",
-      answer: "Not currently. We are working on this feature. For now, contribution amounts are set when you create the group and cannot be changed. When this feature becomes available, changes to contribution amounts will apply to future contributions, and members will be notified of updates."
+      answer: "Yes! Group administrators can update contribution amounts at any time. When you change the contribution amount, all active group members (except you, the admin) will be automatically notified via email, push notification, and in-app notification. The email notification includes the old and new contribution amounts, clearly indicates whether it increased or decreased, and gives members the option to review and leave the group if they're not comfortable with the change. Changes apply to future contributions only, ensuring transparency and giving members the opportunity to adjust their participation if needed."
     },
     {
       question: "How does the birthday wishlist claiming feature work?",

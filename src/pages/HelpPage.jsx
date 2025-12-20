@@ -48,7 +48,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I change contribution amounts?",
-          answer: " Not currently. We are working on this feature."
+          answer: "Yes! Group administrators can update contribution amounts at any time. When you change the contribution amount, all active group members (except you, the admin) will be automatically notified via email, push notification, and in-app notification. The email notification includes the old and new contribution amounts, clearly indicates whether it increased or decreased, and gives members the option to review and leave the group if they're not comfortable with the change. Changes to contribution amounts apply to future contributions only, and all members are kept informed for full transparency."
         },
         {
           question: "How do I mark a payment as confirmed?",
@@ -136,7 +136,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I update group settings?",
-          answer: "Yes, group administrators can update group settings including the group name, maximum members, and whether the group is accepting new requests. However, changing contribution amounts is not currently available. We are working on this feature. When it becomes available, changes to contribution amounts will apply to future contributions, and members will be notified of updates."
+          answer: "Yes, group administrators can update group settings including the group name, contribution amount, maximum members, and whether the group is accepting new requests. When you update the contribution amount, all active members (except you, the admin) will receive email, push, and in-app notifications with details about the old and new amounts. Changes to contribution amounts apply to future contributions only, and members are given the option to review and leave the group if they're not comfortable with the change."
         },
         {
           question: "Can members see each other's information?",
@@ -158,7 +158,7 @@ export default function HelpPage() {
         },
         {
           question: "What types of notifications does GroupFund send?",
-          answer: "GroupFund sends various notifications including birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days before, 1 day before, and same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, and group updates. You can customize which notifications you receive."
+          answer: "GroupFund sends various notifications including birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days before, 1 day before, and same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, contribution amount updates (when group admins change contribution amounts), and group updates. You can customize which notifications you receive."
         },
         {
           question: "Can I customize reminder settings?",
