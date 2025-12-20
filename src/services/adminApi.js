@@ -70,7 +70,7 @@ export const adminApi = {
   },
 
   closeGroup: (groupId) => {
-    return apiRequest(`/admin/groups/${groupId}/close`, {
+    return apiRequest(`/groups/${groupId}/close`, {
       method: 'PUT',
     });
   },
