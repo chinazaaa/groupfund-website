@@ -31,8 +31,13 @@ export default function PricingPage() {
               <div className="pricing-header">
                 <h2 className="pricing-title">Free Plan</h2>
                 <div className="pricing-price">
-                  <span className="price-amount">₦0</span>
-                  <span className="price-period">/forever</span>
+                  <div className="price-amounts">
+                    <span className="price-amount">₦0</span>
+                    <span className="price-amount">$0</span>
+                    <span className="price-amount">£0</span>
+                    <span className="price-amount">€0</span>
+                    <span className="price-period">/forever</span>
+                  </div>
                 </div>
                 <p className="pricing-description">
                   Everything you need to organize contributions for birthdays, subscriptions, and events. No credit card required.

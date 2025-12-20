@@ -2752,10 +2752,21 @@
 
 .pricing-price {
   margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-amounts {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .price-amount {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #6366f1;
   line-height: 1;
@@ -2764,7 +2775,7 @@
 .price-period {
   font-size: 1.2rem;
   color: #64748b;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .pricing-description {
@@ -2967,7 +2978,15 @@
   }
 
   .price-amount {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  .price-amounts {
+    gap: 8px;
+  }
+
+  .price-period {
+    font-size: 1rem;
   }
 
   .pricing-features-list {
