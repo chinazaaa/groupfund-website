@@ -188,5 +188,22 @@ export const adminApi = {
       body: JSON.stringify(data),
     });
   },
+
+  // Reports
+  getReports: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/reports${queryString ? `?${queryString}` : ''}`);
+  },
+
+  getReport: (reportId) => {
+    return apiRequest(`/admin/reports/${reportId}`);
+  },
+
+  updateReportStatus: (reportId, data) => {
+    return apiRequest(`/admin/reports/${reportId}`, {
+      method: 'PUT',
+      body: JSON.stringify(data),
+    });
+  },
 };
 
