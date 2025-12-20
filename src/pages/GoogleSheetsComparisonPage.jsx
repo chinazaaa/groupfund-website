@@ -45,7 +45,7 @@ export default function GoogleSheetsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders sent 7 days before, 1 day before, and on deadline day. No manual work required.</span>
+                        <span>Automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). No manual follow-ups needed.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -67,7 +67,7 @@ export default function GoogleSheetsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Members mark payments as paid, celebrants confirm receipt. Everyone sees updates instantly in real-time.</span>
+                        <span>Members mark payments as paid, admins or celebrants confirm receipt. Everyone sees updates instantly in real-time.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -177,7 +177,7 @@ export default function GoogleSheetsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Two-step confirmation: members mark as paid, celebrants confirm receipt. Prevents errors and disputes.</span>
+                        <span>Two-step confirmation: members mark as paid, admins or celebrants confirm receipt. Prevents errors and disputes.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -251,13 +251,13 @@ export default function GoogleSheetsComparisonPage() {
               <div className="scenario-items">
                 <div className="scenario-item">
                   <h3>Scenario 1: Sending Reminders</h3>
-                  <p><strong>Google Sheets:</strong> You must manually check the sheet, identify who hasn't paid, and send individual reminders via WhatsApp or email. This takes 15-20 minutes per birthday.</p>
-                  <p><strong>GroupFund:</strong> Automatic reminders are sent 7 days before, 1 day before, and on deadline day. Zero manual work required.</p>
+                  <p><strong>Google Sheets:</strong> You must manually check the sheet, identify who hasn't paid, and send individual reminders via WhatsApp or email. This takes 15-20 minutes per contribution deadline.</p>
+                  <p><strong>GroupFund:</strong> Automatic reminders are sent before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Zero manual work required.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 2: Tracking Payments</h3>
                   <p><strong>Google Sheets:</strong> Members must tell you when they paid, then you manually update the sheet. Others may not see the update immediately, leading to confusion.</p>
-                  <p><strong>GroupFund:</strong> Members mark payments as paid, celebrants confirm receipt. Everyone sees updates instantly in real-time.</p>
+                  <p><strong>GroupFund:</strong> Members mark payments as paid, admins or celebrants confirm receipt. Everyone sees updates instantly in real-time.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 3: Mobile Access</h3>

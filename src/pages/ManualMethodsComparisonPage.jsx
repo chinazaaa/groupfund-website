@@ -45,7 +45,7 @@ export default function ManualMethodsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Real-time digital tracking. Members mark payments, celebrants confirm. Everyone sees status instantly.</span>
+                        <span>Real-time digital tracking. Members mark payments, admins or celebrants confirm. Everyone sees status instantly.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -67,7 +67,7 @@ export default function ManualMethodsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders 7 days before, 1 day before, and on deadline day. No manual follow-ups needed.</span>
+                        <span>Automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). No manual follow-ups needed.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -252,12 +252,12 @@ export default function ManualMethodsComparisonPage() {
                 <div className="scenario-item">
                   <h3>Scenario 1: Cash Collection</h3>
                   <p><strong>Manual Methods:</strong> You must meet people in person to collect cash. Track who gave what on paper. Easy to lose cash or make counting errors. No record if paper is lost.</p>
-                  <p><strong>GroupFund:</strong> Members transfer directly to celebrants' bank accounts. Digital tracking shows who paid instantly. Complete records that never get lost.</p>
+                  <p><strong>GroupFund:</strong> Members transfer directly to appropriate accounts (celebrants' for Birthday Groups, admin's for Subscription/General Groups). Digital tracking shows who paid instantly. Complete records that never get lost.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 2: Sending Reminders</h3>
                   <p><strong>Manual Methods:</strong> You must remember to remind people yourself. Call, text, or message each person individually. Easy to forget someone or miss the deadline.</p>
-                  <p><strong>GroupFund:</strong> Automatic reminders sent 7 days before, 1 day before, and on deadline day. Everyone gets reminded consistently, no one is missed.</p>
+                  <p><strong>GroupFund:</strong> Automatic reminders sent before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Everyone gets reminded consistently, no one is missed.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 3: Tracking Who Paid</h3>

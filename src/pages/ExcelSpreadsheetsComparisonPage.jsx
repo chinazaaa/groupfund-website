@@ -45,7 +45,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders 7 days before, 1 day before, and on deadline day. Push notifications and email alerts.</span>
+                        <span>Automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Push notifications and email alerts.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -221,7 +221,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Two-step confirmation: members mark as paid, celebrants confirm receipt. Built-in workflow.</span>
+                        <span>Two-step confirmation: members mark as paid, admins or celebrants confirm receipt. Built-in workflow.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -344,8 +344,8 @@ export default function ExcelSpreadsheetsComparisonPage() {
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 2: Reminders</h3>
-                  <p><strong>Excel Spreadsheets:</strong> You have to manually check the spreadsheet, identify upcoming birthdays, and send reminder messages. Easy to forget.</p>
-                  <p><strong>GroupFund:</strong> Automatic reminders sent 7 days before, 1 day before, and on deadline day. Never forget a contribution.</p>
+                  <p><strong>Excel Spreadsheets:</strong> You have to manually check the spreadsheet, identify upcoming deadlines, and send reminder messages. Easy to forget.</p>
+                  <p><strong>GroupFund:</strong> Automatic reminders sent before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Never forget a contribution.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 3: Mobile Access</h3>
@@ -363,7 +363,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
             {/* CTA Section */}
             <div className="cta-box">
               <h2>Ready to Replace Excel Spreadsheets?</h2>
-              <p>Join thousands of groups using GroupFund for automated birthday contribution tracking.</p>
+              <p>Join thousands of groups using GroupFund for automated group contribution tracking.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

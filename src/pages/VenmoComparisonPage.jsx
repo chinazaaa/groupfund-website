@@ -45,7 +45,7 @@ export default function VenmoComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Built specifically for group contributions. Multiple group types (Birthday, Subscription, General), automatic reminders, deadline tracking, and contribution tracking designed for all purposes.</span>
+                        <span>Built specifically for group contributions. Supports three group types (Birthday Groups, Subscription Groups, General Groups), automatic reminders, deadline tracking, and contribution tracking designed for all purposes.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -67,14 +67,14 @@ export default function VenmoComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders 7 days before each birthday, 1 day before, and on deadline day. Birthday-specific reminders.</span>
+                        <span>Automatic reminders before deadlines - 7 days, 1 day, and on deadline day for birthdays; before subscription deadlines; before event deadlines. Context-specific reminders for each group type.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
                       <div className="option-name">Venmo</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>No automatic birthday reminders. You must manually remember to send money and remind others to contribute.</span>
+                        <span>No automatic reminders. You must manually remember deadlines and remind others to contribute.</span>
                       </div>
                     </div>
                   </div>
@@ -199,7 +199,7 @@ export default function VenmoComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Two-step confirmation: members mark as paid, celebrants confirm receipt. Prevents errors and disputes.</span>
+                        <span>Two-step confirmation: members mark as paid, admins or celebrants confirm receipt. Prevents errors and disputes.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -263,8 +263,8 @@ export default function VenmoComparisonPage() {
               <h2>Why Choose GroupFund Over Venmo?</h2>
               <div className="reasons-grid">
                 <div className="reason-card">
-                  <h3>🎂 Birthday-Focused</h3>
-                  <p>GroupFund is built specifically for birthday contributions. Venmo is a general payment app.</p>
+                  <h3>🎯 Purpose-Built for Groups</h3>
+                  <p>GroupFund is built specifically for group contributions (birthdays, subscriptions, events). Venmo is a general payment app.</p>
                 </div>
                 <div className="reason-card">
                   <h3>📅 Birthday Calendar</h3>
@@ -272,7 +272,7 @@ export default function VenmoComparisonPage() {
                 </div>
                 <div className="reason-card">
                   <h3>🤖 Automatic Reminders</h3>
-                  <p>Automatic birthday reminders. Venmo requires manual payment requests and reminders.</p>
+                  <p>Automatic reminders before deadlines for birthdays, subscriptions, and events. Venmo requires manual payment requests and reminders.</p>
                 </div>
                 <div className="reason-card">
                   <h3>⭐ Reliability Scores</h3>
@@ -294,9 +294,9 @@ export default function VenmoComparisonPage() {
               <h2>Real-World Scenarios</h2>
               <div className="scenario-items">
                 <div className="scenario-item">
-                  <h3>Scenario 1: Managing Multiple Birthdays</h3>
-                  <p><strong>Venmo:</strong> You must manually remember each birthday, send payment requests, and track who has paid. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
-                  <p><strong>GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
+                  <h3>Scenario 1: Managing Multiple Contributions</h3>
+                  <p><strong>Venmo:</strong> You must manually remember each deadline, send payment requests, and track who has paid. No calendar or deadline tracking. Easy to forget contributions.</p>
+                  <p><strong>GroupFund:</strong> Calendar and deadline tracking for birthdays, subscriptions, and events. Automatic reminders before deadlines. Never miss a contribution.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 2: Fixed Contribution Amounts</h3>
@@ -310,15 +310,15 @@ export default function VenmoComparisonPage() {
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 4: Tracking Contributions</h3>
-                  <p><strong>Venmo:</strong> You see individual transactions but no organized view of who has contributed to a specific birthday. Hard to track group contributions.</p>
-                  <p><strong>GroupFund:</strong> Dedicated group contribution tracking. See who has paid, who hasn't, and payment status in real-time for each birthday.</p>
+                  <p><strong>Venmo:</strong> You see individual transactions but no organized view of who has contributed to a specific group contribution. Hard to track group payments.</p>
+                  <p><strong>GroupFund:</strong> Dedicated group contribution tracking. See who has paid, who hasn't, and payment status in real-time for birthdays, subscriptions, and events.</p>
                 </div>
               </div>
             </div>
 
             <div className="cta-box">
               <h2>Ready to Switch from Venmo?</h2>
-              <p>Join thousands of groups using GroupFund for birthday-specific contribution management. Free to start, purpose-built for birthdays.</p>
+              <p>Join thousands of groups using GroupFund for group contribution management. Free to start, purpose-built for birthdays, subscriptions, and events.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>

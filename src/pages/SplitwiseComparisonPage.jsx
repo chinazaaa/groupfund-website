@@ -67,14 +67,14 @@ export default function SplitwiseComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Automatic reminders 7 days before each birthday, 1 day before, and on deadline day. Birthday-specific reminders.</span>
+                        <span>Automatic reminders before deadlines - 7 days, 1 day, and on deadline day for birthdays; before subscription deadlines; before event deadlines. Context-specific reminders for each group type.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
                       <div className="option-name">Splitwise</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>No automatic birthday reminders. You must manually create expenses and send reminders yourself.</span>
+                        <span>No automatic reminders for deadlines. You must manually create expenses and send reminders yourself for birthdays, subscriptions, and events.</span>
                       </div>
                     </div>
                   </div>
@@ -199,7 +199,7 @@ export default function SplitwiseComparisonPage() {
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Two-step confirmation: members mark as paid, celebrants confirm receipt. Prevents errors and disputes.</span>
+                        <span>Two-step confirmation: members mark as paid, admins or celebrants confirm receipt. Prevents errors and disputes.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
@@ -214,21 +214,21 @@ export default function SplitwiseComparisonPage() {
 
                 <div className="comparison-feature-item">
                   <div className="feature-header">
-                    <h3>Purpose-Built for Birthdays</h3>
+                    <h3>Purpose-Built for Group Contributions</h3>
                   </div>
                   <div className="feature-comparison">
                     <div className="comparison-option">
                       <div className="option-name">GroupFund</div>
                       <div className="option-details">
                         <span className="check-mark">✓</span>
-                        <span>Designed specifically for birthday contributions. Every feature is optimized for recurring birthday celebrations.</span>
+                        <span>Designed specifically for group contributions. Supports three group types (Birthday Groups, Subscription Groups, General Groups) with features optimized for each purpose.</span>
                       </div>
                     </div>
                     <div className="comparison-option">
                       <div className="option-name">Splitwise</div>
                       <div className="option-details">
                         <span className="cross-mark">✗</span>
-                        <span>General expense splitting tool. Not optimized for birthday contributions or recurring group payments.</span>
+                        <span>General expense splitting tool. Not optimized for recurring group contributions (birthdays, subscriptions, events) or deadline tracking.</span>
                       </div>
                     </div>
                   </div>
@@ -241,16 +241,16 @@ export default function SplitwiseComparisonPage() {
               <h2>Why Choose GroupFund Over Splitwise?</h2>
               <div className="reasons-grid">
                 <div className="reason-card">
-                  <h3>🎂 Birthday-Focused</h3>
-                  <p>GroupFund is built specifically for birthday contributions. Splitwise is a general expense splitting tool.</p>
+                  <h3>🎯 Purpose-Built for Groups</h3>
+                  <p>GroupFund is built specifically for group contributions (birthdays, subscriptions, events). Splitwise is a general expense splitting tool.</p>
                 </div>
                 <div className="reason-card">
-                  <h3>📅 Birthday Calendar</h3>
-                  <p>Built-in calendar showing all upcoming birthdays. Splitwise has no birthday calendar feature.</p>
+                  <h3>📅 Calendar & Deadlines</h3>
+                  <p>Built-in calendar for birthdays and deadline tracking for subscriptions and events. Splitwise has no calendar or deadline features.</p>
                 </div>
                 <div className="reason-card">
                   <h3>🤖 Automatic Reminders</h3>
-                  <p>Automatic birthday reminders. Splitwise requires manual expense creation and reminders.</p>
+                  <p>Automatic reminders before deadlines for birthdays, subscriptions, and events. Splitwise requires manual expense creation and reminders.</p>
                 </div>
                 <div className="reason-card">
                   <h3>⭐ Reliability Scores</h3>
@@ -272,9 +272,9 @@ export default function SplitwiseComparisonPage() {
               <h2>Real-World Scenarios</h2>
               <div className="scenario-items">
                 <div className="scenario-item">
-                  <h3>Scenario 1: Managing Multiple Birthdays</h3>
-                  <p><strong>Splitwise:</strong> You must manually create a new expense for each birthday as it comes. No calendar to see upcoming birthdays. Easy to forget a birthday.</p>
-                  <p><strong>GroupFund:</strong> Birthday calendar shows all upcoming birthdays. Automatic reminders for each birthday. Never miss a celebration.</p>
+                  <h3>Scenario 1: Managing Multiple Contributions</h3>
+                  <p><strong>Splitwise:</strong> You must manually create a new expense for each contribution as it comes. No calendar or deadline tracking. Easy to forget contributions.</p>
+                  <p><strong>GroupFund:</strong> Calendar and deadline tracking for birthdays, subscriptions, and events. Automatic reminders before deadlines. Never miss a contribution.</p>
                 </div>
                 <div className="scenario-item">
                   <h3>Scenario 2: Fixed Contribution Amounts</h3>
@@ -291,7 +291,7 @@ export default function SplitwiseComparisonPage() {
 
             <div className="cta-box">
               <h2>Ready to Switch from Splitwise?</h2>
-              <p>Join thousands of groups using GroupFund for birthday-specific contribution management. Free to start, purpose-built for birthdays.</p>
+              <p>Join thousands of groups using GroupFund for group contribution management. Free to start, purpose-built for birthdays, subscriptions, and events.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
