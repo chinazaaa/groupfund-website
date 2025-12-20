@@ -18,6 +18,15 @@ export default function SitemapPage() {
       ]
     },
     {
+      category: "Group Types",
+      links: [
+        { path: "/group-types", label: "Group Types Overview" },
+        { path: "/group-types/birthday-groups", label: "Birthday Groups" },
+        { path: "/group-types/subscription-groups", label: "Subscription Groups" },
+        { path: "/group-types/general-groups", label: "General Groups" }
+      ]
+    },
+    {
       category: "Use Cases",
       links: [
         { path: "/use-cases", label: "Use Cases Overview" },

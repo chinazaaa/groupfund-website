@@ -419,6 +419,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/group-types',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/group-types/birthday-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/group-types/subscription-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/group-types/general-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/resources',
     priority: '0.8',
     changefreq: 'monthly',

@@ -74,6 +74,10 @@ import SubscriptionDeadlineManagementPage from './pages/SubscriptionDeadlineMana
 import AdminAccountDetailsGuidePage from './pages/AdminAccountDetailsGuidePage'
 import OrganizingInternationalGroupContributionsPage from './pages/OrganizingInternationalGroupContributionsPage'
 import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaymentSchedulesPage'
+import GroupTypesPage from './pages/GroupTypesPage'
+import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
+import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
+import GeneralGroupsPage from './pages/GeneralGroupsPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -165,6 +169,10 @@ function App() {
         <Route path="/use-cases/sports-teams" element={<Layout><SportsTeamsUseCasePage /></Layout>} />
         <Route path="/use-cases/hobby-groups" element={<Layout><HobbyGroupsUseCasePage /></Layout>} />
         <Route path="/use-cases/alumni-associations" element={<Layout><AlumniAssociationsUseCasePage /></Layout>} />
+        <Route path="/group-types" element={<Layout><GroupTypesPage /></Layout>} />
+        <Route path="/group-types/birthday-groups" element={<Layout><BirthdayGroupsPage /></Layout>} />
+        <Route path="/group-types/subscription-groups" element={<Layout><SubscriptionGroupsPage /></Layout>} />
+        <Route path="/group-types/general-groups" element={<Layout><GeneralGroupsPage /></Layout>} />
         <Route path="/comparisons" element={<Layout><ComparisonsPage /></Layout>} />
         <Route path="/comparisons/whatsapp-groups" element={<Layout><WhatsAppGroupsComparisonPage /></Layout>} />
         <Route path="/comparisons/excel-spreadsheets" element={<Layout><ExcelSpreadsheetsComparisonPage /></Layout>} />

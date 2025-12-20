@@ -4037,3 +4037,286 @@
     padding: 32px 24px;
   }
 }
+
+/* Group Types Pages */
+.group-types-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.group-types-intro {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.group-types-intro p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #64748b;
+}
+
+.group-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.group-type-card {
+  background: white;
+  padding: 40px 32px;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.group-type-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.2);
+}
+
+.group-type-icon {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.group-type-card h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.group-type-subtitle {
+  font-size: 1.1rem;
+  color: #64748b;
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.group-type-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+  flex-grow: 1;
+}
+
+.group-type-features li {
+  padding: 12px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+.group-type-cta {
+  margin-top: auto;
+  text-align: center;
+}
+
+.group-types-comparison {
+  margin: 80px 0;
+}
+
+.group-types-comparison h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 32px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.comparison-table thead {
+  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+  color: white;
+}
+
+.comparison-table th {
+  padding: 20px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.comparison-table th:first-child {
+  font-weight: 800;
+}
+
+.comparison-table tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.2s ease;
+}
+
+.comparison-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.comparison-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.comparison-table td {
+  padding: 20px;
+  font-size: 1rem;
+  color: #64748b;
+}
+
+.comparison-table td:first-child {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.group-type-detail-page {
+  padding: 100px 0;
+  background: white;
+}
+
+.group-type-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.group-type-intro {
+  margin-bottom: 48px;
+}
+
+.group-type-intro p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #64748b;
+}
+
+.group-type-section {
+  margin-bottom: 60px;
+}
+
+.group-type-section h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.group-type-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.use-cases-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.use-cases-list li {
+  padding: 12px 0 12px 32px;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.use-cases-list li::before {
+  content: '•';
+  position: absolute;
+  left: 12px;
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.use-cases-list li strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.how-it-works-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  counter-reset: step-counter;
+}
+
+.how-it-works-list li {
+  padding: 20px 0 20px 60px;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.how-it-works-list li:last-child {
+  border-bottom: none;
+}
+
+.how-it-works-list li::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .group-types-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .group-type-card {
+    padding: 32px 24px;
+  }
+
+  .group-type-icon {
+    font-size: 3rem;
+  }
+
+  .comparison-table {
+    font-size: 0.9rem;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 12px 8px;
+  }
+
+  .group-types-comparison h2 {
+    font-size: 1.75rem;
+  }
+
+  .group-type-section h2 {
+    font-size: 1.75rem;
+  }
+}
