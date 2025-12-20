@@ -600,6 +600,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/report',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/sitemap',
     priority: '0.5',
     changefreq: 'monthly',

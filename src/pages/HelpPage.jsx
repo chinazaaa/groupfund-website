@@ -229,6 +229,40 @@ export default function HelpPage() {
       ]
     },
     {
+      title: "Safety & Reporting",
+      icon: "🛡️",
+      topics: [
+        {
+          question: "How do I report a group or member?",
+          answer: (
+            <p>
+              You can report groups or members for spam, fraud, harassment, inappropriate content, or other violations. Visit our <Link to="/report">Report page</Link> to submit a report. You can report either a group or a member, select a reason (spam, inappropriate, fraud, harassment, or other), and provide details about the issue. Reports help maintain platform safety.
+            </p>
+          )
+        },
+        {
+          question: "What happens when I report a group?",
+          answer: "When you report a group: (1) Each pending report reduces the group's health score by 5 points, (2) Groups with 3+ pending reports are automatically closed, (3) Reports are included in health metrics and displayed in health text, (4) Our team reviews all reports, and reviewed reports reduce health by 2 points (less impact than pending reports). This helps identify and address problematic groups quickly."
+        },
+        {
+          question: "What happens when I report a member?",
+          answer: "When you report a member: (1) Users with 3+ pending reports are marked as inactive (is_active = false), (2) Users with 5+ total reports are also marked as inactive, (3) This affects all users, including group admins, (4) When a group admin is reported, it also affects the group's health. Reports help protect the community from problematic members."
+        },
+        {
+          question: "What reasons can I report for?",
+          answer: "You can report groups or members for: (1) Spam - unwanted or repetitive content, (2) Inappropriate - content that violates community standards, (3) Fraud - suspected fraudulent activities or scams, (4) Harassment - bullying or abusive behavior, (5) Other - any other violation of our terms of service. Please only report legitimate violations."
+        },
+        {
+          question: "Are there limits on reporting?",
+          answer: "Yes, to prevent spam: (1) Duplicate pending reports from the same user are prevented, (2) Public reports (from the website) have a 24-hour cooldown per email/group or email/member combination, (3) This prevents abuse of the reporting system while still allowing legitimate reports. Authenticated users (logged in) can report groups or members they're part of."
+        },
+        {
+          question: "Will the person I report know it was me?",
+          answer: "No, your report is confidential. We don't share reporter information with the reported party. However, if we need more information about your report, we may contact you using the email you provided (if you included one)."
+        }
+      ]
+    },
+    {
       title: "Technical Support",
       icon: "🛠️",
       topics: [

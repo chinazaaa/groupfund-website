@@ -134,6 +134,14 @@ export default function FAQPage() {
           You can delete your account at any time by logging into the app and accessing the account deletion option in your settings. This will permanently delete your account and all associated data. For detailed instructions, visit our <Link to="/delete-account">Delete Account page</Link>.
         </>
       )
+    },
+    {
+      question: "How do I report a group or member?",
+      answer: "You can report groups or members for spam, fraud, harassment, inappropriate content, or other violations. Visit our Report page to submit a report. Reports affect group health scores (pending reports reduce health by 5 points) and member status (users with 3+ pending or 5+ total reports are marked inactive). Groups with 3+ pending reports are automatically closed. All reports are reviewed by our team."
+    },
+    {
+      question: "What happens when I report a group or member?",
+      answer: "When you report a group or member: (1) Pending reports immediately reduce group health scores by 5 points, (2) Groups with 3+ pending reports are automatically closed, (3) Members with 3+ pending reports or 5+ total reports are marked as inactive, (4) Our team reviews all reports, and reviewed reports reduce health by 2 points (less impact). Reports help maintain platform safety and affect group health metrics."
     }
   ]
 

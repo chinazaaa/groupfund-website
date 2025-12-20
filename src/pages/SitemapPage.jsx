@@ -148,7 +148,8 @@ export default function SitemapPage() {
         { path: "/app-rules", label: "App Rules" },
         { path: "/security", label: "Security" },
         { path: "/accessibility", label: "Accessibility" },
-        { path: "/delete-account", label: "Delete Account" }
+        { path: "/delete-account", label: "Delete Account" },
+        { path: "/report", label: "Report a Group or Member" }
       ]
     },
     {

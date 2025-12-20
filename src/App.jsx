@@ -27,6 +27,7 @@ import HelpPage from './pages/HelpPage'
 import SitemapPage from './pages/SitemapPage'
 import WaitlistPage from './pages/WaitlistPage'
 import DeleteAccountPage from './pages/DeleteAccountPage'
+import ReportPage from './pages/ReportPage'
 import NotFoundPage from './pages/NotFoundPage'
 import PricingPage from './pages/PricingPage'
 import UseCasesPage from './pages/UseCasesPage'
@@ -156,6 +157,7 @@ function App() {
         <Route path="/sitemap" element={<Layout><SitemapPage /></Layout>} />
         <Route path="/waitlist" element={<Layout><WaitlistPage /></Layout>} />
         <Route path="/delete-account" element={<Layout><DeleteAccountPage /></Layout>} />
+        <Route path="/report" element={<Layout><ReportPage /></Layout>} />
         <Route path="/pricing" element={<Layout><PricingPage /></Layout>} />
         <Route path="/use-cases" element={<Layout><UseCasesPage /></Layout>} />
         <Route path="/use-cases/families" element={<Layout><FamiliesUseCasePage /></Layout>} />

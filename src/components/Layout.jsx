@@ -97,6 +97,7 @@ export default function Layout({ children }) {
               <ul className="footer-links">
                 <li><Link to="/help">Help Center</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/report">Report</Link></li>
                 <li><Link to="/app-rules">App Rules</Link></li>
                 <li><Link to="/privacy">Privacy Policy</Link></li>
                 <li><Link to="/terms">Terms of Service</Link></li>

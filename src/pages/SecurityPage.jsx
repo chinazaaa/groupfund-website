@@ -193,7 +193,24 @@ export default function SecurityPage() {
             </div>
 
             <div className="legal-section">
-              <h2>Reporting Security Issues</h2>
+              <h2>Reporting Issues</h2>
+              
+              <h3>Reporting Groups or Members</h3>
+              <p>
+                If you encounter a group or member that violates our community guidelines, you can report them through our <Link to="/report">Report page</Link>. You can report for:
+              </p>
+              <ul>
+                <li><strong>Spam:</strong> Unwanted or repetitive content</li>
+                <li><strong>Inappropriate:</strong> Content violating community standards</li>
+                <li><strong>Fraud:</strong> Suspected fraudulent activities or scams</li>
+                <li><strong>Harassment:</strong> Bullying or abusive behavior</li>
+                <li><strong>Other:</strong> Any other violation of our terms</li>
+              </ul>
+              <p>
+                <strong>Impact of Reports:</strong> Reports affect group health scores (pending reports reduce by 5 points) and member status (users with 3+ pending or 5+ total reports are marked inactive). Groups with 3+ pending reports are automatically closed. All reports are reviewed by our team.
+              </p>
+
+              <h3>Reporting Security Issues</h3>
               <p>
                 If you discover a security vulnerability or have concerns about the security of our service, please report it to us immediately. We take all security reports seriously and will investigate promptly.
               </p>

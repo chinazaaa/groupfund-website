@@ -161,6 +161,23 @@ export default function AppRulesPage() {
             </div>
 
             <div className="legal-section">
+              <h2>Reporting System</h2>
+              <p>
+                GroupFund has a reporting system to help maintain platform safety:
+              </p>
+              <ul>
+                <li><strong>Group Reports:</strong> Report groups for spam, fraud, harassment, or inappropriate behavior. Pending reports reduce group health by 5 points. Groups with 3+ pending reports are automatically closed.</li>
+                <li><strong>Member Reports:</strong> Report members for violations. Users with 3+ pending reports or 5+ total reports are marked as inactive. This affects all users, including group admins.</li>
+                <li><strong>Report Reasons:</strong> Spam, inappropriate, fraud, harassment, or other violations</li>
+                <li><strong>Spam Prevention:</strong> Duplicate pending reports are prevented. Public reports have a 24-hour cooldown per email/group or email/member combination.</li>
+                <li><strong>Review Process:</strong> All reports are reviewed. Reviewed reports reduce health by 2 points (less impact than pending).</li>
+              </ul>
+              <p>
+                Visit our <Link to="/report">Report page</Link> to submit a report. Reports help maintain a safe and trustworthy platform.
+              </p>
+            </div>
+
+            <div className="legal-section">
               <h2>GroupFund's Role</h2>
               <p>
                 GroupFund's role is limited to:
@@ -169,6 +186,7 @@ export default function AppRulesPage() {
                 <li>Providing a platform to track payment statuses</li>
                 <li>Organizing group information for birthdays, subscriptions, and events</li>
                 <li>Sending reminders about upcoming contributions and deadlines</li>
+                <li>Providing reporting tools to maintain platform safety</li>
                 <li>Displaying payment history and transparency</li>
                 <li>Calculating reliability scores based on payment behavior</li>
               </ul>
