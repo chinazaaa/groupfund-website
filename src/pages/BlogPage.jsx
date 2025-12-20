@@ -6,6 +6,14 @@ import '../App.css'
 export default function BlogPage() {
   const blogPosts = [
     {
+      title: "How Group Discovery Helps You Find Reliable Subscription Groups",
+      excerpt: "Discover how GroupFund's Group Discovery feature solves the biggest problem with joining subscription groups: knowing who will pay. Learn how health metrics and reliability scores help you find trustworthy groups for shared subscriptions like Netflix and Spotify.",
+      date: "December 22, 2025",
+      readTime: "7 min read",
+      slug: "how-group-discovery-helps-find-reliable-subscription-groups",
+      keywords: "group discovery, find subscription groups, reliable subscription groups, Netflix subscription sharing, Spotify group subscription, group health metrics"
+    },
+    {
       title: "How Birthday Wishlists Make Gift Giving Easier for Groups",
       excerpt: "Discover how birthday wishlists transform group gift giving. Learn how to create effective wishlists, coordinate gifts with group members, and avoid duplicate presents while ensuring everyone gets what they want.",
       date: "December 20, 2025",

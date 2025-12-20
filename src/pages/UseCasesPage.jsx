@@ -96,6 +96,20 @@ export default function UseCasesPage() {
         'Share admin account details securely'
       ]
     },
+    // {
+    //   slug: 'discovering-subscription-groups',
+    //   title: 'Discovering Reliable Subscription Groups',
+    //   description: 'Find and join reliable subscription groups using Group Discovery. Search for Netflix, Spotify, and other shared subscription groups, see health metrics before joining, and make informed decisions about which groups to join.',
+    //   icon: '🔍',
+    //   keywords: 'discover subscription groups, find subscription groups, reliable subscription groups, Netflix subscription groups, Spotify subscription groups, group discovery, find reliable groups',
+    //   benefits: [
+    //     'Search for subscription groups by platform or name',
+    //     'See health metrics and reliability scores before joining',
+    //     'Make informed decisions about which groups to join',
+    //     'Find groups where members consistently pay on time',
+    //     'Avoid unreliable groups with poor payment history'
+    //   ]
+    // },
     {
       slug: 'weddings',
       title: 'For Weddings',
@@ -203,11 +217,11 @@ export default function UseCasesPage() {
               shared subscriptions, or planning events, we have a solution tailored to your needs. Explore our use cases 
               to discover how different groups use GroupFund to simplify their contribution management.
             </p>
-            <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+            {/* <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <span style={{ padding: '0.5rem 1rem', backgroundColor: '#e7f3ff', borderRadius: '20px', fontSize: '0.9rem', fontWeight: '500' }}>Birthday Groups</span>
               <span style={{ padding: '0.5rem 1rem', backgroundColor: '#e7f3ff', borderRadius: '20px', fontSize: '0.9rem', fontWeight: '500' }}>Subscription Groups</span>
               <span style={{ padding: '0.5rem 1rem', backgroundColor: '#e7f3ff', borderRadius: '20px', fontSize: '0.9rem', fontWeight: '500' }}>General Groups</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="use-cases-grid">

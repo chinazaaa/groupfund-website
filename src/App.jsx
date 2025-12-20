@@ -75,6 +75,7 @@ import SubscriptionDeadlineManagementPage from './pages/SubscriptionDeadlineMana
 import AdminAccountDetailsGuidePage from './pages/AdminAccountDetailsGuidePage'
 import OrganizingInternationalGroupContributionsPage from './pages/OrganizingInternationalGroupContributionsPage'
 import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaymentSchedulesPage'
+import DiscoveringSubscriptionGroupsPage from './pages/DiscoveringSubscriptionGroupsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -238,6 +239,7 @@ function App() {
         <Route path="/resources/admin-account-details-guide" element={<Layout><AdminAccountDetailsGuidePage /></Layout>} />
         <Route path="/resources/organizing-international-group-contributions" element={<Layout><OrganizingInternationalGroupContributionsPage /></Layout>} />
         <Route path="/resources/subscription-group-payment-schedules" element={<Layout><SubscriptionGroupPaymentSchedulesPage /></Layout>} />
+        <Route path="/resources/discovering-subscription-groups" element={<Layout><DiscoveringSubscriptionGroupsPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
