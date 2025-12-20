@@ -80,6 +80,18 @@ export default function FAQPage() {
       answer: "Subscription Groups are for managing shared subscriptions like Netflix, Spotify, etc. You set the subscription platform name, choose monthly or annual frequency, set a deadline day (and month for annual subscriptions), and set the contribution amount. Members contribute to the admin (group creator) who pays for the subscription. You'll get reminders before subscription deadlines."
     },
     {
+      question: "Can I discover and join public subscription groups?",
+      answer: "Yes! You can search for and discover public subscription groups. Search by platform name (like 'Netflix' or 'Spotify') or group name to find groups you want to join. Search results show group health metrics, member count, and whether you're already a member. Groups are private by default - only subscription groups can be made public by their admins. This helps you find reliable groups for shared subscriptions."
+    },
+    {
+      question: "How do I know if a discovered group is reliable?",
+      answer: "When you search for groups, each result shows health metrics including health score, compliance rate, and health rating (healthy, mostly_healthy, moderate, unhealthy, or new). These metrics are calculated based on on-time contributions vs. overdue contributions and member compliance rates. You can see this information before requesting to join, so you know who will pay and who won't."
+    },
+    {
+      question: "How do I make my subscription group discoverable?",
+      answer: "As a group admin, you can make your subscription group public (discoverable) by updating the group settings and setting 'isPublic' to true. Only subscription groups can be made public. Your group remains private by default for privacy. When you make it public, others can search for and discover your group, but you still need to approve all join requests."
+    },
+    {
       question: "How do General Groups work?",
       answer: "General Groups are for any purpose - weddings, baby showers, events, or anything else. You set a contribution amount, optional deadline date, and maximum members. Members contribute to the admin (group creator) who manages the funds. You'll get reminders before deadlines (if set) and overdue reminders if deadlines pass."
     },

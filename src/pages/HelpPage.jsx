@@ -145,6 +145,18 @@ export default function HelpPage() {
         {
           question: "How does the birthday wishlist claiming feature work?",
           answer: "For Birthday Groups, celebrants can create and share a birthday wishlist with items they'd like to receive. Group members can view the wishlist and claim items they want to gift. When a member claims an item, it shows as 'claimed' so others know it's taken. The celebrant can see which items have been claimed and by whom, and can mark items as 'done' when received. This helps avoid duplicate gifts and ensures the celebrant gets items they actually want."
+        },
+        {
+          question: "How do I discover and join public subscription groups?",
+          answer: "You can search for public subscription groups by platform name (like 'Netflix', 'Spotify') or group name. Search results show group health metrics, member count, contribution amount, and whether you're already a member. Each result displays health ratings (healthy, mostly_healthy, moderate, unhealthy, or new) so you can see group reliability before joining. Groups are private by default - only subscription groups can be made public by their admins."
+        },
+        {
+          question: "What do group health metrics mean in search results?",
+          answer: "Group health metrics show how reliable a group is. Health ratings include: 'healthy' (excellent compliance), 'mostly_healthy' (good compliance), 'moderate' (some issues), 'unhealthy' (poor compliance), and 'new' (insufficient data). These are calculated based on on-time contributions vs. overdue contributions and member compliance rates. Higher health scores mean more reliable groups where members consistently pay on time."
+        },
+        {
+          question: "How do I make my subscription group discoverable?",
+          answer: "As a group admin, you can make your subscription group public (discoverable) by updating the group settings. Set 'isPublic' to true in your group settings. Only subscription groups can be made public - birthday and general groups remain private. Your group is private by default. When public, others can search for and discover your group, but you still need to approve all join requests to maintain control."
         }
       ]
     },

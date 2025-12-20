@@ -13,8 +13,8 @@ export default function HowItWorksPage() {
     },
     {
       number: '2',
-      title: 'Choose Group Type & Create',
-      description: 'Create Birthday Groups (for birthdays), Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Preview existing groups using invite codes and see member reliability scores before joining.',
+      title: 'Choose Group Type & Create or Discover',
+      description: 'Create Birthday Groups (for birthdays), Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Preview existing groups using invite codes and see member reliability scores before joining. For subscription groups, you can also search for and discover public groups by platform name or group name, and see health metrics before joining.',
       icon: '👥'
     },
     {
@@ -65,7 +65,7 @@ export default function HowItWorksPage() {
     <>
       <SEO
         title="How GroupFund Works - Simple Steps to Organize Group Contributions"
-        description="Learn how GroupFund works in 9 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, and two-step contribution confirmation. Perfect for birthdays, subscriptions, and any group purpose."
+        description="Learn how GroupFund works in 9 simple steps: sign up & verify, create/join/discover groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, and two-step contribution confirmation. Perfect for birthdays, subscriptions, and any group purpose."
         keywords="how groupfund works, group contribution app, birthday groups, subscription groups, general groups, group payment tracking, member reliability scores, group health metrics, contribution confirmation, two-step payment process, how to organize group contributions, group wallet tutorial"
         canonical="https://groupfund.app/how-it-works"
       />
