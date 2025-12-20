@@ -184,6 +184,12 @@ export default function PricingPage() {
                 <div className="comparison-cell">✗ No</div>
               </div>
               <div className="comparison-row">
+                <div className="comparison-cell">Multiple Group Types</div>
+                <div className="comparison-cell highlight">✓ Yes</div>
+                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell">✗ No</div>
+              </div>
+              <div className="comparison-row">
                 <div className="comparison-cell">Transparency</div>
                 <div className="comparison-cell highlight">✓ Full</div>
                 <div className="comparison-cell">✗ Limited</div>
