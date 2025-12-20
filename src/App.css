@@ -4143,54 +4143,73 @@
   text-align: center;
 }
 
-.comparison-table {
+.group-types-comparison .comparison-table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   background: white;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   margin-bottom: 40px;
+  table-layout: auto;
 }
 
-.comparison-table thead {
+.group-types-comparison .comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.group-types-comparison .comparison-table thead {
   background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
   color: white;
 }
 
-.comparison-table th {
+.group-types-comparison .comparison-table th {
   padding: 20px;
   text-align: left;
   font-weight: 700;
   font-size: 1rem;
+  white-space: nowrap;
 }
 
-.comparison-table th:first-child {
+.group-types-comparison .comparison-table th:first-child {
   font-weight: 800;
+  width: 30%;
 }
 
-.comparison-table tbody tr {
+.group-types-comparison .comparison-table th:not(:first-child) {
+  width: 23.33%;
+}
+
+.group-types-comparison .comparison-table tbody tr {
   border-bottom: 1px solid #e2e8f0;
   transition: background 0.2s ease;
 }
 
-.comparison-table tbody tr:hover {
+.group-types-comparison .comparison-table tbody tr:hover {
   background: #f8fafc;
 }
 
-.comparison-table tbody tr:last-child {
+.group-types-comparison .comparison-table tbody tr:last-child {
   border-bottom: none;
 }
 
-.comparison-table td {
+.group-types-comparison .comparison-table td {
   padding: 20px;
   font-size: 1rem;
   color: #64748b;
+  white-space: nowrap;
 }
 
-.comparison-table td:first-child {
+.group-types-comparison .comparison-table td:first-child {
   font-weight: 600;
   color: #0f172a;
+  width: 30%;
+}
+
+.group-types-comparison .comparison-table td:not(:first-child) {
+  width: 23.33%;
 }
 
 .group-type-detail-page {
@@ -4313,13 +4332,14 @@
     font-size: 3rem;
   }
 
-  .comparison-table {
+  .group-types-comparison .comparison-table {
     font-size: 0.9rem;
   }
 
-  .comparison-table th,
-  .comparison-table td {
+  .group-types-comparison .comparison-table th,
+  .group-types-comparison .comparison-table td {
     padding: 12px 8px;
+    white-space: normal;
   }
 
   .group-types-comparison h2 {

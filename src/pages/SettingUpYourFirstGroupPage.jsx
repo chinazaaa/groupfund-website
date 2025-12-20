@@ -166,7 +166,7 @@ export default function SettingUpYourFirstGroupPage() {
               <ul className="resource-list">
                 <li>Celebrants can add their bank account details</li>
                 <li>Bank details are displayed to members when it's time to contribute</li>
-                <li>Members transfer directly to celebrants' accounts</li>
+                <li>Members transfer directly to celebrants' or admins' accounts</li>
                 <li>GroupFund tracks the payments but doesn't process them</li>
               </ul>
             </div>
@@ -201,7 +201,7 @@ export default function SettingUpYourFirstGroupPage() {
               
               <h3>Do I need to add all birthdays at once?</h3>
               <p>
-                No, you can add birthdays gradually. Members can also add their own birthdays when they join.
+                No. Members can add their own birthday to their profile.
               </p>
 
               <h3>Can I change the contribution amount later?</h3>
@@ -216,7 +216,7 @@ export default function SettingUpYourFirstGroupPage() {
 
               <h3>How do I know if someone paid?</h3>
               <p>
-                Members mark payments as "Paid" after transferring. Celebrants then confirm receipt. You can see all statuses in the app.
+                Members mark payments as "Paid" after transferring. Celebrants or admins then confirm receipt. You can see all statuses in the app.
               </p>
             </div>
 
