@@ -93,7 +93,19 @@ export default function FAQPage() {
     },
     {
       question: "Can I export payment history?",
-      answer: "Not at the moment. We're working on it."
+      answer: "Not at the moment. We're working on it. Once available, you'll be able to export your contribution history for record-keeping and transparency purposes."
+    },
+    {
+      question: "Can I change contribution amounts after creating a group?",
+      answer: "Not currently. We are working on this feature. For now, contribution amounts are set when you create the group and cannot be changed. When this feature becomes available, changes to contribution amounts will apply to future contributions, and members will be notified of updates."
+    },
+    {
+      question: "How does the birthday wishlist claiming feature work?",
+      answer: "For Birthday Groups, celebrants can create and share a birthday wishlist with items they'd like to receive. Group members can view the wishlist and claim items they want to gift. When a member claims an item, it shows as 'claimed' so others know it's taken. The celebrant can see which items have been claimed and by whom, and can mark items as 'done' when received. This helps avoid duplicate gifts and ensures the celebrant gets items they actually want."
+    },
+    {
+      question: "How do I customize notification preferences?",
+      answer: "You can customize notification preferences in your account settings. For Birthday Groups, you can choose to receive reminders 7 days before, 1 day before, and/or on the same day. For Subscription and General Groups, you can customize reminders before deadlines. You can also choose which notification channels to use (in-app, push, email) and which notification types you want to receive (birthday wishes, overdue reminders, member requests, confirmations, group updates). You can enable or disable specific notification types based on your preferences."
     },
     {
       question: "What if I need help or have questions?",

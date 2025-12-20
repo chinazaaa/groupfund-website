@@ -107,7 +107,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Transparent History",
-      description: "View complete contribution history for each member. See received contributions, payment confirmations, and export records for your own record-keeping and transparency.",
+      description: "View complete contribution history for each member. See received contributions, payment confirmations, and track all contributions for transparency. Export functionality coming soon.",
       icon: "📋"
     },
     {

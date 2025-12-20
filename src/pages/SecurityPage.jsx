@@ -67,6 +67,7 @@ export default function SecurityPage() {
                 <li><strong>OTP Verification:</strong> One-Time Password (OTP) verification via email ensures account authenticity. You'll receive an OTP code when signing up or when verification is required. OTPs expire after a short period for security</li>
                 <li><strong>Secure Passwords:</strong> We require strong passwords and use secure hashing algorithms to store them. Passwords are never stored in plain text</li>
                 <li><strong>Password Reset:</strong> Reset passwords securely via OTP sent to your email. This ensures only authorized users can reset account passwords</li>
+                <li><strong>Change Password:</strong> If you're logged in, you can change your password from your account settings. You'll need to enter your current password and then set a new one. This helps keep your account secure and allows you to update your password regularly</li>
                 <li><strong>JWT Authentication:</strong> Secure login using JSON Web Tokens (JWT) that are cryptographically signed and expire after periods of inactivity</li>
                 <li><strong>Multi-Factor Authentication:</strong> Available as an additional layer of security for your account</li>
                 <li><strong>Session Management:</strong> Secure session tokens that expire after periods of inactivity. You'll be automatically logged out for security</li>

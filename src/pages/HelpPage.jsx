@@ -22,7 +22,7 @@ export default function HelpPage() {
         },
         {
           question: "How do I sign up?",
-          answer: "You can sign up with either your email address. After entering your details, you'll receive an OTP (One-Time Password) via email to verify your account. Enter the OTP code to complete verification. If you don't receive it, you can request a resend."
+          answer: "You can sign up with your email address. After entering your details, you'll receive an OTP (One-Time Password) via email to verify your account. Enter the OTP code to complete verification. If you don't receive it, you can request a resend."
         },
         {
           question: "Do I need to pay to use GroupFund?",
@@ -69,6 +69,10 @@ export default function HelpPage() {
         {
           question: "Can I see past contributions and contribution history?",
           answer: "Yes! For Birthday Groups, the birthday calendar shows both upcoming and past birthdays. For all group types, you can view complete contribution history for each member, including received contributions, payment confirmations, overdue contributions, and payment statuses. This helps maintain transparency and track long-term participation."
+        },
+        {
+          question: "Can I export payment history?",
+          answer: "Not at the moment. We're working on it. Once available, you'll be able to export your contribution history for record-keeping and transparency purposes."
         }
       ]
     },
@@ -132,11 +136,15 @@ export default function HelpPage() {
         },
         {
           question: "Can I update group settings?",
-          answer: "Yes, group administrators can update group settings including the group name, contribution amount, maximum members, and whether the group is accepting new requests. Changes to contribution amounts will apply to future contributions, and members will be notified of updates."
+          answer: "Yes, group administrators can update group settings including the group name, maximum members, and whether the group is accepting new requests. However, changing contribution amounts is not currently available. We are working on this feature. When it becomes available, changes to contribution amounts will apply to future contributions, and members will be notified of updates."
         },
         {
           question: "Can members see each other's information?",
           answer: "Group members can see who has contributed, payment statuses, and member reliability scores. This transparency helps maintain trust and accountability within the group."
+        },
+        {
+          question: "How does the birthday wishlist claiming feature work?",
+          answer: "For Birthday Groups, celebrants can create and share a birthday wishlist with items they'd like to receive. Group members can view the wishlist and claim items they want to gift. When a member claims an item, it shows as 'claimed' so others know it's taken. The celebrant can see which items have been claimed and by whom, and can mark items as 'done' when received. This helps avoid duplicate gifts and ensures the celebrant gets items they actually want."
         }
       ]
     },
@@ -154,7 +162,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I customize reminder settings?",
-          answer: "Yes, you can adjust reminder preferences in your settings. Choose when you want to receive reminders (7 days before, 1 day before, same day), which notification channels to use (in-app, push, email), and which notification types you want to receive."
+          answer: "Yes, you can adjust reminder preferences in your settings. Choose when you want to receive reminders (7 days before, 1 day before, same day), which notification channels to use (in-app, push, email), and which notification types you want to receive. For Birthday Groups, you can customize reminder preferences for 7 days before, 1 day before, and same day reminders. For Subscription and General Groups, you can customize reminders before deadlines. You can also choose to receive or disable specific notification types like birthday wishes, overdue reminders, member requests, confirmations, and group updates."
         },
         {
           question: "How do I manage in-app notifications?",
