@@ -45,7 +45,7 @@ export default function GroupTypesPage() {
                 <li>✓ Perfect for families and friend groups</li>
               </ul>
               <div className="group-type-cta">
-                <Link to="/group-types/birthday-groups" className="btn btn-primary">Learn More About Birthday Groups →</Link>
+                <Link to="/group-types/birthday-groups" className="btn btn-primary">Learn More →</Link>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ export default function GroupTypesPage() {
                 <li>✓ No birthday required</li>
               </ul>
               <div className="group-type-cta">
-                <Link to="/group-types/subscription-groups" className="btn btn-primary">Learn More About Subscription Groups →</Link>
+                <Link to="/group-types/subscription-groups" className="btn btn-primary">Learn More →</Link>
               </div>
             </div>
 
@@ -81,7 +81,7 @@ export default function GroupTypesPage() {
                 <li>✓ Perfect for one-time events</li>
               </ul>
               <div className="group-type-cta">
-                <Link to="/group-types/general-groups" className="btn btn-primary">Learn More About General Groups →</Link>
+                <Link to="/group-types/general-groups" className="btn btn-primary">Learn More →</Link>
               </div>
             </div>
           </div>
