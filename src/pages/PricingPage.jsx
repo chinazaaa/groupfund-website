@@ -129,7 +129,7 @@ export default function PricingPage() {
           <div className="pricing-value-section">
             <h2>Why GroupFund is Free</h2>
             <p>
-              We believe that organizing group contributions shouldn't cost money. GroupFund is free because we want to make group organization accessible to everyone—families, churches, schools, friend groups, workplaces, and community organizations.
+              We believe that organizing group contributions shouldn't cost money. GroupFund is free because we want to make group organization accessible to everyone, including families, churches, schools, friend groups, workplaces, and community organizations.
             </p>
             <p>
               Our mission is to end group contribution chaos, and charging for basic organization would go against that mission. That's why GroupFund will always be free for organizing group contributions.
