@@ -155,6 +155,7 @@ export default function AdminGroups() {
                 <thead>
                   <tr>
                     <th>Name</th>
+                    <th>Type</th>
                     <th>Invite Code</th>
                     <th>Contribution</th>
                     <th>Currency</th>
@@ -169,6 +170,11 @@ export default function AdminGroups() {
                   {groups.map(group => (
                     <tr key={group.id}>
                       <td>{group.name}</td>
+                      <td>
+                        <span className={`badge ${getGroupTypeBadge(group.group_type)}`}>
+                          {getGroupTypeLabel(group.group_type)}
+                        </span>
+                      </td>
                       <td><code>{group.invite_code}</code></td>
                       <td>{formatCurrency(group.contribution_amount, group.currency || 'NGN')}</td>
                       <td>{group.currency || 'NGN'}</td>
@@ -378,5 +384,24 @@ function formatDate(dateString) {
     month: 'short',
     day: 'numeric',
   })
+}
+
+function getGroupTypeLabel(type) {
+  if (!type) return 'N/A'
+  const labels = {
+    birthday: 'Birthday',
+    subscription: 'Subscription',
+    general: 'General',
+  }
+  return labels[type] || type.charAt(0).toUpperCase() + type.slice(1)
+}
+
+function getGroupTypeBadge(type) {
+  const badges = {
+    birthday: 'badge-primary',
+    subscription: 'badge-info',
+    general: 'badge-secondary',
+  }
+  return badges[type] || 'badge-secondary'
 }
 

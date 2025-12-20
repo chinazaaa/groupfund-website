@@ -76,7 +76,8 @@ export default function AdminContributions() {
                 <thead>
                   <tr>
                     <th>Amount</th>
-                    <th> User</th>
+                    <th>Type</th>
+                    <th>User</th>
                     <th>Contributor</th>
                     <th>Group</th>
                     <th>Date</th>
@@ -88,6 +89,11 @@ export default function AdminContributions() {
                   {contributions.map(contribution => (
                     <tr key={contribution.id}>
                       <td>{formatCurrency(contribution.amount, contribution.currency || 'NGN')}</td>
+                      <td>
+                        <span className={`badge ${getGroupTypeBadge(contribution.group_type)}`}>
+                          {getGroupTypeLabel(contribution.group_type)}
+                        </span>
+                      </td>
                       <td>{contribution.birthday_user_name}</td>
                       <td>{contribution.contributor_name}</td>
                       <td>{contribution.group_name}</td>
@@ -165,5 +171,24 @@ function formatDate(dateString) {
     month: 'short',
     day: 'numeric',
   })
+}
+
+function getGroupTypeLabel(type) {
+  if (!type) return 'N/A'
+  const labels = {
+    birthday: 'Birthday',
+    subscription: 'Subscription',
+    general: 'General',
+  }
+  return labels[type] || type.charAt(0).toUpperCase() + type.slice(1)
+}
+
+function getGroupTypeBadge(type) {
+  const badges = {
+    birthday: 'badge-primary',
+    subscription: 'badge-info',
+    general: 'badge-secondary',
+  }
+  return badges[type] || 'badge-secondary'
 }
 
