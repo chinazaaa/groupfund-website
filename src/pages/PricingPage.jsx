@@ -143,57 +143,57 @@ export default function PricingPage() {
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Cost</div>
-                <div className="comparison-cell highlight">Free</div>
-                <div className="comparison-cell">Free</div>
-                <div className="comparison-cell">Free</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">Free</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">Free</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">Free</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Automatic Reminders</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
-                <div className="comparison-cell">✗ Manual</div>
-                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ Manual</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Payment Tracking</div>
-                <div className="comparison-cell highlight">✓ Real-time</div>
-                <div className="comparison-cell">✗ Manual</div>
-                <div className="comparison-cell">✗ Manual</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Real-time</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ Manual</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ Manual</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Member Reliability Scores</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
-                <div className="comparison-cell">✗ No</div>
-                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Multi-Currency Support</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
-                <div className="comparison-cell">✗ No</div>
-                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Group Health Metrics</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
-                <div className="comparison-cell">✗ No</div>
-                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Mobile App</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
-                <div className="comparison-cell">✓ Yes</div>
-                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✓ Yes</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Multiple Group Types</div>
-                <div className="comparison-cell highlight">✓ Yes</div>
-                <div className="comparison-cell">✗ No</div>
-                <div className="comparison-cell">✗ No</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Transparency</div>
-                <div className="comparison-cell highlight">✓ Full</div>
-                <div className="comparison-cell">✗ Limited</div>
-                <div className="comparison-cell">✗ Limited</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Full</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ Limited</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ Limited</div>
               </div>
             </div>
           </div>

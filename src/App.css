@@ -2990,12 +2990,26 @@
   .comparison-cell {
     padding: 16px;
     border-bottom: 1px solid #e2e8f0;
+    position: relative;
+    padding-left: 140px;
   }
 
   .comparison-cell:first-child {
     background: #f8fafc;
     font-weight: 700;
     color: #0f172a;
+    padding-left: 16px;
+  }
+
+  .comparison-cell[data-label]::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #0f172a;
+    width: 120px;
   }
 
   .comparison-cell.highlight {
