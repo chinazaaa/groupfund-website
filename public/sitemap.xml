@@ -550,6 +550,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://groupfund.app/resources/discovering-subscription-groups</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://groupfund.app/help</loc>
     <lastmod>2025-12-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -647,6 +653,12 @@
   </url>
   <url>
     <loc>https://groupfund.app/blog/how-birthday-wishlists-make-gift-giving-easier</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://groupfund.app/blog/how-group-discovery-helps-find-reliable-subscription-groups</loc>
     <lastmod>2025-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

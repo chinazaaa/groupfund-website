@@ -26,6 +26,7 @@ const blogPosts = [
   'tips-fair-birthday-contribution-management',
   'churches-streamline-member-birthday-contributions',
   'how-birthday-wishlists-make-gift-giving-easier',
+  'how-group-discovery-helps-find-reliable-subscription-groups',
   'how-to-manage-shared-subscriptions-subscription-groups',
   'organizing-group-contributions-weddings-events',
   'subscription-groups-vs-manual-payment-tracking',
@@ -582,6 +583,12 @@ const pages = [
   },
   {
     url: '/resources/subscription-group-payment-schedules',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/discovering-subscription-groups',
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate
