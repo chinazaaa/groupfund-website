@@ -245,11 +245,24 @@ export default function AdminReports() {
                         <td>{getReportTypeBadge(report.report_type)}</td>
                         <td>{getReasonBadge(report.reason)}</td>
                         <td>
-                          {(report.reporter?.name || report.reporter_name) || (report.reporter?.email || report.reporter_email) || 'Anonymous'}
-                          {(report.reporter?.email || report.reporter_email) && (
-                            <div style={{ fontSize: '0.75rem', color: '#666' }}>
-                              {report.reporter?.email || report.reporter_email}
-                            </div>
+                          {report.reporter?.anonymous ? (
+                            <span style={{ fontStyle: 'italic', color: '#64748b' }}>
+                              Anonymous
+                              {report.reporter?.note && (
+                                <div style={{ fontSize: '0.75rem', color: '#666', marginTop: '4px' }}>
+                                  {report.reporter.note}
+                                </div>
+                              )}
+                            </span>
+                          ) : (
+                            <>
+                              {(report.reporter?.name || report.reporter_name) || (report.reporter?.email || report.reporter_email) || 'N/A'}
+                              {(report.reporter?.email || report.reporter_email) && (
+                                <div style={{ fontSize: '0.75rem', color: '#666' }}>
+                                  {report.reporter?.email || report.reporter_email}
+                                </div>
+                              )}
+                            </>
                           )}
                         </td>
                         <td>
@@ -343,17 +356,31 @@ export default function AdminReports() {
 
                 <div className="admin-detail-section">
                   <h3>Reporter Information</h3>
-                  <div className="admin-detail-grid">
-                    <div>
-                      <strong>Name:</strong> {selectedReport.reporter?.name || selectedReport.reporter_name || 'N/A'}
+                  {selectedReport.reporter?.anonymous ? (
+                    <div style={{ padding: '1rem', backgroundColor: '#f5f5f5', borderRadius: '4px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                        <strong style={{ color: '#64748b' }}>Anonymous Report</strong>
+                        <span className="badge badge-secondary" style={{ fontSize: '0.75rem' }}>Public/Website</span>
+                      </div>
+                      {selectedReport.reporter?.note && (
+                        <p style={{ margin: 0, fontSize: '0.9rem', color: '#64748b', fontStyle: 'italic' }}>
+                          {selectedReport.reporter.note}
+                        </p>
+                      )}
                     </div>
-                    <div>
-                      <strong>Email:</strong> {selectedReport.reporter?.email || selectedReport.reporter_email || 'N/A'}
+                  ) : (
+                    <div className="admin-detail-grid">
+                      <div>
+                        <strong>Name:</strong> {selectedReport.reporter?.name || selectedReport.reporter_name || 'N/A'}
+                      </div>
+                      <div>
+                        <strong>Email:</strong> {selectedReport.reporter?.email || selectedReport.reporter_email || 'N/A'}
+                      </div>
+                      <div>
+                        <strong>User ID:</strong> {selectedReport.reporter?.id || selectedReport.reporter_id || 'N/A'}
+                      </div>
                     </div>
-                    <div>
-                      <strong>User ID:</strong> {selectedReport.reporter?.id || selectedReport.reporter_id || 'N/A'}
-                    </div>
-                  </div>
+                  )}
                 </div>
 
                 {selectedReport.report_type === 'group' ? (

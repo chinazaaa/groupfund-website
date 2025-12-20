@@ -11,12 +11,88 @@ export default function ReportPage() {
   const [memberId, setMemberId] = useState('')
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    // In a real implementation, this would call the API
-    // For now, we'll just show a success message
-    setSubmitted(true)
+    setError('')
+    setLoading(true)
+
+    try {
+      const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://groupfund-backend.onrender.com/api'
+      
+      let endpoint
+      let body
+
+      if (reportType === 'group') {
+        if (!groupId.trim()) {
+          throw new Error('Group name is required')
+        }
+        endpoint = `${API_BASE_URL}/reports/group/${encodeURIComponent(groupId.trim())}/public`
+        body = {
+          reason,
+          description: description.trim(),
+          ...(email.trim() && { email: email.trim() })
+        }
+      } else {
+        if (!memberId.trim() || !groupId.trim()) {
+          throw new Error('Member name and group name are required')
+        }
+        endpoint = `${API_BASE_URL}/reports/member/${encodeURIComponent(memberId.trim())}/public`
+        body = {
+          groupId: groupId.trim(), // Backend expects camelCase 'groupId', not 'group_id'
+          reason,
+          description: description.trim(),
+          ...(email.trim() && { email: email.trim() })
+        }
+      }
+
+      if (!reason) {
+        throw new Error('Please select a reason for the report')
+      }
+
+      if (!description.trim()) {
+        throw new Error('Please provide a description')
+      }
+
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        // Handle validation errors
+        if (data.errors && Array.isArray(data.errors)) {
+          const errorMessages = data.errors.map(err => err.msg || err.message || err.param + ': ' + err.msg).join(', ')
+          throw new Error(errorMessages)
+        }
+        // Handle error with details if available
+        const errorMessage = data.error || data.message || 'Failed to submit report'
+        const details = data.details ? ` (${data.details})` : ''
+        throw new Error(errorMessage + details)
+      }
+
+      // Success - the response should include status field
+      setSubmitted(true)
+      
+      // Reset form
+      setReportType('group')
+      setReason('')
+      setDescription('')
+      setGroupId('')
+      setMemberId('')
+      setEmail('')
+    } catch (err) {
+      setError(err.message || 'Failed to submit report. Please try again.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   const reportReasons = [
@@ -84,6 +160,11 @@ export default function ReportPage() {
             {!submitted ? (
               <div className="legal-section">
                 <h2>Submit a Report</h2>
+                {error && (
+                  <div style={{ marginBottom: '1.5rem', padding: '1rem', backgroundColor: '#fee2e2', borderLeft: '4px solid #ef4444', borderRadius: '4px', color: '#991b1b' }}>
+                    {error}
+                  </div>
+                )}
                 <form onSubmit={handleSubmit} style={{ maxWidth: '600px' }}>
                   <div style={{ marginBottom: '1.5rem' }}>
                     <label htmlFor="reportType" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '600' }}>
@@ -205,8 +286,9 @@ export default function ReportPage() {
                     type="submit"
                     className="btn btn-primary btn-large"
                     style={{ width: '100%' }}
+                    disabled={loading}
                   >
-                    Submit Report
+                    {loading ? 'Submitting...' : 'Submit Report'}
                   </button>
                 </form>
               </div>
