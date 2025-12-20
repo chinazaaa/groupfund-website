@@ -112,6 +112,7 @@ export default function SitemapPage() {
         { path: "/resources/advanced-group-management-strategies", label: "Advanced Group Management Strategies" },
         { path: "/resources/optimizing-payment-confirmation-workflows", label: "Optimizing Payment Confirmation Workflows" },
         { path: "/resources/using-birthday-wishlists", label: "How to Use Birthday Wishlists" },
+        { path: "/resources/setting-up-birthday-groups", label: "Setting Up Birthday Groups" },
         { path: "/resources/setting-up-subscription-groups", label: "Setting Up Subscription Groups" },
         { path: "/resources/creating-general-groups-for-events", label: "Creating General Groups for Events" },
         { path: "/resources/subscription-group-best-practices", label: "Subscription Group Best Practices" },

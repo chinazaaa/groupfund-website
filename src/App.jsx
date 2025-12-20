@@ -65,6 +65,7 @@ import BudgetingForGroupContributionsPage from './pages/BudgetingForGroupContrib
 import ChoosingTheRightContributionAmountPage from './pages/ChoosingTheRightContributionAmountPage'
 import AdvancedGroupManagementStrategiesPage from './pages/AdvancedGroupManagementStrategiesPage'
 import OptimizingPaymentConfirmationWorkflowsPage from './pages/OptimizingPaymentConfirmationWorkflowsPage'
+import SettingUpBirthdayGroupsPage from './pages/SettingUpBirthdayGroupsPage'
 import SettingUpSubscriptionGroupsPage from './pages/SettingUpSubscriptionGroupsPage'
 import CreatingGeneralGroupsForEventsPage from './pages/CreatingGeneralGroupsForEventsPage'
 import SubscriptionGroupBestPracticesPage from './pages/SubscriptionGroupBestPracticesPage'
@@ -227,6 +228,7 @@ function App() {
         <Route path="/resources/advanced-group-management-strategies" element={<Layout><AdvancedGroupManagementStrategiesPage /></Layout>} />
         <Route path="/resources/optimizing-payment-confirmation-workflows" element={<Layout><OptimizingPaymentConfirmationWorkflowsPage /></Layout>} />
         <Route path="/resources/using-birthday-wishlists" element={<Layout><UsingBirthdayWishlistsPage /></Layout>} />
+        <Route path="/resources/setting-up-birthday-groups" element={<Layout><SettingUpBirthdayGroupsPage /></Layout>} />
         <Route path="/resources/setting-up-subscription-groups" element={<Layout><SettingUpSubscriptionGroupsPage /></Layout>} />
         <Route path="/resources/creating-general-groups-for-events" element={<Layout><CreatingGeneralGroupsForEventsPage /></Layout>} />
         <Route path="/resources/subscription-group-best-practices" element={<Layout><SubscriptionGroupBestPracticesPage /></Layout>} />

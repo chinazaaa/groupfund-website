@@ -110,6 +110,14 @@ export default function ResourcesPage() {
       readTime: '10 min read'
     },
     {
+      slug: 'setting-up-birthday-groups',
+      title: 'Setting Up Birthday Groups',
+      description: 'Complete guide to creating and managing Birthday Groups. Learn how to add birthdays, set up wishlists, configure reminders, and organize birthday contributions effectively.',
+      icon: '🎂',
+      category: 'Getting Started',
+      readTime: '6 min read'
+    },
+    {
       slug: 'setting-up-subscription-groups',
       title: 'Setting Up Subscription Groups',
       description: 'Complete guide to creating and managing Subscription Groups. Learn how to set up shared subscriptions, configure payment schedules, and manage admin account details.',

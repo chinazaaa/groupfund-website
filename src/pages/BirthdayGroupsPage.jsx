@@ -89,7 +89,7 @@ export default function BirthdayGroupsPage() {
               <p>Start organizing birthday contributions effortlessly with GroupFund.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
-                <Link to="/resources/setting-up-your-first-group" className="btn btn-secondary btn-large">Setting Up Your First Group →</Link>
+                <Link to="/resources/setting-up-birthday-groups" className="btn btn-secondary btn-large">Setting Up Birthday Groups →</Link>
               </div>
             </div>
 
