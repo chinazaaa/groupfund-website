@@ -26,7 +26,14 @@ export default function SitemapPage() {
         { path: "/use-cases/schools", label: "For Schools" },
         { path: "/use-cases/friend-groups", label: "For Friend Groups" },
         { path: "/use-cases/workplace", label: "For Workplace" },
-        { path: "/use-cases/community-organizations", label: "For Community Organizations" }
+        { path: "/use-cases/community-organizations", label: "For Community Organizations" },
+        { path: "/use-cases/shared-subscriptions", label: "For Shared Subscriptions" },
+        { path: "/use-cases/weddings", label: "For Weddings" },
+        { path: "/use-cases/baby-showers", label: "For Baby Showers" },
+        { path: "/use-cases/graduations", label: "For Graduations" },
+        { path: "/use-cases/sports-teams", label: "For Sports Teams" },
+        { path: "/use-cases/hobby-groups", label: "For Hobby Groups" },
+        { path: "/use-cases/alumni-associations", label: "For Alumni Associations" }
       ]
     },
     {
@@ -95,6 +102,16 @@ export default function SitemapPage() {
         { path: "/resources/choosing-the-right-contribution-amount", label: "Choosing the Right Contribution Amount" },
         { path: "/resources/advanced-group-management-strategies", label: "Advanced Group Management Strategies" },
         { path: "/resources/optimizing-payment-confirmation-workflows", label: "Optimizing Payment Confirmation Workflows" },
+        { path: "/resources/using-birthday-wishlists", label: "How to Use Birthday Wishlists" },
+        { path: "/resources/setting-up-subscription-groups", label: "Setting Up Subscription Groups" },
+        { path: "/resources/creating-general-groups-for-events", label: "Creating General Groups for Events" },
+        { path: "/resources/subscription-group-best-practices", label: "Subscription Group Best Practices" },
+        { path: "/resources/managing-event-contributions", label: "Managing Event Contributions" },
+        { path: "/resources/choosing-between-group-types", label: "Choosing Between Group Types" },
+        { path: "/resources/subscription-deadline-management", label: "Subscription Deadline Management" },
+        { path: "/resources/admin-account-details-guide", label: "Admin Account Details Guide" },
+        { path: "/resources/organizing-international-group-contributions", label: "Organizing International Group Contributions" },
+        { path: "/resources/subscription-group-payment-schedules", label: "Subscription Group Payment Schedules" },
         { path: "/blog", label: "Blog" },
         { path: "/testimonials", label: "Testimonials" },
         { path: "/faq", label: "FAQ" },
@@ -137,7 +154,19 @@ export default function SitemapPage() {
         { path: "/blog/best-ways-collect-money-events-nigeria", label: "The Best Ways to Collect Money for Events in Nigeria" },
         { path: "/blog/groupfund-vs-traditional-methods-comparison", label: "GroupFund vs. Traditional Methods: A Comparison" },
         { path: "/blog/tips-fair-birthday-contribution-management", label: "5 Tips for Fair Group Contribution Management" },
-        { path: "/blog/churches-streamline-member-birthday-contributions", label: "How Churches Can Streamline Member Contributions" }
+        { path: "/blog/churches-streamline-member-birthday-contributions", label: "How Churches Can Streamline Member Contributions" },
+        { path: "/blog/how-birthday-wishlists-make-gift-giving-easier", label: "How Birthday Wishlists Make Gift Giving Easier for Groups" },
+        { path: "/blog/how-to-manage-shared-subscriptions-subscription-groups", label: "How to Manage Shared Subscriptions with Subscription Groups" },
+        { path: "/blog/organizing-group-contributions-weddings-events", label: "Organizing Group Contributions for Weddings and Events" },
+        { path: "/blog/subscription-groups-vs-manual-payment-tracking", label: "Subscription Groups vs. Manual Payment Tracking: Which is Better?" },
+        { path: "/blog/setting-up-first-subscription-group-step-by-step", label: "Setting Up Your First Subscription Group: Step-by-Step Guide" },
+        { path: "/blog/best-practices-general-groups-events-weddings", label: "Best Practices for General Groups: Events, Weddings, and More" },
+        { path: "/blog/how-to-collect-money-group-events-lagos-nigeria", label: "How to Collect Money for Group Events in Lagos, Nigeria" },
+        { path: "/blog/managing-multiple-subscription-groups-tips-strategies", label: "Managing Multiple Subscription Groups: Tips and Strategies" },
+        { path: "/blog/groupfund-vs-splitwise-group-payments-comparison", label: "GroupFund vs. Splitwise: Which is Better for Group Payments?" },
+        { path: "/blog/how-to-organize-baby-shower-contributions-general-groups", label: "How to Organize Baby Shower Contributions with General Groups" },
+        { path: "/blog/subscription-group-admin-guide-managing-shared-services", label: "Subscription Group Admin Guide: Managing Shared Services" },
+        { path: "/blog/complete-guide-group-contribution-types-birthday-subscription-general", label: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General" }
       ]
     }
   ]
