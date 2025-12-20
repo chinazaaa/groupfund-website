@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
     {
       number: '2',
       title: 'Choose Group Type & Create or Discover',
-      description: 'Create Birthday Groups (for birthdays), Subscription Groups (for shared subscriptions like Netflix, Spotify), or General Groups (for weddings, events, any purpose). Preview existing groups using invite codes and see member reliability scores before joining. For subscription groups, you can also search for and discover public groups by platform name or group name, and see health metrics before joining. ⚠️ Important: Verify the identity of group admins before joining. Only join groups with people you trust.',
+      description: 'Create Birthday Groups, Subscription Groups (Netflix, Spotify, etc.), or General Groups (weddings, events). Preview groups using invite codes to see reliability scores. For subscription groups, discover public groups by searching platform names. ⚠️ Verify admin identity before joining - only join groups with people you trust.',
       icon: '👥'
     },
     {
