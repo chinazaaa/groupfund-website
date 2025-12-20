@@ -158,7 +158,7 @@ export const adminApi = {
   },
 
   sendMonthlyNewsletter: () => {
-    return apiRequest('/admin/birthdays/send-monthly-newsletter', {
+    return apiRequest('/admin/contributions/send-monthly-newsletter', {
       method: 'POST',
     });
   },
