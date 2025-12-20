@@ -36,6 +36,13 @@ import SchoolsUseCasePage from './pages/SchoolsUseCasePage'
 import FriendGroupsUseCasePage from './pages/FriendGroupsUseCasePage'
 import WorkplaceUseCasePage from './pages/WorkplaceUseCasePage'
 import CommunityOrganizationsUseCasePage from './pages/CommunityOrganizationsUseCasePage'
+import SharedSubscriptionsUseCasePage from './pages/SharedSubscriptionsUseCasePage'
+import WeddingsUseCasePage from './pages/WeddingsUseCasePage'
+import BabyShowersUseCasePage from './pages/BabyShowersUseCasePage'
+import GraduationsUseCasePage from './pages/GraduationsUseCasePage'
+import SportsTeamsUseCasePage from './pages/SportsTeamsUseCasePage'
+import HobbyGroupsUseCasePage from './pages/HobbyGroupsUseCasePage'
+import AlumniAssociationsUseCasePage from './pages/AlumniAssociationsUseCasePage'
 import WhatsAppGroupsComparisonPage from './pages/WhatsAppGroupsComparisonPage'
 import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparisonPage'
 import GoogleSheetsComparisonPage from './pages/GoogleSheetsComparisonPage'
@@ -58,6 +65,15 @@ import BudgetingForGroupContributionsPage from './pages/BudgetingForGroupContrib
 import ChoosingTheRightContributionAmountPage from './pages/ChoosingTheRightContributionAmountPage'
 import AdvancedGroupManagementStrategiesPage from './pages/AdvancedGroupManagementStrategiesPage'
 import OptimizingPaymentConfirmationWorkflowsPage from './pages/OptimizingPaymentConfirmationWorkflowsPage'
+import SettingUpSubscriptionGroupsPage from './pages/SettingUpSubscriptionGroupsPage'
+import CreatingGeneralGroupsForEventsPage from './pages/CreatingGeneralGroupsForEventsPage'
+import SubscriptionGroupBestPracticesPage from './pages/SubscriptionGroupBestPracticesPage'
+import ManagingEventContributionsPage from './pages/ManagingEventContributionsPage'
+import ChoosingBetweenGroupTypesPage from './pages/ChoosingBetweenGroupTypesPage'
+import SubscriptionDeadlineManagementPage from './pages/SubscriptionDeadlineManagementPage'
+import AdminAccountDetailsGuidePage from './pages/AdminAccountDetailsGuidePage'
+import OrganizingInternationalGroupContributionsPage from './pages/OrganizingInternationalGroupContributionsPage'
+import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaymentSchedulesPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -142,6 +158,13 @@ function App() {
         <Route path="/use-cases/friend-groups" element={<Layout><FriendGroupsUseCasePage /></Layout>} />
         <Route path="/use-cases/workplace" element={<Layout><WorkplaceUseCasePage /></Layout>} />
         <Route path="/use-cases/community-organizations" element={<Layout><CommunityOrganizationsUseCasePage /></Layout>} />
+        <Route path="/use-cases/shared-subscriptions" element={<Layout><SharedSubscriptionsUseCasePage /></Layout>} />
+        <Route path="/use-cases/weddings" element={<Layout><WeddingsUseCasePage /></Layout>} />
+        <Route path="/use-cases/baby-showers" element={<Layout><BabyShowersUseCasePage /></Layout>} />
+        <Route path="/use-cases/graduations" element={<Layout><GraduationsUseCasePage /></Layout>} />
+        <Route path="/use-cases/sports-teams" element={<Layout><SportsTeamsUseCasePage /></Layout>} />
+        <Route path="/use-cases/hobby-groups" element={<Layout><HobbyGroupsUseCasePage /></Layout>} />
+        <Route path="/use-cases/alumni-associations" element={<Layout><AlumniAssociationsUseCasePage /></Layout>} />
         <Route path="/comparisons" element={<Layout><ComparisonsPage /></Layout>} />
         <Route path="/comparisons/whatsapp-groups" element={<Layout><WhatsAppGroupsComparisonPage /></Layout>} />
         <Route path="/comparisons/excel-spreadsheets" element={<Layout><ExcelSpreadsheetsComparisonPage /></Layout>} />
@@ -196,6 +219,15 @@ function App() {
         <Route path="/resources/advanced-group-management-strategies" element={<Layout><AdvancedGroupManagementStrategiesPage /></Layout>} />
         <Route path="/resources/optimizing-payment-confirmation-workflows" element={<Layout><OptimizingPaymentConfirmationWorkflowsPage /></Layout>} />
         <Route path="/resources/using-birthday-wishlists" element={<Layout><UsingBirthdayWishlistsPage /></Layout>} />
+        <Route path="/resources/setting-up-subscription-groups" element={<Layout><SettingUpSubscriptionGroupsPage /></Layout>} />
+        <Route path="/resources/creating-general-groups-for-events" element={<Layout><CreatingGeneralGroupsForEventsPage /></Layout>} />
+        <Route path="/resources/subscription-group-best-practices" element={<Layout><SubscriptionGroupBestPracticesPage /></Layout>} />
+        <Route path="/resources/managing-event-contributions" element={<Layout><ManagingEventContributionsPage /></Layout>} />
+        <Route path="/resources/choosing-between-group-types" element={<Layout><ChoosingBetweenGroupTypesPage /></Layout>} />
+        <Route path="/resources/subscription-deadline-management" element={<Layout><SubscriptionDeadlineManagementPage /></Layout>} />
+        <Route path="/resources/admin-account-details-guide" element={<Layout><AdminAccountDetailsGuidePage /></Layout>} />
+        <Route path="/resources/organizing-international-group-contributions" element={<Layout><OrganizingInternationalGroupContributionsPage /></Layout>} />
+        <Route path="/resources/subscription-group-payment-schedules" element={<Layout><SubscriptionGroupPaymentSchedulesPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
