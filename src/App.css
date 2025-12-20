@@ -2871,6 +2871,17 @@
   border: 1px solid #e2e8f0;
 }
 
+.pricing-comparison .comparison-table {
+  max-width: 100%;
+  width: 100%;
+}
+
+.pricing-comparison .comparison-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  border-bottom: 1px solid #e2e8f0;
+}
+
 .comparison-row {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -2966,6 +2977,10 @@
   .comparison-row {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+
+  .pricing-comparison .comparison-row {
+    grid-template-columns: 1fr;
   }
 
   .comparison-row.header {
