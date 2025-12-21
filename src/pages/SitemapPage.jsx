@@ -147,6 +147,15 @@ export default function SitemapPage() {
       ]
     },
     {
+      category: "Seasonal",
+      links: [
+        { path: "/seasonal", label: "Seasonal Overview" },
+        { path: "/seasonal/holiday-contributions", label: "Holiday Contributions" },
+        { path: "/seasonal/back-to-school-contributions", label: "Back to School Contributions" },
+        { path: "/seasonal/wedding-season-contributions", label: "Wedding Season Contributions" }
+      ]
+    },
+    {
       category: "Company",
       links: [
         { path: "/about", label: "About Us" },

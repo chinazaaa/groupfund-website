@@ -641,6 +641,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/seasonal',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/holiday-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/back-to-school-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/wedding-season-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/report',
     priority: '0.7',
     changefreq: 'monthly',

@@ -84,6 +84,10 @@ import IndustriesPage from './pages/IndustriesPage'
 import RealEstateIndustryPage from './pages/RealEstateIndustryPage'
 import HealthcareIndustryPage from './pages/HealthcareIndustryPage'
 import RetailIndustryPage from './pages/RetailIndustryPage'
+import SeasonalPage from './pages/SeasonalPage'
+import HolidayContributionsPage from './pages/HolidayContributionsPage'
+import BackToSchoolContributionsPage from './pages/BackToSchoolContributionsPage'
+import WeddingSeasonContributionsPage from './pages/WeddingSeasonContributionsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -257,6 +261,10 @@ function App() {
         <Route path="/industries/real-estate" element={<Layout><RealEstateIndustryPage /></Layout>} />
         <Route path="/industries/healthcare" element={<Layout><HealthcareIndustryPage /></Layout>} />
         <Route path="/industries/retail" element={<Layout><RetailIndustryPage /></Layout>} />
+        <Route path="/seasonal" element={<Layout><SeasonalPage /></Layout>} />
+        <Route path="/seasonal/holiday-contributions" element={<Layout><HolidayContributionsPage /></Layout>} />
+        <Route path="/seasonal/back-to-school-contributions" element={<Layout><BackToSchoolContributionsPage /></Layout>} />
+        <Route path="/seasonal/wedding-season-contributions" element={<Layout><WeddingSeasonContributionsPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
