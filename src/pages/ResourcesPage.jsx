@@ -218,36 +218,63 @@ export default function ResourcesPage() {
 
       <section className="resources-page">
         <div className="container">
-          {/* <div className="resources-intro">
-            <h2>Educational Resources</h2>
-            <p>
-              Whether you're organizing group contributions for the first time or looking to improve your current process, our guides cover everything you need to know. From basic setup to advanced strategies, these resources will help you organize contributions effectively - for Birthday Groups, Subscription Groups, and General Groups.
-            </p>
-            <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
-              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>📋 Getting Started</h3>
-                <p style={{ fontSize: '0.9rem', color: '#666' }}>
-                  New to GroupFund? Start here with guides on setting up your first group, understanding member reliability scores, and choosing the right group type for your needs.
-                </p>
-              </div>
-              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>✅ Best Practices</h3>
-                <p style={{ fontSize: '0.9rem', color: '#666' }}>
-                  Learn proven strategies for managing contributions effectively. Discover etiquette guidelines, common mistakes to avoid, and tips for maintaining group harmony.
-                </p>
-              </div>
-              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>📊 Planning</h3>
-                <p style={{ fontSize: '0.9rem', color: '#666' }}>
-                  Plan your contributions strategically. Learn how to calculate amounts, budget effectively, manage deadlines, and choose the right contribution structure for your group.
-                </p>
-              </div>
-              <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>🎯 Advanced</h3>
-                <p style={{ fontSize: '0.9rem', color: '#666' }}>
-                  Master advanced techniques for large groups, international contributions, multi-currency payments, and optimizing workflows for maximum efficiency.
-                </p>
-              </div>
+          {/* Tools Section */}
+          {/* <div className="tools-section" style={{ marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem', color: '#111827' }}>🛠️ Interactive Tools</h2>
+            <p style={{ color: '#6b7280', marginBottom: '1.5rem' }}>Use our free calculators to plan and estimate your group contributions.</p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+              <Link to="/tools/contribution-calculator" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div style={{ 
+                  padding: '2rem', 
+                  background: 'white', 
+                  border: '2px solid #667eea', 
+                  borderRadius: '12px',
+                  transition: 'all 0.3s',
+                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                }} 
+                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.15)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)'; }}
+                >
+                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🧮</div>
+                  <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', color: '#111827' }}>Contribution Calculator</h3>
+                  <p style={{ color: '#6b7280', marginBottom: '1rem', lineHeight: '1.6' }}>Calculate how much each person should contribute in your group. Perfect for splitting costs equally.</p>
+                  <span style={{ 
+                    display: 'inline-block',
+                    padding: '0.25rem 0.75rem',
+                    background: '#667eea',
+                    color: 'white',
+                    borderRadius: '4px',
+                    fontSize: '0.85rem',
+                    fontWeight: '500'
+                  }}>Free Tool</span>
+                </div>
+              </Link>
+              <Link to="/tools/yearly-contribution-estimator" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div style={{ 
+                  padding: '2rem', 
+                  background: 'white', 
+                  border: '2px solid #667eea', 
+                  borderRadius: '12px',
+                  transition: 'all 0.3s',
+                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.15)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)'; }}
+                >
+                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📅</div>
+                  <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', color: '#111827' }}>Yearly Contribution Estimator</h3>
+                  <p style={{ color: '#6b7280', marginBottom: '1rem', lineHeight: '1.6' }}>Calculate your total yearly contribution commitment for birthday groups, subscriptions, and events.</p>
+                  <span style={{ 
+                    display: 'inline-block',
+                    padding: '0.25rem 0.75rem',
+                    background: '#667eea',
+                    color: 'white',
+                    borderRadius: '4px',
+                    fontSize: '0.85rem',
+                    fontWeight: '500'
+                  }}>Free Tool</span>
+                </div>
+              </Link>
             </div>
           </div> */}
 
