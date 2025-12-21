@@ -233,6 +233,7 @@ export default function FAQPage() {
             <p>Can't find what you're looking for? Our support team is here to help.</p>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
               <a href="/contact" className="btn btn-primary btn-large">Contact Support</a>
+              <Link to="/glossary" className="btn btn-secondary btn-large">View Glossary</Link>
               <Link to="/app-rules" className="btn btn-secondary btn-large">View App Rules</Link>
             </div>
           </div>

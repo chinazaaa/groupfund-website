@@ -28,6 +28,7 @@ import SitemapPage from './pages/SitemapPage'
 import WaitlistPage from './pages/WaitlistPage'
 import DeleteAccountPage from './pages/DeleteAccountPage'
 import ReportPage from './pages/ReportPage'
+import GlossaryPage from './pages/GlossaryPage'
 import NotFoundPage from './pages/NotFoundPage'
 import PricingPage from './pages/PricingPage'
 import UseCasesPage from './pages/UseCasesPage'
@@ -76,6 +77,8 @@ import SubscriptionDeadlineManagementPage from './pages/SubscriptionDeadlineMana
 import AdminAccountDetailsGuidePage from './pages/AdminAccountDetailsGuidePage'
 import OrganizingInternationalGroupContributionsPage from './pages/OrganizingInternationalGroupContributionsPage'
 import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaymentSchedulesPage'
+import ContributionCalculatorPage from './pages/ContributionCalculatorPage'
+import YearlyContributionEstimatorPage from './pages/YearlyContributionEstimatorPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -155,6 +158,7 @@ function App() {
         <Route path="/thank-you" element={<Layout><ThankYouPage /></Layout>} />
         <Route path="/help" element={<Layout><HelpPage /></Layout>} />
         <Route path="/sitemap" element={<Layout><SitemapPage /></Layout>} />
+        <Route path="/glossary" element={<Layout><GlossaryPage /></Layout>} />
         <Route path="/waitlist" element={<Layout><WaitlistPage /></Layout>} />
         <Route path="/delete-account" element={<Layout><DeleteAccountPage /></Layout>} />
         <Route path="/report" element={<Layout><ReportPage /></Layout>} />
@@ -241,6 +245,8 @@ function App() {
         <Route path="/resources/admin-account-details-guide" element={<Layout><AdminAccountDetailsGuidePage /></Layout>} />
         <Route path="/resources/organizing-international-group-contributions" element={<Layout><OrganizingInternationalGroupContributionsPage /></Layout>} />
         <Route path="/resources/subscription-group-payment-schedules" element={<Layout><SubscriptionGroupPaymentSchedulesPage /></Layout>} />
+        <Route path="/tools/contribution-calculator" element={<Layout><ContributionCalculatorPage /></Layout>} />
+        <Route path="/tools/yearly-contribution-estimator" element={<Layout><YearlyContributionEstimatorPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

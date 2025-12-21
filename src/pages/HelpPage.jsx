@@ -400,6 +400,9 @@ export default function HelpPage() {
               <Link to="/faq" className="btn btn-secondary btn-large">
                 View FAQ
               </Link>
+              <Link to="/glossary" className="btn btn-secondary btn-large">
+                Glossary
+              </Link>
               <Link to="/app-rules" className="btn btn-secondary btn-large">
                 App Rules
               </Link>

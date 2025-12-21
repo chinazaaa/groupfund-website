@@ -154,26 +154,46 @@ export default function AppRulesPage() {
                 <li><strong>Resolve disputes directly:</strong> If there's a payment issue, work it out directly with the other party</li>
                 <li><strong>Use appropriate payment methods:</strong> Choose payment methods that work for your group (bank transfers, mobile money, etc.)</li>
                 <li><strong>Verify group admin identity:</strong> Before joining any group, verify the identity of the group admin. Only join groups with people you trust</li>
+                <li><strong>Report violations:</strong> If you encounter groups or members engaging in spam, fraud, harassment, or other violations, report them through our <Link to="/report">Report page</Link> to help keep the platform safe</li>
               </ul>
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
-                <strong>⚠️ Important Warning:</strong> GroupFund is not liable for any fraudulent activities or financial losses. Always verify the identity of group admins before joining and contributing.
+                <strong>⚠️ Important Warning:</strong> GroupFund is not liable for any fraudulent activities or financial losses. Always verify the identity of group admins before joining and contributing. If you encounter suspicious behavior, report it immediately.
               </p>
             </div>
 
             <div className="legal-section">
-              <h2>Reporting System</h2>
+              <h2>Reporting Groups and Members</h2>
+              <p>
+                If you encounter a group or member that violates our community guidelines or engages in suspicious behavior, you can and should report them. Reporting helps us maintain a safe and trustworthy platform for everyone.
+              </p>
+              
+              <h3>When to Report</h3>
+              <p>You should report a group or member if you encounter:</p>
+              <ul>
+                <li><strong>Spam:</strong> Groups or members posting spam or unwanted content</li>
+                <li><strong>Inappropriate Content:</strong> Content that violates community standards</li>
+                <li><strong>Fraud or Scams:</strong> Suspected fraudulent activities, scams, or deceptive practices</li>
+                <li><strong>Harassment:</strong> Harassment, bullying, or abusive behavior</li>
+                <li><strong>Other Violations:</strong> Any other behavior that violates our terms of service or community guidelines</li>
+              </ul>
+
+              <h3>How Reporting Works</h3>
               <p>
                 GroupFund has a reporting system to help maintain platform safety:
               </p>
               <ul>
-                <li><strong>Group Reports:</strong> Report groups for spam, fraud, harassment, or inappropriate behavior. Pending reports reduce group health by 5 points. Groups with 3+ pending reports are automatically closed.</li>
-                <li><strong>Member Reports:</strong> Report members for violations. Users with 3+ pending reports or 5+ total reports are marked as inactive. This affects all users, including group admins.</li>
-                <li><strong>Report Reasons:</strong> Spam, inappropriate, fraud, harassment, or other violations</li>
+                <li><strong>Group Reports:</strong> You can report groups for violations. Pending reports reduce group health by 5 points. Groups with 3+ pending reports are automatically closed.</li>
+                <li><strong>Member Reports:</strong> You can report members for violations. Users with 3+ pending reports or 5+ total reports are marked as inactive. This affects all users, including group admins.</li>
+                <li><strong>Review Process:</strong> Our team reviews all reports. Reviewed reports reduce health by 2 points (less impact than pending reports).</li>
                 <li><strong>Spam Prevention:</strong> Duplicate pending reports are prevented. Public reports have a 24-hour cooldown per email/group or email/member combination.</li>
-                <li><strong>Review Process:</strong> All reports are reviewed. Reviewed reports reduce health by 2 points (less impact than pending).</li>
               </ul>
-              <p>
-                Visit our <Link to="/report">Report page</Link> to submit a report. Reports help maintain a safe and trustworthy platform.
+              
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#f0f9ff', borderLeft: '4px solid #007bff', borderRadius: '4px' }}>
+                <strong>💡 Remember:</strong> If something doesn't seem right or you encounter suspicious behavior, don't hesitate to report it. Your reports help protect the entire GroupFund community. Visit our <Link to="/report">Report page</Link> to submit a report.
+              </p>
+              
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
+                <strong>⚠️ Important:</strong> Please only report legitimate violations. False reports may result in action against your account. Reports are taken seriously and affect group health and member status.
               </p>
             </div>
 
