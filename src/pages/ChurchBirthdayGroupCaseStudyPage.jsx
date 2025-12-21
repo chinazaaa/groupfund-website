@@ -7,15 +7,15 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
   return (
     <>
       <SEO
-        title="Church Contribution Success Story - Grace Community Church Case Study | GroupFund"
-        description="Read how Grace Community Church in Abuja transformed their member birthday contributions using GroupFund. 200 members, 80% time savings, 95% participation rate. Real metrics and results."
+        title="Church Contribution Success Story - A Church in Abuja Case Study | GroupFund"
+        description="Read how a church in Abuja transformed their member birthday contributions using GroupFund. 200 members, 80% time savings, 95% participation rate. Real metrics and results."
         keywords="church contribution success story, church group payment case study, religious group contributions, church birthday contributions, church payment management, groupfund church case study"
         canonical="https://groupfund.app/case-studies/church-birthday-group"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Case Study: Grace Community Church</h1>
+          <h1 className="page-title">Case Study: A Church in Abuja</h1>
           <p className="page-subtitle">
             How a 200-member church in Abuja transformed member birthday contributions and achieved 95% participation rates
           </p>
@@ -28,7 +28,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
             <div className="case-study-meta">
               <div className="meta-item">
                 <span className="meta-label">Organization:</span>
-                <span className="meta-value">Grace Community Church</span>
+                <span className="meta-value">A Church in Abuja</span>
               </div>
               <div className="meta-item">
                 <span className="meta-label">Location:</span>
@@ -47,7 +47,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
             <div className="case-study-section">
               <h2>Executive Summary</h2>
               <p>
-                Grace Community Church, a 200-member congregation in Abuja, struggled with managing birthday contributions for church members. Using traditional methods like WhatsApp groups and manual tracking, the church faced low participation rates, administrative burden, and lack of transparency. After implementing GroupFund, the church achieved:
+                A 200-member church in Abuja struggled with managing birthday contributions for church members. Using traditional methods like WhatsApp groups and manual tracking, the church faced low participation rates, administrative burden, and lack of transparency. After implementing GroupFund, the church achieved:
               </p>
               <ul className="results-list">
                 <li><strong>95% participation rate</strong> (up from 60%)</li>
@@ -63,7 +63,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
               
               <h3>Problems Faced</h3>
               <p>
-                Pastor Grace Williams, the church administrator, was responsible for organizing birthday contributions for all 200 church members. The previous system had several critical issues:
+                The church administrator was responsible for organizing birthday contributions for all 200 church members. The previous system had several critical issues:
               </p>
               
               <div className="challenge-card">
@@ -113,7 +113,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
               <h2>The Solution: Implementing GroupFund</h2>
               
               <p>
-                In January 2024, Grace Community Church decided to implement GroupFund for managing member birthday contributions. The implementation process was straightforward:
+                In January 2024, the church decided to implement GroupFund for managing member birthday contributions. The implementation process was straightforward:
               </p>
 
               <h3>Setup Process</h3>
@@ -208,7 +208,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
               <div className="improvement-card">
                 <h4>Administrative Time Reduced by 80%</h4>
                 <p>
-                  Pastor Williams now spends only 2-3 hours per week on contribution management (down from 10-15 hours). The automation handles reminders, tracking, and reporting, freeing up time for other church activities.
+                  The church administrator now spends only 2-3 hours per week on contribution management (down from 10-15 hours). The automation handles reminders, tracking, and reporting, freeing up time for other church activities.
                 </p>
               </div>
 
@@ -234,8 +234,8 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
                   "As a church administrator, managing contributions for member birthdays was always stressful. GroupFund made it effortless. The automatic reminders are a game-changer! We went from 60% participation to 95%, and I save 10+ hours per week. The transparency has also improved trust among our members."
                 </blockquote>
                 <cite>
-                  <strong>Pastor Grace Williams</strong><br />
-                  Church Administrator, Grace Community Church<br />
+                  <strong>Church Administrator</strong><br />
+                  A Church in Abuja<br />
                   Abuja, Nigeria
                 </cite>
               </div>

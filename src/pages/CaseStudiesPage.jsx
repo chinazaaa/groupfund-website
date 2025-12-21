@@ -7,7 +7,7 @@ export default function CaseStudiesPage() {
   const caseStudies = [
     {
       slug: 'church-birthday-group',
-      title: 'Grace Community Church: Transforming Member Birthday Contributions',
+      title: 'A Church in Abuja: Transforming Member Birthday Contributions',
       description: 'How a 200-member church in Abuja streamlined birthday contributions, improved participation rates, and reduced administrative burden by 80%.',
       icon: '⛪',
       category: 'Churches',
