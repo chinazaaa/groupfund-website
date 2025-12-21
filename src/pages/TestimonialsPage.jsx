@@ -17,7 +17,7 @@ export default function TestimonialsPage() {
       author: "Pastor Grace Williams",
       role: "Church Administrator",
       location: "Abuja, Nigeria",
-      group: "Grace Community Church"
+      group: "Community Church"
     },
     {
       quote: "Our school class uses GroupFund for all group contributions. The fixed amount feature and payment tracking make it so easy. Parents love the transparency.",
