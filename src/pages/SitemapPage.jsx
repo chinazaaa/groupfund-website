@@ -155,6 +155,14 @@ export default function SitemapPage() {
       ]
     },
     {
+      category: "Case Studies",
+      links: [
+        { path: "/case-studies", label: "Case Studies Overview" },
+        { path: "/case-studies/church-birthday-group", label: "Church Birthday Group" },
+        { path: "/case-studies/family-birthday-fund", label: "Family Birthday Fund" }
+      ]
+    },
+    {
       category: "Seasonal",
       links: [
         { path: "/seasonal", label: "Seasonal Overview" },
