@@ -677,13 +677,13 @@ const pages = [
     lastmod: currentDate
   },
   {
-    url: '/case-studies/school-birthday-group',
+    url: '/case-studies/school-subscription-group',
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate
   },
   {
-    url: '/case-studies/workplace-birthday-group',
+    url: '/case-studies/workplace-event-group',
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate

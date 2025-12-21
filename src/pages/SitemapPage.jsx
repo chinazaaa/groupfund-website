@@ -160,8 +160,8 @@ export default function SitemapPage() {
         { path: "/case-studies", label: "Case Studies Overview" },
         { path: "/case-studies/church-birthday-group", label: "Church Birthday Group" },
         { path: "/case-studies/family-birthday-fund", label: "Family Birthday Fund" },
-        { path: "/case-studies/school-birthday-group", label: "School Birthday Group" },
-        { path: "/case-studies/workplace-birthday-group", label: "Workplace Birthday Group" }
+        { path: "/case-studies/school-subscription-group", label: "School Subscription Group" },
+        { path: "/case-studies/workplace-event-group", label: "Workplace Event Group" }
       ]
     },
     {

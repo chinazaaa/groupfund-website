@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
-export default function WorkplaceBirthdayGroupCaseStudyPage() {
+export default function SchoolGroupCaseStudyPage() {
   return (
     <>
       <SEO
-        title="Workplace Contribution Success Story - A Company in United Kingdom Case Study | GroupFund"
-        description="Read how a company in the United Kingdom transformed their office birthday contributions using GroupFund. 120 employees, 90% time savings, 96% participation rate. Real metrics and results."
-        keywords="workplace contribution success story, office group payment case study, colleague contribution management, workplace birthday contributions, office contribution tracking, groupfund workplace case study"
-        canonical="https://groupfund.app/case-studies/workplace-birthday-group"
+        title="School Subscription Success Story - A School in United States Case Study | GroupFund"
+        description="Read how a school in the United States transformed their shared subscription management using GroupFund. 75 staff members, 85% time savings, 98% participation rate. Real metrics and results."
+        keywords="school subscription success story, school group payment case study, teacher subscription management, shared subscription tracking, staff subscription contributions, groupfund school case study"
+        canonical="https://groupfund.app/case-studies/school-subscription-group"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Case Study: A Company in the United Kingdom</h1>
+          <h1 className="page-title">Case Study: A School in the United States</h1>
           <p className="page-subtitle">
-            How a 120-employee company transformed office birthday contributions and achieved 96% participation rates
+            How a 75-member school staff transformed shared subscription management and achieved 98% participation rates
           </p>
         </div>
       </section>
@@ -28,33 +28,33 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
             <div className="case-study-meta">
               <div className="meta-item">
                 <span className="meta-label">Organization:</span>
-                <span className="meta-value">A Company in the United Kingdom</span>
+                <span className="meta-value">A School in the United States</span>
               </div>
               <div className="meta-item">
                 <span className="meta-label">Location:</span>
-                <span className="meta-value">United Kingdom</span>
+                <span className="meta-value">United States</span>
               </div>
               <div className="meta-item">
                 <span className="meta-label">Size:</span>
-                <span className="meta-value">120 employees</span>
+                <span className="meta-value">75 staff members</span>
               </div>
               <div className="meta-item">
                 <span className="meta-label">Use Case:</span>
-                <span className="meta-value">Office Birthday Contributions</span>
+                <span className="meta-value">Shared Subscription Management</span>
               </div>
             </div>
 
             <div className="case-study-section">
               <h2>Executive Summary</h2>
               <p>
-                A technology company in the United Kingdom with 120 employees struggled with organizing birthday contributions for colleagues. Using Slack messages and manual tracking, the company faced low participation, administrative burden, and lack of transparency. After implementing GroupFund, the company achieved:
+                A public school in the United States with 75 staff members struggled with managing shared subscriptions (Netflix, Spotify, educational software) for teachers and staff. Using email chains and manual spreadsheets, the school faced low participation, administrative burden, and lack of professional record-keeping. After implementing GroupFund, the school achieved:
               </p>
               <ul className="results-list">
-                <li><strong>96% participation rate</strong> (up from 45%)</li>
-                <li><strong>90% reduction</strong> in administrative time</li>
-                <li><strong>100% transparency</strong> in contribution tracking</li>
-                <li><strong>Zero missed contributions</strong> in the last 10 months</li>
-                <li><strong>Improved team culture</strong> and colleague appreciation</li>
+                <li><strong>98% participation rate</strong> (up from 55%)</li>
+                <li><strong>85% reduction</strong> in administrative time</li>
+                <li><strong>100% professional records</strong> for HR compliance</li>
+                <li><strong>Zero missed contributions</strong> in the last 8 months</li>
+                <li><strong>Improved staff morale</strong> and appreciation</li>
               </ul>
             </div>
 
@@ -63,68 +63,61 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
               
               <h3>Problems Faced</h3>
               <p>
-                The HR coordinator was responsible for organizing birthday contributions for all 120 employees across multiple departments. The previous Slack-based system had several critical issues:
+                The school's administrative coordinator was responsible for managing shared subscription payments for all 75 staff members. The previous email-based system had several critical issues:
               </p>
               
               <div className="challenge-card">
-                <h4>1. Slack Message Overload</h4>
+                <h4>1. Email Chain Chaos</h4>
                 <p>
-                  The company used Slack channels to coordinate contributions. Important contribution information got lost in busy work channels, making it difficult to track who had contributed and who hadn't. Employees often missed messages or forgot to follow up.
+                  The school used email chains to coordinate contributions. Important information got buried in long email threads, making it difficult to track who had contributed and who hadn't. Staff members often missed emails or forgot to respond.
                 </p>
               </div>
 
               <div className="challenge-card">
                 <h4>2. Low Participation Rates</h4>
                 <p>
-                  Only 45% of employees were contributing regularly. Many colleagues forgot about birthdays, missed Slack reminders, or simply didn't see the contribution requests in their busy work channels.
+                  Only 55% of staff members were contributing regularly. Many teachers and staff forgot about subscription payment deadlines, missed email reminders, or simply didn't see the payment requests in their busy inboxes.
                 </p>
               </div>
 
               <div className="challenge-card">
-                <h4>3. Manual Tracking Spreadsheet</h4>
+                <h4>3. Manual Spreadsheet Tracking</h4>
                 <p>
-                  The HR coordinator maintained a complex Google Sheet to track contributions. This required:
+                  The coordinator maintained a complex Excel spreadsheet to track contributions. This required:
                 </p>
                 <ul>
                   <li>Manual entry of each contribution</li>
                   <li>Constant updates and reconciliation</li>
-                  <li>Risk of errors and version conflicts</li>
-                  <li>Difficulty sharing with all employees</li>
+                  <li>Risk of errors and data loss</li>
+                  <li>Difficulty sharing with staff members</li>
                 </ul>
               </div>
 
               <div className="challenge-card">
-                <h4>4. Lack of Transparency</h4>
+                <h4>4. Lack of Professional Records</h4>
                 <p>
-                  Employees couldn't see who had contributed, leading to confusion and mistrust. Some colleagues felt others weren't contributing fairly, which affected team culture and workplace relationships.
+                  The school needed professional records for HR purposes, but the email-based system didn't provide proper documentation. There was no clear audit trail or professional record-keeping system.
                 </p>
               </div>
 
               <div className="challenge-card">
                 <h4>5. Administrative Burden</h4>
                 <p>
-                  The HR coordinator spent 10-15 hours per week managing contributions, including:
+                  The coordinator spent 8-12 hours per week managing contributions, including:
                 </p>
                 <ul>
-                  <li>Posting reminders in Slack channels</li>
-                  <li>Updating the Google Sheet manually</li>
-                  <li>Following up with employees who hadn't contributed</li>
+                  <li>Sending individual email reminders</li>
+                  <li>Updating the spreadsheet manually</li>
+                  <li>Following up with staff who hadn't contributed</li>
                   <li>Reconciling payments with bank statements</li>
-                  <li>Coordinating with birthday celebrants</li>
+                  <li>Coordinating with subscription account holders</li>
                 </ul>
               </div>
 
               <div className="challenge-card">
                 <h4>6. Inconsistent Contribution Amounts</h4>
                 <p>
-                  Without a standardized system, contribution amounts varied. Some employees contributed different amounts for different birthdays, leading to confusion and perceived unfairness. There was no clear standard for what amount was expected.
-                </p>
-              </div>
-
-              <div className="challenge-card">
-                <h4>7. Remote Work Challenges</h4>
-                <p>
-                  With many employees working remotely, coordinating contributions through Slack became even more challenging. Remote workers often missed messages or felt disconnected from the contribution process.
+                  Without a standardized system, payment amounts varied. Some staff contributed different amounts for different subscriptions, leading to confusion and perceived unfairness.
                 </p>
               </div>
             </div>
@@ -133,31 +126,31 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
               <h2>The Solution: Implementing GroupFund</h2>
               
               <p>
-                In February 2024, the company decided to implement GroupFund for managing all office birthday contributions. The implementation was smooth and well-received:
+                In September 2024, the school decided to implement GroupFund for managing all shared subscriptions. The implementation was smooth and well-received:
               </p>
 
               <h3>Setup Process</h3>
               <ol className="solution-steps">
                 <li>
-                  <strong>Created Birthday Groups:</strong> Set up Birthday Groups for each employee with their birthday dates
+                  <strong>Created Subscription Groups:</strong> Set up Subscription Groups for each shared service (Netflix, Spotify, educational software subscriptions)
                 </li>
                 <li>
-                  <strong>Invited All Employees:</strong> All 120 employees were invited to join GroupFund
+                  <strong>Invited All Staff:</strong> All 75 staff members were invited to join the relevant subscription groups
                 </li>
                 <li>
-                  <strong>Standardized Contribution Amount:</strong> Established a standard contribution amount of £15 per employee per birthday
+                  <strong>Standardized Payment Amounts:</strong> Established standard monthly contribution amounts for each subscription (e.g., $5/month for Netflix, $3/month for Spotify)
                 </li>
                 <li>
-                  <strong>Configured Automatic Reminders:</strong> Set up reminders 7 days and 1 day before each birthday
+                  <strong>Configured Payment Schedules:</strong> Set up recurring payment schedules aligned with subscription billing cycles
                 </li>
                 <li>
-                  <strong>Added Payment Details:</strong> Each employee added their preferred payment method for receiving contributions
+                  <strong>Added Admin Account Details:</strong> Each subscription group admin added their account details for receiving payments
                 </li>
                 <li>
-                  <strong>Replaced Slack System:</strong> Stopped using Slack channels for contribution coordination
+                  <strong>Configured Automatic Reminders:</strong> Set up reminders before each payment deadline
                 </li>
                 <li>
-                  <strong>Integrated with Company Culture:</strong> Made GroupFund the official system for office birthday contributions
+                  <strong>Replaced Email System:</strong> Stopped using email chains for subscription payment coordination
                 </li>
               </ol>
 
@@ -165,13 +158,13 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
               <div className="features-grid">
                 <div className="feature-item">
                   <span className="feature-icon">📅</span>
-                  <h4>Automatic Birthday Tracking</h4>
-                  <p>All employee birthdays automatically tracked and organized</p>
+                  <h4>Recurring Payment Schedules</h4>
+                  <p>All subscription payments automatically scheduled and tracked</p>
                 </div>
                 <div className="feature-item">
                   <span className="feature-icon">🔔</span>
                   <h4>Automated Reminders</h4>
-                  <p>Employees receive automatic reminders before birthdays</p>
+                  <p>Staff receive automatic reminders before payment deadlines</p>
                 </div>
                 <div className="feature-item">
                   <span className="feature-icon">👁️</span>
@@ -184,14 +177,14 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
                   <p>Standard contribution amounts ensure fairness</p>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🌐</span>
-                  <h4>Remote-Friendly</h4>
-                  <p>Works seamlessly for remote and hybrid teams</p>
+                  <span className="feature-icon">📊</span>
+                  <h4>Professional Records</h4>
+                  <p>Complete audit trail for HR compliance</p>
                 </div>
                 <div className="feature-item">
                   <span className="feature-icon">✅</span>
                   <h4>Two-Step Confirmation</h4>
-                  <p>Employees mark as paid, celebrant confirms receipt</p>
+                  <p>Staff mark as paid, celebrant confirms receipt</p>
                 </div>
               </div>
             </div>
@@ -201,75 +194,68 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
               
               <div className="results-grid">
                 <div className="result-card highlight">
-                  <div className="result-number">96%</div>
+                  <div className="result-number">98%</div>
                   <div className="result-label">Participation Rate</div>
-                  <div className="result-change">Up from 45%</div>
+                  <div className="result-change">Up from 55%</div>
                 </div>
                 <div className="result-card highlight">
-                  <div className="result-number">90%</div>
+                  <div className="result-number">85%</div>
                   <div className="result-label">Time Savings</div>
                   <div className="result-change">Reduced admin time</div>
                 </div>
                 <div className="result-card highlight">
                   <div className="result-number">100%</div>
-                  <div className="result-label">Transparency</div>
-                  <div className="result-change">Full visibility</div>
+                  <div className="result-label">Professional Records</div>
+                  <div className="result-change">HR compliant</div>
                 </div>
                 <div className="result-card highlight">
                   <div className="result-number">0</div>
                   <div className="result-label">Missed Contributions</div>
-                  <div className="result-change">In last 10 months</div>
+                  <div className="result-change">In last 8 months</div>
                 </div>
               </div>
 
               <h3>Quantifiable Improvements</h3>
               
               <div className="improvement-card">
-                <h4>Participation Rate Increased by 113%</h4>
+                <h4>Participation Rate Increased by 78%</h4>
                 <p>
-                  Participation jumped from 45% to 96% within the first 5 months. The automatic reminders and transparent tracking made it easy for employees to contribute on time, even during busy work periods.
+                  Participation jumped from 55% to 98% within the first 4 months. The automatic reminders and transparent tracking made it easy for staff to contribute on time, even during busy school periods.
                 </p>
               </div>
 
               <div className="improvement-card">
-                <h4>Administrative Time Reduced by 90%</h4>
+                <h4>Administrative Time Reduced by 85%</h4>
                 <p>
-                  The HR coordinator now spends only 1-2 hours per week on contribution management (down from 10-15 hours). The automation handles reminders, tracking, and reporting, freeing up time for other HR activities.
+                  The coordinator now spends only 1-2 hours per week on contribution management (down from 8-12 hours). The automation handles reminders, tracking, and reporting, freeing up time for other school administrative tasks.
                 </p>
               </div>
 
               <div className="improvement-card">
-                <h4>100% Contribution Transparency</h4>
+                <h4>100% Professional Record-Keeping</h4>
                 <p>
-                  All employees can now see exactly who has contributed to each birthday. This transparency eliminated suspicion and mistrust, creating a more positive workplace culture.
+                  GroupFund provides complete audit trails and professional records that meet HR compliance requirements. All contributions are documented with timestamps, amounts, and confirmation status.
                 </p>
               </div>
 
               <div className="improvement-card">
                 <h4>Zero Missed Contributions</h4>
                 <p>
-                  In the 10 months since implementation, not a single contribution has been missed. The combination of automatic reminders and transparent tracking ensures all employees contribute on time for every birthday.
+                  In the 8 months since implementation, not a single subscription payment has been missed. The combination of automatic reminders and transparent tracking ensures all staff contribute on time for every subscription payment.
                 </p>
               </div>
 
               <div className="improvement-card">
-                <h4>Improved Team Culture</h4>
+                <h4>Improved Staff Morale</h4>
                 <p>
-                  Employees appreciate the transparency and ease of use. They can see exactly who has contributed, when reminders are sent, and the system is fair and consistent for everyone. This has improved overall team culture and colleague appreciation.
+                  Staff appreciate the transparency and ease of use. They can see exactly who has contributed, when reminders are sent, and the system is fair and consistent for everyone. This has improved overall staff satisfaction.
                 </p>
               </div>
 
               <div className="improvement-card">
-                <h4>Eliminated Slack Chaos</h4>
+                <h4>Eliminated Email Chaos</h4>
                 <p>
-                  Work Slack channels are no longer flooded with contribution-related messages. Employees can focus on important work communications, and contribution coordination happens seamlessly in GroupFund.
-                </p>
-              </div>
-
-              <div className="improvement-card">
-                <h4>Remote Work Friendly</h4>
-                <p>
-                  GroupFund works perfectly for remote and hybrid teams. All employees can participate regardless of location, and the system ensures no one is left out of the contribution process.
+                  The school email system is no longer flooded with contribution-related messages. Staff can focus on important school communications, and contribution coordination happens seamlessly in GroupFund.
                 </p>
               </div>
             </div>
@@ -278,12 +264,12 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
               <h2>Testimonial</h2>
               <div className="testimonial-box">
                 <blockquote>
-                  "Managing office birthday contributions for 120 employees was a nightmare. Slack messages got lost, the Google Sheet was always out of date, and only 45% of people were contributing. GroupFund changed everything. We now have 96% participation, I save 12+ hours per week, and the transparency has improved our team culture. Remote workers love it too - everyone can participate regardless of where they work. It's been a game-changer for our office culture!"
+                  "Our school uses GroupFund for managing all our shared subscriptions - Netflix, Spotify, and educational software. The recurring payment schedules and automatic reminders make it so easy. Staff love the transparency and never miss a payment. We went from 55% participation to 98%, and I save 10+ hours per week. The professional records are perfect for accounting, and the automatic reminders ensure no one forgets to pay, even during busy school periods."
                 </blockquote>
                 <cite>
-                  <strong>HR Coordinator</strong><br />
-                  A Company in the United Kingdom<br />
-                  United Kingdom
+                  <strong>School Administrative Coordinator</strong><br />
+                  A School in the United States<br />
+                  United States
                 </cite>
               </div>
             </div>
@@ -291,22 +277,21 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
             <div className="case-study-section">
               <h2>Key Takeaways</h2>
               <ul className="takeaways-list">
-                <li><strong>Work chat tools aren't designed for payments:</strong> Use dedicated tools for financial coordination</li>
-                <li><strong>Automation is essential for large teams:</strong> Manual tracking doesn't scale beyond 20-30 employees</li>
-                <li><strong>Transparency builds trust:</strong> When employees can see contributions, participation increases</li>
-                <li><strong>Remote-friendly systems matter:</strong> Modern workplaces need tools that work for distributed teams</li>
-                <li><strong>Time savings compound:</strong> The administrative time saved can be used for more important HR activities</li>
+                <li><strong>Email chains don't scale:</strong> For groups larger than 10-15 members, dedicated tools are essential</li>
+                <li><strong>Automation is crucial for busy professionals:</strong> Teachers and staff need automatic reminders</li>
+                <li><strong>Professional records matter:</strong> Schools need audit trails for HR compliance</li>
+                <li><strong>Transparency builds trust:</strong> When staff can see contributions, participation increases</li>
+                <li><strong>Time savings compound:</strong> The administrative time saved can be used for more important school activities</li>
                 <li><strong>Standardization creates fairness:</strong> Fixed amounts eliminate confusion and perceived unfairness</li>
-                <li><strong>Professional systems improve culture:</strong> A well-organized contribution system reflects positively on company culture</li>
               </ul>
             </div>
 
             <div className="case-study-cta">
-              <h2>Ready to Transform Your Workplace's Contributions?</h2>
-              <p>Start organizing your office birthday contributions with GroupFund and achieve similar results.</p>
+              <h2>Ready to Transform Your School's Subscription Management?</h2>
+              <p>Start organizing your school's shared subscriptions with GroupFund and achieve similar results.</p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
-                <Link to="/use-cases/workplace" className="btn btn-secondary btn-large">Learn More About Workplaces →</Link>
+                <Link to="/use-cases/schools" className="btn btn-secondary btn-large">Learn More About Schools →</Link>
               </div>
             </div>
 
@@ -318,15 +303,15 @@ export default function WorkplaceBirthdayGroupCaseStudyPage() {
                   <h3>All Case Studies</h3>
                   <p>View other success stories</p>
                 </Link>
-                <Link to="/use-cases/workplace" className="resource-card">
-                  <span className="resource-icon">💼</span>
-                  <h3>For Workplaces</h3>
-                  <p>Learn how workplaces use GroupFund</p>
+                <Link to="/use-cases/schools" className="resource-card">
+                  <span className="resource-icon">🏫</span>
+                  <h3>For Schools</h3>
+                  <p>Learn how schools use GroupFund</p>
                 </Link>
                 <Link to="/best-practices/managing-large-groups" className="resource-card">
                   <span className="resource-icon">👥</span>
                   <h3>Managing Large Groups</h3>
-                  <p>Best practices for large teams</p>
+                  <p>Best practices for large groups</p>
                 </Link>
                 <Link to="/testimonials" className="resource-card">
                   <span className="resource-icon">💬</span>

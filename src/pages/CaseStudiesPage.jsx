@@ -24,18 +24,18 @@ export default function CaseStudiesPage() {
       keywords: 'family contribution success story, family group payment case study, family birthday fund example'
     },
     {
-      slug: 'school-birthday-group',
-      title: 'A School in the United States: Transforming Staff Birthday Contributions',
-      description: 'How a 75-member school staff in the United States achieved 98% participation rates and reduced administrative time by 85% using GroupFund.',
+      slug: 'school-subscription-group',
+      title: 'A School in the United States: Transforming Shared Subscription Management',
+      description: 'How a 75-member school staff in the United States achieved 98% participation rates and reduced administrative time by 85% using GroupFund for shared subscriptions.',
       icon: '🏫',
       category: 'Schools',
       metrics: '75 staff members, 85% time savings, 98% participation rate',
       keywords: 'school contribution success story, school group payment case study, teacher contribution management'
     },
     {
-      slug: 'workplace-birthday-group',
-      title: 'A Company in the United Kingdom: Transforming Office Birthday Contributions',
-      description: 'How a 120-employee company in the United Kingdom achieved 96% participation rates and reduced administrative time by 90% using GroupFund.',
+      slug: 'workplace-event-group',
+      title: 'A Company in the United Kingdom: Transforming Office Event Contributions',
+      description: 'How a 120-employee company in the United Kingdom achieved 96% participation rates and reduced administrative time by 90% using GroupFund for office events.',
       icon: '💼',
       category: 'Workplaces',
       metrics: '120 employees, 90% time savings, 96% participation rate',
