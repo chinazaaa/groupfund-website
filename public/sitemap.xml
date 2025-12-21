@@ -640,6 +640,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://groupfund.app/case-studies/school-birthday-group</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://groupfund.app/case-studies/workplace-birthday-group</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://groupfund.app/seasonal</loc>
     <lastmod>2025-12-21</lastmod>
     <changefreq>monthly</changefreq>

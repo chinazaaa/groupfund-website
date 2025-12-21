@@ -90,6 +90,8 @@ import InternationalGroupsBestPracticesPage from './pages/InternationalGroupsBes
 import CaseStudiesPage from './pages/CaseStudiesPage'
 import ChurchBirthdayGroupCaseStudyPage from './pages/ChurchBirthdayGroupCaseStudyPage'
 import FamilyBirthdayFundCaseStudyPage from './pages/FamilyBirthdayFundCaseStudyPage'
+import SchoolBirthdayGroupCaseStudyPage from './pages/SchoolBirthdayGroupCaseStudyPage'
+import WorkplaceBirthdayGroupCaseStudyPage from './pages/WorkplaceBirthdayGroupCaseStudyPage'
 import SeasonalPage from './pages/SeasonalPage'
 import HolidayContributionsPage from './pages/HolidayContributionsPage'
 import BackToSchoolContributionsPage from './pages/BackToSchoolContributionsPage'
@@ -273,6 +275,8 @@ function App() {
         <Route path="/case-studies" element={<Layout><CaseStudiesPage /></Layout>} />
         <Route path="/case-studies/church-birthday-group" element={<Layout><ChurchBirthdayGroupCaseStudyPage /></Layout>} />
         <Route path="/case-studies/family-birthday-fund" element={<Layout><FamilyBirthdayFundCaseStudyPage /></Layout>} />
+        <Route path="/case-studies/school-birthday-group" element={<Layout><SchoolBirthdayGroupCaseStudyPage /></Layout>} />
+        <Route path="/case-studies/workplace-birthday-group" element={<Layout><WorkplaceBirthdayGroupCaseStudyPage /></Layout>} />
         <Route path="/seasonal" element={<Layout><SeasonalPage /></Layout>} />
         <Route path="/seasonal/holiday-contributions" element={<Layout><HolidayContributionsPage /></Layout>} />
         <Route path="/seasonal/back-to-school-contributions" element={<Layout><BackToSchoolContributionsPage /></Layout>} />

@@ -677,6 +677,18 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/case-studies/school-birthday-group',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/case-studies/workplace-birthday-group',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/seasonal',
     priority: '0.8',
     changefreq: 'monthly',
