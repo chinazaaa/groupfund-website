@@ -79,6 +79,7 @@ import OrganizingInternationalGroupContributionsPage from './pages/OrganizingInt
 import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaymentSchedulesPage'
 import ContributionCalculatorPage from './pages/ContributionCalculatorPage'
 import YearlyContributionEstimatorPage from './pages/YearlyContributionEstimatorPage'
+import ToolsPage from './pages/ToolsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -245,6 +246,7 @@ function App() {
         <Route path="/resources/admin-account-details-guide" element={<Layout><AdminAccountDetailsGuidePage /></Layout>} />
         <Route path="/resources/organizing-international-group-contributions" element={<Layout><OrganizingInternationalGroupContributionsPage /></Layout>} />
         <Route path="/resources/subscription-group-payment-schedules" element={<Layout><SubscriptionGroupPaymentSchedulesPage /></Layout>} />
+        <Route path="/tools" element={<Layout><ToolsPage /></Layout>} />
         <Route path="/tools/contribution-calculator" element={<Layout><ContributionCalculatorPage /></Layout>} />
         <Route path="/tools/yearly-contribution-estimator" element={<Layout><YearlyContributionEstimatorPage /></Layout>} />
         
