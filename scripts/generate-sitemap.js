@@ -617,6 +617,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/industries',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/industries/real-estate',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/industries/healthcare',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/industries/retail',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/report',
     priority: '0.7',
     changefreq: 'monthly',

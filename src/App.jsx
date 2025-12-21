@@ -80,6 +80,10 @@ import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaym
 import ContributionCalculatorPage from './pages/ContributionCalculatorPage'
 import YearlyContributionEstimatorPage from './pages/YearlyContributionEstimatorPage'
 import ToolsPage from './pages/ToolsPage'
+import IndustriesPage from './pages/IndustriesPage'
+import RealEstateIndustryPage from './pages/RealEstateIndustryPage'
+import HealthcareIndustryPage from './pages/HealthcareIndustryPage'
+import RetailIndustryPage from './pages/RetailIndustryPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -249,6 +253,10 @@ function App() {
         <Route path="/tools" element={<Layout><ToolsPage /></Layout>} />
         <Route path="/tools/contribution-calculator" element={<Layout><ContributionCalculatorPage /></Layout>} />
         <Route path="/tools/yearly-contribution-estimator" element={<Layout><YearlyContributionEstimatorPage /></Layout>} />
+        <Route path="/industries" element={<Layout><IndustriesPage /></Layout>} />
+        <Route path="/industries/real-estate" element={<Layout><RealEstateIndustryPage /></Layout>} />
+        <Route path="/industries/healthcare" element={<Layout><HealthcareIndustryPage /></Layout>} />
+        <Route path="/industries/retail" element={<Layout><RetailIndustryPage /></Layout>} />
         
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

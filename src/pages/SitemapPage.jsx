@@ -138,6 +138,15 @@ export default function SitemapPage() {
       ]
     },
     {
+      category: "Industries",
+      links: [
+        { path: "/industries", label: "Industries Overview" },
+        { path: "/industries/real-estate", label: "Real Estate" },
+        { path: "/industries/healthcare", label: "Healthcare" },
+        { path: "/industries/retail", label: "Retail" }
+      ]
+    },
+    {
       category: "Company",
       links: [
         { path: "/about", label: "About Us" },
