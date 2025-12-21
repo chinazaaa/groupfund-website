@@ -81,7 +81,7 @@ export default function FAQPage() {
     },
     {
       question: "How do I share subscription login credentials with group members?",
-      answer: "You can share subscription login credentials (email, password, etc.) with group members using the group notes or description field. For example, you can add instructions like 'Email me at abc@example.com for login details' or 'Contact me via WhatsApp for credentials' in the group description. This way, members can see how to get access to the subscription after they've contributed. The group description is visible to all members, making it easy to share contact information or instructions for accessing the shared subscription."
+      answer: "You can share subscription login credentials (email, password, etc.) with group members using the group notes or description field. For example, you can add instructions like 'Email me at abc@example.com for login details' or 'Contact me via WhatsApp for credentials' in the group description. This way, members can see how to get access to the subscription after they've contributed. The group description is visible to all members after they've joined the group, making it easy to share contact information or instructions for accessing the shared subscription."
     },
     {
       question: "How do General Groups work?",

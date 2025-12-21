@@ -83,7 +83,7 @@ export default function SubscriptionGroupsPage() {
                 <li>Automatic reminders are sent before deadlines</li>
                 <li>Members mark payments as "Paid" after transferring</li>
                 <li>Admin confirms receipt of payments</li>
-                <li>Members can access subscription credentials via group description/notes</li>
+                <li>Members can access subscription credentials via group description/notes after joining</li>
                 <li>Everyone can see payment statuses in real-time</li>
               </ol>
             </div>

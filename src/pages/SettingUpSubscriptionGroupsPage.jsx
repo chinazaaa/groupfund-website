@@ -91,7 +91,7 @@ export default function SettingUpSubscriptionGroupsPage() {
               <ul className="resource-list">
                 <li><strong>Contact Information:</strong> Add instructions like "Email me at abc@example.com for login details"</li>
                 <li><strong>Alternative Contact:</strong> You can also say "Contact me via WhatsApp for credentials" or similar</li>
-                <li><strong>Visibility:</strong> The group description/notes are visible to all members, making it easy for them to know how to get access</li>
+                <li><strong>Visibility:</strong> The group description/notes are visible to all members after they've joined the group, making it easy for them to know how to get access</li>
                 <li><strong>Security:</strong> This approach allows you to share credentials securely after verifying payment, rather than posting them publicly</li>
               </ul>
               <p>
