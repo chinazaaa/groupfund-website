@@ -604,6 +604,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://groupfund.app/best-practices</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://groupfund.app/best-practices/managing-large-groups</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://groupfund.app/best-practices/international-groups</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://groupfund.app/seasonal</loc>
     <lastmod>2025-12-21</lastmod>
     <changefreq>monthly</changefreq>

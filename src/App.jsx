@@ -84,6 +84,9 @@ import IndustriesPage from './pages/IndustriesPage'
 import RealEstateIndustryPage from './pages/RealEstateIndustryPage'
 import HealthcareIndustryPage from './pages/HealthcareIndustryPage'
 import RetailIndustryPage from './pages/RetailIndustryPage'
+import BestPracticesPage from './pages/BestPracticesPage'
+import ManagingLargeGroupsBestPracticesPage from './pages/ManagingLargeGroupsBestPracticesPage'
+import InternationalGroupsBestPracticesPage from './pages/InternationalGroupsBestPracticesPage'
 import SeasonalPage from './pages/SeasonalPage'
 import HolidayContributionsPage from './pages/HolidayContributionsPage'
 import BackToSchoolContributionsPage from './pages/BackToSchoolContributionsPage'
@@ -261,6 +264,9 @@ function App() {
         <Route path="/industries/real-estate" element={<Layout><RealEstateIndustryPage /></Layout>} />
         <Route path="/industries/healthcare" element={<Layout><HealthcareIndustryPage /></Layout>} />
         <Route path="/industries/retail" element={<Layout><RetailIndustryPage /></Layout>} />
+        <Route path="/best-practices" element={<Layout><BestPracticesPage /></Layout>} />
+        <Route path="/best-practices/managing-large-groups" element={<Layout><ManagingLargeGroupsBestPracticesPage /></Layout>} />
+        <Route path="/best-practices/international-groups" element={<Layout><InternationalGroupsBestPracticesPage /></Layout>} />
         <Route path="/seasonal" element={<Layout><SeasonalPage /></Layout>} />
         <Route path="/seasonal/holiday-contributions" element={<Layout><HolidayContributionsPage /></Layout>} />
         <Route path="/seasonal/back-to-school-contributions" element={<Layout><BackToSchoolContributionsPage /></Layout>} />

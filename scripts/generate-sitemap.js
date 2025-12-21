@@ -641,6 +641,24 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/best-practices',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/managing-large-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/international-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/seasonal',
     priority: '0.8',
     changefreq: 'monthly',

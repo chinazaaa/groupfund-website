@@ -86,6 +86,7 @@ export default function Layout({ children }) {
                 <li><Link to="/blog">Blog</Link></li>
                 <li><Link to="/resources">Resources & Guides</Link></li>
                 <li><Link to="/tools">Tools</Link></li>
+                <li><Link to="/best-practices">Best Practices</Link></li>
                 <li><Link to="/glossary">Glossary</Link></li>
                 <li><Link to="/use-cases">Use Cases</Link></li>
                 <li><Link to="/industries">Industries</Link></li>

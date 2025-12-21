@@ -147,6 +147,14 @@ export default function SitemapPage() {
       ]
     },
     {
+      category: "Best Practices",
+      links: [
+        { path: "/best-practices", label: "Best Practices Overview" },
+        { path: "/best-practices/managing-large-groups", label: "Managing Large Groups" },
+        { path: "/best-practices/international-groups", label: "International Groups" }
+      ]
+    },
+    {
       category: "Seasonal",
       links: [
         { path: "/seasonal", label: "Seasonal Overview" },
