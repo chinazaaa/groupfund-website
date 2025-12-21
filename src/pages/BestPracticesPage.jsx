@@ -24,28 +24,32 @@ export default function BestPracticesPage() {
       title: 'Setting Contribution Amounts',
       description: 'Learn how to set fair and effective contribution amounts for your group. Factors to consider, examples by group type, and tips for choosing amounts that work for everyone.',
       icon: '💰',
-      keywords: 'how to set contribution amounts, fair contribution amounts, determining group payment amounts, contribution amount guidelines'
+      keywords: 'how to set contribution amounts, fair contribution amounts, determining group payment amounts, contribution amount guidelines',
+      link: '/resources/choosing-the-right-contribution-amount'
     },
     {
       slug: 'payment-confirmation',
       title: 'Payment Confirmation',
       description: 'Best practices for the two-step payment confirmation process. Learn how to verify contributions accurately and maintain transparency in your group.',
       icon: '✅',
-      keywords: 'payment confirmation best practices, contribution verification, payment tracking accuracy, two-step confirmation'
+      keywords: 'payment confirmation best practices, contribution verification, payment tracking accuracy, two-step confirmation',
+      link: '/resources/optimizing-payment-confirmation-workflows'
     },
     {
       slug: 'member-reliability',
       title: 'Member Reliability',
       description: 'Understand how to use member reliability scores effectively. Learn how to evaluate potential members and maintain group quality through reliability metrics.',
       icon: '⭐',
-      keywords: 'member reliability best practices, evaluating group members, reliability score usage, group quality management'
+      keywords: 'member reliability best practices, evaluating group members, reliability score usage, group quality management',
+      link: '/resources/understanding-member-reliability-scores'
     },
     {
       slug: 'group-health',
       title: 'Group Health Management',
       description: 'Learn how to maintain and improve group health scores. Strategies for keeping your group active, compliant, and healthy over time.',
       icon: '📈',
-      keywords: 'group health management, improving group health scores, maintaining group compliance, group performance optimization'
+      keywords: 'group health management, improving group health scores, maintaining group compliance, group performance optimization',
+      link: '/resources/advanced-group-management-strategies'
     }
   ]
 
@@ -79,7 +83,7 @@ export default function BestPracticesPage() {
             {bestPractices.map((practice) => (
               <Link 
                 key={practice.slug} 
-                to={`/best-practices/${practice.slug}`}
+                to={practice.link || `/best-practices/${practice.slug}`}
                 className="practice-card"
               >
                 <div className="practice-icon">{practice.icon}</div>
