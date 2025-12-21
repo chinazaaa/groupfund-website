@@ -219,64 +219,13 @@ export default function ResourcesPage() {
       <section className="resources-page">
         <div className="container">
           {/* Tools Section */}
-          {/* <div className="tools-section" style={{ marginBottom: '3rem' }}>
+          <div className="tools-section" style={{ marginBottom: '3rem', textAlign: 'center', padding: '2rem', background: '#f9fafb', borderRadius: '12px' }}>
             <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem', color: '#111827' }}>🛠️ Interactive Tools</h2>
             <p style={{ color: '#6b7280', marginBottom: '1.5rem' }}>Use our free calculators to plan and estimate your group contributions.</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
-              <Link to="/tools/contribution-calculator" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div style={{ 
-                  padding: '2rem', 
-                  background: 'white', 
-                  border: '2px solid #667eea', 
-                  borderRadius: '12px',
-                  transition: 'all 0.3s',
-                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-                }} 
-                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.15)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)'; }}
-                >
-                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🧮</div>
-                  <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', color: '#111827' }}>Contribution Calculator</h3>
-                  <p style={{ color: '#6b7280', marginBottom: '1rem', lineHeight: '1.6' }}>Calculate how much each person should contribute in your group. Perfect for splitting costs equally.</p>
-                  <span style={{ 
-                    display: 'inline-block',
-                    padding: '0.25rem 0.75rem',
-                    background: '#667eea',
-                    color: 'white',
-                    borderRadius: '4px',
-                    fontSize: '0.85rem',
-                    fontWeight: '500'
-                  }}>Free Tool</span>
-                </div>
-              </Link>
-              <Link to="/tools/yearly-contribution-estimator" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div style={{ 
-                  padding: '2rem', 
-                  background: 'white', 
-                  border: '2px solid #667eea', 
-                  borderRadius: '12px',
-                  transition: 'all 0.3s',
-                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-                }}
-                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.15)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)'; }}
-                >
-                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📅</div>
-                  <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', color: '#111827' }}>Yearly Contribution Estimator</h3>
-                  <p style={{ color: '#6b7280', marginBottom: '1rem', lineHeight: '1.6' }}>Calculate your total yearly contribution commitment for birthday groups, subscriptions, and events.</p>
-                  <span style={{ 
-                    display: 'inline-block',
-                    padding: '0.25rem 0.75rem',
-                    background: '#667eea',
-                    color: 'white',
-                    borderRadius: '4px',
-                    fontSize: '0.85rem',
-                    fontWeight: '500'
-                  }}>Free Tool</span>
-                </div>
-              </Link>
-            </div>
-          </div> */}
+            <Link to="/tools" className="btn btn-primary btn-large" style={{ textDecoration: 'none' }}>
+              View All Tools →
+            </Link>
+          </div>
 
           {/* Category Filter */}
           <div className="category-filters">

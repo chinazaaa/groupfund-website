@@ -593,6 +593,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/glossary',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/tools',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/tools/contribution-calculator',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/tools/yearly-contribution-estimator',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/report',
     priority: '0.7',
     changefreq: 'monthly',

@@ -125,7 +125,16 @@ export default function SitemapPage() {
         { path: "/blog", label: "Blog" },
         { path: "/testimonials", label: "Testimonials" },
         { path: "/faq", label: "FAQ" },
-        { path: "/help", label: "Help & Support" }
+        { path: "/help", label: "Help & Support" },
+        { path: "/glossary", label: "Glossary" }
+      ]
+    },
+    {
+      category: "Tools",
+      links: [
+        { path: "/tools", label: "Tools Overview" },
+        { path: "/tools/contribution-calculator", label: "Contribution Calculator" },
+        { path: "/tools/yearly-contribution-estimator", label: "Yearly Contribution Estimator" }
       ]
     },
     {
