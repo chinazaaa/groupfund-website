@@ -189,14 +189,6 @@ export default function ResourcesPage() {
       category: 'Planning',
       readTime: '5 min read'
     },
-    {
-      slug: 'discovering-subscription-groups',
-      title: 'Discovering Subscription Groups',
-      description: 'Complete guide to finding and joining reliable subscription groups using Group Discovery. Learn how to search for groups, understand health metrics, and make informed decisions about which groups to join.',
-      icon: '🔍',
-      category: 'Advanced',
-      readTime: '6 min read'
-    }
   ]
 
   const categories = ['All', 'Getting Started', 'Best Practices', 'Planning', 'Advanced']

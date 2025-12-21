@@ -8,8 +8,8 @@ export default function SubscriptionGroupsPage() {
     <>
       <SEO
         title="Subscription Groups - Manage Shared Subscriptions | GroupFund"
-        description="Learn about Subscription Groups in GroupFund. Manage shared subscriptions like Netflix, Spotify, Disney+ with monthly or annual payment schedules, automatic deadline tracking, and discover public groups to join."
-        keywords="subscription groups, shared subscriptions, Netflix subscription, Spotify group subscription, subscription management, recurring payments, discover subscription groups, find subscription groups, public subscription groups"
+        description="Learn about Subscription Groups in GroupFund. Manage shared subscriptions like Netflix, Spotify, Disney+ with monthly or annual payment schedules, automatic deadline tracking, and reliable payment management."
+        keywords="subscription groups, shared subscriptions, Netflix subscription, Spotify group subscription, subscription management, recurring payments"
         canonical="https://groupfund.app/group-types/subscription-groups"
       />
 
@@ -58,10 +58,6 @@ export default function SubscriptionGroupsPage() {
                   <h3>📊 Payment History</h3>
                   <p>Track all subscription payments over time. See payment patterns and maintain complete records.</p>
                 </div>
-                <div className="feature-item">
-                  <h3>🔍 Group Discovery</h3>
-                  <p>Make your subscription group discoverable so others can find and join. Search for groups by platform name or group name, and see health metrics before joining.</p>
-                </div>
               </div>
             </div>
 
@@ -83,7 +79,7 @@ export default function SubscriptionGroupsPage() {
                 <li>Set payment frequency (monthly or annual) and deadline</li>
                 <li>Add admin account details for receiving payments</li>
                 <li>Add instructions in group notes/description for sharing login credentials (e.g., "Email me at abc@example.com for login details")</li>
-                <li>Invite members to join the group, or make your group discoverable (optional)</li>
+                <li>Invite members to join the group using invite codes</li>
                 <li>Automatic reminders are sent before deadlines</li>
                 <li>Members mark payments as "Paid" after transferring</li>
                 <li>Admin confirms receipt of payments</li>
@@ -92,22 +88,6 @@ export default function SubscriptionGroupsPage() {
               </ol>
             </div>
 
-            <div className="group-type-section">
-              <h2>Discover Public Subscription Groups</h2>
-              <p>
-                Looking for a subscription group to join? You can search for public subscription groups by platform name (like "Netflix" or "Spotify") or group name. Search results show:
-              </p>
-              <ul className="use-cases-list">
-                <li><strong>Group Health Metrics:</strong> See health ratings (healthy, mostly_healthy, moderate, unhealthy, or new) based on on-time contributions and compliance rates</li>
-                <li><strong>Member Count:</strong> See how many members are in the group</li>
-                <li><strong>Contribution Amount:</strong> Know the monthly or annual contribution amount</li>
-                <li><strong>Platform Information:</strong> See which subscription service the group is for</li>
-                <li><strong>Membership Status:</strong> See if you're already a member</li>
-              </ul>
-              <p>
-                Groups are private by default. Only subscription groups can be made public by their admins. When you find a group you want to join, you can request to join and the admin will review your request. Health metrics help you find reliable groups where members consistently pay on time.
-              </p>
-            </div>
 
             <div className="cta-box">
               <h2>Ready to Create a Subscription Group?</h2>

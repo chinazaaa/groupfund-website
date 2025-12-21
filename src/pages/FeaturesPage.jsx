@@ -135,11 +135,6 @@ export default function FeaturesPage() {
       description: "For Subscription and General Groups: View the group creator's (admin's) account details for making contributions. The admin is responsible for managing the subscription or funds. For Birthday Groups, see the celebrant's account details.",
       icon: "👤"
     },
-    {
-      title: "Group Discovery for Subscription Groups",
-      description: "Discover public subscription groups by searching for platforms like Netflix, Spotify, or group names. See group health metrics, member count, and reliability data before joining. Groups are private by default - admins can opt-in to make subscription groups discoverable. Search results show health ratings (healthy, mostly_healthy, moderate, unhealthy) so you know who will pay before joining.",
-      icon: "🔍"
-    }
   ]
 
   return (
@@ -151,8 +146,8 @@ export default function FeaturesPage() {
       />
       <SEO
         title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & More"
-        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), group discovery for subscription groups, member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more."
-        keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, group discovery, find subscription groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders"
+        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more."
+        keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders"
         canonical="https://groupfund.app/features"
       />
 
