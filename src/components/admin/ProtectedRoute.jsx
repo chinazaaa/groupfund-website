@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://groupfund-backend.onrender.com/api'
+const API_BASE_URL = import.meta.env.VITE_API_URL || import.meta.env.API_URL;
+
+if (!API_BASE_URL) {
+  console.error('API_BASE_URL is not defined. Please set VITE_API_URL in your environment variables.');
+} 
 
 export default function ProtectedRoute({ children }) {
   const [isAuthorized, setIsAuthorized] = useState(false)
@@ -32,7 +36,13 @@ export default function ProtectedRoute({ children }) {
         throw new Error('Unauthorized')
       }
 
-      const data = await response.json()
+      const text = await response.text();
+      let data;
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch (parseError) {
+        throw new Error('Invalid response from server');
+      }
 
       if (!data.user?.is_admin) {
         localStorage.removeItem('adminToken')

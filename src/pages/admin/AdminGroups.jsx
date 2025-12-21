@@ -116,6 +116,31 @@ export default function AdminGroups() {
     })
   }
 
+  const handleDeleteGroup = (group) => {
+    setConfirmModal({
+      show: true,
+      message: `Are you sure you want to delete the group "${group.name}"? This action is permanent and cannot be undone. All group data will be lost.`,
+      onConfirm: async () => {
+        try {
+          setProcessing(true)
+          setError(null)
+          await adminApi.deleteGroup(group.id)
+          // Reload groups to reflect the deletion
+          await loadGroups()
+          setConfirmModal({ show: false, message: '', onConfirm: null, group: null, action: 'delete' })
+        } catch (err) {
+          const errorMessage = err.message || 'Failed to delete group'
+          setError(errorMessage)
+          alert(`Error: ${errorMessage}`) // Also show alert for visibility
+        } finally {
+          setProcessing(false)
+        }
+      },
+      group: group,
+      action: 'delete'
+    })
+  }
+
   return (
     <AdminLayout>
       <div className="admin-page">
@@ -222,6 +247,13 @@ export default function AdminGroups() {
                               Close Group
                             </button>
                           )}
+                          <button
+                            onClick={() => handleDeleteGroup(group)}
+                            className="btn-sm btn-danger"
+                            style={{ marginLeft: '5px' }}
+                          >
+                            Delete
+                          </button>
                         </div>
                       </td>
                     </tr>
@@ -358,10 +390,10 @@ function ConfirmModal({ message, onConfirm, onCancel, action, processing }) {
           </button>
           <button 
             onClick={onConfirm} 
-            className={`btn ${action === 'close' ? 'btn-danger' : action === 'reopen' ? 'btn-success' : 'btn-primary'}`}
+            className={`btn ${action === 'close' || action === 'delete' ? 'btn-danger' : action === 'reopen' ? 'btn-success' : 'btn-primary'}`}
             disabled={processing}
           >
-            {processing ? 'Processing...' : 'Confirm'}
+            {processing ? 'Processing...' : action === 'delete' ? 'Delete' : 'Confirm'}
           </button>
         </div>
       </div>

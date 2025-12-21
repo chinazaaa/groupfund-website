@@ -2,7 +2,11 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './AdminLogin.css'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://groupfund-backend.onrender.com/api'
+const API_BASE_URL = import.meta.env.VITE_API_URL || import.meta.env.API_URL;
+
+if (!API_BASE_URL) {
+  console.error('API_BASE_URL is not defined. Please set VITE_API_URL in your environment variables.');
+} 
 
 export default function AdminLogin() {
   const [email, setEmail] = useState('')
@@ -17,6 +21,10 @@ export default function AdminLogin() {
     setLoading(true)
 
     try {
+      if (!API_BASE_URL) {
+        throw new Error('API URL is not configured. Please contact support.');
+      }
+
       const response = await fetch(`${API_BASE_URL}/auth/login`, {
         method: 'POST',
         headers: {
@@ -25,7 +33,13 @@ export default function AdminLogin() {
         body: JSON.stringify({ email, password }),
       })
 
-      const data = await response.json()
+      const text = await response.text();
+      let data;
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch (parseError) {
+        throw new Error('Invalid response from server');
+      }
 
       if (!response.ok) {
         throw new Error(data.error || 'Login failed')
@@ -42,7 +56,13 @@ export default function AdminLogin() {
         },
       })
 
-      const profileData = await profileResponse.json()
+      const profileText = await profileResponse.text();
+      let profileData;
+      try {
+        profileData = profileText ? JSON.parse(profileText) : {};
+      } catch (parseError) {
+        throw new Error('Invalid response from server');
+      }
 
       if (!profileData.user?.is_admin) {
         localStorage.removeItem('adminToken')

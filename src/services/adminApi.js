@@ -1,5 +1,10 @@
 // Admin API service
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://groupfund-backend.onrender.com/api';
+// Support both VITE_API_URL (Vite standard) and API_URL (for Vercel/compatibility)
+const API_BASE_URL = import.meta.env.VITE_API_URL || import.meta.env.API_URL;
+
+if (!API_BASE_URL) {
+  console.error('API_BASE_URL is not defined. Please set VITE_API_URL or API_URL in your environment variables.');
+}
 
 // Get auth token from localStorage
 const getAuthToken = () => {
@@ -28,11 +33,25 @@ const apiRequest = async (endpoint, options = {}) => {
   }
 
   if (!response.ok) {
-    const error = await response.json().catch(() => ({ error: 'Server error' }));
+    const text = await response.text();
+    let error;
+    try {
+      error = text ? JSON.parse(text) : { error: 'Server error' };
+    } catch {
+      error = { error: text || 'Server error' };
+    }
     throw new Error(error.error || 'Request failed');
   }
 
-  return response.json();
+  const text = await response.text();
+  if (!text) {
+    return {};
+  }
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error('Invalid JSON response from server');
+  }
 };
 
 export const adminApi = {
@@ -78,6 +97,12 @@ export const adminApi = {
   reopenGroup: (groupId) => {
     return apiRequest(`/groups/${groupId}/reopen`, {
       method: 'PUT',
+    });
+  },
+
+  deleteGroup: (groupId) => {
+    return apiRequest(`/admin/groups/${groupId}`, {
+      method: 'DELETE',
     });
   },
 

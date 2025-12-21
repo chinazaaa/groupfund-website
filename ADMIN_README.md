@@ -15,10 +15,14 @@ A comprehensive admin interface for managing the GroupFund application.
 
 1. **Environment Variables**
 
-   Create a `.env` file in the `website` directory:
+   Create a `.env` file in the project root directory:
    ```env
-   VITE_API_URL=https://groupfund-backend.onrender.com/api
+   API_URL=https://your-api-url.com
    ```
+   
+   **Note**: You can use either `API_URL` or `VITE_API_URL`. The `vite.config.mjs` is configured to expose `API_URL` for compatibility. After updating the `.env` file, restart your development server.
+   
+   **For Vercel**: Set the environment variable in your Vercel project settings (Settings → Environment Variables). Use `API_URL` for consistency.
 
 2. **Start the Development Server**
 

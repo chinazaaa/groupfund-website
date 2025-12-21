@@ -20,7 +20,11 @@ export default function ReportPage() {
     setLoading(true)
 
     try {
-      const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://groupfund-backend.onrender.com/api'
+      const API_BASE_URL = import.meta.env.VITE_API_URL || import.meta.env.API_URL;
+      
+      if (!API_BASE_URL) {
+        throw new Error('API URL is not configured. Please contact support.');
+      }
       
       let endpoint
       let body
@@ -64,7 +68,13 @@ export default function ReportPage() {
         body: JSON.stringify(body),
       })
 
-      const data = await response.json()
+      const text = await response.text();
+      let data;
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch (parseError) {
+        throw new Error('Invalid response from server');
+      }
 
       if (!response.ok) {
         // Handle validation errors
