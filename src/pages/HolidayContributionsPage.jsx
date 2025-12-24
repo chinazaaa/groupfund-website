@@ -1,23 +1,77 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function HolidayContributionsPage() {
+  useEffect(() => {
+    const eventStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Christmas Group Contributions",
+      "description": "Organize group contributions for Christmas gifts, holiday parties, and festive celebrations. Perfect for families, workplaces, and communities.",
+      "url": "https://groupfund.app/seasonal/holiday-contributions",
+      "startDate": "2025-12-25",
+      "endDate": "2025-12-25",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "organizer": {
+        "@type": "Organization",
+        "name": "GroupFund",
+        "url": "https://groupfund.app"
+      }
+    }
+
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Christmas & Holiday Group Contributions - GroupFund",
+      "description": "Organize group contributions for Christmas, holiday gifts, Secret Santa, and festive celebrations. Free tool for families, workplaces, and communities.",
+      "url": "https://groupfund.app/seasonal/holiday-contributions",
+      "about": {
+        "@type": "Thing",
+        "name": "Christmas Group Contributions"
+      }
+    }
+
+    const existingEventScript = document.querySelector('script[data-holiday-event-schema]')
+    if (existingEventScript) existingEventScript.remove()
+    const eventScript = document.createElement('script')
+    eventScript.type = 'application/ld+json'
+    eventScript.setAttribute('data-holiday-event-schema', 'true')
+    eventScript.textContent = JSON.stringify(eventStructuredData)
+    document.head.appendChild(eventScript)
+
+    const existingWebPageScript = document.querySelector('script[data-holiday-webpage-schema]')
+    if (existingWebPageScript) existingWebPageScript.remove()
+    const webPageScript = document.createElement('script')
+    webPageScript.type = 'application/ld+json'
+    webPageScript.setAttribute('data-holiday-webpage-schema', 'true')
+    webPageScript.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(webPageScript)
+
+    return () => {
+      const eventScriptToRemove = document.querySelector('script[data-holiday-event-schema]')
+      if (eventScriptToRemove) eventScriptToRemove.remove()
+      const webPageScriptToRemove = document.querySelector('script[data-holiday-webpage-schema]')
+      if (webPageScriptToRemove) webPageScriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO
-        title="Holiday Group Contributions - Christmas & Holiday Season Payments | GroupFund"
-        description="Organize group contributions during holiday seasons. Manage Christmas contributions, holiday gift funds, and seasonal celebrations with ease. Perfect for families, workplaces, and communities during holidays."
-        keywords="holiday group contributions, Christmas group payments, holiday season contributions, holiday gift funds, seasonal group payments, Christmas contributions, holiday celebration funds, festive season payments"
+        title="Christmas Group Contributions - Organize Holiday Gift Funds & Secret Santa | GroupFund 2025"
+        description="Organize Christmas group contributions, holiday gift funds, Secret Santa, and festive celebrations. Free tool for families, workplaces, and communities. Set deadlines, track payments, coordinate gifts. Perfect for Christmas 2025."
+        keywords="Christmas group contributions, Christmas gift funds, Secret Santa contributions, holiday group payments, Christmas contributions 2025, organize Christmas gifts, holiday gift coordination, Christmas party contributions, festive season payments, Christmas gift tracking, group Christmas gifts, workplace Christmas contributions, family Christmas fund"
         canonical="https://groupfund.app/seasonal/holiday-contributions"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Holiday Group Contributions</h1>
+          <h1 className="page-title">Christmas & Holiday Group Contributions 2025</h1>
           <p className="page-subtitle">
-            Organize group contributions during holiday seasons. Manage Christmas contributions, holiday gift funds, and seasonal celebrations with ease. Perfect for families, workplaces, and communities.
+            Organize Christmas contributions, holiday gift funds, Secret Santa, and festive celebrations. Free tool for families, workplaces, and communities. Set deadlines, track payments, and coordinate Christmas gifts with ease.
           </p>
         </div>
       </section>
@@ -26,29 +80,31 @@ export default function HolidayContributionsPage() {
         <div className="container">
           <div className="industry-content">
             <div className="industry-section">
-              <h2>Why Holiday Contributions Need Special Attention</h2>
+              <h2>Why Christmas & Holiday Contributions Need Special Attention</h2>
               <p>
-                Holiday seasons bring increased expenses, busy schedules, and multiple celebrations. Organizing group contributions during holidays can be particularly challenging due to:
+                Christmas and holiday seasons bring increased expenses, busy schedules, and multiple celebrations. Organizing group contributions during Christmas can be particularly challenging due to:
               </p>
               <ul className="feature-list">
-                <li>Multiple celebrations and gift-giving occasions</li>
-                <li>Increased expenses during holiday seasons</li>
-                <li>Busy schedules and time constraints</li>
-                <li>Coordinating gifts for multiple people</li>
-                <li>Managing contributions across different holidays (Christmas, New Year, etc.)</li>
-                <li>Budgeting for increased holiday spending</li>
+                <li><strong>Multiple Christmas Celebrations:</strong> Office parties, family gatherings, Secret Santa exchanges, and gift-giving occasions all happening at once</li>
+                <li><strong>Increased Christmas Expenses:</strong> People are already spending more on gifts, decorations, food, and travel during the holiday season</li>
+                <li><strong>Busy Holiday Schedules:</strong> Everyone is juggling shopping, parties, travel, and family commitments</li>
+                <li><strong>Coordinating Christmas Gifts:</strong> Organizing group gifts for multiple people requires careful planning and coordination</li>
+                <li><strong>Managing Multiple Holiday Contributions:</strong> Christmas gifts, New Year parties, Secret Santa, and other festive events all need tracking</li>
+                <li><strong>Holiday Budget Management:</strong> Planning and tracking increased seasonal spending across multiple groups</li>
+                <li><strong>Last-Minute Christmas Rush:</strong> People often wait until the last minute, making deadline management critical</li>
               </ul>
             </div>
 
             <div className="industry-section">
-              <h2>Holiday Contribution Use Cases</h2>
+              <h2>Christmas & Holiday Contribution Use Cases</h2>
               
               <div className="use-case-card">
                 <h3>🎄 Christmas Gift Funds</h3>
                 <p>
-                  Organize Christmas contributions for family members, colleagues, or community members. Set contribution amounts, track who has paid, and coordinate gift purchases.
+                  Organize Christmas contributions for family members, colleagues, or community members. Set contribution amounts, track who has paid, and coordinate gift purchases. Perfect for collecting money for Christmas gifts, coordinating group presents, and ensuring everyone contributes fairly before Christmas Day.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with Christmas deadline, or Birthday Groups if organizing birthday contributions during holidays</p>
+                <p><strong>Best Group Type:</strong> General Groups with Christmas deadline (December 25th), or Birthday Groups if organizing birthday contributions during holidays</p>
+                <p><strong>Popular For:</strong> Family Christmas funds, office Christmas gifts, community Christmas contributions, friend group Christmas presents</p>
               </div>
 
               <div className="use-case-card">
@@ -68,11 +124,12 @@ export default function HolidayContributionsPage() {
               </div>
 
               <div className="use-case-card">
-                <h3>🎅 Secret Santa & Gift Exchanges</h3>
+                <h3>🎅 Secret Santa & Christmas Gift Exchanges</h3>
                 <p>
-                  Coordinate Secret Santa contributions or gift exchange funds. Set contribution amounts, track payments, and ensure everyone participates fairly.
+                  Coordinate Secret Santa contributions or Christmas gift exchange funds. Set contribution amounts (typically $20-$50), track payments, and ensure everyone participates fairly. Perfect for office Secret Santa, family gift exchanges, and friend group Secret Santa events. Set deadlines before the gift exchange date to ensure all contributions are collected.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with gift exchange deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with gift exchange deadline (usually 1-2 weeks before Christmas)</p>
+                <p><strong>Popular For:</strong> Office Secret Santa, family Secret Santa, friend group gift exchanges, Christmas gift swaps</p>
               </div>
 
               <div className="use-case-card">
@@ -121,41 +178,48 @@ export default function HolidayContributionsPage() {
             </div>
 
             <div className="industry-section">
-              <h2>Best Practices for Holiday Contributions</h2>
+              <h2>Best Practices for Christmas & Holiday Contributions</h2>
               <ul className="best-practices-list">
-                <li><strong>Plan Early:</strong> Set up holiday contribution groups well in advance to give people time to contribute.</li>
-                <li><strong>Set Clear Deadlines:</strong> Tie deadlines to specific dates (e.g., "December 15th for Christmas gifts") to ensure timely collection.</li>
-                <li><strong>Consider Budgets:</strong> Be mindful that people may have increased expenses during holidays - set reasonable contribution amounts.</li>
-                <li><strong>Use Reminders:</strong> Leverage automatic reminders to help people remember deadlines during busy holiday seasons.</li>
-                <li><strong>Coordinate Gifts:</strong> Use wishlists or group communication to coordinate gift giving and avoid duplicates.</li>
-                <li><strong>Be Flexible:</strong> Understand that holiday schedules can be unpredictable - allow some flexibility when possible.</li>
-                <li><strong>Track Everything:</strong> Keep detailed records of all holiday contributions for transparency and accountability.</li>
+                <li><strong>Plan Early for Christmas:</strong> Set up Christmas contribution groups in early December (or even November) to give people time to contribute before the holiday rush. Don't wait until the last minute!</li>
+                <li><strong>Set Clear Christmas Deadlines:</strong> Tie deadlines to specific dates (e.g., "December 20th for Christmas gifts" or "December 15th for Secret Santa") to ensure timely collection before Christmas Day.</li>
+                <li><strong>Consider Holiday Budgets:</strong> Be mindful that people may have increased expenses during Christmas - set reasonable contribution amounts ($20-$50 for Secret Santa, $50-$200 for group gifts). Don't make it too expensive!</li>
+                <li><strong>Use Automatic Reminders:</strong> Leverage automatic reminders (7 days before, 1 day before, and on deadline day) to help people remember deadlines during busy Christmas seasons.</li>
+                <li><strong>Coordinate Christmas Gifts:</strong> Use wishlists or group communication to coordinate gift giving and avoid duplicate Christmas presents. Perfect for Secret Santa coordination!</li>
+                <li><strong>Be Flexible During Holidays:</strong> Understand that Christmas schedules can be unpredictable - allow some flexibility when possible, but stick to deadlines for gift purchases.</li>
+                <li><strong>Track Everything:</strong> Keep detailed records of all Christmas contributions for transparency and accountability. Everyone should see who has paid and who hasn't.</li>
+                <li><strong>Create Separate Groups:</strong> Create separate groups for different Christmas events (Secret Santa, office party, family gifts) to keep everything organized.</li>
+                <li><strong>Set Realistic Amounts:</strong> For Christmas 2025, consider inflation and increased costs. $25-$50 is typical for Secret Santa, $50-$200 for group gifts.</li>
               </ul>
             </div>
 
             <div className="industry-section">
-              <h2>Getting Started with Holiday Contributions</h2>
+              <h2>Getting Started with Christmas Contributions</h2>
               <p>
-                Ready to organize contributions for the holiday season? Follow these steps:
+                Ready to organize contributions for Christmas 2025? Follow these simple steps:
               </p>
               <ol className="steps-list">
-                <li>Determine the purpose (Christmas gifts, party, decorations, etc.)</li>
-                <li>Set a deadline that gives people enough time to contribute</li>
-                <li>Choose fair contribution amounts that work for everyone's holiday budget</li>
-                <li>Create a General Group in GroupFund with the holiday deadline</li>
-                <li>Invite all participants using invite codes</li>
-                <li>Track contributions and confirm payments as they're received</li>
-                <li>Use reminders to ensure everyone contributes before the deadline</li>
+                <li><strong>Determine the Purpose:</strong> Decide what you're collecting for - Christmas gifts, Secret Santa, office party, family fund, etc.</li>
+                <li><strong>Set a Christmas Deadline:</strong> Set a deadline that gives people enough time to contribute (e.g., December 20th for Christmas gifts, December 15th for Secret Santa). Make it at least 1-2 weeks before Christmas Day.</li>
+                <li><strong>Choose Fair Contribution Amounts:</strong> Choose amounts that work for everyone's Christmas budget. Typical amounts: $20-$50 for Secret Santa, $50-$200 for group gifts.</li>
+                <li><strong>Create a General Group:</strong> Create a General Group in GroupFund with the Christmas deadline. Name it clearly (e.g., "Office Secret Santa 2025" or "Family Christmas Fund").</li>
+                <li><strong>Invite Participants:</strong> Share the group invite code with all participants. They can preview the group and request to join.</li>
+                <li><strong>Track Contributions:</strong> Monitor who has paid and who hasn't. The app shows real-time payment status.</li>
+                <li><strong>Confirm Payments:</strong> As payments are received, confirm them in the app. Members mark as "Paid" and you confirm receipt.</li>
+                <li><strong>Use Automatic Reminders:</strong> Let GroupFund send automatic reminders 7 days before, 1 day before, and on the deadline day.</li>
+                <li><strong>Coordinate Gifts:</strong> Use wishlists or group notes to coordinate Christmas gift purchases and avoid duplicates.</li>
               </ol>
             </div>
 
             <div className="industry-cta">
-              <h2>Start Organizing Your Holiday Contributions</h2>
-              <p>Join families, workplaces, and communities using GroupFund to manage holiday contributions effectively.</p>
+              <h2>Start Organizing Your Christmas Contributions Today</h2>
+              <p>Join families, workplaces, and communities using GroupFund to manage Christmas contributions, Secret Santa, and holiday gift funds. Free to start, no credit card required. Perfect for Christmas 2025!</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Christmas Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
+              <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#6b7280' }}>
+                ⚡ Set up in minutes • Free forever • Perfect for Secret Santa, Christmas gifts, and holiday parties
+              </p>
             </div>
 
             <div className="related-resources">

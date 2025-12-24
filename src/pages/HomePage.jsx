@@ -50,8 +50,8 @@ export default function HomePage() {
       />
       <SEO
         title="GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"
-        description="Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
-        keywords="group contributions, birthday contributions, subscription groups, group payments, member reliability scores, group health metrics, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
+        description="Organize group contributions for birthdays, shared subscriptions, Christmas gifts, Secret Santa, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start. Perfect for Christmas 2025!"
+        keywords="group contributions, birthday contributions, subscription groups, group payments, Christmas contributions, Secret Santa contributions, Christmas gift funds, holiday group payments, member reliability scores, group health metrics, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria, Christmas 2025"
         canonical="https://groupfund.app/"
       />
 

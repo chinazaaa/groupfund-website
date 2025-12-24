@@ -52,9 +52,9 @@ export default function SeasonalPage() {
   return (
     <>
       <SEO
-        title="Seasonal Group Contributions - Holiday, Back to School, Wedding Season | GroupFund"
-        description="Organize group contributions for seasonal events: holidays, back-to-school, wedding season, and more. Manage Christmas contributions, school payments, wedding funds, and seasonal celebrations with GroupFund."
-        keywords="seasonal group contributions, holiday contributions, Christmas group payments, back to school contributions, wedding season payments, seasonal gift funds, holiday season payments"
+        title="Seasonal Group Contributions - Christmas, Holiday, Back to School, Wedding Season | GroupFund"
+        description="Organize group contributions for seasonal events: Christmas, holidays, back-to-school, wedding season, and more. Manage Christmas contributions, Secret Santa, holiday gift funds, school payments, wedding funds, and seasonal celebrations with GroupFund."
+        keywords="seasonal group contributions, Christmas contributions, holiday contributions, Christmas group payments, Secret Santa contributions, Christmas gift funds, back to school contributions, wedding season payments, seasonal gift funds, holiday season payments, Christmas 2025, organize Christmas gifts"
         canonical="https://groupfund.app/seasonal"
       />
 
@@ -62,7 +62,7 @@ export default function SeasonalPage() {
         <div className="container">
           <h1 className="page-title">Seasonal Group Contributions</h1>
           <p className="page-subtitle">
-            Organize group contributions for seasonal events and celebrations. Whether it's holidays, back-to-school, wedding season, or other special times, GroupFund helps you manage seasonal contributions effectively.
+            Organize group contributions for seasonal events and celebrations. Whether it's Christmas, holidays, back-to-school, wedding season, or other special times, GroupFund helps you manage seasonal contributions effectively.
           </p>
         </div>
       </section>
