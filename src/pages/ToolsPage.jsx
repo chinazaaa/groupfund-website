@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ToolsPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Tools - GroupFund",
+      "description": "Free tools for calculating group contributions, estimating yearly costs, and planning group contributions for birthdays, subscriptions, and events.",
+      "url": "https://groupfund.app/tools"
+    }
+    const existingScript = document.querySelector('script[data-tools-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-tools-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-tools-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const tools = [
     {
       slug: 'contribution-calculator',

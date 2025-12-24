@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ComparisonsPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Comparisons - GroupFund",
+      "description": "Compare GroupFund with WhatsApp groups, Excel spreadsheets, Splitwise, Venmo, and other methods for organizing group contributions.",
+      "url": "https://groupfund.app/comparisons"
+    }
+    const existingScript = document.querySelector('script[data-comparisons-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-comparisons-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-comparisons-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const comparisons = [
     {
       slug: 'whatsapp-groups',

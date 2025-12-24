@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function IndustriesPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Industries - GroupFund",
+      "description": "GroupFund for different industries: real estate, healthcare, retail, and more. Organize group contributions for any industry.",
+      "url": "https://groupfund.app/industries"
+    }
+    const existingScript = document.querySelector('script[data-industries-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-industries-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-industries-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const industries = [
     {
       slug: 'real-estate',

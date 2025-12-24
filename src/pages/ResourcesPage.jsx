@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ResourcesPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Resources & Guides - GroupFund",
+      "description": "Comprehensive guides and resources for organizing group contributions. Learn best practices, tips, and strategies for managing birthday, subscription, and general groups.",
+      "url": "https://groupfund.app/resources"
+    }
+    const existingScript = document.querySelector('script[data-resources-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-resources-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-resources-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const guides = [
     {
       slug: 'how-to-organize-birthday-contributions',

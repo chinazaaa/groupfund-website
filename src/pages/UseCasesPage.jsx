@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function UseCasesPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Use Cases - GroupFund",
+      "description": "Discover how GroupFund is used by families, churches, schools, workplaces, and other groups to organize contributions for birthdays, subscriptions, and events.",
+      "url": "https://groupfund.app/use-cases"
+    }
+    const existingScript = document.querySelector('script[data-use-cases-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-use-cases-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-use-cases-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const useCases = [
     {
       slug: 'families',

@@ -1,9 +1,42 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function AboutPage() {
+  // Add AboutPage structured data
+  useEffect(() => {
+    const aboutStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About GroupFund",
+      "description": "Learn about GroupFund's mission to help families, churches, and groups organize contributions for birthdays, subscriptions, and events effortlessly.",
+      "url": "https://groupfund.app/about",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "GroupFund",
+        "url": "https://groupfund.app",
+        "logo": "https://groupfund.app/logo.png",
+        "description": "GroupFund helps families, churches, and groups organize contributions for birthdays, subscriptions, and events effortlessly.",
+        "foundingDate": "2024",
+        "mission": "To bring order, transparency, and fairness to group contributions of all kinds"
+      }
+    }
+
+    const existingScript = document.querySelector('script[data-about-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-about-schema', 'true')
+    script.textContent = JSON.stringify(aboutStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-about-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO

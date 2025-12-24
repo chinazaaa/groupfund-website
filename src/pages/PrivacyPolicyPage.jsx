@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function PrivacyPolicyPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Privacy Policy - GroupFund",
+      "description": "Read GroupFund's Privacy Policy to understand how we collect, use, and protect your personal information.",
+      "url": "https://groupfund.app/privacy"
+    }
+    const existingScript = document.querySelector('script[data-privacy-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-privacy-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-privacy-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO

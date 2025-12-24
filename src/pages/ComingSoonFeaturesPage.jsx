@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ComingSoonFeaturesPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Coming Soon Features - GroupFund",
+      "description": "Upcoming features and improvements coming to GroupFund. Mobile apps, multi-event support, recurring contributions, and more.",
+      "url": "https://groupfund.app/coming-soon-features"
+    }
+    const existingScript = document.querySelector('script[data-coming-soon-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-coming-soon-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-coming-soon-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const pipelineFeatures = [
     {
       title: "Mobile App (iOS & Android)",

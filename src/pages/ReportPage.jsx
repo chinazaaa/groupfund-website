@@ -1,9 +1,30 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ReportPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Report - GroupFund",
+      "description": "Report groups or members for spam, fraud, harassment, or other violations. Help maintain platform safety.",
+      "url": "https://groupfund.app/report"
+    }
+    const existingScript = document.querySelector('script[data-report-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-report-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-report-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const [reportType, setReportType] = useState('group')
   const [reason, setReason] = useState('')
   const [description, setDescription] = useState('')

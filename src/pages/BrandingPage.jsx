@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SEO from '../components/SEO'
 import '../App.css'
 import './BrandingPage.css'
 
 export default function BrandingPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Brand Guidelines - GroupFund",
+      "description": "GroupFund brand guidelines, logo usage, colors, typography, and design standards for using GroupFund branding.",
+      "url": "https://groupfund.app/branding"
+    }
+    const existingScript = document.querySelector('script[data-branding-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-branding-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-branding-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
   const primaryColors = [
     { name: 'Primary Purple', hex: '#6366f1', description: 'Indigo-500 - Main brand color' },
     { name: 'Primary Dark', hex: '#4f46e5', description: 'Indigo-600 - Darker variant for hover states' },

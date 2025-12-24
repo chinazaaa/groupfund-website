@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function HowItWorksPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "How It Works - GroupFund",
+      "description": "Learn how GroupFund works to organize group contributions for birthdays, subscriptions, and events. Simple steps to get started.",
+      "url": "https://groupfund.app/how-it-works"
+    }
+    const existingScript = document.querySelector('script[data-how-it-works-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-how-it-works-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-how-it-works-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
   const steps = [
     {
       number: '1',

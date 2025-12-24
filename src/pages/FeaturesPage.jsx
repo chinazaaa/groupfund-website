@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import ComingSoonModal from '../components/ComingSoonModal'
@@ -7,6 +7,27 @@ import '../App.css'
 export default function FeaturesPage() {
   const [modalOpen, setModalOpen] = useState(false)
   const [storeName, setStoreName] = useState('')
+
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Features - GroupFund",
+      "description": "Discover GroupFund's features for organizing group contributions: multi-currency support, automatic reminders, payment tracking, and more.",
+      "url": "https://groupfund.app/features"
+    }
+    const existingScript = document.querySelector('script[data-features-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-features-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-features-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
 
   const handleAppStoreClick = (e, name) => {
     e.preventDefault()

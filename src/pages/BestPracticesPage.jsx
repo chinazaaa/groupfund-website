@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function BestPracticesPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Best Practices - GroupFund",
+      "description": "Best practices and strategies for organizing group contributions. Learn how to manage large groups, international groups, and set fair contribution amounts.",
+      "url": "https://groupfund.app/best-practices"
+    }
+    const existingScript = document.querySelector('script[data-best-practices-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-best-practices-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-best-practices-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const bestPractices = [
     {
       slug: 'managing-large-groups',

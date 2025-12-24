@@ -295,6 +295,53 @@ export default function HelpPage() {
 
   const filteredSections = filterSections(helpSections, searchQuery)
 
+  // Add FAQPage structured data
+  useEffect(() => {
+    const extractText = (answer) => {
+      if (typeof answer === 'string') {
+        return answer
+      }
+      if (answer && answer.props && answer.props.children) {
+        if (typeof answer.props.children === 'string') {
+          return answer.props.children
+        }
+        return answer.props.children.toString()
+      }
+      return String(answer)
+    }
+
+    const allQuestions = helpSections.flatMap(section => 
+      section.topics.map(topic => ({
+        "@type": "Question",
+        "name": topic.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": extractText(topic.answer)
+        }
+      }))
+    )
+
+    const faqStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "url": "https://groupfund.app/help",
+      "mainEntity": allQuestions
+    }
+
+    const existingScript = document.querySelector('script[data-help-faq-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-help-faq-schema', 'true')
+    script.textContent = JSON.stringify(faqStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-help-faq-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   // Auto-open sections when searching
   useEffect(() => {
     if (searchQuery.trim()) {

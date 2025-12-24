@@ -1,9 +1,47 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function PricingPage() {
+  // Add Service structured data
+  useEffect(() => {
+    const serviceStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "GroupFund - Group Contribution Management",
+      "description": "Free group contribution tracking and organization service for birthdays, subscriptions, and events",
+      "url": "https://groupfund.app/pricing",
+      "provider": {
+        "@type": "Organization",
+        "name": "GroupFund",
+        "url": "https://groupfund.app"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31"
+      },
+      "serviceType": "Group Contribution Management",
+      "areaServed": "Worldwide"
+    }
+
+    const existingScript = document.querySelector('script[data-pricing-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-pricing-schema', 'true')
+    script.textContent = JSON.stringify(serviceStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-pricing-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO

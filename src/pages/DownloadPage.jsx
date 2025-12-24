@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import ComingSoonModal from '../components/ComingSoonModal'
@@ -7,6 +7,43 @@ import '../App.css'
 export default function DownloadPage() {
   const [modalOpen, setModalOpen] = useState(false)
   const [storeName, setStoreName] = useState('')
+
+  // Add SoftwareApplication structured data
+  useEffect(() => {
+    const softwareStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GroupFund",
+      "url": "https://groupfund.app/download",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "iOS, Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Download GroupFund app for iOS and Android. Organize group contributions effortlessly - birthdays, subscriptions, events. Track payments, set reminders, manage multiple groups.",
+      "screenshot": "https://groupfund.app/og-image.jpg",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "100"
+      }
+    }
+
+    const existingScript = document.querySelector('script[data-download-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-download-schema', 'true')
+    script.textContent = JSON.stringify(softwareStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-download-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
 
   const handleAppStoreClick = useCallback((e, name) => {
     e.preventDefault()

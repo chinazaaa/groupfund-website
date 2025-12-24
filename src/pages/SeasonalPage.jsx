@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function SeasonalPage() {
+  useEffect(() => {
+    const webPageStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Seasonal - GroupFund",
+      "description": "Organize group contributions for seasonal events: holidays, back-to-school, wedding season, and more. Perfect for seasonal group contributions.",
+      "url": "https://groupfund.app/seasonal"
+    }
+    const existingScript = document.querySelector('script[data-seasonal-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-seasonal-schema', 'true')
+    script.textContent = JSON.stringify(webPageStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-seasonal-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   const seasonalContent = [
     {
       slug: 'holiday-contributions',

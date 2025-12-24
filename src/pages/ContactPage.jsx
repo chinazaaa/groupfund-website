@@ -1,10 +1,40 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function ContactPage() {
   const navigate = useNavigate()
+
+  // Add ContactPage structured data
+  useEffect(() => {
+    const contactStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact GroupFund",
+      "description": "Contact GroupFund for support, questions, or feedback. We're here to help you organize your group contributions.",
+      "url": "https://groupfund.app/contact",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "GroupFund",
+        "email": "support@groupfund.app",
+        "url": "https://groupfund.app"
+      }
+    }
+
+    const existingScript = document.querySelector('script[data-contact-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-contact-schema', 'true')
+    script.textContent = JSON.stringify(contactStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-contact-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
   const [formData, setFormData] = useState({
     name: '',
     email: '',

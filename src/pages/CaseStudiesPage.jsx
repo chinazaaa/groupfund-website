@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
@@ -42,6 +42,43 @@ export default function CaseStudiesPage() {
       keywords: 'workplace contribution success story, office group payment case study, colleague contribution management'
     }
   ]
+
+  // Add CollectionPage structured data
+  useEffect(() => {
+    const collectionStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Group Contribution Case Studies",
+      "description": "Read detailed case studies showing how churches, families, and groups successfully use GroupFund to organize group contributions.",
+      "url": "https://groupfund.app/case-studies",
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": caseStudies.map((study, index) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "item": {
+            "@type": "Article",
+            "name": study.title,
+            "description": study.description,
+            "url": `https://groupfund.app/case-studies/${study.slug}`
+          }
+        }))
+      }
+    }
+
+    const existingScript = document.querySelector('script[data-case-studies-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-case-studies-schema', 'true')
+    script.textContent = JSON.stringify(collectionStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-case-studies-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
 
   return (
     <>
