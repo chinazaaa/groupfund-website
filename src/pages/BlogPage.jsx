@@ -257,7 +257,9 @@ export default function BlogPage() {
   }, [searchQuery, selectedCategory])
 
   const handleCategoryClick = (category) => {
-    if (selectedCategory === category) {
+    if (category === 'All') {
+      setSelectedCategory(null) // Clear filter when "All" is clicked
+    } else if (selectedCategory === category) {
       setSelectedCategory(null) // Deselect if clicking the same category
     } else {
       setSelectedCategory(category)
@@ -315,6 +317,34 @@ export default function BlogPage() {
 
             {/* Category Filters */}
             <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              {/* All button */}
+              <button
+                onClick={() => handleCategoryClick('All')}
+                style={{
+                  padding: '0.5rem 1rem',
+                  backgroundColor: selectedCategory === null ? '#6366f1' : '#fff',
+                  color: selectedCategory === null ? '#fff' : '#333',
+                  border: '1px solid',
+                  borderColor: selectedCategory === null ? '#6366f1' : '#ddd',
+                  borderRadius: '20px',
+                  fontSize: '0.9rem',
+                  cursor: 'pointer',
+                  transition: 'all 0.3s ease',
+                  fontWeight: selectedCategory === null ? '600' : '400'
+                }}
+                onMouseEnter={(e) => {
+                  if (selectedCategory !== null) {
+                    e.target.style.backgroundColor = '#f0f0f0'
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (selectedCategory !== null) {
+                    e.target.style.backgroundColor = '#fff'
+                  }
+                }}
+              >
+                All
+              </button>
               {categories.map((category) => (
                 <button
                   key={category}
