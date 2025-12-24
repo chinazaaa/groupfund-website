@@ -118,6 +118,14 @@ export default function ResourcesPage() {
       readTime: '8 min read'
     },
     {
+      slug: 'birthday-wishlist-meaning',
+      title: 'Birthday Wishlist Meaning - What is a Birthday Wishlist?',
+      description: 'Learn what a birthday wishlist means and how it works. Discover how birthday wishlists help coordinate group gift giving, prevent duplicate gifts, and ensure celebrants receive items they actually want.',
+      icon: '📖',
+      category: 'Getting Started',
+      readTime: '5 min read'
+    },
+    {
       slug: 'setting-up-birthday-groups',
       title: 'Setting Up Birthday Groups',
       description: 'Complete guide to creating and managing Birthday Groups. Learn how to add birthdays, set up wishlists, configure reminders, and organize birthday contributions effectively.',

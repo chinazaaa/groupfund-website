@@ -7,9 +7,9 @@ export default function SubscriptionDeadlineManagementPage() {
   return (
     <>
       <SEO
-        title="Subscription Deadline Management - Complete Guide"
-        description="Master subscription deadline tracking. Learn how to set monthly or annual frequencies, configure deadlines, and ensure timely payments for shared subscriptions."
-        keywords="subscription deadline, subscription management, deadline tracking, monthly subscriptions, annual subscriptions, payment deadlines"
+        title="Deadline Subscription - Complete Guide to Subscription Deadline Management"
+        description="Learn everything about deadline subscription management. Master subscription deadline tracking, set monthly or annual frequencies, configure deadlines, and ensure timely payments for shared subscriptions like Netflix, Spotify, and more."
+        keywords="deadline subscription, subscription deadline, subscription deadline management, deadline tracking, monthly subscriptions, annual subscriptions, payment deadlines, subscription payment deadline"
         canonical="https://groupfund.app/resources/subscription-deadline-management"
       />
 
@@ -28,6 +28,16 @@ export default function SubscriptionDeadlineManagementPage() {
             <div className="resource-meta">
               <span className="resource-category">Planning</span>
               <span className="resource-read-time">5 min read</span>
+            </div>
+
+            <div className="resource-section">
+              <h2>What is a Deadline Subscription?</h2>
+              <p>
+                A deadline subscription refers to the payment deadline system used for managing shared subscriptions. Subscription deadlines determine when payments are due for shared subscriptions like Netflix, Spotify, Disney+, and other streaming services. Proper deadline subscription management ensures timely payments and prevents service interruptions.
+              </p>
+              <p>
+                In GroupFund, deadline subscription tracking is a core feature of Subscription Groups, allowing you to set monthly or annual payment deadlines and automatically remind members before payments are due.
+              </p>
             </div>
 
             <div className="resource-section">

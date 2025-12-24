@@ -113,6 +113,7 @@ export default function SitemapPage() {
         { path: "/resources/optimizing-payment-confirmation-workflows", label: "Optimizing Payment Confirmation Workflows" },
         { path: "/resources/using-birthday-wishlists", label: "How to Use Birthday Wishlists" },
         { path: "/resources/how-to-create-birthday-wishlist", label: "How to Create a Birthday Wishlist" },
+        { path: "/resources/birthday-wishlist-meaning", label: "Birthday Wishlist Meaning" },
         { path: "/resources/setting-up-birthday-groups", label: "Setting Up Birthday Groups" },
         { path: "/resources/setting-up-subscription-groups", label: "Setting Up Subscription Groups" },
         { path: "/resources/creating-general-groups-for-events", label: "Creating General Groups for Events" },
