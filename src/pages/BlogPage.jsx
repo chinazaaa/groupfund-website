@@ -227,7 +227,7 @@ export default function BlogPage() {
 
       <section className="blog-page">
         <div className="container">
-          <div className="blog-intro" style={{ marginBottom: '3rem', textAlign: 'center' }}>
+          {/* <div className="blog-intro" style={{ marginBottom: '3rem', textAlign: 'center' }}>
             <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>Expert Insights on Group Contributions</h2>
             <p style={{ fontSize: '1.1rem', color: '#666', maxWidth: '800px', margin: '0 auto' }}>
               Discover comprehensive guides, tips, and strategies for organizing group contributions effectively. 
@@ -235,7 +235,7 @@ export default function BlogPage() {
               from getting started to advanced management techniques. Learn about payment tracking, member reliability, 
               subscription management, event planning, and best practices used by successful groups worldwide.
             </p>
-          </div>
+          </div> */}
 
           <div className="blog-grid">
             {blogPosts.map((post, index) => (
