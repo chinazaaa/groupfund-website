@@ -316,7 +316,7 @@ export default function BlogPage() {
             </div>
 
             {/* Category Filters */}
-            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <div className="category-filters">
               {/* All button */}
               <button
                 onClick={() => handleCategoryClick('All')}
