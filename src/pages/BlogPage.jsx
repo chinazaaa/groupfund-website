@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function BlogPage() {
+  const [searchQuery, setSearchQuery] = useState('')
+  const [selectedCategory, setSelectedCategory] = useState(null)
+
   const blogPosts = [
     {
       title: "How to Organize Christmas Contributions and Secret Santa in 2025",
@@ -11,7 +14,8 @@ export default function BlogPage() {
       date: "December 01, 2025",
       readTime: "7 min read",
       slug: "how-to-organize-christmas-contributions-secret-santa-2025",
-      keywords: "Christmas contributions, Secret Santa contributions, organize Christmas gifts, Christmas gift funds, Christmas group payments, Secret Santa organization, Christmas contributions 2025, holiday gift coordination"
+      keywords: "Christmas contributions, Secret Santa contributions, organize Christmas gifts, Christmas gift funds, Christmas group payments, Secret Santa organization, Christmas contributions 2025, holiday gift coordination",
+      categories: ["Event Planning", "Best Practices"]
     },
     {
       title: "How Birthday Wishlists Make Gift Giving Easier for Groups",
@@ -19,7 +23,8 @@ export default function BlogPage() {
       date: "December 20, 2025",
       readTime: "6 min read",
       slug: "how-birthday-wishlists-make-gift-giving-easier",
-      keywords: "birthday wishlists, group gift giving, birthday gift coordination, wishlist management, gift giving tips"
+      keywords: "birthday wishlists, group gift giving, birthday gift coordination, wishlist management, gift giving tips",
+      categories: ["Birthday Groups", "Best Practices"]
     },
     {
       title: "Managing Group Contributions During Holiday Seasons",
@@ -27,7 +32,8 @@ export default function BlogPage() {
       date: "December 15, 2025",
       readTime: "6 min read",
       slug: "managing-group-contributions-during-holiday-seasons",
-      keywords: "holiday contributions, group payments holidays, managing contributions festive season"
+      keywords: "holiday contributions, group payments holidays, managing contributions festive season",
+      categories: ["Event Planning", "Best Practices"]
     },
     {
       title: "Building Trust in Contribution Groups: A Complete Guide",
@@ -35,7 +41,8 @@ export default function BlogPage() {
       date: "December 15, 2025",
       readTime: "7 min read",
       slug: "building-trust-contribution-groups-complete-guide",
-      keywords: "trust in groups, contribution group trust, building group trust, payment transparency"
+      keywords: "trust in groups, contribution group trust, building group trust, payment transparency",
+      categories: ["Best Practices", "Payment Tracking"]
     },
     {
       title: "How to Handle Contribution Disputes Fairly and Professionally",
@@ -43,7 +50,8 @@ export default function BlogPage() {
       date: "December 15, 2025",
       readTime: "6 min read",
       slug: "handle-contribution-disputes-fairly-professionally",
-      keywords: "contribution disputes, payment conflicts, resolving group disputes, fair dispute resolution"
+      keywords: "contribution disputes, payment conflicts, resolving group disputes, fair dispute resolution",
+      categories: ["Best Practices", "Payment Tracking"]
     },
     {
       title: "Mobile-First Contribution Management: Why It Matters",
@@ -51,7 +59,8 @@ export default function BlogPage() {
       date: "December 15, 2025",
       readTime: "5 min read",
       slug: "mobile-first-contribution-management-why-matters",
-      keywords: "mobile contribution management, mobile payment tracking, smartphone contributions"
+      keywords: "mobile contribution management, mobile payment tracking, smartphone contributions",
+      categories: ["Best Practices", "Payment Tracking"]
     },
     {
       title: "Scaling Your Contribution Group: From 5 to 50 Members",
@@ -59,7 +68,8 @@ export default function BlogPage() {
       date: "December 15, 2025",
       readTime: "8 min read",
       slug: "scaling-contribution-group-5-to-50-members",
-      keywords: "scaling contribution groups, large group management, growing contribution groups"
+      keywords: "scaling contribution groups, large group management, growing contribution groups",
+      categories: ["Best Practices", "General Groups"]
     },
     {
       title: "The Psychology of Group Contributions: What Makes People Pay on Time",
@@ -67,7 +77,8 @@ export default function BlogPage() {
       date: "December 15, 2025",
       readTime: "7 min read",
       slug: "psychology-group-contributions-makes-people-pay-time",
-      keywords: "contribution psychology, payment behavior, group payment psychology, timely payments"
+      keywords: "contribution psychology, payment behavior, group payment psychology, timely payments",
+      categories: ["Best Practices", "Payment Tracking"]
     },
     {
       title: "How to Organize Birthday Contributions Without Stress",
@@ -75,7 +86,8 @@ export default function BlogPage() {
       date: "December 13, 2025",
       readTime: "5 min read",
       slug: "organize-birthday-contributions-without-stress",
-      keywords: "organize birthday contributions, group payment organization, stress-free contributions"
+      keywords: "organize birthday contributions, group payment organization, stress-free contributions",
+      categories: ["Birthday Groups", "Best Practices"]
     },
     {
       title: "Why WhatsApp Groups Fail at Tracking Group Payments",
@@ -83,7 +95,8 @@ export default function BlogPage() {
       date: "December 12, 2025",
       readTime: "6 min read",
       slug: "why-whatsapp-groups-fail-tracking-payments",
-      keywords: "WhatsApp payment tracking, group payment problems, WhatsApp limitations"
+      keywords: "WhatsApp payment tracking, group payment problems, WhatsApp limitations",
+      categories: ["Payment Tracking", "Best Practices"]
     },
     {
       title: "The Best Ways to Collect Money for Events in Nigeria",
@@ -91,7 +104,8 @@ export default function BlogPage() {
       date: "December 11, 2025",
       readTime: "7 min read",
       slug: "best-ways-collect-money-events-nigeria",
-      keywords: "collect money Nigeria, group payments Nigeria, event contributions Nigeria"
+      keywords: "collect money Nigeria, group payments Nigeria, event contributions Nigeria",
+      categories: ["Event Planning", "Payment Tracking"]
     },
     {
       title: "GroupFund vs. Traditional Methods: A Comparison",
@@ -99,7 +113,8 @@ export default function BlogPage() {
       date: "December 10, 2025",
       readTime: "8 min read",
       slug: "groupfund-vs-traditional-methods-comparison",
-      keywords: "GroupFund comparison, traditional payment methods, group contribution tools"
+      keywords: "GroupFund comparison, traditional payment methods, group contribution tools",
+      categories: ["Best Practices", "Payment Tracking"]
     },
     {
       title: "5 Tips for Fair Birthday Contribution Management",
@@ -107,7 +122,8 @@ export default function BlogPage() {
       date: "December 09, 2025",
       readTime: "5 min read",
       slug: "tips-fair-birthday-contribution-management",
-      keywords: "fair contribution management, birthday payment tips, group fairness"
+      keywords: "fair contribution management, birthday payment tips, group fairness",
+      categories: ["Birthday Groups", "Best Practices"]
     },
     {
       title: "How Churches Can Streamline Member Birthday Contributions",
@@ -115,7 +131,8 @@ export default function BlogPage() {
       date: "December 08, 2025",
       readTime: "6 min read",
       slug: "churches-streamline-member-birthday-contributions",
-      keywords: "church contributions, member birthday contributions, church organization"
+      keywords: "church contributions, member birthday contributions, church organization",
+      categories: ["Birthday Groups", "Best Practices"]
     },
     {
       title: "How to Manage Shared Subscriptions with Subscription Groups",
@@ -123,7 +140,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "6 min read",
       slug: "how-to-manage-shared-subscriptions-subscription-groups",
-      keywords: "shared subscriptions, subscription groups, Netflix subscription sharing, Spotify group subscription, subscription management"
+      keywords: "shared subscriptions, subscription groups, Netflix subscription sharing, Spotify group subscription, subscription management",
+      categories: ["Subscription Groups", "Payment Tracking"]
     },
     {
       title: "Organizing Group Contributions for Weddings and Events",
@@ -131,7 +149,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "7 min read",
       slug: "organizing-group-contributions-weddings-events",
-      keywords: "wedding contributions, event contributions, baby shower contributions, graduation contributions, group event planning"
+      keywords: "wedding contributions, event contributions, baby shower contributions, graduation contributions, group event planning",
+      categories: ["General Groups", "Event Planning"]
     },
     {
       title: "Subscription Groups vs. Manual Payment Tracking: Which is Better?",
@@ -139,7 +158,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "6 min read",
       slug: "subscription-groups-vs-manual-payment-tracking",
-      keywords: "subscription management, subscription tracking, automated subscription payments, subscription group benefits"
+      keywords: "subscription management, subscription tracking, automated subscription payments, subscription group benefits",
+      categories: ["Subscription Groups", "Payment Tracking"]
     },
     {
       title: "Setting Up Your First Subscription Group: Step-by-Step Guide",
@@ -147,7 +167,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "5 min read",
       slug: "setting-up-first-subscription-group-step-by-step",
-      keywords: "subscription group setup, shared subscription guide, how to create subscription group"
+      keywords: "subscription group setup, shared subscription guide, how to create subscription group",
+      categories: ["Subscription Groups", "Best Practices"]
     },
     {
       title: "Best Practices for General Groups: Events, Weddings, and More",
@@ -155,7 +176,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "6 min read",
       slug: "best-practices-general-groups-events-weddings",
-      keywords: "general groups, event planning, wedding contributions, group event management"
+      keywords: "general groups, event planning, wedding contributions, group event management",
+      categories: ["General Groups", "Event Planning", "Best Practices"]
     },
     {
       title: "How to Collect Money for Group Events in Lagos, Nigeria",
@@ -163,7 +185,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "7 min read",
       slug: "how-to-collect-money-group-events-lagos-nigeria",
-      keywords: "collect money Lagos, group payments Lagos, event contributions Lagos Nigeria, Lagos group fund"
+      keywords: "collect money Lagos, group payments Lagos, event contributions Lagos Nigeria, Lagos group fund",
+      categories: ["General Groups", "Event Planning", "Payment Tracking"]
     },
     {
       title: "Managing Multiple Subscription Groups: Tips and Strategies",
@@ -171,7 +194,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "6 min read",
       slug: "managing-multiple-subscription-groups-tips-strategies",
-      keywords: "multiple subscriptions, subscription group management, shared subscription tips"
+      keywords: "multiple subscriptions, subscription group management, shared subscription tips",
+      categories: ["Subscription Groups", "Best Practices"]
     },
     {
       title: "GroupFund vs. Splitwise: Which is Better for Group Payments?",
@@ -179,7 +203,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "8 min read",
       slug: "groupfund-vs-splitwise-group-payments-comparison",
-      keywords: "GroupFund vs Splitwise, group payment comparison, Splitwise alternative, group contribution apps"
+      keywords: "GroupFund vs Splitwise, group payment comparison, Splitwise alternative, group contribution apps",
+      categories: ["Best Practices", "Payment Tracking"]
     },
     {
       title: "How to Organize Baby Shower Contributions with General Groups",
@@ -187,7 +212,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "5 min read",
       slug: "how-to-organize-baby-shower-contributions-general-groups",
-      keywords: "baby shower contributions, baby shower planning, group gift organization, event contributions"
+      keywords: "baby shower contributions, baby shower planning, group gift organization, event contributions",
+      categories: ["General Groups", "Event Planning"]
     },
     {
       title: "Subscription Group Admin Guide: Managing Shared Services",
@@ -195,7 +221,8 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "7 min read",
       slug: "subscription-group-admin-guide-managing-shared-services",
-      keywords: "subscription admin, shared service management, subscription group admin, managing subscriptions"
+      keywords: "subscription admin, shared service management, subscription group admin, managing subscriptions",
+      categories: ["Subscription Groups", "Best Practices"]
     },
     {
       title: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General",
@@ -203,9 +230,39 @@ export default function BlogPage() {
       date: "December 19, 2025",
       readTime: "8 min read",
       slug: "complete-guide-group-contribution-types-birthday-subscription-general",
-      keywords: "group types, birthday groups, subscription groups, general groups, group contribution types"
+      keywords: "group types, birthday groups, subscription groups, general groups, group contribution types",
+      categories: ["Birthday Groups", "Subscription Groups", "General Groups"]
     }
   ]
+
+  const categories = ["Subscription Groups", "General Groups", "Birthday Groups", "Payment Tracking", "Event Planning", "Best Practices"]
+
+  // Filter blog posts based on search query and selected category
+  const filteredPosts = useMemo(() => {
+    return blogPosts.filter(post => {
+      // Category filter
+      if (selectedCategory && (!post.categories || !post.categories.includes(selectedCategory))) {
+        return false
+      }
+
+      // Search filter
+      if (searchQuery.trim()) {
+        const query = searchQuery.toLowerCase()
+        const searchableText = `${post.title} ${post.excerpt} ${post.keywords}`.toLowerCase()
+        return searchableText.includes(query)
+      }
+
+      return true
+    })
+  }, [searchQuery, selectedCategory])
+
+  const handleCategoryClick = (category) => {
+    if (selectedCategory === category) {
+      setSelectedCategory(null) // Deselect if clicking the same category
+    } else {
+      setSelectedCategory(category)
+    }
+  }
 
   return (
     <>
@@ -227,49 +284,106 @@ export default function BlogPage() {
 
       <section className="blog-page">
         <div className="container">
-          {/* <div className="blog-intro" style={{ marginBottom: '3rem', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>Expert Insights on Group Contributions</h2>
-            <p style={{ fontSize: '1.1rem', color: '#666', maxWidth: '800px', margin: '0 auto' }}>
-              Discover comprehensive guides, tips, and strategies for organizing group contributions effectively. 
-              Whether you're managing Birthday Groups, Subscription Groups, or General Groups, our blog covers everything 
-              from getting started to advanced management techniques. Learn about payment tracking, member reliability, 
-              subscription management, event planning, and best practices used by successful groups worldwide.
-            </p>
-          </div> */}
-
-          <div className="blog-grid">
-            {blogPosts.map((post, index) => (
-              <article key={index} className="blog-card">
-                <div className="blog-card-header">
-                  <span className="blog-date">{post.date}</span>
-                  <span className="blog-read-time">{post.readTime}</span>
-                </div>
-                <h2 className="blog-title">
-                  <Link to={`/blog/${post.slug}`}>{post.title}</Link>
-                </h2>
-                <p className="blog-excerpt">{post.excerpt}</p>
-                <Link to={`/blog/${post.slug}`} className="blog-read-more">
-                  Read More →
-                </Link>
-              </article>
-            ))}
-          </div>
-
-          <div style={{ marginTop: '3rem', padding: '2rem', backgroundColor: '#f8f9fa', borderRadius: '8px', textAlign: 'center' }}>
-            <h3 style={{ marginBottom: '1rem' }}>Looking for Specific Topics?</h3>
-            <p style={{ marginBottom: '1.5rem', color: '#666' }}>
+          {/* Search and Filter Section */}
+          <div style={{ marginBottom: '3rem', padding: '2rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Looking for Specific Topics?</h3>
+            <p style={{ marginBottom: '1.5rem', color: '#666', textAlign: 'center' }}>
               Our blog covers a wide range of topics including subscription management, event planning, payment tracking, 
               group organization, and more. Use the search function or browse by category to find exactly what you need.
             </p>
-            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <span style={{ padding: '0.5rem 1rem', backgroundColor: '#fff', borderRadius: '20px', fontSize: '0.9rem' }}>Subscription Groups</span>
-              <span style={{ padding: '0.5rem 1rem', backgroundColor: '#fff', borderRadius: '20px', fontSize: '0.9rem' }}>General Groups</span>
-              <span style={{ padding: '0.5rem 1rem', backgroundColor: '#fff', borderRadius: '20px', fontSize: '0.9rem' }}>Birthday Groups</span>
-              <span style={{ padding: '0.5rem 1rem', backgroundColor: '#fff', borderRadius: '20px', fontSize: '0.9rem' }}>Payment Tracking</span>
-              <span style={{ padding: '0.5rem 1rem', backgroundColor: '#fff', borderRadius: '20px', fontSize: '0.9rem' }}>Event Planning</span>
-              <span style={{ padding: '0.5rem 1rem', backgroundColor: '#fff', borderRadius: '20px', fontSize: '0.9rem' }}>Best Practices</span>
+            
+            {/* Search Input */}
+            <div style={{ marginBottom: '1.5rem', maxWidth: '600px', margin: '0 auto 1.5rem' }}>
+              <input
+                type="text"
+                placeholder="Search blog posts..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                style={{
+                  width: '100%',
+                  padding: '0.75rem 1rem',
+                  fontSize: '1rem',
+                  border: '1px solid #ddd',
+                  borderRadius: '8px',
+                  outline: 'none',
+                  transition: 'border-color 0.3s ease'
+                }}
+                onFocus={(e) => e.target.style.borderColor = '#6366f1'}
+                onBlur={(e) => e.target.style.borderColor = '#ddd'}
+              />
             </div>
+
+            {/* Category Filters */}
+            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => handleCategoryClick(category)}
+                  style={{
+                    padding: '0.5rem 1rem',
+                    backgroundColor: selectedCategory === category ? '#6366f1' : '#fff',
+                    color: selectedCategory === category ? '#fff' : '#333',
+                    border: '1px solid',
+                    borderColor: selectedCategory === category ? '#6366f1' : '#ddd',
+                    borderRadius: '20px',
+                    fontSize: '0.9rem',
+                    cursor: 'pointer',
+                    transition: 'all 0.3s ease',
+                    fontWeight: selectedCategory === category ? '600' : '400'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (selectedCategory !== category) {
+                      e.target.style.backgroundColor = '#f0f0f0'
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (selectedCategory !== category) {
+                      e.target.style.backgroundColor = '#fff'
+                    }
+                  }}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+
+            {/* Results count */}
+            {(searchQuery || selectedCategory) && (
+              <div style={{ marginTop: '1rem', textAlign: 'center', color: '#666', fontSize: '0.9rem' }}>
+                {filteredPosts.length === 0 ? (
+                  <p>No posts found matching your criteria.</p>
+                ) : (
+                  <p>Showing {filteredPosts.length} {filteredPosts.length === 1 ? 'post' : 'posts'}</p>
+                )}
+              </div>
+            )}
           </div>
+
+          {/* Blog Posts Grid */}
+          {filteredPosts.length > 0 ? (
+            <div className="blog-grid">
+              {filteredPosts.map((post, index) => (
+                <article key={index} className="blog-card">
+                  <div className="blog-card-header">
+                    <span className="blog-date">{post.date}</span>
+                    <span className="blog-read-time">{post.readTime}</span>
+                  </div>
+                  <h2 className="blog-title">
+                    <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                  </h2>
+                  <p className="blog-excerpt">{post.excerpt}</p>
+                  <Link to={`/blog/${post.slug}`} className="blog-read-more">
+                    Read More →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <div style={{ textAlign: 'center', padding: '3rem', color: '#666' }}>
+              <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>No posts found</p>
+              <p>Try adjusting your search or category filter.</p>
+            </div>
+          )}
         </div>
       </section>
     </>
