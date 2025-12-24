@@ -6,6 +6,14 @@ import '../App.css'
 export default function BlogPage() {
   const blogPosts = [
     {
+      title: "How to Organize Christmas Contributions and Secret Santa in 2025",
+      excerpt: "Complete guide to organizing Christmas contributions, Secret Santa, and holiday gift funds. Learn how to set deadlines, track payments, coordinate gifts, and ensure everyone contributes fairly before Christmas Day.",
+      date: "December 01, 2025",
+      readTime: "7 min read",
+      slug: "how-to-organize-christmas-contributions-secret-santa-2025",
+      keywords: "Christmas contributions, Secret Santa contributions, organize Christmas gifts, Christmas gift funds, Christmas group payments, Secret Santa organization, Christmas contributions 2025, holiday gift coordination"
+    },
+    {
       title: "How Birthday Wishlists Make Gift Giving Easier for Groups",
       excerpt: "Discover how birthday wishlists transform group gift giving. Learn how to create effective wishlists, coordinate gifts with group members, and avoid duplicate presents while ensuring everyone gets what they want.",
       date: "December 20, 2025",

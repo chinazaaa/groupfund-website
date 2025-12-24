@@ -13,6 +13,7 @@ const currentDate = new Date().toISOString().split('T')[0]
 
 // Blog post slugs (should match BlogPostPage.jsx)
 const blogPosts = [
+  'how-to-organize-christmas-contributions-secret-santa-2025',
   'managing-group-contributions-during-holiday-seasons',
   'building-trust-contribution-groups-complete-guide',
   'handle-contribution-disputes-fairly-professionally',

@@ -201,6 +201,7 @@ export default function SitemapPage() {
     {
       category: "Blog Posts",
       links: [
+        { path: "/blog/how-to-organize-christmas-contributions-secret-santa-2025", label: "How to Organize Christmas Contributions and Secret Santa in 2025" },
         { path: "/blog/managing-group-contributions-during-holiday-seasons", label: "Managing Group Contributions During Holiday Seasons" },
         { path: "/blog/building-trust-contribution-groups-complete-guide", label: "Building Trust in Contribution Groups: A Complete Guide" },
         { path: "/blog/handle-contribution-disputes-fairly-professionally", label: "How to Handle Contribution Disputes Fairly and Professionally" },
