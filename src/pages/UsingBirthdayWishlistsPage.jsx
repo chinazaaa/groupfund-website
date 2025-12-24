@@ -78,7 +78,7 @@ export default function UsingBirthdayWishlistsPage() {
       <SEO
         title="How to Use Birthday Wishlists - Complete Guide for Group Gift Giving"
         description="Learn how to create and use birthday wishlists for coordinated group gift giving in Birthday Groups. Step-by-step guide to sharing wishlists, claiming items, and avoiding duplicate gifts. Note: Wishlists are available for Birthday Groups only."
-        keywords="birthday wishlists, how to use wishlists, group gift giving, birthday gift coordination, wishlist guide, gift giving tips, birthday groups"
+        keywords="birthday wishlists, birthday wishlist meaning, what is a birthday wishlist, how to use wishlists, group gift giving, birthday gift coordination, wishlist guide, gift giving tips, birthday groups"
         canonical="https://groupfund.app/resources/using-birthday-wishlists"
       />
 
@@ -107,10 +107,23 @@ export default function UsingBirthdayWishlistsPage() {
             </div>
 
             <div className="resource-section">
-              <h2>What Are Birthday Wishlists?</h2>
+              <h2>What Are Birthday Wishlists? Birthday Wishlist Meaning Explained</h2>
               <p>
-                Birthday wishlists are curated lists of items you want for your birthday. In GroupFund, wishlists are profile-level, meaning they're visible to all group members who share at least one active group with you. This makes gift coordination seamless and eliminates the need for endless group chat messages.
+                A <strong>birthday wishlist</strong> is a curated list of items that someone wants to receive for their birthday. The meaning of a birthday wishlist goes beyond just a list of items—it's a gift coordination system that helps friends and family know exactly what the celebrant wants, prevents duplicate gifts, and ensures everyone receives items they'll actually use and appreciate.
               </p>
+              <p>
+                In GroupFund, birthday wishlists are profile-level features available for Birthday Groups. This means they're visible to all group members who share at least one active Birthday Group with you. This makes gift coordination seamless and eliminates the need for endless group chat messages trying to figure out who's buying what.
+              </p>
+              <p>
+                <strong>Birthday wishlist meaning</strong> encompasses several key concepts:
+              </p>
+              <ul className="resource-list">
+                <li><strong>Gift Preference Sharing:</strong> A way for celebrants to communicate what they'd like to receive</li>
+                <li><strong>Coordination Tool:</strong> Helps group members coordinate purchases and avoid duplicates</li>
+                <li><strong>Transparency System:</strong> Shows what's been claimed and what's still available</li>
+                <li><strong>Thoughtful Gift Giving:</strong> Ensures recipients get items they actually want</li>
+                <li><strong>Budget-Friendly Planning:</strong> Allows gift givers to see prices and plan accordingly</li>
+              </ul>
               <p>
                 Key features of birthday wishlists include:
               </p>
@@ -125,6 +138,9 @@ export default function UsingBirthdayWishlistsPage() {
 
             <div className="resource-section">
               <h2>For Celebrants: Creating Your Wishlist</h2>
+              <p>
+                Ready to create your birthday wishlist? Check out our comprehensive guide: <Link to="/resources/how-to-create-birthday-wishlist" className="inline-link">How to Create a Birthday Wishlist</Link> for a detailed step-by-step walkthrough. Below, we'll cover the key steps for creating an effective wishlist.
+              </p>
               
               <h3>Step 1: Add Items to Your Wishlist</h3>
               <p>
@@ -296,6 +312,8 @@ export default function UsingBirthdayWishlistsPage() {
             <div className="related-links">
               <h3>Related Guides</h3>
               <div className="related-links-grid">
+                <Link to="/resources/birthday-wishlist-meaning">Birthday Wishlist Meaning →</Link>
+                <Link to="/resources/how-to-create-birthday-wishlist">How to Create a Birthday Wishlist →</Link>
                 <Link to="/resources/how-to-organize-birthday-contributions">How to Organize Birthday Contributions →</Link>
                 <Link to="/resources/birthday-contribution-etiquette">Birthday Contribution Etiquette →</Link>
                 <Link to="/resources">View All Resources →</Link>
