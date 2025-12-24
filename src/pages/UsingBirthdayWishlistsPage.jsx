@@ -112,6 +112,9 @@ export default function UsingBirthdayWishlistsPage() {
                 A <strong>birthday wishlist</strong> is a curated list of items that someone wants to receive for their birthday. The meaning of a birthday wishlist goes beyond just a list of items—it's a gift coordination system that helps friends and family know exactly what the celebrant wants, prevents duplicate gifts, and ensures everyone receives items they'll actually use and appreciate.
               </p>
               <p>
+                Want to learn more about what a birthday wishlist means? Check out our detailed guide: <Link to="/resources/birthday-wishlist-meaning" className="inline-link">Birthday Wishlist Meaning - What is a Birthday Wishlist?</Link> for a comprehensive explanation of birthday wishlists and how they work.
+              </p>
+              <p>
                 In GroupFund, birthday wishlists are profile-level features available for Birthday Groups. This means they're visible to all group members who share at least one active Birthday Group with you. This makes gift coordination seamless and eliminates the need for endless group chat messages trying to figure out who's buying what.
               </p>
               <p>
