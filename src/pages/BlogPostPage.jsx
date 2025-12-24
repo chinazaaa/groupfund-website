@@ -8,7 +8,7 @@ const blogPostsData = {
   "how-to-organize-christmas-contributions-secret-santa-2025": {
     title: "How to Organize Christmas Contributions and Secret Santa in 2025",
     excerpt: "Complete guide to organizing Christmas contributions, Secret Santa, and holiday gift funds. Learn how to set deadlines, track payments, coordinate gifts, and ensure everyone contributes fairly before Christmas Day.",
-    date: "December 24, 2025",
+    date: "December 01, 2025",
     readTime: "7 min read",
     slug: "how-to-organize-christmas-contributions-secret-santa-2025",
     keywords: "Christmas contributions, Secret Santa contributions, organize Christmas gifts, Christmas gift funds, Christmas group payments, Secret Santa organization, Christmas contributions 2025, holiday gift coordination",
