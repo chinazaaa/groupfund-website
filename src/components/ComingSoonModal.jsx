@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { memo } from 'react'
 import '../App.css'
 
-export default function ComingSoonModal({ isOpen, onClose, storeName }) {
+function ComingSoonModal({ isOpen, onClose, storeName }) {
   if (!isOpen) return null
 
   return (
@@ -24,3 +24,5 @@ export default function ComingSoonModal({ isOpen, onClose, storeName }) {
     </div>
   )
 }
+
+export default memo(ComingSoonModal)

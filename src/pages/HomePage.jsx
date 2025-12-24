@@ -10,15 +10,29 @@ export default function HomePage() {
 
   useEffect(() => {
     // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault()
-        const target = document.querySelector(this.getAttribute('href'))
-        if (target) {
+    const anchors = document.querySelectorAll('a[href^="#"]')
+    const handleClick = (e) => {
+      e.preventDefault()
+      const href = e.currentTarget.getAttribute('href')
+      const target = document.querySelector(href)
+      if (target) {
+        // Use requestAnimationFrame to avoid blocking
+        requestAnimationFrame(() => {
           target.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }
-      })
+        })
+      }
+    }
+    
+    anchors.forEach(anchor => {
+      anchor.addEventListener('click', handleClick)
     })
+    
+    // Cleanup event listeners
+    return () => {
+      anchors.forEach(anchor => {
+        anchor.removeEventListener('click', handleClick)
+      })
+    }
   }, [])
 
   const handleAppStoreClick = (e, name) => {

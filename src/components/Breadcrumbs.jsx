@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useMemo } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import '../App.css'
 
@@ -6,7 +6,8 @@ export default function Breadcrumbs({ items = [] }) {
   const location = useLocation()
 
   // Auto-generate breadcrumbs from path if items not provided
-  const generateBreadcrumbs = () => {
+  // Memoize to prevent unnecessary recalculations
+  const breadcrumbItems = useMemo(() => {
     if (items.length > 0) return items
 
     const pathSegments = location.pathname.split('/').filter(Boolean)
@@ -39,9 +40,7 @@ export default function Breadcrumbs({ items = [] }) {
     })
 
     return breadcrumbs
-  }
-
-  const breadcrumbItems = generateBreadcrumbs()
+  }, [items, location.pathname])
 
   // Add BreadcrumbList structured data
   useEffect(() => {

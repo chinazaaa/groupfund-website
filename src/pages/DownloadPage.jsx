@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import ComingSoonModal from '../components/ComingSoonModal'
@@ -8,17 +8,21 @@ export default function DownloadPage() {
   const [modalOpen, setModalOpen] = useState(false)
   const [storeName, setStoreName] = useState('')
 
-  const handleAppStoreClick = (e, name) => {
+  const handleAppStoreClick = useCallback((e, name) => {
     e.preventDefault()
     setStoreName(name)
     setModalOpen(true)
-  }
+  }, [])
+
+  const handleCloseModal = useCallback(() => {
+    setModalOpen(false)
+  }, [])
 
   return (
     <>
       <ComingSoonModal 
         isOpen={modalOpen} 
-        onClose={() => setModalOpen(false)} 
+        onClose={handleCloseModal} 
         storeName={storeName}
       />
       <SEO
@@ -94,6 +98,7 @@ export default function DownloadPage() {
                     width="180"
                     height="60"
                     loading="lazy"
+                    decoding="async"
                   />
                 </a>
                 <a 
@@ -109,6 +114,7 @@ export default function DownloadPage() {
                     width="200"
                     height="77"
                     loading="lazy"
+                    decoding="async"
                   />
                 </a>
               </div>

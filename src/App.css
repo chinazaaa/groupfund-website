@@ -21,6 +21,8 @@
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 16px 0;
+  /* Optimize for mobile performance - create compositing layer */
+  transform: translateZ(0);
 }
 
 .nav-content {
@@ -1881,6 +1883,8 @@
   border-radius: 16px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Optimize for mobile - use transform instead of layout properties */
+  will-change: transform;
 }
 
 .download-feature-card:hover {

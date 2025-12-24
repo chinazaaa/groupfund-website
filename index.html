@@ -4,6 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Critical CSS for LCP optimization -->
+    <style>
+      .page-hero {
+        background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+        color: white;
+        padding: 120px 0 80px;
+        text-align: center;
+      }
+      .page-title {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+        letter-spacing: -0.02em;
+      }
+      .logo-img {
+        height: 120px;
+        width: auto;
+        object-fit: contain;
+      }
+      @media (max-width: 768px) {
+        .logo-img {
+          height: 85px;
+        }
+        .page-title {
+          font-size: 2.25rem;
+        }
+        .page-hero {
+          padding: 100px 0 60px;
+        }
+      }
+    </style>
+    
+    <!-- DNS Prefetch for Performance -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://tools.applemediaservices.com">
+    <link rel="dns-prefetch" href="https://play.google.com">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-414RKK536L"></script>
     <script>
@@ -53,6 +90,9 @@
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://tools.applemediaservices.com">
+    <link rel="preconnect" href="https://play.google.com">
+    <link rel="preload" as="image" href="/logo.png" fetchpriority="high">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <!-- Structured Data (JSON-LD) -->

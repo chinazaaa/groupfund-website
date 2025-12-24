@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import Breadcrumbs from './Breadcrumbs'
 import './Layout.css'
 
 export default function Layout({ children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen)
-  }
+  const toggleMobileMenu = useCallback(() => {
+    setMobileMenuOpen(prev => !prev)
+  }, [])
 
-  const closeMobileMenu = () => {
+  const closeMobileMenu = useCallback(() => {
     setMobileMenuOpen(false)
-  }
+  }, [])
 
   return (
     <div className="App">
@@ -21,7 +21,15 @@ export default function Layout({ children }) {
         <div className="container">
           <div className="nav-content">
             <Link to="/" className="logo" style={{ textDecoration: 'none' }} onClick={closeMobileMenu}>
-              <img src="/logo.png" alt="GroupFund" className="logo-img" />
+              <img 
+                src="/logo.png" 
+                alt="GroupFund" 
+                className="logo-img" 
+                fetchPriority="high"
+                loading="eager"
+                width="120"
+                height="120"
+              />
             </Link>
             <button 
               className="mobile-menu-toggle" 
