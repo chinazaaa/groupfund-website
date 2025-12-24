@@ -527,6 +527,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/resources/how-to-create-birthday-wishlist',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/resources/setting-up-birthday-groups',
     priority: '0.7',
     changefreq: 'monthly',

@@ -110,6 +110,14 @@ export default function ResourcesPage() {
       readTime: '10 min read'
     },
     {
+      slug: 'how-to-create-birthday-wishlist',
+      title: 'How to Create a Birthday Wishlist',
+      description: 'Step-by-step guide on how to create a birthday wishlist. Learn how to add items, set prices, include photos, and organize your wishlist effectively for group gift coordination.',
+      icon: '✨',
+      category: 'Getting Started',
+      readTime: '8 min read'
+    },
+    {
       slug: 'setting-up-birthday-groups',
       title: 'Setting Up Birthday Groups',
       description: 'Complete guide to creating and managing Birthday Groups. Learn how to add birthdays, set up wishlists, configure reminders, and organize birthday contributions effectively.',

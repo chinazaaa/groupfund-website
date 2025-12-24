@@ -57,6 +57,7 @@ import ResourcesPage from './pages/ResourcesPage'
 import HowToOrganizeBirthdayContributionsPage from './pages/HowToOrganizeBirthdayContributionsPage'
 import BirthdayContributionEtiquettePage from './pages/BirthdayContributionEtiquettePage'
 import UsingBirthdayWishlistsPage from './pages/UsingBirthdayWishlistsPage'
+import HowToCreateBirthdayWishlistPage from './pages/HowToCreateBirthdayWishlistPage'
 import CalculatingGroupContributionsPage from './pages/CalculatingGroupContributionsPage'
 import MultiCurrencyGroupPaymentsPage from './pages/MultiCurrencyGroupPaymentsPage'
 import ManagingLargeGroupContributionsPage from './pages/ManagingLargeGroupContributionsPage'
@@ -252,6 +253,7 @@ function App() {
         <Route path="/resources/advanced-group-management-strategies" element={<Layout><AdvancedGroupManagementStrategiesPage /></Layout>} />
         <Route path="/resources/optimizing-payment-confirmation-workflows" element={<Layout><OptimizingPaymentConfirmationWorkflowsPage /></Layout>} />
         <Route path="/resources/using-birthday-wishlists" element={<Layout><UsingBirthdayWishlistsPage /></Layout>} />
+        <Route path="/resources/how-to-create-birthday-wishlist" element={<Layout><HowToCreateBirthdayWishlistPage /></Layout>} />
         <Route path="/resources/setting-up-birthday-groups" element={<Layout><SettingUpBirthdayGroupsPage /></Layout>} />
         <Route path="/resources/setting-up-subscription-groups" element={<Layout><SettingUpSubscriptionGroupsPage /></Layout>} />
         <Route path="/resources/creating-general-groups-for-events" element={<Layout><CreatingGeneralGroupsForEventsPage /></Layout>} />
