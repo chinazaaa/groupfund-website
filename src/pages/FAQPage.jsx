@@ -157,6 +157,7 @@ export default function FAQPage() {
     const faqStructuredData = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      "url": "https://groupfund.app/faq",
       "mainEntity": faqs.map(faq => ({
         "@type": "Question",
         "name": faq.question,

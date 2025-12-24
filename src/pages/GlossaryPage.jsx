@@ -222,6 +222,7 @@ export default function GlossaryPage() {
       "@type": "DefinedTermSet",
       "name": "GroupFund Glossary",
       "description": "Complete glossary of terms and definitions for GroupFund - the group contribution tracking app",
+      "url": "https://groupfund.app/glossary",
       "hasDefinedTerm": glossaryTerms.map(term => ({
         "@type": "DefinedTerm",
         "name": term.term,

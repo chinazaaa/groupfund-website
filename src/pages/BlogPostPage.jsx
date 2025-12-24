@@ -2184,6 +2184,7 @@ export default function BlogPostPage() {
       "headline": post.title,
       "description": post.excerpt,
       "image": "https://groupfund.app/og-image.jpg",
+      "url": `https://groupfund.app/blog/${post.slug}`,
       "datePublished": publishedDate,
       "dateModified": publishedDate,
       "author": {

@@ -12,6 +12,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
       "name": "How to Organize Group Contributions",
       "description": "A complete step-by-step guide to organizing group contributions for birthdays, subscriptions, and events",
       "image": "https://groupfund.app/og-image.jpg",
+      "url": "https://groupfund.app/resources/how-to-organize-birthday-contributions",
       "totalTime": "PT5M",
       "estimatedCost": {
         "@type": "MonetaryAmount",
