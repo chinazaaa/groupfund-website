@@ -4,6 +4,9 @@ import Breadcrumbs from './Breadcrumbs'
 import ChristmasAnimation from './ChristmasAnimation'
 import './Layout.css'
 
+// 🎄 CHRISTMAS MODE: Set to false after Christmas season to remove animation
+const CHRISTMAS_MODE = true
+
 export default function Layout({ children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -17,7 +20,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="App">
-      <ChristmasAnimation />
+      {CHRISTMAS_MODE && <ChristmasAnimation />}
       {/* Navigation */}
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <div className="container">

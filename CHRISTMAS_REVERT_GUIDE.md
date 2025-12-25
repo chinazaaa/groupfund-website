@@ -5,12 +5,20 @@ This document lists all Christmas 2025 SEO changes made on December 25, 2025, an
 ## ⚡ Quick Revert (Easiest Method)
 
 ### Option 1: Toggle Christmas Mode (RECOMMENDED)
-In `src/pages/HomePage.jsx`, change line 8:
+Change `CHRISTMAS_MODE` to `false` in **2 files**:
+
+1. **`src/pages/HomePage.jsx`** (line 8):
+```javascript
+const CHRISTMAS_MODE = false; // Change from true to false
+```
+
+2. **`src/components/Layout.jsx`** (line 7):
 ```javascript
 const CHRISTMAS_MODE = false; // Change from true to false
 ```
 
 This will automatically:
+- ✅ Hide the Christmas animation (snowflakes & "Merry Christmas!" message)
 - ✅ Hide the Christmas banner
 - ✅ Revert hero headline to normal
 - ✅ Revert hero description to normal
