@@ -4,7 +4,8 @@
 # SPA fallback - redirect all routes to index.html
 /*    /index.html   200
 
-# Force HTTPS
-http://groupfund.app/*    https://groupfund.app/:splat    301!
-http://www.groupfund.app/*    https://groupfund.app/:splat    301!
+# Force HTTPS and redirect non-www to www (to match canonical tags)
+http://groupfund.app/*    https://www.groupfund.app/:splat    301!
+http://www.groupfund.app/*    https://www.groupfund.app/:splat    301!
+https://groupfund.app/*    https://www.groupfund.app/:splat    301!
 
