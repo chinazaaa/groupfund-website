@@ -4,6 +4,9 @@ import SEO from '../components/SEO'
 import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
+// 🎄 CHRISTMAS MODE: Set to false after Christmas season to revert to normal mode
+const CHRISTMAS_MODE = true
+
 export default function HomePage() {
   const [modalOpen, setModalOpen] = useState(false)
   const [storeName, setStoreName] = useState('')
@@ -49,11 +52,34 @@ export default function HomePage() {
         storeName={storeName}
       />
       <SEO
-        title="GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"
-        description="Organize group contributions for birthdays, shared subscriptions, Christmas gifts, Secret Santa, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start. Perfect for Christmas 2025!"
-        keywords="group contributions, birthday contributions, subscription groups, group payments, Christmas contributions, Secret Santa contributions, Christmas gift funds, holiday group payments, member reliability scores, group health metrics, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria, Christmas 2025"
+        title={CHRISTMAS_MODE 
+          ? "GroupFund - Organize Christmas Contributions & Secret Santa 2025 | Group Gift Funds"
+          : "GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"}
+        description={CHRISTMAS_MODE
+          ? "🎄 Merry Christmas! Organize Christmas contributions, Secret Santa, and holiday gift funds for 2025. Track group payments, set deadlines, coordinate gifts. Perfect for Christmas Day! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
+          : "Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."}
+        keywords={CHRISTMAS_MODE
+          ? "Christmas contributions, Secret Santa contributions, Christmas gift funds, holiday group payments, Christmas 2025, organize Secret Santa, group Christmas gifts, Christmas contribution tracking, Secret Santa organization, holiday contributions, group gift coordination, Christmas Day contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
+          : "group contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments"}
         canonical="https://www.groupfund.app/"
       />
+
+      {/* Christmas Banner */}
+      {CHRISTMAS_MODE && (
+        <div style={{
+          background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)',
+          color: 'white',
+          padding: '16px 0',
+          textAlign: 'center',
+          fontWeight: '600',
+          fontSize: '16px',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+        }}>
+          <div className="container">
+            🎄 <strong>Merry Christmas 2025!</strong> 🎄 Organize your Christmas contributions, Secret Santa, and holiday gift funds today. Track payments, set deadlines, and ensure everyone contributes fairly. <Link to="/blog/how-to-organize-christmas-contributions-secret-santa-2025" style={{color: 'white', textDecoration: 'underline', marginLeft: '8px'}}>Learn More →</Link>
+          </div>
+        </div>
+      )}
 
       {/* Hero Section */}
       <header className="hero" role="banner">
@@ -64,13 +90,17 @@ export default function HomePage() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-badge">
-              <span>✨ Trusted by 100+ Groups</span>
+              <span>{CHRISTMAS_MODE ? '🎄 Perfect for Christmas 2025 • ' : ''}✨ Trusted by 100+ Groups</span>
             </div>
             <h1 className="hero-headline">
-              Organize Group Contributions for Any Purpose
+              {CHRISTMAS_MODE 
+                ? 'Organize Christmas Contributions & Secret Santa for 2025'
+                : 'Organize Group Contributions for Any Purpose'}
             </h1>
             <p className="hero-subheadline">
-              The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.
+              {CHRISTMAS_MODE
+                ? 'The smart way to organize Christmas contributions, Secret Santa, holiday gift funds, birthdays, and shared subscriptions. Track payments in real-time, set deadlines, coordinate gifts, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.'
+                : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.'}
             </p>
             <div className="hero-features">
               <div className="feature-tag">
@@ -88,10 +118,14 @@ export default function HomePage() {
             </div>
             <div className="hero-cta">
               <Link to="/waitlist" className="btn btn-primary" aria-label="Start your free group">
-                Start Your Free Group
+                {CHRISTMAS_MODE ? '🎄 Organize Christmas Contributions Now' : 'Start Your Free Group'}
               </Link>
-              <Link to="/how-it-works" className="btn btn-secondary" aria-label="Learn more about features">
-                See How It Works
+              <Link 
+                to={CHRISTMAS_MODE ? "/blog/how-to-organize-christmas-contributions-secret-santa-2025" : "/how-it-works"} 
+                className="btn btn-secondary" 
+                aria-label={CHRISTMAS_MODE ? "Learn about Christmas contributions" : "Learn more about features"}
+              >
+                {CHRISTMAS_MODE ? 'Christmas Guide 2025' : 'See How It Works'}
               </Link>
             </div>
           </div>
@@ -102,9 +136,13 @@ export default function HomePage() {
       <section className="problem-section" aria-labelledby="problem-heading">
         <div className="container">
           <div className="problem-content">
-            <h2 id="problem-heading" className="section-title">Tired of Chasing Contributions?</h2>
+            <h2 id="problem-heading" className="section-title">
+              {CHRISTMAS_MODE ? 'Tired of Chasing Christmas Contributions?' : 'Tired of Chasing Contributions?'}
+            </h2>
             <p className="section-subtitle">
-              Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to group contributions for birthdays, subscriptions, events, and more.
+              {CHRISTMAS_MODE
+                ? 'Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to Christmas contributions, Secret Santa, holiday gift funds, birthdays, subscriptions, events, and more. Perfect for organizing group gifts this Christmas 2025!'
+                : 'Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to group contributions for birthdays, subscriptions, events, and more.'}
             </p>
           </div>
         </div>
