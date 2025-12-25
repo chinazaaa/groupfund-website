@@ -8,7 +8,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const baseUrl = 'https://groupfund.app'
+const baseUrl = 'https://www.groupfund.app'
 const currentDate = new Date().toISOString().split('T')[0]
 
 // Blog post slugs (should match BlogPostPage.jsx)
