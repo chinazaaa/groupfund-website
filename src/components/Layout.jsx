@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState, useCallback } from 'react'
 import Breadcrumbs from './Breadcrumbs'
+import ChristmasAnimation from './ChristmasAnimation'
 import './Layout.css'
 
 export default function Layout({ children }) {
@@ -16,6 +17,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="App">
+      <ChristmasAnimation />
       {/* Navigation */}
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <div className="container">

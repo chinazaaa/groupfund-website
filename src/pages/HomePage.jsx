@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import ComingSoonModal from '../components/ComingSoonModal'
-import ChristmasAnimation from '../components/ChristmasAnimation'
 import '../App.css'
 
 export default function HomePage() {
@@ -44,7 +43,6 @@ export default function HomePage() {
 
   return (
     <>
-      <ChristmasAnimation />
       <ComingSoonModal 
         isOpen={modalOpen} 
         onClose={() => setModalOpen(false)} 
