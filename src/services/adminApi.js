@@ -200,6 +200,12 @@ export const adminApi = {
     });
   },
 
+  sendMerryChristmas: () => {
+    return apiRequest('/admin/notifications/send-merry-christmas', {
+      method: 'POST',
+    });
+  },
+
   // Waitlist Actions
   sendBetaInvitations: () => {
     return apiRequest('/admin/waitlist/send-beta-invitations', {

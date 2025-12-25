@@ -12,6 +12,7 @@ export default function AdminDashboard() {
   const [triggeringWishes, setTriggeringWishes] = useState(false)
   const [sendingNewsletter, setSendingNewsletter] = useState(false)
   const [triggeringOverdueReminders, setTriggeringOverdueReminders] = useState(false)
+  const [sendingMerryChristmas, setSendingMerryChristmas] = useState(false)
   const [sendingBetaInvitations, setSendingBetaInvitations] = useState(false)
   const [testingBetaInvitation, setTestingBetaInvitation] = useState(false)
   const [testEmail, setTestEmail] = useState('')
@@ -98,6 +99,20 @@ export default function AdminDashboard() {
       setActionMessage({ type: 'error', text: err.message || 'Failed to trigger overdue reminders' })
     } finally {
       setTriggeringOverdueReminders(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+
+  const handleSendMerryChristmas = async () => {
+    try {
+      setSendingMerryChristmas(true)
+      setActionMessage(null)
+      await adminApi.sendMerryChristmas()
+      setActionMessage({ type: 'success', text: 'Merry Christmas notifications sent successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to send Merry Christmas notifications' })
+    } finally {
+      setSendingMerryChristmas(false)
       setTimeout(() => setActionMessage(null), 5000)
     }
   }
@@ -195,6 +210,13 @@ export default function AdminDashboard() {
                 className="btn-sm btn-primary"
               >
                 {triggeringOverdueReminders ? 'Triggering...' : 'Trigger Overdue Reminders'}
+              </button>
+              <button
+                onClick={handleSendMerryChristmas}
+                disabled={sendingMerryChristmas}
+                className="btn-sm btn-primary"
+              >
+                {sendingMerryChristmas ? 'Sending...' : 'Send Merry Christmas'}
               </button>
               <button
                 onClick={handleSendBetaInvitations}
