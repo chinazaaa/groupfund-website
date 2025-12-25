@@ -9,7 +9,7 @@ export default function DeleteAccountPage() {
         title="Delete Your Account - GroupFund"
         description="Learn how to delete your GroupFund account. You can delete your account at any time by logging into the app and accessing the account deletion option in your settings."
         keywords="delete account, account deletion, remove account, groupfund delete account"
-        canonical="https://groupfund.app/delete-account"
+        canonical="https://www.groupfund.app/delete-account"
       />
 
       <section className="page-hero">
@@ -74,6 +74,7 @@ export default function DeleteAccountPage() {
     </>
   )
 }
+
 
 
 
