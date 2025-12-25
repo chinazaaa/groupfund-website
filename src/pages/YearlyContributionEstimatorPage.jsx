@@ -94,7 +94,7 @@ export default function YearlyContributionEstimatorPage() {
         title="Yearly Contribution Estimator - Calculate Annual Group Contribution Costs | GroupFund"
         description="Free yearly contribution estimator. Calculate your total annual contribution commitment for birthday groups, subscription groups, and events. Plan your budget and know your yearly costs upfront."
         keywords="yearly contribution calculator, annual contribution estimator, group contribution budget, yearly group payment calculator, birthday group yearly cost, subscription group yearly cost, contribution budget calculator, annual payment estimator"
-        canonical="https://groupfund.app/tools/yearly-contribution-estimator"
+        canonical="https://www.groupfund.app/tools/yearly-contribution-estimator"
       />
 
       <section className="page-hero">

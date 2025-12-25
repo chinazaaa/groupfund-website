@@ -39,7 +39,7 @@ export default function JohannesburgLocationPage() {
         title="GroupFund Johannesburg - Group Contributions App for Johannesburg, South Africa"
         description="Organize group contributions in Johannesburg, South Africa with GroupFund. Perfect for Johannesburg families, churches, schools, and groups. Support for ZAR. Free to start."
         keywords="group contributions Johannesburg, Johannesburg contribution app, groupfund Johannesburg, group contributions app Johannesburg South Africa, Johannesburg group payments, ZAR contribution tracker Johannesburg"
-        canonical="https://groupfund.app/locations/johannesburg"
+        canonical="https://www.groupfund.app/locations/johannesburg"
       />
       <section className="page-hero">
         <div className="container">

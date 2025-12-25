@@ -36,7 +36,7 @@ export default function GhanaLocationPage() {
         title="GroupFund Ghana - Group Contributions App for Ghana"
         description="Organize group contributions in Ghana with GroupFund. Perfect for Ghanaian families, churches, schools, and groups. Support for GHS (Ghanaian Cedi). Free to start."
         keywords="group contributions Ghana, Ghanaian contribution app, groupfund Ghana, group contributions app Ghana, GHS contribution tracker, Ghana group payments"
-        canonical="https://groupfund.app/locations/ghana"
+        canonical="https://www.groupfund.app/locations/ghana"
       />
 
       <section className="page-hero">

@@ -78,7 +78,7 @@ export default function SettingUpYourFirstGroupPage() {
         title="Setting Up Your First Group - Quick Start Guide"
         description="Learn how to set up your first group step-by-step - birthday, subscription, or general. Quick start guide for beginners. Perfect for first-time users."
         keywords="setting up group, first group setup, how to create group, group setup guide, beginner guide, birthday groups, subscription groups, general groups"
-        canonical="https://groupfund.app/resources/setting-up-your-first-group"
+        canonical="https://www.groupfund.app/resources/setting-up-your-first-group"
       />
 
       <section className="page-hero">

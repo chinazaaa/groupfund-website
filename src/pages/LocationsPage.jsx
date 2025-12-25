@@ -48,7 +48,7 @@ export default function LocationsPage() {
         title="GroupFund Locations - Group Contributions Worldwide"
         description="GroupFund helps organize group contributions in Nigeria, United States, Canada, Australia, Ghana, South Africa, and many more countries. Find your location and start organizing group contributions."
         keywords="group contributions worldwide, groupfund locations, contribution app Nigeria, contribution app USA, group contributions by country"
-        canonical="https://groupfund.app/locations"
+        canonical="https://www.groupfund.app/locations"
       />
 
       <section className="page-hero">

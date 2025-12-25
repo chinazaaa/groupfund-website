@@ -39,7 +39,7 @@ export default function SaoPauloLocationPage() {
         title="GroupFund São Paulo - Group Contributions App for São Paulo, Brazil"
         description="Organize group contributions in São Paulo, Brazil with GroupFund. Perfect for São Paulo families, churches, schools, and groups. Support for BRL. Free to start."
         keywords="group contributions São Paulo, São Paulo contribution app, groupfund São Paulo, group contributions app São Paulo Brazil, São Paulo group payments, BRL contribution tracker São Paulo"
-        canonical="https://groupfund.app/locations/sao-paulo"
+        canonical="https://www.groupfund.app/locations/sao-paulo"
       />
       <section className="page-hero">
         <div className="container">

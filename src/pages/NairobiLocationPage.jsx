@@ -39,7 +39,7 @@ export default function NairobiLocationPage() {
         title="GroupFund Nairobi - Group Contributions App for Nairobi, Kenya"
         description="Organize group contributions in Nairobi, Kenya with GroupFund. Perfect for Nairobi families, churches, schools, and groups. Support for KES. Free to start."
         keywords="group contributions Nairobi, Nairobi contribution app, groupfund Nairobi, group contributions app Nairobi Kenya, Nairobi group payments, KES contribution tracker Nairobi"
-        canonical="https://groupfund.app/locations/nairobi"
+        canonical="https://www.groupfund.app/locations/nairobi"
       />
       <section className="page-hero">
         <div className="container">

@@ -10,7 +10,7 @@ export default function RealEstateIndustryPage() {
         title="Real Estate Group Contributions - Property Investment Payments | GroupFund"
         description="Organize group contributions for real estate partnerships, property investments, and property management groups. Track payments, manage shared expenses, and coordinate contributions for real estate ventures with GroupFund."
         keywords="real estate group contributions, property investment group payments, real estate contribution tracking, property group payments, real estate partnership contributions, property investment tracking, real estate group payments, property management contributions"
-        canonical="https://groupfund.app/industries/real-estate"
+        canonical="https://www.groupfund.app/industries/real-estate"
       />
 
       <section className="page-hero">

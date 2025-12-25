@@ -10,7 +10,7 @@ export default function WeddingsUseCasePage() {
         title="GroupFund for Weddings - Organize Wedding Contributions & Gifts"
         description="Organize wedding contributions with General Groups. Set contribution amounts, track payments, and manage deadlines for your special day. Perfect for couples planning their wedding."
         keywords="wedding contributions, wedding fund, wedding gift organization, wedding planning, group wedding contributions, wedding gift tracking"
-        canonical="https://groupfund.app/use-cases/weddings"
+        canonical="https://www.groupfund.app/use-cases/weddings"
       />
 
       <section className="page-hero">

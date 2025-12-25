@@ -10,7 +10,7 @@ export default function ManagingLargeGroupsBestPracticesPage() {
         title="Best Practices for Managing Large Contribution Groups | Scaling Groups | GroupFund"
         description="Best practices for managing large contribution groups. Learn strategies for scaling groups from 5 to 50+ members, maintaining organization, and ensuring success in churches, schools, and organizations."
         keywords="managing large contribution groups, big group payment management, scaling contribution groups, large group organization, church group management, school group management, organization group management"
-        canonical="https://groupfund.app/best-practices/managing-large-groups"
+        canonical="https://www.groupfund.app/best-practices/managing-large-groups"
       />
 
       <section className="page-hero">

@@ -366,7 +366,7 @@ export default function HelpPage() {
         title="Help & Support Center - GroupFund"
         description="Get help with GroupFund. Find answers to common questions about member reliability scores, group health metrics, notifications, contributions, and more. Learn how to use all features and get support."
         keywords="GroupFund help, support center, FAQ, member reliability scores, group health metrics, how to use GroupFund, customer support, OTP verification"
-        canonical="https://groupfund.app/help"
+        canonical="https://www.groupfund.app/help"
       />
 
       <section className="page-hero">

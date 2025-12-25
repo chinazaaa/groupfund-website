@@ -55,7 +55,7 @@ export default function IndustriesPage() {
         title="Industry-Specific Group Contributions | Real Estate, Healthcare, Retail | GroupFund"
         description="GroupFund for specific industries: real estate, healthcare, and retail. Organize group contributions for property investments, medical teams, retail workers, and more. Industry-specific solutions for group payments."
         keywords="industry group contributions, real estate group payments, healthcare group contributions, retail group contributions, property investment payments, medical team contributions, retail worker contributions, industry-specific contribution tracking"
-        canonical="https://groupfund.app/industries"
+        canonical="https://www.groupfund.app/industries"
       />
 
       <section className="page-hero">

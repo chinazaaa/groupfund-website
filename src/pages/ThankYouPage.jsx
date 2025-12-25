@@ -10,7 +10,7 @@ export default function ThankYouPage() {
         title="Thank You - We'll Get Back to You Soon | GroupFund"
         description="Thank you for contacting GroupFund. We've received your message and will get back to you as soon as possible."
         keywords="thank you, contact confirmation, GroupFund support"
-        canonical="https://groupfund.app/thank-you"
+        canonical="https://www.groupfund.app/thank-you"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function OrganizingInternationalGroupContributionsPage() {
         title="Organizing International Group Contributions - Multi-Country Guide"
         description="Guide to managing contributions for groups with members across different countries. Handle multiple currencies, time zones, and payment methods effectively."
         keywords="international group contributions, multi-country contributions, cross-border payments, international group management, global group contributions"
-        canonical="https://groupfund.app/resources/organizing-international-group-contributions"
+        canonical="https://www.groupfund.app/resources/organizing-international-group-contributions"
       />
 
       <section className="page-hero">

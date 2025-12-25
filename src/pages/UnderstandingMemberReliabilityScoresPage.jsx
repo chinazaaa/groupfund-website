@@ -10,7 +10,7 @@ export default function UnderstandingMemberReliabilityScoresPage() {
         title="Understanding Member Reliability Scores - Complete Guide"
         description="Learn how member reliability scores work in GroupFund. Understand how scores are calculated, what they mean, and how to use them to make informed decisions about group membership."
         keywords="member reliability scores, reliability scores explained, group member reliability, payment reliability, member rating system"
-        canonical="https://groupfund.app/resources/understanding-member-reliability-scores"
+        canonical="https://www.groupfund.app/resources/understanding-member-reliability-scores"
       />
 
       <section className="page-hero">

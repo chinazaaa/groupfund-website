@@ -55,7 +55,7 @@ export default function NigeriaLocationPage() {
         title="GroupFund Nigeria - Group Contributions App for Nigeria"
         description="Organize group contributions in Nigeria with GroupFund. Perfect for families, churches, schools, and groups in Nigeria. Support for NGN (Nigerian Naira). Free to start."
         keywords="group contributions Nigeria, Nigerian contribution app, groupfund Nigeria, group contributions app Nigeria, NGN contribution tracker, Nigeria group payments"
-        canonical="https://groupfund.app/locations/nigeria"
+        canonical="https://www.groupfund.app/locations/nigeria"
       />
 
       <section className="page-hero">

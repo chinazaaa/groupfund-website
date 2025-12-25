@@ -236,7 +236,7 @@ export default function SitemapPage() {
         title="Sitemap - All Pages | GroupFund"
         description="Browse all pages on the GroupFund website. Find features, blog posts, support resources, and more."
         keywords="sitemap, GroupFund pages, website navigation"
-        canonical="https://groupfund.app/sitemap"
+        canonical="https://www.groupfund.app/sitemap"
       />
 
       <section className="page-hero">

@@ -104,7 +104,7 @@ export default function ContactPage() {
         title="Contact GroupFund - Get Help, Support & Feedback"
         description="Contact GroupFund for support, questions, or feedback. We're here to help you organize your group contributions - for birthdays, subscriptions, events, and more. Get in touch today."
         keywords="contact groupfund, groupfund support, customer support, help center, feedback"
-        canonical="https://groupfund.app/contact"
+        canonical="https://www.groupfund.app/contact"
       />
 
       <section className="page-hero">

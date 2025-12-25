@@ -10,7 +10,7 @@ export default function SportsTeamsUseCasePage() {
         title="GroupFund for Sports Teams - Manage Team Contributions"
         description="Manage team contributions for equipment, subscriptions, and events. Perfect for sports clubs, teams, and athletic organizations organizing group payments."
         keywords="sports team contributions, team fund, sports club contributions, athletic group payments, sports team management"
-        canonical="https://groupfund.app/use-cases/sports-teams"
+        canonical="https://www.groupfund.app/use-cases/sports-teams"
       />
 
       <section className="page-hero">

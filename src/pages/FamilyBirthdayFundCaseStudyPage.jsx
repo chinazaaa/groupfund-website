@@ -10,7 +10,7 @@ export default function FamilyBirthdayFundCaseStudyPage() {
         title="Family Contribution Success Story - Okafor Family Circle Case Study | GroupFund"
         description="Read how the Okafor Family Circle in Lagos organized 50+ member family contributions using GroupFund. 100% transparency, zero missed payments, eliminated WhatsApp chaos."
         keywords="family contribution success story, family group payment case study, family birthday fund example, family contribution management, large family contributions, groupfund family case study"
-        canonical="https://groupfund.app/case-studies/family-birthday-fund"
+        canonical="https://www.groupfund.app/case-studies/family-birthday-fund"
       />
 
       <section className="page-hero">

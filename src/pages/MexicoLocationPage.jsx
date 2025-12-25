@@ -36,7 +36,7 @@ export default function MexicoLocationPage() {
         title="GroupFund Mexico - Group Contributions App for Mexico"
         description="Organize group contributions in Mexico with GroupFund. Perfect for Mexican families, churches, schools, and groups. Support for MXN (Mexican Peso). Free to start."
         keywords="group contributions Mexico, Mexico contribution app, groupfund Mexico, group contributions app Mexico, MXN contribution tracker, Mexico group payments"
-        canonical="https://groupfund.app/locations/mexico"
+        canonical="https://www.groupfund.app/locations/mexico"
       />
       <section className="page-hero">
         <div className="container">

@@ -257,7 +257,7 @@ export default function GlossaryPage() {
         title="GroupFund Glossary - Complete Guide to Terms & Definitions"
         description="Complete glossary of GroupFund terms and definitions. Learn about member reliability scores, group health metrics, contribution confirmation, payment status, group types, and more. Understand all GroupFund features and terminology."
         keywords="groupfund glossary, group contribution terms, member reliability score meaning, group health metrics explained, contribution tracking glossary, group payment definitions, birthday group terms, subscription group terms, payment confirmation meaning, group contribution terminology"
-        canonical="https://groupfund.app/glossary"
+        canonical="https://www.groupfund.app/glossary"
       />
 
       <section className="page-hero">

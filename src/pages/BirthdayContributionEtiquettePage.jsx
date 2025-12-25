@@ -10,7 +10,7 @@ export default function BirthdayContributionEtiquettePage() {
         title="Group Contribution Etiquette - Best Practices & Guidelines"
         description="Learn the dos and don'ts of group contributions. Best practices for fair, respectful, and stress-free group contributions. Etiquette guide for families, churches, and groups - applicable to Birthday Groups, Subscription Groups, and General Groups."
         keywords="group contribution etiquette, contribution best practices, group payment etiquette, contribution guidelines, respectful group contributions"
-        canonical="https://groupfund.app/resources/birthday-contribution-etiquette"
+        canonical="https://www.groupfund.app/resources/birthday-contribution-etiquette"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function VenmoComparisonPage() {
         title="GroupFund vs Venmo - Better Group Contribution Tracking"
         description="Compare GroupFund with Venmo for organizing group contributions. See why GroupFund is purpose-built for group contributions with automatic reminders, deadline tracking, and member reliability scores."
         keywords="groupfund vs venmo, venmo vs groupfund, venmo alternative for group contributions, group contribution app comparison, groupfund comparison"
-        canonical="https://groupfund.app/comparisons/venmo"
+        canonical="https://www.groupfund.app/comparisons/venmo"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function ManagingLargeGroupContributionsPage() {
         title="Managing Large Group Contributions - Tips for Churches, Schools & Organizations"
         description="Tips and strategies for organizing birthday contributions in large groups like churches, schools, and organizations. Learn how to manage 50+ member groups effectively."
         keywords="managing large group contributions, church birthday contributions, school birthday contributions, large group organization, organization birthday contributions"
-        canonical="https://groupfund.app/resources/managing-large-group-contributions"
+        canonical="https://www.groupfund.app/resources/managing-large-group-contributions"
       />
 
       <section className="page-hero">

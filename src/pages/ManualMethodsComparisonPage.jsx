@@ -10,7 +10,7 @@ export default function ManualMethodsComparisonPage() {
         title="GroupFund vs Manual Methods - Better Group Contribution Tracking"
         description="Compare GroupFund with manual methods (cash, paper tracking, memory) for organizing group contributions. See why automation saves time and prevents errors."
         keywords="groupfund vs manual tracking, better than cash contributions, manual group tracking vs groupfund, automated contribution tracking, groupfund comparison"
-        canonical="https://groupfund.app/comparisons/manual-methods"
+        canonical="https://www.groupfund.app/comparisons/manual-methods"
       />
 
       <section className="page-hero">

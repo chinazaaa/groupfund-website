@@ -10,7 +10,7 @@ export default function WhatsAppGroupsComparisonPage() {
         title="GroupFund vs WhatsApp Groups - Better Group Contribution Tracking"
         description="Compare GroupFund with WhatsApp groups for organizing group contributions. See why GroupFund is better: automatic reminders, payment tracking, member reliability scores, and more."
         keywords="groupfund vs whatsapp, whatsapp groups vs groupfund, better than whatsapp for group payments, whatsapp group contributions, groupfund comparison"
-        canonical="https://groupfund.app/comparisons/whatsapp-groups"
+        canonical="https://www.groupfund.app/comparisons/whatsapp-groups"
       />
 
       <section className="page-hero">

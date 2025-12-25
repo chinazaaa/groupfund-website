@@ -10,7 +10,7 @@ export default function AlumniAssociationsUseCasePage() {
         title="GroupFund for Alumni Associations - Organize Alumni Contributions"
         description="Organize contributions for alumni events, reunions, and shared subscriptions. Perfect for alumni associations managing group payments and maintaining connections."
         keywords="alumni contributions, alumni association payments, reunion contributions, alumni group fund, alumni event planning"
-        canonical="https://groupfund.app/use-cases/alumni-associations"
+        canonical="https://www.groupfund.app/use-cases/alumni-associations"
       />
 
       <section className="page-hero">

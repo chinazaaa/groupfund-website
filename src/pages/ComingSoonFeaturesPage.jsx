@@ -130,7 +130,7 @@ export default function ComingSoonFeaturesPage() {
         title="Coming Soon Features - GroupFund Roadmap & Pipeline"
         description="Explore GroupFund's upcoming features and product roadmap. See what's in development: mobile apps, in-app payments, analytics, recurring contributions, and more exciting features coming soon."
         keywords="groupfund roadmap, coming soon features, product pipeline, group contribution app features, upcoming features, group contribution app updates"
-        canonical="https://groupfund.app/coming-soon-features"
+        canonical="https://www.groupfund.app/coming-soon-features"
       />
 
       <section className="page-hero">

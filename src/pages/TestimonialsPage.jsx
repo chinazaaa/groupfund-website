@@ -55,7 +55,7 @@ export default function TestimonialsPage() {
         title="GroupFund Success Stories & Testimonials - Real Users Share Their Experience"
         description="Read success stories from families, churches, and groups using GroupFund to organize group contributions. Real testimonials from users across Nigeria."
         keywords="groupfund testimonials, group contribution app reviews, group payment app success stories, Nigeria, family contributions, church contributions"
-        canonical="https://groupfund.app/testimonials"
+        canonical="https://www.groupfund.app/testimonials"
       />
 
       <section className="page-hero">

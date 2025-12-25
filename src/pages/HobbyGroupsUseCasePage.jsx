@@ -10,7 +10,7 @@ export default function HobbyGroupsUseCasePage() {
         title="GroupFund for Hobby Groups - Manage Hobby Group Contributions"
         description="Organize contributions for hobby groups, book clubs, gaming groups, and interest-based communities. Manage shared subscriptions, events, and group expenses."
         keywords="hobby group contributions, book club contributions, gaming group payments, interest group contributions, hobby group management"
-        canonical="https://groupfund.app/use-cases/hobby-groups"
+        canonical="https://www.groupfund.app/use-cases/hobby-groups"
       />
 
       <section className="page-hero">

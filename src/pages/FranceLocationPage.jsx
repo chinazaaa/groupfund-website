@@ -36,7 +36,7 @@ export default function FranceLocationPage() {
         title="GroupFund France - Group Contributions App for France"
         description="Organize group contributions in France with GroupFund. Perfect for French families, churches, schools, and groups. Support for EUR (Euro). Free to start."
         keywords="group contributions France, French contribution app, groupfund France, group contributions app France, EUR contribution tracker, France group payments"
-        canonical="https://groupfund.app/locations/france"
+        canonical="https://www.groupfund.app/locations/france"
       />
 
       <section className="page-hero">

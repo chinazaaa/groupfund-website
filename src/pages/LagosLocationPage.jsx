@@ -39,7 +39,7 @@ export default function LagosLocationPage() {
         title="GroupFund Lagos - Group Contributions App for Lagos, Nigeria"
         description="Organize group contributions in Lagos, Nigeria with GroupFund. Perfect for Lagos families, churches, schools, and groups. Support for NGN. Free to start."
         keywords="group contributions Lagos, Lagos contribution app, groupfund Lagos, group contributions app Lagos Nigeria, Lagos group payments, NGN contribution tracker Lagos"
-        canonical="https://groupfund.app/locations/lagos"
+        canonical="https://www.groupfund.app/locations/lagos"
       />
 
       <section className="page-hero">

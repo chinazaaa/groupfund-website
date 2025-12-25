@@ -86,7 +86,7 @@ export default function CaseStudiesPage() {
         title="Group Contribution Case Studies - Real Success Stories | GroupFund"
         description="Read detailed case studies showing how churches, families, and groups successfully use GroupFund to organize group contributions. Real results, metrics, and success stories."
         keywords="group contribution case studies, contribution app success stories, group payment case studies, church contribution case study, family contribution case study, groupfund success stories"
-        canonical="https://groupfund.app/case-studies"
+        canonical="https://www.groupfund.app/case-studies"
       />
 
       <section className="page-hero">

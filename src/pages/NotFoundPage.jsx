@@ -10,7 +10,7 @@ export default function NotFoundPage() {
         title="404 - Page Not Found | GroupFund"
         description="The page you're looking for doesn't exist. Return to GroupFund homepage or explore our features, blog, and resources."
         keywords="404, page not found, GroupFund"
-        canonical="https://groupfund.app/404"
+        canonical="https://www.groupfund.app/404"
       />
 
       <section className="not-found-page">

@@ -10,7 +10,7 @@ export default function ChoosingTheRightContributionAmountPage() {
         title="Choosing the Right Contribution Amount - Guide for Group Leaders"
         description="Learn how to choose the right contribution amount for your group. Factors to consider, examples by group type, and tips for setting fair amounts that work for everyone."
         keywords="choosing contribution amount, setting contribution amounts, fair contribution amounts, group contribution amount guide, birthday contribution amount"
-        canonical="https://groupfund.app/resources/choosing-the-right-contribution-amount"
+        canonical="https://www.groupfund.app/resources/choosing-the-right-contribution-amount"
       />
 
       <section className="page-hero">

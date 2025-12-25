@@ -10,7 +10,7 @@ export default function InternationalGroupsBestPracticesPage() {
         title="Best Practices for International Group Contributions | Cross-Border Payments | GroupFund"
         description="Best practices for organizing group contributions across borders. Learn how to handle multi-currency payments, time zones, and cross-border group management effectively."
         keywords="international group contributions, cross-border group payments, multi-currency group management, international payment tracking, global group contributions, cross-border payments, international group management"
-        canonical="https://groupfund.app/best-practices/international-groups"
+        canonical="https://www.groupfund.app/best-practices/international-groups"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function MultiCurrencyGroupPaymentsPage() {
         title="Multi-Currency Group Payments - Guide for International Groups"
         description="Complete guide to organizing birthday contributions for international groups with members in different countries. Learn how to handle multiple currencies, exchange rates, and cross-border payments."
         keywords="multi-currency group payments, international birthday contributions, cross-border group payments, multi-currency contributions, international group payments"
-        canonical="https://groupfund.app/resources/multi-currency-group-payments"
+        canonical="https://www.groupfund.app/resources/multi-currency-group-payments"
       />
 
       <section className="page-hero">

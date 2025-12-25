@@ -10,7 +10,7 @@ export default function SubscriptionGroupPaymentSchedulesPage() {
         title="Subscription Group Payment Schedules - Monthly vs Annual"
         description="Learn how to set up and manage payment schedules for Subscription Groups. Understand monthly vs. annual frequencies and how to configure deadlines."
         keywords="subscription payment schedules, monthly subscriptions, annual subscriptions, payment frequency, subscription deadlines"
-        canonical="https://groupfund.app/resources/subscription-group-payment-schedules"
+        canonical="https://www.groupfund.app/resources/subscription-group-payment-schedules"
       />
 
       <section className="page-hero">

@@ -39,7 +39,7 @@ export default function ZurichLocationPage() {
         title="GroupFund Zurich - Group Contributions App for Zurich, Switzerland"
         description="Organize group contributions in Zurich, Switzerland with GroupFund. Perfect for Zurich families, churches, schools, and groups. Support for CHF. Free to start."
         keywords="group contributions Zurich, Zurich contribution app, groupfund Zurich, group contributions app Zurich Switzerland, Zurich group payments, CHF contribution tracker Zurich"
-        canonical="https://groupfund.app/locations/zurich"
+        canonical="https://www.groupfund.app/locations/zurich"
       />
       <section className="page-hero">
         <div className="container">

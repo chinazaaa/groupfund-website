@@ -36,7 +36,7 @@ export default function CanadaLocationPage() {
         title="GroupFund Canada - Group Contributions App for Canada"
         description="Organize group contributions in Canada with GroupFund. Perfect for Canadian families, churches, schools, and groups. Support for CAD (Canadian Dollar). Free to start."
         keywords="group contributions Canada, Canadian contribution app, groupfund Canada, group contributions app Canada, CAD contribution tracker, Canada group payments"
-        canonical="https://groupfund.app/locations/canada"
+        canonical="https://www.groupfund.app/locations/canada"
       />
 
       <section className="page-hero">

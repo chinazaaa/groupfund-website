@@ -10,7 +10,7 @@ export default function OptimizingPaymentConfirmationWorkflowsPage() {
         title="Optimizing Payment Confirmation Workflows - Advanced Guide"
         description="Learn how to optimize payment confirmation workflows for accuracy and efficiency. Advanced strategies for managing payment confirmations in large groups."
         keywords="payment confirmation workflow, optimizing payment confirmations, payment verification, confirmation system, payment tracking workflow"
-        canonical="https://groupfund.app/resources/optimizing-payment-confirmation-workflows"
+        canonical="https://www.groupfund.app/resources/optimizing-payment-confirmation-workflows"
       />
 
       <section className="page-hero">

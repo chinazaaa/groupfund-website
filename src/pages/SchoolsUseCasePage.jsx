@@ -10,7 +10,7 @@ export default function SchoolsUseCasePage() {
         title="GroupFund for Schools - Organize School Group Contributions"
         description="Organize group contributions for teachers, staff, and students with GroupFund - birthdays, subscriptions, events. Perfect for class groups, teacher associations, and school communities."
         keywords="school group contributions, class contribution fund, teacher contributions, school contribution tracker, group contributions for schools"
-        canonical="https://groupfund.app/use-cases/schools"
+        canonical="https://www.groupfund.app/use-cases/schools"
       />
 
       <section className="page-hero">

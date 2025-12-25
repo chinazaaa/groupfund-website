@@ -10,7 +10,7 @@ export default function CreatingGeneralGroupsForEventsPage() {
         title="Creating General Groups for Events - Step-by-Step Guide"
         description="Step-by-step guide to creating General Groups for weddings, baby showers, graduations, and any event. Learn how to set deadlines and manage contributions effectively."
         keywords="general groups, event planning, wedding contributions, baby shower contributions, graduation contributions, group event management"
-        canonical="https://groupfund.app/resources/creating-general-groups-for-events"
+        canonical="https://www.groupfund.app/resources/creating-general-groups-for-events"
       />
 
       <section className="page-hero">

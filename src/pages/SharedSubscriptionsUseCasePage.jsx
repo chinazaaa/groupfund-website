@@ -10,7 +10,7 @@ export default function SharedSubscriptionsUseCasePage() {
         title="GroupFund for Shared Subscriptions - Manage Netflix, Spotify & More"
         description="Manage shared subscriptions like Netflix, Spotify, Disney+, and more with Subscription Groups. Set monthly or annual payment schedules, track deadlines, and never miss a payment."
         keywords="shared subscriptions, Netflix subscription sharing, Spotify group subscription, subscription management app, shared streaming services, subscription groups"
-        canonical="https://groupfund.app/use-cases/shared-subscriptions"
+        canonical="https://www.groupfund.app/use-cases/shared-subscriptions"
       />
 
       <section className="page-hero">

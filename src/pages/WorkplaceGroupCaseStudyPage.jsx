@@ -10,7 +10,7 @@ export default function WorkplaceGroupCaseStudyPage() {
         title="Workplace Event Contribution Success Story - A Company in United Kingdom Case Study | GroupFund"
         description="Read how a company in the United Kingdom transformed their office event contributions using GroupFund. 120 employees, 90% time savings, 96% participation rate. Real metrics and results."
         keywords="workplace contribution success story, office group payment case study, colleague contribution management, workplace event contributions, office event tracking, groupfund workplace case study"
-        canonical="https://groupfund.app/case-studies/workplace-event-group"
+        canonical="https://www.groupfund.app/case-studies/workplace-event-group"
       />
 
       <section className="page-hero">

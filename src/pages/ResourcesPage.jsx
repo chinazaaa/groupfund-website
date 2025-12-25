@@ -241,7 +241,7 @@ export default function ResourcesPage() {
         title="Resources & Guides - Group Contribution Tips & Best Practices"
         description="Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing Birthday Groups, Subscription Groups, and General Groups. Educational resources covering subscription management, event planning, payment tracking, and more for families, churches, schools, and groups."
         keywords="group contribution guides, how to organize group contributions, subscription group guide, general group guide, birthday group guide, contribution tips, group payment guides, contribution best practices, educational resources, subscription management guide, event planning guide, shared subscription guide"
-        canonical="https://groupfund.app/resources"
+        canonical="https://www.groupfund.app/resources"
       />
 
       <section className="page-hero">

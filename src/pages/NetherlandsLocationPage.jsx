@@ -36,7 +36,7 @@ export default function NetherlandsLocationPage() {
         title="GroupFund Netherlands - Group Contributions App for Netherlands"
         description="Organize group contributions in Netherlands with GroupFund. Perfect for Dutch families, churches, schools, and groups. Support for EUR (Euro). Free to start."
         keywords="group contributions Netherlands, Dutch contribution app, groupfund Netherlands, group contributions app Netherlands, EUR contribution tracker, Netherlands group payments"
-        canonical="https://groupfund.app/locations/netherlands"
+        canonical="https://www.groupfund.app/locations/netherlands"
       />
 
       <section className="page-hero">

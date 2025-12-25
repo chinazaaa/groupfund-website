@@ -10,7 +10,7 @@ export default function SchoolGroupCaseStudyPage() {
         title="School Subscription Success Story - A School in United States Case Study | GroupFund"
         description="Read how a school in the United States transformed their shared subscription management using GroupFund. 75 staff members, 85% time savings, 98% participation rate. Real metrics and results."
         keywords="school subscription success story, school group payment case study, teacher subscription management, shared subscription tracking, staff subscription contributions, groupfund school case study"
-        canonical="https://groupfund.app/case-studies/school-subscription-group"
+        canonical="https://www.groupfund.app/case-studies/school-subscription-group"
       />
 
       <section className="page-hero">

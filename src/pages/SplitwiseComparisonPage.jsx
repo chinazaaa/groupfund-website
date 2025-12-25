@@ -10,7 +10,7 @@ export default function SplitwiseComparisonPage() {
         title="GroupFund vs Splitwise - Better Group Contribution Tracking"
         description="Compare GroupFund with Splitwise for organizing group contributions. See why GroupFund is purpose-built for group contributions with automatic reminders and member reliability scores."
         keywords="groupfund vs splitwise, splitwise vs groupfund, splitwise alternative for group contributions, group contribution app comparison, groupfund comparison"
-        canonical="https://groupfund.app/comparisons/splitwise"
+        canonical="https://www.groupfund.app/comparisons/splitwise"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function GeneralGroupsPage() {
         title="General Groups - Flexible Groups for Events & Any Purpose | GroupFund"
         description="Learn about General Groups in GroupFund. Flexible groups for weddings, baby showers, graduations, and any purpose. Set optional deadlines and organize contributions for any event."
         keywords="general groups, event contributions, wedding contributions, baby shower contributions, graduation contributions, flexible group contributions"
-        canonical="https://groupfund.app/group-types/general-groups"
+        canonical="https://www.groupfund.app/group-types/general-groups"
       />
 
       <section className="page-hero">

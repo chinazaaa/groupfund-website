@@ -36,7 +36,7 @@ export default function BrazilLocationPage() {
         title="GroupFund Brazil - Group Contributions App for Brazil"
         description="Organize group contributions in Brazil with GroupFund. Perfect for Brazilian families, churches, schools, and groups. Support for BRL (Brazilian Real). Free to start."
         keywords="group contributions Brazil, Brazilian contribution app, groupfund Brazil, group contributions app Brazil, BRL contribution tracker, Brazil group payments"
-        canonical="https://groupfund.app/locations/brazil"
+        canonical="https://www.groupfund.app/locations/brazil"
       />
 
       <section className="page-hero">

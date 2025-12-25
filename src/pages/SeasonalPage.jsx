@@ -55,7 +55,7 @@ export default function SeasonalPage() {
         title="Seasonal Group Contributions - Christmas, Holiday, Back to School, Wedding Season | GroupFund"
         description="Organize group contributions for seasonal events: Christmas, holidays, back-to-school, wedding season, and more. Manage Christmas contributions, Secret Santa, holiday gift funds, school payments, wedding funds, and seasonal celebrations with GroupFund."
         keywords="seasonal group contributions, Christmas contributions, holiday contributions, Christmas group payments, Secret Santa contributions, Christmas gift funds, back to school contributions, wedding season payments, seasonal gift funds, holiday season payments, Christmas 2025, organize Christmas gifts"
-        canonical="https://groupfund.app/seasonal"
+        canonical="https://www.groupfund.app/seasonal"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function FamiliesUseCasePage() {
         title="GroupFund for Families - Organize Family Group Contributions"
         description="Organize group contributions for your extended family with GroupFund - birthdays, subscriptions, events. Track contributions, set fair amounts, and celebrate together without the stress. Perfect for large families."
         keywords="family group contributions, family group payments, extended family contribution fund, family contribution tracker, group contributions for families"
-        canonical="https://groupfund.app/use-cases/families"
+        canonical="https://www.groupfund.app/use-cases/families"
       />
 
       <section className="page-hero">

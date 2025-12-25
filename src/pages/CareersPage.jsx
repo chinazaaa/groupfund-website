@@ -9,7 +9,7 @@ export default function CareersPage() {
         title="Careers - Join the GroupFund Team"
         description="Learn about working at GroupFund and our company culture. While we don't have open positions right now, we're always open to hearing from exceptional candidates."
         keywords="careers, jobs, hiring, employment, groupfund careers, software engineer, product designer"
-        canonical="https://groupfund.app/careers"
+        canonical="https://www.groupfund.app/careers"
       />
 
       <section className="page-hero">

@@ -169,7 +169,7 @@ export default function FeaturesPage() {
         title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & More"
         description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more."
         keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders"
-        canonical="https://groupfund.app/features"
+        canonical="https://www.groupfund.app/features"
       />
 
       <section className="page-hero">

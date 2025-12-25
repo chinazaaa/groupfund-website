@@ -10,7 +10,7 @@ export default function WeddingSeasonContributionsPage() {
         title="Wedding Season Group Contributions - Bridal Party & Wedding Payments | GroupFund"
         description="Organize group contributions for weddings, bridal parties, and wedding-related events. Coordinate bridal shower contributions, wedding gift funds, and celebration expenses with GroupFund."
         keywords="wedding group contributions, wedding season payments, bridal party contributions, wedding gift funds, bridal shower contributions, wedding celebration funds, wedding event payments"
-        canonical="https://groupfund.app/seasonal/wedding-season-contributions"
+        canonical="https://www.groupfund.app/seasonal/wedding-season-contributions"
       />
 
       <section className="page-hero">

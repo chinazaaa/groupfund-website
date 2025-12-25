@@ -39,7 +39,7 @@ export default function MumbaiLocationPage() {
         title="GroupFund Mumbai - Group Contributions App for Mumbai, India"
         description="Organize group contributions in Mumbai, India with GroupFund. Perfect for Mumbai families, churches, schools, and groups. Support for INR. Free to start."
         keywords="group contributions Mumbai, Mumbai contribution app, groupfund Mumbai, group contributions app Mumbai India, Mumbai group payments, INR contribution tracker Mumbai"
-        canonical="https://groupfund.app/locations/mumbai"
+        canonical="https://www.groupfund.app/locations/mumbai"
       />
       <section className="page-hero">
         <div className="container">

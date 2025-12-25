@@ -272,7 +272,7 @@ export default function BlogPage() {
         title="GroupFund Blog - Tips, Guides & Insights on Organizing Group Contributions"
         description="Read our blog for tips on organizing group contributions, subscription management, event planning, why WhatsApp groups fail, best practices for collecting money in Nigeria, and comparisons with traditional methods. Expert guides on Birthday Groups, Subscription Groups, and General Groups."
         keywords="group contribution tips, group payment blog, subscription management blog, event planning blog, organize contributions Nigeria, WhatsApp payment problems, group contribution guides, birthday groups, subscription groups, general groups, shared subscriptions, wedding contributions, baby shower planning"
-        canonical="https://groupfund.app/blog"
+        canonical="https://www.groupfund.app/blog"
       />
 
       <section className="page-hero">

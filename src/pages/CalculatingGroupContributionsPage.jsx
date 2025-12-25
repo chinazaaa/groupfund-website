@@ -10,7 +10,7 @@ export default function CalculatingGroupContributionsPage() {
         title="Calculating Group Contributions - How to Set Fair Amounts"
         description="Learn how to calculate fair contribution amounts for your group. Tips for setting amounts that work for everyone. Includes formulas and examples."
         keywords="calculating group contributions, birthday contribution calculator, how to set contribution amounts, fair contribution amounts, group payment calculation"
-        canonical="https://groupfund.app/resources/calculating-group-contributions"
+        canonical="https://www.groupfund.app/resources/calculating-group-contributions"
       />
 
       <section className="page-hero">

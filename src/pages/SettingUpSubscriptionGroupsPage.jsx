@@ -10,7 +10,7 @@ export default function SettingUpSubscriptionGroupsPage() {
         title="Setting Up Subscription Groups - Complete Guide"
         description="Complete guide to creating and managing Subscription Groups. Learn how to set up shared subscriptions, configure payment schedules, and manage admin account details."
         keywords="subscription group setup, shared subscription guide, how to create subscription group, Netflix subscription sharing, Spotify group subscription"
-        canonical="https://groupfund.app/resources/setting-up-subscription-groups"
+        canonical="https://www.groupfund.app/resources/setting-up-subscription-groups"
       />
 
       <section className="page-hero">

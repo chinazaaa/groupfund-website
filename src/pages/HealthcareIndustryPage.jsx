@@ -10,7 +10,7 @@ export default function HealthcareIndustryPage() {
         title="Healthcare Group Contributions - Medical Team Payments | GroupFund"
         description="Organize group contributions for healthcare workers, medical teams, and healthcare organizations. Manage birthday funds, subscription groups, and event contributions for medical professionals with GroupFund."
         keywords="healthcare group contributions, medical group payment tracking, healthcare worker contributions, medical team contributions, healthcare organization payments, medical professional contributions, healthcare staff payments"
-        canonical="https://groupfund.app/industries/healthcare"
+        canonical="https://www.groupfund.app/industries/healthcare"
       />
 
       <section className="page-hero">

@@ -10,7 +10,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
         title="GroupFund vs Excel Spreadsheets - Better Group Contribution Tracking"
         description="Compare GroupFund with Excel spreadsheets for organizing group contributions. See why GroupFund is better: automatic reminders, real-time tracking, mobile app, and more."
         keywords="groupfund vs excel, excel vs groupfund, excel alternative for group tracking, excel spreadsheet group contributions, groupfund comparison"
-        canonical="https://groupfund.app/comparisons/excel-spreadsheets"
+        canonical="https://www.groupfund.app/comparisons/excel-spreadsheets"
       />
 
       <section className="page-hero">

@@ -98,7 +98,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
         title="How to Organize Group Contributions - Complete Step-by-Step Guide"
         description="Learn how to organize group contributions for birthdays, subscriptions, and events step-by-step. Complete guide covering setup, tracking, reminders, and best practices. Perfect for families, churches, and groups."
         keywords="how to organize group contributions, group contribution guide, organize group contributions, contribution setup, group payment organization"
-        canonical="https://groupfund.app/resources/how-to-organize-birthday-contributions"
+        canonical="https://www.groupfund.app/resources/how-to-organize-birthday-contributions"
       />
 
       <section className="page-hero">

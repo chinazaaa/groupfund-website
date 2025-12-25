@@ -76,7 +76,7 @@ export default function ContributionCalculatorPage() {
         title="Group Contribution Calculator - Calculate Per-Person Amounts | GroupFund"
         description="Free group contribution calculator. Calculate how much each person should contribute in a group. Perfect for birthday groups, subscription groups, events, and any group contribution scenario. Easy to use, instant results."
         keywords="group contribution calculator, calculate per person contribution, contribution amount calculator, group payment calculator, birthday contribution calculator, split payment calculator, group fund calculator, contribution splitter"
-        canonical="https://groupfund.app/tools/contribution-calculator"
+        canonical="https://www.groupfund.app/tools/contribution-calculator"
       />
 
       <section className="page-hero">

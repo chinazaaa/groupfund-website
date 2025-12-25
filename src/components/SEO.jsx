@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 export default function SEO({ title, description, keywords, ogImage, canonical }) {
+  const location = useLocation()
+
   useEffect(() => {
     // Update document title
     document.title = title
@@ -37,22 +40,32 @@ export default function SEO({ title, description, keywords, ogImage, canonical }
       updateMetaTag('twitter:image', ogImage)
     }
 
-    // Update canonical URL
-    if (canonical) {
-      let link = document.querySelector('link[rel="canonical"]')
-      if (!link) {
-        link = document.createElement('link')
-        link.setAttribute('rel', 'canonical')
-        document.head.appendChild(link)
-      }
-      link.setAttribute('href', canonical)
+    // Generate canonical URL
+    // If canonical is provided, use it; otherwise generate from current location
+    let canonicalUrl = canonical
+    if (!canonicalUrl) {
+      // Generate from current location
+      const path = location.pathname
+      canonicalUrl = `https://www.groupfund.app${path === '/' ? '' : path}`
+    } else {
+      // Normalize provided canonical URL to use www.groupfund.app
+      canonicalUrl = canonicalUrl.replace(/https?:\/\/(www\.)?groupfund\.app/g, 'https://www.groupfund.app')
     }
+
+    // Ensure canonical URL always exists and is self-referential
+    let link = document.querySelector('link[rel="canonical"]')
+    if (!link) {
+      link = document.createElement('link')
+      link.setAttribute('rel', 'canonical')
+      document.head.appendChild(link)
+    }
+    link.setAttribute('href', canonicalUrl)
 
     // Cleanup function
     return () => {
       // Optionally reset to default on unmount
     }
-  }, [title, description, keywords, ogImage, canonical])
+  }, [title, description, keywords, ogImage, canonical, location.pathname])
 
   return null
 }

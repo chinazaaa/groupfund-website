@@ -10,7 +10,7 @@ export default function CommunityOrganizationsUseCasePage() {
         title="GroupFund for Community Organizations - Organize Community Group Contributions"
         description="Organize group contributions for community organizations, neighborhood groups, alumni associations, and clubs with GroupFund - birthdays, subscriptions, events. Perfect for any community-based group."
         keywords="community group contributions, neighborhood contribution fund, alumni contributions, community organization contributions, club contribution fund"
-        canonical="https://groupfund.app/use-cases/community-organizations"
+        canonical="https://www.groupfund.app/use-cases/community-organizations"
       />
 
       <section className="page-hero">

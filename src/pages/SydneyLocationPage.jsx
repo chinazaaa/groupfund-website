@@ -39,7 +39,7 @@ export default function SydneyLocationPage() {
         title="GroupFund Sydney - Group Contributions App for Sydney, Australia"
         description="Organize group contributions in Sydney, Australia with GroupFund. Perfect for Sydney families, churches, schools, and groups. Support for AUD. Free to start."
         keywords="group contributions Sydney, Sydney contribution app, groupfund Sydney, group contributions app Sydney Australia, Sydney group payments, AUD contribution tracker Sydney"
-        canonical="https://groupfund.app/locations/sydney"
+        canonical="https://www.groupfund.app/locations/sydney"
       />
       <section className="page-hero">
         <div className="container">

@@ -39,7 +39,7 @@ export default function ParisLocationPage() {
         title="GroupFund Paris - Group Contributions App for Paris, France"
         description="Organize group contributions in Paris, France with GroupFund. Perfect for Paris families, churches, schools, and groups. Support for EUR. Free to start."
         keywords="group contributions Paris, Paris contribution app, groupfund Paris, group contributions app Paris France, Paris group payments, EUR contribution tracker Paris"
-        canonical="https://groupfund.app/locations/paris"
+        canonical="https://www.groupfund.app/locations/paris"
       />
       <section className="page-hero">
         <div className="container">

@@ -36,7 +36,7 @@ export default function KenyaLocationPage() {
         title="GroupFund Kenya - Group Contributions App for Kenya"
         description="Organize group contributions in Kenya with GroupFund. Perfect for Kenyan families, churches, schools, and groups. Support for KES (Kenyan Shilling). Free to start."
         keywords="group contributions Kenya, Kenya contribution app, groupfund Kenya, group contributions app Kenya, KES contribution tracker, Kenya group payments"
-        canonical="https://groupfund.app/locations/kenya"
+        canonical="https://www.groupfund.app/locations/kenya"
       />
       <section className="page-hero">
         <div className="container">

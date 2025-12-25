@@ -66,7 +66,7 @@ export default function DownloadPage() {
         title="Download GroupFund App - iOS & Android | GroupFund"
         description="Download GroupFund app for iOS and Android. Organize group contributions effortlessly - birthdays, subscriptions, events. Track payments, set reminders, manage multiple groups. Free to start."
         keywords="download GroupFund, GroupFund app, iOS download, Android download, group contribution app, contribution tracking app"
-        canonical="https://groupfund.app/download"
+        canonical="https://www.groupfund.app/download"
       />
 
       <section className="page-hero">

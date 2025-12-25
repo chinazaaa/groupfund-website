@@ -36,7 +36,7 @@ export default function IrelandLocationPage() {
         title="GroupFund Ireland - Group Contributions App for Ireland"
         description="Organize group contributions in Ireland with GroupFund. Perfect for Irish families, churches, schools, and groups. Support for EUR (Euro). Free to start."
         keywords="group contributions Ireland, Irish contribution app, groupfund Ireland, group contributions app Ireland, EUR contribution tracker, Ireland group payments"
-        canonical="https://groupfund.app/locations/ireland"
+        canonical="https://www.groupfund.app/locations/ireland"
       />
 
       <section className="page-hero">

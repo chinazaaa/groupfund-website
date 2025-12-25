@@ -10,7 +10,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
         title="Church Contribution Success Story - A Church in Abuja Case Study | GroupFund"
         description="Read how a church in Abuja transformed their member birthday contributions using GroupFund. 200 members, 80% time savings, 95% participation rate. Real metrics and results."
         keywords="church contribution success story, church group payment case study, religious group contributions, church birthday contributions, church payment management, groupfund church case study"
-        canonical="https://groupfund.app/case-studies/church-birthday-group"
+        canonical="https://www.groupfund.app/case-studies/church-birthday-group"
       />
 
       <section className="page-hero">

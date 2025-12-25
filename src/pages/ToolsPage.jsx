@@ -60,7 +60,7 @@ export default function ToolsPage() {
         title="Free Group Contribution Tools & Calculators | GroupFund"
         description="Free tools and calculators for organizing group contributions. Calculate per-person amounts, estimate yearly costs, and plan your group contributions effectively. Perfect for birthday groups, subscription groups, and events."
         keywords="group contribution tools, contribution calculator, yearly contribution estimator, free group tools, group payment calculator, contribution planning tools, birthday contribution calculator, subscription calculator"
-        canonical="https://groupfund.app/tools"
+        canonical="https://www.groupfund.app/tools"
       />
 
       <section className="page-hero">

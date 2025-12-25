@@ -36,7 +36,7 @@ export default function GermanyLocationPage() {
         title="GroupFund Germany - Group Contributions App for Germany"
         description="Organize group contributions in Germany with GroupFund. Perfect for German families, churches, schools, and groups. Support for EUR (Euro). Free to start."
         keywords="group contributions Germany, German contribution app, groupfund Germany, group contributions app Germany, EUR contribution tracker, Germany group payments"
-        canonical="https://groupfund.app/locations/germany"
+        canonical="https://www.groupfund.app/locations/germany"
       />
 
       <section className="page-hero">

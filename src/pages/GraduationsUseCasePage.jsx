@@ -10,7 +10,7 @@ export default function GraduationsUseCasePage() {
         title="GroupFund for Graduations - Organize Graduation Contributions & Gifts"
         description="Organize graduation contributions and gifts with General Groups. Perfect for class groups, families, and friends celebrating graduation milestones together."
         keywords="graduation contributions, graduation gifts, graduation fund, class graduation contributions, graduation planning"
-        canonical="https://groupfund.app/use-cases/graduations"
+        canonical="https://www.groupfund.app/use-cases/graduations"
       />
 
       <section className="page-hero">

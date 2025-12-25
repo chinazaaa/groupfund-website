@@ -10,7 +10,7 @@ export default function WorkplaceUseCasePage() {
         title="GroupFund for Workplace - Organize Office Group Contributions"
         description="Organize group contributions for colleagues and team members with GroupFund - birthdays, shared subscriptions, team events. Perfect for office funds and workplace communities."
         keywords="workplace group contributions, office contribution fund, colleague contributions, workplace contribution tracker, office group contributions"
-        canonical="https://groupfund.app/use-cases/workplace"
+        canonical="https://www.groupfund.app/use-cases/workplace"
       />
 
       <section className="page-hero">

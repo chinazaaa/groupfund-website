@@ -56,7 +56,7 @@ export default function BrandingPage() {
         title="Brand Guidelines - GroupFund Brand Colors and Design System"
         description="Explore GroupFund's brand colors, design guidelines, and visual identity. Download color palettes and learn how to use our brand assets."
         keywords="groupfund branding, brand colors, design system, brand guidelines, color palette"
-        canonical="https://groupfund.app/branding"
+        canonical="https://www.groupfund.app/branding"
       />
 
       <section className="page-hero">

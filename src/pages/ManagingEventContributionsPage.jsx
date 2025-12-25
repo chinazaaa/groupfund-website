@@ -10,7 +10,7 @@ export default function ManagingEventContributionsPage() {
         title="Managing Event Contributions - Complete Guide"
         description="Complete guide to organizing contributions for events using General Groups. Tips for weddings, baby showers, graduations, and special occasions."
         keywords="event contributions, wedding contributions, baby shower contributions, graduation contributions, managing event payments, group event planning"
-        canonical="https://groupfund.app/resources/managing-event-contributions"
+        canonical="https://www.groupfund.app/resources/managing-event-contributions"
       />
 
       <section className="page-hero">

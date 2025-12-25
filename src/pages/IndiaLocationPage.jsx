@@ -36,7 +36,7 @@ export default function IndiaLocationPage() {
         title="GroupFund India - Group Contributions App for India"
         description="Organize group contributions in India with GroupFund. Perfect for Indian families, churches, schools, and groups. Support for INR (Indian Rupee). Free to start."
         keywords="group contributions India, India contribution app, groupfund India, group contributions app India, INR contribution tracker, India group payments"
-        canonical="https://groupfund.app/locations/india"
+        canonical="https://www.groupfund.app/locations/india"
       />
       <section className="page-hero">
         <div className="container">

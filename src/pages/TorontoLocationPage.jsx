@@ -39,7 +39,7 @@ export default function TorontoLocationPage() {
         title="GroupFund Toronto - Group Contributions App for Toronto, Canada"
         description="Organize group contributions in Toronto, Canada with GroupFund. Perfect for Toronto families, churches, schools, and groups. Support for CAD. Free to start."
         keywords="group contributions Toronto, Toronto contribution app, groupfund Toronto, group contributions app Toronto Canada, Toronto group payments, CAD contribution tracker Toronto"
-        canonical="https://groupfund.app/locations/toronto"
+        canonical="https://www.groupfund.app/locations/toronto"
       />
       <section className="page-hero">
         <div className="container">

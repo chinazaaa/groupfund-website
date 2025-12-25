@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
         title="Privacy Policy - GroupFund"
         description="Read GroupFund's Privacy Policy to understand how we collect, use, and protect your personal information when using our group contribution app."
         keywords="privacy policy, data protection, user privacy, groupfund privacy"
-        canonical="https://groupfund.app/privacy"
+        canonical="https://www.groupfund.app/privacy"
       />
 
       <section className="page-hero">

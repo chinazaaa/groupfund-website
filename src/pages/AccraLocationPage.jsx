@@ -39,7 +39,7 @@ export default function AccraLocationPage() {
         title="GroupFund Accra - Group Contributions App for Accra, Ghana"
         description="Organize group contributions in Accra, Ghana with GroupFund. Perfect for Accra families, churches, schools, and groups. Support for GHS. Free to start."
         keywords="group contributions Accra, Accra contribution app, groupfund Accra, group contributions app Accra Ghana, Accra group payments, GHS contribution tracker Accra"
-        canonical="https://groupfund.app/locations/accra"
+        canonical="https://www.groupfund.app/locations/accra"
       />
       <section className="page-hero">
         <div className="container">

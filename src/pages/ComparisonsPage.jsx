@@ -112,7 +112,7 @@ export default function ComparisonsPage() {
         title="GroupFund Comparisons - vs WhatsApp Groups, Excel, Google Sheets, Venmo, Splitwise & More"
         description="Compare GroupFund with WhatsApp groups, Excel spreadsheets, Google Sheets, Venmo, Splitwise, and manual methods. See why GroupFund is the best choice for organizing group contributions."
         keywords="groupfund comparisons, groupfund vs whatsapp, groupfund vs excel, groupfund vs google sheets, groupfund vs venmo, groupfund vs splitwise, group contribution app comparison, best group contribution tracker"
-        canonical="https://groupfund.app/comparisons"
+        canonical="https://www.groupfund.app/comparisons"
       />
 
       <section className="page-hero">

@@ -39,7 +39,7 @@ export default function NewYorkLocationPage() {
         title="GroupFund New York - Group Contributions App for New York, USA"
         description="Organize group contributions in New York, USA with GroupFund. Perfect for New York families, churches, schools, and groups. Support for USD. Free to start."
         keywords="group contributions New York, New York contribution app, groupfund New York, group contributions app New York USA, New York group payments, USD contribution tracker New York"
-        canonical="https://groupfund.app/locations/new-york"
+        canonical="https://www.groupfund.app/locations/new-york"
       />
       <section className="page-hero">
         <div className="container">

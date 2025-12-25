@@ -10,7 +10,7 @@ export default function ChurchesUseCasePage() {
         title="GroupFund for Churches - Streamline Church Group Contributions"
         description="Streamline group contributions for church members with GroupFund - birthdays, subscriptions, events. Manage large groups efficiently, track member reliability, and maintain transparency in your church community."
         keywords="church group contributions, church member contributions, church contribution fund, church contribution tracker, group contributions for churches"
-        canonical="https://groupfund.app/use-cases/churches"
+        canonical="https://www.groupfund.app/use-cases/churches"
       />
 
       <section className="page-hero">

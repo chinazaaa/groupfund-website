@@ -195,7 +195,7 @@ export default function FAQPage() {
         title="GroupFund FAQ - Frequently Asked Questions About Group Contributions"
         description="Get answers to common questions about GroupFund: group types (birthday, subscription, general), member reliability scores, group health metrics, payment confirmation, OTP verification, group management, notifications, and more."
         keywords="groupfund FAQ, group contribution app questions, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, group payment FAQ, is groupfund safe, currency support, payment confirmation, OTP verification"
-        canonical="https://groupfund.app/faq"
+        canonical="https://www.groupfund.app/faq"
       />
 
       <section className="page-hero">

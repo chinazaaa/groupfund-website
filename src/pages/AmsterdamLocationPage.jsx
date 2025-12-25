@@ -39,7 +39,7 @@ export default function AmsterdamLocationPage() {
         title="GroupFund Amsterdam - Group Contributions App for Amsterdam, Netherlands"
         description="Organize group contributions in Amsterdam, Netherlands with GroupFund. Perfect for Amsterdam families, churches, schools, and groups. Support for EUR. Free to start."
         keywords="group contributions Amsterdam, Amsterdam contribution app, groupfund Amsterdam, group contributions app Amsterdam Netherlands, Amsterdam group payments, EUR contribution tracker Amsterdam"
-        canonical="https://groupfund.app/locations/amsterdam"
+        canonical="https://www.groupfund.app/locations/amsterdam"
       />
       <section className="page-hero">
         <div className="container">

@@ -48,7 +48,7 @@ export default function PricingPage() {
         title="GroupFund Pricing - Free Group Contribution App | No Hidden Fees"
         description="GroupFund is completely free to start! Organize contributions for birthdays, subscriptions, and events at no cost. No hidden fees, no credit card required. Free forever for organizing group contributions."
         keywords="groupfund pricing, free group contribution app, free group payment app, contribution app free, groupfund cost, free contribution tracker, no cost group contributions"
-        canonical="https://groupfund.app/pricing"
+        canonical="https://www.groupfund.app/pricing"
       />
 
       <section className="page-hero">

@@ -39,7 +39,7 @@ export default function LondonLocationPage() {
         title="GroupFund London - Group Contributions App for London, UK"
         description="Organize group contributions in London, UK with GroupFund. Perfect for London families, churches, schools, and groups. Support for GBP. Free to start."
         keywords="group contributions London, London contribution app, groupfund London, group contributions app London UK, London group payments, GBP contribution tracker London"
-        canonical="https://groupfund.app/locations/london"
+        canonical="https://www.groupfund.app/locations/london"
       />
       <section className="page-hero">
         <div className="container">

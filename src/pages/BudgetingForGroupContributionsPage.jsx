@@ -10,7 +10,7 @@ export default function BudgetingForGroupContributionsPage() {
         title="Budgeting for Group Contributions - Financial Planning Guide"
         description="Learn how to budget for group birthday contributions. Plan your annual contribution expenses, calculate totals, and manage your finances effectively."
         keywords="budgeting for group contributions, birthday contribution budget, financial planning for groups, annual contribution planning, group payment budgeting"
-        canonical="https://groupfund.app/resources/budgeting-for-group-contributions"
+        canonical="https://www.groupfund.app/resources/budgeting-for-group-contributions"
       />
 
       <section className="page-hero">

@@ -53,7 +53,7 @@ export default function UnitedStatesLocationPage() {
         title="GroupFund United States - Group Contributions App for USA"
         description="Organize group contributions in the United States with GroupFund. Perfect for American families, churches, schools, and groups. Support for USD (US Dollar). Free to start."
         keywords="group contributions USA, US contribution app, groupfund USA, group contributions app United States, USD contribution tracker, USA group payments"
-        canonical="https://groupfund.app/locations/united-states"
+        canonical="https://www.groupfund.app/locations/united-states"
       />
       <section className="page-hero">
         <div className="container">

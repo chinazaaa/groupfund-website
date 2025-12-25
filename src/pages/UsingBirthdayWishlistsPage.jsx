@@ -80,7 +80,7 @@ export default function UsingBirthdayWishlistsPage() {
         title="How to Use Birthday Wishlists - Complete Guide for Group Gift Giving"
         description="Learn how to create and use birthday wishlists for coordinated group gift giving in Birthday Groups. Step-by-step guide to sharing wishlists, claiming items, and avoiding duplicate gifts. Note: Wishlists are available for Birthday Groups only."
         keywords="birthday wishlists, birthday wishlist meaning, what is a birthday wishlist, how to use wishlists, group gift giving, birthday gift coordination, wishlist guide, gift giving tips, birthday groups"
-        canonical="https://groupfund.app/resources/using-birthday-wishlists"
+        canonical="https://www.groupfund.app/resources/using-birthday-wishlists"
       />
 
       <section className="page-hero">

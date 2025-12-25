@@ -10,7 +10,7 @@ export default function SubscriptionDeadlineManagementPage() {
         title="Deadline Subscription - Complete Guide to Subscription Deadline Management"
         description="Learn everything about deadline subscription management. Master subscription deadline tracking, set monthly or annual frequencies, configure deadlines, and ensure timely payments for shared subscriptions like Netflix, Spotify, and more."
         keywords="deadline subscription, subscription deadline, subscription deadline management, deadline tracking, monthly subscriptions, annual subscriptions, payment deadlines, subscription payment deadline"
-        canonical="https://groupfund.app/resources/subscription-deadline-management"
+        canonical="https://www.groupfund.app/resources/subscription-deadline-management"
       />
 
       <section className="page-hero">

@@ -9,7 +9,7 @@ export default function PressPage() {
         title="Press & Media Kit - GroupFund"
         description="Media resources, press releases, and brand assets for journalists and content creators covering GroupFund."
         keywords="press, media kit, press release, brand assets, journalists, groupfund press"
-        canonical="https://groupfund.app/press"
+        canonical="https://www.groupfund.app/press"
       />
 
       <section className="page-hero">

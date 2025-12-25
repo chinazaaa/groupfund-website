@@ -64,7 +64,7 @@ export default function HolidayContributionsPage() {
         title="Christmas Group Contributions - Organize Holiday Gift Funds & Secret Santa | GroupFund 2025"
         description="Organize Christmas group contributions, holiday gift funds, Secret Santa, and festive celebrations. Free tool for families, workplaces, and communities. Set deadlines, track payments, coordinate gifts. Perfect for Christmas 2025."
         keywords="Christmas group contributions, Christmas gift funds, Secret Santa contributions, holiday group payments, Christmas contributions 2025, organize Christmas gifts, holiday gift coordination, Christmas party contributions, festive season payments, Christmas gift tracking, group Christmas gifts, workplace Christmas contributions, family Christmas fund"
-        canonical="https://groupfund.app/seasonal/holiday-contributions"
+        canonical="https://www.groupfund.app/seasonal/holiday-contributions"
       />
 
       <section className="page-hero">

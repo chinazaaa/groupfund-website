@@ -36,7 +36,7 @@ export default function SwitzerlandLocationPage() {
         title="GroupFund Switzerland - Group Contributions App for Switzerland"
         description="Organize group contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups. Support for CHF (Swiss Franc). Free to start."
         keywords="group contributions Switzerland, Swiss contribution app, groupfund Switzerland, group contributions app Switzerland, CHF contribution tracker, Switzerland group payments"
-        canonical="https://groupfund.app/locations/switzerland"
+        canonical="https://www.groupfund.app/locations/switzerland"
       />
 
       <section className="page-hero">

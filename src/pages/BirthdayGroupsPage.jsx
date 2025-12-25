@@ -10,7 +10,7 @@ export default function BirthdayGroupsPage() {
         title="Birthday Groups - Organize Birthday Contributions | GroupFund"
         description="Learn about Birthday Groups in GroupFund. Organize birthday contributions with wishlists, calendar tracking, and automatic reminders. Perfect for families and friend groups."
         keywords="birthday groups, birthday contributions, birthday calendar, birthday wishlists, birthday gift coordination, group birthday tracking"
-        canonical="https://groupfund.app/group-types/birthday-groups"
+        canonical="https://www.groupfund.app/group-types/birthday-groups"
       />
 
       <section className="page-hero">

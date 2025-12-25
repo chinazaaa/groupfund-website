@@ -2439,7 +2439,7 @@ export default function BlogPostPage() {
         title={`${post.title} - GroupFund Blog`}
         description={post.excerpt}
         keywords={post.keywords}
-        canonical={`https://groupfund.app/blog/${post.slug}`}
+        canonical={`https://www.groupfund.app/blog/${post.slug}`}
         ogImage="https://groupfund.app/og-image.jpg"
       />
 

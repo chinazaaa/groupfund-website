@@ -10,7 +10,7 @@ export default function RetailIndustryPage() {
         title="Retail Group Contributions - Retail Worker Birthday Funds | GroupFund"
         description="Organize group contributions for retail workers, retail teams, and retail organizations. Coordinate birthday funds, shared subscriptions, and team event contributions for retail professionals with GroupFund."
         keywords="retail group contributions, retail worker birthday funds, retail team contributions, retail organization payments, retail staff contributions, retail worker payments, retail team birthday funds"
-        canonical="https://groupfund.app/industries/retail"
+        canonical="https://www.groupfund.app/industries/retail"
       />
 
       <section className="page-hero">

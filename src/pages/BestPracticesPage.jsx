@@ -80,7 +80,7 @@ export default function BestPracticesPage() {
         title="Group Contribution Best Practices - Tips & Guidelines | GroupFund"
         description="Learn best practices for organizing group contributions effectively. Tips for managing large groups, international groups, setting amounts, payment confirmation, member reliability, and group health management."
         keywords="group contribution best practices, contribution management tips, group payment best practices, contribution guidelines, group organization best practices, payment tracking best practices"
-        canonical="https://groupfund.app/best-practices"
+        canonical="https://www.groupfund.app/best-practices"
       />
 
       <section className="page-hero">

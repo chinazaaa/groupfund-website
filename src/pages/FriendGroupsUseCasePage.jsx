@@ -10,7 +10,7 @@ export default function FriendGroupsUseCasePage() {
         title="GroupFund for Friend Groups - Organize Friend Group Contributions"
         description="Keep your friend group's contributions organized with GroupFund - birthdays, shared subscriptions, events. No more awkward reminders or forgotten contributions."
         keywords="friend group contributions, friend group fund, group contribution tracker, group contributions for friends, friend group payments"
-        canonical="https://groupfund.app/use-cases/friend-groups"
+        canonical="https://www.groupfund.app/use-cases/friend-groups"
       />
 
       <section className="page-hero">

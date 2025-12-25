@@ -31,7 +31,7 @@ export default function GroupTypesPage() {
         title="Group Types - Birthday, Subscription & General Groups | GroupFund"
         description="Learn about GroupFund's three group types: Birthday Groups for birthdays, Subscription Groups for shared subscriptions, and General Groups for events. Choose the right type for your needs."
         keywords="group types, birthday groups, subscription groups, general groups, group contribution types, birthday contributions, subscription management, event contributions"
-        canonical="https://groupfund.app/group-types"
+        canonical="https://www.groupfund.app/group-types"
       />
 
       <section className="page-hero">

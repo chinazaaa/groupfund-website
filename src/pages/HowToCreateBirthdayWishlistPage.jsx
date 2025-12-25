@@ -99,7 +99,7 @@ export default function HowToCreateBirthdayWishlistPage() {
         title="How to Create a Birthday Wishlist - Step-by-Step Guide"
         description="Learn how to create a birthday wishlist step-by-step. Discover tips for adding items, setting prices, including photos, and organizing your wishlist for effective group gift coordination. Perfect for Birthday Groups."
         keywords="how to create a birthday wishlist, create birthday wishlist, birthday wishlist guide, make birthday wishlist, birthday gift list, wishlist creation, birthday groups"
-        canonical="https://groupfund.app/resources/how-to-create-birthday-wishlist"
+        canonical="https://www.groupfund.app/resources/how-to-create-birthday-wishlist"
       />
 
       <section className="page-hero">

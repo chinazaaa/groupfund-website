@@ -10,7 +10,7 @@ export default function AdminAccountDetailsGuidePage() {
         title="Admin Account Details Guide - Sharing Payment Information Securely"
         description="Complete guide to managing admin account details for Subscription and General Groups. Learn how to securely share payment information with group members."
         keywords="admin account details, payment information, bank account details, secure payment sharing, subscription admin, general group admin"
-        canonical="https://groupfund.app/resources/admin-account-details-guide"
+        canonical="https://www.groupfund.app/resources/admin-account-details-guide"
       />
 
       <section className="page-hero">

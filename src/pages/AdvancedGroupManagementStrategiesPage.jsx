@@ -10,7 +10,7 @@ export default function AdvancedGroupManagementStrategiesPage() {
         title="Advanced Group Management Strategies - Expert Tips"
         description="Advanced strategies for managing birthday contribution groups. Expert tips for group leaders, administrators, and power users. Optimize your group management."
         keywords="advanced group management, group management strategies, expert group management, group administration tips, advanced contribution management"
-        canonical="https://groupfund.app/resources/advanced-group-management-strategies"
+        canonical="https://www.groupfund.app/resources/advanced-group-management-strategies"
       />
 
       <section className="page-hero">

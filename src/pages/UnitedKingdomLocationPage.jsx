@@ -53,7 +53,7 @@ export default function UnitedKingdomLocationPage() {
         title="GroupFund United Kingdom - Group Contributions App for UK"
         description="Organize group contributions in the United Kingdom with GroupFund. Perfect for UK families, churches, schools, and groups. Support for GBP (British Pound). Free to start."
         keywords="group contributions UK, UK contribution app, groupfund UK, group contributions app United Kingdom, GBP contribution tracker, UK group payments"
-        canonical="https://groupfund.app/locations/united-kingdom"
+        canonical="https://www.groupfund.app/locations/united-kingdom"
       />
       <section className="page-hero">
         <div className="container">

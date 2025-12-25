@@ -10,7 +10,7 @@ export default function SubscriptionGroupsPage() {
         title="Subscription Groups - Manage Shared Subscriptions | GroupFund"
         description="Learn about Subscription Groups in GroupFund. Manage shared subscriptions like Netflix, Spotify, Disney+ with monthly or annual payment schedules, automatic deadline tracking, and reliable payment management."
         keywords="subscription groups, shared subscriptions, Netflix subscription, Spotify group subscription, subscription management, recurring payments"
-        canonical="https://groupfund.app/group-types/subscription-groups"
+        canonical="https://www.groupfund.app/group-types/subscription-groups"
       />
 
       <section className="page-hero">

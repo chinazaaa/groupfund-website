@@ -43,7 +43,7 @@ export default function AboutPage() {
         title="About GroupFund - Our Mission to End Group Contribution Chaos"
         description="Learn about GroupFund's mission to help families, churches, and groups organize contributions for birthdays, subscriptions, and events effortlessly. Discover why we built this app and our commitment to transparency."
         keywords="about groupfund, groupfund mission, group contribution app, group contribution mission, our story"
-        canonical="https://groupfund.app/about"
+        canonical="https://www.groupfund.app/about"
       />
 
       <section className="page-hero">

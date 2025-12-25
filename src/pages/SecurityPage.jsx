@@ -9,7 +9,7 @@ export default function SecurityPage() {
         title="Security & Trust - GroupFund"
         description="Learn about GroupFund's security measures, data protection practices, and commitment to keeping your information safe and secure."
         keywords="security, data protection, privacy, encryption, secure payments, groupfund security, trust"
-        canonical="https://groupfund.app/security"
+        canonical="https://www.groupfund.app/security"
       />
 
       <section className="page-hero">

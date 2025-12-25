@@ -39,7 +39,7 @@ export default function MexicoCityLocationPage() {
         title="GroupFund Mexico City - Group Contributions App for Mexico City, Mexico"
         description="Organize group contributions in Mexico City, Mexico with GroupFund. Perfect for Mexico City families, churches, schools, and groups. Support for MXN. Free to start."
         keywords="group contributions Mexico City, Mexico City contribution app, groupfund Mexico City, group contributions app Mexico City Mexico, Mexico City group payments, MXN contribution tracker Mexico City"
-        canonical="https://groupfund.app/locations/mexico-city"
+        canonical="https://www.groupfund.app/locations/mexico-city"
       />
       <section className="page-hero">
         <div className="container">

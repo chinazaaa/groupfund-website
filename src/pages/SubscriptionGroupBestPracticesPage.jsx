@@ -10,7 +10,7 @@ export default function SubscriptionGroupBestPracticesPage() {
         title="Subscription Group Best Practices - Tips & Guidelines"
         description="Learn best practices for managing Subscription Groups. Tips for setting frequencies, handling account details, tracking deadlines, and maintaining group harmony."
         keywords="subscription group best practices, shared subscription management, subscription group tips, managing subscriptions"
-        canonical="https://groupfund.app/resources/subscription-group-best-practices"
+        canonical="https://www.groupfund.app/resources/subscription-group-best-practices"
       />
 
       <section className="page-hero">

@@ -39,7 +39,7 @@ export default function DublinLocationPage() {
         title="GroupFund Dublin - Group Contributions App for Dublin, Ireland"
         description="Organize group contributions in Dublin, Ireland with GroupFund. Perfect for Dublin families, churches, schools, and groups. Support for EUR. Free to start."
         keywords="group contributions Dublin, Dublin contribution app, groupfund Dublin, group contributions app Dublin Ireland, Dublin group payments, EUR contribution tracker Dublin"
-        canonical="https://groupfund.app/locations/dublin"
+        canonical="https://www.groupfund.app/locations/dublin"
       />
       <section className="page-hero">
         <div className="container">

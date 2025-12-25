@@ -36,7 +36,7 @@ export default function SouthAfricaLocationPage() {
         title="GroupFund South Africa - Group Contributions App for South Africa"
         description="Organize group contributions in South Africa with GroupFund. Perfect for South African families, churches, schools, and groups. Support for ZAR (South African Rand). Free to start."
         keywords="group contributions South Africa, South African contribution app, groupfund South Africa, group contributions app South Africa, ZAR contribution tracker, South Africa group payments"
-        canonical="https://groupfund.app/locations/south-africa"
+        canonical="https://www.groupfund.app/locations/south-africa"
       />
 
       <section className="page-hero">

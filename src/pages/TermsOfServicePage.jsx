@@ -31,7 +31,7 @@ export default function TermsOfServicePage() {
         title="Terms of Service - GroupFund"
         description="Read GroupFund's Terms of Service to understand the rules and guidelines for using our group contribution app and services."
         keywords="terms of service, user agreement, terms and conditions, groupfund terms"
-        canonical="https://groupfund.app/terms"
+        canonical="https://www.groupfund.app/terms"
       />
 
       <section className="page-hero">

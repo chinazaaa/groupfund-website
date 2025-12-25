@@ -39,7 +39,7 @@ export default function BerlinLocationPage() {
         title="GroupFund Berlin - Group Contributions App for Berlin, Germany"
         description="Organize group contributions in Berlin, Germany with GroupFund. Perfect for Berlin families, churches, schools, and groups. Support for EUR. Free to start."
         keywords="group contributions Berlin, Berlin contribution app, groupfund Berlin, group contributions app Berlin Germany, Berlin group payments, EUR contribution tracker Berlin"
-        canonical="https://groupfund.app/locations/berlin"
+        canonical="https://www.groupfund.app/locations/berlin"
       />
       <section className="page-hero">
         <div className="container">

@@ -10,7 +10,7 @@ export default function AvoidingBirthdayContributionMistakesPage() {
         title="Avoiding Group Contribution Mistakes - Common Pitfalls & Solutions"
         description="Common mistakes people make when organizing group contributions and how to avoid them. Learn from others' experiences to organize contributions successfully - for birthdays, subscriptions, events, and more."
         keywords="group contribution mistakes, common contribution mistakes, avoiding payment mistakes, group contribution errors, contribution pitfalls"
-        canonical="https://groupfund.app/resources/avoiding-birthday-contribution-mistakes"
+        canonical="https://www.groupfund.app/resources/avoiding-birthday-contribution-mistakes"
       />
 
       <section className="page-hero">

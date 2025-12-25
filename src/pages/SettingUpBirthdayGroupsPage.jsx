@@ -10,7 +10,7 @@ export default function SettingUpBirthdayGroupsPage() {
         title="Setting Up Birthday Groups - Complete Guide"
         description="Complete guide to creating and managing Birthday Groups. Learn how to add birthdays, set up wishlists, configure reminders, and organize birthday contributions effectively."
         keywords="birthday group setup, how to create birthday group, birthday contribution guide, birthday calendar setup, birthday wishlist guide"
-        canonical="https://groupfund.app/resources/setting-up-birthday-groups"
+        canonical="https://www.groupfund.app/resources/setting-up-birthday-groups"
       />
 
       <section className="page-hero">

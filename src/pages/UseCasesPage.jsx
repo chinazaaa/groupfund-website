@@ -217,7 +217,7 @@ export default function UseCasesPage() {
         title="Use Cases - GroupFund for Families, Churches, Schools & More"
         description="Discover how GroupFund helps families, churches, schools, friend groups, workplaces, sports teams, hobby groups, and community organizations organize contributions for birthdays, subscriptions, weddings, baby showers, graduations, and events effortlessly. Find the perfect solution for your group type."
         keywords="group contributions use cases, birthday groups, subscription groups, general groups, family contribution app, church contributions, school fund, friend group contributions, workplace fund, community organization contributions, shared subscriptions use case, wedding contributions, baby shower contributions, sports team contributions, hobby group payments, alumni contributions"
-        canonical="https://groupfund.app/use-cases"
+        canonical="https://www.groupfund.app/use-cases"
       />
 
       <section className="page-hero">

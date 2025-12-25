@@ -10,7 +10,7 @@ export default function BabyShowersUseCasePage() {
         title="GroupFund for Baby Showers - Organize Baby Shower Contributions"
         description="Plan baby shower contributions with General Groups. Organize group gifts, track contributions, and ensure the celebration is stress-free for everyone involved."
         keywords="baby shower contributions, baby shower planning, baby shower gifts, group baby shower contributions, baby shower fund"
-        canonical="https://groupfund.app/use-cases/baby-showers"
+        canonical="https://www.groupfund.app/use-cases/baby-showers"
       />
 
       <section className="page-hero">

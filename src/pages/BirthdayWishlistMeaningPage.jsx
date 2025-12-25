@@ -65,7 +65,7 @@ export default function BirthdayWishlistMeaningPage() {
         title="Birthday Wishlist Meaning - What is a Birthday Wishlist?"
         description="Learn what a birthday wishlist means and how it works. Discover how birthday wishlists help coordinate group gift giving, prevent duplicate gifts, and ensure celebrants receive items they actually want. Complete guide to birthday wishlist meaning and usage."
         keywords="birthday wishlist meaning, what is a birthday wishlist, birthday wishlist definition, birthday wishlist explained, birthday gift list meaning, wishlist meaning birthday"
-        canonical="https://groupfund.app/resources/birthday-wishlist-meaning"
+        canonical="https://www.groupfund.app/resources/birthday-wishlist-meaning"
       />
 
       <section className="page-hero">

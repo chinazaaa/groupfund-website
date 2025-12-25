@@ -10,7 +10,7 @@ export default function GoogleSheetsComparisonPage() {
         title="GroupFund vs Google Sheets - Better Group Contribution Tracking"
         description="Compare GroupFund with Google Sheets for organizing group contributions. See why GroupFund is better: automation, mobile access, real-time collaboration, and no manual updates needed."
         keywords="groupfund vs google sheets, google sheets vs groupfund, google sheets alternative for group tracking, groupfund comparison, better than google sheets"
-        canonical="https://groupfund.app/comparisons/google-sheets"
+        canonical="https://www.groupfund.app/comparisons/google-sheets"
       />
 
       <section className="page-hero">

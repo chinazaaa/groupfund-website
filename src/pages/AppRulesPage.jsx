@@ -31,7 +31,7 @@ export default function AppRulesPage() {
         title="App Rules - How GroupFund Works | Payment Tracking Guidelines"
         description="Understand how GroupFund works: We don't collect payments, only track contributions for birthday, subscription, and general groups. Learn the two-step payment confirmation process and how contributors and admins/celebrants interact."
         keywords="groupfund rules, how groupfund works, payment tracking, contribution rules, app guidelines, payment confirmation process, birthday groups, subscription groups, general groups"
-        canonical="https://groupfund.app/app-rules"
+        canonical="https://www.groupfund.app/app-rules"
       />
 
       <section className="page-hero">

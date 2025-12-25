@@ -140,7 +140,7 @@ export default function ReportPage() {
         title="Report a Group or Member - GroupFund"
         description="Report groups or members for spam, fraud, harassment, or inappropriate behavior. Help keep GroupFund safe and trustworthy for everyone."
         keywords="report group, report member, report fraud, report spam, groupfund reporting, safety reporting"
-        canonical="https://groupfund.app/report"
+        canonical="https://www.groupfund.app/report"
       />
 
       <section className="page-hero">

@@ -9,7 +9,7 @@ export default function CookiePolicyPage() {
         title="Cookie Policy - GroupFund"
         description="Learn about how GroupFund uses cookies and similar technologies to improve your experience on our website and mobile app."
         keywords="cookie policy, cookies, tracking, data collection, groupfund cookies"
-        canonical="https://groupfund.app/cookie-policy"
+        canonical="https://www.groupfund.app/cookie-policy"
       />
 
       <section className="page-hero">

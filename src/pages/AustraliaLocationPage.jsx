@@ -36,7 +36,7 @@ export default function AustraliaLocationPage() {
         title="GroupFund Australia - Group Contributions App for Australia"
         description="Organize group contributions in Australia with GroupFund. Perfect for Australian families, churches, schools, and groups. Support for AUD (Australian Dollar). Free to start."
         keywords="group contributions Australia, Australian contribution app, groupfund Australia, group contributions app Australia, AUD contribution tracker, Australia group payments"
-        canonical="https://groupfund.app/locations/australia"
+        canonical="https://www.groupfund.app/locations/australia"
       />
 
       <section className="page-hero">

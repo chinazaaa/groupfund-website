@@ -10,7 +10,7 @@ export default function ChoosingBetweenGroupTypesPage() {
         title="Choosing Between Group Types - Birthday, Subscription, or General"
         description="Learn when to use Birthday Groups, Subscription Groups, or General Groups. Understand the differences and choose the right type for your needs."
         keywords="group types, birthday groups, subscription groups, general groups, choosing group type, which group type to use"
-        canonical="https://groupfund.app/resources/choosing-between-group-types"
+        canonical="https://www.groupfund.app/resources/choosing-between-group-types"
       />
 
       <section className="page-hero">

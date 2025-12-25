@@ -10,7 +10,7 @@ export default function BackToSchoolContributionsPage() {
         title="Back to School Group Contributions - School Payments & Education Funds | GroupFund"
         description="Coordinate group contributions for back-to-school expenses, school supplies, teacher gifts, and education-related costs. Perfect for parent groups, PTA organizations, and school communities."
         keywords="school group contributions, back to school payments, education group contributions, school supply contributions, teacher gift funds, PTA contributions, parent group payments, school expense contributions"
-        canonical="https://groupfund.app/seasonal/back-to-school-contributions"
+        canonical="https://www.groupfund.app/seasonal/back-to-school-contributions"
       />
 
       <section className="page-hero">

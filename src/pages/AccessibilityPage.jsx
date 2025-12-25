@@ -9,7 +9,7 @@ export default function AccessibilityPage() {
         title="Accessibility Statement - GroupFund"
         description="GroupFund is committed to making our website and mobile app accessible to everyone. Learn about our accessibility features and how to report issues."
         keywords="accessibility, WCAG, inclusive design, disability access, assistive technology, groupfund accessibility"
-        canonical="https://groupfund.app/accessibility"
+        canonical="https://www.groupfund.app/accessibility"
       />
 
       <section className="page-hero">
