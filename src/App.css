@@ -1016,6 +1016,132 @@
   margin-bottom: 32px;
 }
 
+/* Payment Flow Visual Section */
+.payment-flow-section {
+  padding: 50px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  margin: 40px 0;
+}
+
+.payment-flow-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.payment-flow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.payment-step {
+  background: white;
+  padding: 30px 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 240px;
+  max-width: 280px;
+}
+
+.payment-step:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
+}
+
+.payment-step-number {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.payment-step-icon {
+  font-size: 3rem;
+  margin: 12px 0 16px;
+}
+
+.payment-step-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.payment-step-description {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.payment-flow-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0 8px;
+}
+
+/* Responsive design for payment flow */
+@media (max-width: 968px) {
+  .payment-flow-section {
+    padding: 40px 0;
+    margin: 30px 0;
+  }
+  
+  .payment-flow-container {
+    flex-direction: column;
+  }
+  
+  .payment-flow-arrow {
+    transform: rotate(90deg);
+    padding: 8px 0;
+  }
+  
+  .payment-step {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .payment-flow-title {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+  
+  .payment-step {
+    min-width: 100%;
+    padding: 24px 20px;
+  }
+  
+  .payment-step-icon {
+    font-size: 2.5rem;
+  }
+}
+
 /* Testimonials Page */
 .testimonials-page {
   padding: 100px 0;

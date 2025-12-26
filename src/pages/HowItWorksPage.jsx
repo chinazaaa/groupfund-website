@@ -115,6 +115,54 @@ export default function HowItWorksPage() {
             ))}
           </div>
 
+          {/* Payment Flow Visual Section */}
+          <div className="payment-flow-section">
+            <div className="container">
+              <h2 className="payment-flow-title">How External Payments Work</h2>
+              
+              <div className="payment-flow-container">
+                <div className="payment-step">
+                  <div className="payment-step-number">1</div>
+                  <div className="payment-step-icon">💸</div>
+                  <h3 className="payment-step-title">Make Payment</h3>
+                  <p className="payment-step-description">
+                    Transfer money externally (bank, mobile money, cash) to the celebrant or admin.
+                  </p>
+                </div>
+
+                <div className="payment-flow-arrow">
+                  <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+
+                <div className="payment-step">
+                  <div className="payment-step-number">2</div>
+                  <div className="payment-step-icon">✅</div>
+                  <h3 className="payment-step-title">Mark as Paid</h3>
+                  <p className="payment-step-description">
+                    Open GroupFund and mark your payment as "Paid" in the app.
+                  </p>
+                </div>
+
+                <div className="payment-flow-arrow">
+                  <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+
+                <div className="payment-step">
+                  <div className="payment-step-number">3</div>
+                  <div className="payment-step-icon">✔️</div>
+                  <h3 className="payment-step-title">Get Confirmed</h3>
+                  <p className="payment-step-description">
+                    Recipient confirms receipt or marks as "Not Received" for transparency.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
             <p>Join hundreds of groups already using GroupFund to organize their contributions for birthdays, subscriptions, and events.</p>
