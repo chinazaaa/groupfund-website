@@ -99,8 +99,8 @@ export default function HomePage() {
             </h1>
             <p className="hero-subheadline">
               {CHRISTMAS_MODE
-                ? 'The smart way to organize Christmas contributions, Secret Santa, holiday gift funds, birthdays, and shared subscriptions. Track payments in real-time, set deadlines, coordinate gifts, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.'
-                : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders. Works with any currency: NGN, USD, GBP, and more.'}
+                ? 'The smart way to organize Christmas contributions, Secret Santa, holiday gift funds, birthdays, and shared subscriptions. Track payments in real-time, set deadlines, coordinate gifts, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'
+                : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'}
             </p>
             <div className="hero-features">
               <div className="feature-tag">

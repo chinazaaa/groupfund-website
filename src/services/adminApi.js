@@ -236,5 +236,26 @@ export const adminApi = {
       body: JSON.stringify(data),
     });
   },
+
+  // Custom Emails
+  previewEmail: (subject, html) => {
+    return apiRequest('/admin/emails/preview', {
+      method: 'POST',
+      body: JSON.stringify({ subject, html }),
+    });
+  },
+
+  sendCustomEmail: (subject, html, recipientType, customEmail) => {
+    const body = {
+      subject,
+      html,
+      recipientType,
+      ...(customEmail && { customEmail }),
+    };
+    return apiRequest('/admin/emails/send-custom', {
+      method: 'POST',
+      body: JSON.stringify(body),
+    });
+  },
 };
 
