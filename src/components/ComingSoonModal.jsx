@@ -16,9 +16,23 @@ function ComingSoonModal({ isOpen, onClose, storeName }) {
           <p className="modal-message">
             The GroupFund app will be available on <strong>{storeName}</strong> soon. Stay tuned for updates!
           </p>
-          <button className="btn btn-primary" onClick={onClose}>
-            Got it
-          </button>
+          <p className="modal-message" style={{ marginTop: '0.5rem', fontSize: '0.95rem', color: '#666' }}>
+            In the meantime, you can start using GroupFund on web right now!
+          </p>
+          <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem', flexDirection: 'column' }}>
+            <a 
+              href="https://app.groupfund.app/signup" 
+              className="btn btn-primary" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', textAlign: 'center' }}
+            >
+              Start with Web
+            </a>
+            <button className="btn btn-secondary" onClick={onClose}>
+              Got it
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -51,9 +51,9 @@ export default function Layout({ children }) {
             <div className={`nav-links ${mobileMenuOpen ? 'mobile-open' : ''}`}>
               <Link to="/how-it-works" className="nav-link" onClick={closeMobileMenu}>How It Works</Link>
               <Link to="/features" className="nav-link" onClick={closeMobileMenu}>Features</Link>
-              <Link to="/blog" className="nav-link" onClick={closeMobileMenu}>Blog</Link>
               <Link to="/faq" className="nav-link" onClick={closeMobileMenu}>FAQ</Link>
               <Link to="/about" className="nav-link" onClick={closeMobileMenu}>About</Link>
+              <Link to="/contact" className="nav-link" onClick={closeMobileMenu}>Contact</Link>
               <a href="https://app.groupfund.app/login" className="nav-link" onClick={closeMobileMenu} target="_blank" rel="noopener noreferrer">Login</a>
               <a href="https://app.groupfund.app/signup" className="nav-cta" style={{ textDecoration: 'none' }} onClick={closeMobileMenu} target="_blank" rel="noopener noreferrer">Sign Up</a>
             </div>
