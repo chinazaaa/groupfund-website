@@ -85,7 +85,7 @@ export default function FamiliesUseCasePage() {
                 <li><strong>Create Your Family Group:</strong> Set up a group with your family members and choose a contribution amount that works for everyone.</li>
                 <li><strong>Choose Group Type:</strong> Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions), or General Groups (for events, any purpose).</li>
                 <li><strong>Set Deadlines:</strong> For Birthday Groups, add birthdays to the calendar. For Subscription Groups, set monthly/annual deadlines. For General Groups, set optional event deadlines.</li>
-                <li><strong>Set Contribution Amounts:</strong> Decide on a fair amount per person (e.g., ₦5,000 or $20) that everyone can afford.</li>
+                <li><strong>Set Contribution Amounts:</strong> Decide on a fair amount per person (e.g., 20 or 50) that everyone can afford.</li>
                 <li><strong>Track Contributions:</strong> See in real-time who has contributed and who still needs to pay.</li>
                 <li><strong>Get Automatic Reminders:</strong> Receive reminders before each birthday so you never forget to contribute.</li>
                 <li><strong>Celebrate Together:</strong> Focus on celebrating birthdays instead of managing contributions.</li>

@@ -70,10 +70,7 @@ export default function PricingPage() {
                 <h2 className="pricing-title">Free Plan</h2>
                 <div className="pricing-price">
                   <div className="price-amounts">
-                    <span className="price-amount">₦0</span>
-                    <span className="price-amount">$0</span>
-                    <span className="price-amount">£0</span>
-                    <span className="price-amount">€0</span>
+                    <span className="price-amount">0</span>
                     <span className="price-period">/forever</span>
                   </div>
                 </div>

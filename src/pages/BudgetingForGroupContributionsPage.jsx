@@ -62,10 +62,9 @@ export default function BudgetingForGroupContributionsPage() {
               
               <h3>Example 1: Single Group</h3>
               <p>
-                You're in one family group with 12 members, contributing ₦5,000 per birthday:
               </p>
               <div className="formula-box">
-                <p>₦5,000 × 12 birthdays = ₦60,000 per year</p>
+                <p>5,000 × 12 birthdays = 60,000 per year</p>
               </div>
 
               <h3>Example 2: Multiple Groups</h3>
@@ -73,12 +72,12 @@ export default function BudgetingForGroupContributionsPage() {
                 You're in 3 groups:
               </p>
               <ul className="resource-list">
-                <li>Family group: ₦5,000 × 10 birthdays = ₦50,000</li>
-                <li>Church group: ₦3,000 × 15 birthdays = ₦45,000</li>
-                <li>Friend group: ₦2,000 × 8 birthdays = ₦16,000</li>
+                <li>Family group: 5,000 × 10 birthdays = 50,000</li>
+                <li>Church group: 3,000 × 15 birthdays = 45,000</li>
+                <li>Friend group: 2,000 × 8 birthdays = 16,000</li>
               </ul>
               <div className="formula-box">
-                <p>Total: ₦50,000 + ₦45,000 + ₦16,000 = ₦111,000 per year</p>
+                <p>Total: 50,000 + 45,000 + 16,000 = 111,000 per year</p>
               </div>
             </div>
 
@@ -91,10 +90,10 @@ export default function BudgetingForGroupContributionsPage() {
                 <p><strong>Monthly Budget = Annual Budget ÷ 12</strong></p>
               </div>
               <p>
-                Example: If your annual budget is ₦60,000:
+                Example: If your annual budget is 60,000:
               </p>
               <div className="formula-box">
-                <p>₦60,000 ÷ 12 = ₦5,000 per month</p>
+                <p>60,000 ÷ 12 = 5,000 per month</p>
               </div>
               <p>
                 Set aside this amount each month to cover contributions throughout the year.
@@ -182,10 +181,10 @@ export default function BudgetingForGroupContributionsPage() {
                 <p><strong>Maximum Annual Cost = Contribution Amount × Maximum Group Size</strong></p>
               </div>
               <p>
-                Example: If a group has a maximum of 20 members and you contribute ₦5,000 per birthday:
+                Example: If a group has a maximum of 20 members and you contribute 5,000 per birthday:
               </p>
               <div className="formula-box">
-                <p>₦5,000 × 20 = ₦100,000 maximum per year</p>
+                <p>5,000 × 20 = 100,000 maximum per year</p>
               </div>
               <p>
                 This helps you know the worst-case scenario before joining.

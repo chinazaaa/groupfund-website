@@ -1757,8 +1757,8 @@ const blogPostsData = {
       <h3>1. Add Variety</h3>
       <p>Include items at different price points so everyone can participate:</p>
       <ul>
-        <li><strong>Budget-Friendly Items:</strong> Small items under $20 or ₦5,000</li>
-        <li><strong>Mid-Range Items:</strong> Items in the $20-$50 or ₦5,000-₦15,000 range</li>
+        <li><strong>Budget-Friendly Items:</strong> Small items under 20 or 50</li>
+        <li><strong>Mid-Range Items:</strong> Items in the 20-50 range</li>
         <li><strong>Premium Items:</strong> Larger items that multiple people can contribute toward</li>
       </ul>
 

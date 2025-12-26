@@ -43,7 +43,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Fixed Contribution Amounts",
-      description: "Set a fixed amount per person (e.g., ₦5,000) so everyone knows exactly what to contribute. No confusion, no surprises.",
+      description: "Set a fixed amount per person (e.g., 5,000) so everyone knows exactly what to contribute. No confusion, no surprises.",
       icon: "💰"
     },
     {

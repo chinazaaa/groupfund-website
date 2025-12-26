@@ -40,7 +40,7 @@ export default function HowItWorksPage() {
     {
       number: '3',
       title: 'Set Amount & Currency',
-      description: 'Choose a fixed contribution amount per person (e.g., ₦5,000) and select your preferred currency (NGN, USD, GBP, EUR, etc.). Set maximum group size to calculate total commitment.',
+      description: 'Choose a fixed contribution amount per person (e.g., 5,000) and select your preferred currency (NGN, USD, GBP, EUR, etc.). Set maximum group size to calculate total commitment.',
       icon: '💰'
     },
     {

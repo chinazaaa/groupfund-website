@@ -101,7 +101,6 @@ export default function ContributionCalculatorPage() {
                 <div className="form-group">
                   <label htmlFor="totalAmount">Total Amount</label>
                   <div className="input-wrapper">
-                    <span className="currency-symbol">₦</span>
                     <input
                       type="number"
                       id="totalAmount"
@@ -188,7 +187,7 @@ export default function ContributionCalculatorPage() {
             <div className="calculator-info">
               <h3>How to Use This Calculator</h3>
               <ol className="info-list">
-                <li><strong>Enter Total Amount:</strong> The total amount you need to collect from the group (e.g., ₦50,000 for a birthday gift)</li>
+                <li><strong>Enter Total Amount:</strong> The total amount you need to collect from the group (e.g., 50,000 for a birthday gift)</li>
                 <li><strong>Enter Group Size:</strong> The number of people who will contribute (e.g., 10 people)</li>
                 <li><strong>Choose Method:</strong> Select equal split (everyone pays the same) or percentage-based (different amounts)</li>
                 <li><strong>Calculate:</strong> Click calculate to see how much each person should contribute</li>
@@ -204,7 +203,7 @@ export default function ContributionCalculatorPage() {
 
               <h3>Tips</h3>
               <ul className="info-list">
-                <li>Round up to the nearest whole number for easier payment (e.g., ₦5,000 instead of ₦4,999.99)</li>
+                <li>Round up to the nearest whole number for easier payment (e.g., 5,000 instead of 4,999.99)</li>
                 <li>Consider setting a fixed contribution amount in GroupFund for consistency</li>
                 <li>For large groups, consider rounding to avoid dealing with small change</li>
                 <li>Always communicate the contribution amount clearly to all group members</li>
@@ -321,7 +320,7 @@ export default function ContributionCalculatorPage() {
         }
 
         .input-wrapper input {
-          padding-left: 2.5rem;
+          padding-left: 1rem;
         }
 
         .form-group input:focus,

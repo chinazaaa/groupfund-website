@@ -93,7 +93,7 @@ export default function FriendGroupsUseCasePage() {
               <ol className="steps-list">
                 <li><strong>Create Your Friend Group:</strong> Set up a group with your friends and decide on a contribution amount that works for everyone.</li>
                 <li><strong>Add Friend Birthdays:</strong> Add all friend birthdays to the calendar so you never miss a celebration.</li>
-                <li><strong>Set Contribution Amounts:</strong> Agree on a fair amount per person (e.g., ₦3,000 or $15) that everyone can afford.</li>
+                <li><strong>Set Contribution Amounts:</strong> Agree on a fair amount per person (e.g., 3,000 or $15) that everyone can afford.</li>
                 <li><strong>Track Contributions:</strong> See in real-time who has contributed and who still needs to pay.</li>
                 <li><strong>Automatic Reminders:</strong> Friends receive reminders before birthdays, so no one forgets to contribute.</li>
                 <li><strong>Celebrate Together:</strong> Focus on celebrating birthdays instead of managing contributions.</li>

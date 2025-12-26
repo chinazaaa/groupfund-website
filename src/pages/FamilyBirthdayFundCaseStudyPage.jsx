@@ -132,7 +132,7 @@ export default function FamilyBirthdayFundCaseStudyPage() {
                   <strong>Invited All Members:</strong> All 50+ family members were invited to join GroupFund
                 </li>
                 <li>
-                  <strong>Standardized Contribution Amount:</strong> Established a standard contribution amount of ₦3,000 per member per birthday
+                  <strong>Standardized Contribution Amount:</strong> Established a standard contribution amount of 3,000 per member per birthday
                 </li>
                 <li>
                   <strong>Configured Automatic Reminders:</strong> Set up reminders 7 days and 1 day before each birthday

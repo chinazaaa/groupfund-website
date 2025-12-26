@@ -209,8 +209,8 @@ export default function HowToCreateBirthdayWishlistPage() {
                 One of the most important aspects of creating an effective wishlist is including items at various price points. This ensures everyone in your group can participate regardless of their budget:
               </p>
               <ul className="resource-list">
-                <li><strong>Budget-Friendly Items:</strong> Include items under $20 or ₦5,000 for those on tight budgets. Examples: books, small accessories, gift cards, snacks, or small tech accessories</li>
-                <li><strong>Mid-Range Items:</strong> Add items in the $20-$50 or ₦5,000-₦15,000 range. Examples: clothing items, small electronics, home decor, or beauty products</li>
+                <li><strong>Budget-Friendly Items:</strong> Include items under $20 or 5,000 for those on tight budgets. Examples: books, small accessories, gift cards, snacks, or small tech accessories</li>
+                <li><strong>Mid-Range Items:</strong> Add items in the $20-$50 or 5,000-15,000 range. Examples: clothing items, small electronics, home decor, or beauty products</li>
                 <li><strong>Premium Items:</strong> Include larger items that multiple people can contribute toward. Examples: electronics, furniture, experiences, or high-end products</li>
               </ul>
               <p>

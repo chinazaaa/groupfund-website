@@ -94,13 +94,13 @@ export default function GlossaryPage() {
     },
     {
       term: "Fixed Contribution Amount",
-      definition: "A set amount that each member contributes (e.g., ₦5,000 per person). Fixed amounts ensure fairness and clarity - everyone knows exactly what to contribute. Admins can update contribution amounts, and all active members are notified of changes via email, push, and in-app notifications.",
+      definition: "A set amount that each member contributes (e.g., 5,000 per person). Fixed amounts ensure fairness and clarity - everyone knows exactly what to contribute. Admins can update contribution amounts, and all active members are notified of changes via email, push, and in-app notifications.",
       category: "payments",
       relatedTerms: ["Maximum Group Size", "Contribution Calculation", "Admin"]
     },
     {
       term: "Maximum Group Size",
-      definition: "The maximum number of members that can join a group. Set when creating the group, this helps calculate total yearly contribution amounts upfront. For example, if contribution is ₦5,000 and max size is 10, total commitment is ₦50,000. Admins can update this setting.",
+      definition: "The maximum number of members that can join a group. Set when creating the group, this helps calculate total yearly contribution amounts upfront. For example, if contribution is 5,000 and max size is 10, total commitment is 50,000. Admins can update this setting.",
       category: "groups",
       relatedTerms: ["Fixed Contribution Amount", "Contribution Calculation", "Admin"]
     },

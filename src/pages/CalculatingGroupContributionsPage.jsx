@@ -46,10 +46,10 @@ export default function CalculatingGroupContributionsPage() {
                 <p><strong>Individual Contribution = Total Budget ÷ Number of Contributors</strong></p>
               </div>
               <p>
-                For example, if you want to raise ₦50,000 for a birthday gift and have 10 contributors:
+                For example, if you want to raise 50,000 for a birthday gift and have 10 contributors:
               </p>
               <div className="formula-box">
-                <p>₦50,000 ÷ 10 = ₦5,000 per person</p>
+                <p>50,000 ÷ 10 = 5,000 per person</p>
               </div>
             </div>
 
@@ -64,10 +64,10 @@ export default function CalculatingGroupContributionsPage() {
                 <p><strong>Annual Contribution = Per Birthday Amount × Number of Birthdays</strong></p>
               </div>
               <p>
-                Example: If each member contributes ₦5,000 per birthday and there are 12 birthdays per year:
+                Example: If each member contributes 5,000 per birthday and there are 12 birthdays per year:
               </p>
               <div className="formula-box">
-                <p>₦5,000 × 12 = ₦60,000 per year per member</p>
+                <p>5,000 × 12 = 60,000 per year per member</p>
               </div>
             </div>
 
@@ -119,7 +119,7 @@ export default function CalculatingGroupContributionsPage() {
                 <li>Reduces confusion</li>
               </ul>
               <p>
-                <strong>Example:</strong> Everyone contributes ₦5,000 per birthday, regardless of whose birthday it is.
+                <strong>Example:</strong> Everyone contributes 5,000 per birthday, regardless of whose birthday it is.
               </p>
 
               <h3>Variable Amounts</h3>
@@ -148,7 +148,7 @@ export default function CalculatingGroupContributionsPage() {
               
               <h3>Family Groups</h3>
               <p>
-                <strong>Typical Amount:</strong> ₦3,000 - ₦10,000 per birthday (NGN) or $15 - $50 (USD)
+                <strong>Typical Amount:</strong> 3,000 - 10,000 per birthday (NGN) or $15 - $50 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Family groups often have varying financial situations. Set amounts that work for everyone.
@@ -156,7 +156,7 @@ export default function CalculatingGroupContributionsPage() {
 
               <h3>Church Groups</h3>
               <p>
-                <strong>Typical Amount:</strong> ₦2,000 - ₦5,000 per birthday (NGN) or $10 - $25 (USD)
+                <strong>Typical Amount:</strong> 2,000 - 5,000 per birthday (NGN) or $10 - $25 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Church groups may have many members, so lower amounts per person can still raise significant totals.
@@ -164,7 +164,7 @@ export default function CalculatingGroupContributionsPage() {
 
               <h3>Workplace Groups</h3>
               <p>
-                <strong>Typical Amount:</strong> ₦5,000 - ₦15,000 per birthday (NGN) or $25 - $75 (USD)
+                <strong>Typical Amount:</strong> 5,000 - 15,000 per birthday (NGN) or $25 - $75 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Workplace groups often have more consistent income levels, allowing for higher amounts.
@@ -172,7 +172,7 @@ export default function CalculatingGroupContributionsPage() {
 
               <h3>Friend Groups</h3>
               <p>
-                <strong>Typical Amount:</strong> ₦2,000 - ₦7,000 per birthday (NGN) or $10 - $35 (USD)
+                <strong>Typical Amount:</strong> 2,000 - 7,000 per birthday (NGN) or $10 - $35 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Friend groups vary widely. Discuss amounts openly to find what works for everyone.
@@ -188,11 +188,11 @@ export default function CalculatingGroupContributionsPage() {
                 <p><strong>Maximum Group Size = Annual Budget Limit ÷ (Per Birthday Amount × Birthdays Per Year)</strong></p>
               </div>
               <p>
-                Example: If you want to limit annual contributions to ₦60,000, contribute ₦5,000 per birthday, and have 12 birthdays per year:
+                Example: If you want to limit annual contributions to 60,000, contribute 5,000 per birthday, and have 12 birthdays per year:
               </p>
               <div className="formula-box">
-                <p>₦60,000 ÷ (₦5,000 × 12) = 1 member</p>
-                <p>Or: ₦60,000 ÷ ₦5,000 = 12 birthdays maximum</p>
+                <p>60,000 ÷ (5,000 × 12) = 1 member</p>
+                <p>Or: 60,000 ÷ 5,000 = 12 birthdays maximum</p>
               </div>
               <p>
                 This helps you decide how many members to allow in your group.

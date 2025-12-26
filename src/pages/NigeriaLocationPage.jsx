@@ -126,7 +126,7 @@ export default function NigeriaLocationPage() {
               <h2>How It Works in Nigeria</h2>
               <ol className="steps-list">
                 <li><strong>Create Your Group:</strong> Set up a group with Nigerian Naira (NGN) as the currency.</li>
-                <li><strong>Set Contribution Amounts:</strong> Set amounts in NGN (e.g., ₦5,000 or ₦10,000 per person).</li>
+                <li><strong>Set Contribution Amounts:</strong> Set amounts in NGN (e.g., 5,000 or 10,000 per person).</li>
                 <li><strong>Choose Group Type:</strong> Create Birthday Groups, Subscription Groups (for shared subscriptions), or General Groups (for events, any purpose).</li>
                 <li><strong>Set Deadlines:</strong> For Birthday Groups, add birthdays to the calendar. For Subscription Groups, set monthly/annual deadlines. For General Groups, set optional event deadlines.</li>
                 <li><strong>Track Contributions:</strong> Members mark payments as paid after transferring to bank accounts.</li>

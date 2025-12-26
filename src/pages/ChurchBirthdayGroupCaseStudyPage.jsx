@@ -125,7 +125,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
                   <strong>Invited Members:</strong> All 200 members were invited to join their respective groups
                 </li>
                 <li>
-                  <strong>Set Contribution Amounts:</strong> Established a standard contribution amount of ₦5,000 per member per birthday
+                  <strong>Set Contribution Amounts:</strong> Established a standard contribution amount of 5,000 per member per birthday
                 </li>
                 <li>
                   <strong>Configured Reminders:</strong> Set up automatic reminders 7 days and 1 day before each birthday

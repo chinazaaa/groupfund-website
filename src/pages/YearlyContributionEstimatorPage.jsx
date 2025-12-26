@@ -132,7 +132,6 @@ export default function YearlyContributionEstimatorPage() {
                 <div className="form-group">
                   <label htmlFor="contributionAmount">Contribution Amount (Per Person)</label>
                   <div className="input-wrapper">
-                    <span className="currency-symbol">₦</span>
                     <input
                       type="number"
                       id="contributionAmount"
@@ -226,7 +225,7 @@ export default function YearlyContributionEstimatorPage() {
               <h3>How to Use This Estimator</h3>
               <ol className="info-list">
                 <li><strong>Select Group Type:</strong> Choose Birthday Group, Subscription Group, or General Group</li>
-                <li><strong>Enter Contribution Amount:</strong> The amount each person contributes (e.g., ₦5,000)</li>
+                <li><strong>Enter Contribution Amount:</strong> The amount each person contributes (e.g., 5,000)</li>
                 <li><strong>Enter Group Size:</strong> The number of members in the group</li>
                 <li><strong>Select Frequency:</strong> For subscription groups, choose monthly or annual</li>
                 <li><strong>Calculate:</strong> See your total yearly contribution commitment</li>
@@ -360,7 +359,7 @@ export default function YearlyContributionEstimatorPage() {
         }
 
         .input-wrapper input {
-          padding-left: 2.5rem;
+          padding-left: 1rem;
         }
 
         .form-group input:focus,

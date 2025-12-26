@@ -67,8 +67,8 @@ export default function ChoosingTheRightContributionAmountPage() {
                 Larger groups can have lower individual amounts:
               </p>
               <ul className="resource-list">
-                <li>10 members × ₦5,000 = ₦50,000 total</li>
-                <li>20 members × ₦2,500 = ₦50,000 total</li>
+                <li>10 members × 5,000 = 50,000 total</li>
+                <li>20 members × 2,500 = 50,000 total</li>
                 <li>Same total, but lower per-person amount</li>
               </ul>
 
@@ -99,7 +99,7 @@ export default function ChoosingTheRightContributionAmountPage() {
               
               <h3>Family Groups</h3>
               <p>
-                <strong>Range:</strong> ₦3,000 - ₦10,000 (NGN) or $15 - $50 (USD)
+                <strong>Range:</strong> 3,000 - 10,000 (NGN) or $15 - $50 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Family groups often have varying financial situations. Start on the lower end and adjust based on feedback.
@@ -107,7 +107,7 @@ export default function ChoosingTheRightContributionAmountPage() {
 
               <h3>Church Groups</h3>
               <p>
-                <strong>Range:</strong> ₦2,000 - ₦5,000 (NGN) or $10 - $25 (USD)
+                <strong>Range:</strong> 2,000 - 5,000 (NGN) or $10 - $25 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Church groups prioritize inclusivity. Lower amounts ensure everyone can participate.
@@ -115,7 +115,7 @@ export default function ChoosingTheRightContributionAmountPage() {
 
               <h3>Workplace Groups</h3>
               <p>
-                <strong>Range:</strong> ₦5,000 - ₦15,000 (NGN) or $25 - $75 (USD)
+                <strong>Range:</strong> 5,000 - 15,000 (NGN) or $25 - $75 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Workplace groups often have more consistent income levels, allowing for higher amounts.
@@ -123,7 +123,7 @@ export default function ChoosingTheRightContributionAmountPage() {
 
               <h3>Friend Groups</h3>
               <p>
-                <strong>Range:</strong> ₦2,000 - ₦7,000 (NGN) or $10 - $35 (USD)
+                <strong>Range:</strong> 2,000 - 7,000 (NGN) or $10 - $35 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> Friend groups vary widely. Discuss openly to find what works for everyone.
@@ -131,7 +131,7 @@ export default function ChoosingTheRightContributionAmountPage() {
 
               <h3>School Groups</h3>
               <p>
-                <strong>Range:</strong> ₦2,000 - ₦5,000 (NGN) or $10 - $25 (USD)
+                <strong>Range:</strong> 2,000 - 5,000 (NGN) or $10 - $25 (USD)
               </p>
               <p>
                 <strong>Considerations:</strong> School groups often include teachers with varying salaries. Keep amounts moderate.

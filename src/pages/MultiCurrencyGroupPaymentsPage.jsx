@@ -195,7 +195,7 @@ export default function MultiCurrencyGroupPaymentsPage() {
                 <strong>Setup:</strong> 5 members in Nigeria, 3 in the US. Base currency: USD.
               </p>
               <p>
-                <strong>Contribution:</strong> $20 per birthday. Nigerian members convert to NGN (e.g., ₦30,000 at 1 USD = ₦1,500).
+                <strong>Contribution:</strong> $20 per birthday. Nigerian members convert to NGN (e.g., 30,000 at 1 USD = ₦1,500).
               </p>
               <p>
                 <strong>Payment:</strong> US members pay in USD, Nigerian members pay in NGN to a Nigerian account.

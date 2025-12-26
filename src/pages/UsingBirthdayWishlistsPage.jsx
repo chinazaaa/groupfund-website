@@ -163,8 +163,8 @@ export default function UsingBirthdayWishlistsPage() {
                 Include items at various price points so everyone can participate:
               </p>
               <ul className="resource-list">
-                <li><strong>Budget-Friendly:</strong> Items under $20 or ₦5,000 for those on tight budgets</li>
-                <li><strong>Mid-Range:</strong> Items in the $20-$50 or ₦5,000-₦15,000 range</li>
+                <li><strong>Budget-Friendly:</strong> Items under $20 or 5,000 for those on tight budgets</li>
+                <li><strong>Mid-Range:</strong> Items in the $20-$50 or 5,000-15,000 range</li>
                 <li><strong>Premium Items:</strong> Larger items that multiple people can contribute toward</li>
               </ul>
               <p>

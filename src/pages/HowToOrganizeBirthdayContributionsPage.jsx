@@ -144,7 +144,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
                 Setting fair contribution amounts is crucial for group harmony:
               </p>
               <ul className="resource-list">
-                <li><strong>Fixed Amount:</strong> Set a standard amount per person (e.g., ₦5,000 or $20). This ensures fairness and clarity.</li>
+                <li><strong>Fixed Amount:</strong> Set a standard amount per person (e.g., 20 or 40). This ensures fairness and clarity.</li>
                 <li><strong>Consider Group Members:</strong> Choose an amount that works for everyone. Consider the financial situation of group members.</li>
                 <li><strong>Annual Calculation:</strong> Multiply the amount by the number of birthdays per year to see total commitment.</li>
                 <li><strong>Currency:</strong> Choose the currency that works best for your group (NGN, USD, EUR, etc.).</li>
