@@ -411,7 +411,8 @@ function NotificationConfirmModal({ recipient, recipientType, selectedUsers, tit
         <div className="admin-email-confirm-header">
           <div className="admin-email-confirm-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 9V13M12 17H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
           <h3>Confirm Notification Send</h3>
@@ -427,10 +428,27 @@ function NotificationConfirmModal({ recipient, recipientType, selectedUsers, tit
               <span className="admin-email-confirm-value">
                 {recipientType === 'selected_users' && selectedUsers.length > 0 ? (
                   <div>
-                    <div>{selectedUsers.length} selected user{selectedUsers.length !== 1 ? 's' : ''}</div>
-                    {selectedUsers.length <= 5 && (
-                      <div style={{ marginTop: '8px', fontSize: '0.875rem', color: '#64748b' }}>
-                        {selectedUsers.map(u => u.name || u.email).join(', ')}
+                    <div style={{ fontWeight: '600', color: '#0f172a', marginBottom: '8px' }}>
+                      {selectedUsers.length} selected user{selectedUsers.length !== 1 ? 's' : ''}
+                    </div>
+                    {selectedUsers.length <= 5 ? (
+                      <div style={{ fontSize: '0.875rem', color: '#64748b', lineHeight: '1.6' }}>
+                        {selectedUsers.map((u, idx) => (
+                          <span key={u.id}>
+                            {u.name || u.email}
+                            {idx < selectedUsers.length - 1 && ', '}
+                          </span>
+                        ))}
+                      </div>
+                    ) : (
+                      <div style={{ fontSize: '0.875rem', color: '#64748b' }}>
+                        {selectedUsers.slice(0, 3).map((u, idx) => (
+                          <span key={u.id}>
+                            {u.name || u.email}
+                            {idx < 2 && ', '}
+                          </span>
+                        ))}
+                        <span> and {selectedUsers.length - 3} more...</span>
                       </div>
                     )}
                   </div>
@@ -441,11 +459,26 @@ function NotificationConfirmModal({ recipient, recipientType, selectedUsers, tit
             </div>
             <div className="admin-email-confirm-detail-row">
               <span className="admin-email-confirm-label">Title:</span>
-              <span className="admin-email-confirm-value">{title || '(No title)'}</span>
+              <span className="admin-email-confirm-value" style={{ fontWeight: '500', color: '#0f172a' }}>
+                {title || '(No title)'}
+              </span>
             </div>
             <div className="admin-email-confirm-detail-row">
               <span className="admin-email-confirm-label">Body:</span>
-              <span className="admin-email-confirm-value" style={{ whiteSpace: 'pre-wrap' }}>
+              <span 
+                className="admin-email-confirm-value" 
+                style={{ 
+                  whiteSpace: 'pre-wrap',
+                  maxHeight: '150px',
+                  overflowY: 'auto',
+                  padding: '8px',
+                  backgroundColor: '#ffffff',
+                  borderRadius: '6px',
+                  border: '1px solid #e2e8f0',
+                  fontSize: '0.9rem',
+                  lineHeight: '1.5'
+                }}
+              >
                 {body || '(No body)'}
               </span>
             </div>
