@@ -128,6 +128,11 @@ export default function HomePage() {
                 {CHRISTMAS_MODE ? 'Christmas Guide 2025' : 'See How It Works'}
               </Link>
             </div>
+            <p className="hero-learn-more">
+              <Link to="/how-it-works" style={{ color: 'white', textDecoration: 'none', fontWeight: '500' }}>
+                Learn how it works →
+              </Link>
+            </p>
           </div>
         </div>
       </header>
