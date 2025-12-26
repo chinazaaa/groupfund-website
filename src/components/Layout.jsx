@@ -108,7 +108,7 @@ export default function Layout({ children }) {
                 <li><Link to="/locations">Locations</Link></li>
                 <li><Link to="/help">Help Center</Link></li>
                 <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/branding">Brand Guidelines</Link></li>
+                {/* <li><Link to="/branding">Brand Guidelines</Link></li> */}
               </ul>
             </div>
             <div className="footer-section">

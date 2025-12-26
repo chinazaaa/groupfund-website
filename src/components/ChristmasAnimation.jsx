@@ -31,7 +31,7 @@ export default function ChristmasAnimation() {
       
       {/* Merry Christmas Message */}
       <div className="merry-christmas-message">
-        <span className="merry-christmas-text">🎄 Merry Christmas! 🎄</span>
+        <span className="merry-christmas-text">🎄 Merry Christmas!</span>
       </div>
     </div>
   )

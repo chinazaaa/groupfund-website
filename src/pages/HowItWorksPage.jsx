@@ -46,7 +46,7 @@ export default function HowItWorksPage() {
     {
       number: '4',
       title: 'Manage Members',
-      description: 'Approve or reject member requests based on their reliability scores. View member metrics: total groups joined, contributions made, on-time payment rates, and reliability ratings.',
+      description: 'Approve or reject member requests based on their reliability scores. View member metrics: total groups joined, contributions made, on-time payment rates, reliability ratings and number of reports.',
       icon: '✅'
     },
     {
