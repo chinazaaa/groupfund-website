@@ -77,8 +77,8 @@ export default function WaitlistPage() {
     <>
       <SEO
         title="Join the Waitlist - GroupFund"
-        description="Join the GroupFund waitlist and be among the first to organize your group's contributions - for birthdays, subscriptions, events, and more. Get early access when we launch."
-        keywords="GroupFund waitlist, early access, join waitlist, group contribution app"
+        description="GroupFund is now available on web! Join the waitlist to be notified when iOS and Android apps launch. Start organizing your group's contributions today at app.groupfund.app."
+        keywords="GroupFund waitlist, mobile app waitlist, iOS app, Android app, group contribution app, web app available"
         canonical="https://www.groupfund.app/waitlist"
       />
 
@@ -86,8 +86,32 @@ export default function WaitlistPage() {
         <div className="container">
           <h1 className="page-title">Join the Waitlist</h1>
           <p className="page-subtitle">
-            Be among the first to experience GroupFund. We'll notify you as soon as the app is available!
+            GroupFund is now available on web! iOS and Android apps coming soon. Join the waitlist to be notified when mobile apps launch.
           </p>
+          <div style={{ 
+            marginTop: '1.5rem', 
+            padding: '1.25rem', 
+            backgroundColor: '#f0fdf4', 
+            border: '2px solid #22c55e', 
+            borderRadius: '8px',
+            textAlign: 'center'
+          }}>
+            <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: '600', color: '#166534', marginBottom: '0.75rem' }}>
+              🎉 GroupFund is Now Live on Web!
+            </p>
+            <p style={{ margin: 0, color: '#15803d', marginBottom: '1rem' }}>
+              Start organizing your group contributions today at <strong>app.groupfund.app</strong>
+            </p>
+            <a 
+              href="https://app.groupfund.app/signup" 
+              className="btn btn-primary" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ display: 'inline-block', textDecoration: 'none' }}
+            >
+              Get Started on Web
+            </a>
+          </div>
         </div>
       </section>
 
@@ -96,12 +120,23 @@ export default function WaitlistPage() {
           <div className="waitlist-content">
             <div className="waitlist-info">
               <h2>Why Join the Waitlist?</h2>
+              <div style={{ 
+                marginBottom: '2rem', 
+                padding: '1.25rem', 
+                backgroundColor: '#fef3c7', 
+                borderLeft: '4px solid #f59e0b', 
+                borderRadius: '4px' 
+              }}>
+                <p style={{ margin: 0, fontSize: '1rem', color: '#92400e' }}>
+                  <strong>📱 Mobile Apps Coming Soon:</strong> While GroupFund is already available on web, we're working on iOS and Android apps. Join the waitlist to be notified when mobile apps launch!
+                </p>
+              </div>
               <ul className="waitlist-benefits">
                 <li>
-                  <span className="benefit-icon">🚀</span>
+                  <span className="benefit-icon">📱</span>
                   <div>
-                    <strong>Early Access</strong>
-                    <p>Be among the first to use GroupFund when we launch</p>
+                    <strong>Mobile App Launch</strong>
+                    <p>Be notified when iOS and Android apps are available</p>
                   </div>
                 </li>
                 <li>
@@ -115,14 +150,14 @@ export default function WaitlistPage() {
                   <span className="benefit-icon">📧</span>
                   <div>
                     <strong>Stay Updated</strong>
-                    <p>Receive updates on our progress and launch date</p>
+                    <p>Receive updates on mobile app progress and launch dates</p>
                   </div>
                 </li>
                 <li>
                   <span className="benefit-icon">💬</span>
                   <div>
                     <strong>Shape the Product</strong>
-                    <p>Your feedback helps us build the best experience</p>
+                    <p>Your feedback helps us build the best mobile experience</p>
                   </div>
                 </li>
               </ul>
@@ -137,9 +172,9 @@ export default function WaitlistPage() {
                 </div>
               ) : (
                 <>
-                  <h2>Get Early Access</h2>
+                  <h2>Get Notified for Mobile Apps</h2>
                   <p className="waitlist-form-subtitle">
-                    Fill out the form below and we'll notify you when GroupFund is ready.
+                    GroupFund is already available on web! Fill out the form below to be notified when iOS and Android apps launch.
                   </p>
                   
                   <div className="waitlist-cta">
