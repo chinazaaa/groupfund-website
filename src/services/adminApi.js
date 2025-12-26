@@ -257,5 +257,24 @@ export const adminApi = {
       body: JSON.stringify(body),
     });
   },
+
+  // Custom Notifications
+  searchUsers: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/users/search${queryString ? `?${queryString}` : ''}`);
+  },
+
+  sendCustomNotification: (title, body, recipientType, userIds) => {
+    const requestBody = {
+      title,
+      body,
+      recipientType,
+      ...(userIds && userIds.length > 0 && { userIds }),
+    };
+    return apiRequest('/admin/notifications/send-custom', {
+      method: 'POST',
+      body: JSON.stringify(requestBody),
+    });
+  },
 };
 

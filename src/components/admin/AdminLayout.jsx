@@ -137,6 +137,15 @@ export default function AdminLayout({ children }) {
             <span className="nav-icon">✉️</span>
             <span>Custom Emails</span>
           </Link>
+          
+          <Link 
+            to="/admin/custom-notifications" 
+            className={`admin-nav-item ${isActive('/admin/custom-notifications') ? 'active' : ''}`}
+            onClick={closeSidebar}
+          >
+            <span className="nav-icon">🔔</span>
+            <span>Custom Notifications</span>
+          </Link>
         </nav>
 
         <div className="admin-sidebar-footer">

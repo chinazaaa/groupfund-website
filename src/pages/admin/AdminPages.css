@@ -1312,3 +1312,213 @@
   }
 }
 
+/* User Search Dropdown */
+.admin-user-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-width: 600px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  margin-top: 4px;
+}
+
+.admin-user-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.admin-user-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.admin-user-dropdown-item:hover {
+  background-color: #f8fafc;
+}
+
+.admin-selected-user-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: #e0e7ff;
+  color: #4338ca;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.admin-selected-user-remove {
+  background: none;
+  border: none;
+  color: #4338ca;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  line-height: 1;
+}
+
+.admin-selected-user-remove:hover {
+  background: rgba(67, 56, 202, 0.1);
+  color: #312e81;
+}
+
+/* Email/Notification Confirm Modal Styles */
+.admin-email-confirm-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+.admin-email-confirm-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 24px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.admin-email-confirm-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fef3c7;
+  border-radius: 50%;
+  color: #f59e0b;
+  flex-shrink: 0;
+}
+
+.admin-email-confirm-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.admin-email-confirm-body {
+  padding: 24px;
+}
+
+.admin-email-confirm-question {
+  margin: 0 0 20px 0;
+  font-size: 1rem;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.admin-email-confirm-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.admin-email-confirm-detail-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.admin-email-confirm-label {
+  font-weight: 600;
+  color: #0f172a;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.admin-email-confirm-value {
+  color: #64748b;
+  flex: 1;
+  word-break: break-word;
+}
+
+.admin-email-confirm-email {
+  color: #6366f1;
+  font-weight: 500;
+}
+
+.admin-email-confirm-warning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  background: #fef3c7;
+  border-radius: 6px;
+  color: #92400e;
+  font-size: 0.875rem;
+}
+
+.admin-email-confirm-footer {
+  display: flex;
+  gap: 12px;
+  padding: 16px 24px 24px;
+  justify-content: flex-end;
+  border-top: 1px solid #f0f0f0;
+}
+
+.admin-email-confirm-footer .btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+@media (max-width: 768px) {
+  .admin-user-dropdown {
+    max-width: 100%;
+  }
+
+  .admin-email-confirm-modal {
+    max-width: 90%;
+    margin: 20px;
+  }
+
+  .admin-email-confirm-footer {
+    flex-direction: column;
+  }
+
+  .admin-email-confirm-footer .btn {
+    width: 100%;
+  }
+
+  .admin-email-confirm-detail-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .admin-email-confirm-label {
+    min-width: auto;
+  }
+}
+
