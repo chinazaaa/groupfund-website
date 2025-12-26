@@ -15,6 +15,7 @@ export default function AdminCustomEmails() {
   const [error, setError] = useState('')
   const [success, setSuccess] = useState('')
   const [sendResults, setSendResults] = useState(null)
+  const [showConfirmModal, setShowConfirmModal] = useState(false)
 
   const handlePreview = async () => {
     if (!subject.trim()) {
@@ -64,21 +65,12 @@ export default function AdminCustomEmails() {
       return
     }
 
-    // Confirm before sending
-    const recipientLabel = {
-      waitlist: 'all waitlist members',
-      group_admins: 'all group admins',
-      everyone: 'everyone in the database',
-      custom: `the email address: ${customEmail}`
-    }[recipientType]
+    // Show confirmation modal
+    setShowConfirmModal(true)
+  }
 
-    const confirmed = window.confirm(
-      `Are you sure you want to send this email to ${recipientLabel}?\n\nSubject: ${subject}\n\nThis action cannot be undone.`
-    )
-
-    if (!confirmed) {
-      return
-    }
+  const handleConfirmSend = async () => {
+    setShowConfirmModal(false)
 
     try {
       setLoading(true)
@@ -112,6 +104,17 @@ export default function AdminCustomEmails() {
     } finally {
       setLoading(false)
     }
+  }
+
+  const getRecipientDisplay = () => {
+    if (recipientType === 'custom') {
+      return customEmail
+    }
+    return {
+      waitlist: 'All waitlist members',
+      group_admins: 'All group admins',
+      everyone: 'Everyone in the database'
+    }[recipientType]
   }
 
   const getRecipientCountLabel = () => {
@@ -331,7 +334,72 @@ export default function AdminCustomEmails() {
           </div>
         </div>
       )}
+
+      {/* Email Confirmation Modal */}
+      {showConfirmModal && (
+        <EmailConfirmModal
+          recipient={getRecipientDisplay()}
+          recipientType={recipientType}
+          subject={subject}
+          onConfirm={handleConfirmSend}
+          onCancel={() => setShowConfirmModal(false)}
+        />
+      )}
     </AdminLayout>
+  )
+}
+
+function EmailConfirmModal({ recipient, recipientType, subject, onConfirm, onCancel }) {
+  return (
+    <div className="admin-modal-overlay" onClick={onCancel}>
+      <div className="admin-email-confirm-modal" onClick={(e) => e.stopPropagation()}>
+        <div className="admin-email-confirm-header">
+          <div className="admin-email-confirm-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 9V13M12 17H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
+          <h3>Confirm Email Send</h3>
+        </div>
+        <div className="admin-email-confirm-body">
+          <p className="admin-email-confirm-question">
+            Are you sure you want to send this email?
+          </p>
+          
+          <div className="admin-email-confirm-details">
+            <div className="admin-email-confirm-detail-row">
+              <span className="admin-email-confirm-label">To:</span>
+              <span className="admin-email-confirm-value">
+                {recipientType === 'custom' ? (
+                  <span className="admin-email-confirm-email">{recipient}</span>
+                ) : (
+                  recipient
+                )}
+              </span>
+            </div>
+            <div className="admin-email-confirm-detail-row">
+              <span className="admin-email-confirm-label">Subject:</span>
+              <span className="admin-email-confirm-value">{subject || '(No subject)'}</span>
+            </div>
+          </div>
+
+          <div className="admin-email-confirm-warning">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 6V8M8 10H8.01M15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <span>This action cannot be undone.</span>
+          </div>
+        </div>
+        <div className="admin-email-confirm-footer">
+          <button onClick={onCancel} className="btn btn-secondary">
+            Cancel
+          </button>
+          <button onClick={onConfirm} className="btn btn-primary">
+            Send Email
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }
 
