@@ -129,7 +129,7 @@ export default function SubscriptionGroupsPage() {
       category: 'Productivity'
     },
     {
-        slug: 'hellofresh',
+        slug: 'hello-fresh',
         title: 'HelloFresh',
         description: 'Share HelloFresh subscription costs with friends and family. Organize group payments for meal kits, track contributions, and split delivery costs fairly.',
         icon: '🍽️',
