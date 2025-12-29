@@ -45,6 +45,16 @@ export default function SitemapPage() {
         { path: "/subscription-groups/now-entertainment", label: "NOW Entertainment Subscription Groups" },
         { path: "/subscription-groups/peacock", label: "Peacock Subscription Groups" },
         { path: "/subscription-groups/amazon-music", label: "Amazon Music Unlimited Subscription Groups" },
+        { path: "/subscription-groups/deliveroo-plus", label: "Deliveroo Plus Subscription Groups" },
+        { path: "/subscription-groups/just-eat-plus", label: "Just Eat+ Subscription Groups" },
+        { path: "/subscription-groups/doordash-dashpass", label: "DoorDash DashPass Subscription Groups" },
+        { path: "/subscription-groups/postmates-unlimited", label: "Postmates Unlimited Subscription Groups" },
+        { path: "/subscription-groups/grubhub-plus", label: "Grubhub+ Subscription Groups" },
+        { path: "/subscription-groups/gousto", label: "Gousto Subscription Groups" },
+        { path: "/subscription-groups/universal-yums", label: "Universal Yums Subscription Groups" },
+        { path: "/subscription-groups/blue-apron", label: "Blue Apron Subscription Groups" },
+        { path: "/subscription-groups/hello-fresh", label: "HelloFresh Subscription Groups" },
+        { path: "/subscription-groups/uber-eats-pass", label: "Uber Eats Pass Subscription Groups" },
       ]
     },
     {

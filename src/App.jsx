@@ -150,6 +150,16 @@ import CanvaProPage from './pages/CanvaProPage'
 import NowEntertainmentPage from './pages/NowEntertainmentPage'
 import PeacockPage from './pages/PeacockPage'
 import AmazonMusicPage from './pages/AmazonMusicPage'
+import DeliverooPlusPage from './pages/DeliverooPlusPage'
+import JustEatPlusPage from './pages/JustEatPlusPage'
+import DoorDashDashPassPage from './pages/DoorDashDashPassPage'
+import PostmatesUnlimitedPage from './pages/PostmatesUnlimitedPage'
+import GrubhubPlusPage from './pages/GrubhubPlusPage'
+import GoustoPage from './pages/GoustoPage'
+import UberEatsPassPage from './pages/UberEatsPassPage'
+import BlueApronPage from './pages/BlueApronPage'
+import HelloFreshPage from './pages/HelloFreshPage'
+import UniversalYumsPage from './pages/UniversalYumsPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -319,6 +329,16 @@ function App() {
         <Route path="/subscription-groups/now-entertainment" element={<Layout><NowEntertainmentPage /></Layout>} />
         <Route path="/subscription-groups/peacock" element={<Layout><PeacockPage /></Layout>} />
         <Route path="/subscription-groups/amazon-music" element={<Layout><AmazonMusicPage /></Layout>} />
+        <Route path="/subscription-groups/deliveroo-plus" element={<Layout><DeliverooPlusPage /></Layout>} />
+        <Route path="/subscription-groups/just-eat-plus" element={<Layout><JustEatPlusPage /></Layout>} />
+        <Route path="/subscription-groups/doordash-dashpass" element={<Layout><DoorDashDashPassPage /></Layout>} />
+        <Route path="/subscription-groups/postmates-unlimited" element={<Layout><PostmatesUnlimitedPage /></Layout>} />
+        <Route path="/subscription-groups/grubhub-plus" element={<Layout><GrubhubPlusPage /></Layout>} />
+        <Route path="/subscription-groups/gousto" element={<Layout><GoustoPage /></Layout>} />
+        <Route path="/subscription-groups/universal-yums" element={<Layout><UniversalYumsPage /></Layout>} />
+        <Route path="/subscription-groups/blue-apron" element={<Layout><BlueApronPage /></Layout>} />
+        <Route path="/subscription-groups/hello-fresh" element={<Layout><HelloFreshPage /></Layout>} />
+        <Route path="/subscription-groups/uber-eats-pass" element={<Layout><UberEatsPassPage /></Layout>} />
 
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

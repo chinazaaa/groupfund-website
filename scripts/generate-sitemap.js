@@ -918,6 +918,66 @@ const pages = [
     changefreq: 'monthly',
     lastmod: currentDate
   },
+  {
+    url: '/subscription-groups/deliveroo-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/just-eat-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/doordash-dashpass',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/postmates-unlimited',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/grubhub-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/gousto',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/universal-yums',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/blue-apron',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/hello-fresh',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/uber-eats-pass',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

@@ -127,10 +127,94 @@ export default function SubscriptionGroupsPage() {
       icon: '🎨',
       keywords: 'canva pro subscription, share canva cost, design tool subscription splitting, canva group payments',
       category: 'Productivity'
-    }
+    },
+    {
+        slug: 'hellofresh',
+        title: 'HelloFresh',
+        description: 'Share HelloFresh subscription costs with friends and family. Organize group payments for meal kits, track contributions, and split delivery costs fairly.',
+        icon: '🍽️',
+        keywords: 'hellofresh group subscription, share hellofresh cost, hellofresh payment splitting, split hellofresh subscription, hellofresh group contributions',
+        category: 'Food & Drinks'
+      },
+      {
+        slug: 'uber-eats-pass',
+        title: 'Uber Eats Pass',
+        description: 'Share Uber Eats Pass (Uber One) subscription costs with household. Organize group payments for free delivery and discounts on food orders, and track contributions.',
+        icon: '🚗',
+        keywords: 'uber eats pass group subscription, share uber eats cost, uber one payment splitting, split uber eats subscription, uber eats group contributions',
+        category: 'Food & Drinks'
+      },      
+      {
+        slug: 'deliveroo-plus',
+        title: 'Deliveroo Plus',
+        description: 'Share Deliveroo Plus subscription costs with friends and family. Organize group payments for free delivery, credits, and discounts on restaurant orders, and track monthly contributions.',
+        icon: '🍕',
+        keywords: 'deliveroo plus group subscription, share deliveroo plus cost, deliveroo payment splitting, split deliveroo subscription, deliveroo group contributions',
+        category: 'Food & Drinks'
+      },
+      {
+        slug: 'just-eat-plus',
+        title: 'Just Eat Plus',
+        description: 'Share Just Eat Plus subscription costs with friends and family worldwide. Organize group payments for free delivery on takeaways and track contributions.',
+        icon: '🍕',
+        keywords: 'just eat plus group subscription, share just eat cost, just eat payment splitting, split just eat subscription, just eat group contributions',
+        category: 'Food & Drinks'
+      },      
+      {
+        slug: 'doordash-dashpass',
+        title: 'DoorDash DashPass',
+        description: 'Share DoorDash DashPass subscription costs with family sharing. Organize group payments for free delivery and perks on orders, and track monthly contributions.',
+        icon: '🚚',
+        keywords: 'doordash dashpass group subscription, share doordash cost, dashpass payment splitting, split doordash subscription, doordash group contributions',
+        category: 'Food & Drinks'
+      },      
+
+      {
+        slug: 'postmates-unlimited',
+        title: 'Postmates Unlimited',
+        description: 'Share Postmates Unlimited (via Uber One) subscription costs with friends. Organize group payments for waived delivery fees on orders over minimums, and track contributions.',
+        icon: '🏃',
+        keywords: 'postmates unlimited group subscription, share postmates cost, postmates payment splitting, split postmates subscription, postmates group contributions',
+        category: 'Food & Drinks'
+      },
+      {
+        slug: 'grubhub-plus',
+        title: 'Grubhub+',
+        description: 'Share Grubhub+ subscription costs with friends and family. Organize group payments for $0 delivery fees, lower service fees, and exclusive perks on food orders, and track monthly contributions.',
+        icon: '🍔',
+        keywords: 'grubhub plus group subscription, share grubhub cost, grubhub payment splitting, split grubhub subscription, grubhub group contributions',
+        category: 'Food & Drinks'
+      },
+      {
+        slug: 'gousto',
+        title: 'Gousto',
+        description: 'Share Gousto subscription costs with friends and family worldwide. Organize group payments for fresh meal kits and track monthly contributions.',
+        icon: '🥗',
+        keywords: 'gousto group subscription, share gousto cost, gousto payment splitting, split gousto subscription, gousto group contributions',
+        category: 'Food & Drinks'
+      },      
+      {
+        slug: 'blue-apron',
+        title: 'Blue Apron',
+        description: 'Share Blue Apron subscription costs with friends and family worldwide. Organize group payments for meal kits with global recipes and track contributions.',
+        icon: '🍲',
+        keywords: 'blue apron group subscription, share blue apron cost, blue apron payment splitting, split blue apron subscription, blue apron group contributions',
+        category: 'Food & Drinks'
+      },
+      {
+        slug: 'universal-yums',
+        title: 'Universal Yums',
+        description: 'Share Universal Yums subscription costs with friends and family worldwide. Organize group payments for international snacks and track contributions.',
+        icon: '🍫',
+        keywords: 'universal yums group subscription, share universal yums cost, universal yums payment splitting, split universal yums subscription, universal yums group contributions',
+        category: 'Food & Drinks'
+      }
+      
+            
+      
   ]
 
-  const categories = ['Entertainment', 'Music', 'Productivity']
+  const categories = ['Entertainment', 'Music', 'Productivity', 'Food & Drinks']
 
   // Filter subscriptions based on search query and selected category
   const filteredSubscriptions = useMemo(() => {
