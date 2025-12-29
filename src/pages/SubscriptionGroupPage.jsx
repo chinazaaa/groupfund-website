@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react'
 import SEO from '../components/SEO'
-
+import { Link } from 'react-router-dom'
 import '../App.css'
 
 export default function SubscriptionGroupsPage() {
@@ -325,34 +325,34 @@ export default function SubscriptionGroupsPage() {
             <h2>Ready to Start Sharing Subscriptions?</h2>
             <p>Create your subscription group today and start splitting costs with friends and family. Whether it's Netflix, Spotify, or any other service, GroupFund makes it easy.</p>
             <div className="cta-buttons">
-              <a href="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</a>
-              <a href="/how-it-works" className="btn btn-secondary btn-large">See How It Works</a>
+            <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+             <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>
 
           <div className="related-pages">
             <h2>Related Pages</h2>
             <div className="related-grid">
-              <a href="/group-types/subscription-groups" className="related-card">
+             <Link to="/group-types/subscription-groups" className="related-card">
                 <span className="related-icon">⚙️</span>
                 <h3>How Subscription Groups Work</h3>
                 <p>Learn about the features and setup process</p>
-              </a>
-              <a href="/use-cases" className="related-card">
+                </Link>
+             <Link to="/use-cases" className="related-card">
                 <span className="related-icon">📋</span>
                 <h3>Use Cases</h3>
                 <p>Explore all use cases for group contributions</p>
-              </a>
-              <a href="/group-types" className="related-card">
+                </Link>
+             <Link to="/group-types" className="related-card">
                 <span className="related-icon">👥</span>
                 <h3>Group Types</h3>
                 <p>Learn about different types of groups</p>
-              </a>
-              <a href="/tools" className="related-card">
+                </Link>
+            <Link to="/tools" className="related-card">
                 <span className="related-icon">🧮</span>
                 <h3>Cost Calculator</h3>
                 <p>Calculate subscription cost splits</p>
-              </a>
+                </Link>
             </div>
           </div>
         </div>
