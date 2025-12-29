@@ -36,6 +36,7 @@ export default function SitemapPage() {
         { path: "/subscription-groups/hulu", label: "Hulu Subscription Groups" },
         { path: "/subscription-groups/hbo-max", label: "HBO Max Subscription Groups" },
         { path: "/subscription-groups/apple-tv", label: "Apple TV+ Subscription Groups" },
+        { path: "/subscription-groups/youtube-premium", label: "YouTube Premium Subscription Groups" },
       ]
     },
     {

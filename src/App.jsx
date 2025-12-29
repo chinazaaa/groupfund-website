@@ -100,15 +100,8 @@ import BackToSchoolContributionsPage from './pages/BackToSchoolContributionsPage
 import WeddingSeasonContributionsPage from './pages/WeddingSeasonContributionsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
-import SubscriptionGroupPage from './pages/SubscriptionGroupPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
 import GeneralGroupsPage from './pages/GeneralGroupsPage'
-import NetflixPage from './pages/NetflixPage'
-import SpotifyPage from './pages/SpotifyPage'
-import DisneyPlusPage from './pages/DisneyPlusPage'
-import HuluPage from './pages/HuluPage'
-import HBOMaxPage from './pages/HBOMaxPage'
-import AppleTVPlusPage from './pages/AppleTVPlusPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -141,6 +134,14 @@ import LondonLocationPage from './pages/LondonLocationPage'
 import MumbaiLocationPage from './pages/MumbaiLocationPage'
 import NairobiLocationPage from './pages/NairobiLocationPage'
 import MexicoCityLocationPage from './pages/MexicoCityLocationPage'
+import SubscriptionGroupPage from './pages/SubscriptionGroupPage'
+import NetflixPage from './pages/NetflixPage'
+import SpotifyPage from './pages/SpotifyPage'
+import DisneyPlusPage from './pages/DisneyPlusPage'
+import HuluPage from './pages/HuluPage'
+import HBOMaxPage from './pages/HBOMaxPage'
+import AppleTVPlusPage from './pages/AppleTVPlusPage'
+import YoutubePremiumPage from './pages/YoutubePremiumPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -301,6 +302,7 @@ function App() {
         <Route path="/subscription-groups/hulu" element={<Layout><HuluPage /></Layout>} />
         <Route path="/subscription-groups/hbo-max" element={<Layout><HBOMaxPage /></Layout>} />
         <Route path="/subscription-groups/apple-tv" element={<Layout><AppleTVPlusPage /></Layout>} />
+        <Route path="/subscription-groups/youtube-premium" element={<Layout><YoutubePremiumPage /></Layout>} />
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         

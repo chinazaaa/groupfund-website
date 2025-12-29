@@ -442,6 +442,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.groupfund.app/subscription-groups/youtube-premium</loc>
+    <lastmod>2025-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.groupfund.app/resources</loc>
     <lastmod>2025-12-29</lastmod>
     <changefreq>monthly</changefreq>
