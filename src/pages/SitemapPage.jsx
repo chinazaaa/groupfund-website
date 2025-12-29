@@ -31,8 +31,9 @@ export default function SitemapPage() {
       links: [
         { path: "/subscription-groups", label: "Subscription Groups Overview" },
         { path: "/subscription-groups/netflix", label: "Netflix Subscription Groups" },
-        // { path: "/group-types/subscription-groups", label: "Subscription Groups" },
-        // { path: "/group-types/general-groups", label: "General Groups" }
+        { path: "/subscription-groups/spotify", label: "Spotify Subscription Groups" },
+        // { path: "/subscription-groups/disney-plus", label: "Disney+ Subscription Groups" },
+        // { path: "/subscription-groups/hulu", label: "Hulu Subscription Groups" },
       ]
     },
     {
