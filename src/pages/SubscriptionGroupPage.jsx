@@ -327,7 +327,7 @@ export default function SubscriptionGroupsPage() {
         <div className="container">
           <h1 className="page-title">Share Subscription Costs</h1>
           <p className="page-subtitle">
-          Subscription services are better when shared. From Netflix and Spotify to Disney+ and YouTube Premium to HelloFresh and Just Eat, GroupFund helps you organize group contributions, track payments, and split subscription costs fairly among friends and family.
+          Subscription services are better when shared. From Netflix and Spotify to Disney+ and YouTube Premium to HelloFresh and Just Eat to PureGym and Planet Fitness, GroupFund helps you organize group contributions, track payments, and split subscription costs fairly among friends and family.
           </p>
         
         </div>
@@ -339,7 +339,7 @@ export default function SubscriptionGroupsPage() {
           <div style={{ marginBottom: '3rem', padding: '2rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
             <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Find Your Subscription</h3>
             <p style={{ marginBottom: '1.5rem', color: '#666', textAlign: 'center' }}>
-              Browse subscription services by category or search for a specific service. From Netflix and Spotify to ChatGPT and Canva, to HelloFresh and Just Eat, find the perfect subscription to share with your group.
+              Browse subscription services by category or search for a specific service. From Netflix and Spotify to ChatGPT and Canva, to HelloFresh and Just Eat to PureGym and Planet Fitness, find the perfect subscription to share with your group.
             </p>
             
             {/* Search Input */}
