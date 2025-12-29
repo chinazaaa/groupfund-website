@@ -100,6 +100,7 @@ import BackToSchoolContributionsPage from './pages/BackToSchoolContributionsPage
 import WeddingSeasonContributionsPage from './pages/WeddingSeasonContributionsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
+import SubscriptionGroupPage from './pages/SubscriptionGroupPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
 import GeneralGroupsPage from './pages/GeneralGroupsPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
@@ -287,7 +288,7 @@ function App() {
         <Route path="/seasonal/holiday-contributions" element={<Layout><HolidayContributionsPage /></Layout>} />
         <Route path="/seasonal/back-to-school-contributions" element={<Layout><BackToSchoolContributionsPage /></Layout>} />
         <Route path="/seasonal/wedding-season-contributions" element={<Layout><WeddingSeasonContributionsPage /></Layout>} />
-        
+        <Route path="/subscription-groups" element={<Layout><SubscriptionGroupPage /></Layout>} />
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
