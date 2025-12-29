@@ -224,7 +224,58 @@ export default function SubscriptionGroupsPage() {
         icon: '🍱',
         keywords: 'bokksu group subscription, share bokksu cost, bokksu payment splitting, split bokksu subscription, bokksu group contributions',
         category: 'Food & Drinks'
+      },
+      {
+        slug: 'puregym-plus',
+        title: 'PureGym Plus',
+        description: 'Share PureGym Plus subscription costs with friends and family in the UK. Organize group payments for 24/7 gym access, classes, and buddy guests, and track monthly contributions.',
+        icon: '🏋️',
+        keywords: 'puregym plus group subscription, share puregym cost, puregym payment splitting, split puregym membership, puregym group contributions',
+        category: 'Fitness & Health'
+      },      
+      {
+        slug: 'planet-fitness',
+        title: 'Planet Fitness Black Card',
+        description: 'Share Planet Fitness Black Card subscription costs with friends and family worldwide. Organize group payments for gym access and guest privileges, and track monthly contributions.',
+        icon: '💪',
+        keywords: 'planet fitness group subscription, share planet fitness cost, black card payment splitting, split gym membership, planet fitness group contributions',
+        category: 'Fitness & Health'
+      },
+      {
+        slug: 'la-fitness',
+        title: 'LA Fitness',
+        description: 'Share LA Fitness subscription costs with friends and family worldwide. Organize group payments for gym access, pools, classes, and track monthly contributions.',
+        icon: '🏊',
+        keywords: 'la fitness group subscription, share la fitness cost, la fitness payment splitting, split gym membership, la fitness group contributions',
+        category: 'Fitness & Health'
+      },
+      {
+        slug: 'apple-fitness-plus',
+        title: 'Apple Fitness+',
+        description: 'Share Apple Fitness+ subscription costs with family worldwide. Organize group payments for guided workouts, yoga, HIIT, and track contributions.',
+        icon: '📱',
+        keywords: 'apple fitness plus group subscription, share apple fitness cost, fitness+ payment splitting, split apple fitness subscription, apple fitness group contributions',
+        category: 'Fitness & Health'
+      },
+      {
+        slug: 'fitness-bliss',
+        title: 'Fitness Bliss',
+        description: 'Share Fitness Bliss subscription costs with friends and family worldwide. Organize group payments for strength training programs, form checks, and track monthly contributions.',
+        icon: '🏃‍♂️',
+        keywords: 'fitness bliss group subscription, share fitness bliss cost, fitbliss payment splitting, split fitness app subscription, fitness bliss group contributions',
+        category: 'Fitness & Health'
+      },      
+      {
+        slug: 'mindbody-family',
+        title: 'Mindbody Family',
+        description: 'Share Mindbody family account costs with friends and family worldwide. Organize group payments for gym bookings, classes, and track contributions via shared profiles.',
+        icon: '🏋️',
+        keywords: 'mindbody family group subscription, share mindbody cost, mindbody payment splitting, split gym booking subscription, mindbody group contributions',
+        category: 'Fitness & Health'
       }
+      
+            
+      
       
       
       
@@ -232,7 +283,7 @@ export default function SubscriptionGroupsPage() {
       
   ]
 
-  const categories = ['Entertainment', 'Music', 'Productivity', 'Food & Drinks']
+  const categories = ['Entertainment', 'Music', 'Productivity', 'Food & Drinks', 'Fitness & Health']
 
   // Filter subscriptions based on search query and selected category
   const filteredSubscriptions = useMemo(() => {

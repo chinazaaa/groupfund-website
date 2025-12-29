@@ -57,6 +57,12 @@ export default function SitemapPage() {
         { path: "/subscription-groups/uber-eats-pass", label: "Uber Eats Pass Subscription Groups" },
         { path: "/subscription-groups/home-chef", label: "Home Chef Subscription Groups" },
         { path: "/subscription-groups/bokksu", label: "Bokksu Subscription Groups" },
+        { path: "/subscription-groups/puregym-plus", label: "PureGym Plus Subscription Groups" },
+        { path: "/subscription-groups/la-fitness", label: "LA Fitness Subscription Groups" },
+        { path: "/subscription-groups/apple-fitness-plus", label: "Apple Fitness+ Subscription Groups" },
+        { path: "/subscription-groups/fitness-bliss", label: "Fitness Bliss Subscription Groups" },
+        { path: "/subscription-groups/mindbody-family", label: "Mindbody Family Subscription Groups" },
+        { path: "/subscription-groups/planet-fitness", label: "Planet Fitness Subscription Groups" },
       ]
     },
     {

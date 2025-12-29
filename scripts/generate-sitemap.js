@@ -990,6 +990,42 @@ const pages = [
     changefreq: 'monthly',
     lastmod: currentDate
   },
+  {
+    url: '/subscription-groups/puregym-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/la-fitness',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/apple-fitness-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/fitness-bliss',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/mindbody-family',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/planet-fitness',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
