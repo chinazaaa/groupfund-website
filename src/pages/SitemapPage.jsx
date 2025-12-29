@@ -27,6 +27,15 @@ export default function SitemapPage() {
       ]
     },
     {
+      category: "Subscription Groups",
+      links: [
+        { path: "/subscription-groups", label: "Subscription Groups Overview" },
+        // { path: "/group-types/birthday-groups", label: "Birthday Groups" },
+        // { path: "/group-types/subscription-groups", label: "Subscription Groups" },
+        // { path: "/group-types/general-groups", label: "General Groups" }
+      ]
+    },
+    {
       category: "Use Cases",
       links: [
         { path: "/use-cases", label: "Use Cases Overview" },
