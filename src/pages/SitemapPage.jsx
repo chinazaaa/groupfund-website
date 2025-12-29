@@ -55,6 +55,8 @@ export default function SitemapPage() {
         { path: "/subscription-groups/blue-apron", label: "Blue Apron Subscription Groups" },
         { path: "/subscription-groups/hello-fresh", label: "HelloFresh Subscription Groups" },
         { path: "/subscription-groups/uber-eats-pass", label: "Uber Eats Pass Subscription Groups" },
+        { path: "/subscription-groups/home-chef", label: "Home Chef Subscription Groups" },
+        { path: "/subscription-groups/bokksu", label: "Bokksu Subscription Groups" },
       ]
     },
     {

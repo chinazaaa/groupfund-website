@@ -160,6 +160,8 @@ import UberEatsPassPage from './pages/UberEatsPassPage'
 import BlueApronPage from './pages/BlueApronPage'
 import HelloFreshPage from './pages/HelloFreshPage'
 import UniversalYumsPage from './pages/UniversalYumsPage'
+import HomeChefPage from './pages/HomeChefPage'
+import BokksuPage from './pages/BokksuPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -339,6 +341,8 @@ function App() {
         <Route path="/subscription-groups/blue-apron" element={<Layout><BlueApronPage /></Layout>} />
         <Route path="/subscription-groups/hello-fresh" element={<Layout><HelloFreshPage /></Layout>} />
         <Route path="/subscription-groups/uber-eats-pass" element={<Layout><UberEatsPassPage /></Layout>} />
+        <Route path="/subscription-groups/home-chef" element={<Layout><HomeChefPage /></Layout>} />
+        <Route path="/subscription-groups/bokksu" element={<Layout><BokksuPage /></Layout>} />
 
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />

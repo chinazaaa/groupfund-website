@@ -978,6 +978,18 @@ const pages = [
     changefreq: 'monthly',
     lastmod: currentDate
   },
+  {
+    url: '/subscription-groups/home-chef',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/bokksu',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

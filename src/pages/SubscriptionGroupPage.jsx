@@ -208,7 +208,25 @@ export default function SubscriptionGroupsPage() {
         icon: '🍫',
         keywords: 'universal yums group subscription, share universal yums cost, universal yums payment splitting, split universal yums subscription, universal yums group contributions',
         category: 'Food & Drinks'
+      },
+      {
+        slug: 'home-chef',
+        title: 'Home Chef',
+        description: 'Share Home Chef subscription costs with friends and family worldwide. Organize group payments for customizable meal kits and track contributions.',
+        icon: '👨‍🍳',
+        keywords: 'home chef group subscription, share home chef cost, home chef payment splitting, split home chef subscription, home chef group contributions',
+        category: 'Food & Drinks'
+      },
+      {
+        slug: 'bokksu',
+        title: 'Bokksu',
+        description: 'Share Bokksu subscription costs with friends and family worldwide. Organize group payments for Japanese snacks and tea, and track monthly contributions.',
+        icon: '🍱',
+        keywords: 'bokksu group subscription, share bokksu cost, bokksu payment splitting, split bokksu subscription, bokksu group contributions',
+        category: 'Food & Drinks'
       }
+      
+      
       
             
       
