@@ -105,6 +105,8 @@ import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
 import GeneralGroupsPage from './pages/GeneralGroupsPage'
 import NetflixPage from './pages/NetflixPage'
 import SpotifyPage from './pages/SpotifyPage'
+import DisneyPlusPage from './pages/DisneyPlusPage'
+import HuluPage from './pages/HuluPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -293,6 +295,8 @@ function App() {
         <Route path="/subscription-groups" element={<Layout><SubscriptionGroupPage /></Layout>} />
         <Route path="/subscription-groups/netflix" element={<Layout><NetflixPage /></Layout>} />
         <Route path="/subscription-groups/spotify" element={<Layout><SpotifyPage /></Layout>} />
+        <Route path="/subscription-groups/disney-plus" element={<Layout><DisneyPlusPage /></Layout>} />
+        <Route path="/subscription-groups/hulu" element={<Layout><HuluPage /></Layout>} />
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
