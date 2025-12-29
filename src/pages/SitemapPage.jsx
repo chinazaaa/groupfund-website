@@ -41,6 +41,7 @@ export default function SitemapPage() {
         { path: "/subscription-groups/paramount-plus", label: "Paramount+ Subscription Groups" },
         { path: "/subscription-groups/apple-music", label: "Apple Music Subscription Groups" },
         { path: "/subscription-groups/chatgpt-plus", label: "ChatGPT Plus Subscription Groups" },
+        { path: "/subscription-groups/canva-pro", label: "Canva Pro Subscription Groups" },
       ]
     },
     {

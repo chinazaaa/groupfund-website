@@ -97,7 +97,7 @@ export default function SubscriptionGroupsPage() {
       category: 'Productivity'
     },
     {
-      slug: 'canva',
+      slug: 'canva-pro',
       title: 'Canva Pro',
       description: 'Share Canva Pro subscription with your team. Organize design tool contributions, track payments, and split Canva costs for collaborative creative work.',
       icon: '🎨',
