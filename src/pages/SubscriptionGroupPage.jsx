@@ -57,6 +57,30 @@ export default function SubscriptionGroupsPage() {
       category: 'Entertainment'
     },
     {
+      slug: 'now-entertainment',
+      title: 'NOW Entertainment',
+      description: 'Share NOW Entertainment subscription costs with friends and family. Organize group payments for Sky/NOW streaming services including Peacock content and track monthly contributions.',
+      icon: '📺',
+      keywords: 'now entertainment group subscription, share now tv cost, now entertainment payment splitting, split now sky subscription, now entertainment group contributions',
+      category: 'Entertainment'
+    },
+    {
+        slug: 'peacock',
+        title: 'Peacock',
+        description: 'Share Peacock subscription costs with friends and family. Organize group payments for NBC streaming, live sports, and originals, and track monthly contributions.',
+        icon: '📺',
+        keywords: 'peacock group subscription, share peacock cost, peacock payment splitting, split peacock subscription, peacock group contributions',
+        category: 'Entertainment'
+      },    
+      {
+        slug: 'amazon-music',
+        title: 'Amazon Music Unlimited',
+        description: 'Share Amazon Music Unlimited subscription costs with friends and family. Organize group payments for ad-free music streaming, hi-res audio, and track monthly contributions.',
+        icon: '🎵',
+        keywords: 'amazon music unlimited group subscription, share amazon music cost, amazon music payment splitting, split amazon music subscription, amazon music family group contributions',
+        category: 'Music'
+      },        
+    {
       slug: 'youtube-premium',
       title: 'YouTube Premium',
       description: 'Split YouTube Premium Family costs with your group. Manage ad-free streaming subscriptions, track payments, and organize YouTube Premium contributions.',

@@ -42,6 +42,9 @@ export default function SitemapPage() {
         { path: "/subscription-groups/apple-music", label: "Apple Music Subscription Groups" },
         { path: "/subscription-groups/chatgpt-plus", label: "ChatGPT Plus Subscription Groups" },
         { path: "/subscription-groups/canva-pro", label: "Canva Pro Subscription Groups" },
+        { path: "/subscription-groups/now-entertainment", label: "NOW Entertainment Subscription Groups" },
+        { path: "/subscription-groups/peacock", label: "Peacock Subscription Groups" },
+        { path: "/subscription-groups/amazon-music", label: "Amazon Music Unlimited Subscription Groups" },
       ]
     },
     {
