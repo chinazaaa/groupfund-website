@@ -38,6 +38,7 @@ export default function SitemapPage() {
         { path: "/subscription-groups/apple-tv", label: "Apple TV+ Subscription Groups" },
         { path: "/subscription-groups/youtube-premium", label: "YouTube Premium Subscription Groups" },
         { path: "/subscription-groups/amazon-prime", label: "Amazon Prime Subscription Groups" },
+        { path: "/subscription-groups/paramount-plus", label: "Paramount+ Subscription Groups" },
       ]
     },
     {
