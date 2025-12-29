@@ -30,7 +30,7 @@ export default function SitemapPage() {
       category: "Subscription Groups",
       links: [
         { path: "/subscription-groups", label: "Subscription Groups Overview" },
-        // { path: "/group-types/birthday-groups", label: "Birthday Groups" },
+        { path: "/subscription-groups/netflix", label: "Netflix Subscription Groups" },
         // { path: "/group-types/subscription-groups", label: "Subscription Groups" },
         // { path: "/group-types/general-groups", label: "General Groups" }
       ]

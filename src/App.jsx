@@ -103,6 +103,7 @@ import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupPage from './pages/SubscriptionGroupPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
 import GeneralGroupsPage from './pages/GeneralGroupsPage'
+import NetflixPage from './pages/NetflixPage'
 import NigeriaLocationPage from './pages/NigeriaLocationPage'
 import LagosLocationPage from './pages/LagosLocationPage'
 import UnitedStatesLocationPage from './pages/UnitedStatesLocationPage'
@@ -289,6 +290,7 @@ function App() {
         <Route path="/seasonal/back-to-school-contributions" element={<Layout><BackToSchoolContributionsPage /></Layout>} />
         <Route path="/seasonal/wedding-season-contributions" element={<Layout><WeddingSeasonContributionsPage /></Layout>} />
         <Route path="/subscription-groups" element={<Layout><SubscriptionGroupPage /></Layout>} />
+        <Route path="/subscription-groups/netflix" element={<Layout><NetflixPage /></Layout>} />
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
