@@ -1,4 +1,6 @@
 import React, { useState, useMemo } from 'react'
+import SEO from '../components/SEO'
+
 import '../App.css'
 
 export default function SubscriptionGroupsPage() {
@@ -136,7 +138,14 @@ export default function SubscriptionGroupsPage() {
   }
 
   return (
-    <div>
+    <>
+    <SEO
+      title="Subscription Groups - Manage Shared Subscriptions | GroupFund"
+      description="Learn about Subscription Groups in GroupFund. Manage shared subscriptions like Netflix, Spotify, Disney+ with monthly or annual payment schedules, automatic deadline tracking, and reliable payment management."
+      keywords="subscription groups, shared subscriptions, Netflix subscription, Spotify group subscription, subscription management, recurring payments"
+      canonical="https://www.groupfund.app/group-types/subscription-groups"
+    />
+
       <section className="page-hero">
         <div className="container">
           <h1 className="page-title">Share Subscription Costs</h1>
@@ -578,6 +587,6 @@ export default function SubscriptionGroupsPage() {
           }
         }
       `}</style>
-    </div>
+    </>
   )
 }
