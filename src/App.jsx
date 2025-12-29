@@ -144,8 +144,8 @@ import AppleTVPlusPage from './pages/AppleTVPlusPage'
 import YoutubePremiumPage from './pages/YoutubePremiumPage'
 import AmazonPrimePage from './pages/AmazonPrimePage'
 import ParamountPlusPage from './pages/ParamountPlusPage'
-// import AppleMusicPage from './pages/AppleMusicPage'
-// import ChatGPTPlusPage from './pages/ChatGPTPlusPage'
+import AppleMusicPage from './pages/AppleMusicPage'
+import ChatGPTPlusPage from './pages/ChatGPTPlusPage'  
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -309,6 +309,9 @@ function App() {
         <Route path="/subscription-groups/youtube-premium" element={<Layout><YoutubePremiumPage /></Layout>} />
         <Route path="/subscription-groups/amazon-prime" element={<Layout><AmazonPrimePage /></Layout>} />
         <Route path="/subscription-groups/paramount-plus" element={<Layout><ParamountPlusPage /></Layout>} />
+        <Route path="/subscription-groups/apple-music" element={<Layout><AppleMusicPage /></Layout>} />
+        <Route path="/subscription-groups/chatgpt-plus" element={<Layout><ChatGPTPlusPage /></Layout>} />
+
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         

@@ -89,7 +89,7 @@ export default function SubscriptionGroupsPage() {
       category: 'Music'
     },
     {
-      slug: 'chatgpt',
+      slug: 'chatgpt-plus',
       title: 'ChatGPT Plus',
       description: 'Split ChatGPT Plus subscription costs with your team. Organize group contributions for AI tools, track monthly payments, and share access efficiently.',
       icon: '🤖',

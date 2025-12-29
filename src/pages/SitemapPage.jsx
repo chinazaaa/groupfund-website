@@ -39,6 +39,8 @@ export default function SitemapPage() {
         { path: "/subscription-groups/youtube-premium", label: "YouTube Premium Subscription Groups" },
         { path: "/subscription-groups/amazon-prime", label: "Amazon Prime Subscription Groups" },
         { path: "/subscription-groups/paramount-plus", label: "Paramount+ Subscription Groups" },
+        { path: "/subscription-groups/apple-music", label: "Apple Music Subscription Groups" },
+        { path: "/subscription-groups/chatgpt-plus", label: "ChatGPT Plus Subscription Groups" },
       ]
     },
     {
