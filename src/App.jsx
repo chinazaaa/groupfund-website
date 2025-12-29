@@ -142,6 +142,10 @@ import HuluPage from './pages/HuluPage'
 import HBOMaxPage from './pages/HBOMaxPage'
 import AppleTVPlusPage from './pages/AppleTVPlusPage'
 import YoutubePremiumPage from './pages/YoutubePremiumPage'
+import AmazonPrimePage from './pages/AmazonPrimePage'
+// import ParamountPlusPage from './pages/ParamountPlusPage'
+// import AppleMusicPage from './pages/AppleMusicPage'
+// import ChatGPTPlusPage from './pages/ChatGPTPlusPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -303,6 +307,7 @@ function App() {
         <Route path="/subscription-groups/hbo-max" element={<Layout><HBOMaxPage /></Layout>} />
         <Route path="/subscription-groups/apple-tv" element={<Layout><AppleTVPlusPage /></Layout>} />
         <Route path="/subscription-groups/youtube-premium" element={<Layout><YoutubePremiumPage /></Layout>} />
+        <Route path="/subscription-groups/amazon-prime" element={<Layout><AmazonPrimePage /></Layout>} />
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
