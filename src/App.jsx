@@ -148,6 +148,8 @@ import AppleMusicPage from './pages/AppleMusicPage'
 import ChatGPTPlusPage from './pages/ChatGPTPlusPage'  
 import CanvaProPage from './pages/CanvaProPage'
 import NowEntertainmentPage from './pages/NowEntertainmentPage'
+import PeacockPage from './pages/PeacockPage'
+import AmazonMusicPage from './pages/AmazonMusicPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -315,8 +317,8 @@ function App() {
         <Route path="/subscription-groups/chatgpt-plus" element={<Layout><ChatGPTPlusPage /></Layout>} />
         <Route path="/subscription-groups/canva-pro" element={<Layout><CanvaProPage /></Layout>} />
         <Route path="/subscription-groups/now-entertainment" element={<Layout><NowEntertainmentPage /></Layout>} />
-        {/* <Route path="/subscription-groups/peacock" element={<Layout><PeacockPage /></Layout>} />
-        <Route path="/subscription-groups/amazon-music" element={<Layout><AmazonMusicPage /></Layout>} /> */}
+        <Route path="/subscription-groups/peacock" element={<Layout><PeacockPage /></Layout>} />
+        <Route path="/subscription-groups/amazon-music" element={<Layout><AmazonMusicPage /></Layout>} />
 
         {/* 404 - Catch all unmatched routes */}
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
