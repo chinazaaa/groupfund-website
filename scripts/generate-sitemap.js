@@ -821,7 +821,86 @@ const pages = [
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate
-  }
+  },
+  {
+    url: '/subscription-groups',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/netflix',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/disney-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/hulu',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/hbo-max',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/youtube-premium',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },  
+  {
+    url: '/subscription-groups/amazon-prime',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/paramount-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/apple-music',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/chatgpt-plus',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/canva-pro',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/apple-tv',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/subscription-groups/spotify',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
