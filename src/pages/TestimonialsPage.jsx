@@ -94,8 +94,8 @@ export default function TestimonialsPage() {
           <div className="cta-box">
             <h2>Join These Happy Groups</h2>
             <p>Start organizing your group's contributions today - for birthdays, subscriptions, events, and more. It's free to get started!</p>
-            <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
-          </div>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+            </div>
         </div>
       </section>
     </>

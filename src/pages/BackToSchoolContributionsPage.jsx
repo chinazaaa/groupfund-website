@@ -161,7 +161,7 @@ export default function BackToSchoolContributionsPage() {
               <h2>Start Organizing Your Back to School Contributions</h2>
               <p>Join parent groups, PTA organizations, and school communities using GroupFund to manage back-to-school contributions effectively.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

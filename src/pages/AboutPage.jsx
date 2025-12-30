@@ -120,7 +120,7 @@ export default function AboutPage() {
             <div className="cta-box">
               <h2>Ready to Join Our Mission?</h2>
               <p>Start organizing your group's contributions today - for birthdays, subscriptions, or any purpose. It's free to get started!</p>
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
             </div>
           </div>
         </div>

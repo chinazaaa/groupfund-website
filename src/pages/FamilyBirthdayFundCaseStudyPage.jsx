@@ -281,7 +281,7 @@ export default function FamilyBirthdayFundCaseStudyPage() {
               <h2>Ready to Transform Your Family's Contributions?</h2>
               <p>Start organizing your family's birthday contributions with GroupFund and eliminate WhatsApp chaos.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/use-cases/families" className="btn btn-secondary btn-large">Learn More About Families →</Link>
               </div>
             </div>

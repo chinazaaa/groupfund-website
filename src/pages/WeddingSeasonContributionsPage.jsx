@@ -161,7 +161,7 @@ export default function WeddingSeasonContributionsPage() {
               <h2>Start Organizing Your Wedding Contributions</h2>
               <p>Join families, friends, and bridal parties using GroupFund to manage wedding contributions effectively.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

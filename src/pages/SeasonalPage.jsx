@@ -122,8 +122,8 @@ export default function SeasonalPage() {
             <h2>Ready to Organize Your Seasonal Contributions?</h2>
             <p>Start organizing group contributions for holidays, back-to-school, wedding season, and other special times. GroupFund makes seasonal contribution management easy.</p>
             <div className="cta-buttons">
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
-              <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+            <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>
 

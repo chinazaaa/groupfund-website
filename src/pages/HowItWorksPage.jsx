@@ -169,8 +169,8 @@ export default function HowItWorksPage() {
             <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px', fontSize: '0.9rem' }}>
               <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
             </p>
-            <a href="https://app.groupfund.app/signup" className="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">Start Your Free Group</a>
-          </div>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+            </div>
         </div>
       </section>
     </>

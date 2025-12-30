@@ -143,7 +143,7 @@ export default function HealthcareIndustryPage() {
               <h2>Start Organizing Your Healthcare Group Contributions</h2>
               <p>Join healthcare teams and medical organizations using GroupFund to manage contributions effectively.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

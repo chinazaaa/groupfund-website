@@ -290,7 +290,7 @@ export default function SchoolGroupCaseStudyPage() {
               <h2>Ready to Transform Your School's Subscription Management?</h2>
               <p>Start organizing your school's shared subscriptions with GroupFund and achieve similar results.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/use-cases/schools" className="btn btn-secondary btn-large">Learn More About Schools →</Link>
               </div>
             </div>

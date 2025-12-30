@@ -147,8 +147,8 @@ export default function BestPracticesPage() {
             <h2>Ready to Apply These Best Practices?</h2>
             <p>Start organizing your group contributions with GroupFund and apply these best practices to ensure success.</p>
             <div className="cta-buttons">
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
-              <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+            <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>
 

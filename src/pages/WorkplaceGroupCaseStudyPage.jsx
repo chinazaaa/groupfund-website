@@ -308,7 +308,7 @@ export default function WorkplaceGroupCaseStudyPage() {
               <h2>Ready to Transform Your Workplace's Event Contributions?</h2>
               <p>Start organizing your office event contributions with GroupFund and achieve similar results.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/use-cases/workplace" className="btn btn-secondary btn-large">Learn More About Workplaces →</Link>
               </div>
             </div>

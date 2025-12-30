@@ -160,8 +160,8 @@ export default function CaseStudiesPage() {
             <h2>Ready to Create Your Own Success Story?</h2>
             <p>Start organizing your group contributions with GroupFund and join these successful groups.</p>
             <div className="cta-buttons">
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
-              <Link to="/testimonials" className="btn btn-secondary btn-large">View Testimonials →</Link>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+            <Link to="/testimonials" className="btn btn-secondary btn-large">View Testimonials →</Link>
             </div>
           </div>
 

@@ -256,7 +256,7 @@ export default function ChurchBirthdayGroupCaseStudyPage() {
               <h2>Ready to Transform Your Church's Contributions?</h2>
               <p>Start organizing your church's birthday contributions with GroupFund and achieve similar results.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/use-cases/churches" className="btn btn-secondary btn-large">Learn More About Churches →</Link>
               </div>
             </div>

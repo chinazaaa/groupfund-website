@@ -210,9 +210,8 @@ export default function ContributionCalculatorPage() {
               <div className="calculator-cta">
                 <h3>Ready to Organize Your Group?</h3>
                 <p>Use GroupFund to track contributions, see who has paid, and get automatic reminders.</p>
-                <Link to="/waitlist" className="btn btn-primary btn-large">
-                  Start Your Free Group
-                </Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+               
               </div>
             </div>
           </div>

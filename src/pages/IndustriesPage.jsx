@@ -122,8 +122,8 @@ export default function IndustriesPage() {
             <h2>Ready to Organize Your Industry Group?</h2>
             <p>Start organizing group contributions for your industry today. Whether it's property investments, medical team contributions, or retail worker funds, GroupFund makes it easy.</p>
             <div className="cta-buttons">
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Group</Link>
-              <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+            <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>
 
