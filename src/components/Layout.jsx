@@ -85,6 +85,7 @@ export default function Layout({ children }) {
             <div className="footer-section">
               <h4>Product</h4>
               <ul className="footer-links">
+              <li><Link to="/get-started">Get Started</Link></li>
                 <li><Link to="/how-it-works">How It Works</Link></li>
                 <li><Link to="/features">Features</Link></li>
                 <li><Link to="/group-types">Group Types</Link></li>
@@ -94,8 +95,9 @@ export default function Layout({ children }) {
                 <li><Link to="/coming-soon-features">Coming Soon</Link></li>
                 <li><Link to="/download">Download</Link></li>
                 <li><Link to="/faq">FAQ</Link></li>
-                <li><a href="https://app.groupfund.app/login" target="_blank" rel="noopener noreferrer">Login</a></li>
-                <li><a href="https://app.groupfund.app/signup" target="_blank" rel="noopener noreferrer">Sign Up</a></li>
+
+                {/* <li><a href="https://app.groupfund.app/login" target="_blank" rel="noopener noreferrer">Login</a></li>
+                <li><a href="https://app.groupfund.app/signup" target="_blank" rel="noopener noreferrer">Sign Up</a></li> */}
               </ul>
             </div>
             <div className="footer-section">
