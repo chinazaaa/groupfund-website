@@ -86,7 +86,7 @@ export default function WaitlistPage() {
         <div className="container">
           <h1 className="page-title">Join the Waitlist</h1>
           <p className="page-subtitle">
-            GroupFund is now available on web! iOS and Android apps coming soon. Join the waitlist to be notified when mobile apps launch.
+            GroupFund is now available on web and Android! iOS app coming soon. Join the waitlist to be notified when the iOS app launches.
           </p>
           <div style={{ 
             marginTop: '1.5rem', 
@@ -97,12 +97,14 @@ export default function WaitlistPage() {
             textAlign: 'center'
           }}>
             <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: '600', color: '#166534', marginBottom: '0.75rem' }}>
-              🎉 GroupFund is Now Live on Web!
+              🎉 GroupFund is Now Live on Web and Android!
             </p>
             <p style={{ margin: 0, color: '#15803d', marginBottom: '1rem' }}>
-              Start organizing your group contributions today at <strong>app.groupfund.app</strong>
+              Start organizing your group contributions today
             </p>
-            <a 
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
+
+            {/* <a 
               href="https://app.groupfund.app/signup" 
               className="btn btn-primary" 
               target="_blank" 
@@ -110,7 +112,7 @@ export default function WaitlistPage() {
               style={{ display: 'inline-block', textDecoration: 'none' }}
             >
               Get Started on Web
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
