@@ -117,7 +117,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="hero-cta">
-              <a href="https://app.groupfund.app/signup" className="btn btn-primary" aria-label="Start your free group" target="_blank" rel="noopener noreferrer">
+              <a href="https://groupfund.app/get-started" className="btn btn-primary" aria-label="Start your free group" target="_blank" rel="noopener noreferrer">
                 {CHRISTMAS_MODE ? '🎄 Organize Christmas Contributions Now' : 'Start Your Free Group'}
               </a>
               <Link 
@@ -360,7 +360,7 @@ export default function HomePage() {
                 />
               </a>
             </div>
-            <a href="https://app.groupfund.app/signup" className="btn btn-primary btn-large" aria-label="Start your free group now" target="_blank" rel="noopener noreferrer">
+            <a href="https://groupfund.app/get-started" className="btn btn-primary btn-large" aria-label="Start your free group now" target="_blank" rel="noopener noreferrer">
               Start Your Free Group Now
             </a>
           </div>

@@ -63,6 +63,7 @@ export default function SitemapPage() {
         { path: "/subscription-groups/fitness-bliss", label: "Fitness Bliss Subscription Groups" },
         { path: "/subscription-groups/mindbody-family", label: "Mindbody Family Subscription Groups" },
         { path: "/subscription-groups/planet-fitness", label: "Planet Fitness Subscription Groups" },
+        { path: "/get-started", label: "Get Started" },
       ]
     },
     {

@@ -1026,6 +1026,12 @@ const pages = [
     changefreq: 'monthly',
     lastmod: currentDate
   },
+  {
+    url: '/get-started',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

@@ -168,6 +168,7 @@ import AppleFitnessPlusPage from './pages/AppleFitnessPlusPage'
 import FitnessBlissPage from './pages/FitnessBlissPage'
 import MindbodyFamilyPage from './pages/MindbodyFamilyPage'
 import PlanetFitnessPage from './pages/PlanetFitnessPage'
+import GetStartedPage from './pages/GetStartedPage'
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -355,8 +356,7 @@ function App() {
         <Route path="/subscription-groups/fitness-bliss" element={<Layout><FitnessBlissPage /></Layout>} />
         <Route path="/subscription-groups/mindbody-family" element={<Layout><MindbodyFamilyPage /></Layout>} />
         <Route path="/subscription-groups/planet-fitness" element={<Layout><PlanetFitnessPage /></Layout>} />
-
-        {/* 404 - Catch all unmatched routes */}
+        <Route path="/get-started" element={<Layout><GetStartedPage /></Layout>} />
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
         {/* Admin routes */}
