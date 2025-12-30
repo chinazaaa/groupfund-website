@@ -139,11 +139,11 @@ export default function DownloadPage() {
                   />
                 </a>
                 <a 
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.groupfund.app"
                   className="app-badge" 
                   aria-label="Get GroupFund on Google Play"
+                  target="_blank"
                   rel="noopener noreferrer"
-                  onClick={(e) => handleAppStoreClick(e, 'Google Play')}
                 >
                   <img 
                     src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
