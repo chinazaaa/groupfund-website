@@ -117,16 +117,17 @@ export default function HomePage() {
               </div>
             </div>
             <div className="hero-cta">
-              <a href="https://groupfund.app/get-started" className="btn btn-primary" aria-label="Start your free group" target="_blank" rel="noopener noreferrer">
-                {CHRISTMAS_MODE ? '🎄 Organize Christmas Contributions Now' : 'Start Your Free Group'}
-              </a>
-              <Link 
-                to={CHRISTMAS_MODE ? "/blog/how-to-organize-christmas-contributions-secret-santa-2025" : "/how-it-works"} 
-                className="btn btn-secondary" 
-                aria-label={CHRISTMAS_MODE ? "Learn about Christmas contributions" : "Learn more about features"}
-              >
-                {CHRISTMAS_MODE ? 'Christmas Guide 2025' : 'See How It Works'}
-              </Link>
+            <Link to="/get-started" className="btn btn-primary" aria-label="Start your free group">
+  {CHRISTMAS_MODE ? '🎄 Organize Christmas Contributions Now' : 'Start Your Free Group'}
+</Link>
+
+<Link 
+  to={CHRISTMAS_MODE ? "/blog/how-to-organize-christmas-contributions-secret-santa-2025" : "/how-it-works"} 
+  className="btn btn-secondary" 
+  aria-label={CHRISTMAS_MODE ? "Learn about Christmas contributions" : "Learn more about features"}
+>
+  {CHRISTMAS_MODE ? 'Christmas Guide 2025' : 'See How It Works'}
+</Link>
             </div>
             <p className="hero-learn-more">
               <Link to="/how-it-works" style={{ color: 'white', textDecoration: 'none', fontWeight: '500' }}>
