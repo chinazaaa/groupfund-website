@@ -128,7 +128,7 @@ export default function WaitlistPage() {
                 borderRadius: '4px' 
               }}>
                 <p style={{ margin: 0, fontSize: '1rem', color: '#92400e' }}>
-                  <strong>📱 Mobile Apps Coming Soon:</strong> While GroupFund is already available on web, we're working on iOS and Android apps. Join the waitlist to be notified when mobile apps launch!
+                  <strong>📱 Mobile Apps Coming Soon:</strong> While GroupFund is already available on web and android, we're working on iOS app. Join the waitlist to be notified when mobile apps launch!
                 </p>
               </div>
               <ul className="waitlist-benefits">
@@ -136,7 +136,7 @@ export default function WaitlistPage() {
                   <span className="benefit-icon">📱</span>
                   <div>
                     <strong>Mobile App Launch</strong>
-                    <p>Be notified when iOS and Android apps are available</p>
+                    <p>Be notified when iOS app are available</p>
                   </div>
                 </li>
                 <li>
@@ -174,7 +174,7 @@ export default function WaitlistPage() {
                 <>
                   <h2>Get Notified for Mobile Apps</h2>
                   <p className="waitlist-form-subtitle">
-                    GroupFund is already available on web! Fill out the form below to be notified when iOS and Android apps launch.
+                    GroupFund is already available on web and android! Fill out the form below to be notified when iOS app launch.
                   </p>
                   
                   <div className="waitlist-cta">
