@@ -64,6 +64,7 @@
     backdrop-filter: blur(10px);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 1px;
+    white-space: nowrap;
   }
   
   @keyframes sparkle {
@@ -80,8 +81,9 @@
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .happy-newyear-text {
-      font-size: 0.85rem;
-      padding: 10px 20px;
+      font-size: 0.8rem;
+      padding: 10px 18px;
+      letter-spacing: 0.5px;
     }
     
     .confetti {
@@ -92,8 +94,16 @@
   
   @media (max-width: 480px) {
     .happy-newyear-text {
-      font-size: 0.75rem;
-      padding: 8px 16px;
+      font-size: 0.7rem;
+      padding: 8px 14px;
+      letter-spacing: 0.3px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .happy-newyear-text {
+      font-size: 0.65rem;
+      padding: 7px 12px;
     }
   }
   
