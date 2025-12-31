@@ -5,7 +5,7 @@ import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
 // 🎄 CHRISTMAS MODE: Set to false after Christmas season to revert to normal mode
-const CHRISTMAS_MODE = true
+const NEW_YEAR_MODE= true
 
 export default function HomePage() {
   const [modalOpen, setModalOpen] = useState(false)
@@ -43,111 +43,112 @@ export default function HomePage() {
     setStoreName(name)
     setModalOpen(true)
   }
+    
 
-  return (
-    <>
-      <ComingSoonModal 
-        isOpen={modalOpen} 
-        onClose={() => setModalOpen(false)} 
-        storeName={storeName}
-      />
-      <SEO
-        title={CHRISTMAS_MODE 
-          ? "GroupFund - Organize Christmas Contributions & Secret Santa 2025 | Group Gift Funds"
-          : "GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"}
-        description={CHRISTMAS_MODE
-          ? "🎄 Merry Christmas! Organize Christmas contributions, Secret Santa, and holiday gift funds for 2025. Track group payments, set deadlines, coordinate gifts. Perfect for Christmas Day! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
-          : "Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."}
-        keywords={CHRISTMAS_MODE
-          ? "Christmas contributions, Secret Santa contributions, Christmas gift funds, holiday group payments, Christmas 2025, organize Secret Santa, group Christmas gifts, Christmas contribution tracking, Secret Santa organization, holiday contributions, group gift coordination, Christmas Day contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
-          : "group contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments"}
-        canonical="https://www.groupfund.app/"
-      />
-
-      {/* Christmas Banner */}
-      {CHRISTMAS_MODE && (
-        <div style={{
-          background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)',
-          color: 'white',
-          padding: '16px 0',
-          textAlign: 'center',
-          fontWeight: '600',
-          fontSize: '16px',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-        }}>
-          <div className="container">
-            🎄 <strong>Merry Christmas 2025!</strong> 🎄 Organize your Christmas contributions, Secret Santa, and holiday gift funds today. Track payments, set deadlines, and ensure everyone contributes fairly. <Link to="/blog/how-to-organize-christmas-contributions-secret-santa-2025" style={{color: 'white', textDecoration: 'underline', marginLeft: '8px'}}>Learn More →</Link>
-          </div>
-        </div>
-      )}
-
-      {/* Hero Section */}
-      <header className="hero" role="banner">
-        <div className="hero-background">
-          <div className="gradient-orb orb-1"></div>
-          <div className="gradient-orb orb-2"></div>
-        </div>
-        <div className="container">
-          <div className="hero-content">
-            <div className="hero-badge">
-              <span>{CHRISTMAS_MODE ? '🎄 Perfect for Christmas 2025 • ' : ''}✨ Trusted by 100+ Groups</span>
-            </div>
-            <h1 className="hero-headline">
-              {CHRISTMAS_MODE 
-                ? 'Organize Christmas Contributions & Secret Santa for 2025'
-                : 'Organize Group Contributions for Any Purpose'}
-            </h1>
-            <p className="hero-subheadline">
-              {CHRISTMAS_MODE
-                ? 'The smart way to organize Christmas contributions, Secret Santa, holiday gift funds, birthdays, and shared subscriptions. Track payments in real-time, set deadlines, coordinate gifts, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'
-                : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'}
-            </p>
-            <div className="hero-features">
-              <div className="feature-tag">
-                <span className="check-icon">✓</span>
-                <span>Free to Start</span>
-              </div>
-              <div className="feature-tag">
-                <span className="check-icon">✓</span>
-                <span>Multi-Currency</span>
-              </div>
-              <div className="feature-tag">
-                <span className="check-icon">✓</span>
-                <span>Auto Reminders</span>
+    return (
+        <>
+          <ComingSoonModal 
+            isOpen={modalOpen} 
+            onClose={() => setModalOpen(false)} 
+            storeName={storeName}
+          />
+          <SEO
+            title={NEW_YEAR_MODE 
+              ? "GroupFund - Organize New Year 2026 Contributions & Party Funds | Group Celebration Funds"
+              : "GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"}
+            description={NEW_YEAR_MODE
+              ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
+              : "Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."}
+            keywords={NEW_YEAR_MODE
+              ? "New Year contributions, New Year party funds, New Year's Eve contributions, celebration group payments, New Year 2026, organize New Year party, group celebrations, New Year contribution tracking, party cost sharing, celebration contributions, group event coordination, New Year's Eve expenses, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
+              : "group contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments"}
+            canonical="https://www.groupfund.app/"
+          />
+    
+          {/* New Year Banner */}
+          {NEW_YEAR_MODE && (
+            <div style={{
+              background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+              color: 'white',
+              padding: '16px 0',
+              textAlign: 'center',
+              fontWeight: '600',
+              fontSize: '16px',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+            }}>
+              <div className="container">
+                🎉 <strong>Happy New Year 2026!</strong> 🎊 Organize your New Year contributions, party funds, and celebration expenses today. Track payments, set deadlines, and ensure everyone contributes fairly. <Link to="/blog/how-to-organize-new-year-contributions-party-funds-2026" style={{color: 'white', textDecoration: 'underline', marginLeft: '8px'}}>Learn More →</Link>
               </div>
             </div>
-            <div className="hero-cta">
-            <Link to="/get-started" className="btn btn-primary" aria-label="Start your free group">
-  {CHRISTMAS_MODE ? '🎄 Organize Christmas Contributions Now' : 'Start Your Free Group'}
-</Link>
-
-<Link 
-  to={CHRISTMAS_MODE ? "/blog/how-to-organize-christmas-contributions-secret-santa-2025" : "/how-it-works"} 
-  className="btn btn-secondary" 
-  aria-label={CHRISTMAS_MODE ? "Learn about Christmas contributions" : "Learn more about features"}
->
-  {CHRISTMAS_MODE ? 'Christmas Guide 2025' : 'See How It Works'}
-</Link>
+          )}
+    
+          {/* Hero Section */}
+          <header className="hero" role="banner">
+            <div className="hero-background">
+              <div className="gradient-orb orb-1"></div>
+              <div className="gradient-orb orb-2"></div>
             </div>
-            <p className="hero-learn-more">
-              <Link to="/how-it-works" style={{ color: 'white', textDecoration: 'none', fontWeight: '500' }}>
-                Learn how it works →
-              </Link>
-            </p>
-          </div>
-        </div>
-      </header>
+            <div className="container">
+              <div className="hero-content">
+                <div className="hero-badge">
+                  <span>{NEW_YEAR_MODE ? '🎉 Perfect for New Year 2026 • ' : ''}✨ Trusted by 100+ Groups</span>
+                </div>
+                <h1 className="hero-headline">
+                  {NEW_YEAR_MODE 
+                    ? 'Organize New Year 2026 Contributions & Party Funds'
+                    : 'Organize Group Contributions for Any Purpose'}
+                </h1>
+                <p className="hero-subheadline">
+                  {NEW_YEAR_MODE
+                    ? 'The smart way to organize New Year contributions, party funds, celebration expenses, birthdays, and shared subscriptions. Track payments in real-time, set deadlines, coordinate event costs, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'
+                    : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'}
+                </p>
+                <div className="hero-features">
+                  <div className="feature-tag">
+                    <span className="check-icon">✓</span>
+                    <span>Free to Start</span>
+                  </div>
+                  <div className="feature-tag">
+                    <span className="check-icon">✓</span>
+                    <span>Multi-Currency</span>
+                  </div>
+                  <div className="feature-tag">
+                    <span className="check-icon">✓</span>
+                    <span>Auto Reminders</span>
+                  </div>
+                </div>
+                <div className="hero-cta">
+                <Link to="/get-started" className="btn btn-primary" aria-label="Start your free group">
+      {NEW_YEAR_MODE ? '🎉 Organize New Year Contributions Now' : 'Start Your Free Group'}
+    </Link>
+    
+    <Link 
+      to={NEW_YEAR_MODE ? "/blog/how-to-organize-new-year-contributions-party-funds-2026" : "/how-it-works"} 
+      className="btn btn-secondary" 
+      aria-label={NEW_YEAR_MODE ? "Learn about New Year contributions" : "Learn more about features"}
+    >
+      {NEW_YEAR_MODE ? 'New Year Guide 2026' : 'See How It Works'}
+    </Link>
+                </div>
+                <p className="hero-learn-more">
+                  <Link to="/how-it-works" style={{ color: 'white', textDecoration: 'none', fontWeight: '500' }}>
+                    Learn how it works →
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </header>
 
       {/* Problem Section */}
       <section className="problem-section" aria-labelledby="problem-heading">
         <div className="container">
           <div className="problem-content">
             <h2 id="problem-heading" className="section-title">
-              {CHRISTMAS_MODE ? 'Tired of Chasing Christmas Contributions?' : 'Tired of Chasing Contributions?'}
+              {NEW_YEAR_MODE ? 'Tired of Chasing New Year Party Contributions?' : 'Tired of Chasing Contributions?'}
             </h2>
             <p className="section-subtitle">
-              {CHRISTMAS_MODE
-                ? 'Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to Christmas contributions, Secret Santa, holiday gift funds, birthdays, subscriptions, events, and more. Perfect for organizing group gifts this Christmas 2025!'
+              {NEW_YEAR_MODE
+                ? 'Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to New Year contributions, party funds, celebration expenses, birthdays, subscriptions, events, and more. Perfect for organizing New Year celebrations 2026!'
                 : 'Stop juggling WhatsApp messages, Excel spreadsheets, and forgotten payments. GroupFund brings order to group contributions for birthdays, subscriptions, events, and more.'}
             </p>
           </div>
