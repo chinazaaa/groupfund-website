@@ -28,15 +28,15 @@ export default function ThanksgivingContributionsPage() {
             <div className="industry-section">
               <h2>Why Thanksgiving Contributions Need Organization</h2>
               <p>
-                Thanksgiving often brings together large groups of family, friends, and colleagues for shared meals, travel, and appreciation gifts. Without a clear system, splitting the cost of dinners, groceries, and thank-you gifts can quickly become confusing and unfair.[web:111][web:114]
+                Thanksgiving often brings together large groups of family, friends, and colleagues for shared meals, travel, and appreciation gifts. Without a clear system, splitting the cost of dinners, groceries, and thank-you gifts can quickly become confusing and unfair.
               </p>
               <ul className="feature-list">
-                <li>Shared expenses for Thanksgiving dinners, potlucks, and long-weekend gatherings[web:111]</li>
-                <li>Group gifts or appreciation for hosts, employees, and teams[web:107][web:111]</li>
+                <li>Shared expenses for Thanksgiving dinners, potlucks, and long-weekend gatherings</li>
+                <li>Group gifts or appreciation for hosts, employees, and teams</li>
                 <li>Travel, accommodation, and activity costs split across multiple family members</li>
-                <li>Multiple contributors spread across cities, time zones, or remote teams[web:112]</li>
+                <li>Multiple contributors spread across cities, time zones, or remote teams</li>
                 <li>Events and meals across the Thanksgiving weekend, not just one day</li>
-                <li>Deadlines tied to grocery runs, catering orders, travel bookings, and office events[web:110]</li>
+                <li>Deadlines tied to grocery runs, catering orders, travel bookings, and office events</li>
               </ul>
             </div>
 
@@ -46,7 +46,7 @@ export default function ThanksgivingContributionsPage() {
               <div className="use-case-card">
                 <h3>🦃 Thanksgiving Dinner & Potluck Funds</h3>
                 <p>
-                  Organize contributions for Thanksgiving dinners, potlucks, and shared meals. Split costs for turkey, sides, desserts, drinks, and tableware so hosting is a joint effort instead of a solo expense.[web:111]
+                  Organize contributions for Thanksgiving dinners, potlucks, and shared meals. Split costs for turkey, sides, desserts, drinks, and tableware so hosting is a joint effort instead of a solo expense.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with dinner date as deadline</p>
               </div>
@@ -54,7 +54,7 @@ export default function ThanksgivingContributionsPage() {
               <div className="use-case-card">
                 <h3>🎁 Host & Family Gift Funds</h3>
                 <p>
-                  Coordinate group gifts for hosts, parents, grandparents, or relatives opening their homes. Pool contributions for gift cards, hampers, or meaningful thank-you presents from the whole group.[web:109][web:111]
+                  Coordinate group gifts for hosts, parents, grandparents, or relatives opening their homes. Pool contributions for gift cards, hampers, or meaningful thank-you presents from the whole group.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with visit or gift-giving date as deadline</p>
               </div>
@@ -62,7 +62,7 @@ export default function ThanksgivingContributionsPage() {
               <div className="use-case-card">
                 <h3>🏢 Workplace Thanksgiving Appreciation</h3>
                 <p>
-                  Organize contributions for employee Thanksgiving gifts, team lunches, or shared experiences. Make it easy for managers and colleagues to pool budgets for food, gift cards, or charity donations in honour of the team.[web:107][web:110][web:111]
+                  Organize contributions for employee Thanksgiving gifts, team lunches, or shared experiences. Make it easy for managers and colleagues to pool budgets for food, gift cards, or charity donations in honour of the team.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with office celebration or distribution date as deadline</p>
               </div>
@@ -70,7 +70,7 @@ export default function ThanksgivingContributionsPage() {
               <div className="use-case-card">
                 <h3>🏡 Family Travel & Gathering Costs</h3>
                 <p>
-                  Collect contributions for shared accommodation, road-trip costs, or activities when families meet in one place for Thanksgiving. Keep track of who has paid their share for rentals, fuel, and shared outings.[web:117][web:82]
+                  Collect contributions for shared accommodation, road-trip costs, or activities when families meet in one place for Thanksgiving. Keep track of who has paid their share for rentals, fuel, and shared outings.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with travel or arrival date as deadline</p>
               </div>
@@ -78,7 +78,7 @@ export default function ThanksgivingContributionsPage() {
               <div className="use-case-card">
                 <h3>🤝 Charity & Community Giving</h3>
                 <p>
-                  Coordinate contributions for food drives, community meals, or charitable donations as part of Thanksgiving traditions. Pool funds from teams, families, or friend groups to support local causes together.[web:110][web:119]
+                  Coordinate contributions for food drives, community meals, or charitable donations as part of Thanksgiving traditions. Pool funds from teams, families, or friend groups to support local causes together.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with campaign or donation date as deadline</p>
               </div>
@@ -86,7 +86,7 @@ export default function ThanksgivingContributionsPage() {
               <div className="use-case-card">
                 <h3>🍰 Desserts, Extras & Add-Ons</h3>
                 <p>
-                  Create smaller side funds for desserts, drinks, special dietary options, or last-minute extras. Let guests contribute directly instead of juggling receipts and IOUs after the meal.[web:82][web:54]
+                  Create smaller side funds for desserts, drinks, special dietary options, or last-minute extras. Let guests contribute directly instead of juggling receipts and IOUs after the meal.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with shopping date as deadline</p>
               </div>
@@ -98,27 +98,27 @@ export default function ThanksgivingContributionsPage() {
                 <div className="feature-item">
                   <div className="feature-icon">📅</div>
                   <h3>Deadline Management</h3>
-                  <p>Set deadlines before grocery runs, catering orders, or office events so funds are ready when planners need to spend.[web:110]</p>
+                  <p>Set deadlines before grocery runs, catering orders, or office events so funds are ready when planners need to spend.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🔔</div>
                   <h3>Automatic Reminders</h3>
-                  <p>Send reminders to family, friends, and coworkers so they remember to contribute during the busy holiday period.[web:54]</p>
+                  <p>Send reminders to family, friends, and coworkers so they remember to contribute during the busy holiday period.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🎁</div>
                   <h3>Gift & Event Coordination</h3>
-                  <p>Use contribution tracking to coordinate joint gifts, meals, and experiences without messy spreadsheets or chats.[web:111][web:118]</p>
+                  <p>Use contribution tracking to coordinate joint gifts, meals, and experiences without messy spreadsheets or chats.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">📊</div>
                   <h3>Transparency</h3>
-                  <p>See who has contributed and how close you are to your goal, keeping expectations fair and clear for everyone.[web:54][web:82]</p>
+                  <p>See who has contributed and how close you are to your goal, keeping expectations fair and clear for everyone.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✅</div>
                   <h3>Payment Confirmation</h3>
-                  <p>Two-step confirmation ensures every contribution is verified before booking venues, ordering food, or buying gifts.[web:82]</p>
+                  <p>Two-step confirmation ensures every contribution is verified before booking venues, ordering food, or buying gifts.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">👥</div>
@@ -152,7 +152,7 @@ export default function ThanksgivingContributionsPage() {
                 <li>Agree suggested contribution amounts or leave it open for flexible giving depending on your group.</li>
                 <li>Create a General Group in GroupFund with the relevant Thanksgiving date as the deadline.</li>
                 <li>Invite family members, friends, coworkers, or community participants using invite codes or shareable links.</li>
-                <li>Track contributions and confirm payments as they are received in the group, keeping everyone informed.[web:54]</li>
+                <li>Track contributions and confirm payments as they are received in the group, keeping everyone informed.</li>
                 <li>Use automated reminders near the deadline so everyone who wants to join has time to contribute.</li>
               </ol>
             </div>
