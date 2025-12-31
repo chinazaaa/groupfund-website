@@ -27,7 +27,7 @@ export default function YoutubePremiumSubscriptionPage() {
           <div className="group-type-content">
             <div className="group-type-intro">
               <p>
-                YouTube Premium gives you ad‑free videos, background play, offline downloads, and YouTube Music in one subscription, and it becomes even better value when you share it using a Family plan. A YouTube Premium Family membership can be shared with up to 5 other family members in your household, and GroupFund helps you split the cost, schedule recurring payments, and track who has paid each month.[web:109][web:111][web:113]
+                YouTube Premium gives you ad‑free videos, background play, offline downloads, and YouTube Music in one subscription, and it becomes even better value when you share it using a Family plan. A YouTube Premium Family membership can be shared with up to 5 other family members in your household, and GroupFund helps you split the cost, schedule recurring payments, and track who has paid each month.
               </p>
             </div>
 
@@ -37,7 +37,7 @@ export default function YoutubePremiumSubscriptionPage() {
                 <div className="feature-item">
                   <h3>💰 Save Money</h3>
                   <p>
-                    One YouTube Premium Family plan can cover up to 6 people, making it much cheaper than everyone paying for an individual subscription.[web:109][web:114]
+                    One YouTube Premium Family plan can cover up to 6 people, making it much cheaper than everyone paying for an individual subscription.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -77,13 +77,13 @@ export default function YoutubePremiumSubscriptionPage() {
               <h2>YouTube Premium Plans You Can Share</h2>
               <ul className="use-cases-list">
                 <li>
-                  <strong>YouTube Premium Family:</strong> Share Premium with up to 5 other family members in the same household, each with their own Google Account and recommendations.[web:109][web:113][web:114]
+                  <strong>YouTube Premium Family:</strong> Share Premium with up to 5 other family members in the same household, each with their own Google Account and recommendations.
                 </li>
                 <li>
                   <strong>Individual YouTube Premium:</strong> Use GroupFund if you informally share access with a partner or housemate and want to track 50/50 splits.
                 </li>
                 <li>
-                  <strong>Any YouTube Premium Subscription:</strong> Works with your existing billing date and currency, whether you pay monthly or annually.[web:111][web:114]
+                  <strong>Any YouTube Premium Subscription:</strong> Works with your existing billing date and currency, whether you pay monthly or annually.
                 </li>
               </ul>
             </div>
@@ -102,8 +102,7 @@ export default function YoutubePremiumSubscriptionPage() {
                 <li>Members mark their payment as &quot;Paid&quot; after sending money.</li>
                 <li>You (the family manager/admin) confirm each payment as it arrives.</li>
                 <li>Everyone can see real‑time payment statuses inside the group.</li>
-                <li>GroupFund repeats this schedule automatically based on your billing cycle.
-                </li>
+                <li>GroupFund repeats this schedule automatically based on your billing cycle.</li>
               </ol>
             </div>
 
@@ -113,7 +112,7 @@ export default function YoutubePremiumSubscriptionPage() {
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Family Premium Group</h3>
                   <p>
-                    Use a YouTube Premium Family plan so parents and kids each have their own account while sharing one subscription and splitting the cost with GroupFund.[web:109][web:113]
+                    Use a YouTube Premium Family plan so parents and kids each have their own account while sharing one subscription and splitting the cost with GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
