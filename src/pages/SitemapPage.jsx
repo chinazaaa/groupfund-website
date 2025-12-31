@@ -265,7 +265,8 @@ export default function SitemapPage() {
         { path: "/blog/groupfund-vs-splitwise-group-payments-comparison", label: "GroupFund vs. Splitwise: Which is Better for Group Payments?" },
         { path: "/blog/how-to-organize-baby-shower-contributions-general-groups", label: "How to Organize Baby Shower Contributions with General Groups" },
         { path: "/blog/subscription-group-admin-guide-managing-shared-services", label: "Subscription Group Admin Guide: Managing Shared Services" },
-        { path: "/blog/complete-guide-group-contribution-types-birthday-subscription-general", label: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General" }
+        { path: "/blog/complete-guide-group-contribution-types-birthday-subscription-general", label: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General" },
+        { path: "/blog/how-to-organize-new-year-contributions-party-funds-2026", label: "How to Organize New Year Contributions and Party Funds in 2026" },
       ]
     }
   ]

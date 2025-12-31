@@ -9,6 +9,15 @@ export default function BlogPage() {
 
   const blogPosts = [
     {
+      title: "How to Organize New Year Contributions and Party Funds in 2026",
+      excerpt: "Complete guide to organizing New Year 2026 contributions, party funds, and celebration expenses. Learn how to set deadlines, track payments, coordinate event costs, and ensure everyone contributes fairly before New Year's Eve.",
+      date: "December 31, 2025",
+      readTime: "7 min read",
+      slug: "how-to-organize-new-year-contributions-party-funds-2026",
+      keywords: "New Year contributions, New Year party funds, organize New Year celebration, New Year group payments, New Year's Eve party costs, New Year contributions 2026, celebration expense coordination, party cost sharing",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
       title: "How to Organize Christmas Contributions and Secret Santa in 2025",
       excerpt: "Complete guide to organizing Christmas contributions, Secret Santa, and holiday gift funds. Learn how to set deadlines, track payments, coordinate gifts, and ensure everyone contributes fairly before Christmas Day.",
       date: "December 01, 2025",
