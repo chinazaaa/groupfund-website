@@ -915,6 +915,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .btn-large {
+    white-space: normal !important;
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
 /* Page Hero (for all pages) */
 .page-hero {
   background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
