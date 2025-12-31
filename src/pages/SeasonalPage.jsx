@@ -27,12 +27,13 @@ export default function SeasonalPage() {
 
   const seasonalContent = [
     {
-      slug: 'holiday-contributions',
-      title: 'Holiday Contributions',
-      description: 'Organize group contributions during holiday seasons. Manage Christmas contributions, holiday gift funds, and seasonal celebrations with ease. Perfect for families, workplaces, and communities.',
-      icon: '🎄',
-      keywords: 'holiday group contributions, Christmas group payments, holiday season contributions, holiday gift funds, seasonal group payments'
+      slug: 'new-year-contributions',
+      title: 'New Year Contributions',
+      description: 'Organize group contributions for New Year celebrations. Manage New Year party funds, New Year resolution groups, and New Year dinner contributions. Perfect for families, workplaces, and communities.',
+      icon: '🎉',
+      keywords: 'new year group contributions, New Year party funds, New Year resolution groups, New Year dinner contributions, New Year group payments'
     },
+
     {
       slug: 'back-to-school-contributions',
       title: 'Back to School Contributions',
@@ -41,11 +42,116 @@ export default function SeasonalPage() {
       keywords: 'school group contributions, back to school payments, education group contributions, school supply contributions, teacher gift funds'
     },
     {
+      slug: 'valentine-contributions',
+      title: 'Valentine\'s Day Contributions',
+      description: 'Organize group contributions for Valentine\'s Day celebrations. Manage couple gifts, romantic dinner funds, and love-themed events with ease. Perfect for friends planning group dates, office celebrations, or community Valentine events.',
+      icon: '💝',
+      keywords: 'valentine group contributions, valentine\'s day group payments, romantic celebration contributions, couple gift funds, valentine event payments, love day group funds'
+    },
+    {
+      slug: 'easter-contributions',
+      title: 'Easter Contributions',
+      description: 'Organize group contributions for Easter celebrations. Manage Easter egg hunts, holiday brunch funds, and spring festivities with ease. Perfect for families, churches, and community Easter events.',
+      icon: '🐰',
+      keywords: 'easter group contributions, easter egg hunt payments, easter celebration contributions, easter brunch funds, spring holiday group payments, easter event contributions'
+    },
+    {
+      slug: 'mothers-day-contributions',
+      title: 'Mother\'s Day Contributions',
+      description: 'Organize group contributions for Mother\'s Day celebrations. Manage gift funds, brunch expenses, and spa day treats with ease. Perfect for siblings pooling together, workplace celebrations, or extended family gatherings.',
+      icon: '🌸',
+      keywords: 'mothers day group contributions, mother\'s day group payments, mother\'s day celebration contributions, mom gift funds, mother\'s day brunch payments, family gift group fund, mom appreciation contributions'
+    },
+    {
+      slug: 'fathers-day-contributions',
+      title: 'Father\'s Day Contributions',
+      description: 'Organize group contributions for Father\'s Day celebrations. Manage father\'s day gift funds, brunch contributions, and family gatherings with ease. Perfect for families, workplaces, and communities.',
+      icon: '👨',
+      keywords: 'fathers day group contributions, father\'s day group payments, father\'s day celebration contributions, father\'s day brunch funds, family gathering group payments, father\'s day event contributions'
+    },
+    {
       slug: 'wedding-season-contributions',
       title: 'Wedding Season Contributions',
       description: 'Organize group contributions for weddings, bridal parties, and wedding-related events. Coordinate bridal shower contributions, wedding gift funds, and celebration expenses.',
       icon: '💒',
       keywords: 'wedding group contributions, wedding season payments, bridal party contributions, wedding gift funds, bridal shower contributions'
+    },
+    {
+      slug: 'independence-day-contributions',
+      title: 'Independence Day Contributions',
+      description: 'Organize group contributions for Independence Day celebrations. Manage independence day gift funds, brunch contributions, and family gatherings with ease. Perfect for families, workplaces, and communities.',
+      icon: '🇺🇸',
+      keywords: 'independence day group contributions, independence day group payments, independence day celebration contributions, independence day brunch funds, family gathering group payments, independence day event contributions'
+    },
+    {
+      slug: 'labor-day-contributions',
+      title: 'Labor Day Contributions',
+      description: 'Organize group contributions for Labor Day celebrations. Manage labor day gift funds, brunch contributions, and family gatherings with ease. Perfect for families, workplaces, and communities.',
+      icon: '👷',
+      keywords: 'labor day group contributions, labor day group payments, labor day celebration contributions, labor day brunch funds, family gathering group payments, labor day event contributions'
+    },
+    {
+      slug: 'thanksgiving-contributions',
+      title: 'Thanksgiving Contributions',
+      description: 'Organize group contributions for Thanksgiving celebrations. Manage thanksgiving gift funds, brunch contributions, and family gatherings with ease. Perfect for families, workplaces, and communities.',
+      icon: '🦃',
+      keywords: 'thanksgiving group contributions, thanksgiving group payments, thanksgiving celebration contributions, thanksgiving brunch funds, family gathering group payments, thanksgiving event contributions'
+    },
+    {
+      slug: 'halloween-contributions',
+      title: 'Halloween Contributions',
+      description: 'Organize group contributions for Halloween celebrations. Manage halloween gift funds, brunch contributions, and family gatherings with ease. Perfect for families, workplaces, and communities.',
+      icon: '🎃',
+      keywords: 'halloween group contributions, halloween group payments, halloween celebration contributions, halloween brunch funds, family gathering group payments, halloween event contributions'
+    },
+    {
+      slug: 'diwali-contributions',
+      title: 'Diwali Contributions',
+      description: 'Organize group contributions for Diwali celebrations. Manage diwali gift funds, brunch contributions, and family gatherings with ease. Perfect for families, workplaces, and communities.',
+      icon: '🕉️',
+      keywords: 'diwali group contributions, diwali group payments, diwali celebration contributions, diwali brunch funds, family gathering group payments, diwali event contributions'
+    },
+    {
+      slug: 'holiday-contributions',
+      title: 'Holiday Contributions',
+      description: 'Organize group contributions during holiday seasons. Manage Christmas contributions, holiday gift funds, and seasonal celebrations with ease. Perfect for families, workplaces, and communities.',
+      icon: '🎄',
+      keywords: 'holiday group contributions, Christmas group payments, holiday season contributions, holiday gift funds, seasonal group payments'
+    },
+    {
+      slug: 'housewarming-contributions',
+      title: 'Housewarming Contributions',
+      description: 'Organize group contributions for housewarming celebrations. Manage gift funds, party expenses, and home essentials with ease. Perfect for friends, colleagues, and family members welcoming someone to their new home.',
+      icon: '🏠',
+      keywords: 'housewarming group contributions, new home gift funds, housewarming party payments, house gift group fund, moving gift contributions, new home celebration payments'
+    },
+    {
+      slug: 'graduation-contributions',
+      title: 'Graduation Contributions',
+      description: 'Organize group contributions for graduation celebrations. Manage gift funds, party expenses, and achievement rewards with ease. Perfect for families, classmates, and friends celebrating academic milestones.',
+      icon: '🎓',
+      keywords: 'graduation group contributions, graduation gift funds, grad party payments, graduation celebration contributions, achievement gift group fund, graduation event payments'
+    },
+    {
+      slug: 'baby-shower-contributions',
+      title: 'Baby Shower Contributions',
+      description: 'Organize group contributions for baby shower celebrations. Manage gift funds, party expenses, and baby essentials with ease. Perfect for friends, family members, and coworkers celebrating new parents.',
+      icon: '👶',
+      keywords: 'baby shower group contributions, baby gift funds, baby shower party payments, new baby gift group fund, baby celebration contributions, baby shower event payments'
+    },
+    {
+      slug: 'teacher-appreciation-contributions',
+      title: 'Teacher Appreciation Contributions',
+      description: 'Organize group contributions for teacher appreciation. Manage gift funds, classroom supplies, and thank-you celebrations with ease. Perfect for parent groups, students, and school communities honoring educators.',
+      icon: '🍎',
+      keywords: 'teacher appreciation group contributions, teacher gift funds, classroom supply contributions, teacher thank you payments, educator gift group fund, teacher appreciation week contributions'
+    },
+    {
+      slug: 'office-party-contributions',
+      title: 'Office Party Contributions',
+      description: 'Organize group contributions for office celebrations. Manage party expenses, team lunches, and workplace events with ease. Perfect for coworkers planning holiday parties, retirement celebrations, or team-building activities.',
+      icon: '🎊',
+      keywords: 'office party group contributions, workplace celebration payments, team lunch funds, office event contributions, company party group payments, workplace gathering contributions'
     }
   ]
 
