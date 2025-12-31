@@ -28,15 +28,15 @@ export default function OfficePartyContributionsPage() {
             <div className="industry-section">
               <h2>Why Office Party Contributions Need Organization</h2>
               <p>
-                Office celebrations often involve multiple people chipping in for food, drinks, decorations, and gifts, which quickly becomes hard to manage through ad-hoc bank transfers and chat threads.[web:35][web:161]
+                Office celebrations often involve multiple people chipping in for food, drinks, decorations, and gifts, which quickly becomes hard to manage through ad-hoc bank transfers and chat threads.
               </p>
               <ul className="feature-list">
-                <li>Holiday parties, seasonal celebrations, and end-of-year events with shared costs across the team[web:149][web:154]</li>
-                <li>Retirement, farewell, or promotion collections needing one central fund and gift[web:153][web:155][web:158]</li>
-                <li>Regular team lunches, offsites, and team-building activities with repeat expenses over time[web:149][web:156][web:159]</li>
-                <li>Hybrid and remote teams contributing from different locations and time zones[web:148][web:150][web:151]</li>
-                <li>Avoiding the admin burden of chasing colleagues and tracking who has paid what[web:158][web:161]</li>
-                <li>Keeping budgets clear for managers, social committees, and HR while staying fair to everyone[web:161][web:39]</li>
+                <li>Holiday parties, seasonal celebrations, and end-of-year events with shared costs across the team</li>
+                <li>Retirement, farewell, or promotion collections needing one central fund and gift</li>
+                <li>Regular team lunches, offsites, and team-building activities with repeat expenses over time</li>
+                <li>Hybrid and remote teams contributing from different locations and time zones</li>
+                <li>Avoiding the admin burden of chasing colleagues and tracking who has paid what</li>
+                <li>Keeping budgets clear for managers, social committees, and HR while staying fair to everyone</li>
               </ul>
             </div>
 
@@ -46,7 +46,7 @@ export default function OfficePartyContributionsPage() {
               <div className="use-case-card">
                 <h3>🎄 Holiday & End-of-Year Parties</h3>
                 <p>
-                  Organize contributions for office holiday parties, festive drinks, or end-of-year celebrations, pooling funds for venues, catering, and entertainment without messy spreadsheets.[web:35][web:149][web:154]
+                  Organize contributions for office holiday parties, festive drinks, or end-of-year celebrations, pooling funds for venues, catering, and entertainment without messy spreadsheets.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with party date as deadline</p>
               </div>
@@ -54,7 +54,7 @@ export default function OfficePartyContributionsPage() {
               <div className="use-case-card">
                 <h3>🎉 Retirement & Farewell Collections</h3>
                 <p>
-                  Create a shared fund for retirement, farewell, or promotion gifts so colleagues can contribute easily and the recipient can receive a meaningful, consolidated gift.[web:153][web:155][web:163]
+                  Create a shared fund for retirement, farewell, or promotion gifts so colleagues can contribute easily and the recipient can receive a meaningful, consolidated gift.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with send-off date as deadline</p>
               </div>
@@ -62,7 +62,7 @@ export default function OfficePartyContributionsPage() {
               <div className="use-case-card">
                 <h3>🍽️ Team Lunches & Office Meals</h3>
                 <p>
-                  Coordinate contributions for team lunches, project celebration meals, or regular shared catering, whether ordered to the office or used via food vouchers.[web:149][web:151][web:159][web:154]
+                  Coordinate contributions for team lunches, project celebration meals, or regular shared catering, whether ordered to the office or used via food vouchers.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with lunch or event date as deadline</p>
               </div>
@@ -70,7 +70,7 @@ export default function OfficePartyContributionsPage() {
               <div className="use-case-card">
                 <h3>🤝 Team-Building & Social Events</h3>
                 <p>
-                  Organize contributions for team-building activities, away days, or socials, covering tickets, activities, and shared travel costs in one place.[web:150][web:154][web:156]
+                  Organize contributions for team-building activities, away days, or socials, covering tickets, activities, and shared travel costs in one place.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with event date as deadline</p>
               </div>
@@ -78,7 +78,7 @@ export default function OfficePartyContributionsPage() {
               <div className="use-case-card">
                 <h3>🎂 Birthdays & Milestone Celebrations</h3>
                 <p>
-                  Set up small, repeatable group funds for birthdays, work anniversaries, and personal milestones so office collections are consistent and simple to manage.[web:148][web:158][web:161]
+                  Set up small, repeatable group funds for birthdays, work anniversaries, and personal milestones so office collections are consistent and simple to manage.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with celebration date as deadline</p>
               </div>
@@ -86,7 +86,7 @@ export default function OfficePartyContributionsPage() {
               <div className="use-case-card">
                 <h3>🌍 Remote & Hybrid Office Events</h3>
                 <p>
-                  Combine digital gift cards, food vouchers, and shared funds for remote teams so everyone can join celebrations wherever they are.[web:148][web:150][web:151][web:164]
+                  Combine digital gift cards, food vouchers, and shared funds for remote teams so everyone can join celebrations wherever they are.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with virtual event date as deadline</p>
               </div>
@@ -98,32 +98,32 @@ export default function OfficePartyContributionsPage() {
                 <div className="feature-item">
                   <div className="feature-icon">📅</div>
                   <h3>Deadline Management</h3>
-                  <p>Set deadlines tied to party dates, lunch bookings, or farewell events so funds are ready before invoices are due.[web:153][web:161]</p>
+                  <p>Set deadlines tied to party dates, lunch bookings, or farewell events so funds are ready before invoices are due.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🔔</div>
                   <h3>Automatic Reminders</h3>
-                  <p>Send reminders to colleagues so organisers do not need to chase people manually in email or chat.[web:158][web:39]</p>
+                  <p>Send reminders to colleagues so organisers do not need to chase people manually in email or chat.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🎁</div>
                   <h3>Gift Coordination</h3>
-                  <p>Align contributions with group cards, eGift cards, or curated gift collections so the process from collection to gifting stays smooth.[web:148][web:35][web:162]</p>
+                  <p>Align contributions with group cards, eGift cards, or curated gift collections so the process from collection to gifting stays smooth.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">📊</div>
                   <h3>Transparency</h3>
-                  <p>See total funds and contributions at a glance, keeping budgets clear for social committees and managers.[web:35][web:161][web:157]</p>
+                  <p>See total funds and contributions at a glance, keeping budgets clear for social committees and managers.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✅</div>
                   <h3>Payment Confirmation</h3>
-                  <p>Two-step confirmation ensures every contribution is recorded correctly before paying suppliers or buying gifts.[web:152][web:157][web:137]</p>
+                  <p>Two-step confirmation ensures every contribution is recorded correctly before paying suppliers or buying gifts.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">👥</div>
                   <h3>Multiple Groups</h3>
-                  <p>Create separate groups for different teams, departments, or events while keeping each collection clearly organised.[web:148][web:161]</p>
+                  <p>Create separate groups for different teams, departments, or events while keeping each collection clearly organised.</p>
                 </div>
               </div>
             </div>
@@ -131,12 +131,12 @@ export default function OfficePartyContributionsPage() {
             <div className="industry-section">
               <h2>Best Practices for Office Party Contributions</h2>
               <ul className="best-practices-list">
-                <li><strong>Clarify the Purpose:</strong> Clearly state whether the fund is for food, venue, gifts, or a combination so contributors know how money will be used.[web:161][web:153]</li>
-                <li><strong>Set Fair Ranges:</strong> Suggest contribution ranges that feel inclusive across different seniority levels and salary bands while allowing fully optional participation.[web:155][web:39]</li>
-                <li><strong>Keep it Optional:</strong> Make it clear that contributions are voluntary to maintain a positive, pressure-free culture.[web:155][web:158]</li>
-                <li><strong>Use Separate Groups:</strong> Run separate collections for different events (holiday party, retirement, team lunch) to avoid mixing budgets and expectations.[web:161][web:148]</li>
-                <li><strong>Share Progress & Outcomes:</strong> Give visibility on how much has been collected and share photos or updates after the event to close the loop.[web:153][web:161][web:155]</li>
-                <li><strong>Support Remote Staff:</strong> Combine in-person events with vouchers or virtual perks so remote colleagues feel included.[web:150][web:151][web:164]</li>
+                <li><strong>Clarify the Purpose:</strong> Clearly state whether the fund is for food, venue, gifts, or a combination so contributors know how money will be used.</li>
+                <li><strong>Set Fair Ranges:</strong> Suggest contribution ranges that feel inclusive across different seniority levels and salary bands while allowing fully optional participation.</li>
+                <li><strong>Keep it Optional:</strong> Make it clear that contributions are voluntary to maintain a positive, pressure-free culture.</li>
+                <li><strong>Use Separate Groups:</strong> Run separate collections for different events (holiday party, retirement, team lunch) to avoid mixing budgets and expectations.</li>
+                <li><strong>Share Progress & Outcomes:</strong> Give visibility on how much has been collected and share photos or updates after the event to close the loop.</li>
+                <li><strong>Support Remote Staff:</strong> Combine in-person events with vouchers or virtual perks so remote colleagues feel included.</li>
               </ul>
             </div>
 
@@ -146,12 +146,12 @@ export default function OfficePartyContributionsPage() {
                 Ready to organize contributions for your next office celebration? Follow these steps:
               </p>
               <ol className="steps-list">
-                <li>Decide the main purpose of the group (holiday party, retirement gift, team lunch, or team-building activity).[web:161][web:153]</li>
-                <li>Estimate a target amount based on expected costs and choose a deadline ahead of bookings or catering dates.[web:149][web:156]</li>
-                <li>Set suggested contribution ranges that work for your team and make contributions clearly optional.[web:155][web:39]</li>
+                <li>Decide the main purpose of the group (holiday party, retirement gift, team lunch, or team-building activity).</li>
+                <li>Estimate a target amount based on expected costs and choose a deadline ahead of bookings or catering dates.</li>
+                <li>Set suggested contribution ranges that work for your team and make contributions clearly optional.</li>
                 <li>Create a General Group in GroupFund with the event date and short description so everyone understands the goal.</li>
-                <li>Invite coworkers using invite codes or shareable links instead of personal bank details or cash envelopes.[web:148][web:158][web:161]</li>
-                <li>Track contributions and confirm payments as they arrive, keeping organisers and social committees aligned.[web:152][web:157]</li>
+                <li>Invite coworkers using invite codes or shareable links instead of personal bank details or cash envelopes.</li>
+                <li>Track contributions and confirm payments as they arrive, keeping organisers and social committees aligned.</li>
                 <li>Use reminders close to the deadline so anyone who wants to take part has time to contribute.</li>
               </ol>
             </div>
