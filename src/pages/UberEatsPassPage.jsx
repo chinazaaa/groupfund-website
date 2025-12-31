@@ -153,7 +153,7 @@ export default function UberEatsPassSubscriptionPage() {
             <div className="related-links">
               <h3>Related Subscription Services</h3>
               <div className="related-links-grid">
-                <Link to="/subscription-groups/hellofresh">Share HelloFresh Costs →</Link>
+                  <Link to="/subscription-groups/hello-fresh">Share HelloFresh Costs →</Link>
                 <Link to="/subscription-groups/netflix">Share Netflix Costs →</Link>
                 <Link to="/subscription-groups/amazon-prime">Share Amazon Prime Costs →</Link>
                 <Link to="/subscription-groups/canva-pro">Share Canva Pro Costs →</Link>

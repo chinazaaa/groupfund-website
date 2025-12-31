@@ -156,7 +156,7 @@ export default function UniversalYumsSubscriptionPage() {
               <div className="related-links-grid">
                 <Link to="/subscription-groups/blue-apron">Share Blue Apron Costs →</Link>
                 <Link to="/subscription-groups/gousto">Share Gousto Costs →</Link>
-                <Link to="/subscription-groups/hellofresh">Share HelloFresh Costs →</Link>
+                  <Link to="/subscription-groups/hello-fresh">Share HelloFresh Costs →</Link>
                 <Link to="/subscription-groups/netflix">Share Netflix Costs →</Link>
                 <Link to="/subscription-groups">View All Subscriptions →</Link>
               </div>

@@ -155,7 +155,7 @@ export default function HomeChefSubscriptionPage() {
               <div className="related-links-grid">
                 <Link to="/subscription-groups/blue-apron">Share Blue Apron Costs →</Link>
                 <Link to="/subscription-groups/gousto">Share Gousto Costs →</Link>
-                <Link to="/subscription-groups/hellofresh">Share HelloFresh Costs →</Link>
+                  <Link to="/subscription-groups/hello-fresh">Share HelloFresh Costs →</Link>
                 <Link to="/subscription-groups/universal-yums">Share Universal Yums Costs →</Link>
                 <Link to="/subscription-groups">View All Subscriptions →</Link>
               </div>

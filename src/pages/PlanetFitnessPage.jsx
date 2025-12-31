@@ -157,7 +157,7 @@ export default function PlanetFitnessBlackCardSubscriptionPage() {
                 <Link to="/subscription-groups/puregym-plus">Share PureGym Plus Costs →</Link>
                 <Link to="/subscription-groups/netflix">Share Netflix Costs →</Link>
                 <Link to="/subscription-groups/spotify">Share Spotify Costs →</Link>
-                <Link to="/subscription-groups/hellofresh">Share HelloFresh Costs →</Link>
+                  <Link to="/subscription-groups/hello-fresh">Share HelloFresh Costs →</Link>
                 <Link to="/subscription-groups">View All Subscriptions →</Link>
               </div>
             </div>

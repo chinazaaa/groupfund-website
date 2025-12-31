@@ -156,7 +156,7 @@ export default function PureGymPlusSubscriptionPage() {
               <div className="related-links-grid">
                 <Link to="/subscription-groups/netflix">Share Netflix Costs →</Link>
                 <Link to="/subscription-groups/spotify">Share Spotify Costs →</Link>
-                <Link to="/subscription-groups/hellofresh">Share HelloFresh Costs →</Link>
+                  <Link to="/subscription-groups/hello-fresh">Share HelloFresh Costs →</Link>
                 <Link to="/subscription-groups/uber-eats-pass">Share Uber Eats Pass Costs →</Link>
                 <Link to="/subscription-groups">View All Subscriptions →</Link>
               </div>

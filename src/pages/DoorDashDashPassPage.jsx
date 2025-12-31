@@ -156,7 +156,7 @@ export default function DoorDashDashPassSubscriptionPage() {
                 <Link to="/subscription-groups/uber-eats-pass">Share Uber Eats Pass Costs →</Link>
                 <Link to="/subscription-groups/deliveroo-plus">Share Deliveroo Plus Costs →</Link>
                 <Link to="/subscription-groups/just-eat-plus">Share Just Eat+ Costs →</Link>
-                <Link to="/subscription-groups/hellofresh">Share HelloFresh Costs →</Link>
+                  <Link to="/subscription-groups/hello-fresh">Share HelloFresh Costs →</Link>
                 <Link to="/subscription-groups">View All Subscriptions →</Link>
               </div>
             </div>
