@@ -9,13 +9,13 @@ export default function SitemapPage() {
       category: "Main Pages",
       links: [
         { path: "/", label: "Home" },
+        { path: "/get-started", label: "Get Started" },
         { path: "/how-it-works", label: "How It Works" },
         { path: "/features", label: "Features" },
         { path: "/coming-soon-features", label: "Coming Soon Features" },
         { path: "/download", label: "Download" },
         { path: "/pricing", label: "Pricing" },
-        { path: "/waitlist", label: "Join Waitlist" },
-        { path: "/get-started", label: "Get Started" }
+        { path: "/waitlist", label: "Join Waitlist" }
       ]
     },
     {
