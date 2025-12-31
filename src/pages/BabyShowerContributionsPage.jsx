@@ -28,15 +28,15 @@ export default function BabyShowerContributionsPage() {
             <div className="industry-section">
               <h2>Why Baby Shower Contributions Need Organization</h2>
               <p>
-                Baby showers often involve many people who want to contribute to gifts, decorations, food, and baby essentials, which quickly becomes complex if one person is collecting money manually.[web:122][web:128]
+                Baby showers often involve many people who want to contribute to gifts, decorations, food, and baby essentials, which quickly becomes complex if one person is collecting money manually.
               </p>
               <ul className="feature-list">
-                <li>Coordinating a shared gift fund instead of dozens of separate presents[web:122][web:128]</li>
-                <li>Splitting party expenses like venue, food, decorations, and games across organisers[web:134]</li>
-                <li>Helping parents cover practical baby essentials through a group fund or registry alternative[web:123][web:126]</li>
-                <li>Managing contributions from friends, family, and coworkers in different locations[web:122][web:132]</li>
-                <li>Avoiding awkward chasing for payments and tracking who has paid what[web:125][web:132]</li>
-                <li>Keeping to deadlines linked to the shower date, due date, or last working day before leave[web:129]</li>
+                <li>Coordinating a shared gift fund instead of dozens of separate presents</li>
+                <li>Splitting party expenses like venue, food, decorations, and games across organisers</li>
+                <li>Helping parents cover practical baby essentials through a group fund or registry alternative</li>
+                <li>Managing contributions from friends, family, and coworkers in different locations</li>
+                <li>Avoiding awkward chasing for payments and tracking who has paid what</li>
+                <li>Keeping to deadlines linked to the shower date, due date, or last working day before leave</li>
               </ul>
             </div>
 
@@ -46,7 +46,7 @@ export default function BabyShowerContributionsPage() {
               <div className="use-case-card">
                 <h3>🎁 Group Baby Gift Funds</h3>
                 <p>
-                  Create a shared gift fund so everyone can contribute what they can, and use the total to buy a bigger, more meaningful gift or multiple essentials for the parents-to-be.[web:122][web:128]
+                  Create a shared gift fund so everyone can contribute what they can, and use the total to buy a bigger, more meaningful gift or multiple essentials for the parents-to-be.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with baby shower or due date as deadline</p>
               </div>
@@ -54,7 +54,7 @@ export default function BabyShowerContributionsPage() {
               <div className="use-case-card">
                 <h3>🍼 Baby Essentials & Registry Top-Up</h3>
                 <p>
-                  Organize contributions to cover baby essentials like prams, cots, monitors, or nappies, either alongside or instead of a traditional registry.[web:123][web:126][web:130]
+                  Organize contributions to cover baby essentials like prams, cots, monitors, or nappies, either alongside or instead of a traditional registry.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with expected delivery or registry close date as deadline</p>
               </div>
@@ -62,7 +62,7 @@ export default function BabyShowerContributionsPage() {
               <div className="use-case-card">
                 <h3>🎉 Baby Shower Party Expenses</h3>
                 <p>
-                  Split costs for the baby shower itself, including venue, food, decorations, favours, and games, so hosts are not left covering everything alone.[web:134][web:132]
+                  Split costs for the baby shower itself, including venue, food, decorations, favours, and games, so hosts are not left covering everything alone.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with shower date as deadline</p>
               </div>
@@ -70,7 +70,7 @@ export default function BabyShowerContributionsPage() {
               <div className="use-case-card">
                 <h3>🏢 Workplace Baby Shower & Maternity Gifts</h3>
                 <p>
-                  Coordinate contributions from coworkers for a joint gift, digital card, or send-off hamper when a colleague goes on maternity or paternity leave.[web:125][web:129][web:131]
+                  Coordinate contributions from coworkers for a joint gift, digital card, or send-off hamper when a colleague goes on maternity or paternity leave.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with last working day or shower date as deadline</p>
               </div>
@@ -78,7 +78,7 @@ export default function BabyShowerContributionsPage() {
               <div className="use-case-card">
                 <h3>👨‍👩‍👧 Family & Close-Friends Contributions</h3>
                 <p>
-                  Organize a private group for close family and friends to contribute towards larger items the parents really need, without duplicating gifts.[web:123][web:133]
+                  Organize a private group for close family and friends to contribute towards larger items the parents really need, without duplicating gifts.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with due date or home-visit date as deadline</p>
               </div>
@@ -86,7 +86,7 @@ export default function BabyShowerContributionsPage() {
               <div className="use-case-card">
                 <h3>💌 Hybrid & Virtual Baby Showers</h3>
                 <p>
-                  Use a contribution group when guests join virtually, combining digital messages, remote gifts, and a shared fund into one organised flow.[web:122][web:135]
+                  Use a contribution group when guests join virtually, combining digital messages, remote gifts, and a shared fund into one organised flow.
                 </p>
                 <p><strong>Best Group Type:</strong> General Groups with virtual shower date as deadline</p>
               </div>
@@ -98,27 +98,27 @@ export default function BabyShowerContributionsPage() {
                 <div className="feature-item">
                   <div className="feature-icon">📅</div>
                   <h3>Deadline Management</h3>
-                  <p>Set deadlines linked to the shower date, due date, or last working day so gifts and supplies arrive on time.[web:129]</p>
+                  <p>Set deadlines linked to the shower date, due date, or last working day so gifts and supplies arrive on time.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🔔</div>
                   <h3>Automatic Reminders</h3>
-                  <p>Send reminders to busy friends, family, and coworkers so they do not forget to contribute before the event.[web:51][web:132]</p>
+                  <p>Send reminders to busy friends, family, and coworkers so they do not forget to contribute before the event.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🎁</div>
                   <h3>Gift Coordination</h3>
-                  <p>Use contribution tracking to avoid duplicate gifts and focus spending on what the parents actually need.[web:123][web:126][web:130]</p>
+                  <p>Use contribution tracking to avoid duplicate gifts and focus spending on what the parents actually need.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">📊</div>
                   <h3>Transparency</h3>
-                  <p>See contributions at a glance, keeping budgets clear and avoiding awkward money conversations.[web:122][web:132]</p>
+                  <p>See contributions at a glance, keeping budgets clear and avoiding awkward money conversations.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✅</div>
                   <h3>Payment Confirmation</h3>
-                  <p>Two-step confirmation ensures every contribution is recorded properly before ordering gifts or paying invoices.[web:132][web:137]</p>
+                  <p>Two-step confirmation ensures every contribution is recorded properly before ordering gifts or paying invoices.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">👥</div>
@@ -131,12 +131,12 @@ export default function BabyShowerContributionsPage() {
             <div className="industry-section">
               <h2>Best Practices for Baby Shower Contributions</h2>
               <ul className="best-practices-list">
-                <li><strong>Define the Goal:</strong> Decide early whether the group is funding one big gift, multiple essentials, the party, or a mix, and share that clearly.[web:122][web:127]</li>
-                <li><strong>Set a Realistic Target:</strong> Estimate total costs and divide by likely contributors to set a fair per-person range, adjusting for different budgets.[web:127][web:129][web:133]</li>
-                <li><strong>Offer Flexible Amounts:</strong> Suggest contribution ranges but allow people to give more or less depending on closeness and circumstances.[web:129][web:131]</li>
-                <li><strong>Keep Lists Centralised:</strong> Align contributions with a registry, wishlist, or essentials list so funds translate into useful items.[web:123][web:126][web:130]</li>
-                <li><strong>Separate Work & Personal:</strong> Use different groups for office and personal circles to match different cultures, budgets, and expectations.[web:131][web:136]</li>
-                <li><strong>Track for Thank-Yous:</strong> Use contribution records to personalise thank-you messages and share photos of how the funds were used.[web:123][web:127]</li>
+                <li><strong>Define the Goal:</strong> Decide early whether the group is funding one big gift, multiple essentials, the party, or a mix, and share that clearly.</li>
+                <li><strong>Set a Realistic Target:</strong> Estimate total costs and divide by likely contributors to set a fair per-person range, adjusting for different budgets.</li>
+                <li><strong>Offer Flexible Amounts:</strong> Suggest contribution ranges but allow people to give more or less depending on closeness and circumstances.</li>
+                <li><strong>Keep Lists Centralised:</strong> Align contributions with a registry, wishlist, or essentials list so funds translate into useful items.</li>
+                <li><strong>Separate Work & Personal:</strong> Use different groups for office and personal circles to match different cultures, budgets, and expectations.</li>
+                <li><strong>Track for Thank-Yous:</strong> Use contribution records to personalise thank-you messages and share photos of how the funds were used.</li>
               </ul>
             </div>
 
@@ -146,12 +146,12 @@ export default function BabyShowerContributionsPage() {
                 Ready to organize contributions for a baby shower? Follow these steps:
               </p>
               <ol className="steps-list">
-                <li>Decide the main purpose of the group (gift fund, party costs, essentials, or workplace collection).[web:122][web:128]</li>
-                <li>Estimate a target amount and choose a deadline a few days before the baby shower or key date.[web:127][web:129]</li>
-                <li>Set suggested contribution ranges that work for your group, keeping budgets inclusive.[web:129][web:133]</li>
+                <li>Decide the main purpose of the group (gift fund, party costs, essentials, or workplace collection).</li>
+                <li>Estimate a target amount and choose a deadline a few days before the baby shower or key date.</li>
+                <li>Set suggested contribution ranges that work for your group, keeping budgets inclusive.</li>
                 <li>Create a General Group in GroupFund with the shower or due date as the deadline.</li>
-                <li>Invite friends, family members, and coworkers using invite codes or shareable links instead of sharing bank details.[web:122][web:132]</li>
-                <li>Track contributions and confirm payments as they arrive, keeping organisers aligned.[web:132][web:137]</li>
+                <li>Invite friends, family members, and coworkers using invite codes or shareable links instead of sharing bank details.</li>
+                <li>Track contributions and confirm payments as they arrive, keeping organisers aligned.</li>
                 <li>Use reminders close to the deadline so everyone who wants to contribute has time to join in.</li>
               </ol>
             </div>

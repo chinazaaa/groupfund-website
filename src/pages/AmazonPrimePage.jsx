@@ -27,7 +27,7 @@ export default function AmazonPrimeSubscriptionPage() {
           <div className="group-type-content">
             <div className="group-type-intro">
               <p>
-                Amazon Prime bundles fast delivery, Prime Video, music, and other benefits under one subscription, and some of these benefits can be shared with other people in your household using Amazon Family/Household.[web:126][web:133][web:135] GroupFund helps you split the cost of Prime, keep a clear record of who has paid, and set up recurring reminders so everyone contributes on time.
+                Amazon Prime bundles fast delivery, Prime Video, music, and other benefits under one subscription, and some of these benefits can be shared with other people in your household using Amazon Family/Household. GroupFund helps you split the cost of Prime, keep a clear record of who has paid, and set up recurring reminders so everyone contributes on time.
               </p>
             </div>
 
@@ -37,7 +37,7 @@ export default function AmazonPrimeSubscriptionPage() {
                 <div className="feature-item">
                   <h3>💰 Save Money</h3>
                   <p>
-                    Share one Prime membership within your household instead of multiple people paying separately and reduce your total monthly or yearly spend.[web:126][web:133]
+                    Share one Prime membership within your household instead of multiple people paying separately and reduce your total monthly or yearly spend.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -61,7 +61,7 @@ export default function AmazonPrimeSubscriptionPage() {
                 <div className="feature-item">
                   <h3>📅 Monthly / Yearly Scheduling</h3>
                   <p>
-                    Whether you pay Prime monthly or annually, GroupFund can align reminders and contributions to match your billing cycle.[web:133]
+                    Whether you pay Prime monthly or annually, GroupFund can align reminders and contributions to match your billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -77,13 +77,13 @@ export default function AmazonPrimeSubscriptionPage() {
               <h2>Amazon Prime & Prime Video You Can Share</h2>
               <ul className="use-cases-list">
                 <li>
-                  <strong>Amazon Prime Membership:</strong> Share select Prime benefits (like delivery and Prime Video) with one other adult and child/teen profiles in your household via Amazon Family/Household, then split the cost with GroupFund.[web:126][web:129][web:133][web:135]
+                  <strong>Amazon Prime Membership:</strong> Share select Prime benefits (like delivery and Prime Video) with one other adult and child/teen profiles in your household via Amazon Family/Household, then split the cost with GroupFund.
                 </li>
                 <li>
-                  <strong>Prime Video Access:</strong> Use profiles on a single Prime Video account so different people can watch with their own history while contributing their share to the main bill.[web:132][web:134]
+                  <strong>Prime Video Access:</strong> Use profiles on a single Prime Video account so different people can watch with their own history while contributing their share to the main bill.
                 </li>
                 <li>
-                  <strong>Any Prime Billing Setup:</strong> Works whether you pay Prime monthly or yearly, and whether you focus only on Prime Video or the full Prime bundle.[web:126][web:133]
+                  <strong>Any Prime Billing Setup:</strong> Works whether you pay Prime monthly or yearly, and whether you focus only on Prime Video or the full Prime bundle.
                 </li>
               </ul>
             </div>
@@ -113,13 +113,13 @@ export default function AmazonPrimeSubscriptionPage() {
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Family Prime Sharing</h3>
                   <p>
-                    Use Amazon Family to share select Prime benefits with one other adult and child profiles at the same address, then split the cost fairly with GroupFund.[web:126][web:129][web:133][web:135]
+                    Use Amazon Family to share select Prime benefits with one other adult and child profiles at the same address, then split the cost fairly with GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏠 Housemate Prime Video Group</h3>
                   <p>
-                    Share Prime Video access with housemates via profiles on one account while tracking contributions each month.[web:132][web:134]
+                    Share Prime Video access with housemates via profiles on one account while tracking contributions each month.
                   </p>
                 </div>
                 <div className="feature-item">
