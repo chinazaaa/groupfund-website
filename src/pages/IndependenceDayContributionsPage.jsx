@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
-export default function HousewarmingContributionsPage() {
+export default function IndependenceDayContributionsPage() {
   return (
     <>
       <SEO
-        title="Housewarming Group Contributions - Gifts, Parties & Home Essentials | GroupFund"
-        description="Organize group contributions for housewarming celebrations. Manage gift funds, party expenses, and home essentials with ease for friends, colleagues, and family members."
-        keywords="housewarming group contributions, new home gift fund, housewarming party expenses, home essentials fund, workplace housewarming gifts, welcome home contributions"
-        canonical="https://www.groupfund.app/seasonal/housewarming-contributions"
+        title="Independence Day Group Contributions - Gifts, Parties & Gatherings | GroupFund"
+        description="Organize group contributions for Independence Day celebrations. Manage Independence Day gift funds, food and drink contributions, and family or community gathering expenses with GroupFund."
+        keywords="independence day group contributions, 4th of July contributions, national day celebration funds, family gathering contributions, workplace independence day gifts, community celebration funds"
+        canonical="https://www.groupfund.app/seasonal/independence-day-contributions"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Housewarming Contributions</h1>
+          <h1 className="page-title">Independence Day Contributions</h1>
           <p className="page-subtitle">
-            Organize group contributions for housewarming celebrations. Manage gift funds, party expenses, and home essentials with ease for friends, colleagues, and family members welcoming someone to their new home.
+            Organize group contributions for Independence Day celebrations. Manage gift funds, food and drink contributions, and family or community gathering expenses with ease.
           </p>
         </div>
       </section>
@@ -26,139 +26,140 @@ export default function HousewarmingContributionsPage() {
         <div className="container">
           <div className="industry-content">
             <div className="industry-section">
-              <h2>Why Housewarming Contributions Need Organization</h2>
+              <h2>Why Independence Day Contributions Need Organization</h2>
               <p>
-                Housewarmings often involve multiple people wanting to contribute to gifts, parties, and practical home essentials, which quickly becomes messy when handled through ad‑hoc transfers and group chats.[web:140][web:35]
+                Independence Day often brings together families, friends, workplaces, and communities for food, fireworks, and celebrations. Without a clear system, collecting money for shared costs and group gifts quickly becomes stressful and disorganised.
               </p>
               <ul className="feature-list">
-                <li>Coordinating one shared gift fund instead of lots of smaller, uncoordinated presents[web:35][web:148]</li>
-                <li>Splitting housewarming party costs like food, drinks, decorations, and cleaning[web:82][web:132]</li>
-                <li>Helping new homeowners or renters cover useful home essentials via a pooled fund[web:141][web:143][web:144]</li>
-                <li>Managing contributions from friends, colleagues, and family across different locations[web:140][web:39]</li>
-                <li>Avoiding duplicate or impractical gifts by aligning spending with wish lists and registries[web:138][web:142][web:135]</li>
-                <li>Keeping to deadlines tied to move‑in dates, handover dates, or the housewarming party itself[web:141]</li>
+                <li>Shared expenses for BBQs, picnics, potlucks, and block parties</li>
+                <li>Group gifts or appreciation gestures for hosts, veterans, or community leaders</li>
+                <li>Decorations, fireworks, and entertainment costs split across multiple people</li>
+                <li>Contributors spread across different households, cities, or time zones</li>
+                <li>Multiple events across the Independence Day weekend</li>
+                <li>Deadlines tied to public holidays, booking dates, and event timings</li>
               </ul>
             </div>
 
             <div className="industry-section">
-              <h2>Housewarming Contribution Use Cases</h2>
+              <h2>Independence Day Contribution Use Cases</h2>
 
               <div className="use-case-card">
-                <h3>🎁 Group New Home Gift Funds</h3>
+                <h3>🎆 Party & BBQ Contributions</h3>
                 <p>
-                  Create a shared gift fund so everyone can chip in and the recipient can choose a meaningful housewarming gift, voucher, or a mix of items that suit their new space.[web:35][web:141][web:148]
+                  Organize contributions for Independence Day BBQs, picnics, or house parties. Share costs for food, drinks, decorations, and fireworks so one person is not left paying for everything.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with move‑in or housewarming date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with party or BBQ date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🏡 Home Essentials & Setup Funds</h3>
+                <h3>🎁 Group Gift & Appreciation Funds</h3>
                 <p>
-                  Organize contributions to cover practical home essentials such as kitchenware, small appliances, décor, or storage solutions, especially helpful for first‑time movers.[web:141][web:143][web:144]
+                  Coordinate a shared gift or appreciation fund for hosts, veterans, community leaders, or special guests. Pool contributions from family, neighbours, colleagues, and friends in one secure place.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with move‑in or first month in the home as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with celebration or presentation date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🎉 Housewarming Party Expenses</h3>
+                <h3>🏡 Neighbourhood & Block Events</h3>
                 <p>
-                  Split costs for the housewarming party itself, including food, drinks, decorations, music, and any hired help, so hosting is a shared effort.[web:82][web:132][web:51]
+                  Collect contributions for street parties, building events, or neighbourhood gatherings. Manage shared costs for permits, shared grills, entertainment, and communal decorations.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with party date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with event date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🏢 Workplace Housewarming & Relocation Gifts</h3>
+                <h3>🏢 Workplace Independence Day Celebrations</h3>
                 <p>
-                  Coordinate contributions from colleagues for a joint housewarming gift or relocation support when a teammate buys or moves into a new home.[web:35][web:42][web:55]
+                  Organize contributions for office Independence Day lunches, themed treats, or staff gift cards. Make it easy for colleagues to chip in digitally instead of handling cash collections.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with gift presentation or last day in the old office as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with office celebration date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>👨‍👩‍👧 Family & Close-Friends Welcome Gifts</h3>
+                <h3>🎪 Community Events & Fundraisers</h3>
                 <p>
-                  Create a private group for family and close friends to contribute towards larger, long‑term items like furniture, mattresses, or renovation vouchers.[web:138][web:143][web:146]
+                  Coordinate contributions for community events, local parades, charity drives, or Independence Day fundraisers. Track contributions clearly and keep organisers aligned on available budgets.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with key delivery or first‑visit date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with event or campaign end date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🌍 Remote & Virtual Housewarmings</h3>
+                <h3>🎇 Shared Fireworks & Entertainment</h3>
                 <p>
-                  Use a contribution group when supporters cannot attend in person, combining a digital card, messages, and a shared fund into one organised experience.[web:148][web:55][web:142]
+                  Pool money for shared fireworks, entertainment, games, or activities so everyone can enjoy more while spending less individually. Keep contribution status visible to all participants.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with virtual tour or online celebration date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with Independence Day evening as deadline</p>
               </div>
             </div>
 
             <div className="industry-section">
-              <h2>Key Features for Housewarming Contributions</h2>
+              <h2>Key Features for Independence Day Contributions</h2>
               <div className="features-grid">
                 <div className="feature-item">
                   <div className="feature-icon">📅</div>
                   <h3>Deadline Management</h3>
-                  <p>Set deadlines around move‑in dates, housewarming parties, or gift‑giving moments so funds arrive when they are needed.[web:141]</p>
+                  <p>Set deadlines around Independence Day and related events so funds are ready before bookings, shopping, or fireworks purchases.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🔔</div>
                   <h3>Automatic Reminders</h3>
-                  <p>Send reminders to friends, family, and colleagues so they do not forget to contribute during a busy moving period.[web:132][web:51]</p>
+                  <p>Send reminders to friends, neighbours, and colleagues so they do not forget to contribute before the holiday rush.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🎁</div>
-                  <h3>Gift Coordination</h3>
-                  <p>Align contributions with wish lists or registries to avoid duplicate gifts and focus on what the recipient really wants.[web:138][web:142][web:135]</p>
+                  <h3>Gift & Event Coordination</h3>
+                  <p>Use contribution tracking to coordinate group gifts and shared event costs, avoiding last-minute shortfalls or confusion.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">📊</div>
                   <h3>Transparency</h3>
-                  <p>See total funds and contributions at a glance, keeping expectations clear and avoiding awkward money conversations.[web:140][web:132][web:39]</p>
+                  <p>See who has contributed and how close you are to your target, keeping everyone aligned and informed.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✅</div>
                   <h3>Payment Confirmation</h3>
-                  <p>Two-step confirmation ensures every contribution is recorded before ordering gifts, hampers, or party supplies.[web:82][web:137]</p>
+                  <p>Two-step confirmation ensures every contribution is verified before placing orders or finalising event plans.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">👥</div>
                   <h3>Multiple Groups</h3>
-                  <p>Create separate groups for workplace, friend, and family contributions, each with its own tone, target, and deadline.[web:35][web:55]</p>
+                  <p>Create separate groups for family, workplace, and community events while keeping each Independence Day plan organised.</p>
                 </div>
               </div>
             </div>
 
             <div className="industry-section">
-              <h2>Best Practices for Housewarming Contributions</h2>
+              <h2>Best Practices for Independence Day Contributions</h2>
               <ul className="best-practices-list">
-                <li><strong>Define the Goal:</strong> Decide whether the group is funding a gift card, hamper, practical essentials, a party, or a mix, and communicate that clearly.[web:141][web:143]</li>
-                <li><strong>Use Wish Lists:</strong> Connect contributions to a housewarming list or registry so funds turn into items the recipient genuinely needs.[web:138][web:142][web:135]</li>
-                <li><strong>Set Fair Contribution Ranges:</strong> Suggest a range that fits your group’s budget while allowing people to give more or less as they wish.[web:39][web:137]</li>
-                <li><strong>Separate Contexts:</strong> Keep work, family, and friendship circles in distinct groups to match different expectations and gift styles.[web:42][web:55]</li>
-                <li><strong>Share Progress Updates:</strong> Let contributors see how close you are to the target so they can top up or invite others if needed.[web:35][web:140]</li>
-                <li><strong>Record for Thank-Yous:</strong> Use contribution records to send personalised thanks and share photos of the new home and gifts.[web:35][web:148]</li>
+                <li><strong>Plan Early:</strong> Set up groups well before Independence Day so people have time to contribute and organisers can plan properly.</li>
+                <li><strong>Set Clear Goals:</strong> Define what the money will cover (food, fireworks, decorations, gifts, or charity) and share the target amount.</li>
+                <li><strong>Match Event Dates:</strong> Tie deadlines to specific event dates or shopping days to avoid last-minute pressure.</li>
+                <li><strong>Use Separate Groups:</strong> Keep family, workplace, and neighbourhood contributions in separate groups to avoid mixing budgets.</li>
+                <li><strong>Share Progress:</strong> Post updates on how close you are to your goal so people can top up if needed.</li>
+                <li><strong>Respect Budgets:</strong> Offer suggested amounts but allow flexible contributions so everyone can participate comfortably.</li>
+                <li><strong>Track for Follow-Up:</strong> Use contribution records for sending thank-you messages or sharing photos after the celebration.</li>
               </ul>
             </div>
 
             <div className="industry-section">
-              <h2>Getting Started with Housewarming Contributions</h2>
+              <h2>Getting Started with Independence Day Contributions</h2>
               <p>
-                Ready to organize contributions for a housewarming? Follow these steps:
+                Ready to organize contributions for Independence Day? Follow these steps:
               </p>
               <ol className="steps-list">
-                <li>Decide the main purpose of the group (gift fund, party costs, essentials, or workplace collection).[web:35][web:140]</li>
-                <li>Estimate a target amount based on gifts or event costs and choose a deadline before the party or move‑in date.[web:141]</li>
-                <li>Set suggested contribution ranges that feel comfortable for your group while staying open to flexible amounts.[web:39][web:137]</li>
-                <li>Optionally link to a housewarming wish list or registry so people see how funds will be used.[web:138][web:142]</li>
-                <li>Create a General Group in GroupFund with the housewarming or move‑in date as the deadline.</li>
-                <li>Invite friends, colleagues, and family using invite codes or shareable links instead of sharing bank details.[web:140][web:55]</li>
-                <li>Track contributions and confirm payments as they arrive, then purchase gifts or cover party expenses from the group fund.[web:132][web:51]</li>
+                <li>Decide the main purpose of the group (party costs, group gift, fireworks, or community fundraiser).</li>
+                <li>Set a realistic target amount and choose a deadline a few days before Independence Day or your specific event.</li>
+                <li>Agree suggested contribution amounts or allow open contributions depending on your group.</li>
+                <li>Create a General Group in GroupFund with the event or Independence Day date as the deadline.</li>
+                <li>Invite families, neighbours, colleagues, and community members using invite codes or shareable links.</li>
+                <li>Track incoming contributions and confirm payments as they are received.</li>
+                <li>Use automated reminders close to the deadline so everyone who wants to join can contribute in time.</li>
               </ol>
             </div>
 
             <div className="industry-cta">
-              <h2>Start Organizing Your Housewarming Contributions</h2>
-              <p>Join friends, families, and workplaces using GroupFund to manage housewarming contributions and give every new home a warm, well-organised welcome.</p>
+              <h2>Start Organizing Your Independence Day Contributions</h2>
+              <p>Join families, workplaces, and communities using GroupFund to manage Independence Day contributions and celebrate together with less stress.</p>
               <div className="cta-buttons">
                 <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
@@ -168,10 +169,10 @@ export default function HousewarmingContributionsPage() {
             <div className="related-resources">
               <h2>Related Resources</h2>
               <div className="resources-grid">
-                <Link to="/use-cases/housewarming" className="resource-card">
-                  <span className="resource-icon">🏡</span>
-                  <h3>For Housewarmings</h3>
-                  <p>Learn about GroupFund for new home gifts and celebrations</p>
+                <Link to="/use-cases/independence-day" className="resource-card">
+                  <span className="resource-icon">🎆</span>
+                  <h3>For Independence Day</h3>
+                  <p>Learn about GroupFund for Independence Day gifts and celebrations</p>
                 </Link>
                 <Link to="/group-types/general-groups" className="resource-card">
                   <span className="resource-icon">👥</span>

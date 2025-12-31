@@ -98,6 +98,21 @@ import SeasonalPage from './pages/SeasonalPage'
 import HolidayContributionsPage from './pages/HolidayContributionsPage'
 import BackToSchoolContributionsPage from './pages/BackToSchoolContributionsPage'
 import WeddingSeasonContributionsPage from './pages/WeddingSeasonContributionsPage'
+import NewYearContributionsPage from './pages/NewYearContributionsPage'
+import ValentineContributionsPage from './pages/ValentineContributionsPage'
+import EasterContributionsPage from './pages/EasterContributionsPage'
+import MothersDayContributionsPage from './pages/MothersDayContributionsPage'
+import TeacherAppreciationContributionsPage from './pages/TeacherAppreciationContributionsPage'
+import GraduationContributionsPage from './pages/GraduationContributionsPage'
+import FathersDayContributionsPage from './pages/FathersDayContributionsPage'
+import IndependenceDayContributionsPage from './pages/IndependenceDayContributionsPage'
+import LaborDayContributionsPage from './pages/LaborDayContributionsPage'
+import HalloweenContributionsPage from './pages/HalloweenContributionsPage'
+import DiwaliContributionsPage from './pages/DiwaliContributionsPage'
+import BabyShowerContributionsPage from './pages/BabyShowerContributionsPage'
+import HousewarmingContributionsPage from './pages/HousewarmingContributionsPage'
+import OfficePartyContributionsPage from './pages/OfficePartyContributionsPage'
+import ThanksgivingContributionsPage from './pages/ThanksgivingContributionsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -169,6 +184,8 @@ import FitnessBlissPage from './pages/FitnessBlissPage'
 import MindbodyFamilyPage from './pages/MindbodyFamilyPage'
 import PlanetFitnessPage from './pages/PlanetFitnessPage'
 import GetStartedPage from './pages/GetStartedPage'
+
+
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -322,6 +339,21 @@ function App() {
         <Route path="/seasonal/holiday-contributions" element={<Layout><HolidayContributionsPage /></Layout>} />
         <Route path="/seasonal/back-to-school-contributions" element={<Layout><BackToSchoolContributionsPage /></Layout>} />
         <Route path="/seasonal/wedding-season-contributions" element={<Layout><WeddingSeasonContributionsPage /></Layout>} />
+        <Route path="/seasonal/new-year-contributions" element={<Layout><NewYearContributionsPage /></Layout>} />
+          <Route path="/seasonal/valentine-contributions" element={<Layout><ValentineContributionsPage /></Layout>} />
+          <Route path="/seasonal/easter-contributions" element={<Layout><EasterContributionsPage /></Layout>} />
+          <Route path="/seasonal/mothers-day-contributions" element={<Layout><MothersDayContributionsPage /></Layout>} />
+          <Route path="/seasonal/teacher-appreciation-contributions" element={<Layout><TeacherAppreciationContributionsPage /></Layout>} />
+          <Route path="/seasonal/graduation-contributions" element={<Layout><GraduationContributionsPage /></Layout>} />
+          <Route path="/seasonal/fathers-day-contributions" element={<Layout><FathersDayContributionsPage /></Layout>} />
+          <Route path="/seasonal/independence-day-contributions" element={<Layout><IndependenceDayContributionsPage /></Layout>} />
+          <Route path="/seasonal/labor-day-contributions" element={<Layout><LaborDayContributionsPage /></Layout>} />
+          <Route path="/seasonal/baby-shower-contributions" element={<Layout><BabyShowerContributionsPage /></Layout>} />
+          <Route path="/seasonal/housewarming-contributions" element={<Layout><HousewarmingContributionsPage /></Layout>} />
+          <Route path="/seasonal/office-party-contributions" element={<Layout><OfficePartyContributionsPage /></Layout>} />
+          <Route path="/seasonal/thanksgiving-contributions" element={<Layout><ThanksgivingContributionsPage /></Layout>} />
+          <Route path="/seasonal/halloween-contributions" element={<Layout><HalloweenContributionsPage /></Layout>} />
+          <Route path="/seasonal/diwali-contributions" element={<Layout><DiwaliContributionsPage /></Layout>} /> 
         <Route path="/subscription-groups" element={<Layout><SubscriptionGroupPage /></Layout>} />
         <Route path="/subscription-groups/netflix" element={<Layout><NetflixPage /></Layout>} />
         <Route path="/subscription-groups/spotify" element={<Layout><SpotifyPage /></Layout>} />

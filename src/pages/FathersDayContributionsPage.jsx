@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
-export default function HousewarmingContributionsPage() {
+export default function FathersDayContributionsPage() {
   return (
     <>
       <SEO
-        title="Housewarming Group Contributions - Gifts, Parties & Home Essentials | GroupFund"
-        description="Organize group contributions for housewarming celebrations. Manage gift funds, party expenses, and home essentials with ease for friends, colleagues, and family members."
-        keywords="housewarming group contributions, new home gift fund, housewarming party expenses, home essentials fund, workplace housewarming gifts, welcome home contributions"
-        canonical="https://www.groupfund.app/seasonal/housewarming-contributions"
+        title="Father's Day Group Contributions - Gifts, Brunch & Family Gatherings | GroupFund"
+        description="Organize group contributions for Father's Day celebrations. Manage Father's Day gift funds, brunch contributions, and family gathering expenses with GroupFund."
+        keywords="father's day group contributions, father's day gift funds, family brunch contributions, workplace father's day gifts, community father's day collections, dad appreciation funds"
+        canonical="https://www.groupfund.app/seasonal/fathers-day-contributions"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Housewarming Contributions</h1>
+          <h1 className="page-title">Father's Day Contributions</h1>
           <p className="page-subtitle">
-            Organize group contributions for housewarming celebrations. Manage gift funds, party expenses, and home essentials with ease for friends, colleagues, and family members welcoming someone to their new home.
+            Organize group contributions for Father's Day celebrations. Manage gift funds, brunch contributions, and family gathering expenses with ease for families, workplaces, and communities.
           </p>
         </div>
       </section>
@@ -26,139 +26,140 @@ export default function HousewarmingContributionsPage() {
         <div className="container">
           <div className="industry-content">
             <div className="industry-section">
-              <h2>Why Housewarming Contributions Need Organization</h2>
+              <h2>Why Father's Day Contributions Need Organization</h2>
               <p>
-                Housewarmings often involve multiple people wanting to contribute to gifts, parties, and practical home essentials, which quickly becomes messy when handled through ad‑hoc transfers and group chats.[web:140][web:35]
+                Father&apos;s Day often involves multiple people wanting to show appreciation at the same time. Without structure, collecting money for gifts, brunches, and family events quickly becomes confusing and time-consuming.
               </p>
               <ul className="feature-list">
-                <li>Coordinating one shared gift fund instead of lots of smaller, uncoordinated presents[web:35][web:148]</li>
-                <li>Splitting housewarming party costs like food, drinks, decorations, and cleaning[web:82][web:132]</li>
-                <li>Helping new homeowners or renters cover useful home essentials via a pooled fund[web:141][web:143][web:144]</li>
-                <li>Managing contributions from friends, colleagues, and family across different locations[web:140][web:39]</li>
-                <li>Avoiding duplicate or impractical gifts by aligning spending with wish lists and registries[web:138][web:142][web:135]</li>
-                <li>Keeping to deadlines tied to move‑in dates, handover dates, or the housewarming party itself[web:141]</li>
+                <li>Siblings and extended family contributing to a shared Father&apos;s Day gift</li>
+                <li>Workplaces organising joint gifts or experiences for team dads or managers</li>
+                <li>Communities, schools, or clubs coordinating appreciation gifts and events</li>
+                <li>Shared costs for family brunches, dinners, and at-home celebrations</li>
+                <li>Multiple contributors in different locations and time zones</li>
+                <li>Deadlines tied to Father&apos;s Day weekend, work celebrations, or school dates</li>
               </ul>
             </div>
 
             <div className="industry-section">
-              <h2>Housewarming Contribution Use Cases</h2>
+              <h2>Father's Day Contribution Use Cases</h2>
 
               <div className="use-case-card">
-                <h3>🎁 Group New Home Gift Funds</h3>
+                <h3>🎁 Shared Father&apos;s Day Gift Funds</h3>
                 <p>
-                  Create a shared gift fund so everyone can chip in and the recipient can choose a meaningful housewarming gift, voucher, or a mix of items that suit their new space.[web:35][web:141][web:148]
+                  Organize contributions from siblings, partners, and extended family towards a main Father&apos;s Day gift like tech, hobby gear, or an experience. Keep everything in one place and track who has contributed.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with move‑in or housewarming date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with Father&apos;s Day date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🏡 Home Essentials & Setup Funds</h3>
+                <h3>🍳 Father&apos;s Day Brunch & Meals</h3>
                 <p>
-                  Organize contributions to cover practical home essentials such as kitchenware, small appliances, décor, or storage solutions, especially helpful for first‑time movers.[web:141][web:143][web:144]
+                  Coordinate contributions for Father&apos;s Day brunch, lunch, dinner, or BBQ. Share costs for reservations, groceries, drinks, and desserts so one person is not left covering everything.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with move‑in or first month in the home as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with meal date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🎉 Housewarming Party Expenses</h3>
+                <h3>🏢 Workplace & Team Gifts</h3>
                 <p>
-                  Split costs for the housewarming party itself, including food, drinks, decorations, music, and any hired help, so hosting is a shared effort.[web:82][web:132][web:51]
+                  Organize group gifts from colleagues for team members who are dads, or for a manager who feels like a work dad. Collect contributions from the whole office and add a shared card or message.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with party date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with office celebration date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🏢 Workplace Housewarming & Relocation Gifts</h3>
+                <h3>🏟️ Experience & Activity Funds</h3>
                 <p>
-                  Coordinate contributions from colleagues for a joint housewarming gift or relocation support when a teammate buys or moves into a new home.[web:35][web:42][web:55]
+                  Coordinate contributions for experiences like match tickets, spa days, golf outings, restaurant vouchers, or family days out. Turn small contributions from many people into a memorable experience.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with gift presentation or last day in the old office as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with experience date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>👨‍👩‍👧 Family & Close-Friends Welcome Gifts</h3>
+                <h3>👨‍👧‍👦 Gifts from Kids, Classes & Clubs</h3>
                 <p>
-                  Create a private group for family and close friends to contribute towards larger, long‑term items like furniture, mattresses, or renovation vouchers.[web:138][web:143][web:146]
+                  Organize contributions from kids, classes, or youth groups to celebrate dads, stepdads, carers, coaches, or father figures. Make it easy for parents to contribute online instead of sending cash to school or practice.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with key delivery or first‑visit date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with school or club event date as deadline</p>
               </div>
 
               <div className="use-case-card">
-                <h3>🌍 Remote & Virtual Housewarmings</h3>
+                <h3>🌍 Community & Charity-Focused Gifts</h3>
                 <p>
-                  Use a contribution group when supporters cannot attend in person, combining a digital card, messages, and a shared fund into one organised experience.[web:148][web:55][web:142]
+                  Coordinate contributions for charity donations or community projects in honour of Father&apos;s Day, such as sponsoring a cause or supporting a dad-focused charity selected by the group.
                 </p>
-                <p><strong>Best Group Type:</strong> General Groups with virtual tour or online celebration date as deadline</p>
+                <p><strong>Best Group Type:</strong> General Groups with campaign end date as deadline</p>
               </div>
             </div>
 
             <div className="industry-section">
-              <h2>Key Features for Housewarming Contributions</h2>
+              <h2>Key Features for Father&apos;s Day Contributions</h2>
               <div className="features-grid">
                 <div className="feature-item">
                   <div className="feature-icon">📅</div>
                   <h3>Deadline Management</h3>
-                  <p>Set deadlines around move‑in dates, housewarming parties, or gift‑giving moments so funds arrive when they are needed.[web:141]</p>
+                  <p>Set deadlines around Father&apos;s Day weekend, office celebrations, or family events so contributions arrive on time.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🔔</div>
                   <h3>Automatic Reminders</h3>
-                  <p>Send reminders to friends, family, and colleagues so they do not forget to contribute during a busy moving period.[web:132][web:51]</p>
+                  <p>Send reminders to siblings, colleagues, and community members so no one forgets to contribute before the deadline.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">🎁</div>
                   <h3>Gift Coordination</h3>
-                  <p>Align contributions with wish lists or registries to avoid duplicate gifts and focus on what the recipient really wants.[web:138][web:142][web:135]</p>
+                  <p>Use contribution tracking to coordinate one main gift from the group and avoid duplicate or last-minute purchases.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">📊</div>
                   <h3>Transparency</h3>
-                  <p>See total funds and contributions at a glance, keeping expectations clear and avoiding awkward money conversations.[web:140][web:132][web:39]</p>
+                  <p>See contributions at a glance, keeping group finances clear, fair, and easy to manage for everyone involved.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">✅</div>
                   <h3>Payment Confirmation</h3>
-                  <p>Two-step confirmation ensures every contribution is recorded before ordering gifts, hampers, or party supplies.[web:82][web:137]</p>
+                  <p>Two-step confirmation ensures every contribution is verified before booking experiences or buying gifts.</p>
                 </div>
                 <div className="feature-item">
                   <div className="feature-icon">👥</div>
                   <h3>Multiple Groups</h3>
-                  <p>Create separate groups for workplace, friend, and family contributions, each with its own tone, target, and deadline.[web:35][web:55]</p>
+                  <p>Create separate groups for family, workplace, and community contributions while keeping each celebration organised.</p>
                 </div>
               </div>
             </div>
 
             <div className="industry-section">
-              <h2>Best Practices for Housewarming Contributions</h2>
+              <h2>Best Practices for Father&apos;s Day Contributions</h2>
               <ul className="best-practices-list">
-                <li><strong>Define the Goal:</strong> Decide whether the group is funding a gift card, hamper, practical essentials, a party, or a mix, and communicate that clearly.[web:141][web:143]</li>
-                <li><strong>Use Wish Lists:</strong> Connect contributions to a housewarming list or registry so funds turn into items the recipient genuinely needs.[web:138][web:142][web:135]</li>
-                <li><strong>Set Fair Contribution Ranges:</strong> Suggest a range that fits your group’s budget while allowing people to give more or less as they wish.[web:39][web:137]</li>
-                <li><strong>Separate Contexts:</strong> Keep work, family, and friendship circles in distinct groups to match different expectations and gift styles.[web:42][web:55]</li>
-                <li><strong>Share Progress Updates:</strong> Let contributors see how close you are to the target so they can top up or invite others if needed.[web:35][web:140]</li>
-                <li><strong>Record for Thank-Yous:</strong> Use contribution records to send personalised thanks and share photos of the new home and gifts.[web:35][web:148]</li>
+                <li><strong>Plan Ahead:</strong> Create Father&apos;s Day groups a couple of weeks before the day so people can budget and contribute comfortably.</li>
+                <li><strong>Define the Goal:</strong> Be clear about whether funds are for a gift, brunch, experience, charity donation, or a mix.</li>
+                <li><strong>Match Key Dates:</strong> Set deadlines a few days before Father&apos;s Day or the planned celebration so you have time to buy or book.</li>
+                <li><strong>Use Separate Groups:</strong> Keep family, workplace, and community contributions in separate groups to avoid confusion.</li>
+                <li><strong>Share Regular Updates:</strong> Post progress updates so contributors can see how close you are to the target amount.</li>
+                <li><strong>Offer Flexible Amounts:</strong> Allow people to contribute different amounts so everyone can participate comfortably.</li>
+                <li><strong>Record Contributors:</strong> Keep a list of contributors in GroupFund to make follow-up thank-you messages easy.</li>
               </ul>
             </div>
 
             <div className="industry-section">
-              <h2>Getting Started with Housewarming Contributions</h2>
+              <h2>Getting Started with Father&apos;s Day Contributions</h2>
               <p>
-                Ready to organize contributions for a housewarming? Follow these steps:
+                Ready to organize contributions for Father&apos;s Day? Follow these steps:
               </p>
               <ol className="steps-list">
-                <li>Decide the main purpose of the group (gift fund, party costs, essentials, or workplace collection).[web:35][web:140]</li>
-                <li>Estimate a target amount based on gifts or event costs and choose a deadline before the party or move‑in date.[web:141]</li>
-                <li>Set suggested contribution ranges that feel comfortable for your group while staying open to flexible amounts.[web:39][web:137]</li>
-                <li>Optionally link to a housewarming wish list or registry so people see how funds will be used.[web:138][web:142]</li>
-                <li>Create a General Group in GroupFund with the housewarming or move‑in date as the deadline.</li>
-                <li>Invite friends, colleagues, and family using invite codes or shareable links instead of sharing bank details.[web:140][web:55]</li>
-                <li>Track contributions and confirm payments as they arrive, then purchase gifts or cover party expenses from the group fund.[web:132][web:51]</li>
+                <li>Decide what the group is contributing towards (gift, brunch, experience, or charity donation).</li>
+                <li>Set a realistic target amount and choose a deadline a few days before Father&apos;s Day or the event.</li>
+                <li>Agree suggested contribution amounts or let people give what works for their budget.</li>
+                <li>Create a General Group in GroupFund with the relevant Father&apos;s Day or celebration date as the deadline.</li>
+                <li>Invite family members, colleagues, and community participants using invite codes or shareable links.</li>
+                <li>Track incoming contributions and confirm payments as they arrive in the group.</li>
+                <li>Use automated reminders near the deadline so everyone who wants to contribute gets the chance.</li>
               </ol>
             </div>
 
             <div className="industry-cta">
-              <h2>Start Organizing Your Housewarming Contributions</h2>
-              <p>Join friends, families, and workplaces using GroupFund to manage housewarming contributions and give every new home a warm, well-organised welcome.</p>
+              <h2>Start Organizing Your Father&apos;s Day Contributions</h2>
+              <p>Join families, workplaces, and communities using GroupFund to manage Father&apos;s Day contributions and celebrate the dads and father figures who matter most.</p>
               <div className="cta-buttons">
                 <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
@@ -168,15 +169,15 @@ export default function HousewarmingContributionsPage() {
             <div className="related-resources">
               <h2>Related Resources</h2>
               <div className="resources-grid">
-                <Link to="/use-cases/housewarming" className="resource-card">
-                  <span className="resource-icon">🏡</span>
-                  <h3>For Housewarmings</h3>
-                  <p>Learn about GroupFund for new home gifts and celebrations</p>
+                <Link to="/use-cases/fathers-day" className="resource-card">
+                  <span className="resource-icon">👨‍👧‍👦</span>
+                  <h3>For Father&apos;s Day</h3>
+                  <p>Learn about GroupFund for Father&apos;s Day gifts and celebrations</p>
                 </Link>
                 <Link to="/group-types/general-groups" className="resource-card">
                   <span className="resource-icon">👥</span>
                   <h3>General Groups</h3>
-                  <p>Learn about General Groups for events and celebrations</p>
+                  <p>Learn about General Groups for events and occasions</p>
                 </Link>
                 <Link to="/resources/managing-event-contributions" className="resource-card">
                   <span className="resource-icon">🎊</span>
