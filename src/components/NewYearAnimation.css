@@ -1,0 +1,109 @@
+.newyear-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  
+  .confetti {
+    position: absolute;
+    top: -20px;
+    user-select: none;
+    pointer-events: none;
+    animation: confettifall linear infinite;
+    opacity: 0.8;
+  }
+  
+  .confetti.rect {
+    border-radius: 2px;
+  }
+  
+  .confetti.circle {
+    border-radius: 50%;
+  }
+  
+  @keyframes confettifall {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(50vh) rotate(360deg);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(100vh) rotate(720deg);
+      opacity: 0;
+    }
+  }
+  
+  .happy-newyear-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    pointer-events: none;
+    animation: sparkle 2s ease-in-out infinite;
+  }
+  
+  .happy-newyear-text {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(217, 119, 6, 0.9) 100%);
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+  }
+  
+  @keyframes sparkle {
+    0%, 100% {
+      opacity: 1;
+      transform: translateX(-50%) scale(1);
+    }
+    50% {
+      opacity: 0.9;
+      transform: translateX(-50%) scale(1.05);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .happy-newyear-text {
+      font-size: 0.85rem;
+      padding: 10px 20px;
+    }
+    
+    .confetti {
+      width: 6px !important;
+      height: 6px !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .happy-newyear-text {
+      font-size: 0.75rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .confetti {
+      animation: none;
+      display: none;
+    }
+    
+    .happy-newyear-message {
+      animation: none;
+    }
+  }
