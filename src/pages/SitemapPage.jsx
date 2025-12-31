@@ -14,7 +14,8 @@ export default function SitemapPage() {
         { path: "/coming-soon-features", label: "Coming Soon Features" },
         { path: "/download", label: "Download" },
         { path: "/pricing", label: "Pricing" },
-        { path: "/waitlist", label: "Join Waitlist" }
+        { path: "/waitlist", label: "Join Waitlist" },
+        { path: "/get-started", label: "Get Started" }
       ]
     },
     {
@@ -62,8 +63,7 @@ export default function SitemapPage() {
         { path: "/subscription-groups/apple-fitness-plus", label: "Apple Fitness+ Subscription Groups" },
         { path: "/subscription-groups/fitness-bliss", label: "Fitness Bliss Subscription Groups" },
         { path: "/subscription-groups/mindbody-family", label: "Mindbody Family Subscription Groups" },
-        { path: "/subscription-groups/planet-fitness", label: "Planet Fitness Subscription Groups" },
-        { path: "/get-started", label: "Get Started" },
+        { path: "/subscription-groups/planet-fitness", label: "Planet Fitness Subscription Groups" }
       ]
     },
     {
@@ -212,7 +212,22 @@ export default function SitemapPage() {
         { path: "/seasonal", label: "Seasonal Overview" },
         { path: "/seasonal/holiday-contributions", label: "Holiday Contributions" },
         { path: "/seasonal/back-to-school-contributions", label: "Back to School Contributions" },
-        { path: "/seasonal/wedding-season-contributions", label: "Wedding Season Contributions" }
+        { path: "/seasonal/wedding-season-contributions", label: "Wedding Season Contributions" },
+        { path: "/seasonal/housewarming-contributions", label: "Housewarming Contributions" },
+        { path: "/seasonal/office-party-contributions", label: "Office Party Contributions" },
+        { path: "/seasonal/thanksgiving-contributions", label: "Thanksgiving Contributions" },
+        { path: "/seasonal/new-year-contributions", label: "New Year Contributions" },
+        { path: "/seasonal/valentine-contributions", label: "Valentine's Day Contributions" },
+        { path: "/seasonal/easter-contributions", label: "Easter Contributions" },
+        { path: "/seasonal/mothers-day-contributions", label: "Mother's Day Contributions" },
+        { path: "/seasonal/teacher-appreciation-contributions", label: "Teacher Appreciation Contributions" },
+        { path: "/seasonal/graduation-contributions", label: "Graduation Contributions" },
+        { path: "/seasonal/fathers-day-contributions", label: "Father's Day Contributions" },
+        { path: "/seasonal/independence-day-contributions", label: "Independence Day Contributions" },
+        { path: "/seasonal/labor-day-contributions", label: "Labor Day Contributions" },
+        { path: "/seasonal/halloween-contributions", label: "Halloween Contributions" },
+        { path: "/seasonal/diwali-contributions", label: "Diwali Contributions" },
+        { path: "/seasonal/baby-shower-contributions", label: "Baby Shower Contributions" },
       ]
     },
     {
@@ -241,6 +256,7 @@ export default function SitemapPage() {
     {
       category: "Blog Posts",
       links: [
+        { path: "/blog/how-to-organize-new-year-contributions-party-funds-2026", label: "How to Organize New Year Contributions and Party Funds in 2026" },
         { path: "/blog/how-to-organize-christmas-contributions-secret-santa-2025", label: "How to Organize Christmas Contributions and Secret Santa in 2025" },
         { path: "/blog/managing-group-contributions-during-holiday-seasons", label: "Managing Group Contributions During Holiday Seasons" },
         { path: "/blog/building-trust-contribution-groups-complete-guide", label: "Building Trust in Contribution Groups: A Complete Guide" },

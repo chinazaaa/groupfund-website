@@ -1032,6 +1032,108 @@ const pages = [
     changefreq: 'monthly',
     lastmod: currentDate
   },
+  
+  {
+    url: '/seasonal/valentine-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  
+  {
+    url: '/seasonal/easter-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  
+  {
+    url: '/seasonal/mothers-day-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  
+  {
+    url: '/seasonal/teacher-appreciation-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  
+  {
+    url: '/seasonal/graduation-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  
+  {
+    url: '/seasonal/fathers-day-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+    {
+    url: '/seasonal/independence-day-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/labor-day-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/halloween-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/diwali-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/baby-shower-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/housewarming-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/office-party-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/thanksgiving-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },    
+  {
+    url: '/seasonal/new-year-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/blog/how-to-organize-new-year-contributions-party-funds-2026',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
