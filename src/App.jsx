@@ -41,6 +41,7 @@ import CommunityOrganizationsUseCasePage from './pages/CommunityOrganizationsUse
 import SharedSubscriptionsUseCasePage from './pages/SharedSubscriptionsUseCasePage'
 import WeddingsUseCasePage from './pages/WeddingsUseCasePage'
 import BabyShowersUseCasePage from './pages/BabyShowersUseCasePage'
+import PartiesEventsUseCasePage from './pages/PartiesEventsUseCasePage'
 import GraduationsUseCasePage from './pages/GraduationsUseCasePage'
 import SportsTeamsUseCasePage from './pages/SportsTeamsUseCasePage'
 import HobbyGroupsUseCasePage from './pages/HobbyGroupsUseCasePage'
@@ -246,6 +247,7 @@ function App() {
         <Route path="/use-cases/shared-subscriptions" element={<Layout><SharedSubscriptionsUseCasePage /></Layout>} />
         <Route path="/use-cases/weddings" element={<Layout><WeddingsUseCasePage /></Layout>} />
         <Route path="/use-cases/baby-showers" element={<Layout><BabyShowersUseCasePage /></Layout>} />
+        <Route path="/use-cases/parties-and-events" element={<Layout><PartiesEventsUseCasePage /></Layout>} />
         <Route path="/use-cases/graduations" element={<Layout><GraduationsUseCasePage /></Layout>} />
         <Route path="/use-cases/sports-teams" element={<Layout><SportsTeamsUseCasePage /></Layout>} />
         <Route path="/use-cases/hobby-groups" element={<Layout><HobbyGroupsUseCasePage /></Layout>} />

@@ -158,6 +158,19 @@ export default function UseCasesPage() {
       ]
     },
     {
+      slug: 'parties-and-events',
+      title: 'For Parties & Events',
+      description: 'Plan group parties, birthdays, and nights out with General Groups. Create a shared event pot, set contribution amounts, and track who has paid before the big day. Perfect for organizers who don’t want to chase people for money.',
+      icon: '🥳',
+      keywords: 'party contributions, event fund, birthday group pot, party money collection, group event payments',
+      benefits: [
+        'Collect money for parties and events in one place',
+        'See who has paid and who still needs to contribute',
+        'Set deadlines so everyone pays before the event',
+        'Keep party expenses transparent for the whole group'
+      ]
+    },    
+    {
       slug: 'graduations',
       title: 'For Graduations',
       description: 'Organize graduation contributions and gifts with General Groups. Perfect for class groups, families, and friends celebrating graduation milestones together.',

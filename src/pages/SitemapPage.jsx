@@ -79,6 +79,7 @@ export default function SitemapPage() {
         { path: "/use-cases/shared-subscriptions", label: "For Shared Subscriptions" },
         { path: "/use-cases/weddings", label: "For Weddings" },
         { path: "/use-cases/baby-showers", label: "For Baby Showers" },
+        { path: "/use-cases/parties-and-events", label: "For Parties & Events" },
         { path: "/use-cases/graduations", label: "For Graduations" },
         { path: "/use-cases/sports-teams", label: "For Sports Teams" },
         { path: "/use-cases/hobby-groups", label: "For Hobby Groups" },

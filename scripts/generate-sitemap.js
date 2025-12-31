@@ -120,6 +120,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/use-cases/parties-and-events',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/use-cases/graduations',
     priority: '0.7',
     changefreq: 'monthly',
