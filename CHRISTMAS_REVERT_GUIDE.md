@@ -5,16 +5,16 @@ This document lists all Christmas 2025 SEO changes made on December 25, 2025, an
 ## ⚡ Quick Revert (Easiest Method)
 
 ### Option 1: Toggle Christmas Mode (RECOMMENDED)
-Change `CHRISTMAS_MODE` to `false` in **2 files**:
+Change `NEW_YEAR_MODE` to `false` in **2 files**:
 
 1. **`src/pages/HomePage.jsx`** (line 8):
 ```javascript
-const CHRISTMAS_MODE = false; // Change from true to false
+const NEW_YEAR_MODE = false; // Change from true to false
 ```
 
 2. **`src/components/Layout.jsx`** (line 7):
 ```javascript
-const CHRISTMAS_MODE = false; // Change from true to false
+const NEW_YEAR_MODE = false; // Change from true to false
 ```
 
 This will automatically:
@@ -89,8 +89,8 @@ To quickly revert all changes, you can use find/replace:
 - Replace: "Group Contributions | Birthday, Subscription & General Groups"
 
 ### In `src/pages/HomePage.jsx`:
-- Find: `const CHRISTMAS_MODE = true;`
-- Replace: `const CHRISTMAS_MODE = false;`
+- Find: `const NEW_YEAR_MODE = true;`
+- Replace: `const NEW_YEAR_MODE = false;`
 
 ## Date to Revert
 
