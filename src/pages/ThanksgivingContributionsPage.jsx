@@ -131,13 +131,13 @@ export default function ThanksgivingContributionsPage() {
             <div className="industry-section">
               <h2>Best Practices for Thanksgiving Contributions</h2>
               <ul className="best-practices-list">
-                <li><strong>Plan Early:</strong> Set up groups a couple of weeks before Thanksgiving so people can budget, RSVP, and contribute calmly.[web:111]</li>
-                <li><strong>Clarify the Purpose:</strong> Explain whether funds are for dinner, travel, gifts, charity, or a mix, and share a clear target amount.[web:109][web:114]</li>
-                <li><strong>Align with Key Dates:</strong> Tie deadlines to shopping days, travel dates, or office events to avoid last-minute pressure.[web:110]</li>
+                <li><strong>Plan Early:</strong> Set up groups a couple of weeks before Thanksgiving so people can budget, RSVP, and contribute calmly.</li>
+                <li><strong>Clarify the Purpose:</strong> Explain whether funds are for dinner, travel, gifts, charity, or a mix, and share a clear target amount.</li>
+                <li><strong>Align with Key Dates:</strong> Tie deadlines to shopping days, travel dates, or office events to avoid last-minute pressure.</li>
                 <li><strong>Separate Your Groups:</strong> Keep family, workplace, and community contributions in distinct groups to avoid mixing budgets or responsibilities.</li>
-                <li><strong>Share Progress:</strong> Post updates on progress toward the goal so contributors can decide whether to top up if needed.[web:111]</li>
-                <li><strong>Offer Flexible Amounts:</strong> Suggest contribution ranges while letting people give what fits their budget and circumstances.[web:82]</li>
-                <li><strong>Track for Gratitude:</strong> Use contribution records to send personalised thank-you messages and share photos after the holiday.[web:111]</li>
+                <li><strong>Share Progress:</strong> Post updates on progress toward the goal so contributors can decide whether to top up if needed.</li>
+                <li><strong>Offer Flexible Amounts:</strong> Suggest contribution ranges while letting people give what fits their budget and circumstances.</li>
+                <li><strong>Track for Gratitude:</strong> Use contribution records to send personalised thank-you messages and share photos after the holiday.</li>
               </ul>
             </div>
 
