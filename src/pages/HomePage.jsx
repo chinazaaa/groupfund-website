@@ -328,7 +328,7 @@ export default function HomePage() {
         <div className="container">
           <div className="cta-content">
             <h2 id="cta-heading" className="cta-title">Ready to Organize Your Group?</h2>
-            <p className="cta-subtitle">Join 100+ groups already on waitlist for GroupFund to manage their contributions</p>
+            <p className="cta-subtitle">Join 100+ groups already using GroupFund to manage their group contributions</p>
             <div className="app-store-badges">
               <a 
                 href="#" 
