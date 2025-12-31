@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import { useState, useCallback } from 'react'
 import Breadcrumbs from './Breadcrumbs'
-import ChristmasAnimation from './ChristmasAnimation'
+import NewYearAnimation from './NewYearAnimation'
 import './Layout.css'
 
-// 🎄 CHRISTMAS MODE: Set to false after Christmas season to remove animation
-const NEW_YEAR_MODE= true
+// 🎉 NEW YEAR MODE: Set to false after New Year season to remove animation
+const NEW_YEAR_MODE = true
 
 export default function Layout({ children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -20,7 +20,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="App">
-      {NEW_YEAR_MODE && <ChristmasAnimation />}
+      {NEW_YEAR_MODE && <NewYearAnimation />}
       {/* Navigation */}
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <div className="container">
@@ -138,4 +138,3 @@ export default function Layout({ children }) {
     </div>
   )
 }
-
