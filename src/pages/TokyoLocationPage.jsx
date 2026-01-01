@@ -45,7 +45,7 @@ export default function TokyoLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Tokyo, Japan 🇯🇵</h1>
           <p className="page-subtitle">
-            Organize group contributions in Tokyo with GroupFund. Perfect for Tokyo families, communities, schools, and groups. [web:139][web:140]
+            Organize group contributions in Tokyo with GroupFund. Perfect for Tokyo families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function TokyoLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Tokyo</h2>
               <p>
-                Tokyo is Japan&apos;s capital and most populous city, with a huge metropolitan area and busy social life, which makes group gifts and shared contributions very common. [web:139][web:148]
+                Tokyo is Japan&apos;s capital and most populous city, with a huge metropolitan area and busy social life, which makes group gifts and shared contributions very common.
               </p>
               <p>
-                With support for Japanese Yen (JPY) and seamless bank transfers, GroupFund is ideal for Tokyo groups that need a simple and trusted way to manage shared contributions. [web:86][web:144]
+                With support for Japanese Yen (JPY) and seamless bank transfers, GroupFund is ideal for Tokyo groups that need a simple and trusted way to manage shared contributions.
               </p>
             </div>
 
@@ -67,11 +67,11 @@ export default function TokyoLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Tokyo Families</h3>
-                  <p>Organize group contributions for extended Tokyo families across wards like Shibuya, Shinjuku, and Minato. [web:139]</p>
+                  <p>Organize group contributions for extended Tokyo families across wards like Shibuya, Shinjuku, and Minato.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community Groups</h3>
-                  <p>Manage group contributions for neighborhood and community groups across the Tokyo metropolitan area. [web:155]</p>
+                  <p>Manage group contributions for neighborhood and community groups across the Tokyo metropolitan area.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Tokyo Workplaces</h3>
@@ -79,15 +79,15 @@ export default function TokyoLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Tokyo Schools & Universities</h3>
-                  <p>Perfect for universities, schools, and student groups in Tokyo organizing group contributions. [web:139]</p>
+                  <p>Perfect for universities, schools, and student groups in Tokyo organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>💰 JPY Support</h3>
-                  <p>The official currency in Tokyo is Japanese Yen (JPY), and GroupFund lets you set contribution amounts directly in JPY. [web:86][web:144]</p>
+                  <p>The official currency in Tokyo is Japanese Yen (JPY), and GroupFund lets you set contribution amounts directly in JPY.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>A mobile-first experience that fits Tokyo&apos;s fast-paced, always-on urban lifestyle. [web:151]</p>
+                  <p>A mobile-first experience that fits Tokyo&apos;s fast-paced, always-on urban lifestyle.</p>
                 </div>
               </div>
             </div>
