@@ -45,7 +45,7 @@ export default function BarcelonaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Barcelona, Spain 🇪🇸</h1>
           <p className="page-subtitle">
-            Organize group contributions in Barcelona with GroupFund. Perfect for Barcelona families, churches, schools, and groups. [web:101]
+            Organize group contributions in Barcelona with GroupFund. Perfect for Barcelona families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function BarcelonaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Barcelona</h2>
               <p>
-                Barcelona is one of Spain&apos;s largest and most important cities, known for its vibrant neighborhoods and busy social life, which makes group contributions common for many occasions. [web:101][web:103]
+                Barcelona is one of Spain&apos;s largest and most important cities, known for its vibrant neighborhoods and busy social life, which makes group contributions common for many occasions.
               </p>
               <p>
-                With support for Euro (EUR) and seamless bank transfers, GroupFund is perfect for Barcelona groups of all sizes. [web:106][web:118]
+                With support for Euro (EUR) and seamless bank transfers, GroupFund is perfect for Barcelona groups of all sizes.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export default function BarcelonaLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Barcelona Families</h3>
-                  <p>Organize group contributions for extended Barcelona families across districts like Eixample, Gràcia, and Sant Martí. [web:105]</p>
+                  <p>Organize group contributions for extended Barcelona families across districts like Eixample, Gràcia, and Sant Martí.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Barcelona Churches</h3>
@@ -79,15 +79,15 @@ export default function BarcelonaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Barcelona Schools & Universities</h3>
-                  <p>Perfect for Barcelona schools, universities, and student groups organizing group contributions. [web:101]</p>
+                  <p>Perfect for Barcelona schools, universities, and student groups organizing group contributions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>💰 EUR Support</h3>
-                  <p>Full support for Euro (EUR). Set contribution amounts in EUR, ideal for local bank transfers. [web:109][web:118]</p>
+                  <p>Full support for Euro (EUR). Set contribution amounts in EUR, ideal for local bank transfers.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Native mobile app that works great for Barcelona’s on-the-go lifestyle and busy city schedules. [web:108]</p>
+                  <p>Native mobile app that works great for Barcelona’s on-the-go lifestyle and busy city schedules.</p>
                 </div>
               </div>
             </div>
