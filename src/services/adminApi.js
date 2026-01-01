@@ -205,7 +205,11 @@ export const adminApi = {
       method: 'POST',
     });
   },
-
+  sendHappyNewYear: () => {
+    return apiRequest('/admin/notifications/send-happy-new-year', {
+      method: 'POST',
+    });
+  },
   // Waitlist Actions
   sendBetaInvitations: () => {
     return apiRequest('/admin/waitlist/send-beta-invitations', {

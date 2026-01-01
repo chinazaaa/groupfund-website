@@ -13,6 +13,7 @@ export default function AdminDashboard() {
   const [sendingNewsletter, setSendingNewsletter] = useState(false)
   const [triggeringOverdueReminders, setTriggeringOverdueReminders] = useState(false)
   const [sendingMerryChristmas, setSendingMerryChristmas] = useState(false)
+  const [sendingHappyNewYear, setSendingHappyNewYear] = useState(false)
   const [sendingBetaInvitations, setSendingBetaInvitations] = useState(false)
   const [testingBetaInvitation, setTestingBetaInvitation] = useState(false)
   const [testEmail, setTestEmail] = useState('')
@@ -116,6 +117,20 @@ export default function AdminDashboard() {
       setTimeout(() => setActionMessage(null), 5000)
     }
   }
+  const handleSendHappyNewYear = async () => {
+    try {
+      setSendingHappyNewYear(true)
+      setActionMessage(null)
+      await adminApi.sendHappyNewYear()
+      setActionMessage({ type: 'success', text: 'Happy New Year notifications sent successfully!' })
+    } catch (err) {
+      setActionMessage({ type: 'error', text: err.message || 'Failed to send Happy New Year notifications' })
+    } finally {
+      setSendingHappyNewYear(false)
+      setTimeout(() => setActionMessage(null), 5000)
+    }
+  }
+  
 
   const handleSendBetaInvitations = async () => {
     try {
@@ -218,6 +233,14 @@ export default function AdminDashboard() {
               >
                 {sendingMerryChristmas ? 'Sending...' : 'Send Merry Christmas'}
               </button>
+              <button
+  onClick={handleSendHappyNewYear}
+  disabled={sendingHappyNewYear}
+  className="btn-sm btn-primary"
+>
+  {sendingHappyNewYear ? 'Sending...' : 'Send Happy New Year'}
+</button>
+
               <button
                 onClick={handleSendBetaInvitations}
                 disabled={sendingBetaInvitations}
