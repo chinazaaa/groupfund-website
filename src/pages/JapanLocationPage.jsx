@@ -56,7 +56,7 @@ export default function JapanLocationPage() {
                 community groups, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
-                With support for Japanese Yen (JPY) and local bank details, GroupFund is designed to work seamlessly for Japanese groups. [web:86]
+                With support for Japanese Yen (JPY) and local bank details, GroupFund is designed to work seamlessly for Japanese groups.
               </p>
             </div>
 
@@ -66,13 +66,13 @@ export default function JapanLocationPage() {
                 <div className="feature-item">
                   <h3>🇯🇵 Japanese Yen (JPY) Support</h3>
                   <p>
-                    Full support for Japanese Yen. Set contribution amounts in JPY, and local bank details are displayed automatically. [web:86]
+                    Full support for Japanese Yen. Set contribution amounts in JPY, and local bank details are displayed automatically.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with common Japanese bank transfer methods such as furikomi. Members can transfer directly to celebrants' bank accounts. [web:87]
+                    Works with common Japanese bank transfer methods such as furikomi. Members can transfer directly to celebrants' bank accounts.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function JapanLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Native mobile app suited to Japan’s mobile users. Access from anywhere and get push notifications. [web:92]
+                    Native mobile app suited to Japan’s mobile users. Access from anywhere and get push notifications.
                   </p>
                 </div>
               </div>
@@ -130,16 +130,16 @@ export default function JapanLocationPage() {
               <h2>How It Works in Japan</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Japanese Yen (JPY) as the currency. [web:86]
+                  <strong>Create Your Group:</strong> Set up a group with Japanese Yen (JPY) as the currency.
                 </li>
                 <li>
-                  <strong>Set Contribution Amounts:</strong> Set amounts in JPY (e.g., ¥1,000, ¥3,000, or ¥5,000 per person). [web:89]
+                  <strong>Set Contribution Amounts:</strong> Set amounts in JPY (e.g., ¥1,000, ¥3,000, or ¥5,000 per person).
                 </li>
                 <li>
                   <strong>Add Member Birthdays:</strong> Add all group member birthdays to the calendar.
                 </li>
                 <li>
-                  <strong>Track Contributions:</strong> Members mark payments as paid after sending via their preferred bank transfer method. [web:87]
+                  <strong>Track Contributions:</strong> Members mark payments as paid after sending via their preferred bank transfer method.
                 </li>
                 <li>
                   <strong>Automatic Reminders:</strong> Get reminders 7 days before, 1 day before, and on deadline day.

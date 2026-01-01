@@ -45,7 +45,7 @@ export default function MilanLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Milan, Italy 🇮🇹</h1>
           <p className="page-subtitle">
-            Organize group contributions in Milan with GroupFund. Perfect for Milan families, churches, schools, and groups. [web:121][web:122]
+            Organize group contributions in Milan with GroupFund. Perfect for Milan families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function MilanLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Milan</h2>
               <p>
-                Milan is the capital of the Lombardy region and one of Italy&apos;s largest and most important cities, known as a global hub for fashion, finance, and business. [web:121][web:122][web:123]
+                Milan is the capital of the Lombardy region and one of Italy&apos;s largest and most important cities, known as a global hub for fashion, finance, and business.
               </p>
               <p>
-                With support for Euro (EUR) and seamless bank transfers, GroupFund is ideal for Milan groups that need a clear and trusted way to manage shared contributions. [web:46][web:126]
+                With support for Euro (EUR) and seamless bank transfers, GroupFund is ideal for Milan groups that need a clear and trusted way to manage shared contributions.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export default function MilanLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Milan Families</h3>
-                  <p>Organize group contributions for extended Milan families across neighborhoods and the wider metropolitan area. [web:121][web:125]</p>
+                  <p>Organize group contributions for extended Milan families across neighborhoods and the wider metropolitan area.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Milan Churches & Parishes</h3>
@@ -75,7 +75,7 @@ export default function MilanLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Milan Workplaces</h3>
-                  <p>Organize office birthday funds and team gifts for Milan&apos;s companies, agencies, and fashion houses. [web:122][web:123]</p>
+                  <p>Organize office birthday funds and team gifts for Milan&apos;s companies, agencies, and fashion houses.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Milan Schools & Universities</h3>
@@ -83,11 +83,11 @@ export default function MilanLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 EUR Support</h3>
-                  <p>The official currency in Milan is the Euro (EUR), and GroupFund lets you set contribution amounts directly in EUR. [web:46][web:129]</p>
+                  <p>The official currency in Milan is the Euro (EUR), and GroupFund lets you set contribution amounts directly in EUR.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>A mobile-first experience that fits Milan&apos;s fast-paced urban lifestyle and busy schedules. [web:136]</p>
+                  <p>A mobile-first experience that fits Milan&apos;s fast-paced urban lifestyle and busy schedules.</p>
                 </div>
               </div>
             </div>

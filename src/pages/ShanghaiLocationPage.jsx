@@ -45,7 +45,7 @@ export default function ShanghaiLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Shanghai, China 🇨🇳</h1>
           <p className="page-subtitle">
-            Organize group contributions in Shanghai with GroupFund. Perfect for Shanghai families, communities, schools, and groups. [web:157][web:158]
+            Organize group contributions in Shanghai with GroupFund. Perfect for Shanghai families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function ShanghaiLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Shanghai</h2>
               <p>
-                Shanghai is a direct-administered municipality and one of the most populous urban areas in the world, making organized group contributions especially valuable for busy families and teams. [web:157][web:160]
+                Shanghai is a direct-administered municipality and one of the most populous urban areas in the world, making organized group contributions especially valuable for busy families and teams.
               </p>
               <p>
-                With support for Chinese Yuan Renminbi (CNY) and seamless bank transfers, GroupFund is ideal for Shanghai groups that need a clear and trusted way to manage shared contributions. [web:78][web:162]
+                With support for Chinese Yuan Renminbi (CNY) and seamless bank transfers, GroupFund is ideal for Shanghai groups that need a clear and trusted way to manage shared contributions.
               </p>
             </div>
 
@@ -67,27 +67,27 @@ export default function ShanghaiLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Shanghai Families</h3>
-                  <p>Organize group contributions for extended Shanghai families across districts like Pudong, Huangpu, Jing’an, and Xuhui. [web:157][web:165]</p>
+                  <p>Organize group contributions for extended Shanghai families across districts like Pudong, Huangpu, Jing’an, and Xuhui.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Resident Groups</h3>
-                  <p>Manage group contributions for neighborhood committees and residential communities throughout Shanghai. [web:166][web:169]</p>
+                  <p>Manage group contributions for neighborhood committees and residential communities throughout Shanghai.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Shanghai Workplaces</h3>
-                  <p>Organize office birthday funds and team gifts for companies in Shanghai’s financial and commercial districts such as Lujiazui. [web:157][web:160]</p>
+                  <p>Organize office birthday funds and team gifts for companies in Shanghai’s financial and commercial districts such as Lujiazui.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Shanghai Schools & Universities</h3>
-                  <p>Perfect for schools, universities, and student groups in Shanghai organizing group contributions for staff and students. [web:164]</p>
+                  <p>Perfect for schools, universities, and student groups in Shanghai organizing group contributions for staff and students.</p>
                 </div>
                 <div className="feature-item">
                   <h3>💰 CNY Support</h3>
-                  <p>The official currency in Shanghai is the Chinese Yuan (CNY), and GroupFund lets you set contribution amounts directly in CNY. [web:78][web:162]</p>
+                  <p>The official currency in Shanghai is the Chinese Yuan (CNY), and GroupFund lets you set contribution amounts directly in CNY.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>A mobile-first experience that fits Shanghai’s fast-paced, tech-forward urban lifestyle. [web:160][web:166]</p>
+                  <p>A mobile-first experience that fits Shanghai’s fast-paced, tech-forward urban lifestyle.</p>
                 </div>
               </div>
             </div>
