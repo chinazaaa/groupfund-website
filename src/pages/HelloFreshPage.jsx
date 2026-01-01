@@ -7,17 +7,17 @@ export default function HelloFreshSubscriptionPage() {
   return (
     <>
       <SEO
-        title="Share HelloFresh Costs | Group Meal Kit Payment Tracking | GroupFund"
-        description="Share HelloFresh subscription costs with friends and family. Organize group payments for meal kits, track contributions, and split delivery costs fairly."
-        keywords="hellofresh group sharing, share hellofresh cost, hellofresh meal kit contributions, split hellofresh subscription, hellofresh group payments, meal kit cost sharing, hellofresh family plan"
+        title="HelloFresh Pricing & Cost Per Serving | Share Plan Costs with GroupFund"
+        description="See typical HelloFresh UK prices per box and cost per serving for 2–6 meals a week. Then use GroupFund to split your HelloFresh plan, track group payments, and share meal kit costs fairly."
+        keywords="hellofresh pricing, hellofresh cost per serving, hellofresh 2 meals a week cost, hellofresh plan pricing, hellofresh membership cost, hellofresh payment plans, hellofresh group sharing, share hellofresh cost, split hellofresh subscription, hellofresh group payments"
         canonical="https://www.groupfund.app/subscription-groups/hellofresh"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">🍽️ Share HelloFresh Costs</h1>
+          <h1 className="page-title">Share HelloFresh Costs & Pricing</h1>
           <p className="page-subtitle">
-            Split HelloFresh meal kits with friends, family, or housemates. Track payments, manage orders, and share delivery costs fairly.
+            See what HelloFresh really costs per box, then split the plan with friends, family, or housemates. Track payments, manage orders, and share delivery costs fairly.
           </p>
         </div>
       </section>
@@ -32,12 +32,33 @@ export default function HelloFreshSubscriptionPage() {
             </div>
 
             <div className="group-type-section">
+              <h2>Typical HelloFresh UK Pricing</h2>
+              <p>
+                HelloFresh prices can change over time and with promotions, but most UK plans work out at roughly £3.40–£7.99 per serving depending on how many people and recipes you choose.
+              </p>
+              <ul className="use-cases-list">
+                <li>
+                  <strong>2 people, 2 meals a week:</strong> around £26.99–£31.96 per box including delivery, which is roughly £6.75–£7.99 per serving.
+                </li>
+                <li>
+                  <strong>2 people, 5 meals a week:</strong> often closer to about £4.80 per serving when you order more recipes in one box.
+                </li>
+                <li>
+                  <strong>4 people, 5 meals a week:</strong> can drop to roughly £3.40 per serving on larger family boxes where you share more meals.
+                </li>
+              </ul>
+              <p>
+                Use GroupFund to split these HelloFresh box prices between your group so each person pays only their share of the total cost.
+              </p>
+            </div>
+
+            <div className="group-type-section">
               <h2>Why Share HelloFresh Costs?</h2>
               <div className="features-grid">
                 <div className="feature-item">
                   <h3>💰 Save Money</h3>
                   <p>
-                    Split a HelloFresh box (£3.99-£6.99 per serving) between 4 housemates and reduce individual meal costs dramatically while getting fresh ingredients delivered.
+                    Split a HelloFresh box (typically between £3.40–£7.99 per serving depending on plan size) between housemates and reduce individual meal costs while getting fresh ingredients delivered.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -77,7 +98,7 @@ export default function HelloFreshSubscriptionPage() {
               <h2>HelloFresh Plans You Can Share</h2>
               <ul className="use-cases-list">
                 <li>
-                  <strong>2-6 Meals/Week (2-4 People):</strong> Perfect family or housemate boxes with 3-6.99 per serving – split evenly for maximum savings.
+                  <strong>2–6 Meals/Week (2–4 People):</strong> Typical family or housemate boxes with pricing that ranges roughly from £3.40–£7.99 per serving depending on how many meals and people you include.
                 </li>
                 <li>
                   <strong>Vegetarian/Vegan Boxes:</strong> Dietary-specific plans that households with mixed preferences can share and contribute to proportionally.
@@ -138,7 +159,7 @@ export default function HelloFreshSubscriptionPage() {
             <div className="cta-box">
               <h2>Ready to Share HelloFresh Costs?</h2>
               <p>
-                Start your HelloFresh group today. Coordinate meal votes, track payments, send reminders, and split meal kit delivery fairly.
+                Start your HelloFresh group today. Compare plan pricing, coordinate meal votes, track payments, send reminders, and split meal kit delivery fairly.
               </p>
               <div className="cta-buttons">
                 <Link to="/waitlist" className="btn btn-primary btn-large">
@@ -153,10 +174,11 @@ export default function HelloFreshSubscriptionPage() {
             <div className="related-links">
               <h3>Related Subscription Services</h3>
               <div className="related-links-grid">
+                <Link to="/subscription-groups/gousto">Share Gousto Costs →</Link>
+                <Link to="/subscription-groups/blue-apron">Share Blue Apron Costs →</Link>
                 <Link to="/subscription-groups/netflix">Share Netflix Costs →</Link>
                 <Link to="/subscription-groups/spotify">Share Spotify Costs →</Link>
                 <Link to="/subscription-groups/amazon-prime">Share Amazon Prime Costs →</Link>
-                <Link to="/subscription-groups/canva-pro">Share Canva Pro Costs →</Link>
                 <Link to="/subscription-groups">View All Subscriptions →</Link>
               </div>
             </div>
