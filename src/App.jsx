@@ -150,6 +150,14 @@ import LondonLocationPage from './pages/LondonLocationPage'
 import MumbaiLocationPage from './pages/MumbaiLocationPage'
 import NairobiLocationPage from './pages/NairobiLocationPage'
 import MexicoCityLocationPage from './pages/MexicoCityLocationPage'
+import SpainLocationPage from './pages/SpainLocationPage'
+import ItalyLocationPage from './pages/ItalyLocationPage'
+import ChinaLocationPage from './pages/ChinaLocationPage'
+import JapanLocationPage from './pages/JapanLocationPage'
+import BarcelonaLocationPage from './pages/BarcelonaLocationPage'
+import MilanLocationPage from './pages/MilanLocationPage'
+import TokyoLocationPage from './pages/TokyoLocationPage'
+import ShanghaiLocationPage from './pages/ShanghaiLocationPage'
 import SubscriptionGroupPage from './pages/SubscriptionGroupPage'
 import NetflixPage from './pages/NetflixPage'
 import SpotifyPage from './pages/SpotifyPage'
@@ -292,6 +300,14 @@ function App() {
         <Route path="/locations/india" element={<Layout><IndiaLocationPage /></Layout>} />
         <Route path="/locations/kenya" element={<Layout><KenyaLocationPage /></Layout>} />
         <Route path="/locations/mexico" element={<Layout><MexicoLocationPage /></Layout>} />
+        <Route path="/locations/spain" element={<Layout><SpainLocationPage /></Layout>} />
+        <Route path="/locations/italy" element={<Layout><ItalyLocationPage /></Layout>} />
+        <Route path="/locations/china" element={<Layout><ChinaLocationPage /></Layout>} />
+        <Route path="/locations/japan" element={<Layout><JapanLocationPage /></Layout>} />
+        <Route path="/locations/barcelona" element={<Layout><BarcelonaLocationPage /></Layout>} />
+        <Route path="/locations/milan" element={<Layout><MilanLocationPage /></Layout>} />
+        <Route path="/locations/tokyo" element={<Layout><TokyoLocationPage /></Layout>} />
+        <Route path="/locations/shanghai" element={<Layout><ShanghaiLocationPage /></Layout>} />
         <Route path="/locations/london" element={<Layout><LondonLocationPage /></Layout>} />
         <Route path="/locations/mumbai" element={<Layout><MumbaiLocationPage /></Layout>} />
         <Route path="/locations/nairobi" element={<Layout><NairobiLocationPage /></Layout>} />

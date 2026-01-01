@@ -37,6 +37,18 @@ export default function LocationsPage() {
     { slug: 'nairobi', name: 'Nairobi, Kenya', flag: '🇰🇪', type: 'city', parent: 'kenya' },
     { slug: 'mexico', name: 'Mexico', flag: '🇲🇽', type: 'country' },
     { slug: 'mexico-city', name: 'Mexico City, Mexico', flag: '🇲🇽', type: 'city', parent: 'mexico' },
+    // + 4 countries
+{ slug: 'spain', name: 'Spain', flag: '🇪🇸', type: 'country' },
+{ slug: 'italy', name: 'Italy', flag: '🇮🇹', type: 'country' },
+{ slug: 'china', name: 'China', flag: '🇨🇳', type: 'country' },
+{ slug: 'japan', name: 'Japan', flag: '🇯🇵', type: 'country' },
+
+// + 4 cities (not used above)
+{ slug: 'barcelona', name: 'Barcelona, Spain', flag: '🇪🇸', type: 'city', parent: 'spain' },
+{ slug: 'milan', name: 'Milan, Italy', flag: '🇮🇹', type: 'city', parent: 'italy' },
+{ slug: 'tokyo', name: 'Tokyo, Japan', flag: '🇯🇵', type: 'city', parent: 'japan' },
+{ slug: 'shanghai', name: 'Shanghai, China', flag: '🇨🇳', type: 'city', parent: 'china' },
+
   ]
 
   const countries = locations.filter(loc => loc.type === 'country')

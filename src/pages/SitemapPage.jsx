@@ -133,7 +133,15 @@ export default function SitemapPage() {
         { path: "/locations/kenya", label: "Kenya" },
         { path: "/locations/nairobi", label: "Nairobi" },
         { path: "/locations/mexico", label: "Mexico" },
-        { path: "/locations/mexico-city", label: "Mexico City" }
+        { path: "/locations/mexico-city", label: "Mexico City" },
+        { path: "/locations/spain", label: "Spain" },
+        { path: "/locations/italy", label: "Italy" },
+        { path: "/locations/china", label: "China" },
+        { path: "/locations/japan", label: "Japan" },
+        { path: "/locations/barcelona", label: "Barcelona" },
+        { path: "/locations/milan", label: "Milan" },
+        { path: "/locations/tokyo", label: "Tokyo" },
+        { path: "/locations/shanghai", label: "Shanghai" }
       ]
     },
     {
