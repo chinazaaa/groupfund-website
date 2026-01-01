@@ -206,7 +206,7 @@ export const adminApi = {
     });
   },
   sendHappyNewYear: () => {
-    return apiRequest('/admin/notifications/send-happy-new-year-emails', {
+    return apiRequest('/admin/notifications/send-happy-new-year', {
       method: 'POST',
     });
   },
