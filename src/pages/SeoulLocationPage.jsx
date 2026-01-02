@@ -45,7 +45,7 @@ export default function SeoulLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Seoul, South Korea 🇰🇷</h1>
           <p className="page-subtitle">
-            Organize group contributions in Seoul with GroupFund. Perfect for Seoul families, churches, schools, and groups. [web:695][web:696]
+            Organize group contributions in Seoul with GroupFund. Perfect for Seoul families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function SeoulLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Seoul</h2>
               <p>
-                Seoul is the capital and largest city of South Korea, located along the Han River in the northwest of the country and forming the core of a metropolitan area of over 20 million people. [web:695][web:696][web:699]
+                Seoul is the capital and largest city of South Korea, located along the Han River in the northwest of the country and forming the core of a metropolitan area of over 20 million people.
               </p>
               <p>
-                With support for South Korean won (KRW), the official currency of South Korea, GroupFund fits seamlessly with how Seoul residents already handle digital payments and shared expenses. [web:236][web:237][web:238]
+                With support for South Korean won (KRW), the official currency of South Korea, GroupFund fits seamlessly with how Seoul residents already handle digital payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function SeoulLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Seoul Families</h3>
-                  <p>Organize group contributions for extended families across Seoul’s many districts, from Gangnam to Jongno. [web:698]</p>
+                  <p>Organize group contributions for extended families across Seoul’s many districts, from Gangnam to Jongno.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Ministries</h3>
@@ -76,7 +76,7 @@ export default function SeoulLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Seoul Workplaces</h3>
-                  <p>Organize office birthday, farewell, and team support funds for companies in Seoul’s business hubs. [web:703]</p>
+                  <p>Organize office birthday, farewell, and team support funds for companies in Seoul’s business hubs.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Campus Groups</h3>
@@ -84,11 +84,11 @@ export default function SeoulLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 KRW Support</h3>
-                  <p>Full support for South Korean won (KRW), so contribution amounts are set in the local currency. [web:236][web:237][web:240]</p>
+                  <p>Full support for South Korean won (KRW), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
-                  <p>Mobile-optimised experience that matches Seoul’s ultra-connected, smartphone-driven lifestyle. [web:697][web:699]</p>
+                  <p>Mobile-optimised experience that matches Seoul’s ultra-connected, smartphone-driven lifestyle.</p>
                 </div>
               </div>
             </div>

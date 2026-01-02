@@ -45,7 +45,7 @@ export default function SingaporeCityLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Singapore 🇸🇬</h1>
           <p className="page-subtitle">
-            Organize group contributions in Singapore with GroupFund. Ideal for families, communities, workplaces, and schools in the city‑state. [web:587][web:931][web:581]
+            Organize group contributions in Singapore with GroupFund. Ideal for families, communities, workplaces, and schools in the city‑state.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function SingaporeCityLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Singapore</h2>
               <p>
-                Singapore is a sovereign city‑state on an island at the southern tip of the Malay Peninsula, occupying Singapore Island and smaller islets, and serving as one of the world’s busiest ports and commercial centres. [web:587][web:584][web:931]
+                Singapore is a sovereign city‑state on an island at the southern tip of the Malay Peninsula, occupying Singapore Island and smaller islets, and serving as one of the world’s busiest ports and commercial centres.
               </p>
               <p>
-                The city is known as a highly urbanised, **green** “Garden City” with a multicultural population and strong infrastructure, making digital tools for organising shared money a natural fit. [web:581][web:933][web:932]
+                The city is known as a highly urbanised, <strong>green</strong> “Garden City” with a multicultural population and strong infrastructure, making digital tools for organising shared money a natural fit.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function SingaporeCityLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Singapore Dollar (SGD)</h3>
                   <p>
-                    GroupFund supports the Singapore dollar (SGD), the official currency of Singapore, issued by the Monetary Authority of Singapore and divided into 100 cents. [web:579][web:580][web:935][web:583]
+                    GroupFund supports the Singapore dollar (SGD), the official currency of Singapore, issued by the Monetary Authority of Singapore and divided into 100 cents.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📈 Stable Local Currency</h3>
                   <p>
-                    The Singapore dollar is regarded as a strong, investment‑grade currency, so GroupFund tracks contributions directly in SGD while banks and FX tools handle any foreign conversions. [web:579][web:580][web:589]
+                    The Singapore dollar is regarded as a strong, investment‑grade currency, so GroupFund tracks contributions directly in SGD while banks and FX tools handle any foreign conversions.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function SingaporeCityLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Singapore Families</h3>
-                  <p>Organize contributions for weddings, baby showers, funerals, and monthly family support among relatives across the island. [web:581][web:931]</p>
+                  <p>Organize contributions for weddings, baby showers, funerals, and monthly family support among relatives across the island.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Mosques, Temples & Churches</h3>
-                  <p>Coordinate shared funds for religious events and community support across Singapore’s diverse faith communities. [web:581][web:932]</p>
+                  <p>Coordinate shared funds for religious events and community support across Singapore’s diverse faith communities.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support pots in Singapore’s corporate, fintech, and startup offices. [web:587][web:936]</p>
+                  <p>Run birthday, farewell, and emergency support pots in Singapore’s corporate, fintech, and startup offices.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Student Groups</h3>
-                  <p>Track contributions for class gifts, CCA activities, and student initiatives across schools and universities. [web:581][web:937]</p>
+                  <p>Track contributions for class gifts, CCA activities, and student initiatives across schools and universities.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Digital‑First City</h3>
-                  <p>Matches Singapore’s highly connected population, where cashless payments and mobile apps are part of daily life. [web:581][web:932]</p>
+                  <p>Matches Singapore’s highly connected population, where cashless payments and mobile apps are part of daily life.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,8 @@ export default function SingaporeCityLocationPage() {
                   <strong>School & CCA Funds:</strong> Contributions for teacher appreciation, events, and competitions.
                 </li>
                 <li>
-                  <strong>Friend Groups:</strong> Shared pots for staycations, group dinners, and activities around the island.</li>
+                  <strong>Friend Groups:</strong> Shared pots for staycations, group dinners, and activities around the island.
+                </li>
               </ul>
             </div>
 

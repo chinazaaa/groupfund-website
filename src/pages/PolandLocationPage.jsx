@@ -42,7 +42,7 @@ export default function PolandLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Poland 🇵🇱</h1>
           <p className="page-subtitle">
-            Organize group contributions in Poland with GroupFund. Perfect for Polish families, churches, schools, and groups. [web:221][web:224]
+            Organize group contributions in Poland with GroupFund. Perfect for Polish families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function PolandLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Poland</h2>
               <p>
-                Poland is a Central European country with over 38 million people and major cities like Warsaw, Kraków, Wrocław, Łódź, Poznań, and Gdańsk where group gifting and collections are common. [web:221][web:224]
+                Poland is a Central European country with over 38 million people and major cities like Warsaw, Kraków, Wrocław, Łódź, Poznań, and Gdańsk where group gifting and collections are common.
               </p>
               <p>
-                With support for Polish złoty (PLN) and local bank details, GroupFund is designed to work seamlessly for Polish groups of all sizes. [web:216][web:220]
+                With support for Polish złoty (PLN) and local bank details, GroupFund is designed to work seamlessly for Polish groups of all sizes.
               </p>
             </div>
 
@@ -65,19 +65,19 @@ export default function PolandLocationPage() {
                 <div className="feature-item">
                   <h3>🇵🇱 Polish złoty (PLN) Support</h3>
                   <p>
-                    Full support for Polish złoty. Set contribution amounts in PLN so everyone contributes in the local currency. [web:216][web:219]
+                    Full support for Polish złoty. Set contribution amounts in PLN so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with Polish bank transfers; members send money using their bank and then mark payments as completed in GroupFund. [web:220][web:235]
+                    Works with Polish bank transfers; members send money using their bank and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Polish Families</h3>
                   <p>
-                    Organize contributions for extended Polish families, whether they live in the same city or across the country. [web:221]
+                    Organize contributions for extended Polish families, whether they live in the same city or across the country.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -129,7 +129,7 @@ export default function PolandLocationPage() {
               <h2>How It Works in Poland</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Polish złoty (PLN) as the currency. [web:216][web:219]
+                  <strong>Create Your Group:</strong> Set up a group with Polish złoty (PLN) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose PLN amounts per person that fit your group.

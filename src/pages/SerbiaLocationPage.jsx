@@ -42,7 +42,7 @@ export default function SerbiaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Serbia 🇷🇸</h1>
           <p className="page-subtitle">
-            Organize group contributions in Serbia with GroupFund. Perfect for Serbian families, communities, schools, and groups. [web:641][web:647][web:653]
+            Organize group contributions in Serbia with GroupFund. Perfect for Serbian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function SerbiaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Serbia</h2>
               <p>
-                Serbia is a landlocked country in Southeast and Central Europe, located in the Balkans with Belgrade as its capital and largest city and around 6–7 million inhabitants. [web:641][web:647][web:650]
+                Serbia is a landlocked country in Southeast and Central Europe, located in the Balkans with Belgrade as its capital and largest city and around 6–7 million inhabitants.
               </p>
               <p>
-                With support for the Serbian dinar (RSD) and local banking habits, GroupFund matches how Serbian families and groups already manage shared expenses and celebrations. [web:636][web:638][web:640][web:649]
+                With support for the Serbian dinar (RSD) and local banking habits, GroupFund matches how Serbian families and groups already manage shared expenses and celebrations.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function SerbiaLocationPage() {
                 <div className="feature-item">
                   <h3>🇷🇸 Serbian Dinar (RSD) Support</h3>
                   <p>
-                    Full support for the Serbian dinar (RSD), subdivided into 100 paras, so contribution amounts can be set in familiar note and coin denominations. [web:636][web:640][web:643]
+                    Full support for the Serbian dinar (RSD), subdivided into 100 paras, so contribution amounts can be set in familiar note and coin denominations.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with Serbian bank transfers and common payment flows; members pay as usual, then mark their contributions as completed in GroupFund. [web:638][web:646][web:652]
+                    Works with Serbian bank transfers and common payment flows; members pay as usual, then mark their contributions as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Serbian Families</h3>
                   <p>
-                    Organize contributions for extended families in Belgrade, Novi Sad, Niš, Kragujevac, and smaller towns for slavas, birthdays, weddings, and other key events. [web:641][web:647][web:653]
+                    Organize contributions for extended families in Belgrade, Novi Sad, Niš, Kragujevac, and smaller towns for slavas, birthdays, weddings, and other key events.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Association Groups</h3>
                   <p>
-                    Ideal for local associations, village communities, and sports clubs coordinating shared funds and projects. [web:644][web:653]
+                    Ideal for local associations, village communities, and sports clubs coordinating shared funds and projects.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function SerbiaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
                   <p>
-                    Simple mobile experience so members can track and confirm contributions from their phones. [web:641][web:653]
+                    Simple mobile experience so members can track and confirm contributions from their phones.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function SerbiaLocationPage() {
               <h2>How It Works in Serbia</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Serbian dinar (RSD) as the currency. [web:636][web:639][web:649]
+                  <strong>Create Your Group:</strong> Set up a group with Serbian dinar (RSD) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose RSD amounts per person that reflect your group’s budget.

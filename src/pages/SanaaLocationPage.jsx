@@ -45,7 +45,7 @@ export default function SanaaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Sana’a, Yemen 🇾🇪</h1>
           <p className="page-subtitle">
-            Organize group contributions in Sana’a with GroupFund. Perfect for Sana’a families, communities, schools, and groups. [web:851][web:852][web:855]
+            Organize group contributions in Sana’a with GroupFund. Perfect for Sana’a families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function SanaaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Sana’a</h2>
               <p>
-                Sana’a is the capital of Yemen, one of the world’s oldest continuously inhabited cities, set in a mountain valley about 2,200 metres above sea level and renowned for its historic walled old city. [web:851][web:852][web:855][web:853]
+                Sana’a is the capital of Yemen, one of the world’s oldest continuously inhabited cities, set in a mountain valley about 2,200 metres above sea level and renowned for its historic walled old city.
               </p>
               <p>
-                Despite ongoing conflict and economic strain, everyday life and local giving continue, making a clear contribution tracker valuable for families and community groups in Sana’a. [web:852][web:853]
+                Despite ongoing conflict and economic strain, everyday life and local giving continue, making a clear contribution tracker valuable for families and community groups in Sana’a.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function SanaaLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Yemeni Rial (YER)</h3>
                   <p>
-                    GroupFund supports the Yemeni rial (YER), the official currency of Yemen and the only legal tender, technically divided into 100 fils though fils are rarely used in practice. [web:496][web:497][web:515]
+                    GroupFund supports the Yemeni rial (YER), the official currency of Yemen and the only legal tender, technically divided into 100 fils though fils are rarely used in practice.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📉 Works With Volatile Rates</h3>
                   <p>
-                    The rial has faced heavy devaluation and regionally varying exchange rates, but GroupFund focuses on tracking who has paid and how much, regardless of rate changes. [web:496][web:499][web:500]
+                    The rial has faced heavy devaluation and regionally varying exchange rates, but GroupFund focuses on tracking who has paid and how much, regardless of rate changes.
                   </p>
                 </div>
               </div>
@@ -86,19 +86,19 @@ export default function SanaaLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Extended Families</h3>
-                  <p>Organize contributions for weddings, medical support, funerals, and ongoing family assistance across Sana’a’s neighbourhoods. [web:852][web:853]</p>
+                  <p>Organize contributions for weddings, medical support, funerals, and ongoing family assistance across Sana’a’s neighbourhoods.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🕌 Community & Religious Groups</h3>
-                  <p>Coordinate shared funds for mosques, local charities, and neighbourhood projects in and around the Old City. [web:855][web:858]</p>
+                  <p>Coordinate shared funds for mosques, local charities, and neighbourhood projects in and around the Old City.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Local Initiatives</h3>
-                  <p>Track contributions for teachers, school needs, and community-led education or relief efforts. [web:853]</p>
+                  <p>Track contributions for teachers, school needs, and community-led education or relief efforts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Low-Bandwidth Friendly</h3>
-                  <p>Designed so organisers can still keep records and update statuses when connectivity is limited or intermittent. [web:853][web:859]</p>
+                  <p>Designed so organisers can still keep records and update statuses when connectivity is limited or intermittent.</p>
                 </div>
               </div>
             </div>
@@ -119,7 +119,8 @@ export default function SanaaLocationPage() {
                   <strong>School & Teacher Gifts:</strong> Collections for teacher appreciation and school needs.
                 </li>
                 <li>
-                  <strong>Diaspora Groups:</strong> Coordinated giving from Yemeni diaspora directly tied to families and projects in Sana’a.</li>
+                  <strong>Diaspora Groups:</strong> Coordinated giving from Yemeni diaspora directly tied to families and projects in Sana’a.
+                </li>
               </ul>
             </div>
 

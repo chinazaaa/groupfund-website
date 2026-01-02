@@ -42,7 +42,7 @@ export default function RussiaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Russia 🇷🇺</h1>
           <p className="page-subtitle">
-            Organize group contributions in Russia with GroupFund. Perfect for Russian families, communities, schools, and groups. [web:321][web:330]
+            Organize group contributions in Russia with GroupFund. Perfect for Russian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function RussiaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Russia</h2>
               <p>
-                Russia is the world’s largest country by area, spanning Eastern Europe and northern Asia, with major cities like Moscow, St. Petersburg, Yekaterinburg, and Vladivostok. [web:321][web:330]
+                Russia is the world’s largest country by area, spanning Eastern Europe and northern Asia, with major cities like Moscow, St. Petersburg, Yekaterinburg, and Vladivostok.
               </p>
               <p>
-                With support for Russian rubles (RUB) and local bank details, GroupFund is designed to work seamlessly for Russian groups of all sizes. [web:316][web:318][web:332]
+                With support for Russian rubles (RUB) and local bank details, GroupFund is designed to work seamlessly for Russian groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function RussiaLocationPage() {
                 <div className="feature-item">
                   <h3>🇷🇺 Russian Ruble (RUB) Support</h3>
                   <p>
-                    Full support for Russian rubles. Set contribution amounts in RUB so everyone contributes in the local currency. [web:316][web:320][web:323]
+                    Full support for Russian rubles. Set contribution amounts in RUB so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with local Russian bank transfers; members send money using their bank and then mark payments as completed in GroupFund. [web:318][web:332]
+                    Works with local Russian bank transfers; members send money using their bank and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Russian Families</h3>
                   <p>
-                    Organize contributions for extended Russian families in cities and regions across the federation. [web:321][web:330]
+                    Organize contributions for extended Russian families in cities and regions across the federation.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function RussiaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Russia’s growing smartphone and internet usage. [web:333]
+                    Mobile-friendly experience that fits Russia’s growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function RussiaLocationPage() {
               <h2>How It Works in Russia</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Russian ruble (RUB) as the currency. [web:316][web:320]
+                  <strong>Create Your Group:</strong> Set up a group with Russian ruble (RUB) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose RUB amounts per person that fit your group.

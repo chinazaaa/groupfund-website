@@ -42,7 +42,7 @@ export default function PakistanLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Pakistan 🇵🇰</h1>
           <p className="page-subtitle">
-            Organize group contributions in Pakistan with GroupFund. Perfect for Pakistani families, communities, schools, and groups. [web:304][web:307]
+            Organize group contributions in Pakistan with GroupFund. Perfect for Pakistani families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function PakistanLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Pakistan</h2>
               <p>
-                Pakistan is a South Asian country with over 240 million people and major cities like Karachi, Lahore, Islamabad, and Faisalabad where group gifting and collections are common. [web:304][web:301][web:313]
+                Pakistan is a South Asian country with over 240 million people and major cities like Karachi, Lahore, Islamabad, and Faisalabad where group gifting and collections are common.
               </p>
               <p>
-                With support for Pakistani Rupee (PKR) and local bank details, GroupFund is designed to work seamlessly for Pakistani groups of all sizes. [web:296][web:299][web:303]
+                With support for Pakistani Rupee (PKR) and local bank details, GroupFund is designed to work seamlessly for Pakistani groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function PakistanLocationPage() {
                 <div className="feature-item">
                   <h3>🇵🇰 Pakistani Rupee (PKR) Support</h3>
                   <p>
-                    Full support for Pakistani Rupee. Set contribution amounts in PKR so everyone contributes in the local currency. [web:296][web:297][web:303]
+                    Full support for Pakistani Rupee. Set contribution amounts in PKR so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with local bank transfers and common payment channels; members send money and then mark payments as completed in GroupFund. [web:299]
+                    Works with local bank transfers and common payment channels; members send money and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Pakistani Families</h3>
                   <p>
-                    Organize contributions for extended Pakistani families for weddings, Eid, birthdays, and other key occasions. [web:304][web:310]
+                    Organize contributions for extended Pakistani families for weddings, Eid, birthdays, and other key occasions.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function PakistanLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Pakistan’s growing smartphone and internet usage. [web:307]
+                    Mobile-friendly experience that fits Pakistan’s growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function PakistanLocationPage() {
               <h2>How It Works in Pakistan</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Pakistani Rupee (PKR) as the currency. [web:296][web:297]
+                  <strong>Create Your Group:</strong> Set up a group with Pakistani Rupee (PKR) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose PKR amounts per person that fit your group.

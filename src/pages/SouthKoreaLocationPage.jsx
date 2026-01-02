@@ -42,7 +42,7 @@ export default function SouthKoreaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for South Korea 🇰🇷</h1>
           <p className="page-subtitle">
-            Organize group contributions in South Korea with GroupFund. Perfect for Korean families, churches, schools, and groups. [web:241][web:244]
+            Organize group contributions in South Korea with GroupFund. Perfect for Korean families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function SouthKoreaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in South Korea</h2>
               <p>
-                South Korea is a highly connected, urban country in East Asia with major cities like Seoul, Busan, Daegu, and Incheon where group gifting and collections are part of social and work culture. [web:244][web:247]
+                South Korea is a highly connected, urban country in East Asia with major cities like Seoul, Busan, Daegu, and Incheon where group gifting and collections are part of social and work culture.
               </p>
               <p>
-                With support for South Korean won (KRW) and local bank details, GroupFund is designed to work seamlessly for Korean groups of all sizes. [web:236][web:252]
+                With support for South Korean won (KRW) and local bank details, GroupFund is designed to work seamlessly for Korean groups of all sizes.
               </p>
             </div>
 
@@ -65,19 +65,19 @@ export default function SouthKoreaLocationPage() {
                 <div className="feature-item">
                   <h3>🇰🇷 South Korean Won (KRW) Support</h3>
                   <p>
-                    Full support for South Korean won. Set contribution amounts in KRW so everyone contributes in the local currency. [web:236][web:237]
+                    Full support for South Korean won. Set contribution amounts in KRW so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with Korean bank transfers; members send money using their bank and then mark payments as completed in GroupFund. [web:252][web:249]
+                    Works with Korean bank transfers; members send money using their bank and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Korean Families</h3>
                   <p>
-                    Organize contributions for extended Korean families for birthdays, holidays, weddings, and other key occasions. [web:253]
+                    Organize contributions for extended Korean families for birthdays, holidays, weddings, and other key occasions.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -95,7 +95,7 @@ export default function SouthKoreaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits South Korea’s fast, digital lifestyle and high smartphone usage. [web:244][web:255]
+                    Mobile-friendly experience that fits South Korea’s fast, digital lifestyle and high smartphone usage.
                   </p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function SouthKoreaLocationPage() {
               <h2>How It Works in South Korea</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with South Korean won (KRW) as the currency. [web:236][web:237]
+                  <strong>Create Your Group:</strong> Set up a group with South Korean won (KRW) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose KRW amounts per person that fit your group.

@@ -42,7 +42,7 @@ export default function SriLankaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Sri Lanka 🇱🇰</h1>
           <p className="page-subtitle">
-            Organize group contributions in Sri Lanka with GroupFund. Perfect for Sri Lankan families, communities, schools, and groups. [web:621][web:624][web:633]
+            Organize group contributions in Sri Lanka with GroupFund. Perfect for Sri Lankan families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function SriLankaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Sri Lanka</h2>
               <p>
-                Sri Lanka is an island country in South Asia in the Indian Ocean, close to the southern coast of India, with Sri Jayawardenepura Kotte as its legislative capital and Colombo as its largest city. [web:621][web:624][web:627]
+                Sri Lanka is an island country in South Asia in the Indian Ocean, close to the southern coast of India, with Sri Jayawardenepura Kotte as its legislative capital and Colombo as its largest city.
               </p>
               <p>
-                With support for the Sri Lankan rupee (LKR) and local financial habits, GroupFund can help groups manage shared contributions in a way that matches how Sri Lankans already budget and give. [web:616][web:617][web:619][web:626]
+                With support for the Sri Lankan rupee (LKR) and local financial habits, GroupFund can help groups manage shared contributions in a way that matches how Sri Lankans already budget and give.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function SriLankaLocationPage() {
                 <div className="feature-item">
                   <h3>🇱🇰 Sri Lankan Rupee (LKR) Support</h3>
                   <p>
-                    Full support for the Sri Lankan rupee, divided into 100 cents, so contribution amounts can be set in LKR with familiar note and coin values. [web:616][web:618][web:619][web:626]
+                    Full support for the Sri Lankan rupee, divided into 100 cents, so contribution amounts can be set in LKR with familiar note and coin values.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Cash & Bank Workflows</h3>
                   <p>
-                    Works with Sri Lanka’s mix of cash usage and bank transfers; members pay through their usual channels then mark contributions as paid in GroupFund. [web:617][web:620][web:635]
+                    Works with Sri Lanka’s mix of cash usage and bank transfers; members pay through their usual channels then mark contributions as paid in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Sri Lankan Families</h3>
                   <p>
-                    Organize contributions for extended families across Colombo, Kandy, Galle, Jaffna and the diaspora supporting relatives back home. [web:621][web:624][web:633]
+                    Organize contributions for extended families across Colombo, Kandy, Galle, Jaffna and the diaspora supporting relatives back home.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Religious Groups</h3>
                   <p>
-                    Ideal for temple, church, mosque, and community groups coordinating ongoing support, dana, and local projects. [web:621][web:627]
+                    Ideal for temple, church, mosque, and community groups coordinating ongoing support, dana, and local projects.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function SriLankaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First Experience</h3>
                   <p>
-                    Optimised for smartphone users so members can track and update payments from anywhere in Sri Lanka or abroad. [web:621][web:633]
+                    Optimised for smartphone users so members can track and update payments from anywhere in Sri Lanka or abroad.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function SriLankaLocationPage() {
               <h2>How It Works in Sri Lanka</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Sri Lankan rupee (LKR) as the currency. [web:616][web:617][web:623]
+                  <strong>Create Your Group:</strong> Set up a group with Sri Lankan rupee (LKR) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose LKR amounts per person matching your group’s budget and norms.

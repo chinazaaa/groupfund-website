@@ -42,7 +42,7 @@ export default function PhilippinesLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for the Philippines 🇵🇭</h1>
           <p className="page-subtitle">
-            Organize group contributions in the Philippines with GroupFund. Perfect for Filipino families, churches, schools, and groups. [web:204][web:207]
+            Organize group contributions in the Philippines with GroupFund. Perfect for Filipino families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function PhilippinesLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in the Philippines</h2>
               <p>
-                The Philippines is an archipelagic country in Southeast Asia with strong family ties and active church and community life, where shared contributions are common. [web:204][web:207]
+                The Philippines is an archipelagic country in Southeast Asia with strong family ties and active church and community life, where shared contributions are common.
               </p>
               <p>
-                With support for Philippine Peso (PHP) and local bank details, GroupFund is designed to work seamlessly for Filipino groups across Luzon, Visayas, and Mindanao. [web:196][web:201]
+                With support for Philippine Peso (PHP) and local bank details, GroupFund is designed to work seamlessly for Filipino groups across Luzon, Visayas, and Mindanao.
               </p>
             </div>
             <div className="location-section">
@@ -64,7 +64,7 @@ export default function PhilippinesLocationPage() {
                 <div className="feature-item">
                   <h3>🇵🇭 Philippine Peso (PHP) Support</h3>
                   <p>
-                    Full support for Philippine Peso. Set contribution amounts in PHP so everyone contributes in the local currency. [web:196][web:199]
+                    Full support for Philippine Peso. Set contribution amounts in PHP so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -94,7 +94,7 @@ export default function PhilippinesLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience so members can join, contribute, and track payments from their phones. [web:212]
+                    Mobile-friendly experience so members can join, contribute, and track payments from their phones.
                   </p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function PhilippinesLocationPage() {
               <h2>How It Works in the Philippines</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Philippine Peso (PHP) as the currency. [web:196][web:199]
+                  <strong>Create Your Group:</strong> Set up a group with Philippine Peso (PHP) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose PHP amounts per person that fit your group.
