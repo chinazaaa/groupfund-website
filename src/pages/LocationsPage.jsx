@@ -37,17 +37,86 @@ export default function LocationsPage() {
     { slug: 'nairobi', name: 'Nairobi, Kenya', flag: '🇰🇪', type: 'city', parent: 'kenya' },
     { slug: 'mexico', name: 'Mexico', flag: '🇲🇽', type: 'country' },
     { slug: 'mexico-city', name: 'Mexico City, Mexico', flag: '🇲🇽', type: 'city', parent: 'mexico' },
-    // + 4 countries
 { slug: 'spain', name: 'Spain', flag: '🇪🇸', type: 'country' },
 { slug: 'italy', name: 'Italy', flag: '🇮🇹', type: 'country' },
 { slug: 'china', name: 'China', flag: '🇨🇳', type: 'country' },
 { slug: 'japan', name: 'Japan', flag: '🇯🇵', type: 'country' },
-
-// + 4 cities (not used above)
 { slug: 'barcelona', name: 'Barcelona, Spain', flag: '🇪🇸', type: 'city', parent: 'spain' },
 { slug: 'milan', name: 'Milan, Italy', flag: '🇮🇹', type: 'city', parent: 'italy' },
 { slug: 'tokyo', name: 'Tokyo, Japan', flag: '🇯🇵', type: 'city', parent: 'japan' },
 { slug: 'shanghai', name: 'Shanghai, China', flag: '🇨🇳', type: 'city', parent: 'china' },
+
+{ slug: 'afghanistan', name: 'Afghanistan', flag: '🇦🇫', type: 'country' },
+{ slug: 'kabul', name: 'Kabul, Afghanistan', flag: '🇦🇫', type: 'city', parent: 'afghanistan' },
+
+{ slug: 'philippines', name: 'Philippines', flag: '🇵🇭', type: 'country' },
+{ slug: 'manila', name: 'Manila, Philippines', flag: '🇵🇭', type: 'city', parent: 'philippines' },
+
+{ slug: 'poland', name: 'Poland', flag: '🇵🇱', type: 'country' },
+{ slug: 'warsaw', name: 'Warsaw, Poland', flag: '🇵🇱', type: 'city', parent: 'poland' },
+
+{ slug: 'south-korea', name: 'South Korea', flag: '🇰🇷', type: 'country' },
+{ slug: 'seoul', name: 'Seoul, South Korea', flag: '🇰🇷', type: 'city', parent: 'south-korea' },
+
+{ slug: 'estonia', name: 'Estonia', flag: '🇪🇪', type: 'country' },
+{ slug: 'tallinn', name: 'Tallinn, Estonia', flag: '🇪🇪', type: 'city', parent: 'estonia' },
+
+{ slug: 'uganda', name: 'Uganda', flag: '🇺🇬', type: 'country' },
+{ slug: 'kampala', name: 'Kampala, Uganda', flag: '🇺🇬', type: 'city', parent: 'uganda' },
+
+{ slug: 'pakistan', name: 'Pakistan', flag: '🇵🇰', type: 'country' },
+{ slug: 'islamabad', name: 'Islamabad, Pakistan', flag: '🇵🇰', type: 'city', parent: 'pakistan' },
+
+{ slug: 'russia', name: 'Russia', flag: '🇷🇺', type: 'country' },
+{ slug: 'moscow', name: 'Moscow, Russia', flag: '🇷🇺', type: 'city', parent: 'russia' },
+
+{ slug: 'ukraine', name: 'Ukraine', flag: '🇺🇦', type: 'country' },
+{ slug: 'kyiv', name: 'Kyiv, Ukraine', flag: '🇺🇦', type: 'city', parent: 'ukraine' },
+
+{ slug: 'turkey', name: 'Turkey', flag: '🇹🇷', type: 'country' },
+{ slug: 'istanbul', name: 'Istanbul, Turkey', flag: '🇹🇷', type: 'city', parent: 'turkey' },
+
+{ slug: 'indonesia', name: 'Indonesia', flag: '🇮🇩', type: 'country' },
+{ slug: 'jakarta', name: 'Jakarta, Indonesia', flag: '🇮🇩', type: 'city', parent: 'indonesia' },
+
+{ slug: 'malaysia', name: 'Malaysia', flag: '🇲🇾', type: 'country' },
+{ slug: 'kuala-lumpur', name: 'Kuala Lumpur, Malaysia', flag: '🇲🇾', type: 'city', parent: 'malaysia' },
+
+{ slug: 'colombia', name: 'Colombia', flag: '🇨🇴', type: 'country' },
+{ slug: 'bogota', name: 'Bogotá, Colombia', flag: '🇨🇴', type: 'city', parent: 'colombia' },
+
+{ slug: 'finland', name: 'Finland', flag: '🇫🇮', type: 'country' },
+{ slug: 'helsinki', name: 'Helsinki, Finland', flag: '🇫🇮', type: 'city', parent: 'finland' },
+
+{ slug: 'sweden', name: 'Sweden', flag: '🇸🇪', type: 'country' },
+{ slug: 'stockholm', name: 'Stockholm, Sweden', flag: '🇸🇪', type: 'city', parent: 'sweden' },
+
+{ slug: 'vietnam', name: 'Vietnam', flag: '🇻🇳', type: 'country' },
+{ slug: 'ho-chi-minh-city', name: 'Ho Chi Minh City, Vietnam', flag: '🇻🇳', type: 'city', parent: 'vietnam' },
+
+{ slug: 'yemen', name: 'Yemen', flag: '🇾🇪', type: 'country' },
+{ slug: 'sanaa', name: 'Sana’a, Yemen', flag: '🇾🇪', type: 'city', parent: 'yemen' },
+
+{ slug: 'iraq', name: 'Iraq', flag: '🇮🇶', type: 'country' },
+{ slug: 'baghdad', name: 'Baghdad, Iraq', flag: '🇮🇶', type: 'city', parent: 'iraq' },
+
+{ slug: 'jordan', name: 'Jordan', flag: '🇯🇴', type: 'country' },
+{ slug: 'amman', name: 'Amman, Jordan', flag: '🇯🇴', type: 'city', parent: 'jordan' },
+
+{ slug: 'jamaica', name: 'Jamaica', flag: '🇯🇲', type: 'country' },
+{ slug: 'kingston', name: 'Kingston, Jamaica', flag: '🇯🇲', type: 'city', parent: 'jamaica' },
+
+{ slug: 'singapore', name: 'Singapore', flag: '🇸🇬', type: 'country' },
+{ slug: 'singapore-city', name: 'Singapore, Singapore', flag: '🇸🇬', type: 'city', parent: 'singapore' },
+
+{ slug: 'lebanon', name: 'Lebanon', flag: '🇱🇧', type: 'country' },
+{ slug: 'beirut', name: 'Beirut, Lebanon', flag: '🇱🇧', type: 'city', parent: 'lebanon' },
+
+{ slug: 'sri-lanka', name: 'Sri Lanka', flag: '🇱🇰', type: 'country' },
+{ slug: 'colombo', name: 'Colombo, Sri Lanka', flag: '🇱🇰', type: 'city', parent: 'sri-lanka' },
+
+{ slug: 'serbia', name: 'Serbia', flag: '🇷🇸', type: 'country' },
+{ slug: 'belgrade', name: 'Belgrade, Serbia', flag: '🇷🇸', type: 'city', parent: 'serbia' },
 
   ]
 
