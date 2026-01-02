@@ -42,7 +42,7 @@ export default function MalaysiaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Malaysia 🇲🇾</h1>
           <p className="page-subtitle">
-            Organize group contributions in Malaysia with GroupFund. Perfect for Malaysian families, communities, schools, and groups. [web:401][web:410][web:404]
+            Organize group contributions in Malaysia with GroupFund. Perfect for Malaysian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function MalaysiaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Malaysia</h2>
               <p>
-                Malaysia is a Southeast Asian country made up of 13 states and 3 federal territories split between Peninsular Malaysia and East Malaysia on Borneo, with Kuala Lumpur as its capital. [web:401][web:404][web:410]
+                Malaysia is a Southeast Asian country made up of 13 states and 3 federal territories split between Peninsular Malaysia and East Malaysia on Borneo, with Kuala Lumpur as its capital.
               </p>
               <p>
-                With support for Malaysian Ringgit (MYR) and local bank details, GroupFund is designed to work seamlessly for Malaysian groups of all sizes. [web:396][web:398][web:399]
+                With support for Malaysian Ringgit (MYR) and local bank details, GroupFund is designed to work seamlessly for Malaysian groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function MalaysiaLocationPage() {
                 <div className="feature-item">
                   <h3>🇲🇾 Malaysian Ringgit (MYR) Support</h3>
                   <p>
-                    Full support for Malaysian Ringgit. Set contribution amounts in MYR so everyone contributes in the local currency. [web:396][web:397][web:398][web:404]
+                    Full support for Malaysian Ringgit. Set contribution amounts in MYR so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with Malaysian bank transfers; members send money using their bank and then mark payments as completed in GroupFund. [web:399][web:403][web:406]
+                    Works with Malaysian bank transfers; members send money using their bank and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Malaysian Families</h3>
                   <p>
-                    Organize contributions for extended Malaysian families across states in Peninsular and East Malaysia for weddings, holidays, and celebrations. [web:401][web:407][web:410]
+                    Organize contributions for extended Malaysian families across states in Peninsular and East Malaysia for weddings, holidays, and celebrations.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function MalaysiaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Malaysia’s high internet and smartphone usage. [web:404][web:407][web:413]
+                    Mobile-friendly experience that fits Malaysia’s high internet and smartphone usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function MalaysiaLocationPage() {
               <h2>How It Works in Malaysia</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Malaysian Ringgit (MYR) as the currency. [web:396][web:397][web:398]
+                  <strong>Create Your Group:</strong> Set up a group with Malaysian Ringgit (MYR) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose MYR amounts per person that fit your group.

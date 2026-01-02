@@ -42,7 +42,7 @@ export default function LebanonLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Lebanon 🇱🇧</h1>
           <p className="page-subtitle">
-            Organize group contributions in Lebanon with GroupFund. Perfect for Lebanese families, communities, schools, and groups. [web:601][web:604][web:607]
+            Organize group contributions in Lebanon with GroupFund. Perfect for Lebanese families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function LebanonLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Lebanon</h2>
               <p>
-                Lebanon is a Levantine country on the eastern Mediterranean, bordered by Syria to the north and east and Israel to the south, with Beirut as its capital and largest city. [web:601][web:604][web:610]
+                Lebanon is a Levantine country on the eastern Mediterranean, bordered by Syria to the north and east and Israel to the south, with Beirut as its capital and largest city.
               </p>
               <p>
-                With support for the Lebanese pound (LBP), also known as the lira, GroupFund can help Lebanese groups coordinate shared giving despite currency instability and economic pressure. [web:596][web:598][web:603][web:600]
+                With support for the Lebanese pound (LBP), also known as the lira, GroupFund can help Lebanese groups coordinate shared giving despite currency instability and economic pressure.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function LebanonLocationPage() {
                 <div className="feature-item">
                   <h3>🇱🇧 Lebanese Pound (LBP) Support</h3>
                   <p>
-                    Full support for Lebanese pound / lira, so contribution amounts can be set in LBP using the format people see in everyday prices. [web:596][web:598][web:603]
+                    Full support for Lebanese pound / lira, so contribution amounts can be set in LBP using the format people see in everyday prices.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Flexible Payment Workflows</h3>
                   <p>
-                    Designed to work with Lebanon’s mix of cash, bank transfers, and dollar usage; members pay using whatever channel is available and then mark contributions as paid. [web:596][web:599][web:600][web:609]
+                    Designed to work with Lebanon’s mix of cash, bank transfers, and dollar usage; members pay using whatever channel is available and then mark contributions as paid.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Lebanese Families</h3>
                   <p>
-                    Organize contributions for extended families in Beirut, Tripoli, Zahle, Saida, and abroad supporting relatives back home. [web:601][web:604][web:610]
+                    Organize contributions for extended families in Beirut, Tripoli, Zahle, Saida, and abroad supporting relatives back home.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Support Groups</h3>
                   <p>
-                    Ideal for neighbourhood, village, and diaspora groups managing ongoing support, medical funds, and community projects. [web:607][web:613]
+                    Ideal for neighbourhood, village, and diaspora groups managing ongoing support, medical funds, and community projects.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function LebanonLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
                   <p>
-                    Simple mobile experience so members can join groups and update payments whenever they have connectivity. [web:607][web:613]
+                    Simple mobile experience so members can join groups and update payments whenever they have connectivity.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function LebanonLocationPage() {
               <h2>How It Works in Lebanon</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Lebanese pound (LBP) as the currency. [web:596][web:600][web:615]
+                  <strong>Create Your Group:</strong> Set up a group with Lebanese pound (LBP) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose LBP amounts per person that reflect your group’s reality and budget.

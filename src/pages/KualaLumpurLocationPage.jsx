@@ -45,7 +45,7 @@ export default function KualaLumpurLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Kuala Lumpur, Malaysia 🇲🇾</h1>
           <p className="page-subtitle">
-            Organize group contributions in Kuala Lumpur with GroupFund. Perfect for Kuala Lumpur families, churches, schools, and groups. [web:789][web:790]
+            Organize group contributions in Kuala Lumpur with GroupFund. Perfect for Kuala Lumpur families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function KualaLumpurLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Kuala Lumpur</h2>
               <p>
-                Kuala Lumpur is the capital and largest urban area of Malaysia, located in west‑central Peninsular Malaysia at the confluence of the Kelang and Gombak rivers and serving as the country’s cultural, commercial, and transportation centre. [web:789][web:790][web:794]
+                Kuala Lumpur is the capital and largest urban area of Malaysia, located in west‑central Peninsular Malaysia at the confluence of the Kelang and Gombak rivers and serving as the country’s cultural, commercial, and transportation centre.
               </p>
               <p>
-                With support for Malaysian ringgit (MYR), the official currency of Malaysia, GroupFund fits how KL residents already manage day‑to‑day payments and shared expenses. [web:396][web:397][web:398][web:400]
+                With support for Malaysian ringgit (MYR), the official currency of Malaysia, GroupFund fits how KL residents already manage day‑to‑day payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function KualaLumpurLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ KL Families</h3>
-                  <p>Organize group contributions for extended families across Kuala Lumpur and the wider Klang Valley. [web:789][web:793]</p>
+                  <p>Organize group contributions for extended families across Kuala Lumpur and the wider Klang Valley.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches, Mosques & Temples</h3>
@@ -76,7 +76,7 @@ export default function KualaLumpurLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 KL Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Kuala Lumpur’s business districts and towers. [web:796][web:801]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Kuala Lumpur’s business districts and towers.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function KualaLumpurLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 MYR Support</h3>
-                  <p>Full support for Malaysian ringgit (MYR), divided into 100 sen, so contribution amounts are set in local currency. [web:396][web:397][web:400]</p>
+                  <p>Full support for Malaysian ringgit (MYR), divided into 100 sen, so contribution amounts are set in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that matches KL’s modern, highly connected urban lifestyle. [web:789][web:793]</p>
+                  <p>Mobile‑friendly experience that matches KL’s modern, highly connected urban lifestyle.</p>
                 </div>
               </div>
             </div>

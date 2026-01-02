@@ -44,7 +44,7 @@ export default function KabulLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Kabul, Afghanistan 🇦🇫</h1>
           <p className="page-subtitle">
-            Organize group contributions in Kabul with GroupFund. Perfect for Kabul families, communities, schools, and groups. [web:656][web:657]
+            Organize group contributions in Kabul with GroupFund. Perfect for Kabul families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function KabulLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Kabul</h2>
               <p>
-                Kabul is the capital and largest city of Afghanistan, located in a high valley in the Hindu Kush mountains and serving as the country’s political and economic center. [web:656][web:660]
+                Kabul is the capital and largest city of Afghanistan, located in a high valley in the Hindu Kush mountains and serving as the country’s political and economic center.
               </p>
               <p>
-                With support for Afghan afghani (AFN) and flexible workflows that match local payment realities, GroupFund helps Kabul groups keep shared money transparent and organised. [web:176][web:179][web:177]
+                With support for Afghan afghani (AFN) and flexible workflows that match local payment realities, GroupFund helps Kabul groups keep shared money transparent and organised.
               </p>
             </div>
 
@@ -83,11 +83,11 @@ export default function KabulLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 AFN Support</h3>
-                  <p>Full support for Afghan afghani (AFN), so contribution amounts are set in the local currency. [web:176][web:177][web:180]</p>
+                  <p>Full support for Afghan afghani (AFN), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Simple mobile-friendly experience so members can update payments whenever they have internet access. [web:658]</p>
+                  <p>Simple mobile-friendly experience so members can update payments whenever they have internet access.</p>
                 </div>
               </div>
             </div>

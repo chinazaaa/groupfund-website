@@ -45,7 +45,7 @@ export default function MoscowLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Moscow, Russia 🇷🇺</h1>
           <p className="page-subtitle">
-            Organize group contributions in Moscow with GroupFund. Perfect for Moscow families, churches, schools, and groups. [web:744][web:747]
+            Organize group contributions in Moscow with GroupFund. Perfect for Moscow families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function MoscowLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Moscow</h2>
               <p>
-                Moscow is the capital and largest city of Russia, a major political, economic, cultural, and scientific centre with a population of over 12 million people in the city proper. [web:744][web:747][web:748]
+                Moscow is the capital and largest city of Russia, a major political, economic, cultural, and scientific centre with a population of over 12 million people in the city proper.
               </p>
               <p>
-                With support for the Russian ruble (RUB), one of the world’s oldest currencies still in use and Russia’s official legal tender, GroupFund fits how Moscow residents already handle shared expenses. [web:316][web:323][web:335][web:320]
+                With support for the Russian ruble (RUB), one of the world’s oldest currencies still in use and Russia’s official legal tender, GroupFund fits how Moscow residents already handle shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function MoscowLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Moscow Families</h3>
-                  <p>Organize group contributions for extended families across Moscow’s many districts and suburbs. [web:747][web:748]</p>
+                  <p>Organize group contributions for extended families across Moscow’s many districts and suburbs.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
@@ -76,7 +76,7 @@ export default function MoscowLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Moscow Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Moscow’s business and government centres. [web:753]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Moscow’s business and government centres.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function MoscowLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 RUB Support</h3>
-                  <p>Full support for Russian ruble (RUB), subdivided into kopeks, so contribution amounts are set in the local currency. [web:316][web:323][web:320]</p>
+                  <p>Full support for Russian ruble (RUB), subdivided into kopeks, so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Moscow’s large, highly connected urban population. [web:747][web:748]</p>
+                  <p>Mobile‑friendly experience that fits Moscow’s large, highly connected urban population.</p>
                 </div>
               </div>
             </div>

@@ -45,7 +45,7 @@ export default function KyivLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Kyiv, Ukraine 🇺🇦</h1>
           <p className="page-subtitle">
-            Organize group contributions in Kyiv with GroupFund. Perfect for Kyiv families, churches, schools, and groups. [web:754][web:755]
+            Organize group contributions in Kyiv with GroupFund. Perfect for Kyiv families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function KyivLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Kyiv</h2>
               <p>
-                Kyiv is the capital and most populous city of Ukraine, located on both banks of the Dnieper River and serving as the country’s main political, economic, and cultural centre. [web:754][web:755][web:756]
+                Kyiv is the capital and most populous city of Ukraine, located on both banks of the Dnieper River and serving as the country’s main political, economic, and cultural centre.
               </p>
               <p>
-                With support for Ukrainian hryvnia (UAH), the official currency of Ukraine, GroupFund is ideal for Kyiv groups handling everyday contributions in local currency even amid ongoing challenges. [web:340][web:343][web:761][web:349]
+                With support for Ukrainian hryvnia (UAH), the official currency of Ukraine, GroupFund is ideal for Kyiv groups handling everyday contributions in local currency even amid ongoing challenges.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function KyivLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Kyiv Families</h3>
-                  <p>Organize group contributions for extended families across Kyiv’s districts on both sides of the Dnieper. [web:754][web:760]</p>
+                  <p>Organize group contributions for extended families across Kyiv’s districts on both sides of the Dnieper.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
@@ -84,11 +84,11 @@ export default function KyivLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 UAH Support</h3>
-                  <p>Full support for Ukrainian hryvnia (UAH), so contribution amounts are set in the local currency. [web:340][web:343][web:761]</p>
+                  <p>Full support for Ukrainian hryvnia (UAH), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that supports Kyiv’s increasingly digital, connected population. [web:756][web:759]</p>
+                  <p>Mobile‑friendly experience that supports Kyiv’s increasingly digital, connected population.</p>
                 </div>
               </div>
             </div>

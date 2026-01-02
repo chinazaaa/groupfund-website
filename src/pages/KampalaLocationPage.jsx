@@ -45,7 +45,7 @@ export default function KampalaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Kampala, Uganda 🇺🇬</h1>
           <p className="page-subtitle">
-            Organize group contributions in Kampala with GroupFund. Perfect for Kampala families, churches, schools, and groups. [web:722][web:725]
+            Organize group contributions in Kampala with GroupFund. Perfect for Kampala families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function KampalaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Kampala</h2>
               <p>
-                Kampala is the capital and largest city of Uganda, built on a series of hills just north of Lake Victoria and serving as the country’s main political and economic centre. [web:722][web:725][web:729]
+                Kampala is the capital and largest city of Uganda, built on a series of hills just north of Lake Victoria and serving as the country’s main political and economic centre.
               </p>
               <p>
-                With support for Ugandan shilling (UGX), the official currency of Uganda, GroupFund is ideal for Kampala groups managing everyday contributions in local currency. [web:276][web:278][web:280][web:277]
+                With support for Ugandan shilling (UGX), the official currency of Uganda, GroupFund is ideal for Kampala groups managing everyday contributions in local currency.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function KampalaLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Kampala Families</h3>
-                  <p>Organize group contributions for extended Kampala families across neighbourhoods and hills around the city. [web:728][web:729]</p>
+                  <p>Organize group contributions for extended Kampala families across neighbourhoods and hills around the city.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Fellowships</h3>
@@ -84,11 +84,11 @@ export default function KampalaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 UGX Support</h3>
-                  <p>Full support for Ugandan shilling (UGX), so contribution amounts are set in the local currency. [web:276][web:278][web:283]</p>
+                  <p>Full support for Ugandan shilling (UGX), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Kampala’s growing smartphone and internet usage. [web:726][web:730]</p>
+                  <p>Mobile‑friendly experience that fits Kampala’s growing smartphone and internet usage.</p>
                 </div>
               </div>
             </div>

@@ -45,7 +45,7 @@ export default function ManilaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Manila, Philippines 🇵🇭</h1>
           <p className="page-subtitle">
-            Organize group contributions in Manila with GroupFund. Perfect for Manila families, churches, schools, and groups. [web:667][web:668]
+            Organize group contributions in Manila with GroupFund. Perfect for Manila families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function ManilaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Manila</h2>
               <p>
-                Manila is the capital and chief city of the Philippines, located on the eastern shore of Manila Bay on the island of Luzon and serving as the country’s economic, political, and cultural centre. [web:667][web:668]
+                Manila is the capital and chief city of the Philippines, located on the eastern shore of Manila Bay on the island of Luzon and serving as the country’s economic, political, and cultural centre.
               </p>
               <p>
-                With support for Philippine peso (PHP), the official currency subdivided into 100 sentimo, GroupFund is ideal for Manila groups managing regular contributions in local currency. [web:196][web:677]
+                With support for Philippine peso (PHP), the official currency subdivided into 100 sentimo, GroupFund is ideal for Manila groups managing regular contributions in local currency.
               </p>
             </div>
 
@@ -84,11 +84,11 @@ export default function ManilaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 PHP Support</h3>
-                  <p>Full support for Philippine peso (PHP), so contribution amounts are set in the local currency. [web:196][web:674]</p>
+                  <p>Full support for Philippine peso (PHP), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile-friendly experience that fits Manila’s highly connected and smartphone-driven lifestyle. [web:670][web:681]</p>
+                  <p>Mobile-friendly experience that fits Manila’s highly connected and smartphone-driven lifestyle.</p>
                 </div>
               </div>
             </div>

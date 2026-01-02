@@ -45,7 +45,7 @@ export default function KingstonLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Kingston, Jamaica 🇯🇲</h1>
           <p className="page-subtitle">
-            Organize group contributions in Kingston with GroupFund. Perfect for Kingston families, churches, schools, and groups. [web:882][web:883][web:887]
+            Organize group contributions in Kingston with GroupFund. Perfect for Kingston families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function KingstonLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Kingston</h2>
               <p>
-                Kingston is the capital and largest city of Jamaica, a major port on the island’s southeastern coast backed by the Blue Mountains and serving as the island’s financial, cultural, and educational centre. [web:882][web:883][web:887][web:888]
+                Kingston is the capital and largest city of Jamaica, a major port on the island’s southeastern coast backed by the Blue Mountains and serving as the island’s financial, cultural, and educational centre.
               </p>
               <p>
-                The city is also the heart of Jamaica’s music and creative scene, closely associated with reggae and Rastafarian culture, so groups frequently pool money for events, support, and community projects. [web:885][web:887][web:886]
+                The city is also the heart of Jamaica’s music and creative scene, closely associated with reggae and Rastafarian culture, so groups frequently pool money for events, support, and community projects.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function KingstonLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Jamaican Dollar (JMD)</h3>
                   <p>
-                    GroupFund supports the Jamaican dollar (JMD), Jamaica’s official currency, abbreviated J$ or JA$ and divided into 100 cents, though small coins are less used today. [web:556][web:560][web:557][web:891]
+                    GroupFund supports the Jamaican dollar (JMD), Jamaica’s official currency, abbreviated J$ or JA$ and divided into 100 cents, though small coins are less used today.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📈 Local Value Tracking</h3>
                   <p>
-                    Contribution amounts are stored in JMD so organisers can focus on who has paid and totals collected, while external tools handle any FX conversion when needed. [web:560][web:563][web:891]
+                    Contribution amounts are stored in JMD so organisers can focus on who has paid and totals collected, while external tools handle any FX conversion when needed.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function KingstonLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Kingston Families</h3>
-                  <p>Organize contributions for weddings, funerals, school fees, and monthly family support across Kingston communities. [web:887][web:889]</p>
+                  <p>Organize contributions for weddings, funerals, school fees, and monthly family support across Kingston communities.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Fellowships</h3>
-                  <p>Manage regular offerings and special collections for churches and faith groups across Kingston. [web:884][web:890]</p>
+                  <p>Manage regular offerings and special collections for churches and faith groups across Kingston.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support funds in Kingston’s businesses and public‑sector offices. [web:883][web:889]</p>
+                  <p>Run birthday, farewell, and emergency support funds in Kingston’s businesses and public‑sector offices.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Community Projects</h3>
-                  <p>Track contributions for teacher gifts, school initiatives, sports teams, and youth programmes. [web:887][web:893]</p>
+                  <p>Track contributions for teacher gifts, school initiatives, sports teams, and youth programmes.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
-                  <p>Designed for Kingston’s growing smartphone‑using population, so organisers can update payments on the go. [web:884][web:890]</p>
+                  <p>Designed for Kingston’s growing smartphone‑using population, so organisers can update payments on the go.</p>
                 </div>
               </div>
             </div>
