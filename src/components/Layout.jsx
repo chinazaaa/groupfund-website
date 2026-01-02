@@ -30,7 +30,7 @@ export default function Layout({ children }) {
                 src="/logo.png" 
                 alt="GroupFund" 
                 className="logo-img" 
-                fetchPriority="high"
+                fetchpriority="high"
                 loading="eager"
                 width="120"
                 height="120"
