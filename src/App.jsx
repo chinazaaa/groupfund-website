@@ -154,10 +154,25 @@ import SpainLocationPage from './pages/SpainLocationPage'
 import ItalyLocationPage from './pages/ItalyLocationPage'
 import ChinaLocationPage from './pages/ChinaLocationPage'
 import JapanLocationPage from './pages/JapanLocationPage'
-import BarcelonaLocationPage from './pages/BarcelonaLocationPage'
-import MilanLocationPage from './pages/MilanLocationPage'
 import TokyoLocationPage from './pages/TokyoLocationPage'
 import ShanghaiLocationPage from './pages/ShanghaiLocationPage'
+import ManilaLocationPage from './pages/ManilaLocationPage'
+import PakistanLocationPage from './pages/PakistanLocationPage.jsx'
+import RussiaLocationPage from './pages/RussiaLocationPage.jsx'
+import UkraineLocationPage from './pages/UkraineLocationPage.jsx'
+import TurkeyLocationPage from './pages/TurkeyLocationPage.jsx'
+import IndonesiaLocationPage from './pages/IndonesiaLocationPage.jsx'
+import ColombiaLocationPage from './pages/ColombiaLocationPage.jsx'
+import FinlandLocationPage from './pages/FinlandLocationPage.jsx'
+import SwedenLocationPage from './pages/SwedenLocationPage.jsx'
+import VietnamLocationPage from './pages/VietnamLocationPage.jsx'
+import YemenLocationPage from './pages/YemenLocationPage.jsx'
+import IraqLocationPage from './pages/IraqLocationPage.jsx'
+import JordanLocationPage from './pages/JordanLocationPage.jsx'
+import JamaicaLocationPage from './pages/JamaicaLocationPage.jsx'
+import LebanonLocationPage from './pages/LebanonLocationPage.jsx'
+import SriLankaLocationPage from './pages/SriLankaLocationPage.jsx'
+import SerbiaLocationPage from './pages/SerbiaLocationPage.jsx'
 import SubscriptionGroupPage from './pages/SubscriptionGroupPage'
 import NetflixPage from './pages/NetflixPage'
 import SpotifyPage from './pages/SpotifyPage'
@@ -210,6 +225,7 @@ import AdminCustomEmails from './pages/admin/AdminCustomEmails'
 import AdminCustomNotifications from './pages/admin/AdminCustomNotifications'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import './App.css'
+import PhilippinesLocationPage from './pages/PhilippinesLocationPage'
 
 function App() {
   return (
@@ -304,7 +320,7 @@ function App() {
         <Route path="/locations/italy" element={<Layout><ItalyLocationPage /></Layout>} />
         <Route path="/locations/china" element={<Layout><ChinaLocationPage /></Layout>} />
         <Route path="/locations/japan" element={<Layout><JapanLocationPage /></Layout>} />
-        <Route path="/locations/barcelona" element={<Layout><BarcelonaLocationPage /></Layout>} />
+         <Route path="/locations/barcelona" element={<Layout><BarcelonaLocationPage /></Layout>} />
         <Route path="/locations/milan" element={<Layout><MilanLocationPage /></Layout>} />
         <Route path="/locations/tokyo" element={<Layout><TokyoLocationPage /></Layout>} />
         <Route path="/locations/shanghai" element={<Layout><ShanghaiLocationPage /></Layout>} />
@@ -312,6 +328,54 @@ function App() {
         <Route path="/locations/mumbai" element={<Layout><MumbaiLocationPage /></Layout>} />
         <Route path="/locations/nairobi" element={<Layout><NairobiLocationPage /></Layout>} />
         <Route path="/locations/mexico-city" element={<Layout><MexicoCityLocationPage /></Layout>} />
+        <Route path="/locations/manila" element={<Layout><ManilaLocationPage /></Layout>} />
+        <Route path="/locations/philippines" element={<Layout>< PhilippinesLocationPage /></Layout>} />
+<Route path="/locations/poland" element={<Layout><PolandLocationPage /></Layout>} />
+<Route path="/locations/south-korea" element={<Layout><SouthKoreaLocationPage /></Layout>} />
+<Route path="/locations/estonia" element={<Layout><EstoniaLocationPage /></Layout>} />
+<Route path="/locations/uganda" element={<Layout><UgandaLocationPage /></Layout>} />
+<Route path="/locations/pakistan" element={<Layout><PakistanLocationPage /></Layout>} />
+<Route path="/locations/russia" element={<Layout><RussiaLocationPage /></Layout>} />
+<Route path="/locations/ukraine" element={<Layout><UkraineLocationPage /></Layout>} />
+<Route path="/locations/turkey" element={<Layout><TurkeyLocationPage /></Layout>} />
+<Route path="/locations/indonesia" element={<Layout><IndonesiaLocationPage /></Layout>} />
+<Route path="/locations/malaysia" element={<Layout><MalaysiaLocationPage /></Layout>} />
+<Route path="/locations/colombia" element={<Layout><ColombiaLocationPage /></Layout>} />
+<Route path="/locations/finland" element={<Layout><FinlandLocationPage /></Layout>} />
+<Route path="/locations/sweden" element={<Layout><SwedenLocationPage /></Layout>} />
+<Route path="/locations/vietnam" element={<Layout><VietnamLocationPage /></Layout>} />
+<Route path="/locations/yemen" element={<Layout><YemenLocationPage /></Layout>} />
+<Route path="/locations/iraq" element={<Layout><IraqLocationPage /></Layout>} />
+<Route path="/locations/jordan" element={<Layout><JordanLocationPage /></Layout>} />
+<Route path="/locations/jamaica" element={<Layout><JamaicaLocationPage /></Layout>} />
+<Route path="/locations/singapore" element={<Layout><SingaporeLocationPage /></Layout>} />
+<Route path="/locations/lebanon" element={<Layout><LebanonLocationPage /></Layout>} />
+<Route path="/locations/sri-lanka" element={<Layout><SriLankaLocationPage /></Layout>} />
+<Route path="/locations/serbia" element={<Layout><SerbiaLocationPage /></Layout>} />
+<Route path="/locations/afghanistan" element={<Layout><AfghanistanLocationPage /></Layout>} />
+<Route path="/locations/warsaw" element={<Layout><WarsawLocationPage /></Layout>} />
+<Route path="/locations/seoul" element={<Layout><SeoulLocationPage /></Layout>} />
+<Route path="/locations/tallinn" element={<Layout><TallinnLocationPage /></Layout>} />
+<Route path="/locations/kampala" element={<Layout><KampalaLocationPage /></Layout>} />
+<Route path="/locations/islamabad" element={<Layout><IslamabadLocationPage /></Layout>} />
+<Route path="/locations/moscow" element={<Layout><MoscowLocationPage /></Layout>} />
+<Route path="/locations/kyiv" element={<Layout><KyivLocationPage /></Layout>} />
+<Route path="/locations/istanbul" element={<Layout><IstanbulLocationPage /></Layout>} />
+<Route path="/locations/jakarta" element={<Layout><JakartaLocationPage /></Layout>} />
+<Route path="/locations/kuala-lumpur" element={<Layout><KualaLumpurLocationPage /></Layout>} />
+<Route path="/locations/bogota" element={<Layout><BogotaLocationPage /></Layout>} />
+<Route path="/locations/helsinki" element={<Layout><HelsinkiLocationPage /></Layout>} />
+<Route path="/locations/stockholm" element={<Layout><StockholmLocationPage /></Layout>} />
+<Route path="/locations/ho-chi-minh-city" element={<Layout><HoChiMinhCityLocationPage /></Layout>} />
+<Route path="/locations/sanaa" element={<Layout><SanaaLocationPage /></Layout>} />
+<Route path="/locations/baghdad" element={<Layout><BaghdadLocationPage /></Layout>} />
+<Route path="/locations/amman" element={<Layout><AmmanLocationPage /></Layout>} />
+<Route path="/locations/kingston" element={<Layout><KingstonLocationPage /></Layout>} />
+<Route path="/locations/singapore-city" element={<Layout><SingaporeCityLocationPage /></Layout>} />
+<Route path="/locations/beirut" element={<Layout><BeirutLocationPage /></Layout>} />
+<Route path="/locations/colombo" element={<Layout><ColomboLocationPage /></Layout>} />
+<Route path="/locations/belgrade" element={<Layout><BelgradeLocationPage /></Layout>} />
+<Route path="/locations/kabul" element={<Layout><KabulLocationPage /></Layout>} />
         <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} />
         <Route path="/resources/how-to-organize-birthday-contributions" element={<Layout><HowToOrganizeBirthdayContributionsPage /></Layout>} />
         <Route path="/resources/birthday-contribution-etiquette" element={<Layout><BirthdayContributionEtiquettePage /></Layout>} />
