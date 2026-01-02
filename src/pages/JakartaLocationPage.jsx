@@ -45,7 +45,7 @@ export default function JakartaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Jakarta, Indonesia 🇮🇩</h1>
           <p className="page-subtitle">
-            Organize group contributions in Jakarta with GroupFund. Perfect for Jakarta families, churches, schools, and groups. [web:777][web:781]
+            Organize group contributions in Jakarta with GroupFund. Perfect for Jakarta families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function JakartaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Jakarta</h2>
               <p>
-                Jakarta is the capital and largest city of Indonesia, a major trade and financial centre on the northwest coast of Java and the core of a vast Greater Jakarta metropolis. [web:777][web:778][web:781]
+                Jakarta is the capital and largest city of Indonesia, a major trade and financial centre on the northwest coast of Java and the core of a vast Greater Jakarta metropolis.
               </p>
               <p>
-                With support for Indonesian rupiah (IDR), the official currency of Indonesia, GroupFund fits how Jakarta residents already manage day‑to‑day payments and shared expenses. [web:376][web:378][web:784][web:380]
+                With support for Indonesian rupiah (IDR), the official currency of Indonesia, GroupFund fits how Jakarta residents already manage day‑to‑day payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function JakartaLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Jakarta Families</h3>
-                  <p>Organize group contributions for extended families across Central, West, South, East, and North Jakarta districts. [web:781][web:787]</p>
+                  <p>Organize group contributions for extended families across Central, West, South, East, and North Jakarta districts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches, Mosques & Communities</h3>
@@ -76,7 +76,7 @@ export default function JakartaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Jakarta Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Jakarta’s business and government centres. [web:782][web:787]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Jakarta’s business and government centres.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function JakartaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 IDR Support</h3>
-                  <p>Full support for Indonesian rupiah (IDR), so contribution amounts are set in local currency. [web:376][web:378][web:784]</p>
+                  <p>Full support for Indonesian rupiah (IDR), so contribution amounts are set in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Jakarta’s busy, highly connected urban lifestyle. [web:781][web:782]</p>
+                  <p>Mobile‑friendly experience that fits Jakarta’s busy, highly connected urban lifestyle.</p>
                 </div>
               </div>
             </div>

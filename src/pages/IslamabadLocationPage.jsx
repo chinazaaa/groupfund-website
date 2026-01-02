@@ -45,7 +45,7 @@ export default function IslamabadLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Islamabad, Pakistan 🇵🇰</h1>
           <p className="page-subtitle">
-            Organize group contributions in Islamabad with GroupFund. Perfect for Islamabad families, churches, schools, and groups. [web:732][web:733]
+            Organize group contributions in Islamabad with GroupFund. Perfect for Islamabad families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function IslamabadLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Islamabad</h2>
               <p>
-                Islamabad is Pakistan’s capital city, located on the Potohar Plateau in northern Pakistan near the Margalla Hills, and was built as a planned city in the 1960s to replace Karachi as the national capital. [web:732][web:733][web:738]
+                Islamabad is Pakistan’s capital city, located on the Potohar Plateau in northern Pakistan near the Margalla Hills, and was built as a planned city in the 1960s to replace Karachi as the national capital.
               </p>
               <p>
-                With support for Pakistani rupee (PKR), the official currency of Pakistan, GroupFund is ideal for Islamabad groups managing regular contributions in local currency. [web:296][web:300][web:297][web:298]
+                With support for Pakistani rupee (PKR), the official currency of Pakistan, GroupFund is ideal for Islamabad groups managing regular contributions in local currency.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function IslamabadLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Islamabad Families</h3>
-                  <p>Organize group contributions for extended Islamabad families across sectors and nearby Rawalpindi. [web:732][web:739]</p>
+                  <p>Organize group contributions for extended Islamabad families across sectors and nearby Rawalpindi.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Mosques & Faith Groups</h3>
@@ -84,11 +84,11 @@ export default function IslamabadLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 PKR Support</h3>
-                  <p>Full support for Pakistani rupee (PKR), so contribution amounts are set in the local currency. [web:296][web:300][web:297]</p>
+                  <p>Full support for Pakistani rupee (PKR), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Islamabad’s growing, tech-savvy urban population. [web:734][web:736]</p>
+                  <p>Mobile‑friendly experience that fits Islamabad’s growing, tech-savvy urban population.</p>
                 </div>
               </div>
             </div>

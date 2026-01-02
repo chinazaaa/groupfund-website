@@ -42,7 +42,7 @@ export default function IndonesiaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Indonesia 🇮🇩</h1>
           <p className="page-subtitle">
-            Organize group contributions in Indonesia with GroupFund. Perfect for Indonesian families, communities, schools, and groups. [web:381][web:387][web:393]
+            Organize group contributions in Indonesia with GroupFund. Perfect for Indonesian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function IndonesiaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Indonesia</h2>
               <p>
-                Indonesia is the world’s fourth most populous country and the largest archipelago nation, with over 17,000 islands and major cities like Jakarta, Surabaya, Bandung, and Medan. [web:381][web:384][web:387]
+                Indonesia is the world’s fourth most populous country and the largest archipelago nation, with over 17,000 islands and major cities like Jakarta, Surabaya, Bandung, and Medan.
               </p>
               <p>
-                With support for Indonesian rupiah (IDR) and local bank details, GroupFund is designed to work seamlessly for Indonesian groups of all sizes. [web:376][web:377][web:378][web:383]
+                With support for Indonesian rupiah (IDR) and local bank details, GroupFund is designed to work seamlessly for Indonesian groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function IndonesiaLocationPage() {
                 <div className="feature-item">
                   <h3>🇮🇩 Indonesian Rupiah (IDR) Support</h3>
                   <p>
-                    Full support for Indonesian rupiah. Set contribution amounts in IDR so everyone contributes in the local currency. [web:376][web:378][web:380]
+                    Full support for Indonesian rupiah. Set contribution amounts in IDR so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with local bank transfers and common payment methods in Indonesia; members send money then mark payments as completed in GroupFund. [web:377][web:383][web:386]
+                    Works with local bank transfers and common payment methods in Indonesia; members send money then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Indonesian Families</h3>
                   <p>
-                    Organize contributions for extended Indonesian families across islands and provinces for weddings, arisans, holidays, and celebrations. [web:381][web:384][web:390]
+                    Organize contributions for extended Indonesian families across islands and provinces for weddings, arisans, holidays, and celebrations.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function IndonesiaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Indonesia’s fast-growing smartphone and internet usage. [web:387][web:390]
+                    Mobile-friendly experience that fits Indonesia’s fast-growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function IndonesiaLocationPage() {
               <h2>How It Works in Indonesia</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Indonesian rupiah (IDR) as the currency. [web:376][web:378][web:383]
+                  <strong>Create Your Group:</strong> Set up a group with Indonesian rupiah (IDR) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose IDR amounts per person that fit your group.

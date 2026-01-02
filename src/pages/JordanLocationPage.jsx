@@ -42,7 +42,7 @@ export default function JordanLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Jordan 🇯🇴</h1>
           <p className="page-subtitle">
-            Organize group contributions in Jordan with GroupFund. Perfect for Jordanian families, communities, schools, and groups. [web:541][web:544][web:547]
+            Organize group contributions in Jordan with GroupFund. Perfect for Jordanian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function JordanLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Jordan</h2>
               <p>
-                Jordan is a West Asian country in the Southern Levant, bordered by Syria, Iraq, Saudi Arabia, Israel, and Palestine, with Amman as its capital and largest city. [web:541][web:544][web:550]
+                Jordan is a West Asian country in the Southern Levant, bordered by Syria, Iraq, Saudi Arabia, Israel, and Palestine, with Amman as its capital and largest city.
               </p>
               <p>
-                With support for Jordanian dinar (JOD) and local payment details, GroupFund is designed to work smoothly for Jordanian groups that rely on shared giving and regular contributions. [web:536][web:539][web:543][web:549]
+                With support for Jordanian dinar (JOD) and local payment details, GroupFund is designed to work smoothly for Jordanian groups that rely on shared giving and regular contributions.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function JordanLocationPage() {
                 <div className="feature-item">
                   <h3>🇯🇴 Jordanian Dinar (JOD) Support</h3>
                   <p>
-                    Full support for Jordanian dinar. Set contribution amounts in JOD so everyone contributes in the official national currency. [web:536][web:539][web:543][web:549]
+                    Full support for Jordanian dinar. Set contribution amounts in JOD so everyone contributes in the official national currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank & Cash Payments</h3>
                   <p>
-                    Works with Jordanian bank transfers, cards, and cash workflows; members pay using their usual method and then mark contributions as completed in GroupFund. [web:537][web:538][web:546]
+                    Works with Jordanian bank transfers, cards, and cash workflows; members pay using their usual method and then mark contributions as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Jordanian Families</h3>
                   <p>
-                    Organize contributions for extended families in Amman, Irbid, Zarqa, Aqaba, and other cities for weddings, holidays, and support needs. [web:541][web:544][web:553]
+                    Organize contributions for extended families in Amman, Irbid, Zarqa, Aqaba, and other cities for weddings, holidays, and support needs.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Religious Groups</h3>
                   <p>
-                    Ideal for local communities, mosques, churches, and neighborhood groups coordinating ongoing support and charity funds. [web:541][web:550]
+                    Ideal for local communities, mosques, churches, and neighborhood groups coordinating ongoing support and charity funds.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function JordanLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Jordan’s growing internet and smartphone usage, including younger, urban populations. [web:547][web:553]
+                    Mobile-friendly experience that fits Jordan’s growing internet and smartphone usage, including younger, urban populations.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function JordanLocationPage() {
               <h2>How It Works in Jordan</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Jordanian dinar (JOD) as the currency. [web:536][web:538][web:552]
+                  <strong>Create Your Group:</strong> Set up a group with Jordanian dinar (JOD) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose JOD amounts per person that fit your group.

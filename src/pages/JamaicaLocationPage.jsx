@@ -42,7 +42,7 @@ export default function JamaicaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Jamaica 🇯🇲</h1>
           <p className="page-subtitle">
-            Organize group contributions in Jamaica with GroupFund. Perfect for Jamaican families, communities, schools, and groups. [web:564][web:567][web:570]
+            Organize group contributions in Jamaica with GroupFund. Perfect for Jamaican families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function JamaicaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Jamaica</h2>
               <p>
-                Jamaica is an island country in the Caribbean and the third-largest island in the region, with Kingston as its capital and main commercial center. [web:564][web:567][web:573]
+                Jamaica is an island country in the Caribbean and the third-largest island in the region, with Kingston as its capital and main commercial center.
               </p>
               <p>
-                With support for the Jamaican dollar (JMD) and local payment habits, GroupFund is designed to work smoothly for Jamaican groups who regularly chip in for family, church, and community needs. [web:556][web:557][web:560][web:569]
+                With support for the Jamaican dollar (JMD) and local payment habits, GroupFund is designed to work smoothly for Jamaican groups who regularly chip in for family, church, and community needs.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function JamaicaLocationPage() {
                 <div className="feature-item">
                   <h3>🇯🇲 Jamaican Dollar (JMD) Support</h3>
                   <p>
-                    Full support for Jamaican dollars, so contribution amounts are set in JMD and match how Jamaicans usually see prices and salaries. [web:556][web:557][web:560]
+                    Full support for Jamaican dollars, so contribution amounts are set in JMD and match how Jamaicans usually see prices and salaries.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Cash & Digital Payments</h3>
                   <p>
-                    Fits Jamaica’s mix of cash use and digital payments; members can pay by cash, bank transfer, or card, then mark contributions as paid in GroupFund. [web:561][web:569][web:572]
+                    Fits Jamaica’s mix of cash use and digital payments; members can pay by cash, bank transfer, or card, then mark contributions as paid in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Jamaican Families</h3>
                   <p>
-                    Organize contributions for extended families across Kingston, Montego Bay, Spanish Town and other parishes for birthdays, funerals, weddings, and more. [web:564][web:567]
+                    Organize contributions for extended families across Kingston, Montego Bay, Spanish Town and other parishes for birthdays, funerals, weddings, and more.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Church & Community Groups</h3>
                   <p>
-                    Ideal for churches, community clubs, and partner groups (pardner) that manage regular collections and support funds. [web:561][web:573]
+                    Ideal for churches, community clubs, and partner groups (pardner) that manage regular collections and support funds.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function JamaicaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that works well with Jamaica’s growing smartphone and internet usage. [web:561][web:573]
+                    Mobile-friendly experience that works well with Jamaica’s growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function JamaicaLocationPage() {
               <h2>How It Works in Jamaica</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Jamaican dollar (JMD) as the currency. [web:556][web:557][web:560]
+                  <strong>Create Your Group:</strong> Set up a group with Jamaican dollar (JMD) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose JMD amounts per person that match your group’s budget.

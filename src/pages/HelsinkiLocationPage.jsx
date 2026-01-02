@@ -45,7 +45,7 @@ export default function HelsinkiLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Helsinki, Finland 🇫🇮</h1>
           <p className="page-subtitle">
-            Organize group contributions in Helsinki with GroupFund. Perfect for Helsinki families, churches, schools, and groups. [web:817][web:819][web:821]
+            Organize group contributions in Helsinki with GroupFund. Perfect for Helsinki families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function HelsinkiLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Helsinki</h2>
               <p>
-                Helsinki is the capital and most populous city of Finland, located on a southern peninsula by the Gulf of Finland and serving as the country’s main administrative, cultural, and economic centre. [web:817][web:819][web:821]
+                Helsinki is the capital and most populous city of Finland, located on a southern peninsula by the Gulf of Finland and serving as the country’s main administrative, cultural, and economic centre.
               </p>
               <p>
-                Finland uses the euro (EUR) as its official currency, so GroupFund’s euro support fits naturally with how people in Helsinki already handle everyday payments and shared expenses. [web:436][web:437][web:440][web:452]
+                Finland uses the euro (EUR) as its official currency, so GroupFund’s euro support fits naturally with how people in Helsinki already handle everyday payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function HelsinkiLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Helsinki Families</h3>
-                  <p>Organize group contributions for extended families across central Helsinki and the wider capital region. [web:817][web:821]</p>
+                  <p>Organize group contributions for extended families across central Helsinki and the wider capital region.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
@@ -76,7 +76,7 @@ export default function HelsinkiLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Helsinki Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Helsinki’s business and government districts. [web:818][web:822]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Helsinki’s business and government districts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function HelsinkiLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 EUR Support</h3>
-                  <p>Full support for euro (EUR), divided into 100 cents, so contribution amounts are set directly in local currency. [web:436][web:440][web:452][web:443]</p>
+                  <p>Full support for euro (EUR), divided into 100 cents, so contribution amounts are set directly in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that matches Helsinki’s highly digital, well‑connected urban lifestyle. [web:814][web:820]</p>
+                  <p>Mobile‑friendly experience that matches Helsinki’s highly digital, well‑connected urban lifestyle.</p>
                 </div>
               </div>
             </div>

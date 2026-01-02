@@ -42,7 +42,7 @@ export default function IraqLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Iraq 🇮🇶</h1>
           <p className="page-subtitle">
-            Organize group contributions in Iraq with GroupFund. Perfect for Iraqi families, communities, schools, and groups. [web:521][web:524][web:527]
+            Organize group contributions in Iraq with GroupFund. Perfect for Iraqi families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function IraqLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Iraq</h2>
               <p>
-                Iraq is a Middle Eastern country in western Asia with a population of over 45 million and a capital city, Baghdad, that is the country’s largest urban center. [web:521][web:524][web:527]
+                Iraq is a Middle Eastern country in western Asia with a population of over 45 million and a capital city, Baghdad, that is the country’s largest urban center.
               </p>
               <p>
-                With support for Iraqi dinar (IQD) and local payment details, GroupFund is designed to help Iraqi groups keep shared contributions transparent and organized. [web:516][web:518][web:519][web:520]
+                With support for Iraqi dinar (IQD) and local payment details, GroupFund is designed to help Iraqi groups keep shared contributions transparent and organized.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function IraqLocationPage() {
                 <div className="feature-item">
                   <h3>🇮🇶 Iraqi Dinar (IQD) Support</h3>
                   <p>
-                    Full support for Iraqi dinar. Set contribution amounts in IQD so everyone contributes in the local currency. [web:516][web:518][web:519][web:520]
+                    Full support for Iraqi dinar. Set contribution amounts in IQD so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Transfers & Cash</h3>
                   <p>
-                    Works with local bank transfers, exchange offices, and cash‑based workflows; members send money and then mark contributions as paid in GroupFund. [web:517][web:526][web:529]
+                    Works with local bank transfers, exchange offices, and cash‑based workflows; members send money and then mark contributions as paid in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Iraqi Families</h3>
                   <p>
-                    Organize contributions for extended Iraqi families in Baghdad, Basra, Mosul, Erbil, and other cities and regions. [web:524][web:527][web:530]
+                    Organize contributions for extended Iraqi families in Baghdad, Basra, Mosul, Erbil, and other cities and regions.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Support Groups</h3>
                   <p>
-                    Ideal for neighborhood, tribal, and community groups coordinating shared funds for important needs. [web:524][web:533]
+                    Ideal for neighborhood, tribal, and community groups coordinating shared funds for important needs.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function IraqLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
                   <p>
-                    Simple mobile experience so members can join groups and update payment status whenever they have access. [web:524][web:527]
+                    Simple mobile experience so members can join groups and update payment status whenever they have access.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function IraqLocationPage() {
               <h2>How It Works in Iraq</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Iraqi dinar (IQD) as the currency. [web:516][web:518][web:519]
+                  <strong>Create Your Group:</strong> Set up a group with Iraqi dinar (IQD) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose IQD amounts per person that fit your group’s situation.

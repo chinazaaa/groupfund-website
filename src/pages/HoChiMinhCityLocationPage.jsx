@@ -45,7 +45,7 @@ export default function HoChiMinhCityLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Ho Chi Minh City, Vietnam 🇻🇳</h1>
           <p className="page-subtitle">
-            Organize group contributions in Ho Chi Minh City with GroupFund. Perfect for HCMC families, churches, schools, and groups. [web:839][web:840][web:842]
+            Organize group contributions in Ho Chi Minh City with GroupFund. Perfect for HCMC families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function HoChiMinhCityLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Ho Chi Minh City</h2>
               <p>
-                Ho Chi Minh City, commonly known as Saigon, is Vietnam’s largest city and economic centre, located in the south of the country and famous for its French colonial landmarks and bustling streets. [web:839][web:840][web:842][web:843]
+                Ho Chi Minh City, commonly known as Saigon, is Vietnam’s largest city and economic centre, located in the south of the country and famous for its French colonial landmarks and bustling streets.
               </p>
               <p>
-                Vietnam uses the Vietnamese đồng (VND) as its official currency, so GroupFund’s VND support fits naturally with how residents of Ho Chi Minh City already handle everyday payments and shared expenses. [web:476][web:479][web:480][web:483]
+                Vietnam uses the Vietnamese đồng (VND) as its official currency, so GroupFund’s VND support fits naturally with how residents of Ho Chi Minh City already handle everyday payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function HoChiMinhCityLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Saigon Families</h3>
-                  <p>Organize group contributions for extended families across District 1, District 3, Thủ Đức, and beyond. [web:841][web:842]</p>
+                  <p>Organize group contributions for extended families across District 1, District 3, Thủ Đức, and beyond.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches, Pagodas & Communities</h3>
@@ -76,7 +76,7 @@ export default function HoChiMinhCityLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 HCMC Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Ho Chi Minh City’s fast‑growing business districts. [web:843][web:847]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Ho Chi Minh City’s fast‑growing business districts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function HoChiMinhCityLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 VND Support</h3>
-                  <p>Full support for Vietnamese đồng (VND), so contribution amounts are set directly in local currency. [web:476][web:479][web:483][web:486]</p>
+                  <p>Full support for Vietnamese đồng (VND), so contribution amounts are set directly in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Ho Chi Minh City’s young, connected urban population. [web:842][web:848]</p>
+                  <p>Mobile‑friendly experience that fits Ho Chi Minh City’s young, connected urban population.</p>
                 </div>
               </div>
             </div>

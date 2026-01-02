@@ -45,7 +45,7 @@ export default function IstanbulLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Istanbul, Turkey 🇹🇷</h1>
           <p className="page-subtitle">
-            Organize group contributions in Istanbul with GroupFund. Perfect for Istanbul families, churches, schools, and groups. [web:767][web:770]
+            Organize group contributions in Istanbul with GroupFund. Perfect for Istanbul families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function IstanbulLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Istanbul</h2>
               <p>
-                Istanbul is Turkey’s largest city and principal seaport, straddling the Bosporus Strait between Europe and Asia and historically known as Byzantium and later Constantinople. [web:767][web:770][web:768]
+                Istanbul is Turkey’s largest city and principal seaport, straddling the Bosporus Strait between Europe and Asia and historically known as Byzantium and later Constantinople.
               </p>
               <p>
-                With support for Turkish lira (TRY), the official currency of Turkey subdivided into 100 kuruş, GroupFund fits how Istanbul residents already handle day‑to‑day payments and shared expenses. [web:356][web:360][web:363][web:366]
+                With support for Turkish lira (TRY), the official currency of Turkey subdivided into 100 kuruş, GroupFund fits how Istanbul residents already handle day‑to‑day payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function IstanbulLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Istanbul Families</h3>
-                  <p>Organize group contributions for extended families across European and Asian‑side districts like Beyoğlu, Üsküdar, and Kadıköy. [web:766][web:768]</p>
+                  <p>Organize group contributions for extended families across European and Asian‑side districts like Beyoğlu, Üsküdar, and Kadıköy.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Mosques & Faith Groups</h3>
@@ -76,7 +76,7 @@ export default function IstanbulLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Istanbul Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Istanbul’s commercial and financial centres. [web:768][web:775]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Istanbul’s commercial and financial centres.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function IstanbulLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 TRY Support</h3>
-                  <p>Full support for Turkish lira (TRY), so contribution amounts are set directly in local currency. [web:356][web:359][web:363]</p>
+                  <p>Full support for Turkish lira (TRY), so contribution amounts are set directly in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that matches Istanbul’s dynamic, highly connected urban lifestyle. [web:771][web:776]</p>
+                  <p>Mobile‑friendly experience that matches Istanbul’s dynamic, highly connected urban lifestyle.</p>
                 </div>
               </div>
             </div>
