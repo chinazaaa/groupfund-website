@@ -45,7 +45,7 @@ export default function AmmanLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Amman, Jordan 🇯🇴</h1>
           <p className="page-subtitle">
-            Organize group contributions in Amman with GroupFund. Perfect for Amman families, churches, schools, and groups. [web:874][web:878][web:880]
+            Organize group contributions in Amman with GroupFund. Perfect for Amman families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function AmmanLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Amman</h2>
               <p>
-                Amman is the capital and largest city of Jordan, a modern metropolis spread over rolling hills between the desert and the fertile Jordan Valley, and home to the king and seat of government. [web:874][web:878][web:879][web:873]
+                Amman is the capital and largest city of Jordan, a modern metropolis spread over rolling hills between the desert and the fertile Jordan Valley, and home to the king and seat of government.
               </p>
               <p>
-                The city mixes ancient sites like the Citadel and Roman Theatre with busy commercial areas, so families, workplaces, and communities often pool money for events, support, and shared projects. [web:875][web:876][web:881]
+                The city mixes ancient sites like the Citadel and Roman Theatre with busy commercial areas, so families, workplaces, and communities often pool money for events, support, and shared projects.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function AmmanLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Jordanian Dinar (JOD)</h3>
                   <p>
-                    GroupFund supports the Jordanian dinar (JOD), Jordan’s official currency, introduced in 1950 and issued in banknotes such as 1, 5, 10, 20, and 50 dinars. [web:536][web:539][web:537]
+                    GroupFund supports the Jordanian dinar (JOD), Jordan’s official currency, with common banknote denominations such as 1, 5, 10, 20, and 50 dinars.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📈 Stable Peg</h3>
                   <p>
-                    JOD is stably pegged to the US dollar, which helps keep local pricing predictable for Amman groups setting contribution amounts. [web:539][web:538][web:552]
+                    JOD is stably pegged to the US dollar, which helps keep local pricing predictable for Amman groups setting contribution amounts.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function AmmanLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Amman Families</h3>
-                  <p>Organize contributions for weddings, family support, and celebrations across Amman’s diverse neighbourhoods. [web:878][web:880]</p>
+                  <p>Organize contributions for weddings, family support, and celebrations across Amman’s diverse neighbourhoods.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Mosques</h3>
-                  <p>Manage regular contributions and special collections for mosques, churches, and local charities. [web:880][web:881]</p>
+                  <p>Manage regular contributions and special collections for mosques, churches, and local charities.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support funds in Amman’s businesses and organisations. [web:877][web:881]</p>
+                  <p>Run birthday, farewell, and emergency support funds in Amman’s businesses and organisations.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Track contributions for teachers, school improvements, student trips, and campus groups across the city. [web:874][web:880]</p>
+                  <p>Track contributions for teachers, school improvements, student trips, and campus groups across the city.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
-                  <p>Mobile‑friendly experience that fits Amman’s growing, connected urban population. [web:875][web:876]</p>
+                  <p>Mobile‑friendly experience that fits Amman’s growing, connected urban population.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,8 @@ export default function AmmanLocationPage() {
                   <strong>School & Student Groups:</strong> Collections for teacher gifts, class trips, and student projects.
                 </li>
                 <li>
-                  <strong>Diaspora‑Linked Groups:</strong> Coordinated giving from Jordanians abroad to trusted organisers in Amman.</li>
+                  <strong>Diaspora‑Linked Groups:</strong> Coordinated giving from Jordanians abroad to trusted organisers in Amman.
+                </li>
               </ul>
             </div>
 

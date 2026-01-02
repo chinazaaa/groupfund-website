@@ -42,7 +42,7 @@ export default function AfghanistanLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Afghanistan 🇦🇫</h1>
           <p className="page-subtitle">
-            Organize group contributions in Afghanistan with GroupFund. Perfect for Afghan families, communities, schools, and groups. [web:181][web:190]
+            Organize group contributions in Afghanistan with GroupFund. Perfect for Afghan families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function AfghanistanLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Afghanistan</h2>
               <p>
-                Afghanistan is a landlocked country at the crossroads of Central and South Asia, with many close‑knit families and communities that rely on shared support. [web:181][web:190]
+                Afghanistan is a landlocked country at the crossroads of Central and South Asia, with many close‑knit families and communities that rely on shared support.
               </p>
               <p>
-                With support for the Afghan Afghani (AFN) and local bank details, GroupFund is designed to help Afghan groups keep contributions transparent and organized. [web:176][web:183]
+                With support for the Afghan Afghani (AFN) and local bank details, GroupFund is designed to help Afghan groups keep contributions transparent and organized.
               </p>
             </div>
 
@@ -65,7 +65,7 @@ export default function AfghanistanLocationPage() {
                 <div className="feature-item">
                   <h3>🇦🇫 Afghan Afghani (AFN) Support</h3>
                   <p>
-                    Full support for Afghan Afghani. Set contribution amounts in AFN so everyone contributes in the local currency. [web:176][web:183]
+                    Full support for Afghan Afghani. Set contribution amounts in AFN so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -129,7 +129,7 @@ export default function AfghanistanLocationPage() {
               <h2>How It Works in Afghanistan</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Afghan Afghani (AFN) as the currency. [web:176][web:183]
+                  <strong>Create Your Group:</strong> Set up a group with Afghan Afghani (AFN) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose AFN amounts per person that fit your group.

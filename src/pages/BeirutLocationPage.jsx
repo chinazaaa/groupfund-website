@@ -45,7 +45,7 @@ export default function BeirutLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Beirut, Lebanon 🇱🇧</h1>
           <p className="page-subtitle">
-            Organize group contributions in Beirut with GroupFund. Perfect for Beirut families, communities, schools, and groups. [web:895][web:897]
+            Organize group contributions in Beirut with GroupFund. Perfect for Beirut families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function BeirutLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Beirut</h2>
               <p>
-                Beirut is the capital, chief port, and largest city of Lebanon, located on a peninsula along the Mediterranean coast at the foot of the Lebanon Mountains and historically a major economic and cultural hub of the Middle East. [web:895][web:897][web:898]
+                Beirut is the capital, chief port, and largest city of Lebanon, located on a peninsula along the Mediterranean coast at the foot of the Lebanon Mountains and historically a major economic and cultural hub of the Middle East.
               </p>
               <p>
-                The city has endured civil war, repeated conflicts, and the 2020 port explosion yet continues to rebuild, making clear, trusted tools for shared money especially valuable for families and communities. [web:894][web:897][web:900]
+                The city has endured civil war, repeated conflicts, and the 2020 port explosion yet continues to rebuild, making clear, trusted tools for shared money especially valuable for families and communities.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function BeirutLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Lebanese Pound (LBP)</h3>
                   <p>
-                    GroupFund supports the Lebanese pound (LBP), also called the lira, the official currency of Lebanon issued by Banque du Liban and historically divided into 100 piastres. [web:600][web:901][web:612]
+                    GroupFund supports the Lebanese pound (LBP), also called the lira, the official currency of Lebanon issued by Banque du Liban and historically divided into 100 piastres.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📉 Works With Volatile Rates</h3>
                   <p>
-                    The LBP has faced severe devaluation and parallel-market rates, so GroupFund focuses on tracking contributions in LBP, while external FX tools handle conversion when needed. [web:600][web:901][web:903][web:899]
+                    The LBP has faced severe devaluation and parallel-market rates, so GroupFund focuses on tracking contributions in LBP, while external FX tools handle conversion when needed.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function BeirutLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Beirut Families</h3>
-                  <p>Organize contributions for weddings, medical support, funerals, rent, and monthly family assistance across Beirut’s neighbourhoods. [web:897][web:900]</p>
+                  <p>Organize contributions for weddings, medical support, funerals, rent, and monthly family assistance across Beirut’s neighbourhoods.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🕌 Churches, Mosques & NGOs</h3>
-                  <p>Coordinate shared funds for parishes, mosques, and local NGOs running relief and social projects. [web:897][web:900]</p>
+                  <p>Coordinate shared funds for parishes, mosques, and local NGOs running relief and social projects.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
-                  <p>Track contributions for teacher gifts, hardship support, school repairs, and student initiatives. [web:897][web:900]</p>
+                  <p>Track contributions for teacher gifts, hardship support, school repairs, and student initiatives.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support funds in Beirut’s companies, media houses, and NGOs. [web:894][web:900]</p>
+                  <p>Run birthday, farewell, and emergency support funds in Beirut’s companies, media houses, and NGOs.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
-                  <p>Designed so organisers can update and review contributions even with intermittent connectivity or power cuts. [web:897][web:900]</p>
+                  <p>Designed so organisers can update and review contributions even with intermittent connectivity or power cuts.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,8 @@ export default function BeirutLocationPage() {
                   <strong>School & Student Groups:</strong> Collections for teacher appreciation, events, and hardship cases.
                 </li>
                 <li>
-                  <strong>Diaspora‑Linked Groups:</strong> Coordinated giving from the Lebanese diaspora to specific families and projects in Beirut.</li>
+                  <strong>Diaspora‑Linked Groups:</strong> Coordinated giving from the Lebanese diaspora to specific families and projects in Beirut.
+                </li>
               </ul>
             </div>
 

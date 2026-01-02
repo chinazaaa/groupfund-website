@@ -45,7 +45,7 @@ export default function BogotaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Bogotá, Colombia 🇨🇴</h1>
           <p className="page-subtitle">
-            Organize group contributions in Bogotá with GroupFund. Perfect for Bogotá families, churches, schools, and groups. [web:802][web:803]
+            Organize group contributions in Bogotá with GroupFund. Perfect for Bogotá families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function BogotaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Bogotá</h2>
               <p>
-                Bogotá is the capital and largest city of Colombia, located on a high plateau in the Andes at about 2,640 metres above sea level and serving as the country’s main political, economic, and cultural centre. [web:803][web:805][web:806]
+                Bogotá is the capital and largest city of Colombia, located on a high plateau in the Andes at about 2,640 metres above sea level and serving as the country’s main political, economic, and cultural centre.
               </p>
               <p>
-                With support for Colombian peso (COP), the official currency of Colombia divided into 100 centavos, GroupFund fits how Bogotá’s residents already manage everyday payments and shared expenses. [web:420][web:418][web:810][web:419]
+                With support for Colombian peso (COP), the official currency of Colombia divided into 100 centavos, GroupFund fits how Bogotá’s residents already manage everyday payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function BogotaLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Bogotá Families</h3>
-                  <p>Organize group contributions for extended families across Bogotá’s many localities and neighbourhoods. [web:806][web:811]</p>
+                  <p>Organize group contributions for extended families across Bogotá’s many localities and neighbourhoods.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
@@ -76,7 +76,7 @@ export default function BogotaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Bogotá Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Bogotá’s business and government centres. [web:803][web:805]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Bogotá’s business and government centres.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function BogotaLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 COP Support</h3>
-                  <p>Full support for Colombian peso (COP), so contribution amounts are set directly in local currency. [web:420][web:418][web:419][web:810]</p>
+                  <p>Full support for Colombian peso (COP), so contribution amounts are set directly in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Bogotá’s growing, connected urban population. [web:802][web:806]</p>
+                  <p>Mobile‑friendly experience that fits Bogotá’s growing, connected urban population.</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,8 @@ export default function BogotaLocationPage() {
                   <strong>School & Student Groups:</strong> Manage collections for teacher gifts, class trips, and student projects.
                 </li>
                 <li>
-                  <strong>Friend Circles:</strong> Keep friend groups organised for shared nights out and celebrations around Bogotá.</li>
+                  <strong>Friend Circles:</strong> Keep friend groups organised for shared nights out and celebrations around Bogotá.
+                </li>
               </ul>
             </div>
 

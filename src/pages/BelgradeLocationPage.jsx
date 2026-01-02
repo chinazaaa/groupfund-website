@@ -45,7 +45,7 @@ export default function BelgradeLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Belgrade, Serbia 🇷🇸</h1>
           <p className="page-subtitle">
-            Organize group contributions in Belgrade with GroupFund. Perfect for Belgrade families, communities, schools, and groups. [web:921][web:922][web:923]
+            Organize group contributions in Belgrade with GroupFund. Perfect for Belgrade families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function BelgradeLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Belgrade</h2>
               <p>
-                Belgrade, or Beograd, is the capital and largest city of Serbia, set at the confluence of the Sava and Danube rivers and acting as a key crossroads between Central and Southeastern Europe. [web:921][web:922][web:923][web:925]
+                Belgrade, or Beograd, is the capital and largest city of Serbia, set at the confluence of the Sava and Danube rivers and acting as a key crossroads between Central and Southeastern Europe.
               </p>
               <p>
-                One of Europe’s oldest continuously inhabited cities, Belgrade has a long, turbulent history and today is Serbia’s political, economic, and cultural centre, known for its lively nightlife and riverfront social life. [web:921][web:923][web:925][web:926]
+                One of Europe’s oldest continuously inhabited cities, Belgrade has a long, turbulent history and today is Serbia’s political, economic, and cultural centre, known for its lively nightlife and riverfront social life.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function BelgradeLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Serbian Dinar (RSD)</h3>
                   <p>
-                    GroupFund supports the Serbian dinar (RSD), Serbia’s official currency, subdivided into 100 paras, with banknotes and coins issued by the National Bank of Serbia. [web:640][web:636][web:639][web:638]
+                    GroupFund supports the Serbian dinar (RSD), Serbia’s official currency, subdivided into 100 paras, with banknotes and coins issued by the National Bank of Serbia.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📈 Local Value Tracking</h3>
                   <p>
-                    Contribution amounts are tracked directly in RSD while external FX tools and banks handle conversions for anyone sending money from abroad. [web:640][web:639][web:643]
+                    Contribution amounts are tracked directly in RSD while external FX tools and banks handle conversions for anyone sending money from abroad.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function BelgradeLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Belgrade Families</h3>
-                  <p>Organize contributions for weddings, slava celebrations, funerals, and monthly family support across the city’s municipalities. [web:923][web:924]</p>
+                  <p>Organize contributions for weddings, slava celebrations, funerals, and monthly family support across the city’s municipalities.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
-                  <p>Coordinate shared funds for Orthodox parishes, other churches, and local community associations. [web:924][web:925]</p>
+                  <p>Coordinate shared funds for Orthodox parishes, other churches, and local community associations.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support pots for colleagues in Belgrade’s companies, startups, and institutions. [web:921][web:926]</p>
+                  <p>Run birthday, farewell, and emergency support pots for colleagues in Belgrade’s companies, startups, and institutions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Student Groups</h3>
-                  <p>Track contributions for excursions, projects, and student events across universities and schools. [web:923][web:928]</p>
+                  <p>Track contributions for excursions, projects, and student events across universities and schools.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile‑First City</h3>
-                  <p>Fits Belgrade’s young, connected population that organises everything from nights out on the splavs to community initiatives via mobile. [web:925][web:926]</p>
+                  <p>Fits Belgrade’s young, connected population that organises everything from nights out on the splavs to community initiatives via mobile.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,8 @@ export default function BelgradeLocationPage() {
                   <strong>Student & Youth Groups:</strong> Collections for trips, festivals, and campus activities.
                 </li>
                 <li>
-                  <strong>Friend Groups:</strong> Pooled money for nights out, concerts, and getaways along the Danube and Sava.</li>
+                  <strong>Friend Groups:</strong> Pooled money for nights out, concerts, and getaways along the Danube and Sava.
+                </li>
               </ul>
             </div>
 

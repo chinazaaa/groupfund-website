@@ -45,7 +45,7 @@ export default function BaghdadLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Baghdad, Iraq 🇮🇶</h1>
           <p className="page-subtitle">
-            Organize group contributions in Baghdad with GroupFund. Perfect for Baghdad families, communities, schools, and groups. [web:862][web:863][web:866]
+            Organize group contributions in Baghdad with GroupFund. Perfect for Baghdad families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function BaghdadLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Baghdad</h2>
               <p>
-                Baghdad is the capital and largest city of Iraq, located on the banks of the Tigris River in central Iraq and long regarded as a major political, economic, and cultural centre of the Arab and Islamic world. [web:862][web:863][web:864][web:866]
+                Baghdad is the capital and largest city of Iraq, located on the banks of the Tigris River in central Iraq and long regarded as a major political, economic, and cultural centre of the Arab and Islamic world.
               </p>
               <p>
-                The city remains Iraq’s main governmental and commercial hub, so many families, workplaces, and community groups regularly pool money for support, celebrations, and shared needs. [web:862][web:864][web:868]
+                The city remains Iraq’s main governmental and commercial hub, so many families, workplaces, and community groups regularly pool money for support, celebrations, and shared needs.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function BaghdadLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Iraqi Dinar (IQD)</h3>
                   <p>
-                    GroupFund supports the Iraqi dinar (IQD), the national currency issued by the Central Bank of Iraq and formerly divided into 1,000 fils, though fils are no longer used due to inflation. [web:516][web:518][web:523]
+                    GroupFund supports the Iraqi dinar (IQD), the national currency issued by the Central Bank of Iraq and formerly divided into 1,000 fils, though fils are no longer used due to inflation.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📊 Local Value Tracking</h3>
                   <p>
-                    Contribution amounts are stored in IQD so organisers can focus on who has paid and totals collected, regardless of external exchange‑rate movements. [web:516][web:523][web:532][web:867]
+                    Contribution amounts are stored in IQD so organisers can focus on who has paid and totals collected, regardless of external exchange‑rate movements.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function BaghdadLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Extended Families</h3>
-                  <p>Organize contributions for weddings, medical support, funerals, and ongoing family assistance across Baghdad’s neighbourhoods. [web:864][web:870]</p>
+                  <p>Organize contributions for weddings, medical support, funerals, and ongoing family assistance across Baghdad’s neighbourhoods.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🕌 Community & Religious Groups</h3>
-                  <p>Coordinate shared funds for mosques, local charities, and neighbourhood projects across the city. [web:862][web:866]</p>
+                  <p>Coordinate shared funds for mosques, local charities, and neighbourhood projects across the city.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Local Initiatives</h3>
-                  <p>Track contributions for teachers, school needs, and community-led programmes and events. [web:864][web:868]</p>
+                  <p>Track contributions for teachers, school needs, and community-led programmes and events.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support funds for teams in Baghdad’s government and private‑sector offices. [web:862][web:868]</p>
+                  <p>Run birthday, farewell, and emergency support funds for teams in Baghdad’s government and private‑sector offices.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
-                  <p>Designed so organisers can update contribution status and check who has paid even with limited connectivity. [web:864][web:869]</p>
+                  <p>Designed so organisers can update contribution status and check who has paid even with limited connectivity.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,8 @@ export default function BaghdadLocationPage() {
                   <strong>School & Student Groups:</strong> Class collections for teacher gifts, trips, and activities.
                 </li>
                 <li>
-                  <strong>Diaspora‑Linked Groups:</strong> Coordinated giving from Iraqi diaspora directly to trusted organisers in Baghdad.</li>
+                  <strong>Diaspora‑Linked Groups:</strong> Coordinated giving from Iraqi diaspora directly to trusted organisers in Baghdad.
+                </li>
               </ul>
             </div>
 
