@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
+
 export default function YemenLocationPage() {
   useEffect(() => {
     const localBusinessStructuredData = {
@@ -30,6 +31,7 @@ export default function YemenLocationPage() {
     }
   }, [])
 
+
   return (
     <>
       <SEO
@@ -42,10 +44,11 @@ export default function YemenLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Yemen 🇾🇪</h1>
           <p className="page-subtitle">
-            Organize group contributions in Yemen with GroupFund. Perfect for Yemeni families, communities, schools, and groups. [web:504][web:507][web:513]
+            Organize group contributions in Yemen with GroupFund. Perfect for Yemeni families, communities, schools, and groups.
           </p>
         </div>
       </section>
+
 
       <section className="location-detail-page">
         <div className="container">
@@ -53,12 +56,13 @@ export default function YemenLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Yemen</h2>
               <p>
-                Yemen is a country on the southern end of the Arabian Peninsula with a largely mountainous interior, long coastline, and close‑knit communities that often support each other through shared contributions. [web:501][web:504][web:507]
+                Yemen is a country on the southern end of the Arabian Peninsula with a largely mountainous interior, long coastline, and close‑knit communities that often support each other through shared contributions.
               </p>
               <p>
-                With support for Yemeni rial (YER) and local payment details, GroupFund is designed to help Yemeni groups keep contributions organized and transparent despite challenging conditions. [web:496][web:498][web:506][web:515]
+                With support for Yemeni rial (YER) and local payment details, GroupFund is designed to help Yemeni groups keep contributions organized and transparent despite challenging conditions.
               </p>
             </div>
+
 
             <div className="location-section">
               <h2>Key Features for Yemen</h2>
@@ -66,25 +70,25 @@ export default function YemenLocationPage() {
                 <div className="feature-item">
                   <h3>🇾🇪 Yemeni Rial (YER) Support</h3>
                   <p>
-                    Full support for Yemeni rial. Set contribution amounts in YER so everyone contributes in the local currency. [web:496][web:497][web:506][web:515]
+                    Full support for Yemeni rial. Set contribution amounts in YER so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Transfers & Cash</h3>
                   <p>
-                    Works with local transfer options and cash‑based workflows; members send money using their usual method and then mark contributions as paid in GroupFund. [web:499][web:503]
+                    Works with local transfer options and cash‑based workflows; members send money using their usual method and then mark contributions as paid in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Yemeni Families</h3>
                   <p>
-                    Organize contributions for extended Yemeni families in cities like Sana’a and Aden or across different governorates. [web:501][web:504][web:507]
+                    Organize contributions for extended Yemeni families in cities like Sana’a and Aden or across different governorates.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Support Groups</h3>
                   <p>
-                    Ideal for village committees, local initiatives, and community groups coordinating shared funds for important needs. [web:501][web:513]
+                    Ideal for village committees, local initiatives, and community groups coordinating shared funds for important needs.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,11 +100,12 @@ export default function YemenLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
                   <p>
-                    Simple mobile experience so members can join groups and update payments from their phones whenever they have access. [web:513]
+                    Simple mobile experience so members can join groups and update payments from their phones whenever they have access.
                   </p>
                 </div>
               </div>
             </div>
+
 
             <div className="location-section">
               <h2>Common Use Cases in Yemen</h2>
@@ -126,11 +131,12 @@ export default function YemenLocationPage() {
               </ul>
             </div>
 
+
             <div className="location-section">
               <h2>How It Works in Yemen</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Yemeni rial (YER) as the currency. [web:496][web:506][web:515]
+                  <strong>Create Your Group:</strong> Set up a group with Yemeni rial (YER) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose YER amounts per person that fit your group’s situation.
@@ -150,6 +156,7 @@ export default function YemenLocationPage() {
               </ol>
             </div>
 
+
             <div className="location-section">
               <h2>Why Yemeni Groups Choose GroupFund</h2>
               <ul className="benefits-list">
@@ -164,6 +171,7 @@ export default function YemenLocationPage() {
               </ul>
             </div>
 
+
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Yemen?</h2>
               <p>Join Yemeni groups using GroupFund to make contributions organized and stress-free.</p>
@@ -176,6 +184,7 @@ export default function YemenLocationPage() {
                 </Link>
               </div>
             </div>
+
 
             <div className="related-links">
               <h3>Explore More</h3>

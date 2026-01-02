@@ -45,7 +45,7 @@ export default function StockholmLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Stockholm, Sweden 🇸🇪</h1>
           <p className="page-subtitle">
-            Organize group contributions in Stockholm with GroupFund. Perfect for Stockholm families, churches, schools, and groups. [web:825][web:826][web:827]
+            Organize group contributions in Stockholm with GroupFund. Perfect for Stockholm families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function StockholmLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Stockholm</h2>
               <p>
-                Stockholm is the capital and largest city of Sweden, spread across multiple islands where Lake Mälaren meets the Baltic Sea and serving as the country’s main cultural, political, and economic centre. [web:826][web:827][web:829]
+                Stockholm is the capital and largest city of Sweden, spread across multiple islands where Lake Mälaren meets the Baltic Sea and serving as the country’s main cultural, political, and economic centre.
               </p>
               <p>
-                Sweden uses the Swedish krona (SEK) as its official currency, not the euro, so GroupFund’s SEK support fits how Stockholm residents already handle everyday payments and shared expenses. [web:459][web:830][web:837]
+                Sweden uses the Swedish krona (SEK) as its official currency, not the euro, so GroupFund’s SEK support fits how Stockholm residents already handle everyday payments and shared expenses.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function StockholmLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Stockholm Families</h3>
-                  <p>Organize group contributions for extended families across central Stockholm and the wider archipelago. [web:825][web:831]</p>
+                  <p>Organize group contributions for extended families across central Stockholm and the wider archipelago.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
@@ -76,7 +76,7 @@ export default function StockholmLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Stockholm Workplaces</h3>
-                  <p>Organize office birthday, farewell, and support funds for teams in Stockholm’s business districts. [web:826][web:829]</p>
+                  <p>Organize office birthday, farewell, and support funds for teams in Stockholm’s business districts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function StockholmLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 SEK Support</h3>
-                  <p>Full support for Swedish krona (SEK), so contribution amounts are set directly in local currency. [web:459][web:830][web:835]</p>
+                  <p>Full support for Swedish krona (SEK), so contribution amounts are set directly in local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that matches Stockholm’s highly connected, digital-first lifestyle. [web:825][web:828]</p>
+                  <p>Mobile‑friendly experience that matches Stockholm’s highly connected, digital-first lifestyle.</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,8 @@ export default function StockholmLocationPage() {
                   <strong>School & Student Groups:</strong> Manage collections for teacher gifts, class trips, and student projects.
                 </li>
                 <li>
-                  <strong>Friend Circles:</strong> Keep friend groups organised for shared dinners, nights out, and archipelago trips around Stockholm.</li>
+                  <strong>Friend Circles:</strong> Keep friend groups organised for shared dinners, nights out, and archipelago trips around Stockholm.
+                </li>
               </ul>
             </div>
 

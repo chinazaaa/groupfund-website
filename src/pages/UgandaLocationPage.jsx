@@ -42,7 +42,7 @@ export default function UgandaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Uganda 🇺🇬</h1>
           <p className="page-subtitle">
-            Organize group contributions in Uganda with GroupFund. Perfect for Ugandan families, churches, schools, and groups. [web:281][web:290]
+            Organize group contributions in Uganda with GroupFund. Perfect for Ugandan families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function UgandaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Uganda</h2>
               <p>
-                Uganda is a landlocked country in East Africa with many close‑knit families and communities that support each other through group giving. [web:281][web:287]
+                Uganda is a landlocked country in East Africa with many close‑knit families and communities that support each other through group giving.
               </p>
               <p>
-                With support for Ugandan Shilling (UGX) and local bank details, GroupFund is designed to help Ugandan groups keep contributions transparent and organized. [web:276][web:277][web:280]
+                With support for Ugandan Shilling (UGX) and local bank details, GroupFund is designed to help Ugandan groups keep contributions transparent and organized.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function UgandaLocationPage() {
                 <div className="feature-item">
                   <h3>🇺🇬 Ugandan Shilling (UGX) Support</h3>
                   <p>
-                    Full support for Ugandan Shilling. Set contribution amounts in UGX so everyone contributes in the local currency. [web:276][web:278]
+                    Full support for Ugandan Shilling. Set contribution amounts in UGX so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Members can send contributions using local transfer options or mobile money and then mark payments as completed inside GroupFund. [web:280]
+                    Members can send contributions using local transfer options or mobile money and then mark payments as completed inside GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Ugandan Families</h3>
                   <p>
-                    Organize contributions for extended Ugandan families, whether they are in Kampala or upcountry districts. [web:284][web:290]
+                    Organize contributions for extended Ugandan families, whether they are in Kampala or upcountry districts.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function UgandaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience so members can join, track, and confirm contributions from their phones anywhere in Uganda. [web:281]
+                    Mobile-friendly experience so members can join, track, and confirm contributions from their phones anywhere in Uganda.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function UgandaLocationPage() {
               <h2>How It Works in Uganda</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Ugandan Shilling (UGX) as the currency. [web:276][web:278]
+                  <strong>Create Your Group:</strong> Set up a group with Ugandan Shilling (UGX) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose UGX amounts per person that fit your group.

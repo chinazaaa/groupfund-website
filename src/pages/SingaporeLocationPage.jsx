@@ -42,7 +42,7 @@ export default function SingaporeLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Singapore 🇸🇬</h1>
           <p className="page-subtitle">
-            Organize group contributions in Singapore with GroupFund. Perfect for Singaporean families, communities, schools, and groups. [web:581][web:584][web:587]
+            Organize group contributions in Singapore with GroupFund. Perfect for Singaporean families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function SingaporeLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Singapore</h2>
               <p>
-                Singapore is a highly developed city‑state and island nation in Southeast Asia, with one main island and dozens of smaller islets and one of the busiest ports in the world. [web:584][web:587][web:590]
+                Singapore is a highly developed city‑state and island nation in Southeast Asia, with one main island and dozens of smaller islets and one of the busiest ports in the world.
               </p>
               <p>
-                With support for the Singapore dollar (SGD) and local payment habits, GroupFund fits how Singaporeans already handle digital payments, savings, and shared expenses. [web:576][web:579][web:580][web:586]
+                With support for the Singapore dollar (SGD) and local payment habits, GroupFund fits how Singaporeans already handle digital payments, savings, and shared expenses.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function SingaporeLocationPage() {
                 <div className="feature-item">
                   <h3>🇸🇬 Singapore Dollar (SGD) Support</h3>
                   <p>
-                    Full support for the Singapore dollar, so contribution amounts are set in SGD with values that match everyday prices and salaries. [web:576][web:579][web:583]
+                    Full support for the Singapore dollar, so contribution amounts are set in SGD with values that match everyday prices and salaries.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Digital‑First Payments</h3>
                   <p>
-                    Works smoothly with bank transfers and common digital payment methods; members pay as usual and then mark contributions as completed in GroupFund. [web:578][web:586][web:592]
+                    Works smoothly with bank transfers and common digital payment methods; members pay as usual and then mark contributions as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Singaporean Families</h3>
                   <p>
-                    Organize contributions for extended families across the island for birthdays, weddings, baby showers, and other occasions. [web:581][web:584]
+                    Organize contributions for extended families across the island for birthdays, weddings, baby showers, and other occasions.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Interest Groups</h3>
                   <p>
-                    Ideal for neighbourhood, hobby, and volunteer groups coordinating shared funds and regular collections. [web:581][web:593]
+                    Ideal for neighbourhood, hobby, and volunteer groups coordinating shared funds and regular collections.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function SingaporeLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-Optimised</h3>
                   <p>
-                    Designed for a highly connected, smartphone‑first population with fast internet and frequent on‑the‑go usage. [web:581][web:587]
+                    Designed for a highly connected, smartphone‑first population with fast internet and frequent on‑the‑go usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function SingaporeLocationPage() {
               <h2>How It Works in Singapore</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Singapore dollar (SGD) as the currency. [web:576][web:579][web:583]
+                  <strong>Create Your Group:</strong> Set up a group with Singapore dollar (SGD) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose SGD amounts per person that fit your group’s norms and budget.

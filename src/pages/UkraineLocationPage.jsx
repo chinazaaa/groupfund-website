@@ -42,7 +42,7 @@ export default function UkraineLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Ukraine 🇺🇦</h1>
           <p className="page-subtitle">
-            Organize group contributions in Ukraine with GroupFund. Perfect for Ukrainian families, communities, schools, and groups. [web:341][web:344][web:347]
+            Organize group contributions in Ukraine with GroupFund. Perfect for Ukrainian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function UkraineLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Ukraine</h2>
               <p>
-                Ukraine is a large Eastern European country with major cities like Kyiv, Kharkiv, Odesa, and Dnipro, where families and communities often organize shared support and gifts. [web:341][web:344][web:347]
+                Ukraine is a large Eastern European country with major cities like Kyiv, Kharkiv, Odesa, and Dnipro, where families and communities often organize shared support and gifts.
               </p>
               <p>
-                With support for Ukrainian hryvnia (UAH) and local bank details, GroupFund is designed to work seamlessly for Ukrainian groups of all sizes. [web:336][web:337][web:343][web:338]
+                With support for Ukrainian hryvnia (UAH) and local bank details, GroupFund is designed to work seamlessly for Ukrainian groups of all sizes.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function UkraineLocationPage() {
                 <div className="feature-item">
                   <h3>🇺🇦 Ukrainian Hryvnia (UAH) Support</h3>
                   <p>
-                    Full support for Ukrainian hryvnia. Set contribution amounts in UAH so everyone contributes in the national currency. [web:336][web:337][web:343][web:340]
+                    Full support for Ukrainian hryvnia. Set contribution amounts in UAH so everyone contributes in the national currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with local hryvnia transfers; members send money using their bank or preferred method and then mark payments as completed in GroupFund. [web:337][web:338][web:349]
+                    Works with local hryvnia transfers; members send money using their bank or preferred method and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Ukrainian Families</h3>
                   <p>
-                    Organize contributions for extended Ukrainian families in Kyiv, regions across the country, or abroad supporting relatives at home. [web:344][web:347][web:350]
+                    Organize contributions for extended Ukrainian families in Kyiv, regions across the country, or abroad supporting relatives at home.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Support Groups</h3>
                   <p>
-                    Ideal for local communities and support groups coordinating help, relief, and shared funds during difficult times. [web:341][web:353]
+                    Ideal for local communities and support groups coordinating help, relief, and shared funds during difficult times.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function UkraineLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Ukraine’s high internet and smartphone usage, including for people on the move. [web:341][web:352]
+                    Mobile-friendly experience that fits Ukraine’s high internet and smartphone usage, including for people on the move.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function UkraineLocationPage() {
               <h2>How It Works in Ukraine</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Ukrainian hryvnia (UAH) as the currency. [web:336][web:337][web:343]
+                  <strong>Create Your Group:</strong> Set up a group with Ukrainian hryvnia (UAH) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose UAH amounts per person that fit your group.

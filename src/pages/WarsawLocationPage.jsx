@@ -45,7 +45,7 @@ export default function WarsawLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Warsaw, Poland 🇵🇱</h1>
           <p className="page-subtitle">
-            Organize group contributions in Warsaw with GroupFund. Perfect for Warsaw families, churches, schools, and groups. [web:684][web:688]
+            Organize group contributions in Warsaw with GroupFund. Perfect for Warsaw families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function WarsawLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Warsaw</h2>
               <p>
-                Warsaw is the capital and largest city of Poland, located on the Vistula River in east‑central Poland and serving as the country’s economic, political, and cultural hub. [web:684][web:688]
+                Warsaw is the capital and largest city of Poland, located on the Vistula River in east‑central Poland and serving as the country’s economic, political, and cultural hub.
               </p>
               <p>
-                With support for the Polish złoty (PLN), Poland’s official currency subdivided into 100 groszy, GroupFund is ideal for Warsaw groups managing everyday contributions in local currency. [web:216][web:219][web:218]
+                With support for the Polish złoty (PLN), Poland’s official currency subdivided into 100 groszy, GroupFund is ideal for Warsaw groups managing everyday contributions in local currency.
               </p>
             </div>
 
@@ -76,7 +76,7 @@ export default function WarsawLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Warsaw Workplaces</h3>
-                  <p>Organize office birthday and support funds for teams in Warsaw’s growing business districts. [web:689]</p>
+                  <p>Organize office birthday and support funds for teams in Warsaw’s growing business districts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Warsaw Schools & Universities</h3>
@@ -84,11 +84,11 @@ export default function WarsawLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 PLN Support</h3>
-                  <p>Full support for Polish złoty (PLN), so contribution amounts are set in the local currency. [web:216][web:219]</p>
+                  <p>Full support for Polish złoty (PLN), so contribution amounts are set in the local currency.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that fits Warsaw’s modern, connected urban lifestyle. [web:688][web:694]</p>
+                  <p>Mobile‑friendly experience that fits Warsaw’s modern, connected urban lifestyle.</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,8 @@ export default function WarsawLocationPage() {
                   <strong>School & Student Groups:</strong> Manage collections for teacher gifts, class trips, and student projects.
                 </li>
                 <li>
-                  <strong>Friend Circles:</strong> Keep friend groups organised for shared celebrations and nights out in Warsaw.</li>
+                  <strong>Friend Circles:</strong> Keep friend groups organised for shared celebrations and nights out in Warsaw.
+                </li>
               </ul>
             </div>
 

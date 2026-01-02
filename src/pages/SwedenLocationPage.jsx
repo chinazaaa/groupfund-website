@@ -42,7 +42,7 @@ export default function SwedenLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Sweden 🇸🇪</h1>
           <p className="page-subtitle">
-            Organize group contributions in Sweden with GroupFund. Perfect for Swedish families, communities, schools, and groups. [web:461][web:467][web:464]
+            Organize group contributions in Sweden with GroupFund. Perfect for Swedish families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function SwedenLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Sweden</h2>
               <p>
-                Sweden is a Nordic country in Northern Europe with major cities like Stockholm, Gothenburg, and Malmö, and a high standard of living and strong social ties. [web:461][web:467][web:473]
+                Sweden is a Nordic country in Northern Europe with major cities like Stockholm, Gothenburg, and Malmö, and a high standard of living and strong social ties.
               </p>
               <p>
-                With support for Swedish krona (SEK) and local bank details, GroupFund is designed to work seamlessly for Swedish groups of all sizes. [web:456][web:459][web:460][web:466]
+                With support for Swedish krona (SEK) and local bank details, GroupFund is designed to work seamlessly for Swedish groups of all sizes.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function SwedenLocationPage() {
                 <div className="feature-item">
                   <h3>🇸🇪 Swedish Krona (SEK) Support</h3>
                   <p>
-                    Full support for Swedish krona. Set contribution amounts in SEK so everyone contributes in the local currency. [web:456][web:457][web:460][web:469]
+                    Full support for Swedish krona. Set contribution amounts in SEK so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank & Swish Payments</h3>
                   <p>
-                    Works with Swedish bank transfers and common payment options; members send money and then mark payments as completed in GroupFund. [web:458][web:459]
+                    Works with Swedish bank transfers and common payment options; members send money and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Swedish Families</h3>
                   <p>
-                    Organize contributions for extended Swedish families for birthdays, weddings, name days, and other occasions. [web:461][web:467]
+                    Organize contributions for extended Swedish families for birthdays, weddings, name days, and other occasions.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Association Groups</h3>
                   <p>
-                    Ideal for local community, sports, and hobby associations coordinating shared support and group gifts. [web:464][web:473]
+                    Ideal for local community, sports, and hobby associations coordinating shared support and group gifts.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function SwedenLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Sweden’s high internet and smartphone usage. [web:458][web:470]
+                    Mobile-friendly experience that fits Sweden’s high internet and smartphone usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function SwedenLocationPage() {
               <h2>How It Works in Sweden</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Swedish krona (SEK) as the currency. [web:456][web:460][web:463]
+                  <strong>Create Your Group:</strong> Set up a group with Swedish krona (SEK) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose SEK amounts per person that fit your group.

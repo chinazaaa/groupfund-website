@@ -42,7 +42,7 @@ export default function TurkeyLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Turkey 🇹🇷</h1>
           <p className="page-subtitle">
-            Organize group contributions in Turkey with GroupFund. Perfect for Turkish families, communities, schools, and groups. [web:361][web:367][web:373]
+            Organize group contributions in Turkey with GroupFund. Perfect for Turkish families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function TurkeyLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Turkey</h2>
               <p>
-                Turkey is a transcontinental country bridging Europe and Asia, with major cities like Istanbul, Ankara, Izmir, Bursa, and Antalya where group gifting and collections are common. [web:361][web:367][web:373]
+                Turkey is a transcontinental country bridging Europe and Asia, with major cities like Istanbul, Ankara, Izmir, Bursa, and Antalya where group gifting and collections are common.
               </p>
               <p>
-                With support for Turkish lira (TRY) and local bank details, GroupFund is designed to work seamlessly for Turkish groups of all sizes. [web:356][web:358][web:363]
+                With support for Turkish lira (TRY) and local bank details, GroupFund is designed to work seamlessly for Turkish groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function TurkeyLocationPage() {
                 <div className="feature-item">
                   <h3>🇹🇷 Turkish Lira (TRY) Support</h3>
                   <p>
-                    Full support for Turkish lira. Set contribution amounts in TRY so everyone contributes in the local currency. [web:356][web:359][web:363]
+                    Full support for Turkish lira. Set contribution amounts in TRY so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with Turkish bank transfers; members send money using their bank and then mark payments as completed in GroupFund. [web:357][web:358]
+                    Works with Turkish bank transfers; members send money using their bank and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Turkish Families</h3>
                   <p>
-                    Organize contributions for extended Turkish families for weddings, holidays, birthdays, and other key occasions. [web:367][web:370][web:373]
+                    Organize contributions for extended Turkish families for weddings, holidays, birthdays, and other key occasions.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function TurkeyLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Turkey’s growing smartphone and internet usage. [web:364][web:367]
+                    Mobile-friendly experience that fits Turkey’s growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function TurkeyLocationPage() {
               <h2>How It Works in Turkey</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Turkish lira (TRY) as the currency. [web:356][web:359][web:363]
+                  <strong>Create Your Group:</strong> Set up a group with Turkish lira (TRY) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose TRY amounts per person that fit your group.

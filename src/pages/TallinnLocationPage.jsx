@@ -45,7 +45,7 @@ export default function TallinnLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Tallinn, Estonia 🇪🇪</h1>
           <p className="page-subtitle">
-            Organize group contributions in Tallinn with GroupFund. Perfect for Tallinn families, churches, schools, and groups. [web:707][web:712]
+            Organize group contributions in Tallinn with GroupFund. Perfect for Tallinn families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function TallinnLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Tallinn</h2>
               <p>
-                Tallinn is the capital and largest city of Estonia, located on Tallinn Bay of the Gulf of Finland, and is the country’s main governmental, financial, industrial, and cultural centre. [web:707][web:712][web:714]
+                Tallinn is the capital and largest city of Estonia, located on Tallinn Bay of the Gulf of Finland, and is the country’s main governmental, financial, industrial, and cultural centre.
               </p>
               <p>
-                Estonia adopted the euro (EUR) as its official currency on 1 January 2011, making GroupFund’s euro support a natural fit for Tallinn groups managing shared contributions. [web:715][web:711]
+                Estonia adopted the euro (EUR) as its official currency on 1 January 2011, making GroupFund’s euro support a natural fit for Tallinn groups managing shared contributions.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function TallinnLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Tallinn Families</h3>
-                  <p>Organize group contributions for extended Tallinn families across Old Town, Kalamaja, Ülemiste and other districts. [web:706][web:716]</p>
+                  <p>Organize group contributions for extended Tallinn families across Old Town, Kalamaja, Ülemiste and other districts.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Churches & Communities</h3>
@@ -84,11 +84,11 @@ export default function TallinnLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>💰 EUR Support</h3>
-                  <p>Full support for euro (EUR), the only legal tender in Estonia since 2011. [web:715][web:717]</p>
+                  <p>Full support for euro (EUR), the only legal tender in Estonia since 2011.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile Access</h3>
-                  <p>Mobile‑friendly experience that matches Tallinn’s tech-savvy, highly connected population. [web:706][web:716]</p>
+                  <p>Mobile‑friendly experience that matches Tallinn’s tech-savvy, highly connected population.</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,8 @@ export default function TallinnLocationPage() {
                   <strong>School & Student Groups:</strong> Manage collections for teacher gifts, class trips, and student activities.
                 </li>
                 <li>
-                  <strong>Friend Circles:</strong> Keep friend groups organised for shared dinners and celebrations in Tallinn’s Old Town.</li>
+                  <strong>Friend Circles:</strong> Keep friend groups organised for shared dinners and celebrations in Tallinn’s Old Town.
+                </li>
               </ul>
             </div>
 

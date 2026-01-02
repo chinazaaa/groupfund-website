@@ -42,7 +42,7 @@ export default function VietnamLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Vietnam 🇻🇳</h1>
           <p className="page-subtitle">
-            Organize group contributions in Vietnam with GroupFund. Perfect for Vietnamese families, communities, schools, and groups. [web:481][web:484][web:487]
+            Organize group contributions in Vietnam with GroupFund. Perfect for Vietnamese families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function VietnamLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Vietnam</h2>
               <p>
-                Vietnam is a Southeast Asian country with a long coastline along the South China Sea and major cities like Hanoi and Ho Chi Minh City where group support and gifting are common. [web:481][web:484][web:487]
+                Vietnam is a Southeast Asian country with a long coastline along the South China Sea and major cities like Hanoi and Ho Chi Minh City where group support and gifting are common.
               </p>
               <p>
-                With support for Vietnamese đồng (VND) and local bank details, GroupFund is designed to work seamlessly for Vietnamese groups of all sizes. [web:476][web:478][web:483][web:486]
+                With support for Vietnamese đồng (VND) and local bank details, GroupFund is designed to work seamlessly for Vietnamese groups of all sizes.
               </p>
             </div>
 
@@ -66,25 +66,25 @@ export default function VietnamLocationPage() {
                 <div className="feature-item">
                   <h3>🇻🇳 Vietnamese Đồng (VND) Support</h3>
                   <p>
-                    Full support for Vietnamese đồng. Set contribution amounts in VND so everyone contributes in the local currency. [web:476][web:479][web:480][web:483]
+                    Full support for Vietnamese đồng. Set contribution amounts in VND so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank & Cash Transfers</h3>
                   <p>
-                    Works with common Vietnamese payment methods and bank transfers; members send money then mark payments as completed in GroupFund. [web:477][web:478][web:489]
+                    Works with common Vietnamese payment methods and bank transfers; members send money then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Vietnamese Families</h3>
                   <p>
-                    Organize contributions for extended families for weddings, Tết celebrations, birthdays, and other important occasions. [web:481][web:484][web:490]
+                    Organize contributions for extended families for weddings, Tết celebrations, birthdays, and other important occasions.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Support Groups</h3>
                   <p>
-                    Ideal for local communities and support groups coordinating shared funds and assistance. [web:487][web:493]
+                    Ideal for local communities and support groups coordinating shared funds and assistance.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function VietnamLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Vietnam’s growing smartphone and internet usage. [web:478][web:487]
+                    Mobile-friendly experience that fits Vietnam’s growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function VietnamLocationPage() {
               <h2>How It Works in Vietnam</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Vietnamese đồng (VND) as the currency. [web:476][web:483]
+                  <strong>Create Your Group:</strong> Set up a group with Vietnamese đồng (VND) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose VND amounts per person that fit your group.
