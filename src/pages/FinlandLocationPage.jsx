@@ -42,7 +42,7 @@ export default function FinlandLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Finland 🇫🇮</h1>
           <p className="page-subtitle">
-            Organize group contributions in Finland with GroupFund. Perfect for Finnish families, communities, schools, and groups. [web:441][web:444][web:453]
+            Organize group contributions in Finland with GroupFund. Perfect for Finnish families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function FinlandLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Finland</h2>
               <p>
-                Finland is a Nordic country in Northern Europe with a highly developed economy and major urban areas like Helsinki, Espoo, Tampere, Turku, and Oulu. [web:441][web:444][web:450]
+                Finland is a Nordic country in Northern Europe with a highly developed economy and major urban areas like Helsinki, Espoo, Tampere, Turku, and Oulu.
               </p>
               <p>
-                With support for the Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Finnish groups of all sizes. [web:436][web:437][web:438][web:443]
+                With support for the Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Finnish groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function FinlandLocationPage() {
                 <div className="feature-item">
                   <h3>🇫🇮 Euro (EUR) Support</h3>
                   <p>
-                    Full support for the Euro. Set contribution amounts in EUR so everyone contributes in Finland’s official currency. [web:436][web:437][web:438]
+                    Full support for the Euro. Set contribution amounts in EUR so everyone contributes in Finland’s official currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank & Card Payments</h3>
                   <p>
-                    Works with Finnish bank transfers and card payments; members send money using their usual methods and then mark payments as completed in GroupFund. [web:439][web:440]
+                    Works with Finnish bank transfers and card payments; members send money using their usual methods and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Finnish Families</h3>
                   <p>
-                    Organize contributions for extended Finnish families for birthdays, name days, weddings, and other occasions. [web:441][web:447]
+                    Organize contributions for extended Finnish families for birthdays, name days, weddings, and other occasions.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function FinlandLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Finland’s high internet and smartphone usage. [web:444][web:447]
+                    Mobile-friendly experience that fits Finland’s high internet and smartphone usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function FinlandLocationPage() {
               <h2>How It Works in Finland</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Euro (EUR) as the currency. [web:436][web:437][web:438]
+                  <strong>Create Your Group:</strong> Set up a group with Euro (EUR) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose EUR amounts per person that fit your group.

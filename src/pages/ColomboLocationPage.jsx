@@ -45,7 +45,7 @@ export default function ColomboLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Colombo, Sri Lanka 🇱🇰</h1>
           <p className="page-subtitle">
-            Organize group contributions in Colombo with GroupFund. Perfect for Colombo families, churches, schools, and groups. [web:907][web:908][web:909]
+            Organize group contributions in Colombo with GroupFund. Perfect for Colombo families, churches, schools, and groups.
           </p>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function ColomboLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Colombo</h2>
               <p>
-                Colombo is Sri Lanka’s largest city and commercial capital, a busy Indian Ocean port on the west coast just south of the Kelani River, blending colonial architecture, temples, mosques, and modern high‑rises. [web:907][web:908][web:909][web:911]
+                Colombo is Sri Lanka’s largest city and commercial capital, a busy Indian Ocean port on the west coast just south of the Kelani River, blending colonial architecture, temples, mosques, and modern high‑rises.
               </p>
               <p>
-                The city acts as the island’s main economic hub, so families, workplaces, and community groups regularly pool money for events, support, and shared projects, making an organised tracker especially useful. [web:910][web:913][web:917]
+                The city acts as the island’s main economic hub, so families, workplaces, and community groups regularly pool money for events, support, and shared projects, making an organised tracker especially useful.
               </p>
             </div>
 
@@ -69,13 +69,13 @@ export default function ColomboLocationPage() {
                 <div className="feature-item">
                   <h3>💰 Sri Lankan Rupee (LKR)</h3>
                   <p>
-                    GroupFund supports the Sri Lankan rupee (LKR), the official currency of Sri Lanka, managed by the Central Bank and subdivided into 100 cents, though cents are rarely used in practice. [web:912][web:914][web:620][web:617]
+                    GroupFund supports the Sri Lankan rupee (LKR), the official currency of Sri Lanka, managed by the Central Bank and subdivided into 100 cents, though cents are rarely used in practice.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>📉 Handles Inflation</h3>
                   <p>
-                    Sri Lanka has faced high inflation and currency devaluation, so GroupFund focuses on tracking contributions in LKR while external tools manage any FX conversion. [web:914][web:617][web:623]
+                    Sri Lanka has experienced periods of high inflation and currency pressure, so GroupFund focuses on tracking contributions in LKR while external tools handle any FX conversion.
                   </p>
                 </div>
               </div>
@@ -86,23 +86,23 @@ export default function ColomboLocationPage() {
               <div className="features-list">
                 <div className="feature-item">
                   <h3>🏙️ Colombo Families</h3>
-                  <p>Organize contributions for weddings, almsgivings, funerals, and monthly family support across Colombo’s neighbourhoods. [web:907][web:920]</p>
+                  <p>Organize contributions for weddings, almsgivings, funerals, and monthly family support across Colombo’s neighbourhoods.</p>
                 </div>
                 <div className="feature-item">
                   <h3>⛪ Temples, Churches & Mosques</h3>
-                  <p>Manage regular contributions and special collections for Buddhist temples, Hindu kovils, churches, and mosques. [web:910][web:917]</p>
+                  <p>Manage regular contributions and special collections for Buddhist temples, Hindu kovils, churches, and mosques.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support funds in Colombo’s banks, offices, and businesses. [web:911][web:918]</p>
+                  <p>Run birthday, farewell, and emergency support funds in Colombo’s banks, offices, and businesses.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Tuition Classes</h3>
-                  <p>Track contributions for teacher gifts, school projects, and student support funds. [web:910][web:915]</p>
+                  <p>Track contributions for teacher gifts, school projects, and student support funds.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
-                  <p>Mobile‑friendly experience that fits Colombo’s busy, increasingly connected urban lifestyle. [web:910][web:918]</p>
+                  <p>Mobile‑friendly experience that fits Colombo’s busy, increasingly connected urban lifestyle.</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,8 @@ export default function ColomboLocationPage() {
                   <strong>School & Student Groups:</strong> Collections for teacher appreciation, class trips, and student projects.
                 </li>
                 <li>
-                  <strong>Friend Circles:</strong> Contributions for shared dinners, outings, and trips along Galle Face or around the city.</li>
+                  <strong>Friend Circles:</strong> Contributions for shared dinners, outings, and trips along Galle Face or around the city.
+                </li>
               </ul>
             </div>
 

@@ -42,7 +42,7 @@ export default function ColombiaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Colombia 🇨🇴</h1>
           <p className="page-subtitle">
-            Organize group contributions in Colombia with GroupFund. Perfect for Colombian families, communities, schools, and groups. [web:421][web:424][web:427]
+            Organize group contributions in Colombia with GroupFund. Perfect for Colombian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function ColombiaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Colombia</h2>
               <p>
-                Colombia is a country in northwestern South America with major cities like Bogotá, Medellín, Cali, Barranquilla, and Cartagena where group gifting and collections are common. [web:421][web:424][web:427]
+                Colombia is a country in northwestern South America with major cities like Bogotá, Medellín, Cali, Barranquilla, and Cartagena where group gifting and collections are common.
               </p>
               <p>
-                With support for Colombian peso (COP) and local bank details, GroupFund is designed to work seamlessly for Colombian groups of all sizes. [web:416][web:418][web:426]
+                With support for Colombian peso (COP) and local bank details, GroupFund is designed to work seamlessly for Colombian groups of all sizes.
               </p>
             </div>
 
@@ -66,19 +66,19 @@ export default function ColombiaLocationPage() {
                 <div className="feature-item">
                   <h3>🇨🇴 Colombian Peso (COP) Support</h3>
                   <p>
-                    Full support for Colombian peso. Set contribution amounts in COP so everyone contributes in the local currency. [web:416][web:418][web:419][web:426]
+                    Full support for Colombian peso. Set contribution amounts in COP so everyone contributes in the local currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with Colombian bank transfers and common payment methods; members send money then mark payments as completed in GroupFund. [web:417][web:426]
+                    Works with Colombian bank transfers and common payment methods; members send money then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Colombian Families</h3>
                   <p>
-                    Organize contributions for extended Colombian families for birthdays, weddings, quinceañeras, and other key occasions. [web:421][web:427][web:430]
+                    Organize contributions for extended Colombian families for birthdays, weddings, quinceañeras, and other key occasions.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -96,7 +96,7 @@ export default function ColombiaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Mobile-First</h3>
                   <p>
-                    Mobile-friendly experience that fits Colombia’s growing smartphone and internet usage. [web:424][web:433]
+                    Mobile-friendly experience that fits Colombia’s growing smartphone and internet usage.
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function ColombiaLocationPage() {
               <h2>How It Works in Colombia</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Colombian peso (COP) as the currency. [web:416][web:418][web:420]
+                  <strong>Create Your Group:</strong> Set up a group with Colombian peso (COP) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose COP amounts per person that fit your group.

@@ -42,7 +42,7 @@ export default function EstoniaLocationPage() {
         <div className="container">
           <h1 className="page-title">GroupFund for Estonia 🇪🇪</h1>
           <p className="page-subtitle">
-            Organize group contributions in Estonia with GroupFund. Perfect for Estonian families, communities, schools, and groups. [web:261][web:264]
+            Organize group contributions in Estonia with GroupFund. Perfect for Estonian families, communities, schools, and groups.
           </p>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function EstoniaLocationPage() {
             <div className="location-section">
               <h2>Why GroupFund Works Great in Estonia</h2>
               <p>
-                Estonia is a Baltic country in Northern Europe with a highly digital society and strong community ties in cities like Tallinn and Tartu. [web:261][web:264]
+                Estonia is a Baltic country in Northern Europe with a highly digital society and strong community ties in cities like Tallinn and Tartu.
               </p>
               <p>
-                With support for the Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Estonian groups of all sizes. [web:259][web:260][web:263]
+                With support for the Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Estonian groups of all sizes.
               </p>
             </div>
 
@@ -65,25 +65,25 @@ export default function EstoniaLocationPage() {
                 <div className="feature-item">
                   <h3>🇪🇪 Euro (EUR) Support</h3>
                   <p>
-                    Full support for the Euro. Set contribution amounts in EUR so everyone contributes in Estonia’s official currency. [web:259][web:260]
+                    Full support for the Euro. Set contribution amounts in EUR so everyone contributes in Estonia’s official currency.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
                   <p>
-                    Works with local Euro transfers and SEPA payments; members send money using their bank and then mark payments as completed in GroupFund. [web:259][web:263]
+                    Works with local Euro transfers and SEPA payments; members send money using their bank and then mark payments as completed in GroupFund.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>👨‍👩‍👧‍👦 Perfect for Estonian Families</h3>
                   <p>
-                    Organize contributions for extended Estonian families, whether in Tallinn, Tartu, or smaller towns. [web:264][web:267]
+                    Organize contributions for extended Estonian families, whether in Tallinn, Tartu, or smaller towns.
                   </p>
                 </div>
                 <div className="feature-item">
                   <h3>🏘 Community & Village Groups</h3>
                   <p>
-                    Ideal for local community groups coordinating shared support for events and needs across Estonia. [web:261]
+                    Ideal for local community groups coordinating shared support for events and needs across Estonia.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -95,7 +95,7 @@ export default function EstoniaLocationPage() {
                 <div className="feature-item">
                   <h3>📱 Digital-First Experience</h3>
                   <p>
-                    A mobile-friendly experience that fits Estonia’s advanced digital infrastructure and high internet usage. [web:264][web:270]
+                    A mobile-friendly experience that fits Estonia’s advanced digital infrastructure and high internet usage.
                   </p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function EstoniaLocationPage() {
               <h2>How It Works in Estonia</h2>
               <ol className="steps-list">
                 <li>
-                  <strong>Create Your Group:</strong> Set up a group with Euro (EUR) as the currency. [web:259][web:260]
+                  <strong>Create Your Group:</strong> Set up a group with Euro (EUR) as the currency.
                 </li>
                 <li>
                   <strong>Set Contribution Amounts:</strong> Choose EUR amounts per person that fit your group.
