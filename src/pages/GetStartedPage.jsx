@@ -45,7 +45,7 @@ export default function DownloadPage() {
     },
     {
       title: "iOS",
-      description: "Download GroupFund for iPhone and iPad. Coming soon to the App Store.",
+      description: "Download GroupFund for iPhone and iPad. Coming soon to the App Store. Click below to join the IOS waitlist.",
       icon: "📱",
       link: "#",
       buttonText: "Coming Soon",

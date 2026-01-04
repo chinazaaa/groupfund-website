@@ -1,8 +1,10 @@
 import React, { memo } from 'react'
 import '../App.css'
 
+
 function ComingSoonModal({ isOpen, onClose, storeName }) {
   if (!isOpen) return null
+
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -21,8 +23,15 @@ function ComingSoonModal({ isOpen, onClose, storeName }) {
           </p>
           <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem', flexDirection: 'column' }}>
             <a 
-              href="https://app.groupfund.app/signup" 
+              href="https://www.groupfund.app/waitlist" 
               className="btn btn-primary" 
+              style={{ textDecoration: 'none', textAlign: 'center' }}
+            >
+              Join Waitlist for iOS
+            </a>
+            <a 
+              href="https://app.groupfund.app/signup" 
+              className="btn btn-secondary" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ textDecoration: 'none', textAlign: 'center' }}
@@ -38,5 +47,6 @@ function ComingSoonModal({ isOpen, onClose, storeName }) {
     </div>
   )
 }
+
 
 export default memo(ComingSoonModal)
