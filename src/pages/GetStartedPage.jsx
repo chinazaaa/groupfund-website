@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
-import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
 export default function DownloadPage() {
-  const [modalOpen, setModalOpen] = useState(false)
-
   useEffect(() => {
     const webPageStructuredData = {
       "@context": "https://schema.org",
@@ -28,11 +25,6 @@ export default function DownloadPage() {
     }
   }, [])
 
-  const handleiOSClick = (e) => {
-    e.preventDefault()
-    setModalOpen(true)
-  }
-
   const platforms = [
     {
       title: "Web",
@@ -45,12 +37,12 @@ export default function DownloadPage() {
     },
     {
       title: "iOS",
-      description: "Download GroupFund for iPhone and iPad. Coming soon to the App Store. Click below to join the IOS waitlist.",
+      description: "Download GroupFund for iPhone on the App Store.",
       icon: "📱",
-      link: "#",
-      buttonText: "Coming Soon",
-      available: false,
-      external: false
+      link: "https://apps.apple.com/gb/app/groupfund-app/id6756530859",
+      buttonText: "Get Started on iOS",
+      available: true,      // ← now true
+      external: true        // ← open real App Store link in new tab
     },
     {
       title: "Android",
@@ -65,11 +57,6 @@ export default function DownloadPage() {
 
   return (
     <>
-      <ComingSoonModal 
-        isOpen={modalOpen} 
-        onClose={() => setModalOpen(false)} 
-        storeName="the App Store"
-      />
       <SEO
         title="Download GroupFund - Web, iOS & Android Apps"
         description="Get started with GroupFund on web, iOS, or Android. Organize group contributions for birthdays, subscriptions, events, and more with multi-currency support and payment tracking."
@@ -81,7 +68,7 @@ export default function DownloadPage() {
         <div className="container">
           <h1 className="page-title">Get Started with GroupFund</h1>
           <p className="page-subtitle">
-            Choose your platform and start organizing group contributions today. Available on web and Android, with iOS coming soon.
+            Choose your platform and start organizing group contributions today. Available on web, iOS, and Android.
           </p>
         </div>
       </section>
@@ -94,25 +81,15 @@ export default function DownloadPage() {
                 <div className="feature-icon-large">{platform.icon}</div>
                 <h2 className="feature-title">{platform.title}</h2>
                 <p className="feature-description">{platform.description}</p>
-                {platform.available ? (
-                  <a 
-                    href={platform.link}
-                    className="btn btn-primary"
-                    target={platform.external ? "_blank" : undefined}
-                    rel={platform.external ? "noopener noreferrer" : undefined}
-                    style={{ marginTop: '16px', display: 'inline-block' }}
-                  >
-                    {platform.buttonText}
-                  </a>
-                ) : (
-                  <button 
-                    onClick={handleiOSClick}
-                    className="btn btn-secondary"
-                    style={{ marginTop: '16px', display: 'inline-block' }}
-                  >
-                    {platform.buttonText}
-                  </button>
-                )}
+                <a
+                  href={platform.link}
+                  className="btn btn-primary"
+                  target={platform.external ? "_blank" : undefined}
+                  rel={platform.external ? "noopener noreferrer" : undefined}
+                  style={{ marginTop: '16px', display: 'inline-block' }}
+                >
+                  {platform.buttonText}
+                </a>
               </article>
             ))}
           </div>
