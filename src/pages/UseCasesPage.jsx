@@ -117,6 +117,66 @@ export default function UseCasesPage() {
         'Share admin account details securely'
       ]
     },
+    {
+      slug: 'group-birthday-gifts',
+      title: 'Group Birthday Gifts',
+      description:
+        'Collect money for group birthday gifts and dinners without awkward chasing. Set clear amounts, track who has paid, and keep everything for the celebration in one shared Birthday Group.',
+      icon: '🎁',
+      keywords:
+        'group birthday gift, collect money for birthday gift, split birthday dinner cost, birthday money pool, birthday contribution tracker',
+      benefits: [
+        'Share one link for the whole group to contribute',
+        'Set a suggested amount per person so everyone knows what to send',
+        'Track who has paid and how close you are to your target',
+        'Set clear deadlines so you can buy the gift or book dinner on time'
+      ]
+    },
+    {
+      slug: 'group-trips-and-holidays',
+      title: 'Group Trips & Holidays',
+      description:
+        'Collect money for group trips and holidays without fronting all the costs. Organize contributions for flights, Airbnb, villas, and activities in one shared Trip Group.',
+      icon: '🧳',
+      keywords:
+        'group trip payments, collect money for group holiday, split travel costs with friends, Airbnb group payments, trip money pool',
+      benefits: [
+        'Create a dedicated Trip Group for each holiday',
+        'Set deposit and final balance deadlines for everyone',
+        'Track who has paid before you confirm flights or accommodation',
+        'Adjust amounts easily if plans or group size change'
+      ]
+    },
+    {
+      slug: 'shared-rent-and-bills',
+      title: 'Shared Rent & Bills',
+      description:
+        'Split rent, Wi‑Fi, electricity, and other shared bills with housemates in one place. Set fair amounts, track payments each month, and avoid awkward money conversations at home.',
+      icon: '🏠',
+      keywords:
+        'split rent with roommates, share bills with housemates, split utilities fairly, rent bill tracker, roommate bill splitting',
+      benefits: [
+        'Create a household group for your flat or house',
+        'Set equal or custom shares for rent and bills',
+        'See who has paid and who is still pending each month',
+        'Update amounts quickly when bills or housemates change'
+      ]
+    },
+    {
+      slug: 'office-birthday-fund',
+      title: 'Office Birthday & Leaving Funds',
+      description:
+        'Organize office birthday and leaving collections without envelopes or messy bank details. Run workplace funds where colleagues can contribute to gifts, cakes, and celebrations with one shared link.',
+      icon: '🏢',
+      keywords:
+        'office birthday fund, workplace birthday collection, leaving gift collection, collect money at work, office gift contributions',
+      benefits: [
+        'Create a Workplace Group for your team or company',
+        'Set suggested contribution amounts that stay optional',
+        'Track totals so gifts match the budget you have raised',
+        'Make it easy for office and remote colleagues to join in'
+      ]
+    },    
     // {
     //   slug: 'discovering-subscription-groups',
     //   title: 'Discovering Reliable Subscription Groups',

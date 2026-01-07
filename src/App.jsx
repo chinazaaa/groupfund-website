@@ -33,6 +33,10 @@ import NotFoundPage from './pages/NotFoundPage'
 import PricingPage from './pages/PricingPage'
 import UseCasesPage from './pages/UseCasesPage'
 import FamiliesUseCasePage from './pages/FamiliesUseCasePage'
+import GroupTripsAndHolidaysUseCasePage from './pages/GroupTripsAndHolidaysUseCasePage'
+import OfficeBirthdayFundUseCasePage from './pages/OfficeBirthdayFundUseCasePage'
+import SharedRentAndBillsUseCasePage from './pages/SharedRentAndBillsUseCasePage'
+import GroupBirthdayGiftsUseCasePage from './pages/GroupBirthdayGiftsUseCasePage'
 import ChurchesUseCasePage from './pages/ChurchesUseCasePage'
 import SchoolsUseCasePage from './pages/SchoolsUseCasePage'
 import FriendGroupsUseCasePage from './pages/FriendGroupsUseCasePage'
@@ -299,6 +303,10 @@ function App() {
         <Route path="/pricing" element={<Layout><PricingPage /></Layout>} />
         <Route path="/use-cases" element={<Layout><UseCasesPage /></Layout>} />
         <Route path="/use-cases/families" element={<Layout><FamiliesUseCasePage /></Layout>} />
+        <Route path="/use-cases/group-trips-and-holidays" element={<Layout><GroupTripsAndHolidaysUseCasePage /></Layout>} />
+        <Route path="/use-cases/office-birthday-fund" element={<Layout><OfficeBirthdayFundUseCasePage /></Layout>} />
+        <Route path="/use-cases/shared-rent-and-bills" element={<Layout><SharedRentAndBillsUseCasePage /></Layout>} />
+        <Route path="/use-cases/group-birthday-gifts" element={<Layout><GroupBirthdayGiftsUseCasePage /></Layout>} />
         <Route path="/use-cases/churches" element={<Layout><ChurchesUseCasePage /></Layout>} />
         <Route path="/use-cases/schools" element={<Layout><SchoolsUseCasePage /></Layout>} />
         <Route path="/use-cases/friend-groups" element={<Layout><FriendGroupsUseCasePage /></Layout>} />

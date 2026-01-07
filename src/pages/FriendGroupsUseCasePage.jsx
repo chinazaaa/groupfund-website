@@ -117,7 +117,7 @@ export default function FriendGroupsUseCasePage() {
               <h2>Ready to Organize Your Friend Group's Birthday Contributions?</h2>
               <p>Join friend groups using GroupFund to make birthday celebrations stress-free and fun.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Friend Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Friend Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>
