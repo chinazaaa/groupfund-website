@@ -18,7 +18,7 @@ export default function HelpPage() {
       topics: [
         {
           question: "How do I create my first group?",
-          answer: "Once we launch, creating a group is easy! Click 'Start Your Free Group' on the homepage, sign up with your email, verify your account with the OTP sent to your email, and follow the simple setup wizard. You'll be organizing contributions in minutes."
+          answer: "Creating a group is easy! Navigate to Get Started and choose the platform you want to use, sign up with your email, verify your account with the OTP sent to your email, and follow the simple setup wizard. You'll be organizing contributions in minutes."
         },
         {
           question: "How do I sign up?",
