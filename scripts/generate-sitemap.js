@@ -1014,6 +1014,24 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/best-practices/group-trips-with-friends',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/workplace-leaving-gifts',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/group-birthday-gifts',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/case-studies',
     priority: '0.8',
     changefreq: 'monthly',

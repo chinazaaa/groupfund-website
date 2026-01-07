@@ -252,7 +252,10 @@ export default function SitemapPage() {
       links: [
         { path: "/best-practices", label: "Best Practices Overview" },
         { path: "/best-practices/managing-large-groups", label: "Managing Large Groups" },
-        { path: "/best-practices/international-groups", label: "International Groups" }
+        { path: "/best-practices/international-groups", label: "International Groups" },
+        { path: "/best-practices/group-trips-with-friends", label: "Group Trips with Friends" },
+        { path: "/best-practices/workplace-leaving-gifts", label: "Workplace Leaving Gifts" },
+        { path: "/best-practices/group-birthday-gifts", label: "Group Birthday Gifts" }
       ]
     },
     {
