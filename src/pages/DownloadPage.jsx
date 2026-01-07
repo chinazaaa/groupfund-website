@@ -69,14 +69,51 @@ export default function DownloadPage() {
         canonical="https://www.groupfund.app/download"
       />
 
-      <section className="page-hero">
-        <div className="container">
-          <h1 className="page-title">Download GroupFund</h1>
-          <p className="page-subtitle">
-            Get the app and start organizing your group's birthday contributions today. Available for iOS and Android.
-          </p>
-        </div>
-      </section>
+<section className="page-hero">
+  <div className="container">
+    <h1 className="page-title">Download GroupFund</h1>
+    <p className="page-subtitle">
+      Get the app and start organizing your group's birthday contributions today. Available for iOS and Android.
+    </p>
+<br></br>
+    {/* New: top app badges */}
+    <div className="app-store-badges">
+      <a 
+        href="#"
+        className="app-badge" 
+        aria-label="Download GroupFund on the App Store"
+        rel="noopener noreferrer"
+        onClick={(e) => handleAppStoreClick(e, 'the App Store')}
+      >
+        <img 
+          src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000&type=ios10" 
+          alt="Download on the App Store" 
+          width="180"
+          height="60"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+      <a 
+        href="https://play.google.com/store/apps/details?id=com.groupfund.app"
+        className="app-badge" 
+        aria-label="Get GroupFund on Google Play"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img 
+          src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+          alt="Get it on Google Play" 
+          width="200"
+          height="77"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    </div>
+  </div>
+</section>
+
 
       <section className="download-page">
         <div className="container">
