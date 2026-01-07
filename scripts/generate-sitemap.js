@@ -108,6 +108,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/use-cases/group-trips-and-holidays',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/office-birthday-fund',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/shared-rent-and-bills',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/use-cases/group-birthday-gifts',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/use-cases/weddings',
     priority: '0.7',
     changefreq: 'monthly',
