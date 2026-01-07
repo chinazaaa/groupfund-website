@@ -39,9 +39,9 @@ export default function PartiesEventsUseCasePage() {
               <h2>Key Features for Parties & Events</h2>
               <div className="features-list">
                 <div className="feature-item">
-                  <h3>🥳 Create Event Pots</h3>
+                  <h3>🥳 Create Event Group Pots</h3>
                   <p>
-                    Set up a dedicated pot for each party or event. Give it a name, description, and goal amount so everyone knows exactly what they are contributing towards.
+                    Set up a dedicated group pot for each party or event. Give it a name, description, and goal amount so everyone knows exactly what they are contributing towards.
                   </p>
                 </div>
                 <div className="feature-item">
