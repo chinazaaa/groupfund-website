@@ -97,7 +97,7 @@ export default function MindbodyFamilySubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get Mindbody profile access for this week's hot yoga + Friday Pilates - book via shared calendar".
                 </li>
-                <li>Invite global fitness friends using your GroupFund link or code.</li>
+                <li>Invite global fitness friends using your GroupFund invite code.</li>
                 <li>Members get reminders before class booking deadlines and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure family profiles stay active for studio bookings worldwide.</li>
                 <li>Everyone sees real-time payment status and shared class schedules across 60,000+ locations.</li>

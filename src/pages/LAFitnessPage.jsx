@@ -97,7 +97,7 @@ export default function LAFitnessSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get class booking priority + pool lane reservations - share workout selfies!"
                 </li>
-                <li>Invite gym buddies using your GroupFund link or code.</li>
+                <li>Invite gym buddies using your GroupFund invite code.</li>
                 <li>Members get reminders 7 days before renewal and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure LA Fitness stays active for pools/classes.
                 </li>

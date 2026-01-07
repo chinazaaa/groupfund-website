@@ -97,7 +97,7 @@ export default function HomeChefSubscriptionPage() {
                 <li>
                   Add instructions like "$25/person for 4-person box - vote: chicken/shrimp/tofu + veggie/salad sides by Friday".
                 </li>
-                <li>Invite worldwide foodies using your GroupFund link or code.</li>
+                <li>Invite worldwide foodies using your GroupFund invite code.</li>
                 <li>Members vote on customizations and get reminders before delivery cutoff, mark "Paid" after contributing.</li>
                 <li>You confirm payments and finalize Home Chef order with group's protein/side selections.</li>
                 <li>Everyone sees real-time payment status and final menu across timezones.</li>

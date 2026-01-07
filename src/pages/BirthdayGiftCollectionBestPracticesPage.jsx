@@ -80,7 +80,7 @@ export default function BirthdayGiftCollectionBestPracticesPage() {
                   <strong>How to do it:</strong> Create a dedicated Birthday Group and share a single link in your WhatsApp or family group so everyone contributes in one place.
                 </p>
                 <p>
-                  <strong>Tip:</strong> Pin the GroupFund link in the group chat so latecomers can always find where to pay.
+                  <strong>Tip:</strong> Pin the GroupFund invite code in the group chat so latecomers can always find where to pay.
                 </p>
               </div>
 
@@ -147,8 +147,8 @@ export default function BirthdayGiftCollectionBestPracticesPage() {
               </div>
 
               <div className="scaling-card">
-                <h3>Step 2: Share the Link in Your Group Chat</h3>
-                <p>Drop the GroupFund link in WhatsApp, iMessage, Slack, or any other chat so everyone pays in one place.</p>
+                <h3>Step 2: Share the Invite Code in Your Group Chat</h3>
+                <p>Drop the GroupFund invite code in WhatsApp, iMessage, Slack, or any other chat so everyone pays in one place.</p>
                 <p><strong>Best for:</strong> Keeping payments organised without sending bank details to everyone individually.</p>
               </div>
 

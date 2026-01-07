@@ -97,7 +97,7 @@ export default function AppleFitnessPlusSubscriptionPage() {
                 <li>
                   Add instructions like "Paid family members stay in Apple Family Sharing for Fitness+ yoga/HIIT access - share workout rings!"
                 </li>
-                <li>Invite global family using your GroupFund link or code.</li>
+                <li>Invite global family using your GroupFund invite code.</li>
                 <li>Members get reminders 5 days before renewal and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure Family Sharing keeps Fitness+ active worldwide.</li>
                 <li>Everyone sees real-time payment status and shared workout progress across timezones.</li>

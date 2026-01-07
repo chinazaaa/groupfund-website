@@ -39,8 +39,8 @@ export default function GroupBirthdayGiftsUseCasePage() {
               <h2>Key Features for Group Birthday Gifts</h2>
               <div className="features-list">
                 <div className="feature-item">
-                  <h3>🎁 One Shared Birthday Link</h3>
-                  <p>Create a Birthday Group and share a single link in your WhatsApp, iMessage, or Slack group so everyone knows exactly where to pay.</p>
+                  <h3>🎁 One Shared Birthday Invite Code</h3>
+                  <p>Create a Birthday Group and share an invite code in your WhatsApp, iMessage, or Slack group so everyone knows exactly where to pay.</p>
                 </div>
                 <div className="feature-item">
                   <h3>💰 Suggested Amount Per Person</h3>
@@ -81,7 +81,7 @@ export default function GroupBirthdayGiftsUseCasePage() {
               <ol className="steps-list">
                 <li><strong>Create a Birthday Group:</strong> Set the occasion as a birthday, add the person’s name, and describe the plan (gift, dinner, or both).</li>
                 <li><strong>Set a Target & Suggested Amount:</strong> Choose a total target and suggested contribution per person so everyone knows what to send.</li>
-                <li><strong>Share the Link:</strong> Drop the GroupFund link into your existing group chat or email thread and pin it so it does not get lost.</li>
+                <li><strong>Share the Invite Code:</strong> Drop the GroupFund invite code into your existing group chat or email thread and pin it so it does not get lost.</li>
                 <li><strong>Set a Clear Deadline:</strong> Pick a date a few days before the birthday to give yourself time to purchase or book.</li>
                 <li><strong>Track Contributions:</strong> Watch payments come in and send one or two friendly group reminders if needed.</li>
                 <li><strong>Buy the Gift or Book:</strong> Once you hit your target, close the group and use the funds to buy the gift or pay the deposit.</li>

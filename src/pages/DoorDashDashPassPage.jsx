@@ -97,7 +97,7 @@ export default function DoorDashDashPassSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get DashPass family sharing access for $0 delivery fees" or "Use shared family account."
                 </li>
-                <li>Invite family/housemates using your GroupFund link or code.</li>
+                <li>Invite family/housemates using your GroupFund invite code.</li>
                 <li>Members get reminders 3 days before DashPass expires and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure DashPass family sharing stays active.</li>
                 <li>Everyone sees real-time payment status for current DashPass coverage.</li>

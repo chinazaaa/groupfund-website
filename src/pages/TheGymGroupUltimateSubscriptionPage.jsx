@@ -97,7 +97,7 @@ export default function TheGymGroupUltimateSubscriptionPage() {
                 <li>
                   Add notes such as “Only fully paid members can use guest passes or multi-gym access this month” so expectations are clear.
                 </li>
-                <li>Invite gym partners, housemates, or family using your GroupFund link or code.</li>
+                <li>Invite gym partners, housemates, or family using your GroupFund invite code.</li>
                 <li>Members receive reminders a few days before renewal, then mark “Paid” once they have sent their contribution.</li>
                 <li>The main member confirms payments and ensures The Gym Group membership stays active and upgraded.</li>
                 <li>The whole group sees real-time payment status and knows who is eligible to use Ultimate perks.</li>

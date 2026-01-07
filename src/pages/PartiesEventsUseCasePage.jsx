@@ -111,7 +111,7 @@ export default function PartiesEventsUseCasePage() {
                   <strong>Add Event Details & Deadlines:</strong> Add the event date, booking deadlines, and any notes so contributors know when and why they are paying.
                 </li>
                 <li>
-                  <strong>Share the Group Link:</strong> Share the GroupFund link in your group chat so everyone can join and see what they owe.
+                  <strong>Share the Group Invite Code:</strong> Share the GroupFund invite code in your group chat so everyone can join and see what they owe.
                 </li>
                 <li>
                   <strong>Track Contributions in Real Time:</strong> Monitor who has paid and send reminders to anyone who is still pending before the deadline.

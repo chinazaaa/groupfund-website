@@ -97,7 +97,7 @@ export default function UniversalYumsSubscriptionPage() {
                 <li>
                   Add instructions like "$12/person for Yumbox from next month's mystery country - RSVP for tasting party".
                 </li>
-                <li>Invite global snack lovers using your GroupFund link or code.</li>
+                <li>Invite global snack lovers using your GroupFund invite code</li>
                 <li>Members get reminders 5 days before shipment cutoff and mark "Paid" after contributing.</li>
                 <li>You confirm payments and finalize the Universal Yums order for the group's country.</li>
                 <li>Everyone sees real-time payment status and next destination reveal, regardless of timezone.</li>

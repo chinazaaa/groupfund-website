@@ -97,7 +97,7 @@ export default function FitnessBlissSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members submit weekly squat form videos by Sunday - $10/person for Strength Program".
                 </li>
-                <li>Invite global workout partners using your GroupFund link or code.</li>
+                <li>Invite global workout partners using your GroupFund invite code.</li>
                 <li>Members get reminders before form check deadlines and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure program access + coaching stays active worldwide.</li>
                 <li>Everyone sees real-time payment status and shared lifting progress across gyms.</li>

@@ -81,7 +81,7 @@ export default function OfficeBirthdayFundUseCasePage() {
               <ol className="steps-list">
                 <li><strong>Create a Workplace Group:</strong> Set up a group for your team or company and add a short description of how collections will work.</li>
                 <li><strong>Set Up Birthday & Leaving Pots:</strong> Create separate birthday or leaving collections with the person’s name, occasion, and suggested amount.</li>
-                <li><strong>Share the Link:</strong> Post the GroupFund link in Slack, Teams, or email so colleagues can contribute from anywhere.</li>
+                <li><strong>Share the Invite Code:</strong> Post the GroupFund invite code in Slack, Teams, or email so colleagues can contribute from anywhere.</li>
                 <li><strong>Set a Deadline:</strong> Choose a clear cut‑off date for each collection and include it in the announcement message.</li>
                 <li><strong>Track Contributions:</strong> See contributions in real time so you know when you have enough for the planned gift.</li>
                 <li><strong>Purchase the Gift:</strong> Once the deadline passes, close the collection and use the funds to buy the gift, cake, or voucher.</li>

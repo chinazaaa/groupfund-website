@@ -118,7 +118,7 @@ export default function HelloFreshSubscriptionPage() {
                 <li>
                   Add instructions like "£20/person for 4-person box with 3 meals - vote on recipes in group chat".
                 </li>
-                <li>Invite housemates/family using your GroupFund link or code.</li>
+                <li>Invite housemates/family using your GroupFund invite code.</li>
                 <li>Members get reminders 2 days before delivery cutoff and mark "Paid" after contributing.</li>
                 <li>You confirm payments and place the HelloFresh order with selected recipes.</li>
                 <li>Everyone sees real-time payment status for the upcoming box.</li>

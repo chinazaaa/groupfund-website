@@ -97,7 +97,7 @@ export default function JustEatPlusSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get Just Eat+ login for free delivery takeaways" or "Group orders using shared account."
                 </li>
-                <li>Invite housemates using your GroupFund link or code.</li>
+                <li>Invite housemates using your GroupFund invite code.</li>
                 <li>Members get reminders 3 days before Plus expires and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure Plus stays active for free deliveries.</li>
                 <li>Everyone sees real-time payment status for current Plus coverage.</li>

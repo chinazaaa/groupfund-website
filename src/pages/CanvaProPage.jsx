@@ -97,7 +97,7 @@ export default function CanvaProSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get Canva Team invites + shared brand kit access" or "Weekly login rotation for Pro account".
                 </li>
-                <li>Invite team members using your GroupFund link or code.</li>
+                <li>Invite team members using your GroupFund invite code.</li>
                 <li>Members get automatic reminders before billing so they pay on time.</li>
                 <li>Members mark "Paid" after sending contributions.</li>
                 <li>Admin confirms payments and updates Canva team access/folders.</li>

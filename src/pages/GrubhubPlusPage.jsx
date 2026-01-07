@@ -97,7 +97,7 @@ export default function GrubhubPlusSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get Grubhub+ login for $0 delivery fees" or "Weekly ordering rotation with shared account."
                 </li>
-                <li>Invite friends/housemates using your GroupFund link or code.</li>
+                <li>Invite friends/housemates using your GroupFund invite code.</li>
                 <li>Members get reminders 3 days before Grubhub+ expires and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure Grubhub+ stays active for all orders.</li>
                 <li>Everyone sees real-time payment status for current Grubhub+ coverage.</li>

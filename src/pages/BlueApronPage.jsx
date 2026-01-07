@@ -97,7 +97,7 @@ export default function BlueApronSubscriptionPage() {
                 <li>
                   Add instructions like "$30/person for 4-person box with 3 global recipes - vote on cuisines in group chat".
                 </li>
-                <li>Invite worldwide foodies using your GroupFund link or code.</li>
+                <li>Invite worldwide foodies using your GroupFund invite code.</li>
                 <li>Members get reminders 2 days before delivery cutoff and mark "Paid" after contributing.</li>
                 <li>You confirm payments and place the Blue Apron order with selected international recipes.</li>
                 <li>Everyone sees real-time payment status for the upcoming gourmet box, regardless of location.</li>

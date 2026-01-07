@@ -147,8 +147,8 @@ export default function GroupTripCollectionBestPracticesPage() {
               </div>
 
               <div className="scaling-card">
-                <h3>Step 2: Share the Link and Set Deadlines</h3>
-                <p>Drop the GroupFund link into your WhatsApp group, explain the per‑person amount, and set clear deadlines for deposit and final balance.</p>
+                <h3>Step 2: Share the Invite Code and Set Deadlines</h3>
+                <p>Drop the GroupFund invite code into your WhatsApp group, explain the per‑person amount, and set clear deadlines for deposit and final balance.</p>
                 <p><strong>Best for:</strong> Giving everyone time to plan while keeping momentum and commitment high.</p>
               </div>
 

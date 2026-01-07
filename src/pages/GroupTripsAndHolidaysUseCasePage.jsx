@@ -81,7 +81,7 @@ export default function GroupTripsAndHolidaysUseCasePage() {
               <ol className="steps-list">
                 <li><strong>Create a Trip Group:</strong> Name the group after your destination and dates, and add a short description of what the money will cover.</li>
                 <li><strong>Set Targets & Instalments:</strong> Choose a total target and, if needed, split it into deposit and final balance amounts per person.</li>
-                <li><strong>Share the Link:</strong> Drop the GroupFund link into your WhatsApp, Telegram, or group chat so everyone contributes in one place.</li>
+                <li><strong>Share the Invite Code:</strong> Drop the GroupFund invite code into your WhatsApp, Telegram, or group chat so everyone contributes in one place.</li>
                 <li><strong>Set Clear Deadlines:</strong> Add dates for deposit and final payments so people know when they must pay to secure their place.</li>
                 <li><strong>Track Contributions:</strong> Watch payments come in, send one or two group reminders, and see exactly when you have enough to book.</li>
                 <li><strong>Confirm Bookings:</strong> Once targets are hit, close the group and use the collected funds to pay for flights, accommodation, and activities.</li>

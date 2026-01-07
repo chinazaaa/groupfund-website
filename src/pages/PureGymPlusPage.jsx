@@ -97,7 +97,7 @@ export default function PureGymPlusSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get free guest passes at any PureGym UK - share check-in photos!"
                 </li>
-                <li>Invite UK gym partners using your GroupFund link or code.</li>
+                <li>Invite UK gym partners using your GroupFund invite code.</li>
                 <li>Members get reminders 5 days before renewal and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure PureGym Plus stays active for 24/7 access.</li>
                 <li>Everyone sees real-time payment status and gym check-in logs across UK locations.</li>

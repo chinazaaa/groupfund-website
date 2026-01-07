@@ -97,7 +97,7 @@ export default function GoustoSubscriptionPage() {
                 <li>
                   Add instructions like "£25/person for 4-person box with 4 meals - vote on recipes in group chat across timezones".
                 </li>
-                <li>Invite worldwide friends/family using your GroupFund link or code.</li>
+                <li>Invite worldwide friends/family using your GroupFund invite code.</li>
                 <li>Members get reminders 2 days before delivery cutoff and mark "Paid" after contributing.</li>
                 <li>You confirm payments and place the Gousto order with selected international-friendly recipes.</li>
                 <li>Everyone sees real-time payment status for the upcoming box, regardless of location.</li>

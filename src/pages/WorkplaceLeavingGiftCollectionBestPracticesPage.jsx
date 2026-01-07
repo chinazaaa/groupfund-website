@@ -147,8 +147,8 @@ export default function WorkplaceLeavingGiftCollectionBestPracticesPage() {
               </div>
 
               <div className="scaling-card">
-                <h3>Step 2: Share the Link in Your Main Channel</h3>
-                <p>Post the GroupFund link in Slack, Teams, or email with the suggested amount and deadline so everyone sees the same information.</p>
+                <h3>Step 2: Share the Invite Code in Your Main Channel</h3>
+                <p>Post the GroupFund invite code in Slack, Teams, or email with the suggested amount and deadline so everyone sees the same information.</p>
                 <p><strong>Best for:</strong> Hybrid and remote teams where not everyone is in the office for a physical envelope.</p>
               </div>
 

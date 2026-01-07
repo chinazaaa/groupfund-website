@@ -97,7 +97,7 @@ export default function DeliverooPlusSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get Deliveroo Plus login for free delivery orders" or "Use shared account for group takeaways."
                 </li>
-                <li>Invite housemates using your GroupFund link or code.</li>
+                <li>Invite housemates using your GroupFund invite code.</li>
                 <li>Members get reminders 3 days before Plus expires and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure Plus stays active for free deliveries.</li>
                 <li>Everyone sees real-time payment status for current Plus coverage.</li>

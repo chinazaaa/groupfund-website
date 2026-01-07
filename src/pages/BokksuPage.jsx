@@ -97,7 +97,7 @@ export default function BokksuSubscriptionPage() {
                 <li>
                   Add instructions like "$10/person for Classic Bokksu - RSVP for Friday Japan unboxing livestream".
                 </li>
-                <li>Invite global Japan lovers using your GroupFund link or code.</li>
+                <li>Invite global Japan lovers using your GroupFund invite code.</li>
                 <li>Members get reminders 7 days before Japan shipment cutoff and mark "Paid" after contributing.</li>
                 <li>You confirm payments and finalize Bokksu order for group's exclusive Japanese treats.</li>
                 <li>Everyone sees real-time payment status and this month's Japan snack preview worldwide.</li>

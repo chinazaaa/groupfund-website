@@ -82,7 +82,7 @@ export default function SharedRentAndBillsUseCasePage() {
                 <li><strong>Create a Household Group:</strong> Name the group after your flat or house and add all current housemates.</li>
                 <li><strong>Set Monthly Amounts:</strong> Add your monthly rent and shared bills, then decide equal or custom splits per person.</li>
                 <li><strong>Choose Due Dates:</strong> Set your main rent deadline and any other bill dates so everyone knows when payments are expected.</li>
-                <li><strong>Share the Group Link:</strong> Drop the GroupFund link into your house WhatsApp or Messenger chat so everyone can see the same details.</li>
+                <li><strong>Share the Group Invite Code:</strong> Drop the GroupFund invite code into your house WhatsApp or Messenger chat so everyone can see the same details.</li>
                 <li><strong>Track Payments Each Month:</strong> Mark who has paid and see outstanding amounts at a glance, instead of guessing from messages.</li>
                 <li><strong>Adjust When Things Change:</strong> Update amounts quickly if a bill changes, a new housemate joins, or someone moves out.</li>
                 <li><strong>Keep the Peace at Home:</strong> Remove the confusion around money so you can focus on actually enjoying living together.</li>

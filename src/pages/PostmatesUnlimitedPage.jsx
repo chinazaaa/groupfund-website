@@ -97,7 +97,7 @@ export default function PostmatesUnlimitedSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get Uber One login for Postmates $0 delivery fees" or "Rotate ordering account weekly."
                 </li>
-                <li>Invite friends/housemates using your GroupFund link or code.</li>
+                <li>Invite friends/housemates using your GroupFund invite code.</li>
                 <li>Members get reminders 3 days before Uber One expires and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure Postmates Unlimited access stays active.</li>
                 <li>Everyone sees real-time payment status for current Unlimited coverage.</li>

@@ -126,7 +126,7 @@ export default function UseCasesPage() {
       keywords:
         'group birthday gift, collect money for birthday gift, split birthday dinner cost, birthday money pool, birthday contribution tracker',
       benefits: [
-        'Share one link for the whole group to contribute',
+        'Share one invite code for the whole group to contribute',
         'Set a suggested amount per person so everyone knows what to send',
         'Track who has paid and how close you are to your target',
         'Set clear deadlines so you can buy the gift or book dinner on time'

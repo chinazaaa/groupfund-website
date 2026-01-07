@@ -97,7 +97,7 @@ export default function PlanetFitnessBlackCardSubscriptionPage() {
                 <li>
                   Add instructions like "Paid members get FREE Black Card guest passes at any Planet Fitness - tag your gym selfies!"
                 </li>
-                <li>Invite gym buddies using your GroupFund link or code.</li>
+                <li>Invite gym buddies using your GroupFund invite code.</li>
                 <li>Members get reminders 5 days before renewal and mark "Paid" after contributing.</li>
                 <li>You confirm payments and ensure Black Card stays active for guest privileges.</li>
                 <li>Everyone sees real-time payment status and gym check-in logs across 2,000+ locations.</li>
