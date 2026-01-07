@@ -77,7 +77,7 @@ export default function WorkplaceLeavingGiftCollectionBestPracticesPage() {
                   <strong>Why it matters:</strong> Multiple bank details and cash at desks make tracking almost impossible, especially with remote and hybrid teams.
                 </p>
                 <p>
-                  <strong>How to do it:</strong> Create a dedicated Workplace Group for the leaving gift and share the link in Slack, Teams, email, or your main announcement channel.
+                  <strong>How to do it:</strong> Create a dedicated Workplace Group for the leaving gift and share the invite code in Slack, Teams, email, or your main announcement channel.
                 </p>
                 <p>
                   <strong>Tip:</strong> Pin the link in the relevant channel so people can find it quickly over a few days.
@@ -90,7 +90,7 @@ export default function WorkplaceLeavingGiftCollectionBestPracticesPage() {
                   <strong>Why it matters:</strong> Without a deadline, people intend to contribute but forget until it is too late to buy a thoughtful gift.
                 </p>
                 <p>
-                  <strong>How to do it:</strong> Choose a firm cut‑off a few days before the last working day and mention it every time you share the link.
+                  <strong>How to do it:</strong> Choose a firm cut‑off a few days before the last working day and mention it every time you share the invite code.
                 </p>
                 <p>
                   <strong>Tip:</strong> Use wording like “We’ll close the collection on Wednesday at 3pm so we can buy the gift in time for Friday.”
