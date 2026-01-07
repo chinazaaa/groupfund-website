@@ -26,15 +26,7 @@ export default function DownloadPage() {
   }, [])
 
   const platforms = [
-    {
-      title: "Web",
-      description: "Access GroupFund from any browser. Full features available instantly.",
-      icon: "🌐",
-      link: "https://app.groupfund.app/login",
-      buttonText: "Get Started on Web",
-      available: true,
-      external: true
-    },
+
     {
       title: "iOS",
       description: "Download GroupFund for iPhone on the App Store.",
@@ -50,6 +42,15 @@ export default function DownloadPage() {
       icon: "🤖",
       link: "https://play.google.com/store/apps/details?id=com.groupfund.app",
       buttonText: "Get it on Google Play",
+      available: true,
+      external: true
+    },
+    {
+      title: "Web",
+      description: "Access GroupFund from any browser. Full features available instantly.",
+      icon: "🌐",
+      link: "https://app.groupfund.app/login",
+      buttonText: "Get Started on Web",
       available: true,
       external: true
     }
@@ -68,7 +69,7 @@ export default function DownloadPage() {
         <div className="container">
           <h1 className="page-title">Get Started with GroupFund</h1>
           <p className="page-subtitle">
-            Choose your platform and start organizing group contributions today. Available on web, iOS, and Android.
+            Choose your platform and start organizing group contributions today. Available on iOS, Android and Web.
           </p>
         </div>
       </section>
