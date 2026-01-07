@@ -16,7 +16,7 @@ export default function CookiePolicyPage() {
         <div className="container">
           <h1 className="page-title">Cookie Policy</h1>
           <p className="page-subtitle">
-            Last updated: December 2025
+            Last updated: January 2026
           </p>
         </div>
       </section>
