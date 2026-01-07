@@ -1339,6 +1339,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/subscription-groups/the-gym-group-ultimate',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/subscription-groups/la-fitness',
     priority: '0.7',
     changefreq: 'monthly',
