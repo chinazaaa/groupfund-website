@@ -241,7 +241,11 @@ export default function DownloadPage() {
                 </div>
                 <div className="faq-item">
                   <h3>What if the app isn't available in my country?</h3>
-                  <p>We are working on making the app available in more countries.</p>
+                  <p>The app is currently available in 173+ countries. Please visit App Store or Google Play to check if the app is available in your country. Alternatively, you can use GroupFund on the web.</p>
+                </div>
+                <div className="faq-item">
+                  <h3>Can I use GroupFund on the web?</h3>
+                  <p>Yes, you can use GroupFund on the web. Simply visit <a href="https://app.groupfund.app" target="_blank" rel="noopener noreferrer">https://app.groupfund.app</a> to get started.</p>
                 </div>
               </div>
             </div>
