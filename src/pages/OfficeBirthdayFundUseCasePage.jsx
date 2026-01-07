@@ -43,8 +43,8 @@ export default function OfficeBirthdayFundUseCasePage() {
                   <p>Create a Workplace Group for your team, department, or whole company to manage birthday and leaving collections together.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>🎂 Birthday & Leaving Pots</h3>
-                  <p>Set up separate pots within the same group for birthdays, leaving gifts, and other office celebrations.</p>
+                  <h3>🎂 Birthday & Leaving Group Pots</h3>
+                  <p>Set up separate group pots within the same group for birthdays, leaving gifts, and other office celebrations.</p>
                 </div>
                 <div className="feature-item">
                   <h3>💰 Suggested Contribution Amounts</h3>
@@ -80,7 +80,7 @@ export default function OfficeBirthdayFundUseCasePage() {
               <h2>How It Works for Office Birthday Funds</h2>
               <ol className="steps-list">
                 <li><strong>Create a Workplace Group:</strong> Set up a group for your team or company and add a short description of how collections will work.</li>
-                <li><strong>Set Up Birthday & Leaving Pots:</strong> Create separate birthday or leaving collections with the person’s name, occasion, and suggested amount.</li>
+                <li><strong>Set Up Birthday & Leaving Group Pots:</strong> Create separate birthday or leaving collections with the person’s name, occasion, and suggested amount.</li>
                 <li><strong>Share the Invite Code:</strong> Post the GroupFund invite code in Slack, Teams, or email so colleagues can contribute from anywhere.</li>
                 <li><strong>Set a Deadline:</strong> Choose a clear cut‑off date for each collection and include it in the announcement message.</li>
                 <li><strong>Track Contributions:</strong> See contributions in real time so you know when you have enough for the planned gift.</li>

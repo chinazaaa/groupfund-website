@@ -102,7 +102,7 @@ export default function MilanLocationPage() {
                   <strong>Milan Church Communities:</strong> Manage shared contributions for church events and member support.
                 </li>
                 <li>
-                  <strong>Milan Office Teams:</strong> Run office birthday pots and farewell gifts in Milan businesses.
+                  <strong>Milan Office Teams:</strong> Run office birthday group pots and farewell gifts in Milan businesses.
                 </li>
                 <li>
                   <strong>Milan School Groups:</strong> Track contributions for teachers, classes, and student associations.

@@ -94,7 +94,7 @@ export default function SingaporeCityLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support pots in Singapore’s corporate, fintech, and startup offices.</p>
+                  <p>Run birthday, farewell, and emergency support group pots in Singapore’s corporate, fintech, and startup offices.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Student Groups</h3>
@@ -114,16 +114,16 @@ export default function SingaporeCityLocationPage() {
                   <strong>Family Support Funds:</strong> Regular SGD contributions for parents, relatives, and shared household costs.
                 </li>
                 <li>
-                  <strong>Community & Religious Pots:</strong> Collections for charity drives, festive events, and community projects.
+                  <strong>Community & Religious Group Pots:</strong> Collections for charity drives, festive events, and community projects.
                 </li>
                 <li>
-                  <strong>Office & Team Pots:</strong> Pooled money for colleagues’ birthdays, weddings, and welfare.
+                  <strong>Office & Team Group Pots:</strong> Pooled money for colleagues’ birthdays, weddings, and welfare.
                 </li>
                 <li>
                   <strong>School & CCA Funds:</strong> Contributions for teacher appreciation, events, and competitions.
                 </li>
                 <li>
-                  <strong>Friend Groups:</strong> Shared pots for staycations, group dinners, and activities around the island.
+                  <strong>Friend Groups:</strong> Shared group pots for staycations, group dinners, and activities around the island.
                 </li>
               </ul>
             </div>

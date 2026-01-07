@@ -94,7 +94,7 @@ export default function BelgradeLocationPage() {
                 </div>
                 <div className="feature-item">
                   <h3>🏢 Workplaces & Offices</h3>
-                  <p>Run birthday, farewell, and emergency support pots for colleagues in Belgrade’s companies, startups, and institutions.</p>
+                  <p>Run birthday, farewell, and emergency support group pots for colleagues in Belgrade’s companies, startups, and institutions.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏫 Schools & Student Groups</h3>
@@ -114,10 +114,10 @@ export default function BelgradeLocationPage() {
                   <strong>Family Support Funds:</strong> Regular RSD contributions for parents, relatives, or shared household costs.
                 </li>
                 <li>
-                  <strong>Slava & Holiday Pots:</strong> Shared funds for traditional celebrations, Christmas, and New Year events.
+                  <strong>Slava & Holiday Group Pots:</strong> Shared funds for traditional celebrations, Christmas, and New Year events.
                 </li>
                 <li>
-                  <strong>Office & Team Pots:</strong> Contributions for colleagues’ birthdays, weddings, and emergencies.
+                  <strong>Office & Team Group Pots:</strong> Contributions for colleagues’ birthdays, weddings, and emergencies.
                 </li>
                 <li>
                   <strong>Student & Youth Groups:</strong> Collections for trips, festivals, and campus activities.

@@ -102,7 +102,7 @@ export default function ShanghaiLocationPage() {
                   <strong>Shanghai Community Groups:</strong> Manage shared contributions for neighborhood and residential committees.
                 </li>
                 <li>
-                  <strong>Shanghai Office Teams:</strong> Run office birthday pots and team gifts in Shanghai companies and organizations.
+                  <strong>Shanghai Office Teams:</strong> Run office birthday group pots and team gifts in Shanghai companies and organizations.
                 </li>
                 <li>
                   <strong>Shanghai School Groups:</strong> Track contributions for teachers, classes, and university associations.

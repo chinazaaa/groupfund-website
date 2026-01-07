@@ -114,10 +114,10 @@ export default function ColomboLocationPage() {
                   <strong>Family Support Funds:</strong> Regular LKR contributions from relatives in Colombo and abroad for monthly needs.
                 </li>
                 <li>
-                  <strong>Religious & Community Collections:</strong> Shared pots for religious events, charity drives, and local aid.
+                  <strong>Religious & Community Collections:</strong> Shared group pots for religious events, charity drives, and local aid.
                 </li>
                 <li>
-                  <strong>Office Group Pots:</strong> Pooled money for colleagues’ birthdays, weddings, and condolences.
+                  <strong>Office & Team Group Pots:</strong> Pooled money for colleagues’ birthdays, weddings, and condolences.
                 </li>
                 <li>
                   <strong>School & Student Groups:</strong> Collections for teacher appreciation, class trips, and student projects.

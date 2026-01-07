@@ -102,7 +102,7 @@ export default function TokyoLocationPage() {
                   <strong>Tokyo Community Groups:</strong> Manage shared contributions for local associations and neighborhood groups.
                 </li>
                 <li>
-                  <strong>Tokyo Office Teams:</strong> Run office birthday pots and team gifts in Tokyo companies.
+                  <strong>Tokyo Office Teams:</strong> Run office birthday group pots and team gifts in Tokyo companies.
                 </li>
                 <li>
                   <strong>Tokyo School Groups:</strong> Track contributions for teachers, classes, and student associations.

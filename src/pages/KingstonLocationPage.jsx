@@ -117,7 +117,7 @@ export default function KingstonLocationPage() {
                   <strong>Church & Community Collections:</strong> Shared funds for ministries, outreach, and local charities.
                 </li>
                 <li>
-                  <strong>Office Group Pots:</strong> Pooled money for colleagues’ birthdays, weddings, and condolences.
+                  <strong>Office & Team Group Pots:</strong> Pooled money for colleagues’ birthdays, weddings, and condolences.
                 </li>
                 <li>
                   <strong>School & Youth Groups:</strong> Collections for trips, uniforms, and activities around Kingston.

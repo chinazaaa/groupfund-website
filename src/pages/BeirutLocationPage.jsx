@@ -114,10 +114,10 @@ export default function BeirutLocationPage() {
                   <strong>Family Support Funds:</strong> Regular contributions in LBP from relatives in Beirut and abroad for monthly needs.
                 </li>
                 <li>
-                  <strong>Relief & Community Collections:</strong> Shared pots for food parcels, rent support, and medical help.
+                  <strong>Relief & Community Collections:</strong> Shared group pots for food parcels, rent support, and medical help.
                 </li>
                 <li>
-                  <strong>Office & Team Pots:</strong> Pooled money for colleagues’ celebrations, weddings, and condolences.
+                  <strong>Office & Team GroupPots:</strong> Pooled money for colleagues’ celebrations, weddings, and condolences.
                 </li>
                 <li>
                   <strong>School & Student Groups:</strong> Collections for teacher appreciation, events, and hardship cases.
