@@ -232,7 +232,17 @@ export default function SubscriptionGroupsPage() {
         icon: '🏋️',
         keywords: 'puregym plus group subscription, share puregym cost, puregym payment splitting, split puregym membership, puregym group contributions',
         category: 'Fitness & Health'
-      },      
+      },  
+      {
+        slug: 'the-gym-group-ultimate',
+        title: 'The Gym Group Ultimate',
+        description:
+          'Share The Gym Group Ultimate membership costs with friends and family in the UK. Organize group payments for 24/7 multi-gym access, classes, guest passes, and track monthly contributions.',
+        icon: '🏋️',
+        keywords:
+          'the gym group ultimate sharing, share the gym group cost, the gym group group subscription, the gym group payment splitting, split the gym group membership, the gym group group contributions',
+        category: 'Fitness & Health'
+      },          
       {
         slug: 'planet-fitness',
         title: 'Planet Fitness Black Card',

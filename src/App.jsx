@@ -234,7 +234,8 @@ import UniversalYumsPage from './pages/UniversalYumsPage'
 import HomeChefPage from './pages/HomeChefPage'
 import BokksuPage from './pages/BokksuPage'
 import PureGymPlusPage from './pages/PureGymPlusPage'
-import LAFitnessPage from './pages/LAFitnessPage'
+import TheGymGroupUltimateSubscriptionPage from './pages/TheGymGroupUltimateSubscriptionPage' 
+import LAFitnessPage from './pages/LAFitnessPage' 
 import AppleFitnessPlusPage from './pages/AppleFitnessPlusPage'
 import FitnessBlissPage from './pages/FitnessBlissPage'
 import MindbodyFamilyPage from './pages/MindbodyFamilyPage'
@@ -497,6 +498,7 @@ function App() {
         <Route path="/subscription-groups/home-chef" element={<Layout><HomeChefPage /></Layout>} />
         <Route path="/subscription-groups/bokksu" element={<Layout><BokksuPage /></Layout>} />
         <Route path="/subscription-groups/puregym-plus" element={<Layout><PureGymPlusPage /></Layout>} />
+        <Route path="/subscription-groups/the-gym-group-ultimate" element={<Layout><TheGymGroupUltimateSubscriptionPage /></Layout>} />
         <Route path="/subscription-groups/la-fitness" element={<Layout><LAFitnessPage /></Layout>} />
         <Route path="/subscription-groups/apple-fitness-plus" element={<Layout><AppleFitnessPlusPage /></Layout>} />
         <Route path="/subscription-groups/fitness-bliss" element={<Layout><FitnessBlissPage /></Layout>} />
