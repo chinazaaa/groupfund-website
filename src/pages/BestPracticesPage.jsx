@@ -27,6 +27,33 @@ export default function BestPracticesPage() {
 
   const bestPractices = [
     {
+      slug: 'group-birthday-gifts',
+      title: 'Group Birthday Gifts',
+      description:
+        'Best practices for collecting money for a group birthday gift or dinner without awkward chasing. Learn how to set clear amounts, deadlines, and use one shared link for contributions.',
+      icon: '🎁',
+      keywords:
+        'collect money for birthday gift, group birthday gift, split birthday dinner cost, birthday money pool, group gift organising'
+    },
+    {
+      slug: 'group-trips-with-friends',
+      title: 'Group Trips with Friends',
+      description:
+        'Step-by-step tips for collecting money for group trips and holidays with friends. Organise contributions for flights, Airbnb, and activities in one shared Trip Group.',
+      icon: '🧳',
+      keywords:
+        'collect money for group trip, group holiday payments, split travel costs with friends, group travel fund, trip money pool'
+    },
+    {
+      slug: 'workplace-leaving-gifts',
+      title: 'Workplace Leaving Gifts',
+      description:
+        'Guidance for organising office leaving collections without envelopes or awkward reminders. Learn how to collect money from colleagues for a leaving gift in one Workplace Group.',
+      icon: '🏢',
+      keywords:
+        'collect money for leaving gift, office leaving collection, workplace gift contributions, group leaving present, office collection pot'
+    },    
+    {
       slug: 'managing-large-groups',
       title: 'Managing Large Groups',
       description: 'Tips and strategies for organizing group contributions in large groups like churches, schools, and organizations. Learn how to scale your contribution groups effectively and maintain organization as you grow.',
