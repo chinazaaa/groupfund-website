@@ -5,7 +5,7 @@ import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
 // 🎄 CHRISTMAS MODE: Set to false after Christmas season to revert to normal mode
-const NEW_YEAR_MODE= true
+const NEW_YEAR_MODE= false
 
 export default function HomePage() {
   const [modalOpen, setModalOpen] = useState(false)

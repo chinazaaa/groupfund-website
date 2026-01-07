@@ -6,7 +6,7 @@ import NewYearAnimation from './NewYearAnimation'
 import './Layout.css'
 
 // 🎉 NEW YEAR MODE: Set to false after New Year season to remove animation
-const NEW_YEAR_MODE = true
+const NEW_YEAR_MODE = false
 
 export default function Layout({ children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
