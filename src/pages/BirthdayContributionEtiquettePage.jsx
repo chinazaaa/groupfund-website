@@ -191,7 +191,7 @@ export default function BirthdayContributionEtiquettePage() {
               <h2>Ready to Organize Contributions with Good Etiquette?</h2>
               <p>GroupFund helps you maintain professional, respectful communication with automatic reminders and transparent tracking - for birthdays, subscriptions, events, and more.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

@@ -252,7 +252,7 @@ export default function BirthdayWishlistMeaningPage() {
               <h2>Ready to Create Your Birthday Wishlist?</h2>
               <p>Now that you understand birthday wishlist meaning, start creating your own wishlist in GroupFund. Make gift giving easier for everyone in your Birthday Groups.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/how-to-create-birthday-wishlist" className="btn btn-secondary btn-large">How to Create a Wishlist →</Link>
               </div>
             </div>

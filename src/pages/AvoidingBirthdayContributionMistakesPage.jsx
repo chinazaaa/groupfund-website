@@ -188,7 +188,7 @@ export default function AvoidingBirthdayContributionMistakesPage() {
               <h2>Ready to Avoid These Mistakes?</h2>
               <p>GroupFund is designed to help you avoid all these common mistakes. Start organizing contributions the right way.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

@@ -143,7 +143,7 @@ export default function AmazonPrimeSubscriptionPage() {
                 Start your Amazon Prime subscription group today. Set up payment tracking, send reminders, and split Prime and Prime Video costs fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Amazon Prime Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

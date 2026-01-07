@@ -142,7 +142,7 @@ export default function BokksuSubscriptionPage() {
                 Start your global Japan snack group today. Track worldwide contributions, coordinate virtual unboxings, send reminders, and split authentic Japanese treats fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Bokksu Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

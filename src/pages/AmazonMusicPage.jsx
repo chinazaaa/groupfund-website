@@ -142,7 +142,7 @@ export default function AmazonMusicSubscriptionPage() {
                 Start your Amazon Music subscription group today. Set up payment tracking, send reminders, and split premium music streaming fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Amazon Music Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

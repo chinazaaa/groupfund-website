@@ -132,7 +132,7 @@ export default function BeirutLocationPage() {
               <h2>Ready to Organize Group Contributions in Beirut?</h2>
               <p>Join Beirut groups using GroupFund to keep contributions transparent, fair, and organised, even in challenging times.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Beirut Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Beirut Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

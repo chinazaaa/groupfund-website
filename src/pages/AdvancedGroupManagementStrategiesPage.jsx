@@ -297,7 +297,7 @@ export default function AdvancedGroupManagementStrategiesPage() {
               <h2>Ready to Use Advanced Management Strategies?</h2>
               <p>GroupFund provides the tools you need for advanced group management: reliability scores, group health metrics, and flexible controls.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/features">View All Features →</Link>
               </div>
             </div>

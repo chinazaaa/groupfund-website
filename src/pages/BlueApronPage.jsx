@@ -141,7 +141,7 @@ export default function BlueApronSubscriptionPage() {
                 Start your international Blue Apron group today. Coordinate global recipe votes, track cross-border payments, send reminders, and split gourmet meal kits fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Blue Apron Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

@@ -208,7 +208,7 @@ export default function BudgetingForGroupContributionsPage() {
               <h2>Ready to Budget for Your Group Contributions?</h2>
               <p>GroupFund helps you calculate annual commitments and track your contribution expenses.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/calculating-group-contributions">Calculating Contributions →</Link>
               </div>
             </div>
