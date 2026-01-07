@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useCallback } from 'react'
+import { FaInstagram, FaXTwitter, FaLinkedin, FaTiktok } from 'react-icons/fa6'
 import Breadcrumbs from './Breadcrumbs'
 import NewYearAnimation from './NewYearAnimation'
 import './Layout.css'
@@ -61,6 +62,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
+
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
         <div className="mobile-menu-overlay" onClick={closeMobileMenu}></div>
@@ -80,12 +82,51 @@ export default function Layout({ children }) {
               <Link to="/" className="footer-logo-link">
                 <img src="/icon.png" alt="GroupFund" className="footer-logo-img" />
               </Link>
-              <p className="footer-tagline">Organizing group contributions for birthdays, subscriptions, and events.</p>
+              <p className="footer-tagline">
+                Organizing group contributions for birthdays, subscriptions, and events.
+              </p>
+
+              {/* Social media links */}
+              <div className="footer-social">
+                <a
+                  href="https://www.instagram.com/thegroupfundapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GroupFund on Instagram"
+                >
+                  <FaInstagram />
+                </a>
+                <a
+                  href="https://x.com/thegroupfundapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GroupFund on X (Twitter)"
+                >
+                  <FaXTwitter />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/thegroupfundapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GroupFund on LinkedIn"
+                >
+                  <FaLinkedin />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@thegroupfundapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GroupFund on TikTok"
+                >
+                  <FaTiktok />
+                </a>
+              </div>
             </div>
+
             <div className="footer-section">
               <h4>Product</h4>
               <ul className="footer-links">
-              <li><Link to="/get-started">Get Started</Link></li>
+                <li><Link to="/get-started">Get Started</Link></li>
                 <li><Link to="/how-it-works">How It Works</Link></li>
                 <li><Link to="/features">Features</Link></li>
                 <li><Link to="/group-types">Group Types</Link></li>
@@ -95,11 +136,11 @@ export default function Layout({ children }) {
                 <li><Link to="/coming-soon-features">Coming Soon</Link></li>
                 <li><Link to="/download">Download</Link></li>
                 <li><Link to="/faq">FAQ</Link></li>
-
                 {/* <li><a href="https://app.groupfund.app/login" target="_blank" rel="noopener noreferrer">Login</a></li>
                 <li><a href="https://app.groupfund.app/signup" target="_blank" rel="noopener noreferrer">Sign Up</a></li> */}
               </ul>
             </div>
+
             <div className="footer-section">
               <h4>Resources</h4>
               <ul className="footer-links">
@@ -118,6 +159,7 @@ export default function Layout({ children }) {
                 {/* <li><Link to="/branding">Brand Guidelines</Link></li> */}
               </ul>
             </div>
+
             <div className="footer-section">
               <h4>Support</h4>
               <ul className="footer-links">
@@ -130,6 +172,7 @@ export default function Layout({ children }) {
               </ul>
             </div>
           </div>
+
           <div className="footer-bottom">
             <p>&copy; 2025 GroupFund. All rights reserved.</p>
           </div>
