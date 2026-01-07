@@ -4052,23 +4052,20 @@
 .waitlist-benefits {
   list-style: none;
   padding: 0;
-  margin: 2rem 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* keeps them centered */
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2.5rem;
+  max-width: 1100px;
 }
-
 .waitlist-benefits li {
-  flex: 0 0 25%;      /* exactly 4 per row */
-  max-width: none;    /* remove 240px limit */
-  box-sizing: border-box;
-  padding: 0 1rem;    /* optional horizontal padding */
+  max-width: 260px;        /* wider cards */
+  margin: 0 auto;          /* center the card itself in its column */
+  text-align: left;        /* key: text no longer centered */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
 }
-
 @media (max-width: 900px) {
   .waitlist-benefits li {
     flex: 0 0 50%;    /* 2 per row on tablet/mobile */
@@ -4080,26 +4077,31 @@
     flex: 0 0 100%;   /* 1 per row on small screens */
   }
 }
+@media (max-width: 1024px) {
+  .waitlist-benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
-
+@media (max-width: 640px) {
+  .waitlist-benefits {
+    grid-template-columns: 1fr;
+  }
+}
 .benefit-icon {
   font-size: 2.5rem;
-  flex-shrink: 0;
+  margin-bottom: 0.75rem;
 }
 
 .waitlist-benefits li strong {
-  display: block;
   font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #0f172a;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .waitlist-benefits li p {
-  color: #64748b;
-  line-height: 1.7;
   font-size: 1rem;
-  margin: 0;
+  line-height: 1.7;
 }
 
 .waitlist-form-container {
