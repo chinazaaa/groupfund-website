@@ -8,8 +8,8 @@ export default function ComingSoonFeaturesPage() {
     const webPageStructuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Coming Soon Features - GroupFund",
-      "description": "Upcoming features and improvements coming to GroupFund. Mobile apps, multi-event support, recurring contributions, and more.",
+      "name": "GroupFund Product Roadmap",
+      "description": "See upcoming features and improvements for GroupFund, including new group types, automation, and analytics.",
       "url": "https://groupfund.app/coming-soon-features"
     }
     const existingScript = document.querySelector('script[data-coming-soon-schema]')
@@ -27,29 +27,6 @@ export default function ComingSoonFeaturesPage() {
 
   const pipelineFeatures = [
     {
-      title: "Mobile App (iOS & Android)",
-      description: "Native mobile applications for iOS and Android devices. Manage your group contributions on the go with a beautiful, intuitive mobile experience.",
-      icon: "📱",
-      status: "In Development",
-      statusColor: "blue"
-    },
-    {
-      title: "Multi-Event Support",
-      description: "Expand beyond birthdays to support other group events like weddings, graduations, anniversaries, and special occasions.",
-      icon: "🎉",
-      status: "In Development",
-      statusColor: "blue"
-    },
-    {
-      title: "Recurring Contributions",
-      description: "Set up automatic recurring contributions for members who want to contribute monthly or annually. Simplify long-term group management.",
-      icon: "🔄",
-      status: "In Development",
-      statusColor: "blue"
-    },
- 
-
-    {
       title: "Group Chat Integration",
       description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
       icon: "💬",
@@ -63,7 +40,7 @@ export default function ComingSoonFeaturesPage() {
       status: "Planned",
       statusColor: "purple"
     },
-     {
+    {
       title: "In-App Payment Processing",
       description: "Process payments directly within the app using secure payment gateways. Support for cards, bank transfers, and mobile money.",
       icon: "💳",
@@ -111,7 +88,7 @@ export default function ComingSoonFeaturesPage() {
       icon: "🌐",
       status: "Planned",
       statusColor: "purple"
-    },
+    }
   ]
 
   const getStatusBadgeClass = (statusColor) => {
@@ -127,17 +104,17 @@ export default function ComingSoonFeaturesPage() {
   return (
     <>
       <SEO
-        title="Coming Soon Features - GroupFund Roadmap & Pipeline"
-        description="Explore GroupFund's upcoming features and product roadmap. See what's in development: mobile apps, in-app payments, analytics, recurring contributions, and more exciting features coming soon."
-        keywords="groupfund roadmap, coming soon features, product pipeline, group contribution app features, upcoming features, group contribution app updates"
+        title="GroupFund Product Roadmap & Upcoming Features"
+        description="Explore upcoming features in GroupFund’s roadmap. GroupFund is live on Web, iOS, and Android—see what’s coming next to improve group contributions."
+        keywords="groupfund roadmap, upcoming features, product pipeline, group contribution app features, group contribution app updates"
         canonical="https://www.groupfund.app/coming-soon-features"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Coming Soon Features</h1>
+          <h1 className="page-title">Product Roadmap</h1>
           <p className="page-subtitle">
-            We're constantly working to make GroupFund better. Here's what's coming next in our product pipeline.
+            GroupFund is live on Web, iOS, and Android. Here’s what the team is working on next to make group contributions even better.
           </p>
         </div>
       </section>
@@ -146,8 +123,8 @@ export default function ComingSoonFeaturesPage() {
         <div className="container">
           <div className="pipeline-intro">
             <p className="pipeline-description">
-              Our team is hard at work building new features to enhance your group contribution experience. 
-              Check back regularly as we continue to add powerful capabilities to GroupFund.
+              GroupFund is already helping groups manage contributions across platforms. 
+              This roadmap highlights upcoming features we’re exploring and building to level up your experience.
             </p>
           </div>
 
@@ -167,11 +144,11 @@ export default function ComingSoonFeaturesPage() {
           </div>
 
           <div className="cta-box">
-            <h2>Want to Request a Feature?</h2>
-            <p>Have an idea for a feature you'd like to see? We'd love to hear from you!</p>
+            <h2>Start Using GroupFund Today</h2>
+            <p>GroupFund is live on Web, iOS, and Android. Create your first group in minutes, then tell us what you’d like to see next.</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary btn-large">Contact Us</Link>
-              <Link to="/features" className="btn btn-secondary btn-large">View Current Features</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Get Started</Link>
+              <Link to="/contact" className="btn btn-secondary btn-large">Request a Feature</Link>
             </div>
           </div>
         </div>
@@ -179,4 +156,3 @@ export default function ComingSoonFeaturesPage() {
     </>
   )
 }
-
