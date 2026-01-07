@@ -303,7 +303,7 @@ export default function ResourcesPage() {
             <h2>Ready to Start Organizing?</h2>
             <p>Put these guides into practice with GroupFund. Start organizing group contributions for your group today - for birthdays, subscriptions, events, and more.</p>
             <div className="cta-buttons">
-              <Link to="/get-started" className="btn btn-primary btn-large">Get Started Free</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Get Started for Free</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>

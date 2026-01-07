@@ -196,7 +196,7 @@ export default function LocationsPage() {
             <h2>Don't See Your Location?</h2>
             <p>GroupFund works worldwide! Even if your specific country or city isn't listed, you can still use GroupFund to organize group contributions - for birthdays, subscriptions, events, and more.</p>
             <div className="cta-buttons">
-              <Link to="/get-started" className="btn btn-primary btn-large">Get Started Free</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Get Started for Free</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>

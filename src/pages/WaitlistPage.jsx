@@ -45,7 +45,7 @@ export default function WaitlistPage() {
               Create a free group, invite your people, and start collecting contributions seamlessly.
             </p>
             <Link to="/get-started" className="btn btn-primary btn-large">
-              Get Started Free
+              Get Started for Free
             </Link>
           </div>
         </div>

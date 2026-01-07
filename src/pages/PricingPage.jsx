@@ -153,7 +153,7 @@ export default function PricingPage() {
               </div>
               <div className="pricing-cta">
                 <Link to="/get-started" className="btn btn-primary btn-large">
-                  Get Started Free
+                  Get Started for Free
                 </Link>
                 <p className="pricing-note">No credit card required • Free forever</p>
               </div>

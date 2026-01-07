@@ -225,7 +225,7 @@ export default function SettingUpYourFirstGroupPage() {
               <h2>Ready to Set Up Your First Group?</h2>
               <p>GroupFund makes it easy to create and manage your first birthday contribution group.</p>
               <div className="cta-buttons">
-                <Link to="/get-started" className="btn btn-primary btn-large">Get Started Free</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Get Started for Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>
