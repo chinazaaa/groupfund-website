@@ -59,6 +59,7 @@ export default function SitemapPage() {
         { path: "/subscription-groups/home-chef", label: "Home Chef Subscription Groups" },
         { path: "/subscription-groups/bokksu", label: "Bokksu Subscription Groups" },
         { path: "/subscription-groups/puregym-plus", label: "PureGym Plus Subscription Groups" },
+          { path: "/subscription-groups/the-gym-group-ultimate", label: "The Gym Group Ultimate Subscription Groups" },
         { path: "/subscription-groups/la-fitness", label: "LA Fitness Subscription Groups" },
         { path: "/subscription-groups/apple-fitness-plus", label: "Apple Fitness+ Subscription Groups" },
         { path: "/subscription-groups/fitness-bliss", label: "Fitness Bliss Subscription Groups" },
