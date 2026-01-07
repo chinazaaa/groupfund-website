@@ -31,7 +31,7 @@ export default function GroupBirthdayGiftsUseCasePage() {
                 Organising a group birthday gift or dinner often means one person shares bank details, tracks who has sent money, and sends uncomfortable reminders in the group chat. With different amounts, late senders, and last‑minute plans, it quickly becomes stressful instead of fun.
               </p>
               <p>
-                GroupFund gives you a dedicated Birthday Group where everyone sees the plan, the suggested amount, and a clear deadline. You share one link, track contributions in one place, and focus on the celebration instead of spreadsheets and screenshots.
+                GroupFund gives you a dedicated Birthday Group where everyone sees the plan, the suggested amount, and a clear deadline. You share one invite code, track contributions in one place, and focus on the celebration instead of spreadsheets and screenshots.
               </p>
             </div>
 
