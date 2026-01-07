@@ -168,7 +168,7 @@ export default function SerbiaLocationPage() {
               <h2>Ready to Organize Group Contributions in Serbia?</h2>
               <p>Join Serbian groups using GroupFund to make contributions organised and stress‑free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Serbia Group
                 </Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">

@@ -142,7 +142,7 @@ export default function NowTvEntertainmentSubscriptionPage() {
                 Start your NOW TV Entertainment group today. Track payments, send reminders, and split Sky channels and box sets fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your NOW Entertainment Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

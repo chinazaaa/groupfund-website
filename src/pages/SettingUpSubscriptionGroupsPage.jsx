@@ -138,7 +138,7 @@ export default function SettingUpSubscriptionGroupsPage() {
               <h2>Ready to Set Up Your Subscription Group?</h2>
               <p>Start managing your shared subscriptions effortlessly with GroupFund. Create your first Subscription Group today.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

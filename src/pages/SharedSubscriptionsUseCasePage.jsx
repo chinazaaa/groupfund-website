@@ -72,7 +72,7 @@ export default function SharedSubscriptionsUseCasePage() {
               <h2>Ready to Manage Your Shared Subscriptions?</h2>
               <p>Start organizing your subscription payments effortlessly with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/setting-up-subscription-groups" className="btn btn-secondary btn-large">Setting Up Subscription Groups →</Link>
               </div>
             </div>

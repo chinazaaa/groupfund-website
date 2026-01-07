@@ -171,7 +171,7 @@ export default function GroupTypesPage() {
             <h2>Ready to Create Your Group?</h2>
             <p>Choose the group type that fits your needs and start organizing contributions today.</p>
             <div className="cta-buttons">
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
               <Link to="/resources/choosing-between-group-types" className="btn btn-secondary btn-large">Choosing Between Group Types →</Link>
             </div>
           </div>

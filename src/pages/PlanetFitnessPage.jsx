@@ -142,7 +142,7 @@ export default function PlanetFitnessBlackCardSubscriptionPage() {
                 Start your Planet Fitness Black Card group today. Track fitness contributions globally, coordinate FREE guest passes, send reminders, and split premium gym perks fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Black Card Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

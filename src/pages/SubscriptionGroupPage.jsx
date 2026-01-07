@@ -512,7 +512,7 @@ export default function SubscriptionGroupsPage() {
             <h2>Ready to Start Sharing Subscriptions?</h2>
             <p>Create your subscription group today and start splitting costs with friends and family. Whether it's Netflix, Spotify, or any other service, GroupFund makes it easy.</p>
             <div className="cta-buttons">
-            <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
              <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
           </div>

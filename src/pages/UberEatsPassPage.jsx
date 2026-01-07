@@ -141,7 +141,7 @@ export default function UberEatsPassSubscriptionPage() {
                 Start your Uber Eats Pass group today. Keep delivery discounts active, track payments, send reminders, and split food delivery savings fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Uber Eats Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

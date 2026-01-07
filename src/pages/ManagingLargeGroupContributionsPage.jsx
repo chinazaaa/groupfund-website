@@ -194,7 +194,7 @@ export default function ManagingLargeGroupContributionsPage() {
               <h2>Ready to Manage Your Large Group's Contributions?</h2>
               <p>GroupFund is designed to handle large groups efficiently with automation, reliability tracking, and group health metrics.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/features">View Features →</Link>
               </div>
             </div>

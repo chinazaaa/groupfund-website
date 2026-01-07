@@ -342,7 +342,7 @@ export default function UseCasesPage() {
           <div className="cta-box">
             <h2>Ready to Get Started?</h2>
             <p>Choose the use case that fits your group and start organizing contributions today - for birthdays, subscriptions, or any purpose.</p>
-            <Link to="/waitlist" className="btn btn-primary btn-large">Join the Waitlist</Link>
+            <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Group</Link>
           </div>
         </div>
       </section>

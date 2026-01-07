@@ -141,7 +141,7 @@ export default function TheGymGroupUltimateSubscriptionPage() {
                 Start your gym group today. Track contributions, coordinate guest passes, send reminders, and split UK-wide gym access fairly with the people you train with most.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your The Gym Group Subscription
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

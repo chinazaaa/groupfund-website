@@ -141,7 +141,7 @@ export default function DeliverooPlusSubscriptionPage() {
                 Start your Deliveroo Plus group today. Keep delivery fees at £0, track payments, send reminders, and split food delivery savings fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Deliveroo Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

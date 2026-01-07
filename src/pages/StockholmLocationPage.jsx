@@ -118,7 +118,7 @@ export default function StockholmLocationPage() {
               <h2>Ready to Organize Group Contributions in Stockholm?</h2>
               <p>Join Stockholm groups using GroupFund to make contributions organised and stress‑free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Stockholm Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Stockholm Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

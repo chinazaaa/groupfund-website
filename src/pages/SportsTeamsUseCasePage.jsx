@@ -54,7 +54,7 @@ export default function SportsTeamsUseCasePage() {
               <h2>Ready to Manage Your Team Contributions?</h2>
               <p>Start organizing team contributions effortlessly with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources" className="btn btn-secondary btn-large">View Resources →</Link>
               </div>
             </div>

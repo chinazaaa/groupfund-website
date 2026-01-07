@@ -80,7 +80,7 @@ export default function ParisLocationPage() {
               <h2>Ready to Organize Group Contributions in Paris?</h2>
               <p>Join Paris groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Paris Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Paris Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

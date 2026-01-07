@@ -256,7 +256,7 @@ export default function HowToOrganizeBirthdayContributionsPage() {
               <h2>Ready to Organize Your Group's Contributions?</h2>
               <p>GroupFund makes organizing group contributions effortless - for birthdays, subscriptions, events, and more. Get automatic reminders, real-time tracking, and member reliability scores.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

@@ -111,7 +111,7 @@ export default function ChurchesUseCasePage() {
               <h2>Ready to Streamline Your Church's Birthday Contributions?</h2>
               <p>Join churches across Nigeria using GroupFund to organize member contributions professionally.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Church Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Church Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

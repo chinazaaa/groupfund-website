@@ -142,7 +142,7 @@ export default function FitnessBlissSubscriptionPage() {
                 Start your global lifting group today. Track strength contributions across timezones, coordinate form checks, send program reminders, and split expert coaching fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Fitness Bliss Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

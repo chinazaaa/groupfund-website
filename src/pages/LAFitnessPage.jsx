@@ -144,7 +144,7 @@ export default function LAFitnessSubscriptionPage() {
                 Start your LA Fitness group today. Track fitness contributions globally, coordinate class/pool bookings, send reminders, and split premium gym amenities fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your LA Fitness Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

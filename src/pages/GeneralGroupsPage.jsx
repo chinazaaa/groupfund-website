@@ -90,7 +90,7 @@ export default function GeneralGroupsPage() {
               <h2>Ready to Create a General Group?</h2>
               <p>Start organizing contributions for your event effortlessly with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/creating-general-groups-for-events" className="btn btn-secondary btn-large">Creating General Groups →</Link>
               </div>
             </div>

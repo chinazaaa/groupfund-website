@@ -141,7 +141,7 @@ export default function JustEatPlusSubscriptionPage() {
                 Start your Just Eat+ group today. Keep delivery fees at £0, track payments, send reminders, and split takeaway savings fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Just Eat Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

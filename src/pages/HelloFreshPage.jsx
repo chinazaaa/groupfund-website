@@ -162,7 +162,7 @@ export default function HelloFreshSubscriptionPage() {
                 Start your HelloFresh group today. Compare plan pricing, coordinate meal votes, track payments, send reminders, and split meal kit delivery fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your HelloFresh Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

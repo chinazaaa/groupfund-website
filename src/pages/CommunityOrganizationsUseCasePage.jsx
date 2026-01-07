@@ -120,7 +120,7 @@ export default function CommunityOrganizationsUseCasePage() {
               <h2>Ready to Organize Your Community Organization's Birthday Contributions?</h2>
               <p>Join community organizations using GroupFund to make birthday celebrations organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Community Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Community Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

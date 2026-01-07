@@ -117,7 +117,7 @@ export default function SeoulLocationPage() {
               <h2>Ready to Organize Group Contributions in Seoul?</h2>
               <p>Join Seoul groups using GroupFund to make contributions organised and stress‑free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Seoul Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Seoul Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

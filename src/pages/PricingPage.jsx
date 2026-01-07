@@ -152,7 +152,7 @@ export default function PricingPage() {
                 </ul>
               </div>
               <div className="pricing-cta">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Get Started Free
                 </Link>
                 <p className="pricing-note">No credit card required • Free forever</p>
@@ -286,7 +286,7 @@ export default function PricingPage() {
             <h2>Ready to Get Started?</h2>
             <p>Join thousands of groups using GroupFund to organize contributions—completely free.</p>
             <div className="cta-buttons">
-              <Link to="/waitlist" className="btn btn-primary btn-large">Start Free Today</Link>
+              <Link to="/get-started" className="btn btn-primary btn-large">Start Free Today</Link>
               <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
             </div>
             <p style={{ marginTop: '24px', fontSize: '0.95rem', color: '#64748b' }}>

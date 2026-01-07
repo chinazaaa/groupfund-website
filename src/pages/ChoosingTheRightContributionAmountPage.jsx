@@ -208,7 +208,7 @@ export default function ChoosingTheRightContributionAmountPage() {
               <h2>Ready to Set Your Group's Contribution Amount?</h2>
               <p>GroupFund makes it easy to set fixed contribution amounts and calculate annual totals.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/calculating-group-contributions">Calculating Contributions →</Link>
               </div>
             </div>

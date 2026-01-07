@@ -293,7 +293,7 @@ export default function SplitwiseComparisonPage() {
               <h2>Ready to Switch from Splitwise?</h2>
               <p>Join thousands of groups using GroupFund for group contribution management. Free to start, purpose-built for birthdays, subscriptions, and events.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

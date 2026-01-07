@@ -214,7 +214,7 @@ export default function MultiCurrencyGroupPaymentsPage() {
               <h2>Ready to Organize International Group Contributions?</h2>
               <p>GroupFund supports multiple currencies and makes organizing international group contributions simple.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/features" className="btn btn-secondary btn-large">View Multi-Currency Features</Link>
               </div>
             </div>

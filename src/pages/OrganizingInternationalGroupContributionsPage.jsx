@@ -96,7 +96,7 @@ export default function OrganizingInternationalGroupContributionsPage() {
               <h2>Ready to Organize International Contributions?</h2>
               <p>Start managing your international group contributions effectively with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/multi-currency-group-payments" className="btn btn-secondary btn-large">Multi-Currency Payments →</Link>
               </div>
             </div>

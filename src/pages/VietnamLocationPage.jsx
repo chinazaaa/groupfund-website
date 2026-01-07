@@ -168,7 +168,7 @@ export default function VietnamLocationPage() {
               <h2>Ready to Organize Group Contributions in Vietnam?</h2>
               <p>Join Vietnamese groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Vietnam Group
                 </Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">

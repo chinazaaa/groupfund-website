@@ -128,7 +128,7 @@ export default function PartiesEventsUseCasePage() {
                 Use GroupFund to collect money upfront, track contributions, and remove the awkwardness from group money conversations for your next party, trip, or event.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Create an Event Group
                 </Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">

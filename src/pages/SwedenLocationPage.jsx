@@ -168,7 +168,7 @@ export default function SwedenLocationPage() {
               <h2>Ready to Organize Group Contributions in Sweden?</h2>
               <p>Join Swedish groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Sweden Group
                 </Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">

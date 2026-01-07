@@ -177,7 +177,7 @@ export default function UnderstandingMemberReliabilityScoresPage() {
               <h2>Ready to Use Reliability Scores?</h2>
               <p>GroupFund automatically calculates and displays member reliability scores to help you make informed decisions.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/features">View Features →</Link>
               </div>
             </div>

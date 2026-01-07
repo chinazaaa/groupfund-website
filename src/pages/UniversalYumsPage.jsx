@@ -142,7 +142,7 @@ export default function UniversalYumsSubscriptionPage() {
                 Start your global snack adventure group today. Track worldwide contributions, coordinate virtual tastings, send reminders, and split international treats fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Universal Yums Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

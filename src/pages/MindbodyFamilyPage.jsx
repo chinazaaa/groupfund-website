@@ -142,7 +142,7 @@ export default function MindbodyFamilySubscriptionPage() {
                 Start your global fitness class group today. Track studio contributions across 60,000+ locations, coordinate class bookings, send reminders, and split premium profiles fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Mindbody Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

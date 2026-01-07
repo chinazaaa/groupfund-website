@@ -255,7 +255,7 @@ export default function OptimizingPaymentConfirmationWorkflowsPage() {
               <h2>Ready to Optimize Your Payment Confirmations?</h2>
               <p>GroupFund's two-step confirmation system makes payment verification accurate and efficient.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/features">View Features →</Link>
               </div>
             </div>

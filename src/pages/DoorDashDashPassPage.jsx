@@ -141,7 +141,7 @@ export default function DoorDashDashPassSubscriptionPage() {
                 Start your DashPass family sharing group today. Keep $0 delivery fees active, track payments, send reminders, and split food delivery savings fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your DashPass Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

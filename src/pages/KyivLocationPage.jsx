@@ -117,7 +117,7 @@ export default function KyivLocationPage() {
               <h2>Ready to Organize Group Contributions in Kyiv?</h2>
               <p>Join Kyiv groups using GroupFund to make contributions organised and stress‑free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Kyiv Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Kyiv Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

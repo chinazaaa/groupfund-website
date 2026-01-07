@@ -117,7 +117,7 @@ export default function HelsinkiLocationPage() {
               <h2>Ready to Organize Group Contributions in Helsinki?</h2>
               <p>Join Helsinki groups using GroupFund to make contributions organised and stress‑free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Helsinki Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Helsinki Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

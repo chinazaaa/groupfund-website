@@ -112,7 +112,7 @@ export default function NetflixSubscriptionPage() {
               <h2>Ready to Share Netflix Costs?</h2>
               <p>Start managing your Netflix subscription group today. Set up payment tracking, send reminders, and split costs fairly.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Netflix Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Netflix Group</Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">Learn About Subscription Groups →</Link>
               </div>
             </div>

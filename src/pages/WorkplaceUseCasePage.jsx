@@ -126,7 +126,7 @@ export default function WorkplaceUseCasePage() {
               <h2>Ready to Organize Your Workplace Birthday Contributions?</h2>
               <p>Join workplaces using GroupFund to make office birthday celebrations organized and professional.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Workplace Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Workplace Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

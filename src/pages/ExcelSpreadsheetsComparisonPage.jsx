@@ -365,7 +365,7 @@ export default function ExcelSpreadsheetsComparisonPage() {
               <h2>Ready to Replace Excel Spreadsheets?</h2>
               <p>Join thousands of groups using GroupFund for automated group contribution tracking.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Try GroupFund Free</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Try GroupFund Free</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

@@ -330,7 +330,7 @@ export default function HowToCreateBirthdayWishlistPage() {
               <h2>Ready to Create Your Birthday Wishlist?</h2>
               <p>GroupFund makes creating and managing birthday wishlists effortless for Birthday Groups. Start building your wishlist today and make gift giving easier for everyone in your group.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

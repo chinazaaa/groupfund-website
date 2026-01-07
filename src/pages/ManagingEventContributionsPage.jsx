@@ -103,7 +103,7 @@ export default function ManagingEventContributionsPage() {
               <h2>Ready to Organize Your Event Contributions?</h2>
               <p>Start managing event contributions effortlessly with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/creating-general-groups-for-events" className="btn btn-secondary btn-large">Creating General Groups →</Link>
               </div>
             </div>

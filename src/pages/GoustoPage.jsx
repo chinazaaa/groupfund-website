@@ -141,7 +141,7 @@ export default function GoustoSubscriptionPage() {
                 Start your international Gousto group today. Coordinate global meal votes, track cross-border payments, send reminders, and split fresh recipe boxes fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Gousto Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

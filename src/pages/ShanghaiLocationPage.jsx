@@ -117,7 +117,7 @@ export default function ShanghaiLocationPage() {
               <h2>Ready to Organize Group Contributions in Shanghai?</h2>
               <p>Join Shanghai groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your Shanghai Group
                 </Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">

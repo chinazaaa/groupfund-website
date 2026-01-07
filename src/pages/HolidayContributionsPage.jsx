@@ -214,7 +214,7 @@ export default function HolidayContributionsPage() {
               <h2>Start Organizing Your Christmas Contributions Today</h2>
               <p>Join families, workplaces, and communities using GroupFund to manage Christmas contributions, Secret Santa, and holiday gift funds. Free to start, no credit card required. Perfect for Christmas 2025!</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your Free Christmas Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Free Christmas Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
               <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#6b7280' }}>

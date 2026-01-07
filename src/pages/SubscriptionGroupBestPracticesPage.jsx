@@ -105,7 +105,7 @@ export default function SubscriptionGroupBestPracticesPage() {
               <h2>Ready to Apply These Best Practices?</h2>
               <p>Start managing your Subscription Groups effectively with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/setting-up-subscription-groups" className="btn btn-secondary btn-large">Setting Up Subscription Groups →</Link>
               </div>
             </div>

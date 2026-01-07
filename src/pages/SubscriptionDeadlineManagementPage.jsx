@@ -94,7 +94,7 @@ export default function SubscriptionDeadlineManagementPage() {
               <h2>Ready to Manage Subscription Deadlines?</h2>
               <p>Start managing your subscription deadlines effectively with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources/setting-up-subscription-groups" className="btn btn-secondary btn-large">Setting Up Subscription Groups →</Link>
               </div>
             </div>

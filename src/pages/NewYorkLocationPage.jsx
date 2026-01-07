@@ -80,7 +80,7 @@ export default function NewYorkLocationPage() {
               <h2>Ready to Organize Group Contributions in New York?</h2>
               <p>Join New York groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your New York Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your New York Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

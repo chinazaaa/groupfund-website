@@ -114,7 +114,7 @@ export default function SchoolsUseCasePage() {
               <h2>Ready to Organize Your School's Birthday Contributions?</h2>
               <p>Join schools using GroupFund to make birthday celebrations organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your School Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your School Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

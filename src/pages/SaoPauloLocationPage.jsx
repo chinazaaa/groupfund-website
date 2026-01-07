@@ -80,7 +80,7 @@ export default function SaoPauloLocationPage() {
               <h2>Ready to Organize Group Contributions in São Paulo?</h2>
               <p>Join São Paulo groups using GroupFund to make contributions organized and stress-free.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Your São Paulo Group</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your São Paulo Group</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
               </div>
             </div>

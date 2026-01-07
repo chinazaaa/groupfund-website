@@ -142,7 +142,7 @@ export default function PureGymPlusSubscriptionPage() {
                 Start your gym buddy group today. Track fitness contributions, coordinate guest passes, send reminders, and split 24/7 UK gym access fairly.
               </p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">
+                <Link to="/get-started" className="btn btn-primary btn-large">
                   Start Your PureGym Group
                 </Link>
                 <Link to="/group-types/subscription-groups" className="btn btn-secondary btn-large">

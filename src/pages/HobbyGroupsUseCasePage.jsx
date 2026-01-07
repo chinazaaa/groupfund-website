@@ -54,7 +54,7 @@ export default function HobbyGroupsUseCasePage() {
               <h2>Ready to Organize Your Hobby Group?</h2>
               <p>Start managing hobby group contributions effortlessly with GroupFund.</p>
               <div className="cta-buttons">
-                <Link to="/waitlist" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/resources" className="btn btn-secondary btn-large">View Resources →</Link>
               </div>
             </div>
