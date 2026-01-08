@@ -456,9 +456,9 @@ function App() {
         <Route path="/best-practices" element={<Layout><BestPracticesPage /></Layout>} />
         <Route path="/best-practices/managing-large-groups" element={<Layout><ManagingLargeGroupsBestPracticesPage /></Layout>} />
         <Route path="/best-practices/international-groups" element={<Layout><InternationalGroupsBestPracticesPage /></Layout>} />
-        <Route path="/best-practices/group-trips-with-friends" element={<Layout><BirthdayGiftCollectionBestPracticesPage /></Layout>} />
+        <Route path="/best-practices/group-trips-with-friends" element={<Layout><GroupTripCollectionBestPracticesPage /></Layout>} />
         <Route path="/best-practices/workplace-leaving-gifts" element={<Layout><WorkplaceLeavingGiftCollectionBestPracticesPage /></Layout>} />
-        <Route path="/best-practices/group-birthday-gifts" element={<Layout><GroupTripCollectionBestPracticesPage /></Layout>} />
+        <Route path="/best-practices/group-birthday-gifts" element={<Layout><BirthdayGiftCollectionBestPracticesPage /></Layout>} />
         <Route path="/case-studies" element={<Layout><CaseStudiesPage /></Layout>} />
         <Route path="/case-studies/church-birthday-group" element={<Layout><ChurchBirthdayGroupCaseStudyPage /></Layout>} />
         <Route path="/case-studies/family-birthday-fund" element={<Layout><FamilyBirthdayFundCaseStudyPage /></Layout>} />
