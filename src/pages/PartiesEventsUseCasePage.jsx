@@ -7,9 +7,9 @@ export default function PartiesEventsUseCasePage() {
   return (
     <>
       <SEO
-        title="GroupFund for Parties & Events - Stress-Free Group Event Contributions"
-        description="Plan group parties, birthdays, and events without money stress using GroupFund. Create shared grouppots, set contribution amounts, track payments, and keep everything transparent for your guests."
-        keywords="party contributions, event group payments, birthday money pot, group event fund, collect money for parties"
+        title="Pay Friends Easily for Group Events - Simple Event Payment App | GroupFund"
+        description="Pay friends easily for group events, parties, and celebrations. The easiest way to split costs for events with friends. Track payments, send reminders, and organize group contributions without stress. Free to start."
+        keywords="pay friends easily for group events, easy way to pay friends for events, group event payments, party contributions, event group payments, birthday money pot, group event fund, collect money for parties, pay friends for events, split event costs with friends"
         canonical="https://www.groupfund.app/use-cases/parties-and-events"
       />
 
