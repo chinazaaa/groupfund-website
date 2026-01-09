@@ -87,6 +87,11 @@ export default function FeaturesPage() {
       icon: "📱"
     },
     {
+      title: "Per-Group Chat & Messaging",
+      description: "Enable optional group chat for seamless communication within your group. Mention members with @username, get smart notifications for mentions or all messages, and customize your notification preferences. Chat is disabled by default and can be toggled on/off by group creators. Only active members can participate.",
+      icon: "💬"
+    },
+    {
       title: "Email Notifications",
       description: "Get email notifications for OTP verification, password resets, birthday wishes, reminders (7 days, 1 day, same day), overdue contributions, and comprehensive birthday summaries.",
       icon: "📧"
@@ -167,8 +172,8 @@ export default function FeaturesPage() {
       />
       <SEO
         title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & More"
-        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, advanced group management, and more."
-        keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders"
+        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), member reliability scores, group health metrics, multi-currency support, per-group chat with mentions, automatic reminders, real-time payment tracking, advanced group management, and more."
+        keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders, group chat, messaging"
         canonical="https://www.groupfund.app/features"
       />
 

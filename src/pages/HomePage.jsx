@@ -56,8 +56,8 @@ export default function HomePage() {
           ? "GroupFund - Organize New Year 2026 Contributions & Party Funds | Group Celebration Funds"
           : "GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"}
         description={NEW_YEAR_MODE
-          ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."
-          : "Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders. Multi-currency support (NGN, USD, GBP). Free to start."}
+          ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP). Free to start."
+          : "Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP). Free to start."}
         keywords={NEW_YEAR_MODE
           ? "New Year contributions, New Year party funds, New Year's Eve contributions, celebration group payments, New Year 2026, organize New Year party, group celebrations, New Year contribution tracking, party cost sharing, celebration contributions, group event coordination, New Year's Eve expenses, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
           : "group contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments"}
@@ -260,6 +260,15 @@ export default function HomePage() {
               </div>
               <h3>Birthday Calendar & Wishlist</h3>
               <p>Never miss a birthday with our integrated calendar view. For birthday groups, create and share wishlists with items, pictures, and prices. Group members can claim items they want to gift.</p>
+            </article>
+            <article className="feature-card">
+              <div className="feature-icon-wrapper">
+                <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <h3>Per-Group Chat & Messaging</h3>
+              <p>Enable optional group chat for seamless communication. Mention members with @username, get smart notifications, and customize preferences. Chat is disabled by default and can be toggled by group creators.</p>
             </article>
           </div>
         </div>

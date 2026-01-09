@@ -97,7 +97,7 @@ export default function DownloadPage() {
 
           <div className="cta-box">
             <h2>Why Choose GroupFund?</h2>
-            <p>Say goodbye to WhatsApp chaos and Excel spreadsheets. GroupFund makes group contributions simple with multi-currency support, automatic reminders, payment tracking, and more.</p>
+            <p>Say goodbye to WhatsApp chaos and Excel spreadsheets. GroupFund makes group contributions simple with multi-currency support, automatic reminders, payment tracking, per-group chat, and more.</p>
             <div className="cta-buttons">
               <Link to="/features" className="btn btn-secondary btn-large">View All Features</Link>
               <Link to="/how-it-works" className="btn btn-primary btn-large">See How It Works</Link>

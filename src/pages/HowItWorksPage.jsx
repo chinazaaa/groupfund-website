@@ -78,6 +78,12 @@ export default function HowItWorksPage() {
       title: 'Two-Step Contribution Confirmation',
       description: 'Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track status in real-time from not paid to confirmed or not received for full transparency.',
       icon: '🔄'
+    },
+    {
+      number: '10',
+      title: 'Group Chat & Communication',
+      description: 'Enable optional per-group chat when creating or editing groups (disabled by default). Mention members with @username, get smart notifications for mentions or all messages, and customize your notification preferences. Only active members can participate in chat.',
+      icon: '💬'
     }
   ]
 
@@ -85,7 +91,7 @@ export default function HowItWorksPage() {
     <>
       <SEO
         title="How GroupFund Works - Simple Steps to Organize Group Contributions"
-        description="Learn how GroupFund works in 9 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, and two-step contribution confirmation. Perfect for birthdays, subscriptions, and any group purpose."
+        description="Learn how GroupFund works in 10 simple steps: sign up & verify, create/join groups with reliability scores, manage members, track contributions, get smart notifications, monitor group health, member reliability scoring, two-step contribution confirmation, and per-group chat. Perfect for birthdays, subscriptions, and any group purpose."
         keywords="how groupfund works, group contribution app, birthday groups, subscription groups, general groups, group payment tracking, member reliability scores, group health metrics, contribution confirmation, two-step payment process, how to organize group contributions, group wallet tutorial"
         canonical="https://www.groupfund.app/how-it-works"
       />

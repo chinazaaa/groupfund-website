@@ -149,6 +149,10 @@ export default function HelpPage() {
         {
           question: "How do I share subscription login credentials with group members?",
           answer: "You can share subscription login credentials (email, password, etc.) with group members using the group notes or description field. Add instructions in the group description like 'Email me at abc@example.com for login details' or 'Contact me via WhatsApp for credentials'. This way, all members can see how to get access to the subscription after they've contributed. The group description is visible to all members after they've joined the group, making it easy to share contact information or instructions for accessing the shared subscription service."
+        },
+        {
+          question: "How does group chat work?",
+          answer: "GroupFund includes an optional per-group chat feature. When creating or editing a group, group creators can enable or disable chat (chat is disabled by default). When enabled, active group members can send messages, view message history with pagination, and mention other members using @username or @FirstName LastName. You can customize your chat notification preferences: get notified when mentioned (default: ON) or get notified for all messages (default: OFF). Chat is automatically disabled for closed groups. Only the message sender or group admin can delete messages."
         }
       ]
     },
@@ -162,7 +166,7 @@ export default function HelpPage() {
         },
         {
           question: "What types of notifications does GroupFund send?",
-          answer: "GroupFund sends various notifications including birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days before, 1 day before, and same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, contribution amount updates (when group admins change contribution amounts), and group updates. You can customize which notifications you receive."
+          answer: "GroupFund sends various notifications including birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days before, 1 day before, and same day), overdue contribution reminders, member join requests, contribution confirmations/rejections, contribution amount updates (when group admins change contribution amounts), group updates, chat mentions (when someone mentions you in group chat), and chat messages (if you enable notifications for all messages). You can customize which notifications you receive."
         },
         {
           question: "Can I customize reminder settings?",

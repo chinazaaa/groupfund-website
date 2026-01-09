@@ -60,6 +60,7 @@ export default function AppRulesPage() {
                 <li>Contribution amount settings</li>
                 <li>Payment status tracking</li>
                 <li>Automatic reminders</li>
+                <li>Per-group chat and messaging (optional, can be enabled/disabled by group creator)</li>
                 <li>Member reliability scores</li>
                 <li>Group health metrics</li>
                 <li>Payment history and transparency</li>

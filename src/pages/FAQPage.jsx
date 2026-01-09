@@ -112,6 +112,10 @@ export default function FAQPage() {
       answer: "You can customize notification preferences in your account settings. For Birthday Groups, you can choose to receive reminders 7 days before, 1 day before, and/or on the same day. For Subscription and General Groups, you can customize reminders before deadlines. You can also choose which notification channels to use (in-app, push, email) and which notification types you want to receive (birthday wishes, overdue reminders, member requests, confirmations, group updates). You can enable or disable specific notification types based on your preferences."
     },
     {
+      question: "How does group chat work?",
+      answer: "GroupFund includes an optional per-group chat feature. Group creators can enable or disable chat when creating or editing a group (chat is disabled by default). When enabled, active group members can send messages, view message history, and mention other members using @username or @FirstName LastName. You can customize your chat notification preferences: get notified when mentioned (default: ON) or get notified for all messages (default: OFF). Chat is automatically disabled for closed groups. Only the message sender or group admin can delete messages."
+    },
+    {
       question: "What if I need help or have questions?",
       answer: "We're here to help! You can reach out to our support team through the Contact page. We typically respond within 24 hours and are happy to assist with any questions or issues you might have."
     },
@@ -193,8 +197,8 @@ export default function FAQPage() {
     <>
       <SEO
         title="GroupFund FAQ - Frequently Asked Questions About Group Contributions"
-        description="Get answers to common questions about GroupFund: group types (birthday, subscription, general), member reliability scores, group health metrics, payment confirmation, OTP verification, group management, notifications, and more."
-        keywords="groupfund FAQ, group contribution app questions, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, group payment FAQ, is groupfund safe, currency support, payment confirmation, OTP verification"
+        description="Get answers to common questions about GroupFund: group types (birthday, subscription, general), member reliability scores, group health metrics, payment confirmation, per-group chat, OTP verification, group management, notifications, and more."
+        keywords="groupfund FAQ, group contribution app questions, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, group payment FAQ, is groupfund safe, currency support, payment confirmation, group chat, messaging, OTP verification"
         canonical="https://www.groupfund.app/faq"
       />
 
