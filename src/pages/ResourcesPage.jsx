@@ -234,6 +234,15 @@ export default function ResourcesPage() {
       category: 'Getting Started',
       readTime: '6 min read'
     },
+    {
+      slug: 'group-chat-best-practices',
+      title: 'Group Chat Best Practices',
+      description: 'Learn best practices for using group chat effectively. Tips for respectful communication, when to use mentions, managing notifications, and maintaining group harmony through chat.',
+      icon: '✨',
+      category: 'Best Practices',
+      readTime: '5 min read',
+      link: '/best-practices/group-chat-best-practices'
+    },
   ]
 
   const categories = ['All', 'Getting Started', 'Best Practices', 'Planning', 'Advanced']
@@ -297,7 +306,7 @@ export default function ResourcesPage() {
                   <span className="guide-read-time">{guide.readTime}</span>
                 </div>
                 <Link 
-                  to={`/resources/${guide.slug}`} 
+                  to={guide.link || `/resources/${guide.slug}`} 
                   className="btn btn-primary"
                 >
                   Read Guide →

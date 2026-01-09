@@ -98,6 +98,13 @@ export default function BestPracticesPage() {
       icon: '📈',
       keywords: 'group health management, improving group health scores, maintaining group compliance, group performance optimization',
       link: '/resources/advanced-group-management-strategies'
+    },
+    {
+      slug: 'group-chat-best-practices',
+      title: 'Group Chat Best Practices',
+      description: 'Learn best practices for using group chat effectively. Tips for respectful communication, when to use mentions, managing notifications, and maintaining group harmony through chat.',
+      icon: '💬',
+      keywords: 'group chat best practices, chat etiquette, group communication, mention best practices, chat notifications, respectful messaging'
     }
   ]
 
