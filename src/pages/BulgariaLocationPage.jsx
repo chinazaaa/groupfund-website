@@ -14,7 +14,7 @@ export default function BulgariaLocationPage() {
       "logo": "https://groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Bulgaria" },
       "serviceType": "Group Contribution Management",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BGN" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
       "sameAs": ["https://groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
@@ -34,8 +34,8 @@ export default function BulgariaLocationPage() {
     <>
       <SEO
         title="GroupFund Bulgaria - Group Contributions App for Bulgaria"
-        description="Organize group contributions in Bulgaria with GroupFund. Perfect for Bulgarian families, churches, schools, and groups. Support for BGN (Bulgarian Lev). Free to start."
-        keywords="group contributions Bulgaria, Bulgarian contribution app, groupfund Bulgaria, group contributions app Bulgaria, BGN contribution tracker, Bulgaria group payments"
+        description="Organize group contributions in Bulgaria with GroupFund. Perfect for Bulgarian families, churches, schools, and groups. Support for EUR (Euro). Free to start."
+        keywords="group contributions Bulgaria, Bulgarian contribution app, groupfund Bulgaria, group contributions app Bulgaria, EUR contribution tracker, Bulgaria group payments"
         canonical="https://www.groupfund.app/locations/bulgaria"
       />
 
@@ -57,7 +57,7 @@ export default function BulgariaLocationPage() {
                 GroupFund is perfect for organizing group contributions in Bulgaria. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
               </p>
               <p>
-                With support for Bulgarian Lev (BGN) and local bank details, GroupFund is designed to work seamlessly for Bulgarian groups.
+                With support for Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Bulgarian groups.
               </p>
             </div>
 
@@ -65,8 +65,8 @@ export default function BulgariaLocationPage() {
               <h2>Key Features for Bulgaria</h2>
               <div className="features-list">
                 <div className="feature-item">
-                  <h3>🇧🇬 Bulgarian Lev (BGN) Support</h3>
-                  <p>Full support for Bulgarian Lev. Set contribution amounts in BGN, and local bank details are displayed automatically.</p>
+                  <h3>🇧🇬 Euro (EUR) Support</h3>
+                  <p>Full support for Euro. Set contribution amounts in EUR, and local bank details are displayed automatically.</p>
                 </div>
                 <div className="feature-item">
                   <h3>🏦 Local Bank Transfers</h3>
