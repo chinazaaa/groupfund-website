@@ -1724,6 +1724,48 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/seasonal/st-patricks-day-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/christmas-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/memorial-day-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/hanukkah-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/kwanzaa-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/chinese-new-year-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/seasonal/ramadan-eid-contributions',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/seasonal/baby-shower-contributions',
     priority: '0.7',
     changefreq: 'monthly',

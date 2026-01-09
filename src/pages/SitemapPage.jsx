@@ -330,6 +330,13 @@ export default function SitemapPage() {
         { path: "/seasonal/labor-day-contributions", label: "Labor Day Contributions" },
         { path: "/seasonal/halloween-contributions", label: "Halloween Contributions" },
         { path: "/seasonal/diwali-contributions", label: "Diwali Contributions" },
+        { path: "/seasonal/st-patricks-day-contributions", label: "St. Patrick's Day Contributions" },
+        { path: "/seasonal/christmas-contributions", label: "Christmas Contributions" },
+        { path: "/seasonal/memorial-day-contributions", label: "Memorial Day Contributions" },
+        { path: "/seasonal/hanukkah-contributions", label: "Hanukkah Contributions" },
+        { path: "/seasonal/kwanzaa-contributions", label: "Kwanzaa Contributions" },
+        { path: "/seasonal/chinese-new-year-contributions", label: "Chinese New Year Contributions" },
+        { path: "/seasonal/ramadan-eid-contributions", label: "Ramadan & Eid Contributions" },
         { path: "/seasonal/baby-shower-contributions", label: "Baby Shower Contributions" },
       ]
     },

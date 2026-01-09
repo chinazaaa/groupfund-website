@@ -136,6 +136,13 @@ import BabyShowerContributionsPage from './pages/BabyShowerContributionsPage'
 import HousewarmingContributionsPage from './pages/HousewarmingContributionsPage'
 import OfficePartyContributionsPage from './pages/OfficePartyContributionsPage'
 import ThanksgivingContributionsPage from './pages/ThanksgivingContributionsPage'
+import StPatricksDayContributionsPage from './pages/StPatricksDayContributionsPage'
+import ChristmasContributionsPage from './pages/ChristmasContributionsPage'
+import MemorialDayContributionsPage from './pages/MemorialDayContributionsPage'
+import HanukkahContributionsPage from './pages/HanukkahContributionsPage'
+import KwanzaaContributionsPage from './pages/KwanzaaContributionsPage'
+import ChineseNewYearContributionsPage from './pages/ChineseNewYearContributionsPage'
+import RamadanEidContributionsPage from './pages/RamadanEidContributionsPage'
 import GroupTypesPage from './pages/GroupTypesPage'
 import BirthdayGroupsPage from './pages/BirthdayGroupsPage'
 import SubscriptionGroupsPage from './pages/SubscriptionGroupsPage'
@@ -536,7 +543,14 @@ function App() {
           <Route path="/seasonal/office-party-contributions" element={<Layout><OfficePartyContributionsPage /></Layout>} />
           <Route path="/seasonal/thanksgiving-contributions" element={<Layout><ThanksgivingContributionsPage /></Layout>} />
           <Route path="/seasonal/halloween-contributions" element={<Layout><HalloweenContributionsPage /></Layout>} />
-          <Route path="/seasonal/diwali-contributions" element={<Layout><DiwaliContributionsPage /></Layout>} /> 
+          <Route path="/seasonal/diwali-contributions" element={<Layout><DiwaliContributionsPage /></Layout>} />
+          <Route path="/seasonal/st-patricks-day-contributions" element={<Layout><StPatricksDayContributionsPage /></Layout>} />
+          <Route path="/seasonal/christmas-contributions" element={<Layout><ChristmasContributionsPage /></Layout>} />
+          <Route path="/seasonal/memorial-day-contributions" element={<Layout><MemorialDayContributionsPage /></Layout>} />
+          <Route path="/seasonal/hanukkah-contributions" element={<Layout><HanukkahContributionsPage /></Layout>} />
+          <Route path="/seasonal/kwanzaa-contributions" element={<Layout><KwanzaaContributionsPage /></Layout>} />
+          <Route path="/seasonal/chinese-new-year-contributions" element={<Layout><ChineseNewYearContributionsPage /></Layout>} />
+          <Route path="/seasonal/ramadan-eid-contributions" element={<Layout><RamadanEidContributionsPage /></Layout>} /> 
         <Route path="/subscription-groups" element={<Layout><SubscriptionGroupPage /></Layout>} />
         <Route path="/subscription-groups/netflix" element={<Layout><NetflixPage /></Layout>} />
         <Route path="/subscription-groups/spotify" element={<Layout><SpotifyPage /></Layout>} />

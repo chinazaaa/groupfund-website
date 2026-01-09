@@ -41,11 +41,25 @@ export default function SeasonalPage() {
       keywords: 'valentine group contributions, valentine\'s day group payments, romantic celebration contributions, couple gift funds, valentine event payments, love day group funds'
     },
     {
+      slug: 'st-patricks-day-contributions',
+      title: 'St. Patrick\'s Day Contributions',
+      description: 'Organize group contributions for St. Patrick\'s Day celebrations. Manage party funds, parade contributions, and Irish-themed events with ease. Perfect for friend groups, office celebrations, and community St. Patrick\'s Day events.',
+      icon: '☘️',
+      keywords: 'st patricks day group contributions, st patrick\'s day party funds, st patricks day group payments, irish celebration contributions, st patricks day event payments'
+    },
+    {
       slug: 'easter-contributions',
       title: 'Easter Contributions',
       description: 'Organize group contributions for Easter celebrations. Manage Easter egg hunts, holiday brunch funds, and spring festivities with ease. Perfect for families, churches, and community Easter events.',
       icon: '🐰',
       keywords: 'easter group contributions, easter egg hunt payments, easter celebration contributions, easter brunch funds, spring holiday group payments, easter event contributions'
+    },
+    {
+      slug: 'memorial-day-contributions',
+      title: 'Memorial Day Contributions',
+      description: 'Organize group contributions for Memorial Day celebrations. Manage BBQ funds, family gathering contributions, and remembrance events with ease. Perfect for families, communities, and workplaces honoring Memorial Day.',
+      icon: '🇺🇸',
+      keywords: 'memorial day group contributions, memorial day party funds, memorial day group payments, memorial day bbq contributions, memorial day event payments'
     },
     {
       slug: 'mothers-day-contributions',
@@ -123,6 +137,41 @@ export default function SeasonalPage() {
       description: 'Organize group contributions during holiday seasons. Manage Christmas contributions, holiday gift funds, and seasonal celebrations with ease. Perfect for families, workplaces, and communities.',
       icon: '🎄',
       keywords: 'holiday group contributions, Christmas group payments, holiday season contributions, holiday gift funds, seasonal group payments'
+    },
+    {
+      slug: 'christmas-contributions',
+      title: 'Christmas Contributions',
+      description: 'Organize group contributions for Christmas celebrations. Manage Secret Santa funds, Christmas gift contributions, holiday party expenses, and Christmas dinner funds with ease. Perfect for families, workplaces, and communities.',
+      icon: '🎅',
+      keywords: 'christmas group contributions, christmas gift funds, secret santa contributions, christmas party funds, christmas group payments, holiday gift contributions'
+    },
+    {
+      slug: 'hanukkah-contributions',
+      title: 'Hanukkah Contributions',
+      description: 'Organize group contributions for Hanukkah celebrations. Manage Festival of Lights funds, Hanukkah gift contributions, and traditional celebration expenses with ease. Perfect for Jewish families, communities, and organizations.',
+      icon: '🕎',
+      keywords: 'hanukkah group contributions, hanukkah gift funds, festival of lights contributions, hanukkah celebration funds, hanukkah group payments, jewish holiday contributions'
+    },
+    {
+      slug: 'kwanzaa-contributions',
+      title: 'Kwanzaa Contributions',
+      description: 'Organize group contributions for Kwanzaa celebrations. Manage Kwanzaa gift funds, community celebration contributions, and traditional celebration expenses with ease. Perfect for families, communities, and organizations celebrating Kwanzaa.',
+      icon: '🕯️',
+      keywords: 'kwanzaa group contributions, kwanzaa gift funds, kwanzaa celebration contributions, kwanzaa community funds, kwanzaa group payments, african american holiday contributions'
+    },
+    {
+      slug: 'chinese-new-year-contributions',
+      title: 'Chinese New Year Contributions',
+      description: 'Organize group contributions for Chinese New Year and Lunar New Year celebrations. Manage red envelope funds, celebration contributions, and traditional New Year expenses with ease. Perfect for families, communities, and organizations.',
+      icon: '🧧',
+      keywords: 'chinese new year group contributions, lunar new year contributions, chinese new year gift funds, red envelope contributions, chinese new year celebration funds, lunar new year group payments'
+    },
+    {
+      slug: 'ramadan-eid-contributions',
+      title: 'Ramadan & Eid Contributions',
+      description: 'Organize group contributions for Ramadan and Eid celebrations. Manage iftar dinner funds, Eid gift contributions, and religious celebration expenses with ease. Perfect for Muslim families, communities, and organizations.',
+      icon: '🌙',
+      keywords: 'ramadan group contributions, eid contributions, iftar dinner funds, eid gift funds, ramadan celebration contributions, eid al-fitr contributions, eid al-adha contributions'
     },
     // Year-round life events (not tied to specific dates)
     {
