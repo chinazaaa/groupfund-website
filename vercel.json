@@ -1,11 +1,45 @@
 {
   "rewrites": [
     {
+      "source": "/.well-known/apple-app-site-association",
+      "destination": "https://groupfund-backend.onrender.com/.well-known/apple-app-site-association"
+    },
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "https://groupfund-backend.onrender.com/.well-known/assetlinks.json"
+    },
+    {
+      "source": "/g/:inviteCode",
+      "destination": "https://groupfund-backend.onrender.com/g/:inviteCode"
+    },
+    {
+      "source": "/group/:inviteCode",
+      "destination": "https://groupfund-backend.onrender.com/group/:inviteCode"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
   ],
   "headers": [
+    {
+      "source": "/.well-known/apple-app-site-association",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/assetlinks.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
     {
       "source": "/sitemap.xml",
       "headers": [
