@@ -50,6 +50,15 @@ import GraduationsUseCasePage from './pages/GraduationsUseCasePage'
 import SportsTeamsUseCasePage from './pages/SportsTeamsUseCasePage'
 import HobbyGroupsUseCasePage from './pages/HobbyGroupsUseCasePage'
 import AlumniAssociationsUseCasePage from './pages/AlumniAssociationsUseCasePage'
+import StudentsUseCasePage from './pages/StudentsUseCasePage'
+import RoommatesUseCasePage from './pages/RoommatesUseCasePage'
+import CouplesUseCasePage from './pages/CouplesUseCasePage'
+import EmergencyFundsUseCasePage from './pages/EmergencyFundsUseCasePage'
+import FuneralMemorialUseCasePage from './pages/FuneralMemorialUseCasePage'
+import SavingsGroupsUseCasePage from './pages/SavingsGroupsUseCasePage'
+import NonProfitsUseCasePage from './pages/NonProfitsUseCasePage'
+import MovingRelocationUseCasePage from './pages/MovingRelocationUseCasePage'
+import HomeRenovationUseCasePage from './pages/HomeRenovationUseCasePage'
 import WhatsAppGroupsComparisonPage from './pages/WhatsAppGroupsComparisonPage'
 import ExcelSpreadsheetsComparisonPage from './pages/ExcelSpreadsheetsComparisonPage'
 import GoogleSheetsComparisonPage from './pages/GoogleSheetsComparisonPage'
@@ -348,6 +357,15 @@ function App() {
         <Route path="/use-cases/sports-teams" element={<Layout><SportsTeamsUseCasePage /></Layout>} />
         <Route path="/use-cases/hobby-groups" element={<Layout><HobbyGroupsUseCasePage /></Layout>} />
         <Route path="/use-cases/alumni-associations" element={<Layout><AlumniAssociationsUseCasePage /></Layout>} />
+        <Route path="/use-cases/students" element={<Layout><StudentsUseCasePage /></Layout>} />
+        <Route path="/use-cases/roommates" element={<Layout><RoommatesUseCasePage /></Layout>} />
+        <Route path="/use-cases/couples" element={<Layout><CouplesUseCasePage /></Layout>} />
+        <Route path="/use-cases/emergency-funds" element={<Layout><EmergencyFundsUseCasePage /></Layout>} />
+        <Route path="/use-cases/funeral-memorial" element={<Layout><FuneralMemorialUseCasePage /></Layout>} />
+        <Route path="/use-cases/savings-groups" element={<Layout><SavingsGroupsUseCasePage /></Layout>} />
+        <Route path="/use-cases/non-profits" element={<Layout><NonProfitsUseCasePage /></Layout>} />
+        <Route path="/use-cases/moving-relocation" element={<Layout><MovingRelocationUseCasePage /></Layout>} />
+        <Route path="/use-cases/home-renovation" element={<Layout><HomeRenovationUseCasePage /></Layout>} />
         <Route path="/group-types" element={<Layout><GroupTypesPage /></Layout>} />
         <Route path="/group-types/birthday-groups" element={<Layout><BirthdayGroupsPage /></Layout>} />
         <Route path="/group-types/subscription-groups" element={<Layout><SubscriptionGroupsPage /></Layout>} />

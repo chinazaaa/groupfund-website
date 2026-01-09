@@ -281,6 +281,123 @@ export default function UseCasesPage() {
         'Track alumni group subscriptions',
         'Maintain connections through organized contributions'
       ]
+    },
+    {
+      slug: 'students',
+      title: 'For Students',
+      description: 'Organize contributions for college students, study groups, and dorm expenses. Perfect for student organizations, college groups, and university communities managing shared costs.',
+      icon: '🎓',
+      keywords: 'student contributions, college group payments, dorm expenses, study group payments, university contributions',
+      benefits: [
+        'Organize dorm and housing expenses',
+        'Manage study group subscriptions and materials',
+        'Track contributions for college events',
+        'Perfect for student organizations and clubs'
+      ]
+    },
+    {
+      slug: 'roommates',
+      title: 'For Roommates',
+      description: 'Split rent, utilities, groceries, and shared expenses with roommates. Track monthly payments, set fair amounts, and avoid awkward money conversations. Perfect for shared living situations.',
+      icon: '🏡',
+      keywords: 'roommate bill splitting, split rent with roommates, roommate expenses, shared living costs, housemate payments',
+      benefits: [
+        'Split rent and utilities fairly',
+        'Track monthly bill payments',
+        'Organize shared groceries and household items',
+        'Avoid awkward money conversations'
+      ]
+    },
+    {
+      slug: 'couples',
+      title: 'For Couples',
+      description: 'Manage shared expenses, subscriptions, and gifts with your partner. Organize contributions for dates, anniversaries, and shared subscriptions in one place.',
+      icon: '💑',
+      keywords: 'couple expenses, shared subscriptions couples, partner contributions, relationship expenses, couple bill splitting',
+      benefits: [
+        'Manage shared subscriptions together',
+        'Organize anniversary and date contributions',
+        'Track shared household expenses',
+        'Split costs fairly with your partner'
+      ]
+    },
+    {
+      slug: 'emergency-funds',
+      title: 'Emergency Funds',
+      description: 'Organize emergency contributions for medical expenses, unexpected costs, or helping someone in need. Set up quick fundraising groups and track who has contributed.',
+      icon: '🚨',
+      keywords: 'emergency fund, medical expense contributions, help someone in need, emergency fundraising, medical bill contributions',
+      benefits: [
+        'Quickly organize emergency contributions',
+        'Track medical and unexpected expenses',
+        'Help friends and family in need',
+        'Transparent system for emergency fundraising'
+      ]
+    },
+    {
+      slug: 'funeral-memorial',
+      title: 'Funeral & Memorial Contributions',
+      description: 'Organize contributions for funeral expenses, memorial services, and supporting families during difficult times. Track contributions respectfully and transparently.',
+      icon: '🕯️',
+      keywords: 'funeral contributions, memorial fund, funeral expense contributions, bereavement fund, memorial service contributions',
+      benefits: [
+        'Organize funeral expense contributions',
+        'Support families during difficult times',
+        'Track memorial service contributions',
+        'Respectful and transparent system'
+      ]
+    },
+    {
+      slug: 'savings-groups',
+      title: 'Savings Groups & ROSCAs',
+      description: 'Organize rotating savings and credit associations (ROSCAs), savings groups, and contribution circles. Track contributions, manage rotations, and maintain transparency.',
+      icon: '💰',
+      keywords: 'savings groups, ROSCA contributions, rotating savings, contribution circles, savings club, ajo contributions Nigeria',
+      benefits: [
+        'Organize rotating savings groups',
+        'Track contributions and rotations',
+        'Manage ROSCA payments',
+        'Maintain transparency in savings circles'
+      ]
+    },
+    {
+      slug: 'non-profits',
+      title: 'For Non-Profits & Charities',
+      description: 'Organize fundraising contributions, volunteer expenses, and charity events. Track donations, manage event costs, and maintain transparency for your organization.',
+      icon: '🤝',
+      keywords: 'non-profit contributions, charity fundraising, volunteer expenses, charity event contributions, NGO contributions',
+      benefits: [
+        'Organize fundraising contributions',
+        'Track volunteer and event expenses',
+        'Manage charity event costs',
+        'Maintain transparency for donors'
+      ]
+    },
+    {
+      slug: 'moving-relocation',
+      title: 'Moving & Relocation Expenses',
+      description: 'Organize contributions to help someone move or relocate. Collect money for moving costs, deposits, and relocation expenses in one shared group.',
+      icon: '📦',
+      keywords: 'moving expenses, relocation contributions, help someone move, moving fund, relocation expenses',
+      benefits: [
+        'Organize moving expense contributions',
+        'Track relocation costs',
+        'Help friends and family move',
+        'Set deadlines tied to moving dates'
+      ]
+    },
+    {
+      slug: 'home-renovation',
+      title: 'Home Renovation Projects',
+      description: 'Organize contributions for home renovation projects, shared property improvements, or helping someone renovate. Track payments and manage project deadlines.',
+      icon: '🔨',
+      keywords: 'home renovation contributions, renovation fund, property improvement contributions, home improvement group payments',
+      benefits: [
+        'Organize renovation project contributions',
+        'Track payments for shared property improvements',
+        'Set deadlines tied to project milestones',
+        'Manage renovation expenses transparently'
+      ]
     }
   ]
 

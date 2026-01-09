@@ -112,7 +112,16 @@ export default function SitemapPage() {
         { path: "/use-cases/graduations", label: "For Graduations" },
         { path: "/use-cases/sports-teams", label: "For Sports Teams" },
         { path: "/use-cases/hobby-groups", label: "For Hobby Groups" },
-        { path: "/use-cases/alumni-associations", label: "For Alumni Associations" }
+        { path: "/use-cases/alumni-associations", label: "For Alumni Associations" },
+        { path: "/use-cases/students", label: "For Students" },
+        { path: "/use-cases/roommates", label: "For Roommates" },
+        { path: "/use-cases/couples", label: "For Couples" },
+        { path: "/use-cases/emergency-funds", label: "Emergency Funds" },
+        { path: "/use-cases/funeral-memorial", label: "Funeral & Memorial Contributions" },
+        { path: "/use-cases/savings-groups", label: "Savings Groups & ROSCAs" },
+        { path: "/use-cases/non-profits", label: "For Non-Profits & Charities" },
+        { path: "/use-cases/moving-relocation", label: "Moving & Relocation Expenses" },
+        { path: "/use-cases/home-renovation", label: "Home Renovation Projects" }
       ]
     },
     {
