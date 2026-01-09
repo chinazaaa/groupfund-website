@@ -31,7 +31,7 @@ export default function DownloadPage() {
       title: "iOS",
       description: "Download GroupFund for iPhone on the App Store.",
       icon: "📱",
-      link: "https://apps.apple.com/gb/app/groupfund-app/id6756530859",
+      link: "https://apps.apple.com/app/groupfund/id6756530859",
       buttonText: "Get Started on iOS",
       available: true,      // ← now true
       external: true        // ← open real App Store link in new tab
