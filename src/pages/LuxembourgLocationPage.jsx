@@ -1,0 +1,118 @@
+import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
+import '../App.css'
+
+export default function LuxembourgLocationPage() {
+  useEffect(() => {
+    const localBusinessStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GroupFund",
+      "description": "Organize group contributions in Luxembourg with GroupFund. Perfect for Luxembourg families, churches, schools, and groups.",
+      "url": "https://groupfund.app/locations/luxembourg",
+      "logo": "https://groupfund.app/logo.png",
+      "areaServed": { "@type": "Country", "name": "Luxembourg" },
+      "serviceType": "Group Contribution Management",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+      "sameAs": ["https://groupfund.app"]
+    }
+    const existingScript = document.querySelector('script[data-localbusiness-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-localbusiness-schema', 'true')
+    script.textContent = JSON.stringify(localBusinessStructuredData)
+    document.head.appendChild(script)
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-localbusiness-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
+  return (
+    <>
+      <SEO
+        title="GroupFund Luxembourg - Group Contributions App for Luxembourg"
+        description="Organize group contributions in Luxembourg with GroupFund. Perfect for Luxembourg families, churches, schools, and groups. Support for EUR (Euro). Free to start."
+        keywords="group contributions Luxembourg, Luxembourg contribution app, groupfund Luxembourg, group contributions app Luxembourg, EUR contribution tracker, Luxembourg group payments"
+        canonical="https://www.groupfund.app/locations/luxembourg"
+      />
+
+      <section className="page-hero">
+        <div className="container">
+          <h1 className="page-title">GroupFund for Luxembourg 🇱🇺</h1>
+          <p className="page-subtitle">
+            Organize group contributions in Luxembourg with GroupFund. Perfect for Luxembourg families, churches, schools, and groups.
+          </p>
+        </div>
+      </section>
+
+      <section className="location-detail-page">
+        <div className="container">
+          <div className="location-content">
+            <div className="location-section">
+              <h2>Why GroupFund Works Great in Luxembourg</h2>
+              <p>
+                GroupFund is perfect for organizing group contributions in Luxembourg. Whether you're managing contributions for your extended family, church members, school groups, or friend circles, GroupFund makes it simple and transparent.
+              </p>
+              <p>
+                With support for Euro (EUR) and local bank details, GroupFund is designed to work seamlessly for Luxembourg groups.
+              </p>
+            </div>
+
+            <div className="location-section">
+              <h2>Key Features for Luxembourg</h2>
+              <div className="features-list">
+                <div className="feature-item">
+                  <h3>🇱🇺 Euro (EUR) Support</h3>
+                  <p>Full support for Euro. Set contribution amounts in EUR, and local bank details are displayed automatically.</p>
+                </div>
+                <div className="feature-item">
+                  <h3>🏦 Local Bank Transfers</h3>
+                  <p>Perfect for Luxembourg bank transfers. Members can transfer directly to celebrants' bank accounts.</p>
+                </div>
+                <div className="feature-item">
+                  <h3>👨‍👩‍👧‍👦 Perfect for Luxembourg Families</h3>
+                  <p>Organize contributions for extended Luxembourg families. Track who has contributed across multiple family members.</p>
+                </div>
+                <div className="feature-item">
+                  <h3>⛪ Church Groups</h3>
+                  <p>Ideal for Luxembourg churches organizing group contributions for members. Manage large congregations efficiently.</p>
+                </div>
+                <div className="feature-item">
+                  <h3>🏫 Schools & Universities</h3>
+                  <p>Perfect for Luxembourg schools, universities, and student groups organizing group contributions.</p>
+                </div>
+                <div className="feature-item">
+                  <h3>📱 Mobile-First</h3>
+                  <p>Native mobile app perfect for Luxembourg's mobile culture. Access from anywhere, get push notifications.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="cta-box">
+              <h2>Ready to Organize Group Contributions in Luxembourg?</h2>
+              <p>Join Luxembourg groups using GroupFund to make contributions organized and stress-free.</p>
+              <div className="cta-buttons">
+                <Link to="/get-started" className="btn btn-primary btn-large">Start Your Luxembourg Group</Link>
+                <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
+              </div>
+            </div>
+
+            <div className="related-links">
+              <h3>Explore More</h3>
+              <div className="related-links-grid">
+                <Link to="/locations/luxembourg-city">Luxembourg →</Link>
+                <Link to="/locations">All Locations →</Link>
+                <Link to="/use-cases">View Use Cases →</Link>
+                <Link to="/features">View Features →</Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+

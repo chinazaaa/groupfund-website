@@ -207,6 +207,34 @@ import CopenhagenLocationPage from './pages/CopenhagenLocationPage'
 import OsloLocationPage from './pages/OsloLocationPage'
 import AucklandLocationPage from './pages/AucklandLocationPage'
 import BangkokLocationPage from './pages/BangkokLocationPage'
+import AustriaLocationPage from './pages/AustriaLocationPage'
+import BulgariaLocationPage from './pages/BulgariaLocationPage'
+import CroatiaLocationPage from './pages/CroatiaLocationPage'
+import CzechRepublicLocationPage from './pages/CzechRepublicLocationPage'
+import HungaryLocationPage from './pages/HungaryLocationPage'
+import IcelandLocationPage from './pages/IcelandLocationPage'
+import LatviaLocationPage from './pages/LatviaLocationPage'
+import LiechtensteinLocationPage from './pages/LiechtensteinLocationPage'
+import LithuaniaLocationPage from './pages/LithuaniaLocationPage'
+import LuxembourgLocationPage from './pages/LuxembourgLocationPage'
+import MaltaLocationPage from './pages/MaltaLocationPage'
+import RomaniaLocationPage from './pages/RomaniaLocationPage'
+import SlovakiaLocationPage from './pages/SlovakiaLocationPage'
+import SloveniaLocationPage from './pages/SloveniaLocationPage'
+import ViennaLocationPage from './pages/ViennaLocationPage'
+import SofiaLocationPage from './pages/SofiaLocationPage'
+import ZagrebLocationPage from './pages/ZagrebLocationPage'
+import PragueLocationPage from './pages/PragueLocationPage'
+import BudapestLocationPage from './pages/BudapestLocationPage'
+import ReykjavikLocationPage from './pages/ReykjavikLocationPage'
+import RigaLocationPage from './pages/RigaLocationPage'
+import VaduzLocationPage from './pages/VaduzLocationPage'
+import VilniusLocationPage from './pages/VilniusLocationPage'
+import LuxembourgCityLocationPage from './pages/LuxembourgCityLocationPage'
+import VallettaLocationPage from './pages/VallettaLocationPage'
+import BucharestLocationPage from './pages/BucharestLocationPage'
+import BratislavaLocationPage from './pages/BratislavaLocationPage'
+import LjubljanaLocationPage from './pages/LjubljanaLocationPage'
 import WarsawLocationPage from './pages/WarsawLocationPage'
 import IstanbulLocationPage from './pages/IstanbulLocationPage'
 import BarcelonaLocationPage from './pages/BarcelonaLocationPage'
@@ -515,6 +543,34 @@ function App() {
 <Route path="/locations/oslo" element={<Layout><OsloLocationPage /></Layout>} />
 <Route path="/locations/auckland" element={<Layout><AucklandLocationPage /></Layout>} />
 <Route path="/locations/bangkok" element={<Layout><BangkokLocationPage /></Layout>} />
+<Route path="/locations/austria" element={<Layout><AustriaLocationPage /></Layout>} />
+<Route path="/locations/bulgaria" element={<Layout><BulgariaLocationPage /></Layout>} />
+<Route path="/locations/croatia" element={<Layout><CroatiaLocationPage /></Layout>} />
+<Route path="/locations/czech-republic" element={<Layout><CzechRepublicLocationPage /></Layout>} />
+<Route path="/locations/hungary" element={<Layout><HungaryLocationPage /></Layout>} />
+<Route path="/locations/iceland" element={<Layout><IcelandLocationPage /></Layout>} />
+<Route path="/locations/latvia" element={<Layout><LatviaLocationPage /></Layout>} />
+<Route path="/locations/liechtenstein" element={<Layout><LiechtensteinLocationPage /></Layout>} />
+<Route path="/locations/lithuania" element={<Layout><LithuaniaLocationPage /></Layout>} />
+<Route path="/locations/luxembourg" element={<Layout><LuxembourgLocationPage /></Layout>} />
+<Route path="/locations/malta" element={<Layout><MaltaLocationPage /></Layout>} />
+<Route path="/locations/romania" element={<Layout><RomaniaLocationPage /></Layout>} />
+<Route path="/locations/slovakia" element={<Layout><SlovakiaLocationPage /></Layout>} />
+<Route path="/locations/slovenia" element={<Layout><SloveniaLocationPage /></Layout>} />
+<Route path="/locations/vienna" element={<Layout><ViennaLocationPage /></Layout>} />
+<Route path="/locations/sofia" element={<Layout><SofiaLocationPage /></Layout>} />
+<Route path="/locations/zagreb" element={<Layout><ZagrebLocationPage /></Layout>} />
+<Route path="/locations/prague" element={<Layout><PragueLocationPage /></Layout>} />
+<Route path="/locations/budapest" element={<Layout><BudapestLocationPage /></Layout>} />
+<Route path="/locations/reykjavik" element={<Layout><ReykjavikLocationPage /></Layout>} />
+<Route path="/locations/riga" element={<Layout><RigaLocationPage /></Layout>} />
+<Route path="/locations/vaduz" element={<Layout><VaduzLocationPage /></Layout>} />
+<Route path="/locations/vilnius" element={<Layout><VilniusLocationPage /></Layout>} />
+<Route path="/locations/luxembourg-city" element={<Layout><LuxembourgCityLocationPage /></Layout>} />
+<Route path="/locations/valletta" element={<Layout><VallettaLocationPage /></Layout>} />
+<Route path="/locations/bucharest" element={<Layout><BucharestLocationPage /></Layout>} />
+<Route path="/locations/bratislava" element={<Layout><BratislavaLocationPage /></Layout>} />
+<Route path="/locations/ljubljana" element={<Layout><LjubljanaLocationPage /></Layout>} />
         <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} />
         <Route path="/resources/how-to-organize-birthday-contributions" element={<Layout><HowToOrganizeBirthdayContributionsPage /></Layout>} />
         <Route path="/resources/birthday-contribution-etiquette" element={<Layout><BirthdayContributionEtiquettePage /></Layout>} />

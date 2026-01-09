@@ -971,6 +971,174 @@ const pages = [
     priority: '0.6',
     changefreq: 'monthly',
     lastmod: currentDate
+  },
+  {
+    url: '/locations/austria',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/bulgaria',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/croatia',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/czech-republic',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/hungary',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/iceland',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/latvia',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/liechtenstein',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/lithuania',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/luxembourg',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/malta',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/romania',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/slovakia',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/slovenia',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/vienna',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/sofia',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/zagreb',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/prague',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/budapest',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/reykjavik',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/riga',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/vaduz',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/vilnius',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/luxembourg-city',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/valletta',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/bucharest',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/bratislava',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/ljubljana',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
   },  
   {
     url: '/group-types',
