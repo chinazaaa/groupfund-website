@@ -229,14 +229,13 @@ export default function UsingGroupChatAndMessagingPage() {
 
             <div className="related-links">
               <h3>Related Guides</h3>
-              <ul>
-                <li><Link to="/resources/setting-up-your-first-group">Setting Up Your First Group</Link></li>
-                <li><Link to="/resources/setting-up-birthday-groups">Setting Up Birthday Groups</Link></li>
-                <li><Link to="/resources/setting-up-subscription-groups">Setting Up Subscription Groups</Link></li>
-                <li><Link to="/resources/creating-general-groups-for-events">Creating General Groups for Events</Link></li>
-                <li><Link to="/help">Help Center</Link></li>
-                <li><Link to="/faq">FAQ</Link></li>
-              </ul>
+              <div className="related-links-grid">
+                <Link to="/resources/setting-up-your-first-group">Setting Up Your First Group →</Link>
+                <Link to="/resources/setting-up-birthday-groups">Setting Up Birthday Groups →</Link>
+                <Link to="/resources/setting-up-subscription-groups">Setting Up Subscription Groups →</Link>
+                <Link to="/resources/creating-general-groups-for-events">Creating General Groups for Events →</Link>
+                <Link to="/resources">View All Resources →</Link>
+              </div>
             </div>
           </div>
         </div>
