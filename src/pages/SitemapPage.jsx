@@ -227,7 +227,27 @@ export default function SitemapPage() {
 { path: "/locations/beirut", label: "Beirut" },
 { path: "/locations/colombo", label: "Colombo" },
 { path: "/locations/belgrade", label: "Belgrade" },
-{ path: "/locations/kabul", label: "Kabul" }
+        { path: "/locations/kabul", label: "Kabul" },
+        { path: "/locations/egypt", label: "Egypt" },
+        { path: "/locations/argentina", label: "Argentina" },
+        { path: "/locations/chile", label: "Chile" },
+        { path: "/locations/portugal", label: "Portugal" },
+        { path: "/locations/greece", label: "Greece" },
+        { path: "/locations/belgium", label: "Belgium" },
+        { path: "/locations/denmark", label: "Denmark" },
+        { path: "/locations/norway", label: "Norway" },
+        { path: "/locations/new-zealand", label: "New Zealand" },
+        { path: "/locations/thailand", label: "Thailand" },
+        { path: "/locations/cairo", label: "Cairo" },
+        { path: "/locations/buenos-aires", label: "Buenos Aires" },
+        { path: "/locations/santiago", label: "Santiago" },
+        { path: "/locations/lisbon", label: "Lisbon" },
+        { path: "/locations/athens", label: "Athens" },
+        { path: "/locations/brussels", label: "Brussels" },
+        { path: "/locations/copenhagen", label: "Copenhagen" },
+        { path: "/locations/oslo", label: "Oslo" },
+        { path: "/locations/auckland", label: "Auckland" },
+        { path: "/locations/bangkok", label: "Bangkok" }
 
       ]
     },

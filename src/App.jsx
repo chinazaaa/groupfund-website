@@ -187,6 +187,26 @@ import TokyoLocationPage from './pages/TokyoLocationPage'
 import ShanghaiLocationPage from './pages/ShanghaiLocationPage'
 import SingaporeCityLocationPage from './pages/SingaporeCityLocationPage'     
 import SingaporeLocationPage from './pages/SingaporeLocationPage'
+import EgyptLocationPage from './pages/EgyptLocationPage'
+import ArgentinaLocationPage from './pages/ArgentinaLocationPage'
+import ChileLocationPage from './pages/ChileLocationPage'
+import PortugalLocationPage from './pages/PortugalLocationPage'
+import GreeceLocationPage from './pages/GreeceLocationPage'
+import BelgiumLocationPage from './pages/BelgiumLocationPage'
+import DenmarkLocationPage from './pages/DenmarkLocationPage'
+import NorwayLocationPage from './pages/NorwayLocationPage'
+import NewZealandLocationPage from './pages/NewZealandLocationPage'
+import ThailandLocationPage from './pages/ThailandLocationPage'
+import CairoLocationPage from './pages/CairoLocationPage'
+import BuenosAiresLocationPage from './pages/BuenosAiresLocationPage'
+import SantiagoLocationPage from './pages/SantiagoLocationPage'
+import LisbonLocationPage from './pages/LisbonLocationPage'
+import AthensLocationPage from './pages/AthensLocationPage'
+import BrusselsLocationPage from './pages/BrusselsLocationPage'
+import CopenhagenLocationPage from './pages/CopenhagenLocationPage'
+import OsloLocationPage from './pages/OsloLocationPage'
+import AucklandLocationPage from './pages/AucklandLocationPage'
+import BangkokLocationPage from './pages/BangkokLocationPage'
 import WarsawLocationPage from './pages/WarsawLocationPage'
 import IstanbulLocationPage from './pages/IstanbulLocationPage'
 import BarcelonaLocationPage from './pages/BarcelonaLocationPage'
@@ -475,6 +495,26 @@ function App() {
 <Route path="/locations/colombo" element={<Layout><ColomboLocationPage /></Layout>} />
 <Route path="/locations/belgrade" element={<Layout><BelgradeLocationPage /></Layout>} />
 <Route path="/locations/kabul" element={<Layout><KabulLocationPage /></Layout>} />
+<Route path="/locations/egypt" element={<Layout><EgyptLocationPage /></Layout>} />
+<Route path="/locations/argentina" element={<Layout><ArgentinaLocationPage /></Layout>} />
+<Route path="/locations/chile" element={<Layout><ChileLocationPage /></Layout>} />
+<Route path="/locations/portugal" element={<Layout><PortugalLocationPage /></Layout>} />
+<Route path="/locations/greece" element={<Layout><GreeceLocationPage /></Layout>} />
+<Route path="/locations/belgium" element={<Layout><BelgiumLocationPage /></Layout>} />
+<Route path="/locations/denmark" element={<Layout><DenmarkLocationPage /></Layout>} />
+<Route path="/locations/norway" element={<Layout><NorwayLocationPage /></Layout>} />
+<Route path="/locations/new-zealand" element={<Layout><NewZealandLocationPage /></Layout>} />
+<Route path="/locations/thailand" element={<Layout><ThailandLocationPage /></Layout>} />
+<Route path="/locations/cairo" element={<Layout><CairoLocationPage /></Layout>} />
+<Route path="/locations/buenos-aires" element={<Layout><BuenosAiresLocationPage /></Layout>} />
+<Route path="/locations/santiago" element={<Layout><SantiagoLocationPage /></Layout>} />
+<Route path="/locations/lisbon" element={<Layout><LisbonLocationPage /></Layout>} />
+<Route path="/locations/athens" element={<Layout><AthensLocationPage /></Layout>} />
+<Route path="/locations/brussels" element={<Layout><BrusselsLocationPage /></Layout>} />
+<Route path="/locations/copenhagen" element={<Layout><CopenhagenLocationPage /></Layout>} />
+<Route path="/locations/oslo" element={<Layout><OsloLocationPage /></Layout>} />
+<Route path="/locations/auckland" element={<Layout><AucklandLocationPage /></Layout>} />
+<Route path="/locations/bangkok" element={<Layout><BangkokLocationPage /></Layout>} />
         <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} />
         <Route path="/resources/how-to-organize-birthday-contributions" element={<Layout><HowToOrganizeBirthdayContributionsPage /></Layout>} />
         <Route path="/resources/birthday-contribution-etiquette" element={<Layout><BirthdayContributionEtiquettePage /></Layout>} />

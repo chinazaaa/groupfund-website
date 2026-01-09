@@ -117,6 +117,26 @@ export default function LocationsPage() {
 
 { slug: 'serbia', name: 'Serbia', flag: '🇷🇸', type: 'country' },
 { slug: 'belgrade', name: 'Belgrade, Serbia', flag: '🇷🇸', type: 'city', parent: 'serbia' },
+{ slug: 'egypt', name: 'Egypt', flag: '🇪🇬', type: 'country' },
+{ slug: 'cairo', name: 'Cairo, Egypt', flag: '🇪🇬', type: 'city', parent: 'egypt' },
+{ slug: 'argentina', name: 'Argentina', flag: '🇦🇷', type: 'country' },
+{ slug: 'buenos-aires', name: 'Buenos Aires, Argentina', flag: '🇦🇷', type: 'city', parent: 'argentina' },
+{ slug: 'chile', name: 'Chile', flag: '🇨🇱', type: 'country' },
+{ slug: 'santiago', name: 'Santiago, Chile', flag: '🇨🇱', type: 'city', parent: 'chile' },
+{ slug: 'portugal', name: 'Portugal', flag: '🇵🇹', type: 'country' },
+{ slug: 'lisbon', name: 'Lisbon, Portugal', flag: '🇵🇹', type: 'city', parent: 'portugal' },
+{ slug: 'greece', name: 'Greece', flag: '🇬🇷', type: 'country' },
+{ slug: 'athens', name: 'Athens, Greece', flag: '🇬🇷', type: 'city', parent: 'greece' },
+{ slug: 'belgium', name: 'Belgium', flag: '🇧🇪', type: 'country' },
+{ slug: 'brussels', name: 'Brussels, Belgium', flag: '🇧🇪', type: 'city', parent: 'belgium' },
+{ slug: 'denmark', name: 'Denmark', flag: '🇩🇰', type: 'country' },
+{ slug: 'copenhagen', name: 'Copenhagen, Denmark', flag: '🇩🇰', type: 'city', parent: 'denmark' },
+{ slug: 'norway', name: 'Norway', flag: '🇳🇴', type: 'country' },
+{ slug: 'oslo', name: 'Oslo, Norway', flag: '🇳🇴', type: 'city', parent: 'norway' },
+{ slug: 'new-zealand', name: 'New Zealand', flag: '🇳🇿', type: 'country' },
+{ slug: 'auckland', name: 'Auckland, New Zealand', flag: '🇳🇿', type: 'city', parent: 'new-zealand' },
+{ slug: 'thailand', name: 'Thailand', flag: '🇹🇭', type: 'country' },
+{ slug: 'bangkok', name: 'Bangkok, Thailand', flag: '🇹🇭', type: 'city', parent: 'thailand' },
 
   ]
 
