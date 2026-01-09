@@ -359,6 +359,10 @@ export default function SitemapPage() {
     {
       category: "Blog Posts",
       links: [
+        { path: "/blog/how-to-organize-valentines-day-contributions-romantic-celebrations", label: "How to Organize Valentine's Day Contributions and Romantic Celebrations" },
+        { path: "/blog/galentines-day-organize-group-celebrations-friends", label: "Galentine's Day: How to Organize Group Celebrations with Friends" },
+        { path: "/blog/how-to-organize-group-gifts-couples-valentines-anniversaries", label: "How to Organize Group Gifts for Couples: Valentine's Day and Anniversaries" },
+        { path: "/blog/romantic-date-night-funds-organizing-group-contributions-couples", label: "Romantic Date Night Funds: Organizing Group Contributions for Couples" },
         { path: "/blog/how-to-organize-new-year-contributions-party-funds-2026", label: "How to Organize New Year Contributions and Party Funds in 2026" },
         { path: "/blog/how-to-organize-christmas-contributions-secret-santa-2025", label: "How to Organize Christmas Contributions and Secret Santa in 2025" },
         { path: "/blog/managing-group-contributions-during-holiday-seasons", label: "Managing Group Contributions During Holiday Seasons" },
@@ -385,7 +389,14 @@ export default function SitemapPage() {
         { path: "/blog/how-to-organize-baby-shower-contributions-general-groups", label: "How to Organize Baby Shower Contributions with General Groups" },
         { path: "/blog/subscription-group-admin-guide-managing-shared-services", label: "Subscription Group Admin Guide: Managing Shared Services" },
         { path: "/blog/complete-guide-group-contribution-types-birthday-subscription-general", label: "The Complete Guide to Group Contribution Types: Birthday, Subscription, and General" },
-        { path: "/blog/how-to-organize-new-year-contributions-party-funds-2026", label: "How to Organize New Year Contributions and Party Funds in 2026" },
+        { path: "/blog/how-to-organize-easter-contributions-spring-celebrations", label: "How to Organize Easter Contributions and Spring Celebrations" },
+        { path: "/blog/mothers-day-group-gift-coordination-complete-guide", label: "Mother's Day Group Gift Coordination: A Complete Guide" },
+        { path: "/blog/fathers-day-contributions-organizing-group-gifts-celebrations", label: "Father's Day Contributions: Organizing Group Gifts and Celebrations" },
+        { path: "/blog/how-to-organize-graduation-contributions-celebration-funds", label: "How to Organize Graduation Contributions and Celebration Funds" },
+        { path: "/blog/summer-vacation-group-planning-organizing-trip-contributions", label: "Summer Vacation Group Planning: Organizing Trip Contributions" },
+        { path: "/blog/back-to-school-contributions-organizing-group-funds-students", label: "Back-to-School Contributions: Organizing Group Funds for Students" },
+        { path: "/blog/how-to-organize-halloween-party-contributions-costume-funds", label: "How to Organize Halloween Party Contributions and Costume Funds" },
+        { path: "/blog/thanksgiving-group-planning-organizing-dinner-contributions", label: "Thanksgiving Group Planning: Organizing Dinner Contributions" }
       ]
     }
   ]

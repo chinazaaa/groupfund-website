@@ -13,6 +13,11 @@ const currentDate = new Date().toISOString().split('T')[0]
 
 // Blog post slugs (should match BlogPostPage.jsx)
 const blogPosts = [
+  'how-to-organize-valentines-day-contributions-romantic-celebrations',
+  'galentines-day-organize-group-celebrations-friends',
+  'how-to-organize-group-gifts-couples-valentines-anniversaries',
+  'romantic-date-night-funds-organizing-group-contributions-couples',
+  'how-to-organize-new-year-contributions-party-funds-2026',
   'how-to-organize-christmas-contributions-secret-santa-2025',
   'managing-group-contributions-during-holiday-seasons',
   'building-trust-contribution-groups-complete-guide',
@@ -37,7 +42,15 @@ const blogPosts = [
   'groupfund-vs-splitwise-group-payments-comparison',
   'how-to-organize-baby-shower-contributions-general-groups',
   'subscription-group-admin-guide-managing-shared-services',
-  'complete-guide-group-contribution-types-birthday-subscription-general'
+  'complete-guide-group-contribution-types-birthday-subscription-general',
+  'how-to-organize-easter-contributions-spring-celebrations',
+  'mothers-day-group-gift-coordination-complete-guide',
+  'fathers-day-contributions-organizing-group-gifts-celebrations',
+  'how-to-organize-graduation-contributions-celebration-funds',
+  'summer-vacation-group-planning-organizing-trip-contributions',
+  'back-to-school-contributions-organizing-group-funds-students',
+  'how-to-organize-halloween-party-contributions-costume-funds',
+  'thanksgiving-group-planning-organizing-dinner-contributions'
 ]
 
 const pages = [
@@ -1739,13 +1752,7 @@ const pages = [
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: currentDate
-  },
-  {
-    url: '/blog/how-to-organize-new-year-contributions-party-funds-2026',
-    priority: '0.7',
-    changefreq: 'monthly',
-    lastmod: currentDate
-  },
+  }
 ]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
