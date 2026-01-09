@@ -1020,6 +1020,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/industries/education',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/industries/finance',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/industries/technology',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/industries/hospitality',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/best-practices',
     priority: '0.8',
     changefreq: 'monthly',

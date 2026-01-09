@@ -94,6 +94,10 @@ import IndustriesPage from './pages/IndustriesPage'
 import RealEstateIndustryPage from './pages/RealEstateIndustryPage'
 import HealthcareIndustryPage from './pages/HealthcareIndustryPage'
 import RetailIndustryPage from './pages/RetailIndustryPage'
+import EducationIndustryPage from './pages/EducationIndustryPage'
+import FinanceIndustryPage from './pages/FinanceIndustryPage'
+import TechnologyIndustryPage from './pages/TechnologyIndustryPage'
+import HospitalityIndustryPage from './pages/HospitalityIndustryPage'
 import BestPracticesPage from './pages/BestPracticesPage'
 import ManagingLargeGroupsBestPracticesPage from './pages/ManagingLargeGroupsBestPracticesPage'
 import InternationalGroupsBestPracticesPage from './pages/InternationalGroupsBestPracticesPage'
@@ -453,6 +457,10 @@ function App() {
         <Route path="/industries/real-estate" element={<Layout><RealEstateIndustryPage /></Layout>} />
         <Route path="/industries/healthcare" element={<Layout><HealthcareIndustryPage /></Layout>} />
         <Route path="/industries/retail" element={<Layout><RetailIndustryPage /></Layout>} />
+        <Route path="/industries/education" element={<Layout><EducationIndustryPage /></Layout>} />
+        <Route path="/industries/finance" element={<Layout><FinanceIndustryPage /></Layout>} />
+        <Route path="/industries/technology" element={<Layout><TechnologyIndustryPage /></Layout>} />
+        <Route path="/industries/hospitality" element={<Layout><HospitalityIndustryPage /></Layout>} />
         <Route path="/best-practices" element={<Layout><BestPracticesPage /></Layout>} />
         <Route path="/best-practices/managing-large-groups" element={<Layout><ManagingLargeGroupsBestPracticesPage /></Layout>} />
         <Route path="/best-practices/international-groups" element={<Layout><InternationalGroupsBestPracticesPage /></Layout>} />

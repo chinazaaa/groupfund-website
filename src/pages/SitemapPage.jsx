@@ -248,7 +248,11 @@ export default function SitemapPage() {
         { path: "/industries", label: "Industries Overview" },
         { path: "/industries/real-estate", label: "Real Estate" },
         { path: "/industries/healthcare", label: "Healthcare" },
-        { path: "/industries/retail", label: "Retail" }
+        { path: "/industries/retail", label: "Retail" },
+        { path: "/industries/education", label: "Education" },
+        { path: "/industries/finance", label: "Finance" },
+        { path: "/industries/technology", label: "Technology" },
+        { path: "/industries/hospitality", label: "Hospitality" }
       ]
     },
     {

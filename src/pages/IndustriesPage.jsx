@@ -46,6 +46,34 @@ export default function IndustriesPage() {
       description: 'Coordinate group contributions for retail workers, retail teams, and retail organizations. Organize birthday funds, shared subscriptions, and team event contributions for retail professionals.',
       icon: '🛍️',
       keywords: 'retail group contributions, retail worker birthday funds, retail team contributions, retail organization payments, retail staff contributions'
+    },
+    {
+      slug: 'education',
+      title: 'Education',
+      description: 'Organize group contributions for schools, teachers, and educational institutions. Track payments, manage shared expenses, and coordinate contributions for education groups.',
+      icon: '👨‍🏫',
+      keywords: 'education group contributions, school group payments, teacher group contributions, school birthday funds, education group payments'
+    },
+    {
+      slug: 'finance',
+      title: 'Finance',
+      description: 'Organize group contributions for finance companies, banks, and financial services organizations. Track payments, manage shared expenses, and coordinate contributions for finance groups.',
+      icon: '💼',
+      keywords: 'finance group contributions, banking group payments, financial services contributions, finance company group payments, banking team contributions'
+    },
+    {
+      slug: 'technology',
+      title: 'Technology',
+      description: 'Organize group contributions for tech companies, startups, and technology teams. Track payments, manage shared expenses, and coordinate contributions for technology groups.',
+      icon: '💻',
+      keywords: 'tech company group contributions, startup group payments, tech team contributions, technology group payments, software company contributions'
+    },
+    {
+      slug: 'hospitality',
+      title: 'Hospitality',
+      description: 'Organize group contributions for hotels, restaurants, and hospitality businesses. Track payments, manage shared expenses, and coordinate contributions for hospitality groups.',
+      icon: '🍽️',
+      keywords: 'hospitality group contributions, hotel group payments, restaurant group contributions, tourism group payments, hospitality worker contributions'
     }
   ]
 
