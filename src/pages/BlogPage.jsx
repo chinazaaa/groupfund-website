@@ -9,6 +9,24 @@ export default function BlogPage() {
 
   const blogPosts = [
     {
+      title: "How to Organize Valentine's Day Contributions and Romantic Celebrations",
+      excerpt: "Complete guide to organizing Valentine's Day contributions, couple gifts, romantic dinner funds, and love-themed events. Learn how to coordinate group gifts, plan romantic experiences, and organize Galentine's Day celebrations with friends.",
+      date: "February 01, 2026",
+      readTime: "7 min read",
+      slug: "how-to-organize-valentines-day-contributions-romantic-celebrations",
+      keywords: "Valentine's Day contributions, romantic celebration funds, couple gift coordination, Galentine's Day contributions, Valentine group payments, romantic dinner funds, love day group gifts, Valentine event planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "Galentine's Day: How to Organize Group Celebrations with Friends",
+      excerpt: "Celebrate Galentine's Day with your friends! Learn how to organize group contributions for Galentine's Day parties, brunch funds, and friend group celebrations. Perfect for organizing romantic-free celebrations with your closest friends.",
+      date: "February 05, 2026",
+      readTime: "6 min read",
+      slug: "galentines-day-organize-group-celebrations-friends",
+      keywords: "Galentine's Day, friend group celebrations, Galentine's Day party funds, friend group contributions, Galentine's Day brunch, friend group planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
       title: "How to Organize New Year Contributions and Party Funds in 2026",
       excerpt: "Complete guide to organizing New Year 2026 contributions, party funds, and celebration expenses. Learn how to set deadlines, track payments, coordinate event costs, and ensure everyone contributes fairly before New Year's Eve.",
       date: "December 31, 2025",
@@ -241,6 +259,96 @@ export default function BlogPage() {
       slug: "complete-guide-group-contribution-types-birthday-subscription-general",
       keywords: "group types, birthday groups, subscription groups, general groups, group contribution types",
       categories: ["Birthday Groups", "Subscription Groups", "General Groups"]
+    },
+    {
+      title: "How to Organize Group Gifts for Couples: Valentine's Day and Anniversaries",
+      excerpt: "Learn how to organize group gifts for couples celebrating Valentine's Day, anniversaries, or special occasions. Discover strategies for coordinating contributions, selecting meaningful gifts, and ensuring everyone contributes fairly.",
+      date: "February 10, 2026",
+      readTime: "6 min read",
+      slug: "how-to-organize-group-gifts-couples-valentines-anniversaries",
+      keywords: "group gifts for couples, couple gift coordination, anniversary contributions, romantic gift funds, couple celebration contributions",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "Romantic Date Night Funds: Organizing Group Contributions for Couples",
+      excerpt: "Planning a special date night or romantic experience? Learn how to organize group contributions for couples' date nights, romantic dinners, and special experiences. Perfect for friends gifting couples or organizing group date events.",
+      date: "February 08, 2026",
+      readTime: "5 min read",
+      slug: "romantic-date-night-funds-organizing-group-contributions-couples",
+      keywords: "date night funds, romantic experience contributions, couple date contributions, romantic dinner funds, group date planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "How to Organize Easter Contributions and Spring Celebrations",
+      excerpt: "Complete guide to organizing Easter contributions, Easter egg hunt funds, holiday brunch contributions, and spring celebration expenses. Learn how to coordinate Easter events for families, churches, and communities.",
+      date: "March 15, 2026",
+      readTime: "7 min read",
+      slug: "how-to-organize-easter-contributions-spring-celebrations",
+      keywords: "Easter contributions, Easter egg hunt funds, Easter brunch contributions, spring celebration funds, Easter group payments, holiday celebration planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "Mother's Day Group Gift Coordination: A Complete Guide",
+      excerpt: "Organize group contributions for Mother's Day gifts, brunch funds, and family celebrations. Learn how to coordinate contributions from siblings, family members, and friends to create meaningful Mother's Day experiences.",
+      date: "April 20, 2026",
+      readTime: "6 min read",
+      slug: "mothers-day-group-gift-coordination-complete-guide",
+      keywords: "Mother's Day contributions, Mother's Day gift funds, family brunch contributions, Mother's Day group gifts, family celebration planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "Father's Day Contributions: Organizing Group Gifts and Celebrations",
+      excerpt: "Plan Father's Day contributions for group gifts, family celebrations, and special experiences. Discover how to coordinate contributions from family members and friends to celebrate the fathers in your life.",
+      date: "May 15, 2026",
+      readTime: "6 min read",
+      slug: "fathers-day-contributions-organizing-group-gifts-celebrations",
+      keywords: "Father's Day contributions, Father's Day gift funds, family celebration contributions, Father's Day group gifts, family event planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "How to Organize Graduation Contributions and Celebration Funds",
+      excerpt: "Complete guide to organizing graduation contributions, gift funds, and celebration expenses. Learn how to coordinate contributions from family, friends, and classmates for graduation parties and milestone celebrations.",
+      date: "May 20, 2026",
+      readTime: "7 min read",
+      slug: "how-to-organize-graduation-contributions-celebration-funds",
+      keywords: "graduation contributions, graduation gift funds, graduation party funds, class graduation contributions, milestone celebration planning",
+      categories: ["Event Planning", "General Groups"]
+    },
+    {
+      title: "Summer Vacation Group Planning: Organizing Trip Contributions",
+      excerpt: "Plan group summer vacations with organized contributions. Learn how to coordinate trip funds, split vacation costs, and manage group travel expenses for beach trips, road trips, and summer getaways.",
+      date: "June 01, 2026",
+      readTime: "7 min read",
+      slug: "summer-vacation-group-planning-organizing-trip-contributions",
+      keywords: "summer vacation contributions, group trip planning, vacation fund coordination, summer travel contributions, group travel expenses",
+      categories: ["Event Planning", "General Groups"]
+    },
+    {
+      title: "Back-to-School Contributions: Organizing Group Funds for Students",
+      excerpt: "Organize contributions for back-to-school expenses, school supplies, and student needs. Learn how to coordinate group funds for class supplies, school events, and educational expenses.",
+      date: "August 15, 2026",
+      readTime: "6 min read",
+      slug: "back-to-school-contributions-organizing-group-funds-students",
+      keywords: "back-to-school contributions, school supply funds, student expense contributions, class fund coordination, educational expense planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "How to Organize Halloween Party Contributions and Costume Funds",
+      excerpt: "Plan Halloween celebrations with organized group contributions. Learn how to coordinate Halloween party funds, costume contributions, and trick-or-treat event expenses for families, offices, and communities.",
+      date: "October 01, 2026",
+      readTime: "6 min read",
+      slug: "how-to-organize-halloween-party-contributions-costume-funds",
+      keywords: "Halloween contributions, Halloween party funds, costume party contributions, trick-or-treat event funds, Halloween group planning",
+      categories: ["Event Planning", "Best Practices"]
+    },
+    {
+      title: "Thanksgiving Group Planning: Organizing Dinner Contributions",
+      excerpt: "Coordinate Thanksgiving dinner contributions, Friendsgiving celebrations, and holiday gathering funds. Learn how to organize group contributions for Thanksgiving meals, decorations, and family celebrations.",
+      date: "November 01, 2026",
+      readTime: "7 min read",
+      slug: "thanksgiving-group-planning-organizing-dinner-contributions",
+      keywords: "Thanksgiving contributions, Thanksgiving dinner funds, Friendsgiving contributions, holiday gathering funds, Thanksgiving group planning",
+      categories: ["Event Planning", "Best Practices"]
     }
   ]
 
