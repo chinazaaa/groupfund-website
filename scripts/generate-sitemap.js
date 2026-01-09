@@ -1802,6 +1802,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/subscription-groups/virgin-active',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/subscription-groups/showtime',
     priority: '0.7',
     changefreq: 'monthly',

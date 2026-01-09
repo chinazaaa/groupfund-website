@@ -284,6 +284,14 @@ export default function SubscriptionGroupsPage() {
         category: 'Fitness & Health'
       },
       {
+        slug: 'virgin-active',
+        title: 'Virgin Active',
+        description: 'Share Virgin Active family membership costs with friends and family in the UK. Organize group payments for premium gym access, classes, swimming pools, and spa facilities, and track monthly contributions.',
+        icon: '💪',
+        keywords: 'virgin active family membership, share virgin active cost, virgin active group subscription, virgin active payment splitting, split virgin active membership, virgin active family membership sharing, virgin active group contributions, gym membership cost sharing uk',
+        category: 'Fitness & Health'
+      },
+      {
         slug: 'showtime',
         title: 'Showtime',
         description: 'Share Showtime subscription costs with friends and family. Organize group payments for premium cable content, original series, and movies, and track monthly contributions.',

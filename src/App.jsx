@@ -318,6 +318,7 @@ import AppleFitnessPlusPage from './pages/AppleFitnessPlusPage'
 import FitnessBlissPage from './pages/FitnessBlissPage'
 import MindbodyFamilyPage from './pages/MindbodyFamilyPage'
 import PlanetFitnessPage from './pages/PlanetFitnessPage'
+import VirginActivePage from './pages/VirginActivePage'
 import GetStartedPage from './pages/GetStartedPage'
 import ShowtimePage from './pages/ShowtimePage'
 import StarzPage from './pages/StarzPage'
@@ -684,6 +685,7 @@ function App() {
         <Route path="/subscription-groups/fitness-bliss" element={<Layout><FitnessBlissPage /></Layout>} />
         <Route path="/subscription-groups/mindbody-family" element={<Layout><MindbodyFamilyPage /></Layout>} />
         <Route path="/subscription-groups/planet-fitness" element={<Layout><PlanetFitnessPage /></Layout>} />
+        <Route path="/subscription-groups/virgin-active" element={<Layout><VirginActivePage /></Layout>} />
         <Route path="/subscription-groups/showtime" element={<Layout><ShowtimePage /></Layout>} />
         <Route path="/subscription-groups/starz" element={<Layout><StarzPage /></Layout>} />
         <Route path="/subscription-groups/amc-plus" element={<Layout><AMCPlusPage /></Layout>} />
