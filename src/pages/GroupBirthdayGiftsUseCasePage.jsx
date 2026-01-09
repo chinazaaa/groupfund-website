@@ -25,6 +25,14 @@ export default function GroupBirthdayGiftsUseCasePage() {
             "@type": "Answer",
             "text": "The best way to collect money from a group for a birthday gift is to use GroupFund's Birthday Groups. Set a fixed contribution amount, share one invite code, set clear deadlines, and track all payments in real-time. Automatic reminders ensure everyone pays on time without awkward chasing."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we track contributions for a group gift online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To track contributions for a group gift online, create a Birthday Group in GroupFund. The online dashboard shows real-time contribution tracking - see who has paid, who hasn't, payment statuses (Not Paid, Paid, Confirmed, Not Received), and progress updates like '8 out of 10 members have paid'. All members can access the online tracking dashboard to view contribution statuses. The system updates automatically as payments are marked and confirmed, eliminating the need for spreadsheets or manual tracking."
+          }
         }
       ]
     }
@@ -48,7 +56,7 @@ export default function GroupBirthdayGiftsUseCasePage() {
       <SEO
         title="Collect Money for Group Gift: Easy Birthday Gift Collection | GroupFund"
         description="Collect money for group gift without awkward chasing. The best way to collect money from a group for birthday gifts, dinners, and celebrations. Set clear amounts, track payments, send automatic reminders. Free to start."
-        keywords="collect money for group gift, best way to collect money from a group, group birthday gift, collect money for birthday gift, split birthday dinner cost, birthday money pool, group gift organiser, birthday contribution tracker, how to collect money from friends for birthday"
+        keywords="collect money for group gift, best way to collect money from a group, group birthday gift, collect money for birthday gift, split birthday dinner cost, birthday money pool, group gift organiser, birthday contribution tracker, how to collect money from friends for birthday, how do we track contributions for a group gift online, track group gift contributions online, online contribution tracking for group gifts"
         canonical="https://www.groupfund.app/use-cases/group-birthday-gifts"
       />
 
@@ -90,8 +98,8 @@ export default function GroupBirthdayGiftsUseCasePage() {
                   <p>Choose a deadline a few days before the birthday so you can order the gift or book the restaurant on time.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>✅ Real-Time Contribution Tracking</h3>
-                  <p>See who has contributed, how much has been raised, and how close you are to your target without scrolling back through chats.</p>
+                  <h3>✅ Real-Time Online Contribution Tracking</h3>
+                  <p>Track contributions for your group gift online in real-time. See who has contributed, who hasn't, payment statuses, and how close you are to your target - all in one online dashboard accessible from any device. No spreadsheets or manual tracking needed.</p>
                 </div>
                 <div className="feature-item">
                   <h3>👥 Works for Gifts, Dinners, or Both</h3>
