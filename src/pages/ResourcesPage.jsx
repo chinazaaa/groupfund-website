@@ -243,6 +243,14 @@ export default function ResourcesPage() {
       readTime: '5 min read',
       link: '/best-practices/group-chat-best-practices'
     },
+    {
+      slug: 'best-app-for-splitting-bills',
+      title: 'Best App for Splitting Bills',
+      description: 'Discover the best app for splitting bills with friends, roommates, and family. Learn how to split rent, utilities, subscriptions, and expenses easily. Track payments, send reminders, and avoid awkward money conversations.',
+      icon: '💳',
+      category: 'Best Practices',
+      readTime: '8 min read'
+    },
   ]
 
   const categories = ['All', 'Getting Started', 'Best Practices', 'Planning', 'Advanced']

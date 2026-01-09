@@ -1447,6 +1447,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/resources/best-app-for-splitting-bills',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/case-studies',
     priority: '0.8',
     changefreq: 'monthly',
