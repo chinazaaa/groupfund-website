@@ -145,7 +145,7 @@ export default function BestWayToCollectMoneyFromGroupPage() {
       <SEO
         title="Best Way to Collect Money from a Group: Complete Guide 2024 | GroupFund"
         description="Discover the best way to collect money from a group for gifts, events, and shared expenses. Learn how to use GroupFund to track contributions, send reminders, and avoid awkward chasing. Free to start."
-        keywords="best way to collect money from a group, what is the best way to collect money from a group, collect money for group gift, app to manage group expenses for birthdays, group payment app, collect money from friends, group contribution tracker, best app for group payments, pay friends easily for group events, easy way to pay friends for events, pay friends for group events, how do we track contributions for a group gift online, track group gift contributions online, online contribution tracking for group gifts"
+        keywords="best way to collect money from a group, what is the best way to collect money from a group, collect money for group gift, app to manage group expenses for birthdays, group payment app, collect money from friends, group contribution tracker, best app for group payments, pay friends easily for group events, easy way to pay friends for events, pay friends for group events, how do we track contributions for a group gift online, track group gift contributions online, online contribution tracking for group gifts, best app for splitting bills, split costs with friends, split bills app, split money with friends, best way to split bills, split costs app, group expense tracker, split expenses with friends, how to split costs with friends"
         canonical="https://www.groupfund.app/best-practices/best-way-to-collect-money-from-group"
       />
 
@@ -494,6 +494,11 @@ export default function BestWayToCollectMoneyFromGroupPage() {
             <div className="related-resources">
               <h2>Related Resources</h2>
               <div className="resources-grid">
+                <Link to="/best-app-for-splitting-bills" className="resource-card">
+                  <span className="resource-icon">💳</span>
+                  <h3>Best App for Splitting Bills</h3>
+                  <p>Complete guide on the best app for splitting bills with friends and roommates</p>
+                </Link>
                 <Link to="/best-practices/group-birthday-gifts" className="resource-card">
                   <span className="resource-icon">🎁</span>
                   <h3>Collect Money for Group Birthday Gifts</h3>
@@ -504,15 +509,10 @@ export default function BestWayToCollectMoneyFromGroupPage() {
                   <h3>Collect Money for Group Trips</h3>
                   <p>Best practices for collecting money for flights, Airbnb, and activities</p>
                 </Link>
-                <Link to="/use-cases/group-birthday-gifts" className="resource-card">
-                  <span className="resource-icon">🎂</span>
-                  <h3>Group Birthday Gifts Use Case</h3>
-                  <p>Learn how to use GroupFund for birthday gift collections</p>
-                </Link>
-                <Link to="/best-practices" className="resource-card">
-                  <span className="resource-icon">📚</span>
-                  <h3>All Best Practices</h3>
-                  <p>Explore all GroupFund best practices and guides</p>
+                <Link to="/use-cases/shared-rent-and-bills" className="resource-card">
+                  <span className="resource-icon">🏠</span>
+                  <h3>Split Rent & Bills</h3>
+                  <p>Learn how to split rent and utilities with roommates</p>
                 </Link>
                 <Link to="/features" className="resource-card">
                   <span className="resource-icon">✨</span>

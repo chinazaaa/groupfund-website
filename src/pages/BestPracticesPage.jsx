@@ -36,6 +36,15 @@ export default function BestPracticesPage() {
         'best way to collect money from a group, collect money for group gift, app to manage group expenses, group payment app, collect money from friends'
     },
     {
+      slug: 'best-app-for-splitting-bills',
+      title: 'Best App for Splitting Bills',
+      description:
+        'Discover the best app for splitting bills with friends, roommates, and family. Learn how to split rent, utilities, subscriptions, and expenses easily. Track payments, send reminders, and avoid awkward money conversations.',
+      icon: '💳',
+      keywords:
+        'best app for splitting bills, split bills app, split costs with friends, split money with friends, best way to split bills, split costs app, group expense tracker'
+    },
+    {
       slug: 'group-birthday-gifts',
       title: 'Group Birthday Gifts',
       description:
@@ -147,7 +156,7 @@ export default function BestPracticesPage() {
             {bestPractices.map((practice) => (
               <Link 
                 key={practice.slug} 
-                to={practice.link || `/best-practices/${practice.slug}`}
+                to={practice.link || (practice.slug === 'best-app-for-splitting-bills' ? '/best-app-for-splitting-bills' : `/best-practices/${practice.slug}`)}
                 className="practice-card"
               >
                 <div className="practice-icon">{practice.icon}</div>

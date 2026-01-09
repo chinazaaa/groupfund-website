@@ -9,7 +9,7 @@ export default function SharedRentAndBillsUseCasePage() {
       <SEO
         title="Shared Rent & Bills - Split Costs with Housemates | GroupFund"
         description="Split rent, Wi‑Fi, and utilities with housemates in one shared place. Use GroupFund to set fair amounts, track who has paid, and avoid awkward money conversations in the group chat."
-        keywords="split rent with roommates, share bills with housemates, split utilities fairly, rent bill tracker, group payments for rent and bills"
+        keywords="split rent with roommates, share bills with housemates, split utilities fairly, rent bill tracker, group payments for rent and bills, best app for splitting bills, split bills app, split costs with friends, split money with friends, best way to split bills, split expenses with friends, how to split costs with friends, split bills with roommates, split household bills"
         canonical="https://www.groupfund.app/use-cases/shared-rent-and-bills"
       />
 
