@@ -99,6 +99,7 @@ import SubscriptionGroupPaymentSchedulesPage from './pages/SubscriptionGroupPaym
 import UsingGroupChatAndMessagingPage from './pages/UsingGroupChatAndMessagingPage'
 import GroupChatBestPracticesPage from './pages/GroupChatBestPracticesPage'
 import ContributionCalculatorPage from './pages/ContributionCalculatorPage'
+import BestWayToCollectMoneyFromGroupPage from './pages/BestWayToCollectMoneyFromGroupPage'
 import YearlyContributionEstimatorPage from './pages/YearlyContributionEstimatorPage'
 import ToolsPage from './pages/ToolsPage'
 import IndustriesPage from './pages/IndustriesPage'
@@ -599,6 +600,7 @@ function App() {
         <Route path="/resources/subscription-group-payment-schedules" element={<Layout><SubscriptionGroupPaymentSchedulesPage /></Layout>} />
         <Route path="/resources/using-group-chat-and-messaging" element={<Layout><UsingGroupChatAndMessagingPage /></Layout>} />
         <Route path="/best-practices/group-chat-best-practices" element={<Layout><GroupChatBestPracticesPage /></Layout>} />
+        <Route path="/best-practices/best-way-to-collect-money-from-group" element={<Layout><BestWayToCollectMoneyFromGroupPage /></Layout>} />
         <Route path="/tools" element={<Layout><ToolsPage /></Layout>} />
         <Route path="/tools/contribution-calculator" element={<Layout><ContributionCalculatorPage /></Layout>} />
         <Route path="/tools/yearly-contribution-estimator" element={<Layout><YearlyContributionEstimatorPage /></Layout>} />

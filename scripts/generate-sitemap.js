@@ -1435,6 +1435,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/best-practices/best-way-to-collect-money-from-group',
+    priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/case-studies',
     priority: '0.8',
     changefreq: 'monthly',

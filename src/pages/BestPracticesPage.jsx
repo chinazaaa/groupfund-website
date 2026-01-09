@@ -27,6 +27,15 @@ export default function BestPracticesPage() {
 
   const bestPractices = [
     {
+      slug: 'best-way-to-collect-money-from-group',
+      title: 'Best Way to Collect Money from a Group',
+      description:
+        'Complete guide on the best way to collect money from groups for gifts, events, and shared expenses. Learn proven methods, avoid common mistakes, and discover the most effective tools for group payments.',
+      icon: '💰',
+      keywords:
+        'best way to collect money from a group, collect money for group gift, app to manage group expenses, group payment app, collect money from friends'
+    },
+    {
       slug: 'group-birthday-gifts',
       title: 'Group Birthday Gifts',
       description:

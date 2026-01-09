@@ -54,13 +54,13 @@ export default function HomePage() {
       <SEO
         title={NEW_YEAR_MODE 
           ? "GroupFund - Organize New Year 2026 Contributions & Party Funds | Group Celebration Funds"
-          : "GroupFund - Organize Group Contributions | Birthday, Subscription & General Groups"}
+          : "GroupFund - Best App to Manage Group Expenses for Birthdays | Group Payment App"}
         description={NEW_YEAR_MODE
           ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP). Free to start."
-          : "Organize group contributions for birthdays, shared subscriptions, and any purpose. Track who paid, see member reliability scores, monitor group health metrics, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP). Free to start."}
+          : "The best app to manage group expenses for birthdays, gifts, and events. Collect money from groups, track contributions, send automatic reminders. Perfect for birthday gifts, group payments, and shared expenses. Multi-currency support (NGN, USD, GBP). Free to start."}
         keywords={NEW_YEAR_MODE
           ? "New Year contributions, New Year party funds, New Year's Eve contributions, celebration group payments, New Year 2026, organize New Year party, group celebrations, New Year contribution tracking, party cost sharing, celebration contributions, group event coordination, New Year's Eve expenses, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
-          : "group contributions, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments"}
+          : "app to manage group expenses for birthdays, best app for group payments, collect money for group gift, best way to collect money from a group, group payment app, birthday expense tracker, group contribution app, manage group expenses, birthday group app, collect money from friends"}
         canonical="https://www.groupfund.app/"
       />
 

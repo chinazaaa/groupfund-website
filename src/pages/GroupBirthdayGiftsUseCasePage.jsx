@@ -1,15 +1,54 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function GroupBirthdayGiftsUseCasePage() {
+  useEffect(() => {
+    // Add FAQPage structured data
+    const faqStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I collect money for a group gift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To collect money for a group gift, create a Birthday Group in GroupFund, set a clear contribution amount per person, share the invite code with your group, set a deadline before the birthday, and track contributions in one place. This eliminates awkward chasing and ensures everyone knows exactly how much to contribute."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best way to collect money from a group for a birthday gift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best way to collect money from a group for a birthday gift is to use GroupFund's Birthday Groups. Set a fixed contribution amount, share one invite code, set clear deadlines, and track all payments in real-time. Automatic reminders ensure everyone pays on time without awkward chasing."
+          }
+        }
+      ]
+    }
+
+    const existingScript = document.querySelector('script[data-group-gift-faq-schema]')
+    if (existingScript) existingScript.remove()
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-group-gift-faq-schema', 'true')
+    script.textContent = JSON.stringify(faqStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-group-gift-faq-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO
-        title="Group Birthday Gifts & Dinners - Collect Money Together | GroupFund"
-        description="Collect money for group birthday gifts and dinners without awkward chasing. Use GroupFund to set clear amounts, track who has paid, and keep everything in one shared Birthday Group."
-        keywords="group birthday gift, collect money for birthday gift, split birthday dinner cost, birthday money pool, group gift organiser, birthday contribution tracker"
+        title="Collect Money for Group Gift: Easy Birthday Gift Collection | GroupFund"
+        description="Collect money for group gift without awkward chasing. The best way to collect money from a group for birthday gifts, dinners, and celebrations. Set clear amounts, track payments, send automatic reminders. Free to start."
+        keywords="collect money for group gift, best way to collect money from a group, group birthday gift, collect money for birthday gift, split birthday dinner cost, birthday money pool, group gift organiser, birthday contribution tracker, how to collect money from friends for birthday"
         canonical="https://www.groupfund.app/use-cases/group-birthday-gifts"
       />
 
@@ -110,6 +149,7 @@ export default function GroupBirthdayGiftsUseCasePage() {
                 <Link to="/use-cases/workplace">For Workplaces →</Link>
                 <Link to="/use-cases/group-trips-and-holidays">For Group Trips →</Link>
                 <Link to="/best-practices/group-birthday-gifts">Birthday Gift Best Practices →</Link>
+                <Link to="/best-practices/best-way-to-collect-money-from-group">Best Way to Collect Money from Groups →</Link>
               </div>
             </div>
           </div>
