@@ -26,13 +26,13 @@ export default function ComingSoonFeaturesPage() {
   }, [])
 
   const pipelineFeatures = [
-    {
-      title: "Group Chat Integration",
-      description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
-      icon: "💬",
-      status: "Planned",
-      statusColor: "purple"
-    },
+    // {
+    //   title: "Group Chat Integration",
+    //   description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
+    //   icon: "💬",
+    //   status: "Planned",
+    //   statusColor: "purple"
+    // },
     {
       title: "Group Analytics Dashboard",
       description: "Comprehensive analytics and insights for group admins. Track contribution trends, member engagement, and financial summaries.",

@@ -226,6 +226,14 @@ export default function ResourcesPage() {
       category: 'Planning',
       readTime: '5 min read'
     },
+    {
+      slug: 'using-group-chat-and-messaging',
+      title: 'Using Group Chat & Messaging',
+      description: 'Complete guide to GroupFund\'s per-group chat feature. Learn how to enable chat, mention members, customize notification preferences, and use chat effectively for group communication.',
+      icon: '💬',
+      category: 'Getting Started',
+      readTime: '6 min read'
+    },
   ]
 
   const categories = ['All', 'Getting Started', 'Best Practices', 'Planning', 'Advanced']
@@ -239,8 +247,8 @@ export default function ResourcesPage() {
     <>
       <SEO
         title="Resources & Guides - Group Contribution Tips & Best Practices"
-        description="Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing Birthday Groups, Subscription Groups, and General Groups. Educational resources covering subscription management, event planning, payment tracking, and more for families, churches, schools, and groups."
-        keywords="group contribution guides, how to organize group contributions, subscription group guide, general group guide, birthday group guide, contribution tips, group payment guides, contribution best practices, educational resources, subscription management guide, event planning guide, shared subscription guide"
+        description="Learn how to organize group contributions effectively. Free guides, tips, and best practices for managing Birthday Groups, Subscription Groups, and General Groups. Educational resources covering subscription management, event planning, payment tracking, group chat, and more for families, churches, schools, and groups."
+        keywords="group contribution guides, how to organize group contributions, subscription group guide, general group guide, birthday group guide, contribution tips, group payment guides, contribution best practices, educational resources, subscription management guide, event planning guide, shared subscription guide, group chat guide, messaging guide"
         canonical="https://www.groupfund.app/resources"
       />
 
