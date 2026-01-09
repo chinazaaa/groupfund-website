@@ -282,18 +282,202 @@ export default function SubscriptionGroupsPage() {
         icon: '🏋️',
         keywords: 'mindbody family group subscription, share mindbody cost, mindbody payment splitting, split gym booking subscription, mindbody group contributions',
         category: 'Fitness & Health'
+      },
+      {
+        slug: 'showtime',
+        title: 'Showtime',
+        description: 'Share Showtime subscription costs with friends and family. Organize group payments for premium cable content, original series, and movies, and track monthly contributions.',
+        icon: '🎬',
+        keywords: 'showtime group subscription, share showtime cost, showtime payment splitting, split showtime subscription, showtime group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'starz',
+        title: 'Starz',
+        description: 'Share Starz subscription costs with your group. Coordinate payments for premium movies, original series, and exclusive content, and track contributions.',
+        icon: '⭐',
+        keywords: 'starz group subscription, share starz cost, starz payment splitting, split starz subscription, starz group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'amc-plus',
+        title: 'AMC+',
+        description: 'Share AMC+ subscription costs with friends and family. Organize group payments for AMC content, original series, and exclusive shows, and track monthly contributions.',
+        icon: '📺',
+        keywords: 'amc plus group subscription, share amc+ cost, amc plus payment splitting, split amc subscription, amc+ group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'crunchyroll',
+        title: 'Crunchyroll',
+        description: 'Share Crunchyroll subscription costs with anime fans. Organize group payments for anime streaming, manga access, and ad-free viewing, and track contributions.',
+        icon: '🎌',
+        keywords: 'crunchyroll group subscription, share crunchyroll cost, crunchyroll payment splitting, split crunchyroll subscription, crunchyroll group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'discovery-plus',
+        title: 'Discovery+',
+        description: 'Share Discovery+ subscription costs with your group. Coordinate payments for documentaries, reality shows, and educational content, and track monthly contributions.',
+        icon: '🌍',
+        keywords: 'discovery plus group subscription, share discovery+ cost, discovery plus payment splitting, split discovery subscription, discovery+ group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'espn-plus',
+        title: 'ESPN+',
+        description: 'Share ESPN+ subscription costs with sports fans. Organize group payments for live sports, exclusive content, and sports analysis, and track contributions.',
+        icon: '⚽',
+        keywords: 'espn plus group subscription, share espn+ cost, espn plus payment splitting, split espn subscription, espn+ group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'sling-tv',
+        title: 'Sling TV',
+        description: 'Share Sling TV subscription costs with friends and family. Organize group payments for live TV streaming, channels, and DVR access, and track monthly contributions.',
+        icon: '📡',
+        keywords: 'sling tv group subscription, share sling tv cost, sling tv payment splitting, split sling tv subscription, sling tv group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'fubotv',
+        title: 'FuboTV',
+        description: 'Share FuboTV subscription costs with sports fans. Coordinate payments for live sports streaming, news, and entertainment channels, and track contributions.',
+        icon: '🏈',
+        keywords: 'fubotv group subscription, share fubotv cost, fubotv payment splitting, split fubo tv subscription, fubotv group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'youtube-tv',
+        title: 'YouTube TV',
+        description: 'Share YouTube TV subscription costs with your group. Organize group payments for live TV streaming, unlimited DVR, and channel access, and track monthly contributions.',
+        icon: '📺',
+        keywords: 'youtube tv group subscription, share youtube tv cost, youtube tv payment splitting, split youtube tv subscription, youtube tv group contributions',
+        category: 'Entertainment'
+      },
+      {
+        slug: 'adobe-creative-cloud',
+        title: 'Adobe Creative Cloud',
+        description: 'Share Adobe Creative Cloud subscription costs with your team. Organize group payments for Photoshop, Illustrator, Premiere Pro, and all Adobe apps, and track contributions.',
+        icon: '🎨',
+        keywords: 'adobe creative cloud group subscription, share adobe cost, adobe payment splitting, split adobe subscription, adobe creative cloud group contributions',
+        category: 'Productivity'
+      },
+      {
+        slug: 'microsoft-365',
+        title: 'Microsoft 365',
+        description: 'Share Microsoft 365 subscription costs with your team. Coordinate payments for Office apps, cloud storage, and collaboration tools, and track monthly contributions.',
+        icon: '📊',
+        keywords: 'microsoft 365 group subscription, share microsoft 365 cost, microsoft office payment splitting, split microsoft 365 subscription, microsoft 365 group contributions',
+        category: 'Productivity'
+      },
+      {
+        slug: 'notion',
+        title: 'Notion',
+        description: 'Share Notion subscription costs with your team. Organize group payments for productivity tools, note-taking, and collaboration features, and track contributions.',
+        icon: '📝',
+        keywords: 'notion group subscription, share notion cost, notion payment splitting, split notion subscription, notion group contributions',
+        category: 'Productivity'
+      },
+      {
+        slug: 'grammarly-premium',
+        title: 'Grammarly Premium',
+        description: 'Share Grammarly Premium subscription costs with your team. Coordinate payments for writing assistance, grammar checking, and style suggestions, and track monthly contributions.',
+        icon: '✍️',
+        keywords: 'grammarly premium group subscription, share grammarly cost, grammarly payment splitting, split grammarly subscription, grammarly group contributions',
+        category: 'Productivity'
+      },
+      {
+        slug: 'linkedin-premium',
+        title: 'LinkedIn Premium',
+        description: 'Share LinkedIn Premium subscription costs with professionals. Organize group payments for networking features, job insights, and premium tools, and track contributions.',
+        icon: '💼',
+        keywords: 'linkedin premium group subscription, share linkedin premium cost, linkedin payment splitting, split linkedin subscription, linkedin premium group contributions',
+        category: 'Productivity'
+      },
+      {
+        slug: 'xbox-game-pass',
+        title: 'Xbox Game Pass',
+        description: 'Share Xbox Game Pass subscription costs with gamers. Organize group payments for game library access, Xbox Live Gold, and cloud gaming, and track monthly contributions.',
+        icon: '🎮',
+        keywords: 'xbox game pass group subscription, share xbox game pass cost, xbox payment splitting, split xbox subscription, xbox game pass group contributions',
+        category: 'Gaming'
+      },
+      {
+        slug: 'playstation-plus',
+        title: 'PlayStation Plus',
+        description: 'Share PlayStation Plus subscription costs with gaming friends. Coordinate payments for online multiplayer, free games, and exclusive discounts, and track contributions.',
+        icon: '🎮',
+        keywords: 'playstation plus group subscription, share playstation plus cost, ps plus payment splitting, split playstation subscription, playstation plus group contributions',
+        category: 'Gaming'
+      },
+      {
+        slug: 'nintendo-switch-online',
+        title: 'Nintendo Switch Online',
+        description: 'Share Nintendo Switch Online subscription costs with gamers. Organize group payments for online play, classic games, and cloud saves, and track monthly contributions.',
+        icon: '🎮',
+        keywords: 'nintendo switch online group subscription, share nintendo switch online cost, nintendo payment splitting, split nintendo subscription, nintendo switch online group contributions',
+        category: 'Gaming'
+      },
+      {
+        slug: 'dropbox',
+        title: 'Dropbox',
+        description: 'Share Dropbox subscription costs with your team. Organize group payments for cloud storage, file sharing, and collaboration tools, and track contributions.',
+        icon: '📦',
+        keywords: 'dropbox group subscription, share dropbox cost, dropbox payment splitting, split dropbox subscription, dropbox group contributions',
+        category: 'Cloud Storage'
+      },
+      {
+        slug: 'google-one',
+        title: 'Google One',
+        description: 'Share Google One subscription costs with family and friends. Coordinate payments for expanded Google Drive storage, Google Photos, and Gmail storage, and track monthly contributions.',
+        icon: '☁️',
+        keywords: 'google one group subscription, share google one cost, google one payment splitting, split google one subscription, google one group contributions',
+        category: 'Cloud Storage'
+      },
+      {
+        slug: 'icloud-plus',
+        title: 'iCloud+',
+        description: 'Share iCloud+ subscription costs with family members. Organize group payments for expanded Apple cloud storage, iCloud Private Relay, and Hide My Email, and track contributions.',
+        icon: '☁️',
+        keywords: 'icloud plus group subscription, share icloud+ cost, icloud payment splitting, split icloud subscription, icloud plus group contributions',
+        category: 'Cloud Storage'
+      },
+      {
+        slug: 'nordvpn',
+        title: 'NordVPN',
+        description: 'Share NordVPN subscription costs with friends and family. Organize group payments for VPN service, online privacy, and secure browsing, and track monthly contributions.',
+        icon: '🔒',
+        keywords: 'nordvpn group subscription, share nordvpn cost, nordvpn payment splitting, split nordvpn subscription, nordvpn group contributions',
+        category: 'VPN'
+      },
+      {
+        slug: 'expressvpn',
+        title: 'ExpressVPN',
+        description: 'Share ExpressVPN subscription costs with your group. Coordinate payments for VPN service, fast connections, and global server access, and track contributions.',
+        icon: '🔐',
+        keywords: 'expressvpn group subscription, share expressvpn cost, expressvpn payment splitting, split expressvpn subscription, expressvpn group contributions',
+        category: 'VPN'
+      },
+      {
+        slug: 'new-york-times',
+        title: 'The New York Times',
+        description: 'Share The New York Times subscription costs with news readers. Organize group payments for digital news access, articles, and premium content, and track monthly contributions.',
+        icon: '📰',
+        keywords: 'new york times group subscription, share nyt cost, nyt payment splitting, split new york times subscription, nyt group contributions',
+        category: 'News'
+      },
+      {
+        slug: 'wall-street-journal',
+        title: 'The Wall Street Journal',
+        description: 'Share The Wall Street Journal subscription costs with business professionals. Coordinate payments for business news, financial insights, and premium articles, and track contributions.',
+        icon: '📈',
+        keywords: 'wall street journal group subscription, share wsj cost, wsj payment splitting, split wall street journal subscription, wsj group contributions',
+        category: 'News'
       }
-      
-            
-      
-      
-      
-      
-            
-      
   ]
 
-  const categories = ['Entertainment', 'Music', 'Productivity', 'Food & Drinks', 'Fitness & Health']
+  const categories = ['Entertainment', 'Music', 'Productivity', 'Food & Drinks', 'Fitness & Health', 'Gaming', 'Cloud Storage', 'VPN', 'News']
 
   // Filter subscriptions based on search query and selected category
   const filteredSubscriptions = useMemo(() => {

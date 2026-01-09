@@ -252,6 +252,30 @@ import FitnessBlissPage from './pages/FitnessBlissPage'
 import MindbodyFamilyPage from './pages/MindbodyFamilyPage'
 import PlanetFitnessPage from './pages/PlanetFitnessPage'
 import GetStartedPage from './pages/GetStartedPage'
+import ShowtimePage from './pages/ShowtimePage'
+import StarzPage from './pages/StarzPage'
+import AMCPlusPage from './pages/AMCPlusPage'
+import CrunchyrollPage from './pages/CrunchyrollPage'
+import DiscoveryPlusPage from './pages/DiscoveryPlusPage'
+import ESPNPlusPage from './pages/ESPNPlusPage'
+import SlingTVPage from './pages/SlingTVPage'
+import FuboTVPage from './pages/FuboTVPage'
+import YouTubeTVPage from './pages/YouTubeTVPage'
+import AdobeCreativeCloudPage from './pages/AdobeCreativeCloudPage'
+import Microsoft365Page from './pages/Microsoft365Page'
+import NotionPage from './pages/NotionPage'
+import GrammarlyPremiumPage from './pages/GrammarlyPremiumPage'
+import LinkedInPremiumPage from './pages/LinkedInPremiumPage'
+import XboxGamePassPage from './pages/XboxGamePassPage'
+import PlayStationPlusPage from './pages/PlayStationPlusPage'
+import NintendoSwitchOnlinePage from './pages/NintendoSwitchOnlinePage'
+import DropboxPage from './pages/DropboxPage'
+import GoogleOnePage from './pages/GoogleOnePage'
+import ICloudPlusPage from './pages/ICloudPlusPage'
+import NordVPNPage from './pages/NordVPNPage'
+import ExpressVPNPage from './pages/ExpressVPNPage'
+import NewYorkTimesPage from './pages/NewYorkTimesPage'
+import WallStreetJournalPage from './pages/WallStreetJournalPage'
 
 
 // Admin pages
@@ -526,6 +550,30 @@ function App() {
         <Route path="/subscription-groups/fitness-bliss" element={<Layout><FitnessBlissPage /></Layout>} />
         <Route path="/subscription-groups/mindbody-family" element={<Layout><MindbodyFamilyPage /></Layout>} />
         <Route path="/subscription-groups/planet-fitness" element={<Layout><PlanetFitnessPage /></Layout>} />
+        <Route path="/subscription-groups/showtime" element={<Layout><ShowtimePage /></Layout>} />
+        <Route path="/subscription-groups/starz" element={<Layout><StarzPage /></Layout>} />
+        <Route path="/subscription-groups/amc-plus" element={<Layout><AMCPlusPage /></Layout>} />
+        <Route path="/subscription-groups/crunchyroll" element={<Layout><CrunchyrollPage /></Layout>} />
+        <Route path="/subscription-groups/discovery-plus" element={<Layout><DiscoveryPlusPage /></Layout>} />
+        <Route path="/subscription-groups/espn-plus" element={<Layout><ESPNPlusPage /></Layout>} />
+        <Route path="/subscription-groups/sling-tv" element={<Layout><SlingTVPage /></Layout>} />
+        <Route path="/subscription-groups/fubotv" element={<Layout><FuboTVPage /></Layout>} />
+        <Route path="/subscription-groups/youtube-tv" element={<Layout><YouTubeTVPage /></Layout>} />
+        <Route path="/subscription-groups/adobe-creative-cloud" element={<Layout><AdobeCreativeCloudPage /></Layout>} />
+        <Route path="/subscription-groups/microsoft-365" element={<Layout><Microsoft365Page /></Layout>} />
+        <Route path="/subscription-groups/notion" element={<Layout><NotionPage /></Layout>} />
+        <Route path="/subscription-groups/grammarly-premium" element={<Layout><GrammarlyPremiumPage /></Layout>} />
+        <Route path="/subscription-groups/linkedin-premium" element={<Layout><LinkedInPremiumPage /></Layout>} />
+        <Route path="/subscription-groups/xbox-game-pass" element={<Layout><XboxGamePassPage /></Layout>} />
+        <Route path="/subscription-groups/playstation-plus" element={<Layout><PlayStationPlusPage /></Layout>} />
+        <Route path="/subscription-groups/nintendo-switch-online" element={<Layout><NintendoSwitchOnlinePage /></Layout>} />
+        <Route path="/subscription-groups/dropbox" element={<Layout><DropboxPage /></Layout>} />
+        <Route path="/subscription-groups/google-one" element={<Layout><GoogleOnePage /></Layout>} />
+        <Route path="/subscription-groups/icloud-plus" element={<Layout><ICloudPlusPage /></Layout>} />
+        <Route path="/subscription-groups/nordvpn" element={<Layout><NordVPNPage /></Layout>} />
+        <Route path="/subscription-groups/expressvpn" element={<Layout><ExpressVPNPage /></Layout>} />
+        <Route path="/subscription-groups/new-york-times" element={<Layout><NewYorkTimesPage /></Layout>} />
+        <Route path="/subscription-groups/wall-street-journal" element={<Layout><WallStreetJournalPage /></Layout>} />
         <Route path="/get-started" element={<Layout><GetStartedPage /></Layout>} />
         <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         
