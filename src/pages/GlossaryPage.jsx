@@ -88,19 +88,25 @@ export default function GlossaryPage() {
     },
     {
       term: "Admin",
-      definition: "Short for Group Administrator - the person who creates and manages a group. Admins can approve/reject member requests, update group settings (contribution amounts, maximum size), pause/resume accepting members, close/reopen groups, and confirm contributions (for Subscription and General Groups).",
+      definition: "Short for Group Administrator - the person who creates and manages a group. Full admins can approve/reject member requests, update all group settings (contribution amounts, maximum size, currency), pause/resume accepting members, close/reopen groups, confirm contributions (for Subscription and General Groups), promote/demote co-admins, and remove any members. Only the main admin (creator) can close/reopen groups and delete groups.",
       category: "roles",
-      relatedTerms: ["Group Management", "Member Approval", "Contribution Confirmation"]
+      relatedTerms: ["Group Management", "Member Approval", "Contribution Confirmation", "Co-Admin"]
+    },
+    {
+      term: "Co-Admin",
+      definition: "A middle-tier role between regular members and full admins. Co-admins can help manage groups by approving/rejecting member requests, removing regular members (but not admins or other co-admins), confirming subscription and general contributions, updating group name and notes, toggling accepting requests and chat, and updating deadlines. However, co-admins cannot change contribution amount, max members, or currency; close/reopen groups; delete groups; promote/demote members; or remove admins or other co-admins. Only full admins can promote/demote co-admins. For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.",
+      category: "roles",
+      relatedTerms: ["Admin", "Group Management", "Member Approval", "Contribution Confirmation"]
     },
     {
       term: "Fixed Contribution Amount",
-      definition: "A set amount that each member contributes (e.g., 5,000 per person). Fixed amounts ensure fairness and clarity - everyone knows exactly what to contribute. Admins can update contribution amounts, and all active members are notified of changes via email, push, and in-app notifications.",
+      definition: "A set amount that each member contributes (e.g., 5,000 per person). Fixed amounts ensure fairness and clarity - everyone knows exactly what to contribute. Only full admins can update contribution amounts (co-admins cannot), and all active members are notified of changes via email, push, and in-app notifications.",
       category: "payments",
-      relatedTerms: ["Maximum Group Size", "Contribution Calculation", "Admin"]
+      relatedTerms: ["Maximum Group Size", "Contribution Calculation", "Admin", "Co-Admin"]
     },
     {
       term: "Maximum Group Size",
-      definition: "The maximum number of members that can join a group. Set when creating the group, this helps calculate total yearly contribution amounts upfront. For example, if contribution is 5,000 and max size is 10, total commitment is 50,000. Admins can update this setting.",
+      definition: "The maximum number of members that can join a group. Set when creating the group, this helps calculate total yearly contribution amounts upfront. For example, if contribution is 5,000 and max size is 10, total commitment is 50,000. Only full admins can update this setting (co-admins cannot).",
       category: "groups",
       relatedTerms: ["Fixed Contribution Amount", "Contribution Calculation", "Admin"]
     },

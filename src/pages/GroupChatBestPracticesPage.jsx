@@ -164,16 +164,16 @@ export default function GroupChatBestPracticesPage() {
             </div>
 
             <div className="resource-section">
-              <h2>Admin Best Practices</h2>
+              <h2>Admin & Co-Admin Best Practices</h2>
               <p>
-                Group admins have additional responsibilities:
+                Group admins and co-admins have additional responsibilities:
               </p>
               <ul className="resource-list">
                 <li><strong>Set Expectations:</strong> Clearly communicate chat guidelines when enabling chat</li>
-                <li><strong>Moderate When Needed:</strong> Delete inappropriate messages promptly</li>
+                <li><strong>Moderate When Needed:</strong> Delete inappropriate messages promptly (admins and co-admins can delete any message)</li>
                 <li><strong>Lead by Example:</strong> Follow all best practices yourself</li>
                 <li><strong>Address Issues:</strong> Don't ignore problems - address them quickly</li>
-                <li><strong>Disable If Needed:</strong> If chat becomes problematic, disable it temporarily</li>
+                <li><strong>Disable If Needed:</strong> If chat becomes problematic, admins can disable it temporarily (co-admins can toggle chat on/off)</li>
               </ul>
             </div>
 

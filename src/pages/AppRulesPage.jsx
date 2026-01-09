@@ -107,17 +107,18 @@ export default function AppRulesPage() {
                   At this point, the status shows as <strong>"Paid" (awaiting confirmation)</strong>, indicating that the contributor has notified the app that they've made the payment.
                 </p>
                 <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
-                  <strong>Note:</strong> For Birthday Groups, payments go to the celebrant. For Subscription Groups and General Groups, payments go to the admin (group creator).
+                  <strong>Note:</strong> For Birthday Groups, payments go to the celebrant. For Subscription Groups and General Groups, payments go to the admin (group creator). Co-admins can help confirm contributions for Subscription and General Groups, but cannot confirm birthday contributions.
                 </p>
               </div>
 
               <div style={{ marginTop: '2rem' }}>
-                <h3>Step 2: Admin/Celebrant Confirms or Rejects</h3>
+                <h3>Step 2: Admin/Co-Admin/Celebrant Confirms or Rejects</h3>
                 <p>
-                  The person receiving the contribution (celebrant for Birthday Groups, admin for Subscription/General Groups) then:
+                  The person receiving the contribution then:
                 </p>
                 <ul>
-                  <li>Receives a notification that a payment has been marked as "Paid"</li>
+                  <li>For <strong>Subscription and General Groups</strong>: Admins or co-admins receive a notification that a payment has been marked as "Paid"</li>
+                  <li>For <strong>Birthday Groups</strong>: Only the celebrant receives a notification (admins and co-admins cannot confirm/reject birthday contributions)</li>
                   <li>Checks their bank account, mobile money, or other payment method</li>
                   <li>Verifies whether they actually received the payment</li>
                   <li>Marks it as either:
@@ -127,6 +128,9 @@ export default function AppRulesPage() {
                     </ul>
                   </li>
                 </ul>
+                <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                  <strong>Note:</strong> For Birthday Groups, only the celebrant can confirm or reject contributions. Admins and co-admins cannot confirm/reject birthday contributions.
+                </p>
               </div>
 
               <div style={{ marginTop: '2rem', padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px', borderLeft: '4px solid #007bff' }}>
@@ -142,17 +146,20 @@ export default function AppRulesPage() {
               <p>Here's what each payment status means:</p>
               <ul>
                 <li><strong>Not Paid:</strong> The contributor has not yet marked their payment as paid</li>
-                <li><strong>Paid (awaiting confirmation):</strong> The contributor has marked it as paid, but the admin/celebrant hasn't confirmed yet</li>
-                <li><strong>Confirmed:</strong> The admin (for Subscription/General Groups) or celebrant (for Birthday Groups) has verified they received the payment</li>
-                <li><strong>Not Received:</strong> The admin/celebrant has marked that they did not receive the payment</li>
+                <li><strong>Paid (awaiting confirmation):</strong> The contributor has marked it as paid, but the admin/co-admin/celebrant hasn't confirmed yet</li>
+                <li><strong>Confirmed:</strong> The admin or co-admin (for Subscription/General Groups) or celebrant (for Birthday Groups) has verified they received the payment</li>
+                <li><strong>Not Received:</strong> The admin/co-admin/celebrant has marked that they did not receive the payment</li>
                 <li><strong>Overdue:</strong> The payment deadline has passed and the payment is still not confirmed</li>
               </ul>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                <strong>Note:</strong> For Birthday Groups, only the celebrant can confirm or reject contributions. Admins and co-admins cannot confirm/reject birthday contributions.
+              </p>
             </div>
 
             <div className="legal-section">
               <h2>What Happens If Payment Is Marked "Not Received"?</h2>
               <p>
-                If an admin or celebrant marks a payment as "Not Received":
+                If an admin, co-admin, or celebrant marks a payment as "Not Received":
               </p>
               <ul>
                 <li>The status changes to "Not Received"</li>
@@ -275,7 +282,7 @@ export default function AppRulesPage() {
             <div className="legal-section" style={{ padding: '1.5rem', backgroundColor: '#e7f3ff', borderRadius: '8px', borderLeft: '4px solid #007bff' }}>
               <h2 style={{ marginTop: '0' }}>Summary</h2>
               <p style={{ marginBottom: '0', fontWeight: '500' }}>
-                GroupFund is a tracking tool, not a payment processor. Contributors make payments outside the app and mark them as "Paid" in the app. Admins (for Subscription/General Groups) or celebrants (for Birthday Groups) then confirm receipt or mark as "Not Received." This two-step process ensures accuracy and transparency while keeping payments simple and secure.
+                GroupFund is a tracking tool, not a payment processor. Contributors make payments outside the app and mark them as "Paid" in the app. Admins or co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) then confirm receipt or mark as "Not Received." Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. This two-step process ensures accuracy and transparency while keeping payments simple and secure.
               </p>
             </div>
           </div>

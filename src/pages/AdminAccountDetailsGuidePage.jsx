@@ -36,10 +36,13 @@ export default function AdminAccountDetailsGuidePage() {
                 Admin account details are payment information that group admins share with members so they know where to send contributions. This applies to:
               </p>
               <ul className="resource-list">
-                <li><strong>Subscription Groups:</strong> Admin's account for receiving subscription payments</li>
-                <li><strong>General Groups:</strong> Admin's account for receiving event contributions</li>
-                <li><strong>Birthday Groups:</strong> Celebrants add their own account details (not admin)</li>
+                <li><strong>Subscription Groups:</strong> Admin's account for receiving subscription payments (co-admins can help confirm contributions but don't receive payments)</li>
+                <li><strong>General Groups:</strong> Admin's account for receiving event contributions (co-admins can help confirm contributions but don't receive payments)</li>
+                <li><strong>Birthday Groups:</strong> Celebrants add their own account details (not admin or co-admin)</li>
               </ul>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                <strong>Note:</strong> Co-admins can help confirm contributions for Subscription and General Groups, but all payments go to the main admin (group creator). For Birthday Groups, only the celebrant can confirm/reject contributions, not admins or co-admins.
+              </p>
             </div>
 
             <div className="resource-section">

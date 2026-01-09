@@ -136,7 +136,7 @@ export default function UsingGroupChatAndMessagingPage() {
               <p>You can delete messages you've sent:</p>
               <ul className="resource-list">
                 <li><strong>Your Messages:</strong> You can delete any message you sent</li>
-                <li><strong>Admin Privilege:</strong> Group admins can delete any message in the group</li>
+                <li><strong>Admin/Co-Admin Privilege:</strong> Group admins and co-admins can delete any message in the group</li>
                 <li><strong>Soft Delete:</strong> Messages are soft-deleted (hidden but can be restored if needed)</li>
                 <li><strong>Already Deleted:</strong> You cannot delete a message that's already been deleted</li>
               </ul>
@@ -174,7 +174,7 @@ export default function UsingGroupChatAndMessagingPage() {
                 <li><strong>Active Members Only:</strong> Only active group members can send/view messages</li>
                 <li><strong>Group Validation:</strong> Membership is validated on every request</li>
                 <li><strong>Message Length Limits:</strong> Messages must be 1-2000 characters</li>
-                <li><strong>Admin Controls:</strong> Group admins can delete any message</li>
+                <li><strong>Admin/Co-Admin Controls:</strong> Group admins and co-admins can delete any message</li>
                 <li><strong>Soft Delete:</strong> Deleted messages are preserved but hidden</li>
               </ul>
             </div>

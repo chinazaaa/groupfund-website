@@ -48,15 +48,15 @@ export default function HelpPage() {
         },
         {
           question: "Can I change contribution amounts?",
-          answer: "Yes! Group administrators can update contribution amounts at any time. When you change the contribution amount, all active group members (except you, the admin) will be automatically notified via email, push notification, and in-app notification. The email notification includes the old and new contribution amounts, clearly indicates whether it increased or decreased, and gives members the option to review and leave the group if they're not comfortable with the change. Changes to contribution amounts apply to future contributions only, and all members are kept informed for full transparency."
+          answer: "Yes! Only full admins (not co-admins) can update contribution amounts at any time. When you change the contribution amount, all active group members (except you, the admin) will be automatically notified via email, push notification, and in-app notification. The email notification includes the old and new contribution amounts, clearly indicates whether it increased or decreased, and gives members the option to review and leave the group if they're not comfortable with the change. Changes to contribution amounts apply to future contributions only, and all members are kept informed for full transparency."
         },
         {
           question: "How do I mark a payment as confirmed?",
-          answer: "When a member marks their payment as 'Paid', the admin (for Subscription/General Groups) or celebrant (for Birthday Groups) can verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. This two-step process ensures accuracy and transparency. The status will show as 'Paid' (awaiting confirmation), 'Confirmed' (received), or 'Not Received' (rejected)."
+          answer: "When a member marks their payment as 'Paid', the admin or co-admin (for Subscription/General Groups) or celebrant (for Birthday Groups) can verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. This two-step process ensures accuracy and transparency. The status will show as 'Paid' (awaiting confirmation), 'Confirmed' (received), or 'Not Received' (rejected). Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins."
         },
         {
-          question: "What if an admin or celebrant rejects my contribution?",
-          answer: "If an admin (for Subscription/General Groups) or celebrant (for Birthday Groups) marks your contribution as 'Not Received', you'll be notified and the status will change to 'Not Received'. You can then follow up with them to resolve the issue. This helps ensure accurate tracking and resolves payment disputes."
+          question: "What if an admin, co-admin, or celebrant rejects my contribution?",
+          answer: "If an admin or co-admin (for Subscription/General Groups) or celebrant (for Birthday Groups) marks your contribution as 'Not Received', you'll be notified and the status will change to 'Not Received'. You can then follow up with them to resolve the issue. This helps ensure accurate tracking and resolves payment disputes."
         },
         {
           question: "What happens if someone doesn't pay?",
@@ -116,7 +116,7 @@ export default function HelpPage() {
         },
         {
           question: "Can I remove members from a group?",
-          answer: "Yes, group administrators can remove members at any time. However, their contribution history will be preserved for record-keeping purposes. Removing a member doesn't affect their reliability score in other groups."
+          answer: "Yes, group administrators and co-admins can remove regular members at any time. However, co-admins cannot remove other admins or co-admins - only full admins can do that. Contribution history will be preserved for record-keeping purposes. Removing a member doesn't affect their reliability score in other groups."
         },
         {
           question: "Can I leave a group?",
@@ -128,15 +128,15 @@ export default function HelpPage() {
         },
         {
           question: "Can I pause accepting new members?",
-          answer: "Yes! Group administrators can pause accepting new member requests at any time. This is useful when you want to temporarily stop new members from joining. You can resume accepting requests whenever you're ready. This doesn't affect existing members or their contributions."
+          answer: "Yes! Group administrators and co-admins can pause accepting new member requests at any time. This is useful when you want to temporarily stop new members from joining. You can resume accepting requests whenever you're ready. This doesn't affect existing members or their contributions."
         },
         {
           question: "Can I close a group?",
-          answer: "Yes, group administrators can close a group, which freezes all activity including new member requests and contributions. This is useful when a group has reached its goal or is no longer active. You can reopen closed groups at any time if needed."
+          answer: "Yes, but only the main admin (group creator) can close or reopen a group, which freezes all activity including new member requests and contributions. Co-admins cannot close or reopen groups. This is useful when a group has reached its goal or is no longer active. You can reopen closed groups at any time if needed."
         },
         {
           question: "Can I update group settings?",
-          answer: "Yes, group administrators can update group settings including the group name, contribution amount, maximum members, and whether the group is accepting new requests. When you update the contribution amount, all active members (except you, the admin) will receive email, push, and in-app notifications with details about the old and new amounts. Changes to contribution amounts apply to future contributions only, and members are given the option to review and leave the group if they're not comfortable with the change."
+          answer: "Yes, group administrators and co-admins can update many group settings including the group name, group notes, accepting requests toggle, chat enabled/disabled, and deadlines. However, only full admins can change critical settings like contribution amount, max members, and currency. Co-admins also cannot close/reopen groups or delete groups - only the main admin (creator) can do that. When the contribution amount is updated, all active members (except the admin) will receive email, push, and in-app notifications with details about the old and new amounts. Changes to contribution amounts apply to future contributions only, and members are given the option to review and leave the group if they're not comfortable with the change."
         },
         {
           question: "Can members see each other's information?",
@@ -152,7 +152,15 @@ export default function HelpPage() {
         },
         {
           question: "How does group chat work?",
-          answer: "GroupFund includes an optional per-group chat feature. When creating or editing a group, group creators can enable or disable chat (chat is disabled by default). When enabled, active group members can send messages, view message history with pagination, and mention other members using @username or @FirstName LastName. You can customize your chat notification preferences: get notified when mentioned (default: ON) or get notified for all messages (default: OFF). Chat is automatically disabled for closed groups. Only the message sender or group admin can delete messages."
+          answer: "GroupFund includes an optional per-group chat feature. When creating or editing a group, group creators can enable or disable chat (chat is disabled by default). When enabled, active group members can send messages, view message history with pagination, and mention other members using @username or @FirstName LastName. You can customize your chat notification preferences: get notified when mentioned (default: ON) or get notified for all messages (default: OFF). Chat is automatically disabled for closed groups. Only the message sender, group admin, or co-admin can delete messages."
+        },
+        {
+          question: "What is a co-admin role?",
+          answer: "The co-admin role provides a middle tier between regular members and full admins. Co-admins can help manage groups but have restricted permissions. They can: approve/reject member requests, remove regular members (but not admins or other co-admins), confirm subscription and general contributions, update group name and notes, toggle accepting requests and chat, and update deadlines. However, co-admins cannot: change contribution amount, max members, or currency; close/reopen groups; delete groups; promote/demote members to/from co-admin; or remove admins or other co-admins. Only full admins can promote/demote co-admins. For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins."
+        },
+        {
+          question: "How do I promote someone to co-admin?",
+          answer: "Only full admins can promote members to co-admin or demote co-admins back to regular members. When you promote or demote someone, they receive an in-app notification about the role change. Co-admins are useful for large groups where the main admin needs help with day-to-day management tasks like approving members and confirming contributions."
         }
       ]
     },

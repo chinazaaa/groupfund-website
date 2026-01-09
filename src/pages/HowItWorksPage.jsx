@@ -46,13 +46,13 @@ export default function HowItWorksPage() {
     {
       number: '4',
       title: 'Manage Members',
-      description: 'Approve or reject member requests based on their reliability scores. View member metrics: total groups joined, contributions made, on-time payment rates, reliability ratings and number of reports.',
+      description: 'Approve or reject member requests based on their reliability scores. View member metrics: total groups joined, contributions made, on-time payment rates, reliability ratings and number of reports. Promote trusted members to co-admin to help manage large groups.',
       icon: '✅'
     },
     {
       number: '5',
       title: 'Track Contributions & Deadlines',
-      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Members mark contributions as "Paid", then admins/celebrants confirm receipt or reject if not received. Track overdue contributions automatically.',
+      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Members mark contributions as "Paid", then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) confirm receipt or reject if not received. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. Track overdue contributions automatically.',
       icon: '📅'
     },
     {
@@ -76,7 +76,7 @@ export default function HowItWorksPage() {
     {
       number: '9',
       title: 'Two-Step Contribution Confirmation',
-      description: 'Members mark contributions as "Paid", then celebrants confirm receipt or reject if not received. Track status in real-time from not paid to confirmed or not received for full transparency.',
+      description: 'Members mark contributions as "Paid", then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) confirm receipt or reject if not received. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. Track status in real-time from not paid to confirmed or not received for full transparency.',
       icon: '🔄'
     },
     {
@@ -162,7 +162,7 @@ export default function HowItWorksPage() {
                   <div className="payment-step-icon">✔️</div>
                   <h3 className="payment-step-title">Get Confirmed</h3>
                   <p className="payment-step-description">
-                    Recipient confirms receipt or marks as "Not Received" for transparency.
+                    Admin/co-admin (Subscription/General Groups) or celebrant (Birthday Groups) confirms receipt or marks as "Not Received" for transparency. Note: For birthday contributions, only the celebrant can confirm/reject.
                   </p>
                 </div>
               </div>

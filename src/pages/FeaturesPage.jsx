@@ -108,7 +108,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Contribution Confirmation System",
-      description: "Members mark contributions as 'Paid', then celebrants can confirm receipt or reject if not received. Two-step verification ensures accuracy and transparency.",
+      description: "Members mark contributions as 'Paid', then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) can confirm receipt or reject if not received. Two-step verification ensures accuracy and transparency. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.",
       icon: "✅"
     },
     {
@@ -150,6 +150,11 @@ export default function FeaturesPage() {
       title: "Easy Group Management",
       description: "Approve or reject member requests, update group settings (name, amount, max members), remove members, and let members add their own birthdays. Simple and intuitive.",
       icon: "⚙️"
+    },
+    {
+      title: "Co-Admin Role",
+      description: "Promote trusted members to co-admin to help manage groups. Co-admins can approve/reject members, confirm contributions, update group settings (with restrictions), and delete chat messages. Perfect for large groups or when the main admin needs help. Only full admins can promote/demote co-admins.",
+      icon: "👥"
     },
     {
       title: "Birthday Wishlist",
