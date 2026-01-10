@@ -288,6 +288,7 @@ export default function SitemapPage() {
 { path: "/locations/dakar", label: "Dakar" },
 { path: "/locations/riyadh", label: "Riyadh" },
 { path: "/locations/bissau", label: "Bissau" },
+{ path: "/locations/dhaka", label: "Dhaka" },
 { path: "/locations/bratislava", label: "Bratislava" },
         { path: "/locations/ljubljana", label: "Ljubljana" }
 

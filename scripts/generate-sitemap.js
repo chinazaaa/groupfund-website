@@ -703,6 +703,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/locations/bangladesh',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/locations/yemen',
     priority: '0.7',
     changefreq: 'monthly',
@@ -1208,6 +1214,12 @@ const pages = [
   },
   {
     url: '/locations/bissau',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/dhaka',
     priority: '0.6',
     changefreq: 'monthly',
     lastmod: currentDate

@@ -291,6 +291,8 @@ import MacauCityLocationPage from './pages/MacauCityLocationPage'
 import DakarLocationPage from './pages/DakarLocationPage'
 import RiyadhLocationPage from './pages/RiyadhLocationPage'
 import BissauLocationPage from './pages/BissauLocationPage'
+import BangladeshLocationPage from './pages/BangladeshLocationPage'
+import DhakaLocationPage from './pages/DhakaLocationPage'
 import YemenLocationPage from './pages/YemenLocationPage.jsx'
 import IraqLocationPage from './pages/IraqLocationPage.jsx'
 import JordanLocationPage from './pages/JordanLocationPage.jsx'
@@ -522,6 +524,8 @@ function App() {
 <Route path="/locations/dakar" element={<Layout><DakarLocationPage /></Layout>} />
 <Route path="/locations/riyadh" element={<Layout><RiyadhLocationPage /></Layout>} />
 <Route path="/locations/bissau" element={<Layout><BissauLocationPage /></Layout>} />
+<Route path="/locations/bangladesh" element={<Layout><BangladeshLocationPage /></Layout>} />
+<Route path="/locations/dhaka" element={<Layout><DhakaLocationPage /></Layout>} />
 <Route path="/locations/yemen" element={<Layout><YemenLocationPage /></Layout>} />
 <Route path="/locations/iraq" element={<Layout><IraqLocationPage /></Layout>} />
 <Route path="/locations/jordan" element={<Layout><JordanLocationPage /></Layout>} />

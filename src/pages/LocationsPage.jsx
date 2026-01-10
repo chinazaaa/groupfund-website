@@ -179,6 +179,8 @@ export default function LocationsPage() {
     { slug: 'riyadh', name: 'Riyadh, Saudi Arabia', flag: '🇸🇦', type: 'city', parent: 'saudi-arabia' },
     { slug: 'guinea-bissau', name: 'Guinea-Bissau', flag: '🇬🇼', type: 'country' },
     { slug: 'bissau', name: 'Bissau, Guinea-Bissau', flag: '🇬🇼', type: 'city', parent: 'guinea-bissau' },
+    { slug: 'bangladesh', name: 'Bangladesh', flag: '🇧🇩', type: 'country' },
+    { slug: 'dhaka', name: 'Dhaka, Bangladesh', flag: '🇧🇩', type: 'city', parent: 'bangladesh' },
 
   ]
 
