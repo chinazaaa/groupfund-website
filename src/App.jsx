@@ -283,6 +283,14 @@ import MoroccoLocationPage from './pages/MoroccoLocationPage'
 import TelAvivLocationPage from './pages/TelAvivLocationPage'
 import CaracasLocationPage from './pages/CaracasLocationPage'
 import CasablancaLocationPage from './pages/CasablancaLocationPage'
+import MacauLocationPage from './pages/MacauLocationPage'
+import SenegalLocationPage from './pages/SenegalLocationPage'
+import SaudiArabiaLocationPage from './pages/SaudiArabiaLocationPage'
+import GuineaBissauLocationPage from './pages/GuineaBissauLocationPage'
+import MacauCityLocationPage from './pages/MacauCityLocationPage'
+import DakarLocationPage from './pages/DakarLocationPage'
+import RiyadhLocationPage from './pages/RiyadhLocationPage'
+import BissauLocationPage from './pages/BissauLocationPage'
 import YemenLocationPage from './pages/YemenLocationPage.jsx'
 import IraqLocationPage from './pages/IraqLocationPage.jsx'
 import JordanLocationPage from './pages/JordanLocationPage.jsx'
@@ -506,6 +514,14 @@ function App() {
 <Route path="/locations/tel-aviv" element={<Layout><TelAvivLocationPage /></Layout>} />
 <Route path="/locations/caracas" element={<Layout><CaracasLocationPage /></Layout>} />
 <Route path="/locations/casablanca" element={<Layout><CasablancaLocationPage /></Layout>} />
+<Route path="/locations/macau" element={<Layout><MacauLocationPage /></Layout>} />
+<Route path="/locations/senegal" element={<Layout><SenegalLocationPage /></Layout>} />
+<Route path="/locations/saudi-arabia" element={<Layout><SaudiArabiaLocationPage /></Layout>} />
+<Route path="/locations/guinea-bissau" element={<Layout><GuineaBissauLocationPage /></Layout>} />
+<Route path="/locations/macau-city" element={<Layout><MacauCityLocationPage /></Layout>} />
+<Route path="/locations/dakar" element={<Layout><DakarLocationPage /></Layout>} />
+<Route path="/locations/riyadh" element={<Layout><RiyadhLocationPage /></Layout>} />
+<Route path="/locations/bissau" element={<Layout><BissauLocationPage /></Layout>} />
 <Route path="/locations/yemen" element={<Layout><YemenLocationPage /></Layout>} />
 <Route path="/locations/iraq" element={<Layout><IraqLocationPage /></Layout>} />
 <Route path="/locations/jordan" element={<Layout><JordanLocationPage /></Layout>} />

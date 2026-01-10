@@ -679,6 +679,30 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/locations/macau',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/senegal',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/saudi-arabia',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/guinea-bissau',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/locations/yemen',
     priority: '0.7',
     changefreq: 'monthly',
@@ -1160,6 +1184,30 @@ const pages = [
   },
   {
     url: '/locations/casablanca',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/macau-city',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/dakar',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/riyadh',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/bissau',
     priority: '0.6',
     changefreq: 'monthly',
     lastmod: currentDate

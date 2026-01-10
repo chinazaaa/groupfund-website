@@ -171,6 +171,14 @@ export default function LocationsPage() {
     { slug: 'caracas', name: 'Caracas, Venezuela', flag: '🇻🇪', type: 'city', parent: 'venezuela' },
     { slug: 'morocco', name: 'Morocco', flag: '🇲🇦', type: 'country' },
     { slug: 'casablanca', name: 'Casablanca, Morocco', flag: '🇲🇦', type: 'city', parent: 'morocco' },
+    { slug: 'macau', name: 'Macau', flag: '🇲🇴', type: 'country' },
+    { slug: 'macau-city', name: 'Macau City, Macau', flag: '🇲🇴', type: 'city', parent: 'macau' },
+    { slug: 'senegal', name: 'Senegal', flag: '🇸🇳', type: 'country' },
+    { slug: 'dakar', name: 'Dakar, Senegal', flag: '🇸🇳', type: 'city', parent: 'senegal' },
+    { slug: 'saudi-arabia', name: 'Saudi Arabia', flag: '🇸🇦', type: 'country' },
+    { slug: 'riyadh', name: 'Riyadh, Saudi Arabia', flag: '🇸🇦', type: 'city', parent: 'saudi-arabia' },
+    { slug: 'guinea-bissau', name: 'Guinea-Bissau', flag: '🇬🇼', type: 'country' },
+    { slug: 'bissau', name: 'Bissau, Guinea-Bissau', flag: '🇬🇼', type: 'city', parent: 'guinea-bissau' },
 
   ]
 
