@@ -72,7 +72,7 @@ export default function BestAppForSplittingBillsPage() {
       <SEO
         title="Best App for Splitting Bills: Split Costs with Friends & Roommates | GroupFund"
         description="The best app for splitting bills with friends, roommates, and family. Split rent, utilities, subscriptions, and expenses easily. Track payments, send reminders, and avoid awkward money conversations. Free to start."
-        keywords="best app for splitting bills, split bills app, split costs with friends, split money with friends, best way to split bills, split costs app, group expense tracker, split expenses with friends, how to split costs with friends, split bills with roommates, split household bills, split rent app, split utilities app, group payment app for bills"
+        keywords="best app for splitting bills, split bills app, split costs with friends, split money with friends, best way to split bills, how to split bills, split costs app, group expense tracker, split expenses with friends, how to split costs with friends, split bills with roommates, split household bills, split rent app, split utilities app, group payment app for bills, bill splitting app, app to split bills"
         canonical="https://www.groupfund.app/best-app-for-splitting-bills"
       />
 
