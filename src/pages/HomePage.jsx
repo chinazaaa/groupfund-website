@@ -189,7 +189,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Contribution Confirmation</h3>
-              <p>Celebrants can confirm or reject contributions they receive, ensuring transparency and accuracy. Track confirmed payments and handle any discrepancies with clear status updates.</p>
+              <p>Admins and co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) can confirm or reject contributions, ensuring transparency and accuracy. Note: For birthday contributions, only the celebrant can confirm/reject. Track confirmed payments and handle any discrepancies with clear status updates.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -269,6 +269,18 @@ export default function HomePage() {
               </div>
               <h3>Per-Group Chat & Messaging</h3>
               <p>Enable optional group chat for seamless communication. Mention members with @username, get smart notifications, and customize preferences. Chat is disabled by default and can be toggled by group creators.</p>
+            </article>
+            <article className="feature-card">
+              <div className="feature-icon-wrapper">
+                <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3>Co-Admin Role</h3>
+              <p>Promote trusted members to co-admin to help manage large groups. Co-admins can approve members, confirm contributions, update group settings (with restrictions), and delete chat messages. Perfect for delegating management tasks while maintaining control over critical settings.</p>
             </article>
           </div>
         </div>
