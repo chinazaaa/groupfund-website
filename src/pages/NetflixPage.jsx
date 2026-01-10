@@ -1,15 +1,51 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
 export default function NetflixSubscriptionPage() {
+  useEffect(() => {
+    const faqStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I share Netflix family add-on cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To share Netflix family add-on cost, create a Subscription Group in GroupFund, select Netflix as the platform, set the monthly contribution amount per person, and invite your family members using the unique invite code. GroupFund tracks who has paid their share of the Netflix family add-on cost, sends automatic reminders before the billing date, and provides real-time payment status updates. This makes it easy to split and manage Netflix family plan costs transparently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Netflix family add-on cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Netflix family add-on cost refers to the monthly subscription fee for Netflix family plans (like Netflix Premium at $22.99/month). When sharing Netflix with family or friends, you can split this cost among group members. For example, Netflix Premium ($22.99/month) shared among 4 people costs approximately $5.75 per person. GroupFund helps you organize, track, and manage these shared Netflix family add-on costs efficiently."
+          }
+        }
+      ]
+    }
+
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-netflix-faq-schema', 'true')
+    script.textContent = JSON.stringify(faqStructuredData)
+    document.head.appendChild(script)
+
+    return () => {
+      const scriptToRemove = document.querySelector('script[data-netflix-faq-schema]')
+      if (scriptToRemove) scriptToRemove.remove()
+    }
+  }, [])
+
   return (
     <>
       <SEO
-        title="Share Netflix Subscription Costs | Group Netflix Payment Tracking | GroupFund"
-        description="Split Netflix subscription costs with GroupFund. Organize group contributions for Netflix Premium or Standard plans, track payments, manage deadlines, and share Netflix fairly among friends and family."
-        keywords="netflix group subscription, share netflix cost, netflix payment splitting, netflix group contributions, split netflix subscription, netflix family plan, share netflix premium, netflix cost sharing"
+        title="Share Netflix Subscription Costs | Netflix Family Add-On Cost | GroupFund"
+        description="Split Netflix subscription costs and manage Netflix family add-on cost with GroupFund. Organize group contributions for Netflix Premium or Standard plans, track payments, manage deadlines, and share Netflix fairly among friends and family."
+        keywords="netflix group subscription, share netflix cost, netflix payment splitting, netflix group contributions, split netflix subscription, netflix family plan, share netflix premium, netflix cost sharing, netflix family add on cost, netflix family add-on cost, netflix family addon cost"
         canonical="https://www.groupfund.app/subscription-groups/netflix"
       />
 
@@ -66,6 +102,7 @@ export default function NetflixSubscriptionPage() {
               <ul className="use-cases-list">
                 <li><strong>Netflix Premium ($22.99/month):</strong> 4 screens, Ultra HD quality - perfect for sharing among 4 people at ~$5.75 each</li>
                 <li><strong>Netflix Standard ($15.49/month):</strong> 2 screens, Full HD quality - ideal for sharing between 2 people at ~$7.75 each</li>
+                <li><strong>Netflix Family Add-On Cost:</strong> Share Netflix family plan costs with friends and family. Split the monthly subscription fee among group members using GroupFund's Subscription Groups. Track who has paid their share of the Netflix family add-on cost, set automatic reminders, and manage payments transparently.</li>
                 <li><strong>Any Netflix Subscription:</strong> Works with any Netflix plan type and billing cycle</li>
               </ul>
             </div>
@@ -84,6 +121,23 @@ export default function NetflixSubscriptionPage() {
                 <li>Everyone sees payment statuses in real-time</li>
                 <li>Repeat every month - GroupFund handles the scheduling automatically</li>
               </ol>
+            </div>
+
+            <div className="group-type-section">
+              <h2>Netflix Family Add-On Cost: How to Share It</h2>
+              <p>
+                The Netflix family add-on cost is the monthly subscription fee for Netflix family plans. When sharing Netflix with family or friends, you can split this cost among group members using GroupFund. Here's how it works:
+              </p>
+              <ul className="use-cases-list">
+                <li><strong>Calculate Per-Person Cost:</strong> Divide the total Netflix subscription cost by the number of people sharing. For example, Netflix Premium ($22.99/month) ÷ 4 people = $5.75 per person</li>
+                <li><strong>Set Up Subscription Group:</strong> Create a Subscription Group in GroupFund, select Netflix as the platform, and set the contribution amount per person</li>
+                <li><strong>Track Payments:</strong> See who has paid their share of the Netflix family add-on cost and who still owes</li>
+                <li><strong>Automatic Reminders:</strong> GroupFund sends reminders before the billing date so everyone pays on time</li>
+                <li><strong>Transparent Management:</strong> All members can see payment statuses in real-time, eliminating confusion about who has paid</li>
+              </ul>
+              <p>
+                <strong>Benefits:</strong> No more awkward conversations about money, no spreadsheets to manage, and everyone knows exactly how much they owe for the Netflix family add-on cost.
+              </p>
             </div>
 
             <div className="group-type-section">
