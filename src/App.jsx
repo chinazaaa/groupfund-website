@@ -277,6 +277,12 @@ import ColombiaLocationPage from './pages/ColombiaLocationPage.jsx'
 import FinlandLocationPage from './pages/FinlandLocationPage.jsx'
 import SwedenLocationPage from './pages/SwedenLocationPage.jsx'
 import VietnamLocationPage from './pages/VietnamLocationPage.jsx'
+import IsraelLocationPage from './pages/IsraelLocationPage'
+import VenezuelaLocationPage from './pages/VenezuelaLocationPage'
+import MoroccoLocationPage from './pages/MoroccoLocationPage'
+import TelAvivLocationPage from './pages/TelAvivLocationPage'
+import CaracasLocationPage from './pages/CaracasLocationPage'
+import CasablancaLocationPage from './pages/CasablancaLocationPage'
 import YemenLocationPage from './pages/YemenLocationPage.jsx'
 import IraqLocationPage from './pages/IraqLocationPage.jsx'
 import JordanLocationPage from './pages/JordanLocationPage.jsx'
@@ -494,6 +500,12 @@ function App() {
 <Route path="/locations/finland" element={<Layout><FinlandLocationPage /></Layout>} />
 <Route path="/locations/sweden" element={<Layout><SwedenLocationPage /></Layout>} />
 <Route path="/locations/vietnam" element={<Layout><VietnamLocationPage /></Layout>} />
+<Route path="/locations/israel" element={<Layout><IsraelLocationPage /></Layout>} />
+<Route path="/locations/venezuela" element={<Layout><VenezuelaLocationPage /></Layout>} />
+<Route path="/locations/morocco" element={<Layout><MoroccoLocationPage /></Layout>} />
+<Route path="/locations/tel-aviv" element={<Layout><TelAvivLocationPage /></Layout>} />
+<Route path="/locations/caracas" element={<Layout><CaracasLocationPage /></Layout>} />
+<Route path="/locations/casablanca" element={<Layout><CasablancaLocationPage /></Layout>} />
 <Route path="/locations/yemen" element={<Layout><YemenLocationPage /></Layout>} />
 <Route path="/locations/iraq" element={<Layout><IraqLocationPage /></Layout>} />
 <Route path="/locations/jordan" element={<Layout><JordanLocationPage /></Layout>} />

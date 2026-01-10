@@ -164,7 +164,13 @@ export default function LocationsPage() {
 { slug: 'slovakia', name: 'Slovakia', flag: '🇸🇰', type: 'country' },
 { slug: 'bratislava', name: 'Bratislava, Slovakia', flag: '🇸🇰', type: 'city', parent: 'slovakia' },
 { slug: 'slovenia', name: 'Slovenia', flag: '🇸🇮', type: 'country' },
-{ slug: 'ljubljana', name: 'Ljubljana, Slovenia', flag: '🇸🇮', type: 'city', parent: 'slovenia' },
+    { slug: 'ljubljana', name: 'Ljubljana, Slovenia', flag: '🇸🇮', type: 'city', parent: 'slovenia' },
+    { slug: 'israel', name: 'Israel', flag: '🇮🇱', type: 'country' },
+    { slug: 'tel-aviv', name: 'Tel Aviv, Israel', flag: '🇮🇱', type: 'city', parent: 'israel' },
+    { slug: 'venezuela', name: 'Venezuela', flag: '🇻🇪', type: 'country' },
+    { slug: 'caracas', name: 'Caracas, Venezuela', flag: '🇻🇪', type: 'city', parent: 'venezuela' },
+    { slug: 'morocco', name: 'Morocco', flag: '🇲🇦', type: 'country' },
+    { slug: 'casablanca', name: 'Casablanca, Morocco', flag: '🇲🇦', type: 'city', parent: 'morocco' },
 
   ]
 

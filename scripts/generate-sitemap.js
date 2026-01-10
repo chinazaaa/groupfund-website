@@ -661,6 +661,24 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/locations/israel',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/venezuela',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/morocco',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/locations/yemen',
     priority: '0.7',
     changefreq: 'monthly',
@@ -729,6 +747,12 @@ const pages = [
   {
     url: '/locations/tallinn',
     priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/tel-aviv',
+    priority: '0.6',
     changefreq: 'monthly',
     lastmod: currentDate
   },
@@ -1124,6 +1148,18 @@ const pages = [
   },
   {
     url: '/locations/bucharest',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/caracas',
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/locations/casablanca',
     priority: '0.6',
     changefreq: 'monthly',
     lastmod: currentDate
