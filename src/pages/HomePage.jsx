@@ -53,8 +53,8 @@ export default function HomePage() {
       />
       <SEO
         title={NEW_YEAR_MODE 
-          ? "GroupFund - Organize New Year 2026 Contributions & Party Funds | Group Celebration Funds"
-          : "GroupFund - Best App to Manage Group Expenses for Birthdays | Group Payment App"}
+          ? "GroupFund - New Year 2026 Contributions & Party Funds"
+          : "GroupFund - Manage Birthdays, Subscriptions & Expenses"}
         description={NEW_YEAR_MODE
           ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP). Free to start."
           : "The best app to manage group expenses for birthdays, gifts, and events. Collect money from groups, track contributions, send automatic reminders. Perfect for birthday gifts, group payments, and shared expenses. Multi-currency support (NGN, USD, GBP). Free to start."}
