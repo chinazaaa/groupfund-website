@@ -62,6 +62,10 @@ export default function SharedRentAndBillsUseCasePage() {
                   <h3>🌍 Works for Any Living Setup</h3>
                   <p>Whether you are students, young professionals, or a shared family home, everyone can see the same organised view.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Household Group Chat</h3>
+                  <p>Coordinate rent and bills with optional per-group chat. Mention housemates with @username, share account details, discuss bill amounts, and confirm payments - all in one place. Perfect for shared living arrangements.</p>
+                </div>
               </div>
             </div>
 

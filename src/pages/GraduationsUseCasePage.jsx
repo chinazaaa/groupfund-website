@@ -47,6 +47,10 @@ export default function GraduationsUseCasePage() {
                   <h3>✅ Transparent Tracking</h3>
                   <p>Everyone can see who has contributed, maintaining transparency.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Graduation Group Chat</h3>
+                  <p>Coordinate graduation contributions with optional per-group chat. Mention classmates with @username, share account details, and confirm payments - all in one place. Perfect for graduation groups.</p>
+                </div>
               </div>
             </div>
 

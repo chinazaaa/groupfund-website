@@ -74,6 +74,10 @@ export default function PartiesEventsUseCasePage() {
                     See which friends consistently pay on time across events. Identify your reliable contributors and plan future trips and parties with confidence.
                   </p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Party Group Chat</h3>
+                  <p>Coordinate party contributions with optional per-group chat. Mention guests with @username, share account details, discuss event details, and confirm payments - all in one place. Perfect for planning parties and events.</p>
+                </div>
               </div>
             </div>
 

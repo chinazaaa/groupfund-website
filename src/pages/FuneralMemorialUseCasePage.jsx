@@ -62,6 +62,10 @@ export default function FuneralMemorialUseCasePage() {
                   <h3>🎯 Goal Tracking</h3>
                   <p>Set fundraising goals for funeral expenses and track progress. See how close you are to your target amount.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Memorial Group Chat</h3>
+                  <p>Coordinate memorial contributions with optional per-group chat. Mention family and friends with @username, share account details, and confirm donations - all in one place. Respectful coordination for memorial funds.</p>
+                </div>
               </div>
             </div>
 

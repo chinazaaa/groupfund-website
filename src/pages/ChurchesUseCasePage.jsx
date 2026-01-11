@@ -70,6 +70,10 @@ export default function ChurchesUseCasePage() {
                   <h3>📋 Complete History</h3>
                   <p>Maintain records of all contributions for church administration and transparency purposes.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Church Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Professional communication that keeps everything organized.</p>
+                </div>
               </div>
             </div>
 

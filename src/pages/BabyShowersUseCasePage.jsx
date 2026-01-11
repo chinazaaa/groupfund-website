@@ -47,6 +47,10 @@ export default function BabyShowersUseCasePage() {
                   <h3>✅ Transparent Tracking</h3>
                   <p>Everyone can see who has contributed, maintaining transparency.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Baby Shower Group Chat</h3>
+                  <p>Coordinate baby shower contributions with optional per-group chat. Mention guests with @username, share account details, discuss gift ideas, and confirm payments - all in one place. Perfect for organizing baby showers.</p>
+                </div>
               </div>
             </div>
 

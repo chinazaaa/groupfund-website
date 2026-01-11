@@ -62,6 +62,10 @@ export default function SavingsGroupsUseCasePage() {
                   <h3>⭐ Member Reliability</h3>
                   <p>See which members consistently contribute on time. Make informed decisions about group participation.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Savings Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, discuss rotation, share account details, and confirm payments - all in one place. Perfect for savings groups.</p>
+                </div>
               </div>
             </div>
 

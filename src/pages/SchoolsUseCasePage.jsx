@@ -70,6 +70,10 @@ export default function SchoolsUseCasePage() {
                   <h3>👥 Easy Group Management</h3>
                   <p>Approve member requests, manage group settings, and control membership easily.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 School Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention teachers or students with @username, ask questions, share account details, and confirm payments - all in one place. Perfect for class groups and teacher associations.</p>
+                </div>
               </div>
             </div>
 

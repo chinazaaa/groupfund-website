@@ -62,6 +62,10 @@ export default function HomeRenovationUseCasePage() {
                   <h3>🎯 Goal Tracking</h3>
                   <p>Set fundraising goals for renovation projects and track progress. See how close you are to your target.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Renovation Group Chat</h3>
+                  <p>Coordinate renovation contributions with optional per-group chat. Mention contributors with @username, share account details, discuss project details, and confirm payments - all in one place. Perfect for renovation projects.</p>
+                </div>
               </div>
             </div>
 

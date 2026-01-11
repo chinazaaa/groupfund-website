@@ -47,6 +47,10 @@ export default function AlumniAssociationsUseCasePage() {
                   <h3>🌍 International Alumni</h3>
                   <p>Handle contributions from alumni across different countries with multi-currency support.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Alumni Group Chat</h3>
+                  <p>Coordinate alumni contributions with optional per-group chat. Mention alumni with @username, share account details, and confirm payments - all in one place. Perfect for alumni associations.</p>
+                </div>
               </div>
             </div>
 

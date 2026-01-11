@@ -55,6 +55,10 @@ export default function SharedSubscriptionsUseCasePage() {
                   <h3>✅ Payment Confirmation</h3>
                   <p>Admin confirms when payments are received, maintaining transparency.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Subscription Group Chat</h3>
+                  <p>Coordinate subscription payments with optional per-group chat. Mention members with @username, share login details, discuss payment timing, and confirm payments - all in one place. No need to switch between apps.</p>
+                </div>
               </div>
             </div>
 

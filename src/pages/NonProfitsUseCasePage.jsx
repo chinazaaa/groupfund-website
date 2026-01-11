@@ -62,6 +62,10 @@ export default function NonProfitsUseCasePage() {
                   <h3>🎯 Goal Tracking</h3>
                   <p>Set fundraising goals and track progress. See how close you are to your target amount.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Non-Profit Group Chat</h3>
+                  <p>Coordinate fundraising with optional per-group chat. Mention volunteers and donors with @username, share account details, and confirm donations - all in one place. Perfect for non-profit coordination.</p>
+                </div>
               </div>
             </div>
 

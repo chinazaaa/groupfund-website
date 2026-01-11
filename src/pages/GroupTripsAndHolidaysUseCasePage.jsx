@@ -62,6 +62,10 @@ export default function GroupTripsAndHolidaysUseCasePage() {
                   <h3>🌍 Multi-Currency & International Support</h3>
                   <p>Ideal for groups spread across different countries who still need to contribute to the same holiday fund.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Trip Group Chat</h3>
+                  <p>Coordinate trip contributions with optional per-group chat. Mention members with @username, discuss travel details, share account information, and confirm payments - all in one place. Perfect for planning group trips.</p>
+                </div>
               </div>
             </div>
 

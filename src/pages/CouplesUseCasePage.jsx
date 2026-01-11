@@ -62,6 +62,10 @@ export default function CouplesUseCasePage() {
                   <h3>✅ Transparent Tracking</h3>
                   <p>See who has paid and track contributions together. Maintain transparency in shared expenses.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Couple Group Chat</h3>
+                  <p>Coordinate shared expenses with optional per-group chat. Mention your partner with @username, share account details, and confirm payments - all in one place. Perfect for couples managing shared expenses.</p>
+                </div>
               </div>
             </div>
 

@@ -51,6 +51,10 @@ export default function WeddingsUseCasePage() {
                   <h3>✅ Payment Confirmation</h3>
                   <p>Confirm when payments are received, maintaining transparency.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Wedding Group Chat</h3>
+                  <p>Coordinate wedding contributions with optional per-group chat. Mention guests with @username, share account details, discuss wedding details, and confirm payments - all in one place. Perfect for organizing wedding contributions.</p>
+                </div>
               </div>
             </div>
 

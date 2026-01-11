@@ -125,6 +125,10 @@ export default function GroupBirthdayGiftsUseCasePage() {
                   <h3>🌍 Friends & Family Anywhere</h3>
                   <p>Perfect for groups spread across cities or countries who still want to contribute to the same birthday surprise.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Birthday Gift Group Chat</h3>
+                  <p>Coordinate birthday gift contributions with optional per-group chat. Mention friends and family with @username, share account details, discuss gift ideas, and confirm payments - all in one place. Perfect for organizing group birthday gifts.</p>
+                </div>
               </div>
             </div>
 

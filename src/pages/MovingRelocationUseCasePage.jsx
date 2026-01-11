@@ -62,6 +62,10 @@ export default function MovingRelocationUseCasePage() {
                   <h3>🎯 Goal Tracking</h3>
                   <p>Set fundraising goals for moving expenses and track progress. See how close you are to your target.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Moving Fund Chat</h3>
+                  <p>Coordinate moving contributions with optional per-group chat. Mention supporters with @username, share account details, discuss moving details, and confirm payments - all in one place. Perfect for moving funds.</p>
+                </div>
               </div>
             </div>
 

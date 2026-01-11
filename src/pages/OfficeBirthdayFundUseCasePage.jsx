@@ -62,6 +62,10 @@ export default function OfficeBirthdayFundUseCasePage() {
                   <h3>🌐 Works for Hybrid & Remote Teams</h3>
                   <p>Use the same link for colleagues in the office and those working remotely, across locations and time zones.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Office Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention colleagues with @username, share account details, and confirm payments - all in one place. Perfect for office and remote teams.</p>
+                </div>
               </div>
             </div>
 

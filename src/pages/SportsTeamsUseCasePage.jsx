@@ -47,6 +47,10 @@ export default function SportsTeamsUseCasePage() {
                   <h3>🎉 Event Planning</h3>
                   <p>Organize contributions for team events and celebrations.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Team Chat</h3>
+                  <p>Coordinate team contributions with optional per-group chat. Mention team members with @username, share account details, and confirm payments - all in one place. Perfect for sports teams.</p>
+                </div>
               </div>
             </div>
 

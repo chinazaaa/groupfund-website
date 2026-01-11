@@ -62,6 +62,10 @@ export default function StudentsUseCasePage() {
                   <h3>✅ Transparent Tracking</h3>
                   <p>See who has paid and who still needs to contribute. No more awkward reminders or forgotten payments.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Student Group Chat</h3>
+                  <p>Coordinate student expenses with optional per-group chat. Mention classmates or roommates with @username, share account details, and confirm payments - all in one place. Perfect for students managing shared expenses.</p>
+                </div>
               </div>
             </div>
 

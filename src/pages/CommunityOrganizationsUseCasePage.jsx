@@ -74,6 +74,10 @@ export default function CommunityOrganizationsUseCasePage() {
                   <h3>🌍 Multi-Currency Support</h3>
                   <p>Perfect for international community groups. Support for NGN, USD, GBP, EUR, and more.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Community Group Chat</h3>
+                  <p>Coordinate community contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for community organizations.</p>
+                </div>
               </div>
             </div>
 

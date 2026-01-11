@@ -47,6 +47,10 @@ export default function HobbyGroupsUseCasePage() {
                   <h3>🎨 Event Contributions</h3>
                   <p>Organize contributions for hobby group events and meetups.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Hobby Group Chat</h3>
+                  <p>Coordinate hobby group contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for hobby groups.</p>
+                </div>
               </div>
             </div>
 

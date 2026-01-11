@@ -62,6 +62,10 @@ export default function RoommatesUseCasePage() {
                   <h3>📱 Easy Mobile Access</h3>
                   <p>Track payments on the go. Everyone can see payment status in real-time from their phones.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Roommate Group Chat</h3>
+                  <p>Coordinate expenses with optional per-group chat. Mention roommates with @username, share account details, discuss bills, and confirm payments - all in one place. Perfect for roommates managing shared expenses.</p>
+                </div>
               </div>
             </div>
 
