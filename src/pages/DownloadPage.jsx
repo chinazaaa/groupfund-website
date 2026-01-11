@@ -73,7 +73,7 @@ export default function DownloadPage() {
   <div className="container">
     <h1 className="page-title">Download GroupFund</h1>
     <p className="page-subtitle">
-      Get the app and start organizing your group's birthday contributions today. Available for iOS and Android.
+      Get the app and start organizing your group's contributions today. Available for iOS and Android.
     </p>
 <br></br>
     {/* New: top app badges */}
@@ -129,7 +129,7 @@ export default function DownloadPage() {
                 <div className="download-feature-card">
                   <div className="download-feature-icon">🔔</div>
                   <h3>Push Notifications</h3>
-                  <p>Get instant reminders about upcoming birthdays and payment deadlines directly on your device.</p>
+                  <p>Get instant reminders about upcoming birthdays, subscription deadlines, and payment deadlines directly on your device.</p>
                 </div>
                 <div className="download-feature-card">
                   <div className="download-feature-icon">📅</div>
@@ -156,7 +156,7 @@ export default function DownloadPage() {
 
             <div className="download-cta-section">
               <h2>Get Started in Minutes</h2>
-              <p>Download the app, create your first group, and start organizing birthday contributions today. It's free to get started!</p>
+              <p>Download the app, create your first group, and start organizing group contributions today. It's free to get started!</p>
               
               <div className="app-store-badges">
                 <a 
@@ -214,12 +214,12 @@ export default function DownloadPage() {
                 <div className="step-card">
                   <div className="step-number">3</div>
                   <h3>Create Your First Group</h3>
-                  <p>Add your group members and set up your first birthday contribution.</p>
+                  <p>Set up your group details and contribution amount.</p>
                 </div>
                 <div className="step-card">
                   <div className="step-number">4</div>
-                  <h3>Start Organizing</h3>
-                  <p>Invite members, set contribution amounts, and let GroupFund handle the rest!</p>
+                  <h3>Invite Members</h3>
+                  <p>Share your invite code or link with members to join your group.</p>
                 </div>
               </div>
             </div>
