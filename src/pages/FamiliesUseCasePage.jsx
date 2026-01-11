@@ -66,6 +66,10 @@ export default function FamiliesUseCasePage() {
                   <h3>🎁 Birthday Wishlists (Birthday Groups)</h3>
                   <p>For Birthday Groups: Create and share birthday wishlists with family members. Add items with pictures and prices. Family members can claim items they want to gift, making gift coordination easy and avoiding duplicates.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention family members with @username, ask questions, share account details, and confirm payments - all in one place. No need to switch between apps or lose context. Everything stays organized and connected.</p>
+                </div>
               </div>
             </div>
 

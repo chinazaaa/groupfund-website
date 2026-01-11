@@ -176,9 +176,9 @@ export default function FeaturesPage() {
         storeName={storeName}
       />
       <SEO
-        title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & More"
-        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), member reliability scores, group health metrics, multi-currency support, per-group chat with mentions, automatic reminders, real-time payment tracking, advanced group management, and more."
-        keywords="groupfund features, group contribution app features, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders, group chat, messaging"
+        title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & Integrated Chat"
+        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), integrated per-group chat with mentions, member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, and more. Everything in one place - payments AND chat."
+        keywords="groupfund features, group contribution app features, group payment app with chat, group contribution app with messaging, in-app messaging for group payments, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders, group chat, messaging"
         canonical="https://www.groupfund.app/features"
       />
 

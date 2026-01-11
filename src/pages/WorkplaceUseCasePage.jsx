@@ -74,6 +74,10 @@ export default function WorkplaceUseCasePage() {
                   <h3>🌍 Multi-Currency Support</h3>
                   <p>Perfect for international offices or remote teams. Support for multiple currencies.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Professional Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention colleagues with @username, ask questions, share account details, and confirm payments - all in one place. Professional communication that keeps everything organized without needing external messaging apps.</p>
+                </div>
               </div>
             </div>
 

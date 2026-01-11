@@ -103,6 +103,19 @@ export default function ComparisonsPage() {
         'Group contribution tracking'
       ],
       keywords: 'groupfund vs venmo, venmo alternative, group contribution app comparison'
+    },
+    {
+      slug: 'payment-apps-with-chat',
+      title: 'Best Group Payment App with Chat',
+      description: 'Compare GroupFund with other payment apps (Splitwise, Venmo) focusing on chat features. See why integrated chat makes GroupFund the best group payment app with messaging.',
+      icon: '💬',
+      keyFeatures: [
+        'Integrated per-group chat',
+        'Member mentions with @username',
+        'Payment-contextual messaging',
+        'Everything in one place'
+      ],
+      keywords: 'best group payment app with chat, apps for group payments with messaging, payment apps with in-app messaging, group payment app with chat'
     }
   ]
 

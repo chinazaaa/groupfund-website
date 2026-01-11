@@ -74,6 +74,10 @@ export default function FriendGroupsUseCasePage() {
                   <h3>🎁 Birthday Wishlists</h3>
                   <p>Create and share birthday wishlists with your friend group. Add items with pictures and prices. Friends can claim items they want to gift, making gift coordination effortless and avoiding duplicate gifts.</p>
                 </div>
+                <div className="feature-item">
+                  <h3>💬 Group Chat for Coordination</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention friends with @username, ask questions, share account details, and confirm payments - all in one place. No more switching between apps or losing context. Everything stays organized and connected.</p>
+                </div>
               </div>
             </div>
 
