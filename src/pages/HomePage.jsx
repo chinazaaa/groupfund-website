@@ -382,7 +382,7 @@ export default function HomePage() {
                 />
               </a>
             </div>
-            <a href="https://groupfund.app/get-started" className="btn btn-primary btn-large" aria-label="Start your free group now" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.groupfund.app/get-started" className="btn btn-primary btn-large" aria-label="Start your free group now" target="_blank" rel="noopener noreferrer">
               Start Your Free Group Now
             </a>
           </div>

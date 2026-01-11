@@ -1,5 +1,5 @@
 # robots.txt for GroupFund
-# https://groupfund.app/robots.txt
+# https://www.groupfund.app/robots.txt
 
 User-agent: *
 Allow: /
@@ -11,7 +11,7 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://groupfund.app/sitemap.xml
+Sitemap: https://www.groupfund.app/sitemap.xml
 
 # Crawl-delay (optional, helps prevent server overload)
 Crawl-delay: 1

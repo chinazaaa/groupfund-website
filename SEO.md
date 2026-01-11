@@ -72,13 +72,13 @@ This will automatically update the sitemap with the current date. The script run
 
 ### Google Search Console
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add your property (https://groupfund.app)
-3. Submit the sitemap: `https://groupfund.app/sitemap.xml`
+2. Add your property (https://www.groupfund.app)
+3. Submit the sitemap: `https://www.groupfund.app/sitemap.xml`
 
 ### Bing Webmaster Tools
 1. Go to [Bing Webmaster Tools](https://www.bing.com/webmasters)
 2. Add your site
-3. Submit the sitemap: `https://groupfund.app/sitemap.xml`
+3. Submit the sitemap: `https://www.groupfund.app/sitemap.xml`
 
 ## Testing
 

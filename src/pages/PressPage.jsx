@@ -144,7 +144,7 @@ export default function PressPage() {
               <ul>
                 <li>Twitter/X: @GroupFundApp</li>
                 <li>LinkedIn: GroupFund</li>
-                <li>Website: <a href="https://groupfund.app">groupfund.app</a></li>
+                <li>Website: <a href="https://www.groupfund.app">groupfund.app</a></li>
               </ul>
             </div>
 
