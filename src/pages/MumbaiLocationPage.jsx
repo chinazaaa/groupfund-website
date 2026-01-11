@@ -64,7 +64,12 @@ export default function MumbaiLocationPage() {
                 <div className="feature-item"><h3>🏫 Mumbai Schools</h3><p>Perfect for Mumbai schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 INR Support</h3><p>Full support for Indian Rupee. Set amounts in INR, perfect for UPI, NEFT, and IMPS transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Mumbai's mobile-first culture. Access from anywhere in Mumbai.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Mumbai Groups Use GroupFund</h2>

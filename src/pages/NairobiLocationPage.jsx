@@ -64,7 +64,12 @@ export default function NairobiLocationPage() {
                 <div className="feature-item"><h3>🏫 Nairobi Schools</h3><p>Perfect for Nairobi schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 KES Support</h3><p>Full support for Kenyan Shilling. Set amounts in KES, perfect for bank transfers and M-Pesa.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Nairobi's mobile money culture. Access from anywhere in Nairobi.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Nairobi Groups Use GroupFund</h2>

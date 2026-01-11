@@ -64,7 +64,12 @@ export default function AccraLocationPage() {
                 <div className="feature-item"><h3>🏫 Accra Schools</h3><p>Perfect for Accra schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 GHS Support</h3><p>Full support for Ghanaian Cedi. Set amounts in GHS, perfect for Accra bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Accra's mobile-first culture. Access from anywhere in Accra.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Accra Groups Use GroupFund</h2>

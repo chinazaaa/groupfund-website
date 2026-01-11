@@ -64,7 +64,12 @@ export default function NewYorkLocationPage() {
                 <div className="feature-item"><h3>🏫 New York Schools</h3><p>Perfect for New York schools, universities, and student groups organizing contributions for any purpose.</p></div>
                 <div className="feature-item"><h3>💰 USD Support</h3><p>Full support for US Dollar. Set amounts in USD, perfect for New York bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for New York's fast-paced lifestyle. Access from anywhere in NYC.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How New York Groups Use GroupFund</h2>

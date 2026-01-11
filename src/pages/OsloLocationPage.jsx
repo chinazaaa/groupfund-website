@@ -64,7 +64,12 @@ export default function OsloLocationPage() {
                 <div className="feature-item"><h3>🏫 Oslo Schools</h3><p>Perfect for Oslo schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 NOK Support</h3><p>Full support for Norwegian Krone. Set amounts in NOK, perfect for Oslo bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Oslo's mobile culture. Access from anywhere in Oslo.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Oslo?</h2>

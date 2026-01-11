@@ -64,7 +64,12 @@ export default function PragueLocationPage() {
                 <div className="feature-item"><h3>🏫 Prague Schools</h3><p>Perfect for Prague schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 CZK Support</h3><p>Full support for Czech Koruna. Set amounts in CZK, perfect for Prague bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Prague's mobile culture. Access from anywhere in Prague.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Prague?</h2>

@@ -64,7 +64,12 @@ export default function BerlinLocationPage() {
                 <div className="feature-item"><h3>🏫 Berlin Schools</h3><p>Perfect for Berlin schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 EUR Support</h3><p>Full support for Euro. Set amounts in EUR, perfect for Berlin bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Berlin's mobile culture. Access from anywhere in Berlin.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Berlin Groups Use GroupFund</h2>

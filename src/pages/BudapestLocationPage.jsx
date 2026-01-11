@@ -64,7 +64,12 @@ export default function BudapestLocationPage() {
                 <div className="feature-item"><h3>🏫 Budapest Schools</h3><p>Perfect for Budapest schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 HUF Support</h3><p>Full support for Hungarian Forint. Set amounts in HUF, perfect for Budapest bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Budapest's mobile culture. Access from anywhere in Budapest.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Budapest?</h2>

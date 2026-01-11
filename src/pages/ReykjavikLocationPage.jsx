@@ -64,7 +64,12 @@ export default function ReykjavikLocationPage() {
                 <div className="feature-item"><h3>🏫 Reykjavik Schools</h3><p>Perfect for Reykjavik schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 ISK Support</h3><p>Full support for Icelandic Króna. Set amounts in ISK, perfect for Reykjavik bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Reykjavik's mobile culture. Access from anywhere in Reykjavik.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Reykjavik?</h2>

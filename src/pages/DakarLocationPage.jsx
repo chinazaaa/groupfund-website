@@ -64,7 +64,12 @@ export default function DakarLocationPage() {
                 <div className="feature-item"><h3>🏫 Dakar Schools</h3><p>Perfect for Dakar schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 XOF Support</h3><p>Full support for West African CFA Franc. Set amounts in XOF, perfect for Dakar bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Dakar's mobile-first culture. Access from anywhere in Dakar.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Dakar Groups Use GroupFund</h2>

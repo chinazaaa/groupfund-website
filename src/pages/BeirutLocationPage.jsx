@@ -78,7 +78,12 @@ export default function BeirutLocationPage() {
                     The LBP has faced severe devaluation and parallel-market rates, so GroupFund focuses on tracking contributions in LBP, while external FX tools handle conversion when needed.
                   </p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">

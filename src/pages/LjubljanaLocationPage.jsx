@@ -64,7 +64,12 @@ export default function LjubljanaLocationPage() {
                 <div className="feature-item"><h3>🏫 Ljubljana Schools</h3><p>Perfect for Ljubljana schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 EUR Support</h3><p>Full support for Euro. Set amounts in EUR, perfect for Ljubljana bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Ljubljana's mobile culture. Access from anywhere in Ljubljana.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Ljubljana?</h2>

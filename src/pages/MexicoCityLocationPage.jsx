@@ -64,7 +64,12 @@ export default function MexicoCityLocationPage() {
                 <div className="feature-item"><h3>🏫 Mexico City Schools</h3><p>Perfect for Mexico City schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 MXN Support</h3><p>Full support for Mexican Peso. Set amounts in MXN, perfect for SPEI bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Mexico City's mobile culture. Access from anywhere in CDMX.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Mexico City Groups Use GroupFund</h2>

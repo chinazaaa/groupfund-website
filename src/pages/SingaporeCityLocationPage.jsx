@@ -78,7 +78,12 @@ export default function SingaporeCityLocationPage() {
                     The Singapore dollar is regarded as a strong, investment‑grade currency, so GroupFund tracks contributions directly in SGD while banks and FX tools handle any foreign conversions.
                   </p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">

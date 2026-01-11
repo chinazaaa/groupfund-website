@@ -64,7 +64,12 @@ export default function BuenosAiresLocationPage() {
                 <div className="feature-item"><h3>🏫 Buenos Aires Schools</h3><p>Perfect for Buenos Aires schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 ARS Support</h3><p>Full support for Argentine Peso. Set amounts in ARS, perfect for Buenos Aires bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Buenos Aires's mobile culture. Access from anywhere in Buenos Aires.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Buenos Aires?</h2>

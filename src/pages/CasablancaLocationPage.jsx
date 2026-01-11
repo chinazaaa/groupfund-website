@@ -64,7 +64,12 @@ export default function CasablancaLocationPage() {
                 <div className="feature-item"><h3>🏫 Casablanca Schools</h3><p>Perfect for Casablanca schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 MAD Support</h3><p>Full support for Moroccan Dirham. Set amounts in MAD, perfect for Casablanca bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Casablanca's mobile-first culture. Access from anywhere in Casablanca.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Casablanca Groups Use GroupFund</h2>

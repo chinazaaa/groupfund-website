@@ -64,7 +64,12 @@ export default function CopenhagenLocationPage() {
                 <div className="feature-item"><h3>🏫 Copenhagen Schools</h3><p>Perfect for Copenhagen schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 DKK Support</h3><p>Full support for Danish Krone. Set amounts in DKK, perfect for Copenhagen bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Copenhagen's mobile culture. Access from anywhere in Copenhagen.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="cta-box">
               <h2>Ready to Organize Group Contributions in Copenhagen?</h2>

@@ -64,7 +64,12 @@ export default function TelAvivLocationPage() {
                 <div className="feature-item"><h3>🏫 Tel Aviv Schools</h3><p>Perfect for Tel Aviv schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 ILS Support</h3><p>Full support for Israeli Shekel. Set amounts in ILS, perfect for Tel Aviv bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Tel Aviv's mobile-first culture. Access from anywhere in Tel Aviv.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Tel Aviv Groups Use GroupFund</h2>

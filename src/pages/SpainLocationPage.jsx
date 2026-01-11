@@ -99,7 +99,12 @@ export default function SpainLocationPage() {
                     Native mobile app perfect for Spain's mobile users. Access from anywhere and get push notifications.
                   </p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">

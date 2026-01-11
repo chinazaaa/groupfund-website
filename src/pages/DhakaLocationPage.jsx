@@ -64,7 +64,12 @@ export default function DhakaLocationPage() {
                 <div className="feature-item"><h3>🏫 Dhaka Schools</h3><p>Perfect for Dhaka schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 BDT Support</h3><p>Full support for Bangladeshi Taka. Set amounts in BDT, perfect for Dhaka bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Dhaka's mobile-first culture. Access from anywhere in Dhaka.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Dhaka Groups Use GroupFund</h2>

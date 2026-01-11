@@ -78,7 +78,12 @@ export default function AmmanLocationPage() {
                     JOD is stably pegged to the US dollar, which helps keep local pricing predictable for Amman groups setting contribution amounts.
                   </p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">

@@ -64,7 +64,12 @@ export default function ZurichLocationPage() {
                 <div className="feature-item"><h3>🏫 Zurich Schools</h3><p>Perfect for Zurich schools, universities, and student groups organizing group contributions.</p></div>
                 <div className="feature-item"><h3>💰 CHF Support</h3><p>Full support for Swiss Franc. Set amounts in CHF, perfect for Zurich bank transfers.</p></div>
                 <div className="feature-item"><h3>📱 Mobile Access</h3><p>Native mobile app perfect for Zurich's mobile culture. Access from anywhere in Zurich.</p></div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
             <div className="location-section">
               <h2>How Zurich Groups Use GroupFund</h2>

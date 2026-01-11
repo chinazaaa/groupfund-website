@@ -99,7 +99,12 @@ export default function IraqLocationPage() {
                     Simple mobile experience so members can join groups and update payment status whenever they have access.
                   </p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">

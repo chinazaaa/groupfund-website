@@ -89,7 +89,12 @@ export default function MilanLocationPage() {
                   <h3>📱 Mobile Access</h3>
                   <p>A mobile-first experience that fits Milan&apos;s fast-paced urban lifestyle and busy schedules.</p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">

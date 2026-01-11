@@ -89,7 +89,12 @@ export default function KabulLocationPage() {
                   <h3>📱 Mobile Access</h3>
                   <p>Simple mobile-friendly experience so members can update payments whenever they have internet access.</p>
                 </div>
-              </div>
+              
+                <div className="feature-item">
+                  <h3>💬 Integrated Group Chat</h3>
+                  <p>Coordinate contributions with optional per-group chat. Mention members with @username, share account details, and confirm payments - all in one place. Perfect for local groups.</p>
+                </div>
+</div>
             </div>
 
             <div className="location-section">
