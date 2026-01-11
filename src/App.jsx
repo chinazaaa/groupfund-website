@@ -710,6 +710,7 @@ function App() {
         <Route path="/subscription-groups/universal-yums" element={<Layout><UniversalYumsPage /></Layout>} />
         <Route path="/subscription-groups/blue-apron" element={<Layout><BlueApronPage /></Layout>} />
         <Route path="/subscription-groups/hello-fresh" element={<Layout><HelloFreshPage /></Layout>} />
+        <Route path="/subscription-groups/hellofresh" element={<Layout><HelloFreshPage /></Layout>} />
         <Route path="/subscription-groups/uber-eats-pass" element={<Layout><UberEatsPassPage /></Layout>} />
         <Route path="/subscription-groups/home-chef" element={<Layout><HomeChefPage /></Layout>} />
         <Route path="/subscription-groups/bokksu" element={<Layout><BokksuPage /></Layout>} />
