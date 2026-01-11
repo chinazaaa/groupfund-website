@@ -336,7 +336,7 @@ export default function HelpPage() {
     const faqStructuredData = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "url": "https://groupfund.app/help",
+      "url": "https://www.groupfund.app/help",
       "mainEntity": allQuestions
     }
 

@@ -10,15 +10,15 @@ export default function JohannesburgLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Johannesburg, South Africa with GroupFund. Perfect for Johannesburg families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/johannesburg",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/johannesburg",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Johannesburg" },
         { "@type": "Country", "name": "South Africa" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ZAR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

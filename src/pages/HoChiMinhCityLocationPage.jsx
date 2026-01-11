@@ -10,15 +10,15 @@ export default function HoChiMinhCityLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Ho Chi Minh City, Vietnam with GroupFund. Perfect for HCMC families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/ho-chi-minh-city",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/ho-chi-minh-city",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Ho Chi Minh City" },
         { "@type": "Country", "name": "Vietnam" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VND" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

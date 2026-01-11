@@ -10,12 +10,12 @@ export default function IraqLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Iraq with GroupFund. Perfect for Iraqi families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/iraq",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/iraq",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Iraq" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IQD" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

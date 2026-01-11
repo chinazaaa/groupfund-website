@@ -10,15 +10,15 @@ export default function MilanLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Milan, Italy with GroupFund. Perfect for Milan families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/milan",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/milan",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Milan" },
         { "@type": "Country", "name": "Italy" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

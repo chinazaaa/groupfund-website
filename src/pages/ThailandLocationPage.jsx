@@ -10,12 +10,12 @@ export default function ThailandLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Thailand with GroupFund. Perfect for Thai families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/thailand",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/thailand",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Thailand" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "THB" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

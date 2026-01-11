@@ -10,12 +10,12 @@ export default function RussiaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Russia with GroupFund. Perfect for Russian families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/russia",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/russia",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Russia" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

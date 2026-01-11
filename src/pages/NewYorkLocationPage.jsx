@@ -10,15 +10,15 @@ export default function NewYorkLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in New York, USA with GroupFund. Perfect for New York families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/new-york",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/new-york",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "New York" },
         { "@type": "Country", "name": "United States" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

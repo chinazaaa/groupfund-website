@@ -10,12 +10,12 @@ export default function GreeceLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Greece with GroupFund. Perfect for Greek families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/greece",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/greece",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Greece" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

@@ -10,12 +10,12 @@ export default function SenegalLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Senegal with GroupFund. Perfect for Senegalese families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/senegal",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/senegal",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Senegal" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "XOF" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

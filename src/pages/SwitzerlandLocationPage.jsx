@@ -10,12 +10,12 @@ export default function SwitzerlandLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Switzerland with GroupFund. Perfect for Swiss families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/switzerland",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/switzerland",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Switzerland" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

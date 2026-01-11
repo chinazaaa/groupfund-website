@@ -11,8 +11,8 @@ export default function UsingBirthdayWishlistsPage() {
       "@type": "HowTo",
       "name": "How to Use Birthday Wishlists for Group Gift Giving",
       "description": "A complete guide to creating and using birthday wishlists for coordinated group gift giving",
-      "image": "https://groupfund.app/og-image.jpg",
-      "url": "https://groupfund.app/resources/using-birthday-wishlists",
+      "image": "https://www.groupfund.app/og-image.jpg",
+      "url": "https://www.groupfund.app/resources/using-birthday-wishlists",
       "totalTime": "PT10M",
       "estimatedCost": {
         "@type": "MonetaryAmount",

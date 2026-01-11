@@ -10,15 +10,15 @@ export default function CaracasLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Caracas, Venezuela with GroupFund. Perfect for Caracas families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/caracas",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/caracas",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Caracas" },
         { "@type": "Country", "name": "Venezuela" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VES" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

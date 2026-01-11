@@ -10,15 +10,15 @@ export default function RiyadhLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Riyadh, Saudi Arabia with GroupFund. Perfect for Riyadh families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/riyadh",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/riyadh",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Riyadh" },
         { "@type": "Country", "name": "Saudi Arabia" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "SAR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

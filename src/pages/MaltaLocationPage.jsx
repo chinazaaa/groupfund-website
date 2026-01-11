@@ -10,12 +10,12 @@ export default function MaltaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Malta with GroupFund. Perfect for Maltese families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/malta",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/malta",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Malta" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

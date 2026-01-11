@@ -10,15 +10,15 @@ export default function CairoLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Cairo, Egypt with GroupFund. Perfect for Cairo families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/cairo",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/cairo",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Cairo" },
         { "@type": "Country", "name": "Egypt" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EGP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

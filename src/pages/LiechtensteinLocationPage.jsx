@@ -10,12 +10,12 @@ export default function LiechtensteinLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Liechtenstein with GroupFund. Perfect for Liechtenstein families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/liechtenstein",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/liechtenstein",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Liechtenstein" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

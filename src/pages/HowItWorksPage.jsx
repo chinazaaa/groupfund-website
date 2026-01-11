@@ -10,7 +10,7 @@ export default function HowItWorksPage() {
       "@type": "WebPage",
       "name": "How It Works - GroupFund",
       "description": "Learn how GroupFund works to organize group contributions for birthdays, subscriptions, and events. Simple steps to get started.",
-      "url": "https://groupfund.app/how-it-works"
+      "url": "https://www.groupfund.app/how-it-works"
     }
     const existingScript = document.querySelector('script[data-how-it-works-schema]')
     if (existingScript) existingScript.remove()

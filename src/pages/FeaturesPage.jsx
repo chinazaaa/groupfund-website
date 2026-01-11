@@ -14,7 +14,7 @@ export default function FeaturesPage() {
       "@type": "WebPage",
       "name": "Features - GroupFund",
       "description": "Discover GroupFund's features for organizing group contributions: multi-currency support, automatic reminders, payment tracking, and more.",
-      "url": "https://groupfund.app/features"
+      "url": "https://www.groupfund.app/features"
     }
     const existingScript = document.querySelector('script[data-features-schema]')
     if (existingScript) existingScript.remove()

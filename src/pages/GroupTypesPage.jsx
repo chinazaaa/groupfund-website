@@ -10,7 +10,7 @@ export default function GroupTypesPage() {
       "@type": "WebPage",
       "name": "Group Types - GroupFund",
       "description": "Learn about GroupFund's three group types: Birthday Groups, Subscription Groups, and General Groups. Choose the right type for your needs.",
-      "url": "https://groupfund.app/group-types"
+      "url": "https://www.groupfund.app/group-types"
     }
     const existingScript = document.querySelector('script[data-group-types-schema]')
     if (existingScript) existingScript.remove()

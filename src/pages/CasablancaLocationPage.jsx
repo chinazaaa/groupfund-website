@@ -10,15 +10,15 @@ export default function CasablancaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Casablanca, Morocco with GroupFund. Perfect for Casablanca families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/casablanca",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/casablanca",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Casablanca" },
         { "@type": "Country", "name": "Morocco" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "MAD" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

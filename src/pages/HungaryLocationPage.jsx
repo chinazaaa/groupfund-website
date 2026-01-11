@@ -10,12 +10,12 @@ export default function HungaryLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Hungary with GroupFund. Perfect for Hungarian families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/hungary",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/hungary",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Hungary" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "HUF" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

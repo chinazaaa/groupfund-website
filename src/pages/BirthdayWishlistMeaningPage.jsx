@@ -9,7 +9,7 @@ export default function BirthdayWishlistMeaningPage() {
     const faqStructuredData = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "url": "https://groupfund.app/resources/birthday-wishlist-meaning",
+      "url": "https://www.groupfund.app/resources/birthday-wishlist-meaning",
       "mainEntity": [
         {
           "@type": "Question",

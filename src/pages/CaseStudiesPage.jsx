@@ -50,7 +50,7 @@ export default function CaseStudiesPage() {
       "@type": "CollectionPage",
       "name": "Group Contribution Case Studies",
       "description": "Read detailed case studies showing how churches, families, and groups successfully use GroupFund to organize group contributions.",
-      "url": "https://groupfund.app/case-studies",
+      "url": "https://www.groupfund.app/case-studies",
       "mainEntity": {
         "@type": "ItemList",
         "itemListElement": caseStudies.map((study, index) => ({
@@ -60,7 +60,7 @@ export default function CaseStudiesPage() {
             "@type": "Article",
             "name": study.title,
             "description": study.description,
-            "url": `https://groupfund.app/case-studies/${study.slug}`
+            "url": `https://www.groupfund.app/case-studies/${study.slug}`
           }
         }))
       }

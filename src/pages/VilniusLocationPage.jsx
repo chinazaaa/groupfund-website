@@ -10,15 +10,15 @@ export default function VilniusLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Vilnius, Lithuania with GroupFund. Perfect for Vilnius families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/vilnius",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/vilnius",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Vilnius" },
         { "@type": "Country", "name": "Lithuania" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

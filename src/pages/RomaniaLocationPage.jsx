@@ -10,12 +10,12 @@ export default function RomaniaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Romania with GroupFund. Perfect for Romanian families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/romania",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/romania",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Romania" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

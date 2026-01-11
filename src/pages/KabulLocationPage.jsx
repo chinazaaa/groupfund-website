@@ -10,8 +10,8 @@ export default function KabulLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Kabul, Afghanistan with GroupFund. Perfect for Kabul families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/kabul",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/kabul",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Kabul" },
         { "@type": "Country", "name": "Afghanistan" }

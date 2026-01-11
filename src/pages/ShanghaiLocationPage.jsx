@@ -10,15 +10,15 @@ export default function ShanghaiLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Shanghai, China with GroupFund. Perfect for Shanghai families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/shanghai",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/shanghai",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Shanghai" },
         { "@type": "Country", "name": "China" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

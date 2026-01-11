@@ -10,7 +10,7 @@ export default function ReportPage() {
       "@type": "WebPage",
       "name": "Report - GroupFund",
       "description": "Report groups or members for spam, fraud, harassment, or other violations. Help maintain platform safety.",
-      "url": "https://groupfund.app/report"
+      "url": "https://www.groupfund.app/report"
     }
     const existingScript = document.querySelector('script[data-report-schema]')
     if (existingScript) existingScript.remove()

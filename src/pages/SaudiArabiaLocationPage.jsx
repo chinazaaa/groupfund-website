@@ -10,12 +10,12 @@ export default function SaudiArabiaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Saudi Arabia with GroupFund. Perfect for Saudi families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/saudi-arabia",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/saudi-arabia",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Saudi Arabia" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "SAR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

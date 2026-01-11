@@ -10,7 +10,7 @@ export default function SeasonalPage() {
       "@type": "WebPage",
       "name": "Seasonal - GroupFund",
       "description": "Organize group contributions for seasonal events: holidays, back-to-school, wedding season, and more. Perfect for seasonal group contributions.",
-      "url": "https://groupfund.app/seasonal"
+      "url": "https://www.groupfund.app/seasonal"
     }
     const existingScript = document.querySelector('script[data-seasonal-schema]')
     if (existingScript) existingScript.remove()

@@ -11,8 +11,8 @@ export default function HowToCreateBirthdayWishlistPage() {
       "@type": "HowTo",
       "name": "How to Create a Birthday Wishlist",
       "description": "Step-by-step guide on how to create a birthday wishlist for group gift giving. Learn how to add items, set prices, include photos, and organize your wishlist effectively.",
-      "image": "https://groupfund.app/og-image.jpg",
-      "url": "https://groupfund.app/resources/how-to-create-birthday-wishlist",
+      "image": "https://www.groupfund.app/og-image.jpg",
+      "url": "https://www.groupfund.app/resources/how-to-create-birthday-wishlist",
       "totalTime": "PT15M",
       "estimatedCost": {
         "@type": "MonetaryAmount",
@@ -25,49 +25,49 @@ export default function HowToCreateBirthdayWishlistPage() {
           "position": 1,
           "name": "Access Your Profile",
           "text": "Log into your GroupFund account and navigate to your profile settings. Birthday wishlists are profile-level features available for Birthday Groups.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Start Creating Your Wishlist",
           "text": "Click on 'Create Wishlist' or 'Add Items' to begin building your birthday wishlist. You can add items at any time, but it's best to start well before your birthday.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Add Item Details",
           "text": "For each item, add a clear, descriptive name (e.g., 'Nike Air Max 270 - Size 9' instead of just 'shoes'). Include a photo so people know exactly what to buy. Add the approximate price to help group members budget.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Set Quantities and Links",
           "text": "Specify how many of each item you need. If you want multiple of the same item, set the quantity accordingly. Optionally, add links to where items can be purchased to make it easier for gift givers.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Add Variety at Different Price Points",
           "text": "Include items at various price points - budget-friendly items (under $20), mid-range items ($20-$50), and premium items. This ensures everyone in your group can participate regardless of their budget.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Review and Organize",
           "text": "Review your wishlist to ensure it's well-organized and includes 10-20 items. Prioritize your most wanted items by placing them first. Make sure all information is accurate and up-to-date.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Share with Group Members",
           "text": "Your wishlist is automatically visible to all group members who share at least one active Birthday Group with you. No need to manually share links - it's seamlessly integrated.",
-          "image": "https://groupfund.app/og-image.jpg"
+          "image": "https://www.groupfund.app/og-image.jpg"
         }
       ]
     }

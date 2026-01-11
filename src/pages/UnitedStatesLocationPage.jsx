@@ -11,8 +11,8 @@ export default function UnitedStatesLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in the United States with GroupFund. Perfect for American families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/united-states",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/united-states",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": {
         "@type": "Country",
         "name": "United States"
@@ -24,7 +24,7 @@ export default function UnitedStatesLocationPage() {
         "priceCurrency": "USD"
       },
       "sameAs": [
-        "https://groupfund.app"
+        "https://www.groupfund.app"
       ]
     }
 

@@ -10,15 +10,15 @@ export default function NairobiLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Nairobi, Kenya with GroupFund. Perfect for Nairobi families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/nairobi",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/nairobi",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Nairobi" },
         { "@type": "Country", "name": "Kenya" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KES" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

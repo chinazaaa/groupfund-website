@@ -10,15 +10,15 @@ export default function LondonLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in London, UK with GroupFund. Perfect for London families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/london",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/london",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "London" },
         { "@type": "Country", "name": "United Kingdom" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

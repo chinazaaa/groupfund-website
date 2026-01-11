@@ -10,7 +10,7 @@ export default function ResourcesPage() {
       "@type": "WebPage",
       "name": "Resources & Guides - GroupFund",
       "description": "Comprehensive guides and resources for organizing group contributions. Learn best practices, tips, and strategies for managing birthday, subscription, and general groups.",
-      "url": "https://groupfund.app/resources"
+      "url": "https://www.groupfund.app/resources"
     }
     const existingScript = document.querySelector('script[data-resources-schema]')
     if (existingScript) existingScript.remove()

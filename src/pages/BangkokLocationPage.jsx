@@ -10,15 +10,15 @@ export default function BangkokLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Bangkok, Thailand with GroupFund. Perfect for Bangkok families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/bangkok",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/bangkok",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Bangkok" },
         { "@type": "Country", "name": "Thailand" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "THB" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

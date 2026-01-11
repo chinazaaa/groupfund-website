@@ -10,15 +10,15 @@ export default function OsloLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Oslo, Norway with GroupFund. Perfect for Oslo families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/oslo",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/oslo",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Oslo" },
         { "@type": "Country", "name": "Norway" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "NOK" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

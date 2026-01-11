@@ -10,15 +10,15 @@ export default function RigaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Riga, Latvia with GroupFund. Perfect for Riga families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/riga",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/riga",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Riga" },
         { "@type": "Country", "name": "Latvia" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

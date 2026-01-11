@@ -10,12 +10,12 @@ export default function ColombiaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Colombia with GroupFund. Perfect for Colombian families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/colombia",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/colombia",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Colombia" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "COP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

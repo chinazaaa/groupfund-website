@@ -10,15 +10,15 @@ export default function ViennaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Vienna, Austria with GroupFund. Perfect for Vienna families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/vienna",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/vienna",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Vienna" },
         { "@type": "Country", "name": "Austria" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

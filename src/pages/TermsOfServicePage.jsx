@@ -10,7 +10,7 @@ export default function TermsOfServicePage() {
       "@type": "WebPage",
       "name": "Terms of Service - GroupFund",
       "description": "Read GroupFund's Terms of Service to understand the rules and guidelines for using our group contribution app.",
-      "url": "https://groupfund.app/terms"
+      "url": "https://www.groupfund.app/terms"
     }
     const existingScript = document.querySelector('script[data-terms-schema]')
     if (existingScript) existingScript.remove()

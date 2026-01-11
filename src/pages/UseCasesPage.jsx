@@ -10,7 +10,7 @@ export default function UseCasesPage() {
       "@type": "WebPage",
       "name": "Use Cases - GroupFund",
       "description": "Discover how GroupFund is used by families, churches, schools, workplaces, and other groups to organize contributions for birthdays, subscriptions, and events.",
-      "url": "https://groupfund.app/use-cases"
+      "url": "https://www.groupfund.app/use-cases"
     }
     const existingScript = document.querySelector('script[data-use-cases-schema]')
     if (existingScript) existingScript.remove()

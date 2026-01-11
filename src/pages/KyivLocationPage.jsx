@@ -10,15 +10,15 @@ export default function KyivLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Kyiv, Ukraine with GroupFund. Perfect for Kyiv families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/kyiv",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/kyiv",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Kyiv" },
         { "@type": "Country", "name": "Ukraine" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "UAH" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

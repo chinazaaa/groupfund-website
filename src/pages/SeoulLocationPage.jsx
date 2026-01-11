@@ -10,15 +10,15 @@ export default function SeoulLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Seoul, South Korea with GroupFund. Perfect for Seoul families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/seoul",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/seoul",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Seoul" },
         { "@type": "Country", "name": "South Korea" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

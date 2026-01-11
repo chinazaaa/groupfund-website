@@ -14,7 +14,7 @@ export default function DownloadPage() {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "GroupFund",
-      "url": "https://groupfund.app/download",
+      "url": "https://www.groupfund.app/download",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "iOS, Android",
       "offers": {
@@ -23,7 +23,7 @@ export default function DownloadPage() {
         "priceCurrency": "USD"
       },
       "description": "Download GroupFund app for iOS and Android. Organize group contributions effortlessly - birthdays, subscriptions, events. Track payments, set reminders, manage multiple groups.",
-      "screenshot": "https://groupfund.app/og-image.jpg",
+      "screenshot": "https://www.groupfund.app/og-image.jpg",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",

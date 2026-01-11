@@ -10,7 +10,7 @@ export default function BrandingPage() {
       "@type": "WebPage",
       "name": "Brand Guidelines - GroupFund",
       "description": "GroupFund brand guidelines, logo usage, colors, typography, and design standards for using GroupFund branding.",
-      "url": "https://groupfund.app/branding"
+      "url": "https://www.groupfund.app/branding"
     }
     const existingScript = document.querySelector('script[data-branding-schema]')
     if (existingScript) existingScript.remove()

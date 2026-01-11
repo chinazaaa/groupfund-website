@@ -10,15 +10,15 @@ export default function MumbaiLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Mumbai, India with GroupFund. Perfect for Mumbai families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/mumbai",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/mumbai",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Mumbai" },
         { "@type": "Country", "name": "India" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

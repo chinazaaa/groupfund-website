@@ -10,12 +10,12 @@ export default function PhilippinesLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in the Philippines with GroupFund. Perfect for Filipino families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/philippines",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/philippines",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Philippines" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PHP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

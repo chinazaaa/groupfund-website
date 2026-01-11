@@ -10,7 +10,7 @@ export default function BestPracticesPage() {
       "@type": "WebPage",
       "name": "Best Practices - GroupFund",
       "description": "Best practices and strategies for organizing group contributions. Learn how to manage large groups, international groups, and set fair contribution amounts.",
-      "url": "https://groupfund.app/best-practices"
+      "url": "https://www.groupfund.app/best-practices"
     }
     const existingScript = document.querySelector('script[data-best-practices-schema]')
     if (existingScript) existingScript.remove()

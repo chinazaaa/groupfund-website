@@ -10,12 +10,12 @@ export default function IndonesiaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Indonesia with GroupFund. Perfect for Indonesian families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/indonesia",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/indonesia",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Indonesia" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

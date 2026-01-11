@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
       "@type": "WebPage",
       "name": "Privacy Policy - GroupFund",
       "description": "Read GroupFund's Privacy Policy to understand how we collect, use, and protect your personal information.",
-      "url": "https://groupfund.app/privacy"
+      "url": "https://www.groupfund.app/privacy"
     }
     const existingScript = document.querySelector('script[data-privacy-schema]')
     if (existingScript) existingScript.remove()

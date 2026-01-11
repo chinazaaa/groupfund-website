@@ -13,12 +13,12 @@ export default function ContactPage() {
       "@type": "ContactPage",
       "name": "Contact GroupFund",
       "description": "Contact GroupFund for support, questions, or feedback. We're here to help you organize your group contributions.",
-      "url": "https://groupfund.app/contact",
+      "url": "https://www.groupfund.app/contact",
       "mainEntity": {
         "@type": "Organization",
         "name": "GroupFund",
         "email": "support@groupfund.app",
-        "url": "https://groupfund.app"
+        "url": "https://www.groupfund.app"
       }
     }
 

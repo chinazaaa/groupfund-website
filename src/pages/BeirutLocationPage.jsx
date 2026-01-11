@@ -10,15 +10,15 @@ export default function BeirutLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Beirut, Lebanon with GroupFund. Perfect for Beirut families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/beirut",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/beirut",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Beirut" },
         { "@type": "Country", "name": "Lebanon" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "LBP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

@@ -10,15 +10,15 @@ export default function BelgradeLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Belgrade, Serbia with GroupFund. Perfect for Belgrade families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/belgrade",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/belgrade",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Belgrade" },
         { "@type": "Country", "name": "Serbia" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RSD" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

@@ -3416,26 +3416,26 @@ export default function BlogPostPage() {
       "@type": "BlogPosting",
       "headline": post.title,
       "description": post.excerpt,
-      "image": "https://groupfund.app/og-image.jpg",
-      "url": `https://groupfund.app/blog/${post.slug}`,
+      "image": "https://www.groupfund.app/og-image.jpg",
+      "url": `https://www.groupfund.app/blog/${post.slug}`,
       "datePublished": publishedDate,
       "dateModified": publishedDate,
       "author": {
         "@type": "Organization",
         "name": "GroupFund",
-        "url": "https://groupfund.app"
+        "url": "https://www.groupfund.app"
       },
       "publisher": {
         "@type": "Organization",
         "name": "GroupFund",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://groupfund.app/logo.png"
+          "url": "https://www.groupfund.app/logo.png"
         }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `https://groupfund.app/blog/${post.slug}`
+        "@id": `https://www.groupfund.app/blog/${post.slug}`
       },
       "keywords": post.keywords,
       "articleSection": "Group Contributions",
@@ -3474,7 +3474,7 @@ export default function BlogPostPage() {
         description={post.excerpt}
         keywords={post.keywords}
         canonical={`https://www.groupfund.app/blog/${post.slug}`}
-        ogImage="https://groupfund.app/og-image.jpg"
+        ogImage="https://www.groupfund.app/og-image.jpg"
       />
 
       <section className="page-hero">

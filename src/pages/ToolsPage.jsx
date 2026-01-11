@@ -10,7 +10,7 @@ export default function ToolsPage() {
       "@type": "WebPage",
       "name": "Tools - GroupFund",
       "description": "Free tools for calculating group contributions, estimating yearly costs, and planning group contributions for birthdays, subscriptions, and events.",
-      "url": "https://groupfund.app/tools"
+      "url": "https://www.groupfund.app/tools"
     }
     const existingScript = document.querySelector('script[data-tools-schema]')
     if (existingScript) existingScript.remove()

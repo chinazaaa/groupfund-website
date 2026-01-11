@@ -10,15 +10,15 @@ export default function BerlinLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Berlin, Germany with GroupFund. Perfect for Berlin families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/berlin",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/berlin",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Berlin" },
         { "@type": "Country", "name": "Germany" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

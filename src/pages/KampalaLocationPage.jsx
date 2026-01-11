@@ -10,15 +10,15 @@ export default function KampalaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Kampala, Uganda with GroupFund. Perfect for Kampala families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/kampala",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/kampala",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Kampala" },
         { "@type": "Country", "name": "Uganda" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "UGX" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

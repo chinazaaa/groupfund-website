@@ -10,7 +10,7 @@ export default function ComparisonsPage() {
       "@type": "WebPage",
       "name": "Comparisons - GroupFund",
       "description": "Compare GroupFund with WhatsApp groups, Excel spreadsheets, Splitwise, Venmo, and other methods for organizing group contributions.",
-      "url": "https://groupfund.app/comparisons"
+      "url": "https://www.groupfund.app/comparisons"
     }
     const existingScript = document.querySelector('script[data-comparisons-schema]')
     if (existingScript) existingScript.remove()

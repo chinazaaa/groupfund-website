@@ -10,15 +10,15 @@ export default function DhakaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Dhaka, Bangladesh with GroupFund. Perfect for Dhaka families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/dhaka",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/dhaka",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Dhaka" },
         { "@type": "Country", "name": "Bangladesh" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BDT" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

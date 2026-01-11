@@ -10,12 +10,12 @@ export default function JapanLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Japan with GroupFund. Perfect for Japanese families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/japan",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/japan",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Japan" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

@@ -10,15 +10,15 @@ export default function ColomboLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Colombo, Sri Lanka with GroupFund. Perfect for Colombo families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/colombo",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/colombo",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Colombo" },
         { "@type": "Country", "name": "Sri Lanka" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "LKR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

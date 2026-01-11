@@ -10,7 +10,7 @@ export default function AppRulesPage() {
       "@type": "WebPage",
       "name": "App Rules - GroupFund",
       "description": "Understand how GroupFund works: We don't collect payments, only track contributions. Learn the payment confirmation process and app guidelines.",
-      "url": "https://groupfund.app/app-rules"
+      "url": "https://www.groupfund.app/app-rules"
     }
     const existingScript = document.querySelector('script[data-app-rules-schema]')
     if (existingScript) existingScript.remove()

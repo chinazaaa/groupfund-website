@@ -10,7 +10,7 @@ export default function IndustriesPage() {
       "@type": "WebPage",
       "name": "Industries - GroupFund",
       "description": "GroupFund for different industries: real estate, healthcare, retail, and more. Organize group contributions for any industry.",
-      "url": "https://groupfund.app/industries"
+      "url": "https://www.groupfund.app/industries"
     }
     const existingScript = document.querySelector('script[data-industries-schema]')
     if (existingScript) existingScript.remove()

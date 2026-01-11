@@ -10,15 +10,15 @@ export default function IslamabadLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Islamabad, Pakistan with GroupFund. Perfect for Islamabad families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/islamabad",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/islamabad",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Islamabad" },
         { "@type": "Country", "name": "Pakistan" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

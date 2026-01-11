@@ -10,7 +10,7 @@ export default function HolidayContributionsPage() {
       "@type": "Event",
       "name": "Christmas Group Contributions",
       "description": "Organize group contributions for Christmas gifts, holiday parties, and festive celebrations. Perfect for families, workplaces, and communities.",
-      "url": "https://groupfund.app/seasonal/holiday-contributions",
+      "url": "https://www.groupfund.app/seasonal/holiday-contributions",
       "startDate": "2025-12-25",
       "endDate": "2025-12-25",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -18,7 +18,7 @@ export default function HolidayContributionsPage() {
       "organizer": {
         "@type": "Organization",
         "name": "GroupFund",
-        "url": "https://groupfund.app"
+        "url": "https://www.groupfund.app"
       }
     }
 
@@ -27,7 +27,7 @@ export default function HolidayContributionsPage() {
       "@type": "WebPage",
       "name": "Christmas & Holiday Group Contributions - GroupFund",
       "description": "Organize group contributions for Christmas, holiday gifts, Secret Santa, and festive celebrations. Free tool for families, workplaces, and communities.",
-      "url": "https://groupfund.app/seasonal/holiday-contributions",
+      "url": "https://www.groupfund.app/seasonal/holiday-contributions",
       "about": {
         "@type": "Thing",
         "name": "Christmas Group Contributions"

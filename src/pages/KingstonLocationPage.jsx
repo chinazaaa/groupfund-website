@@ -10,15 +10,15 @@ export default function KingstonLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Kingston, Jamaica with GroupFund. Perfect for Kingston families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/kingston-jamaica",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/kingston-jamaica",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Kingston" },
         { "@type": "Country", "name": "Jamaica" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JMD" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

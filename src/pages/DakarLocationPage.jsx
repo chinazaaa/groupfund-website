@@ -10,15 +10,15 @@ export default function DakarLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Dakar, Senegal with GroupFund. Perfect for Dakar families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/dakar",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/dakar",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Dakar" },
         { "@type": "Country", "name": "Senegal" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "XOF" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

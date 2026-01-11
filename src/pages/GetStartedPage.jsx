@@ -10,7 +10,7 @@ export default function DownloadPage() {
       "@type": "WebPage",
       "name": "Download - GroupFund",
       "description": "Get started with GroupFund on web, iOS, or Android. Organize group contributions for birthdays, subscriptions, and events.",
-      "url": "https://groupfund.app/download"
+      "url": "https://www.groupfund.app/download"
     }
     const existingScript = document.querySelector('script[data-download-schema]')
     if (existingScript) existingScript.remove()

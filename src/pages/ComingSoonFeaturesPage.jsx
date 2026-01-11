@@ -10,7 +10,7 @@ export default function ComingSoonFeaturesPage() {
       "@type": "WebPage",
       "name": "GroupFund Product Roadmap",
       "description": "See upcoming features and improvements for GroupFund, including new group types, automation, and analytics.",
-      "url": "https://groupfund.app/coming-soon-features"
+      "url": "https://www.groupfund.app/coming-soon-features"
     }
     const existingScript = document.querySelector('script[data-coming-soon-schema]')
     if (existingScript) existingScript.remove()

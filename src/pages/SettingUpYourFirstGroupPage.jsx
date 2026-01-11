@@ -11,8 +11,8 @@ export default function SettingUpYourFirstGroupPage() {
       "@type": "HowTo",
       "name": "Setting Up Your First Group",
       "description": "Quick start guide for creating your first group - birthday, subscription, or general",
-      "image": "https://groupfund.app/og-image.jpg",
-      "url": "https://groupfund.app/resources/setting-up-your-first-group",
+      "image": "https://www.groupfund.app/og-image.jpg",
+      "url": "https://www.groupfund.app/resources/setting-up-your-first-group",
       "totalTime": "PT4M",
       "estimatedCost": {
         "@type": "MonetaryAmount",

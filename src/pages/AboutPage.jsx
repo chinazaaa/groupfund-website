@@ -11,12 +11,12 @@ export default function AboutPage() {
       "@type": "AboutPage",
       "name": "About GroupFund",
       "description": "Learn about GroupFund's mission to help families, churches, and groups organize contributions for birthdays, subscriptions, and events effortlessly.",
-      "url": "https://groupfund.app/about",
+      "url": "https://www.groupfund.app/about",
       "mainEntity": {
         "@type": "Organization",
         "name": "GroupFund",
-        "url": "https://groupfund.app",
-        "logo": "https://groupfund.app/logo.png",
+        "url": "https://www.groupfund.app",
+        "logo": "https://www.groupfund.app/logo.png",
         "description": "GroupFund helps families, churches, and groups organize contributions for birthdays, subscriptions, and events effortlessly.",
         "foundingDate": "2024",
         "mission": "To bring order, transparency, and fairness to group contributions of all kinds"

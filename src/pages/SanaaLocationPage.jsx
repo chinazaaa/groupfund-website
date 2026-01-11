@@ -10,15 +10,15 @@ export default function SanaaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Sana’a, Yemen with GroupFund. Perfect for Sana’a families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/sanaa",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/sanaa",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Sana’a" },
         { "@type": "Country", "name": "Yemen" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "YER" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

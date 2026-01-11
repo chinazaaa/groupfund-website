@@ -10,15 +10,15 @@ export default function IstanbulLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Istanbul, Turkey with GroupFund. Perfect for Istanbul families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/istanbul",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/istanbul",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Istanbul" },
         { "@type": "Country", "name": "Turkey" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

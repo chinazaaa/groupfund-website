@@ -10,12 +10,12 @@ export default function PortugalLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Portugal with GroupFund. Perfect for Portuguese families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/portugal",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/portugal",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Portugal" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

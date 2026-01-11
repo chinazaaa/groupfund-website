@@ -11,8 +11,8 @@ export default function NigeriaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Nigeria with GroupFund. Perfect for Nigerian families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/nigeria",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/nigeria",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": {
         "@type": "Country",
         "name": "Nigeria"
@@ -24,7 +24,7 @@ export default function NigeriaLocationPage() {
         "priceCurrency": "NGN"
       },
       "sameAs": [
-        "https://groupfund.app"
+        "https://www.groupfund.app"
       ]
     }
 

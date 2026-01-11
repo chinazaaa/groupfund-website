@@ -10,15 +10,15 @@ export default function BuenosAiresLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Buenos Aires, Argentina with GroupFund. Perfect for Buenos Aires families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/buenos-aires",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/buenos-aires",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Buenos Aires" },
         { "@type": "Country", "name": "Argentina" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ARS" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

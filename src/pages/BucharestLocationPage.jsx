@@ -10,15 +10,15 @@ export default function BucharestLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Bucharest, Romania with GroupFund. Perfect for Bucharest families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/bucharest",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/bucharest",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Bucharest" },
         { "@type": "Country", "name": "Romania" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

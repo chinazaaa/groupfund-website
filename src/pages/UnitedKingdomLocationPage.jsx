@@ -11,8 +11,8 @@ export default function UnitedKingdomLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in the United Kingdom with GroupFund. Perfect for UK families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/united-kingdom",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/united-kingdom",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": {
         "@type": "Country",
         "name": "United Kingdom"
@@ -24,7 +24,7 @@ export default function UnitedKingdomLocationPage() {
         "priceCurrency": "GBP"
       },
       "sameAs": [
-        "https://groupfund.app"
+        "https://www.groupfund.app"
       ]
     }
 

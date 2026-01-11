@@ -10,12 +10,12 @@ export default function ArgentinaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Argentina with GroupFund. Perfect for Argentine families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/argentina",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/argentina",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Argentina" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ARS" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

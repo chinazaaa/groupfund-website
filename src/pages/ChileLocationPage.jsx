@@ -10,12 +10,12 @@ export default function ChileLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Chile with GroupFund. Perfect for Chilean families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/chile",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/chile",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Chile" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CLP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

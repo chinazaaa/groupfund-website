@@ -10,12 +10,12 @@ export default function NetherlandsLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in the Netherlands with GroupFund. Perfect for Dutch families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/netherlands",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/netherlands",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Netherlands" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

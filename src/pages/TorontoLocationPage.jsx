@@ -10,15 +10,15 @@ export default function TorontoLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Toronto, Canada with GroupFund. Perfect for Toronto families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/toronto",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/toronto",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Toronto" },
         { "@type": "Country", "name": "Canada" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

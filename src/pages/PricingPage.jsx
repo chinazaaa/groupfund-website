@@ -11,11 +11,11 @@ export default function PricingPage() {
       "@type": "Service",
       "name": "GroupFund - Group Contribution Management",
       "description": "Free group contribution tracking and organization service for birthdays, subscriptions, and events",
-      "url": "https://groupfund.app/pricing",
+      "url": "https://www.groupfund.app/pricing",
       "provider": {
         "@type": "Organization",
         "name": "GroupFund",
-        "url": "https://groupfund.app"
+        "url": "https://www.groupfund.app"
       },
       "offers": {
         "@type": "Offer",

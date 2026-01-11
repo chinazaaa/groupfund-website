@@ -11,12 +11,12 @@ export default function YemenLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Yemen with GroupFund. Perfect for Yemeni families, communities, schools, and groups.",
-      "url": "https://groupfund.app/locations/yemen",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/yemen",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Yemen" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "YER" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

@@ -10,12 +10,12 @@ export default function KenyaLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Kenya with GroupFund. Perfect for Kenyan families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/kenya",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/kenya",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Kenya" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KES" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

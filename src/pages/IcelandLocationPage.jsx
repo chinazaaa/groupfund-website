@@ -10,12 +10,12 @@ export default function IcelandLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Iceland with GroupFund. Perfect for Icelandic families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/iceland",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/iceland",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": { "@type": "Country", "name": "Iceland" },
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ISK" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

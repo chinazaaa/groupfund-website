@@ -10,15 +10,15 @@ export default function WarsawLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Warsaw, Poland with GroupFund. Perfect for Warsaw families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/warsaw",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/warsaw",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Warsaw" },
         { "@type": "Country", "name": "Poland" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PLN" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

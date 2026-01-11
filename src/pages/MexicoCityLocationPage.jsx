@@ -10,15 +10,15 @@ export default function MexicoCityLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Mexico City, Mexico with GroupFund. Perfect for Mexico City families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/mexico-city",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/mexico-city",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Mexico City" },
         { "@type": "Country", "name": "Mexico" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "MXN" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()

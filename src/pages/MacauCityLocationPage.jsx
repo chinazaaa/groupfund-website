@@ -10,15 +10,15 @@ export default function MacauCityLocationPage() {
       "@type": "Organization",
       "name": "GroupFund",
       "description": "Organize group contributions in Macau City, Macau with GroupFund. Perfect for Macau City families, churches, schools, and groups.",
-      "url": "https://groupfund.app/locations/macau-city",
-      "logo": "https://groupfund.app/logo.png",
+      "url": "https://www.groupfund.app/locations/macau-city",
+      "logo": "https://www.groupfund.app/logo.png",
       "areaServed": [
         { "@type": "City", "name": "Macau City" },
         { "@type": "Country", "name": "Macau" }
       ],
       "serviceType": "Group Contribution Management",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "MOP" },
-      "sameAs": ["https://groupfund.app"]
+      "sameAs": ["https://www.groupfund.app"]
     }
     const existingScript = document.querySelector('script[data-localbusiness-schema]')
     if (existingScript) existingScript.remove()
