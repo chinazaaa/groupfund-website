@@ -191,6 +191,18 @@ export default function HelpPage() {
         {
           question: "Do I receive email notifications?",
           answer: "Yes! GroupFund sends email notifications for OTP verification, password resets, birthday wishes (for Birthday Groups), reminders for birthdays/subscriptions/events (7 days, 1 day, same day), overdue contribution reminders, comprehensive summaries, contact form confirmations, and waitlist confirmations. You can customize email notification preferences in settings."
+        },
+        {
+          question: "What are the default email notification preferences?",
+          answer: "By default, important email notifications are ON: payment success, autopay success/disabled, payment failure, withdrawal requests/completed/failed, deadline updates, and contribution amount updates. Birthday reminders, comprehensive reminders, overdue reminders, max members updates, member left notifications, and monthly newsletters default to OFF. Security-related emails (OTP, welcome, birthday wishes, holiday emails, security alerts) are always sent and cannot be disabled."
+        },
+        {
+          question: "What are the default in-app and push notification preferences?",
+          answer: "All in-app and push notifications default to ON, including group invites/approvals/rejections, contribution confirmations, deadline updates, birthday reminders/wishes, autopay notifications, overdue reminders, wishlist notifications, chat mentions/messages, withdrawal notifications, member updates, and role changes. You can disable any of these in your settings. Security notifications (if any) are always sent and cannot be disabled."
+        },
+        {
+          question: "Which notifications cannot be disabled?",
+          answer: "Security-related notifications cannot be disabled and are always sent: OTP emails for verification, welcome emails (sent once at signup), birthday wish emails (to the celebrant), holiday emails (Christmas, New Year), security alerts (auto-pay changes, bank account changes, wallet updates), contact confirmations, waitlist confirmations, and beta invitations (admin). All other notifications can be customized in your settings."
         }
       ]
     },

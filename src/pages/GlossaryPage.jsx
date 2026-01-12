@@ -178,7 +178,7 @@ export default function GlossaryPage() {
     },
     {
       term: "Notification Preferences",
-      definition: "Settings that allow users to customize which notifications they receive and how. Users can choose notification channels (in-app, push, email), frequency (7 days before, 1 day before, same day), and notification types (birthday wishes, overdue reminders, member requests, confirmations, group updates).",
+      definition: "Settings that allow users to customize which notifications they receive and how. Users can choose notification channels (in-app, push, email), frequency (7 days before, 1 day before, same day), and notification types. Defaults: Email notifications for payments/transactions/critical updates default to ON (10 types), while reminders/newsletters default to OFF (9 types). All in-app and push notifications (27 types) default to ON. Security emails (OTP, welcome, security alerts) are always sent and cannot be disabled. Users can enable or disable specific notification types in account settings.",
       category: "features",
       relatedTerms: ["Payment Reminders", "Notifications", "Settings"]
     },

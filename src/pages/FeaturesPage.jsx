@@ -83,7 +83,7 @@ export default function FeaturesPage() {
     },
     {
       title: "In-App & Push Notifications",
-      description: "Receive in-app notifications and push notifications for birthday wishes, reminders, overdue contributions, member requests, confirmations, and group updates. Mark as read and manage preferences.",
+      description: "Receive in-app notifications and push notifications for birthday wishes, reminders, overdue contributions, member requests, confirmations, group updates, chat mentions/messages, wishlist notifications, withdrawal updates, and role changes. All 27 notification types default to ON, but you can customize each one. Mark notifications as read and manage your preferences in settings.",
       icon: "📱"
     },
     {
@@ -93,7 +93,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Email Notifications",
-      description: "Get email notifications for OTP verification, password resets, birthday wishes, reminders (7 days, 1 day, same day), overdue contributions, and comprehensive birthday summaries.",
+      description: "Get email notifications for OTP verification, password resets, birthday wishes, reminders (7 days, 1 day, same day), overdue contributions, payment transactions, withdrawal updates, group updates, and comprehensive summaries. Important notifications (payments, transactions, critical updates) default to ON, while reminders and newsletters default to OFF. Security emails (OTP, welcome, security alerts) are always sent. Customize all preferences in settings.",
       icon: "📧"
     },
     {
