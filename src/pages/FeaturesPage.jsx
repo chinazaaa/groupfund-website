@@ -83,7 +83,7 @@ export default function FeaturesPage() {
     },
     {
       title: "In-App & Push Notifications",
-      description: "Receive in-app notifications and push notifications for birthday wishes, reminders, overdue contributions, member requests, confirmations, group updates, chat mentions/messages, wishlist notifications, withdrawal updates, and role changes. All 27 notification types default to ON, but you can customize each one. Mark notifications as read and manage your preferences in settings.",
+      description: "Receive in-app notifications and push notifications for birthday wishes, reminders, overdue contributions, member requests, confirmations, group updates, chat mentions, wishlist notifications, withdrawal updates, and role changes. Most notification types (26 of 27) default to ON, except chat_message which defaults to OFF (can be noisy). You can customize each one. Mark notifications as read and manage your preferences in settings.",
       icon: "📱"
     },
     {

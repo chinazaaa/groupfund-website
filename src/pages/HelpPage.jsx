@@ -198,7 +198,7 @@ export default function HelpPage() {
         },
         {
           question: "What are the default in-app and push notification preferences?",
-          answer: "All in-app and push notifications default to ON, including group invites/approvals/rejections, contribution confirmations, deadline updates, birthday reminders/wishes, autopay notifications, overdue reminders, wishlist notifications, chat mentions/messages, withdrawal notifications, member updates, and role changes. You can disable any of these in your settings. Security notifications (if any) are always sent and cannot be disabled."
+          answer: "Most in-app and push notifications default to ON, including group invites/approvals/rejections, contribution confirmations, deadline updates, birthday reminders/wishes, autopay notifications, overdue reminders, wishlist notifications, chat mentions, withdrawal notifications, member updates, and role changes. However, chat_message notifications default to OFF (can be noisy). You can customize any of these in your settings. Security notifications (if any) are always sent and cannot be disabled."
         },
         {
           question: "Which notifications cannot be disabled?",
