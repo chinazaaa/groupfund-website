@@ -131,6 +131,15 @@ Currently, the blog shows a listing. To add individual blog post pages:
 2. Add route in `App.jsx`: `<Route path="/blog/:slug" element={<BlogPostPage />} />`
 3. Update blog card links to use the slug
 
+## IndexNow Integration
+
+IndexNow is integrated for instant search engine indexing. See [INDEXNOW_SETUP.md](./INDEXNOW_SETUP.md) for complete documentation.
+
+**Quick Start:**
+- Key file is hosted at: `public/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt`
+- Submit URLs: `node scripts/submit-indexnow.js https://yourdomain.com/page`
+- Submit all from sitemap: `node scripts/submit-indexnow.js --all`
+
 ## SEO Checklist
 
 Before deploying, ensure:
@@ -141,6 +150,8 @@ Before deploying, ensure:
 - [ ] Add favicon and apple-touch-icon files
 - [ ] Test with Google's Rich Results Test
 - [ ] Verify meta tags with social media debuggers
+- [ ] Verify IndexNow key file is accessible after deployment
+- [ ] Set up Bing Webmaster Tools for URL verification
 
 ## Deployment
 
