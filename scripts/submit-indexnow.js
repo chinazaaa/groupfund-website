@@ -12,7 +12,7 @@
 
 const INDEXNOW_KEY = '65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26';
 const INDEXNOW_API_ENDPOINT = 'https://api.indexnow.org/IndexNow';
-const KEY_FILE_URL = `https://${process.env.VITE_SITE_URL || 'yourdomain.com'}/${INDEXNOW_KEY}.txt`;
+const KEY_FILE_URL = `https://${process.env.VITE_SITE_URL || 'groupfund.app'}/${INDEXNOW_KEY}.txt`;
 
 const fs = require('fs');
 const path = require('path');

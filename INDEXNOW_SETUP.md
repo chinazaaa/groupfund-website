@@ -11,8 +11,6 @@ The IndexNow integration has been set up with the following configuration:
 - **Key File**: `public/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt`
 - **Public URL**: `https://groupfund.app/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt`
 
-**⚠️ Important**: Replace `yourdomain.com` with your actual domain name after deployment.
-
 ## Integration Steps Completed
 
 ### 1. ✅ API Key Generated
@@ -35,8 +33,8 @@ A Node.js script has been created to submit URLs to IndexNow.
 Submit one or more URLs directly from the command line:
 
 ```bash
-node scripts/submit-indexnow.js https://yourdomain.com/page1
-node scripts/submit-indexnow.js https://yourdomain.com/page1 https://yourdomain.com/page2
+node scripts/submit-indexnow.js https://www.groupfund.app/page1
+node scripts/submit-indexnow.js https://www.groupfund.app/page1 https://www.groupfund.app/page2
 ```
 
 ### Submit URLs from a File
@@ -45,8 +43,8 @@ Create a text file with one URL per line:
 
 ```bash
 # Create urls.txt
-echo "https://yourdomain.com/page1" > urls.txt
-echo "https://yourdomain.com/page2" >> urls.txt
+echo "https://www.groupfund.app/page1" > urls.txt
+echo "https://www.groupfund.app/page2" >> urls.txt
 
 # Submit all URLs
 node scripts/submit-indexnow.js --file urls.txt
@@ -65,14 +63,14 @@ node scripts/submit-indexnow.js --all
 To ensure the correct domain is used in the key location URL, set the `VITE_SITE_URL` environment variable:
 
 ```bash
-export VITE_SITE_URL=yourdomain.com
-node scripts/submit-indexnow.js https://yourdomain.com/page1
+export VITE_SITE_URL=groupfund.app
+node scripts/submit-indexnow.js https://www.groupfund.app/page1
 ```
 
-Or set it inline:
+Or set it inline (optional, script uses groupfund.app by default):
 
 ```bash
-VITE_SITE_URL=yourdomain.com node scripts/submit-indexnow.js https://yourdomain.com/page1
+VITE_SITE_URL=groupfund.app node scripts/submit-indexnow.js https://www.groupfund.app/page1
 ```
 
 ## Verification Steps
@@ -81,7 +79,8 @@ VITE_SITE_URL=yourdomain.com node scripts/submit-indexnow.js https://yourdomain.
 
 After deployment, verify that your key file is publicly accessible:
 
-1. Visit: `https://yourdomain.com/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt`
+1. Visit: `https://groupfund.app/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt`
+   (or `https://www.groupfund.app/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt` if www redirects are configured)
 2. You should see the key value: `65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26`
 3. The file should be accessible via HTTP/HTTPS (not blocked by authentication or robots.txt)
 
@@ -109,7 +108,7 @@ After deployment, verify that your key file is publicly accessible:
 Test the integration by submitting a test URL:
 
 ```bash
-node scripts/submit-indexnow.js https://yourdomain.com/
+node scripts/submit-indexnow.js https://www.groupfund.app/
 ```
 
 You should see:
@@ -128,12 +127,12 @@ You should see:
 
 ```json
 {
-  "host": "yourdomain.com",
+  "host": "groupfund.app",
   "key": "65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26",
-  "keyLocation": "https://yourdomain.com/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt",
+  "keyLocation": "https://groupfund.app/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt",
   "urlList": [
-    "https://yourdomain.com/page1",
-    "https://yourdomain.com/page2"
+    "https://www.groupfund.app/page1",
+    "https://www.groupfund.app/page2"
   ]
 }
 ```
