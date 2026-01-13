@@ -137,7 +137,7 @@ IndexNow is integrated for instant search engine indexing. See [INDEXNOW_SETUP.m
 
 **Quick Start:**
 - Key file is hosted at: `public/65470e0d5653976027dd5306768af9a94759c7fa802f7ef49363f229b6a88b26.txt`
-- Submit URLs: `node scripts/submit-indexnow.js https://yourdomain.com/page`
+- Submit URLs: `node scripts/submit-indexnow.js https://www.groupfund.app/page`
 - Submit all from sitemap: `node scripts/submit-indexnow.js --all`
 
 ## SEO Checklist

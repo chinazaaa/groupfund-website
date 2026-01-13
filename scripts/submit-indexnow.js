@@ -145,12 +145,12 @@ Options:
   --help           Show this help message
 
 Examples:
-  node scripts/submit-indexnow.js https://yourdomain.com/page1
-  node scripts/submit-indexnow.js https://yourdomain.com/page1 https://yourdomain.com/page2
+  node scripts/submit-indexnow.js https://www.groupfund.app/page1
+  node scripts/submit-indexnow.js https://www.groupfund.app/page1 https://www.groupfund.app/page2
   node scripts/submit-indexnow.js --file urls.txt
   node scripts/submit-indexnow.js --all
 
-Note: Set VITE_SITE_URL environment variable to specify your domain.
+Note: Script uses groupfund.app by default. Set VITE_SITE_URL environment variable to override.
   `);
   process.exit(0);
 }
