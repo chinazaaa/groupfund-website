@@ -38,7 +38,7 @@ export default function TermsOfServicePage() {
         <div className="container">
           <h1 className="page-title">Terms of Service</h1>
           <p className="page-subtitle">
-            Last updated:  December 2025
+            Last updated: January 2026
           </p>
         </div>
       </section>
@@ -56,20 +56,29 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>2. Description of Service</h2>
               <p>
-                GroupFund is a mobile application that helps users organize and track group contributions - for birthdays, subscriptions, events, and more. The Service allows users to:
+                GroupFund is a mobile application that helps users organize and manage group contributions - for birthdays, subscriptions, events, and more. The Service allows users to:
               </p>
               <ul>
-                <li>Create and manage groups</li>
+                <li>Create and manage groups (Birthday Groups, Subscription Groups, and General Groups)</li>
                 <li>Invite members (who add their own birthday dates for Birthday Groups)</li>
                 <li>Set contribution amounts and track payment statuses</li>
+                <li>Enable automatic payment collection (auto-pay) using debit cards</li>
                 <li>Receive automatic reminders about upcoming birthdays, subscription deadlines, and events</li>
                 <li>View contribution history and calendars</li>
+                <li>Receive payments in an in-app wallet balance</li>
+                <li>Withdraw funds from wallet to bank account</li>
               </ul>
               <p>
-                <strong>Important:</strong> GroupFund is a tracking and organization tool. We do not process, hold, or facilitate payments. All payments are made directly between group members using their preferred payment methods.
+                <strong>Group Currencies:</strong> Groups can be created in multiple currencies, including USD (US Dollar), EUR (Euro), GBP (British Pound), NGN (Nigerian Naira), and more. The group currency is set when creating the group.
               </p>
               <p>
-                For more detailed information about how payment tracking works, including the two-step confirmation process, please see our <Link to="/app-rules">App Rules</Link> page.
+                <strong>Payment Processing (Auto-Pay, Wallet, Withdrawals):</strong> Automatic payment collection (auto-pay), wallet system, and withdrawals are only available for three currencies: USD (US Dollar), EUR (Euro), and GBP (British Pound). All automatic payments are processed via Stripe, a secure payment processor. If your group uses a currency that doesn't support auto-pay (e.g., NGN), you can still use manual payments.
+              </p>
+              <p>
+                <strong>Manual Payments:</strong> Users can choose to make payments manually (outside the app) and mark them as paid in the app, regardless of the group's currency. Manual payments do not go through GroupFund's payment processing system and work for all currencies.
+              </p>
+              <p>
+                For more detailed information about how payments work, including auto-pay, wallet functionality, and payment confirmation, please see our <Link to="/app-rules">App Rules</Link> page.
               </p>
             </div>
 
@@ -124,21 +133,161 @@ export default function TermsOfServicePage() {
 
             <div className="legal-section">
               <h2>6. Payment and Financial Transactions</h2>
+              
+              <h3>6.1 Automatic Payment Collection (Auto-Pay)</h3>
               <p>
-                <strong>GroupFund does not process payments.</strong> We are a tracking and organization tool only. All financial transactions occur directly between group members using their chosen payment methods (bank transfers, mobile money, etc.).
+                GroupFund offers automatic payment collection (auto-pay) through Stripe, a secure payment processor. When you enable auto-pay for a group:
               </p>
+              <ul>
+                <li>Your debit card will be automatically charged on the payment date (birthday, subscription deadline, or general group deadline)</li>
+                <li>You can choose to be charged "1 day before" or on the "same day" as the payment date</li>
+                <li>Auto-pay is only available for groups using one of three currencies: USD (US Dollar), EUR (Euro), or GBP (British Pound)</li>
+                <li>If your group uses a different currency (e.g., NGN), auto-pay is not available, but you can still use manual payments</li>
+                <li>Fees apply to automatic payments (see Section 6.3)</li>
+                <li>Funds are credited to the recipient's in-app wallet balance</li>
+              </ul>
+              <p>
+                <strong>Requirements for Auto-Pay:</strong>
+              </p>
+              <ul>
+                <li>The group must use a currency that supports auto-pay: USD, EUR, or GBP</li>
+                <li>You must have a valid debit card on file</li>
+                <li>You must have bank account details in your profile (required for withdrawals)</li>
+                <li>You must not have any overdue payments (defaulters cannot enable auto-pay)</li>
+              </ul>
+              
+              <h3>6.2 Wallet System</h3>
+              <p>
+                GroupFund maintains an in-app wallet system for receiving and withdrawing funds:
+              </p>
+              <ul>
+                <li><strong>Wallet Balance:</strong> When others contribute to you via auto-pay, funds are credited to your wallet balance</li>
+                <li><strong>Wallet Usage:</strong> Wallet balance can ONLY be used to receive payments and withdraw to your bank account. Wallet balance CANNOT be used to pay contributions - you must use a debit card for contributions</li>
+                <li><strong>Withdrawals:</strong> You can withdraw funds from your wallet to your bank account. Withdrawals are subject to fees (see Section 6.4) and a 24-hour security hold period</li>
+                <li><strong>Account Deletion:</strong> You cannot delete your account if you have a wallet balance greater than zero. You must withdraw all funds before deleting your account</li>
+              </ul>
+              
+              <h3>6.3 Fees for Automatic Payments</h3>
+              <p>
+                When you use auto-pay to make a contribution:
+              </p>
+              <ul>
+                <li><strong>You pay the fees:</strong> All fees are added on top of your contribution amount</li>
+                <li><strong>Recipient receives full amount:</strong> The recipient receives the full contribution amount (without fees deducted)</li>
+                <li><strong>Fee structure:</strong>
+                  <ul>
+                    <li>Payment processor fee (Stripe): Approximately 2.9% + $0.30 for USD, 1.4% + €0.25 for EUR, 1.4% + £0.20 for GBP</li>
+                    <li>Platform fee: 1-2% of contribution amount (kept competitive to stay affordable)</li>
+                  </ul>
+                </li>
+                <li><strong>Manual payments:</strong> No fees apply to manual payments (payments made outside the app)</li>
+              </ul>
+              <p>
+                All fees are displayed transparently before you confirm a payment. Our goal is to keep fees low and affordable so users don't switch to alternative methods like WhatsApp groups.
+              </p>
+              
+              <h3>6.4 Withdrawal Fees</h3>
+              <p>
+                Withdrawal fees vary by currency:
+              </p>
+              <ul>
+                <li><strong>GBP (British Pound):</strong> FREE - No withdrawal fee</li>
+                <li><strong>EUR (Euro):</strong> FREE - No withdrawal fee</li>
+                <li><strong>USD (US Dollar):</strong> 1% fee applies</li>
+              </ul>
+              <p>
+                <strong>24-Hour Security Hold:</strong> All withdrawal requests are subject to a 24-hour security hold period. Funds will be sent to your bank account within 24 hours after your withdrawal request. You will receive an email notification when your withdrawal request is received. If you did not request the withdrawal, contact security@groupfund.app immediately.
+              </p>
+              
+              <h3>6.5 Manual Payments</h3>
+              <p>
+                You can choose to make payments manually (outside the app) instead of using auto-pay:
+              </p>
+              <ul>
+                <li>Make the payment directly to the recipient's bank account using your preferred payment method</li>
+                <li>Mark the payment as "Paid" in the app</li>
+                <li>The recipient must confirm they received the payment</li>
+                <li>No fees apply to manual payments (payment happens outside the app)</li>
+              </ul>
+              
+              <h3>6.6 Bank Account Requirements</h3>
+              <p>
+                <strong>Required for all users:</strong> You must have valid bank account details in your profile to:
+              </p>
+              <ul>
+                <li>Create or join any group</li>
+                <li>Receive withdrawals from your wallet (we use your stored bank account details to process withdrawals via Stripe Payouts API)</li>
+              </ul>
+              <p>
+                <strong>How bank details are used:</strong> Your bank account details are stored in our system and used for:
+              </p>
+              <ul>
+                <li><strong>Withdrawals:</strong> We use your stored bank account details to process withdrawals from your wallet to your bank account</li>
+                <li><strong>Manual payments:</strong> Your bank account details are displayed to group members so they can send you payments manually (outside the app)</li>
+              </ul>
+              <p>
+                <strong>Bank details cannot be removed:</strong> If you are a member of any active group, you cannot remove your bank account details. You must leave all groups before removing bank details. This ensures recipients can withdraw funds and prevents payment failures.
+              </p>
+              
+              <h3>6.7 Payment Confirmation</h3>
+              <p>
+                <strong>Automatic Payments (Auto-Pay):</strong> When payments are processed via auto-pay, they are automatically confirmed (status = 'confirmed') after successful processing by Stripe. No manual confirmation is required.
+              </p>
+              <p>
+                <strong>Manual Payments:</strong> Manual payments require two-step confirmation:
+              </p>
+              <ol>
+                <li>Contributor marks payment as "Paid" (status = 'paid')</li>
+                <li>Recipient confirms they received the payment (status = 'confirmed')</li>
+              </ol>
+              
+              <h3>6.8 Payment Failures and Defaulters</h3>
+              <p>
+                <strong>Failed Auto-Pay Attempts:</strong> If your automatic payment fails after 2 attempts (initial + 1 retry), auto-pay will be automatically disabled for that group. You will be notified via email. You can re-enable auto-pay after resolving the issue (e.g., updating your card, ensuring sufficient funds).
+              </p>
+              <p>
+                <strong>Defaulters (Users with Overdue Payments):</strong>
+              </p>
+              <ul>
+                <li>Users with overdue payments cannot enable auto-pay until all overdue payments are cleared</li>
+                <li>If you are a defaulter and it's your birthday or deadline, auto-pay contributions will be skipped until you clear your overdue payments</li>
+                <li>If a recipient (birthday person or admin) is a defaulter, all auto-pay contributions to them will be skipped until they clear their overdue payments</li>
+              </ul>
+              
+              <h3>6.9 General Group Deadlines</h3>
+              <p>
+                For General Groups (one-time deadline groups):
+              </p>
+              <ul>
+                <li>You cannot enable auto-pay if the group deadline has already passed</li>
+                <li>If auto-pay is enabled and the deadline passes, auto-pay will be automatically disabled (no more automatic payments will be processed)</li>
+              </ul>
+              
+              <h3>6.10 Payment Disputes and Chargebacks</h3>
+              <p>
+                <strong>Payment Disputes:</strong> Payment disputes between group members should be resolved directly between the parties. GroupFund provides payment processing services but is not responsible for resolving payment disputes.
+              </p>
+              <p>
+                <strong>Chargebacks:</strong> If a cardholder disputes a payment (chargeback), GroupFund will work with Stripe to resolve the dispute. Evidence of the legitimate transaction may be required. High chargeback rates may result in account restrictions.
+              </p>
+              
+              <h3>6.11 Your Responsibilities</h3>
               <p>You acknowledge and agree that:</p>
               <ul>
-                <li>GroupFund is not responsible for any payment disputes between group members</li>
-                <li>We do not guarantee the accuracy of payment statuses reported by users</li>
-                <li>You are solely responsible for verifying payments before marking them as confirmed</li>
-                <li>We are not liable for any financial losses or disputes arising from group contributions</li>
+                <li>You are responsible for maintaining valid payment methods (debit cards) and bank account details</li>
+                <li>You are responsible for ensuring sufficient funds are available for automatic payments</li>
+                <li>You are responsible for verifying payment statuses and confirming manual payments accurately</li>
+                <li>GroupFund is not responsible for payment disputes between group members</li>
+                <li>We are not liable for any financial losses arising from unauthorized access to your account (see Security section)</li>
+                <li>You must verify the identity of group admins before joining groups</li>
               </ul>
+              
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
-                <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
+                <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust. Keep your account credentials secure and enable two-factor authentication for critical actions.
               </p>
+              
               <p>
-                For more information about how payment tracking works, including the contributor and admin/celebrant confirmation process, visit our <Link to="/app-rules">App Rules</Link> page.
+                For more information about how payments work, including detailed payment flows and confirmation processes, visit our <Link to="/app-rules">App Rules</Link> page.
               </p>
             </div>
 
@@ -206,7 +355,10 @@ export default function TermsOfServicePage() {
                 We may terminate or suspend your account and access to the Service immediately, without prior notice, for any reason, including if you breach these Terms. Upon termination, your right to use the Service will cease immediately.
               </p>
               <p>
-                You may terminate your account at any time by deleting it through the app settings or contacting us at support@groupfund.app
+                <strong>Account Deletion Requirements:</strong> You may terminate your account at any time by deleting it through the app settings or contacting us at support@groupfund.app. However, you cannot delete your account if you have a wallet balance greater than zero. You must withdraw all funds from your wallet before deleting your account.
+              </p>
+              <p>
+                Upon account deletion, all your data will be permanently deleted in accordance with our Privacy Policy, except where we are required to retain certain information for legal or regulatory purposes (e.g., transaction records for tax or compliance purposes).
               </p>
             </div>
 
@@ -235,13 +387,44 @@ export default function TermsOfServicePage() {
             </div>
 
             <div className="legal-section">
-              <h2>17. Contact Information</h2>
+              <h2>17. Two-Factor Authentication</h2>
+              <p>
+                For security purposes, certain critical actions require two-factor authentication (password + verification code):
+              </p>
+              <ul>
+                <li>Adding, editing, or deleting debit cards (payment methods)</li>
+                <li>Adding, editing, or removing bank account details</li>
+                <li>Withdrawing funds from your wallet</li>
+                <li>Enabling or disabling auto-pay</li>
+                <li>Updating payment timing preferences</li>
+              </ul>
+              <p>
+                <strong>2FA Methods:</strong> You can choose between two methods for two-factor authentication:
+              </p>
+              <ul>
+                <li><strong>Email OTP:</strong> Receive a one-time password (OTP) code via email</li>
+                <li><strong>Authenticator App:</strong> Use an authenticator app (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) to generate verification codes</li>
+              </ul>
+              <p>
+                You can configure your preferred 2FA method in your account settings. Both methods provide strong security for your account and financial transactions.
+              </p>
+              <p>
+                You will receive security email notifications for all critical actions. If you receive a notification for an action you did not perform, contact security@groupfund.app immediately.
+              </p>
+            </div>
+
+            <div className="legal-section">
+              <h2>18. Contact Information</h2>
               <p>
                 If you have any questions about these Terms of Service, please contact us at:
               </p>
               <p>
-                <strong>Email:</strong> support@groupfund.app<br />
+                <strong>General Support:</strong> support@groupfund.app<br />
+                <strong>Security Issues:</strong> security@groupfund.app<br />
                 <strong>Website:</strong> <a href="/contact">Contact Page</a>
+              </p>
+              <p>
+                For security-related concerns (e.g., unauthorized transactions, suspicious account activity), please contact security@groupfund.app immediately.
               </p>
             </div>
           </div>
