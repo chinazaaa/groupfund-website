@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
-import ComingSoonModal from '../components/ComingSoonModal'
 import '../App.css'
 
 // 🎄 CHRISTMAS MODE: Set to false after Christmas season to revert to normal mode
 const NEW_YEAR_MODE= false
 
 export default function HomePage() {
-  const [modalOpen, setModalOpen] = useState(false)
-  const [storeName, setStoreName] = useState('')
-
   useEffect(() => {
     // Smooth scroll for anchor links
     const anchors = document.querySelectorAll('a[href^="#"]')
@@ -37,20 +33,9 @@ export default function HomePage() {
       })
     }
   }, [])
-
-  const handleAppStoreClick = (e, name) => {
-    e.preventDefault()
-    setStoreName(name)
-    setModalOpen(true)
-  }
     
   return (
     <>
-      <ComingSoonModal 
-        isOpen={modalOpen} 
-        onClose={() => setModalOpen(false)} 
-        storeName={storeName}
-      />
       <SEO
         title={NEW_YEAR_MODE 
           ? "GroupFund - New Year 2026 Contributions & Party Funds"
@@ -352,11 +337,11 @@ export default function HomePage() {
             <p className="cta-subtitle">Join 100+ groups already using GroupFund to manage their group contributions</p>
             <div className="app-store-badges">
               <a 
-                href="#" 
+                href="https://apps.apple.com/app/groupfund/id6756530859" 
                 className="app-badge" 
                 aria-label="Download GroupFund on the App Store"
+                target="_blank"
                 rel="noopener noreferrer"
-                onClick={(e) => handleAppStoreClick(e, 'the App Store')}
               >
                 <img 
                   src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000&type=ios10" 
@@ -367,11 +352,11 @@ export default function HomePage() {
                 />
               </a>
               <a 
-                href="#" 
+                href="https://play.google.com/store/apps/details?id=com.groupfund.app" 
                 className="app-badge" 
                 aria-label="Get GroupFund on Google Play"
+                target="_blank"
                 rel="noopener noreferrer"
-                onClick={(e) => handleAppStoreClick(e, 'Google Play')}
               >
                 <img 
                   src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
