@@ -342,10 +342,10 @@ function UserDetailModal({ user, onClose, onUpdate, onDeactivate }) {
 
           <div className="user-detail-section">
             <h3>Statistics</h3>
-            <p><strong>Contributions:</strong> {user.transaction_count || 0}</p>
+            <p><strong>Total Contributions:</strong> {user.transaction_count || 0}</p>
             {user.reports && (
               <div className="reports-section">
-                <p style={{ marginBottom: '12px' }}><strong>Reports:</strong> {user.reports.total || 0}</p>
+                <p style={{ marginBottom: '12px' }}><strong>Total Reports:</strong> {user.reports.total || 0}</p>
                 {user.reports.by_status && (
                   <div className="reports-display">
                     <h4 className="reports-status-title">Report Status</h4>
