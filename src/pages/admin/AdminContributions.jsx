@@ -82,6 +82,7 @@ export default function AdminContributions() {
                     <th>Group</th>
                     <th>Date</th>
                     <th>Status</th>
+                    <th>Payment Method</th>
                     <th>Note</th>
                   </tr>
                 </thead>
@@ -102,6 +103,24 @@ export default function AdminContributions() {
                         <span className={`badge badge-${getStatusBadge(contribution.status)}`}>
                           {getStatusLabel(contribution.status)}
                         </span>
+                      </td>
+                      <td>
+                        {contribution.payment_info ? (
+                          <div>
+                            <div>
+                              <span className={`badge ${contribution.payment_info.is_auto_pay ? 'badge-success' : 'badge-secondary'}`}>
+                                {contribution.payment_info.is_auto_pay ? 'Auto-pay' : 'Manual'}
+                              </span>
+                            </div>
+                            {contribution.payment_info.provider && (
+                              <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '4px' }}>
+                                {contribution.payment_info.provider}
+                              </div>
+                            )}
+                          </div>
+                        ) : (
+                          <span className="badge badge-secondary">Manual</span>
+                        )}
                       </td>
                       <td>{contribution.note || 'N/A'}</td>
                     </tr>
