@@ -350,6 +350,28 @@ export default function AdminAutopay() {
                                 <div style={{ fontSize: '0.875rem', color: '#64748b' }}>
                                   {attempt.user?.email || 'N/A'}
                                 </div>
+                                {attempt.user_id && (
+                                  <div 
+                                    style={{ 
+                                      fontSize: '0.75rem', 
+                                      color: '#6366f1', 
+                                      fontFamily: 'monospace', 
+                                      marginTop: '4px',
+                                      cursor: 'pointer',
+                                      textDecoration: 'underline'
+                                    }}
+                                    onClick={() => {
+                                      if (attempt.contribution_type === 'birthday') {
+                                        setBirthdayUserId(attempt.user_id)
+                                        setBirthdayGroupId(attempt.group_id || '')
+                                        setShowBirthdayModal(true)
+                                      }
+                                    }}
+                                    title="Click to use in Process Birthday modal"
+                                  >
+                                    {attempt.user_id}
+                                  </div>
+                                )}
                               </div>
                             </td>
                             <td>
@@ -359,6 +381,34 @@ export default function AdminAutopay() {
                                   <div style={{ fontSize: '0.875rem', color: '#64748b' }}>
                                     {attempt.group.group_type}
                                   </div>
+                                  {attempt.group_id && (
+                                    <div 
+                                      style={{ 
+                                        fontSize: '0.75rem', 
+                                        color: '#6366f1', 
+                                        fontFamily: 'monospace', 
+                                        marginTop: '4px',
+                                        cursor: 'pointer',
+                                        textDecoration: 'underline'
+                                      }}
+                                      onClick={() => {
+                                        if (attempt.contribution_type === 'subscription') {
+                                          setSubscriptionGroupId(attempt.group_id)
+                                          setShowSubscriptionModal(true)
+                                        } else if (attempt.contribution_type === 'general') {
+                                          setGeneralGroupId(attempt.group_id)
+                                          setShowGeneralModal(true)
+                                        } else if (attempt.contribution_type === 'birthday') {
+                                          setBirthdayGroupId(attempt.group_id)
+                                          setBirthdayUserId(attempt.user_id || '')
+                                          setShowBirthdayModal(true)
+                                        }
+                                      }}
+                                      title="Click to use in payment processing modal"
+                                    >
+                                      {attempt.group_id}
+                                    </div>
+                                  )}
                                 </div>
                               ) : (
                                 'N/A'
@@ -568,6 +618,28 @@ export default function AdminAutopay() {
                                 <div style={{ fontSize: '0.875rem', color: '#64748b' }}>
                                   {pref.user?.email || 'N/A'}
                                 </div>
+                                {pref.user?.id && (
+                                  <div 
+                                    style={{ 
+                                      fontSize: '0.75rem', 
+                                      color: '#6366f1', 
+                                      fontFamily: 'monospace', 
+                                      marginTop: '4px',
+                                      cursor: 'pointer',
+                                      textDecoration: 'underline'
+                                    }}
+                                    onClick={() => {
+                                      setBirthdayUserId(pref.user.id)
+                                      if (pref.group?.id) {
+                                        setBirthdayGroupId(pref.group.id)
+                                        setShowBirthdayModal(true)
+                                      }
+                                    }}
+                                    title="Click to use User ID in Process Birthday modal"
+                                  >
+                                    {pref.user.id}
+                                  </div>
+                                )}
                               </div>
                             </td>
                             <td>
@@ -577,6 +649,34 @@ export default function AdminAutopay() {
                                   <div style={{ fontSize: '0.875rem', color: '#64748b' }}>
                                     {pref.group.group_type}
                                   </div>
+                                  {pref.group.id && (
+                                    <div 
+                                      style={{ 
+                                        fontSize: '0.75rem', 
+                                        color: '#6366f1', 
+                                        fontFamily: 'monospace', 
+                                        marginTop: '4px',
+                                        cursor: 'pointer',
+                                        textDecoration: 'underline'
+                                      }}
+                                      onClick={() => {
+                                        if (pref.group.group_type === 'subscription') {
+                                          setSubscriptionGroupId(pref.group.id)
+                                          setShowSubscriptionModal(true)
+                                        } else if (pref.group.group_type === 'general') {
+                                          setGeneralGroupId(pref.group.id)
+                                          setShowGeneralModal(true)
+                                        } else if (pref.group.group_type === 'birthday') {
+                                          setBirthdayGroupId(pref.group.id)
+                                          setBirthdayUserId(pref.user?.id || '')
+                                          setShowBirthdayModal(true)
+                                        }
+                                      }}
+                                      title="Click to use Group ID in payment processing modal"
+                                    >
+                                      {pref.group.id}
+                                    </div>
+                                  )}
                                 </div>
                               ) : (
                                 'All Groups'
