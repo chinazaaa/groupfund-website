@@ -77,7 +77,7 @@ export default function AdminContributions() {
                   <tr>
                     <th>Amount</th>
                     <th>Type</th>
-                    <th>User</th>
+                    <th>Receiver</th>
                     <th>Contributor</th>
                     <th>Group</th>
                     <th>Date</th>
@@ -95,9 +95,40 @@ export default function AdminContributions() {
                           {getGroupTypeLabel(contribution.group_type)}
                         </span>
                       </td>
-                      <td>{contribution.birthday_user_name}</td>
-                      <td>{contribution.contributor_name}</td>
-                      <td>{contribution.group_name}</td>
+                      <td>
+                        {contribution.receiver?.name || contribution.birthday_user_name || 'N/A'}
+                        {contribution.receiver?.id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {contribution.receiver.id}
+                          </div>
+                        )}
+                        {!contribution.receiver?.id && contribution.birthday_user_id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {contribution.birthday_user_id}
+                          </div>
+                        )}
+                      </td>
+                      <td>
+                        {contribution.contributor?.name || contribution.contributor_name || 'N/A'}
+                        {contribution.contributor?.id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {contribution.contributor.id}
+                          </div>
+                        )}
+                        {!contribution.contributor?.id && contribution.contributor_id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {contribution.contributor_id}
+                          </div>
+                        )}
+                      </td>
+                      <td>
+                        {contribution.group_name || 'N/A'}
+                        {contribution.group_id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {contribution.group_id}
+                          </div>
+                        )}
+                      </td>
                       <td>{formatDate(contribution.contribution_date)}</td>
                       <td>
                         <span className={`badge badge-${getStatusBadge(contribution.status)}`}>
