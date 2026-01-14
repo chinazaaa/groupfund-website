@@ -343,6 +343,44 @@ function UserDetailModal({ user, onClose, onUpdate, onDeactivate }) {
           <div className="user-detail-section">
             <h3>Statistics</h3>
             <p><strong>Contributions:</strong> {user.transaction_count || 0}</p>
+            {user.reports && (
+              <div className="reports-section">
+                <p style={{ marginBottom: '12px' }}><strong>Reports:</strong></p>
+                <div className="reports-display">
+                  <div className="reports-total">
+                    <span className="reports-label">"total":</span>
+                    <span className="reports-value">{user.reports.total || 0}</span>
+                  </div>
+                  {user.reports.by_status && (
+                    <div className="reports-status">
+                      <div className="reports-status-header">
+                        <span className="reports-label">"by_status":</span>
+                        <span className="reports-brace">{'{'}</span>
+                      </div>
+                      <div className="reports-status-items">
+                        <div className="reports-status-item">
+                          <span className="reports-label">"pending":</span>
+                          <span className="reports-badge reports-badge-pending">{user.reports.by_status.pending || 0}</span>
+                        </div>
+                        <div className="reports-status-item">
+                          <span className="reports-label">"reviewed":</span>
+                          <span className="reports-badge reports-badge-reviewed">{user.reports.by_status.reviewed || 0}</span>
+                        </div>
+                        <div className="reports-status-item">
+                          <span className="reports-label">"resolved":</span>
+                          <span className="reports-badge reports-badge-resolved">{user.reports.by_status.resolved || 0}</span>
+                        </div>
+                        <div className="reports-status-item">
+                          <span className="reports-label">"dismissed":</span>
+                          <span className="reports-badge reports-badge-dismissed">{user.reports.by_status.dismissed || 0}</span>
+                        </div>
+                      </div>
+                      <div className="reports-brace">{'}'}</div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </div>
         <div className="modal-footer">

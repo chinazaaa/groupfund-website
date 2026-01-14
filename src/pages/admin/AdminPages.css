@@ -1628,3 +1628,97 @@
   opacity: 0.6;
 }
 
+/* Reports Section Styles */
+.reports-section {
+  margin-top: 16px;
+}
+
+.reports-display {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.reports-total {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 8px 0;
+}
+
+.reports-status {
+  margin-left: 20px;
+}
+
+.reports-status-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.reports-status-items {
+  margin-left: 20px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.reports-status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.reports-label {
+  color: #475569;
+  font-weight: 600;
+}
+
+.reports-value {
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.reports-brace {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.reports-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 24px;
+  padding: 0 8px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.reports-badge-pending {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+}
+
+.reports-badge-reviewed {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.reports-badge-resolved {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.reports-badge-dismissed {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+}
+
