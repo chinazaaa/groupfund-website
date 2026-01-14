@@ -280,5 +280,63 @@ export const adminApi = {
       body: JSON.stringify(requestBody),
     });
   },
+
+  // Withdrawals
+  getWithdrawals: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/withdrawals${queryString ? `?${queryString}` : ''}`);
+  },
+
+  getWithdrawal: (withdrawalId) => {
+    return apiRequest(`/admin/withdrawals/${withdrawalId}`);
+  },
+
+  // Autopay
+  getAutopayAttempts: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/autopay/attempts${queryString ? `?${queryString}` : ''}`);
+  },
+
+  getAutopayStatus: () => {
+    return apiRequest('/admin/autopay/status');
+  },
+
+  getAutopayPreferences: (params = {}) => {
+    const queryString = new URLSearchParams(params).toString();
+    return apiRequest(`/admin/autopay/preferences${queryString ? `?${queryString}` : ''}`);
+  },
+
+  // Payment Processing
+  processAllPayments: () => {
+    return apiRequest('/admin/payments/process-all', {
+      method: 'POST',
+    });
+  },
+
+  processBirthdayPayments: (userId, groupId) => {
+    return apiRequest(`/admin/payments/process-birthday/${userId}`, {
+      method: 'POST',
+      body: JSON.stringify({ groupId }),
+    });
+  },
+
+  processSubscriptionPayments: (groupId) => {
+    return apiRequest(`/admin/payments/process-subscription/${groupId}`, {
+      method: 'POST',
+    });
+  },
+
+  processGeneralPayments: (groupId) => {
+    return apiRequest(`/admin/payments/process-general/${groupId}`, {
+      method: 'POST',
+    });
+  },
+
+  // Withdrawal Processing
+  processPendingWithdrawals: () => {
+    return apiRequest('/admin/withdrawals/process-pending', {
+      method: 'POST',
+    });
+  },
 };
 

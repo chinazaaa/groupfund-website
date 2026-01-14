@@ -85,6 +85,24 @@ export default function AdminLayout({ children }) {
           </Link>
           
           <Link 
+            to="/admin/withdrawals" 
+            className={`admin-nav-item ${isActive('/admin/withdrawals') ? 'active' : ''}`}
+            onClick={closeSidebar}
+          >
+            <span className="nav-icon">💸</span>
+            <span>Withdrawals</span>
+          </Link>
+          
+          <Link 
+            to="/admin/autopay" 
+            className={`admin-nav-item ${isActive('/admin/autopay') ? 'active' : ''}`}
+            onClick={closeSidebar}
+          >
+            <span className="nav-icon">🔄</span>
+            <span>Autopay</span>
+          </Link>
+          
+          <Link 
             to="/admin/birthdays" 
             className={`admin-nav-item ${isActive('/admin/birthdays') ? 'active' : ''}`}
             onClick={closeSidebar}

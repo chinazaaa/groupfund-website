@@ -377,6 +377,8 @@ import AdminBirthdays from './pages/admin/AdminBirthdays'
 import AdminReports from './pages/admin/AdminReports'
 import AdminCustomEmails from './pages/admin/AdminCustomEmails'
 import AdminCustomNotifications from './pages/admin/AdminCustomNotifications'
+import AdminWithdrawals from './pages/admin/AdminWithdrawals'
+import AdminAutopay from './pages/admin/AdminAutopay'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import './App.css'
 import PhilippinesLocationPage from './pages/PhilippinesLocationPage'
@@ -757,6 +759,8 @@ function App() {
         <Route path="/admin/users" element={<ProtectedRoute><AdminUsers /></ProtectedRoute>} />
         <Route path="/admin/groups" element={<ProtectedRoute><AdminGroups /></ProtectedRoute>} />
         <Route path="/admin/contributions" element={<ProtectedRoute><AdminContributions /></ProtectedRoute>} />
+        <Route path="/admin/withdrawals" element={<ProtectedRoute><AdminWithdrawals /></ProtectedRoute>} />
+        <Route path="/admin/autopay" element={<ProtectedRoute><AdminAutopay /></ProtectedRoute>} />
         <Route path="/admin/contact-submissions" element={<ProtectedRoute><AdminContactSubmissions /></ProtectedRoute>} />
         <Route path="/admin/waitlist" element={<ProtectedRoute><AdminWaitlist /></ProtectedRoute>} />
         <Route path="/admin/notifications" element={<ProtectedRoute><AdminNotifications /></ProtectedRoute>} />
