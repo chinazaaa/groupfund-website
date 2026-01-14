@@ -76,7 +76,6 @@ export default function AdminContributions() {
                 <thead>
                   <tr>
                     <th>Amount</th>
-                    <th>Type</th>
                     <th>Receiver</th>
                     <th>Contributor</th>
                     <th>Group</th>
@@ -90,11 +89,6 @@ export default function AdminContributions() {
                   {contributions.map(contribution => (
                     <tr key={contribution.id}>
                       <td>{formatCurrency(contribution.amount, contribution.currency || 'NGN')}</td>
-                      <td>
-                        <span className={`badge ${getGroupTypeBadge(contribution.group_type)}`}>
-                          {getGroupTypeLabel(contribution.group_type)}
-                        </span>
-                      </td>
                       <td>
                         {contribution.receiver?.name || contribution.birthday_user_name || 'N/A'}
                         {contribution.receiver?.id && (
