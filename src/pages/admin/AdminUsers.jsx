@@ -345,40 +345,30 @@ function UserDetailModal({ user, onClose, onUpdate, onDeactivate }) {
             <p><strong>Contributions:</strong> {user.transaction_count || 0}</p>
             {user.reports && (
               <div className="reports-section">
-                <p style={{ marginBottom: '12px' }}><strong>Reports:</strong></p>
-                <div className="reports-display">
-                  <div className="reports-total">
-                    <span className="reports-label">"total":</span>
-                    <span className="reports-value">{user.reports.total || 0}</span>
-                  </div>
-                  {user.reports.by_status && (
-                    <div className="reports-status">
-                      <div className="reports-status-header">
-                        <span className="reports-label">"by_status":</span>
-                        <span className="reports-brace">{'{'}</span>
+                <p style={{ marginBottom: '12px' }}><strong>Reports:</strong> {user.reports.total || 0}</p>
+                {user.reports.by_status && (
+                  <div className="reports-display">
+                    <h4 className="reports-status-title">Report Status</h4>
+                    <div className="reports-status-items">
+                      <div className="reports-status-item">
+                        <span className="reports-status-label">Pending</span>
+                        <span className="reports-badge reports-badge-pending">{user.reports.by_status.pending || 0}</span>
                       </div>
-                      <div className="reports-status-items">
-                        <div className="reports-status-item">
-                          <span className="reports-label">"pending":</span>
-                          <span className="reports-badge reports-badge-pending">{user.reports.by_status.pending || 0}</span>
-                        </div>
-                        <div className="reports-status-item">
-                          <span className="reports-label">"reviewed":</span>
-                          <span className="reports-badge reports-badge-reviewed">{user.reports.by_status.reviewed || 0}</span>
-                        </div>
-                        <div className="reports-status-item">
-                          <span className="reports-label">"resolved":</span>
-                          <span className="reports-badge reports-badge-resolved">{user.reports.by_status.resolved || 0}</span>
-                        </div>
-                        <div className="reports-status-item">
-                          <span className="reports-label">"dismissed":</span>
-                          <span className="reports-badge reports-badge-dismissed">{user.reports.by_status.dismissed || 0}</span>
-                        </div>
+                      <div className="reports-status-item">
+                        <span className="reports-status-label">Reviewed</span>
+                        <span className="reports-badge reports-badge-reviewed">{user.reports.by_status.reviewed || 0}</span>
                       </div>
-                      <div className="reports-brace">{'}'}</div>
+                      <div className="reports-status-item">
+                        <span className="reports-status-label">Resolved</span>
+                        <span className="reports-badge reports-badge-resolved">{user.reports.by_status.resolved || 0}</span>
+                      </div>
+                      <div className="reports-status-item">
+                        <span className="reports-status-label">Dismissed</span>
+                        <span className="reports-badge reports-badge-dismissed">{user.reports.by_status.dismissed || 0}</span>
+                      </div>
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
             )}
           </div>
