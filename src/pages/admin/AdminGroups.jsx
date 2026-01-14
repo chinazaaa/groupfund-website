@@ -187,6 +187,10 @@ export default function AdminGroups() {
                     <th>Members</th>
                     <th>Status</th>
                     <th>Admin</th>
+                    <th>Co-Admins</th>
+                    <th>Chat Enabled</th>
+                    <th>Accepting Requests</th>
+                    <th>Notes</th>
                     <th>Created</th>
                     <th>Actions</th>
                   </tr>
@@ -222,7 +226,67 @@ export default function AdminGroups() {
                           {group.status || 'active'}
                         </span>
                       </td>
-                      <td>{group.admin_name} ({group.admin_email})</td>
+                      <td>
+                        {group.admin?.name || group.admin_name || 'N/A'}
+                        {group.admin?.id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {group.admin.id}
+                          </div>
+                        )}
+                        {!group.admin?.id && group.admin_id && (
+                          <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '4px' }}>
+                            {group.admin_id}
+                          </div>
+                        )}
+                      </td>
+                      <td>
+                        {group.co_admins && group.co_admins.length > 0 ? (
+                          <div>
+                            {group.co_admins.map((coAdmin, idx) => (
+                              <div key={coAdmin.id || idx} style={{ marginBottom: idx < group.co_admins.length - 1 ? '8px' : '0' }}>
+                                <div>{coAdmin.name}</div>
+                                {coAdmin.id && (
+                                  <div style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace', marginTop: '2px' }}>
+                                    {coAdmin.id}
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          'None'
+                        )}
+                      </td>
+                      <td>
+                        <span className={`badge ${group.chat_enabled ? 'badge-success' : 'badge-secondary'}`}>
+                          {group.chat_enabled ? 'Yes' : 'No'}
+                        </span>
+                      </td>
+                      <td>
+                        <span className={`badge ${group.accepting_requests !== false ? 'badge-success' : 'badge-danger'}`}>
+                          {group.accepting_requests !== false ? 'Yes' : 'No'}
+                        </span>
+                      </td>
+                      <td>
+                        {group.notes ? (
+                          <div style={{ maxWidth: '200px', fontSize: '0.875rem' }}>
+                            {group.notes.length > 50 ? (
+                              <>
+                                {group.notes.substring(0, 50)}...
+                                <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '4px', cursor: 'pointer' }}
+                                     onClick={() => alert(group.notes)}
+                                     title="Click to view full notes">
+                                  (view full)
+                                </div>
+                              </>
+                            ) : (
+                              group.notes
+                            )}
+                          </div>
+                        ) : (
+                          'N/A'
+                        )}
+                      </td>
                       <td>{formatDate(group.created_at)}</td>
                       <td>
                         <div className="admin-actions">
