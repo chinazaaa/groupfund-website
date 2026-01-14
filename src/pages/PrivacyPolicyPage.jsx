@@ -98,7 +98,7 @@ export default function PrivacyPolicyPage() {
                 <li>Process and manage group contributions and payments</li>
                 <li>Send you notifications and reminders about birthdays, subscriptions, events, and contributions</li>
                 <li>Send security notifications for critical actions (adding cards, withdrawals, etc.)</li>
-                <li>Send two-factor authentication codes (OTP) via email or support authenticator apps for verification</li>
+                <li>Support two-factor authentication via authenticator apps for verification</li>
                 <li>Respond to your inquiries and provide customer support</li>
                 <li>Detect, prevent, and address technical issues and fraud</li>
                 <li>Comply with legal obligations and payment regulations</li>
@@ -156,7 +156,7 @@ export default function PrivacyPolicyPage() {
                 <strong>Manual Payments:</strong> You can choose to make payments manually (outside the app) instead of using auto-pay. Manual payments do not go through GroupFund's payment processing system, and we only track payment statuses for organizational purposes.
               </p>
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#f0f9ff', borderLeft: '4px solid #007bff', borderRadius: '4px' }}>
-                <strong>🔒 Security:</strong> We use industry-standard encryption and security measures to protect your payment information. All payment processing is handled by Stripe, which maintains the highest security standards (PCI-DSS Level 1 compliance). For critical actions (adding cards, withdrawals, etc.), we require two-factor authentication (password + verification code). You can choose between email OTP or authenticator apps (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) for two-factor authentication.
+                <strong>🔒 Security:</strong> We use industry-standard encryption and security measures to protect your payment information. All payment processing is handled by Stripe, which maintains the highest security standards (PCI-DSS Level 1 compliance). For critical actions (adding cards, withdrawals, etc.), we require two-factor authentication (password + verification code from an authenticator app). You must use an authenticator app (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) for two-factor authentication.
               </p>
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
                 <strong>⚠️ Important Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust. Keep your account credentials secure and monitor your account for unauthorized activity.

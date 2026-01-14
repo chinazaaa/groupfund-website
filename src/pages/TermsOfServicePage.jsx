@@ -389,7 +389,7 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>17. Two-Factor Authentication</h2>
               <p>
-                For security purposes, certain critical actions require two-factor authentication (password + verification code):
+                For security purposes, certain critical actions require two-factor authentication (password + verification code from an authenticator app):
               </p>
               <ul>
                 <li>Adding, editing, or deleting debit cards (payment methods)</li>
@@ -399,14 +399,7 @@ export default function TermsOfServicePage() {
                 <li>Updating payment timing preferences</li>
               </ul>
               <p>
-                <strong>2FA Methods:</strong> You can choose between two methods for two-factor authentication:
-              </p>
-              <ul>
-                <li><strong>Email OTP:</strong> Receive a one-time password (OTP) code via email</li>
-                <li><strong>Authenticator App:</strong> Use an authenticator app (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) to generate verification codes</li>
-              </ul>
-              <p>
-                You can configure your preferred 2FA method in your account settings. Both methods provide strong security for your account and financial transactions.
+                <strong>2FA Method:</strong> Two-factor authentication uses authenticator apps (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) to generate verification codes. You must set up an authenticator app in your account settings to use these features.
               </p>
               <p>
                 You will receive security email notifications for all critical actions. If you receive a notification for an action you did not perform, contact security@groupfund.app immediately.
