@@ -164,6 +164,15 @@ export default function AdminLayout({ children }) {
             <span className="nav-icon">🔔</span>
             <span>Custom Notifications</span>
           </Link>
+          
+          <Link 
+            to="/admin/change-password" 
+            className={`admin-nav-item ${isActive('/admin/change-password') ? 'active' : ''}`}
+            onClick={closeSidebar}
+          >
+            <span className="nav-icon">🔒</span>
+            <span>Change Password</span>
+          </Link>
         </nav>
 
         <div className="admin-sidebar-footer">

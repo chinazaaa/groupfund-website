@@ -379,6 +379,7 @@ import AdminCustomEmails from './pages/admin/AdminCustomEmails'
 import AdminCustomNotifications from './pages/admin/AdminCustomNotifications'
 import AdminWithdrawals from './pages/admin/AdminWithdrawals'
 import AdminAutopay from './pages/admin/AdminAutopay'
+import AdminChangePassword from './pages/admin/AdminChangePassword'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import './App.css'
 import PhilippinesLocationPage from './pages/PhilippinesLocationPage'
@@ -768,6 +769,7 @@ function App() {
         <Route path="/admin/reports" element={<ProtectedRoute><AdminReports /></ProtectedRoute>} />
         <Route path="/admin/custom-emails" element={<ProtectedRoute><AdminCustomEmails /></ProtectedRoute>} />
         <Route path="/admin/custom-notifications" element={<ProtectedRoute><AdminCustomNotifications /></ProtectedRoute>} />
+        <Route path="/admin/change-password" element={<ProtectedRoute><AdminChangePassword /></ProtectedRoute>} />
       </Routes>
     </Router>
   )

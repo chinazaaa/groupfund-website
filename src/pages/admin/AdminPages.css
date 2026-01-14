@@ -1628,6 +1628,18 @@
   opacity: 0.6;
 }
 
+.admin-form {
+  max-width: 500px;
+  margin-top: 24px;
+}
+
+.admin-form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  justify-content: flex-end;
+}
+
 /* Reports Section Styles */
 .reports-section {
   margin-top: 16px;
