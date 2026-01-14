@@ -338,5 +338,19 @@ export const adminApi = {
       method: 'POST',
     });
   },
-};
 
+  // Password Change
+  requestPasswordChangeOTP: (currentPassword) => {
+    return apiRequest('/admin/change-password/request-otp', {
+      method: 'POST',
+      body: JSON.stringify({ currentPassword }),
+    });
+  },
+
+  changePassword: (currentPassword, newPassword, otp) => {
+    return apiRequest('/admin/change-password', {
+      method: 'POST',
+      body: JSON.stringify({ currentPassword, newPassword, otp }),
+    });
+  },
+};
