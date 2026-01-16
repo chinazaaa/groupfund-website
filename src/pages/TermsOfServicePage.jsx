@@ -188,7 +188,20 @@ export default function TermsOfServicePage() {
               
               <h3>6.4 Withdrawal Fees</h3>
               <p>
-                Withdrawal fees vary by currency:
+                Withdrawal fees and minimum amounts vary by currency:
+              </p>
+              <p>
+                <strong>Minimum Withdrawal Amounts:</strong>
+              </p>
+              <ul>
+                <li><strong>USD (US Dollar):</strong> $10</li>
+                <li><strong>EUR (Euro):</strong> €10</li>
+                <li><strong>GBP (British Pound):</strong> £10</li>
+                <li><strong>CAD (Canadian Dollar):</strong> C$10</li>
+                <li><strong>AUD (Australian Dollar):</strong> A$10</li>
+              </ul>
+              <p>
+                <strong>Withdrawal Fees:</strong>
               </p>
               <ul>
                 <li><strong>GBP (British Pound):</strong> FREE - No withdrawal fee</li>

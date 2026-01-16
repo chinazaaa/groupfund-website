@@ -68,43 +68,35 @@ export default function WithdrawingFundsPage() {
                 <li><strong>Wallet Balance:</strong> You must have funds in your wallet (from auto-pay contributions)</li>
                 <li><strong>Valid Bank Account:</strong> You must have valid bank account details in your profile</li>
                 <li><strong>Supported Currency:</strong> Wallet balance must be in USD, EUR, GBP, CAD, or AUD</li>
-                <li><strong>Minimum Amount:</strong> Minimum withdrawal amounts apply (typically $10 USD, €10 EUR, £10 GBP, $10 CAD, $10 AUD)</li>
+                <li><strong>Minimum Amount:</strong> Minimum withdrawal amounts apply:
+                  <ul style={{ marginTop: '0.5rem', marginLeft: '1.5rem' }}>
+                    <li>USD: $10</li>
+                    <li>EUR: €10</li>
+                    <li>GBP: £10</li>
+                    <li>CAD: C$10</li>
+                    <li>AUD: A$10</li>
+                  </ul>
+                </li>
               </ul>
             </div>
 
             <div className="resource-section">
               <h2>Step-by-Step: Withdrawing Funds</h2>
               
-              <h3>Step 1: Verify Password</h3>
-              <p>Withdrawals require two-factor authentication for security:</p>
+              <p>Withdrawals require two-factor authentication for security. Here's the complete process:</p>
               <ol className="resource-list">
                 <li>Go to your wallet section</li>
                 <li>Click "Withdraw Funds" or "Withdraw"</li>
                 <li>Enter your password</li>
-                <li>System verifies your password and returns a temporary token</li>
-              </ol>
-
-              <h3>Step 2: Request OTP</h3>
-              <p>After password verification:</p>
-              <ol className="resource-list">
-                <li>System prompts you to request an OTP</li>
-                <li>Click "Request OTP" or "Send Verification Code"</li>
-                <li>6-digit OTP is sent to your registered email</li>
-                <li>Check your email for the OTP code</li>
-              </ol>
-
-              <h3>Step 3: Enter Withdrawal Details</h3>
-              <p>After receiving the OTP:</p>
-              <ol className="resource-list">
-                <li>Enter the 6-digit OTP code from your email</li>
+                <li>Select the currency (USD, EUR, GBP, CAD, or AUD)</li>
                 <li>Enter the withdrawal amount (must be less than or equal to your wallet balance)</li>
-                <li>Select currency (USD, EUR, GBP, CAD, or AUD)</li>
-                <li>Verify your bank account details (displayed for confirmation)</li>
+                <li>Enter the 6-digit authenticator code from your authenticator app (Google Authenticator, Authy, Microsoft Authenticator, or similar)</li>
+                <li>Review your bank account details (displayed for confirmation)</li>
                 <li>Review withdrawal fees (displayed transparently)</li>
                 <li>Confirm withdrawal request</li>
               </ol>
 
-              <h3>Step 4: 24-Hour Security Hold</h3>
+              <h3>After Submitting: 24-Hour Security Hold</h3>
               <p>After submitting your withdrawal request:</p>
               <ul className="resource-list">
                 <li><strong>Status:</strong> Withdrawal is marked as "Pending" (24-hour security hold period)</li>
@@ -118,7 +110,7 @@ export default function WithdrawingFundsPage() {
                 <li><strong>Processing:</strong> Funds will be sent to your bank account within 24 hours</li>
               </ul>
 
-              <h3>Step 5: Funds Sent</h3>
+              <h3>Funds Sent</h3>
               <p>After the 24-hour hold period:</p>
               <ul className="resource-list">
                 <li><strong>Processing:</strong> Withdrawal is processed via Stripe Payouts API</li>
@@ -162,6 +154,38 @@ export default function WithdrawingFundsPage() {
 
               <p style={{ marginTop: '1.5rem' }}>
                 <strong>Fee Display:</strong> All fees are displayed transparently before you confirm a withdrawal. You'll see exactly how much you'll receive after fees.
+              </p>
+            </div>
+
+            <div className="resource-section">
+              <h2>Minimum Withdrawal Amounts</h2>
+              <p>Minimum withdrawal amounts apply for each supported currency:</p>
+              
+              <div style={{ marginTop: '1.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>
+                <div style={{ padding: '1.5rem', backgroundColor: '#f0f9ff', borderRadius: '8px', borderLeft: '4px solid #3b82f6' }}>
+                  <h3 style={{ marginTop: '0', color: '#1e40af' }}>USD (US Dollar)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e40af', margin: '0.5rem 0' }}>$10</p>
+                </div>
+                <div style={{ padding: '1.5rem', backgroundColor: '#f0f9ff', borderRadius: '8px', borderLeft: '4px solid #3b82f6' }}>
+                  <h3 style={{ marginTop: '0', color: '#1e40af' }}>EUR (Euro)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e40af', margin: '0.5rem 0' }}>€10</p>
+                </div>
+                <div style={{ padding: '1.5rem', backgroundColor: '#f0f9ff', borderRadius: '8px', borderLeft: '4px solid #3b82f6' }}>
+                  <h3 style={{ marginTop: '0', color: '#1e40af' }}>GBP (British Pound)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e40af', margin: '0.5rem 0' }}>£10</p>
+                </div>
+                <div style={{ padding: '1.5rem', backgroundColor: '#f0f9ff', borderRadius: '8px', borderLeft: '4px solid #3b82f6' }}>
+                  <h3 style={{ marginTop: '0', color: '#1e40af' }}>CAD (Canadian Dollar)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e40af', margin: '0.5rem 0' }}>C$10</p>
+                </div>
+                <div style={{ padding: '1.5rem', backgroundColor: '#f0f9ff', borderRadius: '8px', borderLeft: '4px solid #3b82f6' }}>
+                  <h3 style={{ marginTop: '0', color: '#1e40af' }}>AUD (Australian Dollar)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e40af', margin: '0.5rem 0' }}>A$10</p>
+                </div>
+              </div>
+
+              <p style={{ marginTop: '1.5rem' }}>
+                <strong>Note:</strong> You cannot withdraw amounts below these minimums. If your wallet balance is below the minimum for a currency, you'll need to accumulate more funds before withdrawing.
               </p>
             </div>
 
@@ -251,8 +275,8 @@ export default function WithdrawingFundsPage() {
               <p>Withdrawals require two-factor authentication for security:</p>
               <ul className="resource-list">
                 <li><strong>Password Verification:</strong> Enter your password first</li>
-                <li><strong>Email OTP:</strong> Enter 6-digit OTP code sent to your email</li>
-                <li><strong>Authenticator App:</strong> For critical actions, authenticator apps are used (not email OTP for withdrawals - email OTP is used)</li>
+                <li><strong>Authenticator App Code:</strong> Enter 6-digit code from your authenticator app (Google Authenticator, Authy, Microsoft Authenticator, or similar)</li>
+                <li><strong>Note:</strong> Withdrawals use authenticator app codes only. Email OTP is only used for account signup and password resets, not for withdrawals.</li>
                 <li><strong>Security Email:</strong> You receive email notification when withdrawal is requested</li>
                 <li><strong>24-Hour Hold:</strong> Additional security measure to prevent fraud</li>
               </ul>

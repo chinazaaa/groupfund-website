@@ -177,7 +177,7 @@ export default function UsingYourWalletPage() {
               <ul className="resource-list">
                 <li><strong>Cannot Delete with Balance:</strong> You cannot delete your account if you have a wallet balance greater than zero</li>
                 <li><strong>Must Withdraw First:</strong> You must withdraw all funds from your wallet before deleting your account</li>
-                <li><strong>Error Message:</strong> If you try to delete with a balance, you'll see: "Cannot delete account. Please withdraw all funds ({amount} {currency_symbol} remaining) before deleting your account."</li>
+                <li><strong>Error Message:</strong> If you try to delete with a balance, you'll see an error message showing your remaining wallet balance and asking you to withdraw all funds before deleting your account.</li>
               </ul>
               <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#fef2f2', borderRadius: '6px' }}>
                 <strong>Why?</strong> This prevents you from losing your money. You must withdraw all funds first, then you can delete your account.

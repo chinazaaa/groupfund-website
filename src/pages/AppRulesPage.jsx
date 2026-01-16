@@ -273,6 +273,15 @@ export default function AppRulesPage() {
               <ul>
                 <li>You can withdraw funds from your wallet to your bank account at any time</li>
                 <li><strong>Currency restriction:</strong> Withdrawals are only available for wallet balances in USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). If your group uses a different currency, withdrawals are not available</li>
+                <li><strong>Minimum withdrawal amounts:</strong>
+                  <ul>
+                    <li>USD (US Dollar): $10</li>
+                    <li>EUR (Euro): €10</li>
+                    <li>GBP (British Pound): £10</li>
+                    <li>CAD (Canadian Dollar): C$10</li>
+                    <li>AUD (Australian Dollar): A$10</li>
+                  </ul>
+                </li>
                 <li><strong>Withdrawal fees:</strong>
                   <ul>
                     <li>GBP (British Pound): FREE - No withdrawal fee</li>

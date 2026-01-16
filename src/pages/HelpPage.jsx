@@ -124,11 +124,11 @@ export default function HelpPage() {
         },
         {
           question: "How do withdrawals work?",
-          answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
+          answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Minimum withdrawal amounts: $10 USD, €10 EUR, £10 GBP, C$10 CAD, A$10 AUD. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
         },
         {
           question: "What are the withdrawal fees?",
-          answer: "Withdrawal fees vary by currency: GBP (British Pound) - FREE, EUR (Euro) - FREE, USD (US Dollar) - 1% fee. All fees are displayed transparently before you confirm a withdrawal."
+          answer: "Withdrawal fees vary by currency: GBP (British Pound) - FREE, EUR (Euro) - FREE, USD (US Dollar) - 1% fee, CAD (Canadian Dollar) - 1% fee, AUD (Australian Dollar) - 1% fee. Minimum withdrawal amounts: $10 USD, €10 EUR, £10 GBP, C$10 CAD, A$10 AUD. All fees are displayed transparently before you confirm a withdrawal."
         },
         {
           question: "Why is there a 24-hour hold on withdrawals?",
