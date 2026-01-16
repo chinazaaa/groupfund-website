@@ -87,8 +87,13 @@ export default function FeaturesPage() {
       icon: "📱"
     },
     {
-      title: "Per-Group Chat & Messaging",
-      description: "Enable optional group chat for seamless communication within your group. Mention members with @username, get smart notifications for mentions or all messages, and customize your notification preferences. Chat is disabled by default and can be toggled on/off by group creators. Only active members can participate.",
+      title: "Group Links",
+      description: "Invite friends and family to your groups easily! Shareable group links for easy invitations. Quick and simple way to grow your groups. No need to manually add each member. Members can preview groups (including reliability scores and health metrics) before joining.",
+      icon: "🔗"
+    },
+    {
+      title: "Chat Rooms",
+      description: "Communicate with your group members directly within the app! Real-time messaging with group members. Stay connected and coordinate contributions. All group communication in one place. Enable optional group chat (disabled by default), mention members with @username, and customize notification preferences.",
       icon: "💬"
     },
     {

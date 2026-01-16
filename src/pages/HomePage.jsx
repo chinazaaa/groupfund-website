@@ -283,11 +283,21 @@ export default function HomePage() {
             <article className="feature-card">
               <div className="feature-icon-wrapper">
                 <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </div>
+              <h3>Group Links</h3>
+              <p>Invite friends and family to your groups easily! Shareable group links for easy invitations. Quick and simple way to grow your groups. No need to manually add each member.</p>
+            </article>
+            <article className="feature-card">
+              <div className="feature-icon-wrapper">
+                <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                 </svg>
               </div>
-              <h3>Per-Group Chat & Messaging</h3>
-              <p>Enable optional group chat for seamless communication. Mention members with @username, get smart notifications, and customize preferences. Chat is disabled by default and can be toggled by group creators.</p>
+              <h3>Chat Rooms</h3>
+              <p>Communicate with your group members directly within the app! Real-time messaging with group members. Stay connected and coordinate contributions. All group communication in one place.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
