@@ -134,6 +134,11 @@ export default function TermsOfServicePage() {
             <div className="legal-section">
               <h2>6. Payment and Financial Transactions</h2>
               
+              <p style={{ marginTop: '1.5rem', padding: '1.5rem', backgroundColor: '#d1fae5', borderLeft: '4px solid #10b981', borderRadius: '4px', fontSize: '1.05rem' }}>
+                <strong>🔒 Important: We Do NOT Store Your Card Information</strong><br />
+                GroupFund does <strong>NOT</strong> store your debit card number, CVV, or expiration date. All card information is handled securely by Stripe, a PCI-DSS Level 1 compliant payment processor. We never see or have access to your full card details. When you add a card, the information is sent directly to Stripe (not to GroupFund), and Stripe provides us with a secure token for processing payments.
+              </p>
+              
               <h3>6.1 Automatic Payment Collection (Auto-Pay)</h3>
               <p>
                 GroupFund offers automatic payment collection (auto-pay) through Stripe, a secure payment processor. When you enable auto-pay for a group:

@@ -38,7 +38,7 @@ export default function FeaturesPage() {
   const features = [
     {
       title: "Multi-Currency Support",
-      description: "Choose from NGN, USD, GBP, EUR, CAD, AUD, and more when creating groups. Each group can set its preferred currency, and local bank details are displayed automatically. Auto-pay, wallet, and withdrawals are available for USD, EUR, GBP, CAD, and AUD only. Groups using other currencies (like NGN) can still use manual payments.",
+      description: "Choose from NGN, USD, GBP, EUR, CAD, AUD, and more when creating groups. Each group can set its preferred currency, and local bank details are displayed automatically. Auto-pay, wallet, and withdrawals are available for USD, EUR, GBP, CAD, and AUD only. Groups using other currencies can still use manual payments.",
       icon: "🌍"
     },
     {

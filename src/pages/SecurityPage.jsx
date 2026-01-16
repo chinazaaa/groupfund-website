@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SEO from '../components/SEO'
 import '../App.css'
 
@@ -45,21 +46,28 @@ export default function SecurityPage() {
 
             <div className="legal-section">
               <h2>Payment Security</h2>
+              <p style={{ marginTop: '1.5rem', padding: '1.5rem', backgroundColor: '#d1fae5', borderLeft: '4px solid #10b981', borderRadius: '4px', fontSize: '1.05rem' }}>
+                <strong>🔒 Important: We Do NOT Store Your Card Information</strong><br />
+                GroupFund does <strong>NOT</strong> store your debit card number, CVV, or expiration date. All card information is handled securely by Stripe, a PCI-DSS Level 1 compliant payment processor. We never see or have access to your full card details.
+              </p>
               <p>
                 <strong>Automatic Payment Processing:</strong> GroupFund processes automatic payments securely via Stripe, a PCI-DSS Level 1 compliant payment processor. This means:
               </p>
               <ul>
-                <li>We never see or store your full debit card number, CVV, or expiration date</li>
-                <li>All card data is handled securely by Stripe (PCI-DSS compliant)</li>
-                <li>We only store payment method tokens (provided by Stripe) for future charges</li>
-                <li>All payment processing is encrypted and secure</li>
-                <li>Manual payments are made directly between group members using their preferred payment methods</li>
+                <li><strong>We never see or store your full debit card number, CVV, or expiration date</strong> - All card data is handled exclusively by Stripe</li>
+                <li><strong>All card data is handled securely by Stripe (PCI-DSS compliant)</strong> - Stripe maintains the highest security standards and compliance certifications</li>
+                <li><strong>We only store payment method tokens (provided by Stripe) for future charges</strong> - These tokens cannot be used to access your actual card information</li>
+                <li><strong>All payment processing is encrypted and secure</strong> - Transactions are protected end-to-end</li>
+                <li><strong>Manual payments are made directly between group members</strong> - Using their preferred payment methods outside the app</li>
               </ul>
+              <p>
+                <strong>How It Works:</strong> When you add a debit card for auto-pay, the card information is sent directly to Stripe (not to GroupFund). Stripe securely stores your card and provides us with a token that we can use to process future payments. We cannot access your actual card number, CVV, or expiration date from this token.
+              </p>
               <p>
                 <strong>Wallet Security:</strong> Your in-app wallet balance is stored securely. Withdrawals require two-factor authentication and are subject to a 24-hour security hold period for fraud prevention.
               </p>
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#f0f9ff', borderLeft: '4px solid #007bff', borderRadius: '4px' }}>
-                <strong>🔒 Secure Processing:</strong> All automatic payments are processed via Stripe, which maintains the highest security standards. We use industry-standard encryption and security measures to protect your payment information.
+                <strong>🔒 Secure Processing:</strong> All automatic payments are processed via Stripe, which maintains the highest security standards (PCI-DSS Level 1 compliance). We use industry-standard encryption and security measures to protect your payment information. Your card data never touches our servers - it's all handled by Stripe's secure infrastructure.
               </p>
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
                 <strong>⚠️ Security Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.

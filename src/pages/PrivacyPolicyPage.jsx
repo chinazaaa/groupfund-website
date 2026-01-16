@@ -130,17 +130,24 @@ export default function PrivacyPolicyPage() {
 
             <div className="legal-section">
               <h2>6. Payment Information</h2>
+              <p style={{ marginTop: '1.5rem', padding: '1.5rem', backgroundColor: '#d1fae5', borderLeft: '4px solid #10b981', borderRadius: '4px', fontSize: '1.05rem' }}>
+                <strong>🔒 Important: We Do NOT Store Your Card Information</strong><br />
+                GroupFund does <strong>NOT</strong> store your debit card number, CVV, or expiration date. All card information is handled securely by Stripe, a PCI-DSS Level 1 compliant payment processor. We never see or have access to your full card details. When you add a card, the information is sent directly to Stripe (not to GroupFund), and Stripe provides us with a secure token for processing payments.
+              </p>
               <p>
                 <strong>Automatic Payment Processing:</strong> When you enable auto-pay, we process payments through Stripe, a secure payment processor. We work with Stripe to:
               </p>
               <ul>
-                <li>Securely store your payment method (debit card) - we never see or store your full card number, CVV, or expiration date</li>
+                <li><strong>Securely store your payment method (debit card) - we never see or store your full card number, CVV, or expiration date</strong> - All card data is handled exclusively by Stripe</li>
                 <li>Process automatic payments on scheduled dates (birthdays, deadlines)</li>
                 <li>Handle payment confirmations and webhooks</li>
                 <li>Process withdrawals to your bank account</li>
               </ul>
               <p>
-                <strong>What We Store:</strong> We store payment method tokens (provided by Stripe) and transaction records. We never store your actual debit card number, CVV, or expiration date. All sensitive card data is handled securely by Stripe, which is PCI-DSS compliant.
+                <strong>What We Store:</strong> We store payment method tokens (provided by Stripe) and transaction records. <strong>We never store your actual debit card number, CVV, or expiration date.</strong> All sensitive card data is handled securely by Stripe, which is PCI-DSS compliant. The tokens we receive from Stripe cannot be used to access your actual card information.
+              </p>
+              <p>
+                <strong>How It Works:</strong> When you add a debit card for auto-pay, the card information is sent directly to Stripe (not to GroupFund). Stripe securely stores your card and provides us with a token that we can use to process future payments. We cannot access your actual card number, CVV, or expiration date from this token.
               </p>
               <p>
                 <strong>Bank Account Information:</strong> We store your bank account details (account name, bank name, account number) for two purposes:

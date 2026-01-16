@@ -167,17 +167,17 @@ export default function BestWayToCollectMoneyFromGroupPage() {
   return (
     <>
       <SEO
-        title="Best Way to Collect Money from a Group: Complete Guide 2024 | GroupFund"
-        description="Discover the best way to collect money from a group for gifts, events, and shared expenses. Learn how to use GroupFund to track contributions, send reminders, and avoid awkward chasing. Free to start."
-        keywords="best way to collect money from a group, what is the best way to collect money from a group, how to collect money from a group, collect money for group gift, best way to collect money for a group gift, best way to collect money for a group gift without spreadsheets, app to manage group expenses for birthdays, group payment app, collect money from friends, collecting money from friends, how do i request money from a group of friends, group contribution tracker, best app for group payments, pay friends easily for group events, easy way to pay friends for events, pay friends for group events, how do we track contributions for a group gift online, track group gift contributions online, online contribution tracking for group gifts, best app for splitting bills, split costs with friends, split bills app, split money with friends, best way to split bills, split costs app, group expense tracker, split expenses with friends, how to split costs with friends, collect money app, money collection app, group payment tracker"
+        title="Collect Money for Group Gift - Best Way to Collect from a Group 2024 | GroupFund"
+        description="Discover the best way to collect money for a group gift. Learn how to collect money from a group for gifts, events, and shared expenses using GroupFund. Track contributions, send reminders, and avoid awkward chasing. Free to start."
+        keywords="collect money for group gift, best way to collect money for a group gift, how to collect money for a group gift, collect money from a group, best way to collect money from a group, what is the best way to collect money from a group, how to collect money from a group, best way to collect money for a group gift without spreadsheets, app to manage group expenses for birthdays, group payment app, collect money from friends, collecting money from friends, how do i request money from a group of friends, group contribution tracker, best app for group payments, pay friends easily for group events, easy way to pay friends for events, pay friends for group events, how do we track contributions for a group gift online, track group gift contributions online, online contribution tracking for group gifts, best app for splitting bills, split costs with friends, split bills app, split money with friends, best way to split bills, split costs app, group expense tracker, split expenses with friends, how to split costs with friends, collect money app, money collection app, group payment tracker"
         canonical="https://www.groupfund.app/best-practices/best-way-to-collect-money-from-group"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">Best Way to Collect Money from a Group: Complete Guide</h1>
+          <h1 className="page-title">Collect Money for Group Gift - Best Way to Collect from a Group</h1>
           <p className="page-subtitle">
-            Stop chasing payments in group chats. Learn the most effective methods to collect money from groups for gifts, events, subscriptions, and shared expenses.
+            Stop chasing payments in group chats. Learn the most effective methods to collect money for a group gift and from groups for gifts, events, subscriptions, and shared expenses.
           </p>
         </div>
       </section>
@@ -372,9 +372,9 @@ export default function BestWayToCollectMoneyFromGroupPage() {
             </div>
 
             <div className="industry-section">
-              <h2>How to Collect Money for a Group Gift</h2>
+              <h2>How to Collect Money for a Group Gift: Step-by-Step Guide</h2>
               <p>
-                Collecting money for a group gift doesn't have to be stressful. Follow these steps:
+                Collecting money for a group gift doesn't have to be stressful. Whether you're organizing a birthday gift, wedding gift, or any group present, follow these steps to collect money for a group gift effectively:
               </p>
 
               <div className="scaling-card">
@@ -577,6 +577,16 @@ export default function BestWayToCollectMoneyFromGroupPage() {
             <div className="related-resources">
               <h2>Related Resources</h2>
               <div className="resources-grid">
+                <Link to="/app-to-manage-group-expenses-for-birthdays" className="resource-card">
+                  <span className="resource-icon">🎂</span>
+                  <h3>App to Manage Group Expenses for Birthdays</h3>
+                  <p>Complete guide to the best app for managing birthday group expenses</p>
+                </Link>
+                <Link to="/resources/how-to-create-birthday-wishlist" className="resource-card">
+                  <span className="resource-icon">🎁</span>
+                  <h3>Make a Birthday Wish List</h3>
+                  <p>Step-by-step guide to making an effective birthday wish list</p>
+                </Link>
                 <Link to="/best-app-for-splitting-bills" className="resource-card">
                   <span className="resource-icon">💳</span>
                   <h3>Best App for Splitting Bills</h3>

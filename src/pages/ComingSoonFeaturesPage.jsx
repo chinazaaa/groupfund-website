@@ -26,34 +26,7 @@ export default function ComingSoonFeaturesPage() {
   }, [])
 
   const pipelineFeatures = [
-    // {
-    //   title: "Group Chat Integration",
-    //   description: "Built-in group chat functionality to keep all communication in one place. Discuss contributions, share updates, and coordinate seamlessly.",
-    //   icon: "💬",
-    //   status: "Planned",
-    //   statusColor: "purple"
-    // },
-    {
-      title: "Group Analytics Dashboard",
-      description: "Comprehensive analytics and insights for group admins. Track contribution trends, member engagement, and financial summaries.",
-      icon: "📊",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
-      title: "Advanced Notification Settings",
-      description: "Customize notification preferences for each group. Choose channels (email, SMS, push), frequency, and notification types.",
-      icon: "🔔",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
-      title: "Custom Contribution Rules",
-      description: "Create flexible contribution rules based on member roles, seniority, or custom criteria. Perfect for complex group structures.",
-      icon: "⚙️",
-      status: "Planned",
-      statusColor: "purple"
-    },
+   
     {
       title: "Export & Reporting",
       description: "Export detailed contribution reports in multiple formats (PDF, Excel, CSV). Generate tax-ready financial summaries for your records.",

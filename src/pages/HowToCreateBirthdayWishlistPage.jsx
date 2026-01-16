@@ -9,8 +9,8 @@ export default function HowToCreateBirthdayWishlistPage() {
     const howToStructuredData = {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "name": "How to Create a Birthday Wishlist",
-      "description": "Step-by-step guide on how to create a birthday wishlist for group gift giving. Learn how to add items, set prices, include photos, and organize your wishlist effectively.",
+      "name": "How to Make a Birthday Wish List",
+      "description": "Step-by-step guide on how to make a birthday wish list for group gift giving. Learn how to add items, set prices, include photos, and organize your wishlist effectively.",
       "image": "https://www.groupfund.app/og-image.jpg",
       "url": "https://www.groupfund.app/resources/how-to-create-birthday-wishlist",
       "totalTime": "PT15M",
@@ -96,17 +96,17 @@ export default function HowToCreateBirthdayWishlistPage() {
   return (
     <>
       <SEO
-        title="How to Create a Birthday Wishlist - Step-by-Step Guide"
-        description="Learn how to create a birthday wishlist step-by-step. Discover tips for adding items, setting prices, including photos, and organizing your wishlist for effective group gift coordination. Perfect for Birthday Groups."
-        keywords="how to create a birthday wishlist, create birthday wishlist, birthday wishlist guide, make birthday wishlist, birthday gift list, wishlist creation, birthday groups"
+        title="Make a Birthday Wish List - Step-by-Step Guide | GroupFund"
+        description="Learn how to make a birthday wish list step-by-step. Discover tips for adding items, setting prices, including photos, and organizing your wishlist for effective group gift coordination. Perfect for Birthday Groups."
+        keywords="make a birthday wish list, how to make a birthday wish list, create birthday wishlist, birthday wishlist guide, make birthday wishlist, birthday gift list, wishlist creation, birthday groups, how to create a birthday wishlist"
         canonical="https://www.groupfund.app/resources/how-to-create-birthday-wishlist"
       />
 
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-title">How to Create a Birthday Wishlist</h1>
+          <h1 className="page-title">How to Make a Birthday Wish List</h1>
           <p className="page-subtitle">
-            A step-by-step guide to creating an effective birthday wishlist for group gift giving (available for Birthday Groups)
+            A step-by-step guide to making an effective birthday wish list for group gift giving (available for Birthday Groups)
           </p>
         </div>
       </section>
@@ -122,21 +122,21 @@ export default function HowToCreateBirthdayWishlistPage() {
             <div className="resource-section">
               <h2>Introduction</h2>
               <p>
-                Creating a birthday wishlist is the first step toward ensuring you receive gifts you'll actually love and use. A well-crafted wishlist helps your friends and family know exactly what you want, eliminates guesswork, and prevents duplicate gifts. In GroupFund, birthday wishlists are seamlessly integrated into Birthday Groups, making gift coordination effortless for everyone involved.
+                Making a birthday wish list is the first step toward ensuring you receive gifts you'll actually love and use. A well-crafted wish list helps your friends and family know exactly what you want, eliminates guesswork, and prevents duplicate gifts. In GroupFund, birthday wish lists are seamlessly integrated into Birthday Groups, making gift coordination effortless for everyone involved.
               </p>
               <p>
-                This guide will walk you through the entire process of creating a birthday wishlist, from accessing the feature to adding your first items. Whether you're creating your first wishlist or looking to improve an existing one, you'll find practical tips and best practices here.
+                This guide will walk you through the entire process of making a birthday wish list, from accessing the feature to adding your first items. Whether you're making your first wish list or looking to improve an existing one, you'll find practical tips and best practices here.
               </p>
             </div>
 
             <div className="resource-section">
               <h2>What You'll Need</h2>
               <p>
-                Before you start creating your birthday wishlist, make sure you have:
+                Before you start making your birthday wish list, make sure you have:
               </p>
               <ul className="resource-list">
                 <li><strong>A GroupFund Account:</strong> You need to be signed up and logged in</li>
-                <li><strong>A Birthday Group:</strong> Wishlists are available for Birthday Groups only</li>
+                <li><strong>A Birthday Group:</strong> Wish lists are available for Birthday Groups only</li>
                 <li><strong>Item Ideas:</strong> Think about what you'd like to receive for your birthday</li>
                 <li><strong>Photos (Optional but Recommended):</strong> Pictures of items help gift givers know exactly what to buy</li>
                 <li><strong>Price Information:</strong> Approximate prices help people budget their gifts</li>
@@ -144,11 +144,11 @@ export default function HowToCreateBirthdayWishlistPage() {
             </div>
 
             <div className="resource-section">
-              <h2>Step-by-Step Guide to Creating Your Birthday Wishlist</h2>
+              <h2>Step-by-Step Guide to Making Your Birthday Wish List</h2>
               
               <h3>Step 1: Access Your Profile</h3>
               <p>
-                To create a birthday wishlist, you'll need to access your profile settings in GroupFund. Birthday wishlists are profile-level features, which means they're visible to all group members who share at least one active Birthday Group with you.
+                To make a birthday wish list, you'll need to access your profile settings in GroupFund. Birthday wish lists are profile-level features, which means they're visible to all group members who share at least one active Birthday Group with you.
               </p>
               <ul className="resource-list">
                 <li>Log into your GroupFund account</li>
@@ -157,9 +157,9 @@ export default function HowToCreateBirthdayWishlistPage() {
                 <li>If you don't see this option, make sure you're part of at least one Birthday Group</li>
               </ul>
 
-              <h3>Step 2: Start Creating Your Wishlist</h3>
+              <h3>Step 2: Start Making Your Wish List</h3>
               <p>
-                Once you've accessed the wishlist section, click on "Create Wishlist" or "Add Items" to begin building your list. You can add items at any time, but it's best to start well before your birthday so group members have time to see your list and plan their purchases.
+                Once you've accessed the wish list section, click on "Create Wishlist" or "Add Items" to begin building your list. You can add items at any time, but it's best to start well before your birthday so group members have time to see your list and plan their purchases.
               </p>
               <p>
                 <strong>Pro Tip:</strong> Start adding items 2-3 weeks before your birthday to give people enough time to browse and claim items.
@@ -243,7 +243,7 @@ export default function HowToCreateBirthdayWishlistPage() {
             </div>
 
             <div className="resource-section">
-              <h2>Best Practices for Creating an Effective Wishlist</h2>
+              <h2>Best Practices for Making an Effective Wish List</h2>
               
               <h3>Be Specific</h3>
               <p>
@@ -301,13 +301,13 @@ export default function HowToCreateBirthdayWishlistPage() {
             </div>
 
             <div className="resource-section">
-              <h2>What Happens After You Create Your Wishlist?</h2>
+              <h2>What Happens After You Make Your Wish List?</h2>
               <p>
-                Once you've created your birthday wishlist:
+                Once you've made your birthday wish list:
               </p>
               <ul className="resource-list">
-                <li><strong>Automatic Sharing:</strong> Your wishlist is automatically visible to all group members who share at least one active Birthday Group with you</li>
-                <li><strong>Item Claims:</strong> Group members can view your wishlist and claim items they want to purchase</li>
+                <li><strong>Automatic Sharing:</strong> Your wish list is automatically visible to all group members who share at least one active Birthday Group with you</li>
+                <li><strong>Item Claims:</strong> Group members can view your wish list and claim items they want to purchase</li>
                 <li><strong>Real-Time Updates:</strong> You'll see in real-time which items have been claimed and by whom</li>
                 <li><strong>Coordination:</strong> The claim system prevents duplicate purchases and helps coordinate gift giving</li>
                 <li><strong>Tracking:</strong> You can track what's been claimed and what you'll receive</li>
@@ -327,8 +327,8 @@ export default function HowToCreateBirthdayWishlistPage() {
             </div>
 
             <div className="cta-box">
-              <h2>Ready to Create Your Birthday Wishlist?</h2>
-              <p>GroupFund makes creating and managing birthday wishlists effortless for Birthday Groups. Start building your wishlist today and make gift giving easier for everyone in your group.</p>
+              <h2>Ready to Make Your Birthday Wish List?</h2>
+              <p>GroupFund makes making and managing birthday wish lists effortless for Birthday Groups. Start building your wish list today and make gift giving easier for everyone in your group.</p>
               <div className="cta-buttons">
                 <Link to="/get-started" className="btn btn-primary btn-large">Start Free with GroupFund</Link>
                 <Link to="/how-it-works" className="btn btn-secondary btn-large">See How It Works</Link>
@@ -338,6 +338,8 @@ export default function HowToCreateBirthdayWishlistPage() {
             <div className="related-links">
               <h3>Related Guides</h3>
               <div className="related-links-grid">
+                <Link to="/app-to-manage-group-expenses-for-birthdays">App to Manage Group Expenses for Birthdays →</Link>
+                <Link to="/best-practices/best-way-to-collect-money-from-group">Collect Money for Group Gift →</Link>
                 <Link to="/resources/using-birthday-wishlists">Using Birthday Wishlists →</Link>
                 <Link to="/resources/setting-up-birthday-groups">Setting Up Birthday Groups →</Link>
                 <Link to="/resources/how-to-organize-birthday-contributions">How to Organize Birthday Contributions →</Link>
