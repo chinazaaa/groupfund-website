@@ -93,9 +93,9 @@ export default function AppRulesPage() {
                 <strong>Requirements:</strong>
               </p>
               <ul>
-                <li>The group must use a currency that supports auto-pay: USD (US Dollar), EUR (Euro), or GBP (British Pound)</li>
+                <li>The group must use a currency that supports auto-pay: USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar)</li>
                 <li>If your group uses a different currency (e.g., NGN - Nigerian Naira), auto-pay is not available, but you can still use manual payments</li>
-                <li>Valid debit card (Visa, Mastercard, etc.)</li>
+                <li>Valid debit card (Visa, Mastercard, etc.) that works with the group's currency (USD, EUR, GBP, CAD, or AUD cards for their respective currencies)</li>
                 <li>Bank account details in your profile (required for withdrawals)</li>
                 <li>No overdue payments (defaulters cannot enable auto-pay)</li>
               </ul>

@@ -66,7 +66,7 @@ export default function SettingUpAutoPayPage() {
               <p>Before you can enable auto-pay, you need:</p>
               <ul className="resource-list">
                 <li><strong>Group Currency:</strong> The group must use USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). Auto-pay is not available for other currencies (like NGN).</li>
-                <li><strong>Valid Debit Card:</strong> You need a debit card (Visa, Mastercard, etc.) to enable auto-pay. Credit cards are not supported.</li>
+                <li><strong>Valid Debit Card:</strong> You need a debit card (Visa, Mastercard, etc.) that works with the group's currency. For groups using USD, you can use a USD debit card; for EUR groups, an EUR card; for GBP groups, a GBP card; for CAD groups, a CAD card; for AUD groups, an AUD card. Credit cards are not supported.</li>
                 <li><strong>Bank Account Details:</strong> You must have bank account details in your profile (required for withdrawals).</li>
                 <li><strong>No Overdue Payments:</strong> You cannot enable auto-pay if you have any overdue payments. You must clear all overdue payments first.</li>
                 <li><strong>For General Groups:</strong> The deadline must not have passed. You cannot enable auto-pay for general groups with deadlines in the past.</li>
@@ -77,7 +77,15 @@ export default function SettingUpAutoPayPage() {
               <h2>Step-by-Step: Enabling Auto-Pay</h2>
               
               <h3>Step 1: Add Your Debit Card</h3>
-              <p>Before enabling auto-pay, you need to add a debit card to your account:</p>
+              <p>Before enabling auto-pay, you need to add a debit card to your account that works with the group's currency:</p>
+              <ul className="resource-list">
+                <li><strong>For USD groups:</strong> Add a USD debit card</li>
+                <li><strong>For EUR groups:</strong> Add an EUR debit card</li>
+                <li><strong>For GBP groups:</strong> Add a GBP debit card</li>
+                <li><strong>For CAD groups:</strong> Add a CAD debit card</li>
+                <li><strong>For AUD groups:</strong> Add an AUD debit card</li>
+              </ul>
+              <p>To add your debit card:</p>
               <ol className="resource-list">
                 <li>Go to your account settings</li>
                 <li>Navigate to "Payment Methods" or "Cards"</li>
@@ -85,7 +93,7 @@ export default function SettingUpAutoPayPage() {
                 <li>Enter your card details (card number, expiration date, CVV)</li>
                 <li>Card details are securely processed by Stripe - we never see or store your full card number</li>
                 <li>Complete two-factor authentication (password + authenticator app code)</li>
-                <li>Your card is now saved and ready to use</li>
+                <li>Your card is now saved and ready to use for groups in that currency</li>
               </ol>
               <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#fff3cd', borderRadius: '6px' }}>
                 <strong>Security:</strong> Adding a debit card requires two-factor authentication using an authenticator app (Google Authenticator, Authy, Microsoft Authenticator, or similar). This ensures your payment methods are secure.
