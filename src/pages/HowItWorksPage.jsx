@@ -51,36 +51,48 @@ export default function HowItWorksPage() {
     },
     {
       number: '5',
-      title: 'Track Contributions & Deadlines',
-      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Members mark contributions as "Paid", then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) confirm receipt or reject if not received. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. Track overdue contributions automatically.',
-      icon: '📅'
+      title: 'Enable Auto-Pay or Make Manual Payments',
+      description: 'For groups using USD, EUR, or GBP: Enable auto-pay to have your debit card automatically charged on payment dates. Choose "1 day before" or "same day" timing. Payments are processed securely via Stripe and automatically confirmed. For other currencies or if you prefer: Make manual payments outside the app and mark as "Paid". Recipients confirm receipt for manual payments. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.',
+      icon: '💳'
     },
     {
       number: '6',
-      title: 'Get Smart Notifications',
-      description: 'Receive automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Get in-app and push notifications for contributions, overdue payments, member requests, and confirmations.',
-      icon: '🔔'
+      title: 'Track Contributions & Deadlines',
+      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Auto-pay payments are automatically confirmed. Manual payments require confirmation from admins/co-admins (Subscription/General Groups) or celebrants (Birthday Groups). Track overdue contributions automatically.',
+      icon: '📅'
     },
     {
       number: '7',
+      title: 'Get Smart Notifications',
+      description: 'Receive automatic reminders before deadlines (7 days, 1 day, same day for birthdays; before subscription deadlines; before event deadlines). Get in-app and push notifications for contributions, overdue payments, member requests, confirmations, auto-pay status, and withdrawal updates.',
+      icon: '🔔'
+    },
+    {
+      number: '8',
+      title: 'Receive Funds in Wallet & Withdraw',
+      description: 'When others contribute to you via auto-pay, funds are credited to your in-app wallet balance. Wallet is only available for USD, EUR, and GBP. You can withdraw funds from your wallet to your bank account at any time. Withdrawals have a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% for USD. View complete transaction history and bank statements in the app.',
+      icon: '💼'
+    },
+    {
+      number: '9',
       title: 'Monitor Group Health',
       description: 'Track group compliance metrics and health ratings. See how well your group maintains contribution standards. Pause/resume accepting members or close/reopen groups as needed.',
       icon: '📈'
     },
     {
-      number: '8',
+      number: '10',
       title: 'Member Reliability Scoring',
       description: 'Every member has a reliability score (0-100) based on their contribution history. View metrics like on-time payment rates and summary ratings to make informed decisions when approving new members.',
       icon: '⭐'
     },
     {
-      number: '9',
-      title: 'Two-Step Contribution Confirmation',
-      description: 'Members mark contributions as "Paid", then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) confirm receipt or reject if not received. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. Track status in real-time from not paid to confirmed or not received for full transparency.',
+      number: '11',
+      title: 'Payment Confirmation',
+      description: 'Auto-pay payments are automatically confirmed after successful processing by Stripe. Manual payments require two-step confirmation: members mark contributions as "Paid", then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) confirm receipt or reject if not received. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. Track status in real-time for full transparency.',
       icon: '🔄'
     },
     {
-      number: '10',
+      number: '12',
       title: 'Group Chat & Communication',
       description: 'Enable optional per-group chat when creating or editing groups (disabled by default). Mention members with @username, get smart notifications for mentions or all messages, and customize your notification preferences. Only active members can participate in chat.',
       icon: '💬'
@@ -124,46 +136,93 @@ export default function HowItWorksPage() {
           {/* Payment Flow Visual Section */}
           <div className="payment-flow-section">
             <div className="container">
-              <h2 className="payment-flow-title">How External Payments Work</h2>
+              <h2 className="payment-flow-title">How Payments Work</h2>
               
-              <div className="payment-flow-container">
-                <div className="payment-step">
-                  <div className="payment-step-number">1</div>
-                  <div className="payment-step-icon">💸</div>
-                  <h3 className="payment-step-title">Make Payment</h3>
-                  <p className="payment-step-description">
-                    Transfer money externally (bank, mobile money, cash) to the celebrant or admin.
-                  </p>
-                </div>
+              <div style={{ marginBottom: '3rem' }}>
+                <h3 style={{ textAlign: 'center', marginBottom: '2rem', color: '#6366f1' }}>Automatic Payments (Auto-Pay)</h3>
+                <div className="payment-flow-container">
+                  <div className="payment-step">
+                    <div className="payment-step-number">1</div>
+                    <div className="payment-step-icon">💳</div>
+                    <h3 className="payment-step-title">Enable Auto-Pay</h3>
+                    <p className="payment-step-description">
+                      Add debit card and enable auto-pay for groups using USD, EUR, or GBP. Choose payment timing: "1 day before" or "same day".
+                    </p>
+                  </div>
 
-                <div className="payment-flow-arrow">
-                  <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
+                  <div className="payment-flow-arrow">
+                    <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
 
-                <div className="payment-step">
-                  <div className="payment-step-number">2</div>
-                  <div className="payment-step-icon">✅</div>
-                  <h3 className="payment-step-title">Mark as Paid</h3>
-                  <p className="payment-step-description">
-                    Open GroupFund and mark your payment as "Paid" in the app.
-                  </p>
-                </div>
+                  <div className="payment-step">
+                    <div className="payment-step-number">2</div>
+                    <div className="payment-step-icon">⚡</div>
+                    <h3 className="payment-step-title">Automatic Charge</h3>
+                    <p className="payment-step-description">
+                      Your debit card is automatically charged on the payment date (birthday, subscription deadline, or event deadline). Processed securely via Stripe.
+                    </p>
+                  </div>
 
-                <div className="payment-flow-arrow">
-                  <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
+                  <div className="payment-flow-arrow">
+                    <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
 
-                <div className="payment-step">
-                  <div className="payment-step-number">3</div>
-                  <div className="payment-step-icon">✔️</div>
-                  <h3 className="payment-step-title">Get Confirmed</h3>
-                  <p className="payment-step-description">
-                    Admin/co-admin (Subscription/General Groups) or celebrant (Birthday Groups) confirms receipt or marks as "Not Received" for transparency. Note: For birthday contributions, only the celebrant can confirm/reject.
-                  </p>
+                  <div className="payment-step">
+                    <div className="payment-step-number">3</div>
+                    <div className="payment-step-icon">💼</div>
+                    <h3 className="payment-step-title">Funds in Wallet</h3>
+                    <p className="payment-step-description">
+                      Money is automatically credited to recipient's wallet balance. Payment is automatically confirmed. Recipient can withdraw to bank account.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h3 style={{ textAlign: 'center', marginBottom: '2rem', color: '#6366f1' }}>Manual Payments</h3>
+                <div className="payment-flow-container">
+                  <div className="payment-step">
+                    <div className="payment-step-number">1</div>
+                    <div className="payment-step-icon">💸</div>
+                    <h3 className="payment-step-title">Make Payment</h3>
+                    <p className="payment-step-description">
+                      Transfer money externally (bank, mobile money, cash) to the celebrant or admin.
+                    </p>
+                  </div>
+
+                  <div className="payment-flow-arrow">
+                    <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+
+                  <div className="payment-step">
+                    <div className="payment-step-number">2</div>
+                    <div className="payment-step-icon">✅</div>
+                    <h3 className="payment-step-title">Mark as Paid</h3>
+                    <p className="payment-step-description">
+                      Open GroupFund and mark your payment as "Paid" in the app.
+                    </p>
+                  </div>
+
+                  <div className="payment-flow-arrow">
+                    <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M30 5L50 30L30 55M50 30H10" stroke="#6366f1" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+
+                  <div className="payment-step">
+                    <div className="payment-step-number">3</div>
+                    <div className="payment-step-icon">✔️</div>
+                    <h3 className="payment-step-title">Get Confirmed</h3>
+                    <p className="payment-step-description">
+                      Admin/co-admin (Subscription/General Groups) or celebrant (Birthday Groups) confirms receipt or marks as "Not Received" for transparency. Note: For birthday contributions, only the celebrant can confirm/reject.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

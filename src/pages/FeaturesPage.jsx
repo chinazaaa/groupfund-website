@@ -38,7 +38,7 @@ export default function FeaturesPage() {
   const features = [
     {
       title: "Multi-Currency Support",
-      description: "Choose from NGN, USD, GBP, EUR, and more. Each group can set its preferred currency, and local bank details are displayed automatically.",
+      description: "Choose from NGN, USD, GBP, EUR, and more when creating groups. Each group can set its preferred currency, and local bank details are displayed automatically. Auto-pay, wallet, and withdrawals are available for USD, EUR, and GBP only. Groups using other currencies (like NGN) can still use manual payments.",
       icon: "🌍"
     },
     {
@@ -97,8 +97,23 @@ export default function FeaturesPage() {
       icon: "📧"
     },
     {
+      title: "Automatic Payment Collection (Auto-Pay)",
+      description: "Enable auto-pay for groups using USD, EUR, or GBP. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount).",
+      icon: "💳"
+    },
+    {
+      title: "In-App Wallet System",
+      description: "Receive payments directly into your wallet balance when others contribute via auto-pay. Wallet balance can be used to receive funds and withdraw to your bank account. Wallet is only available for USD, EUR, and GBP currencies. Wallet balance cannot be used to pay contributions - you must use a debit card for that.",
+      icon: "💼"
+    },
+    {
+      title: "Easy Withdrawals",
+      description: "Withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD. All withdrawals are processed securely via Stripe Payouts API.",
+      icon: "🏦"
+    },
+    {
       title: "Real-Time Payment Tracking",
-      description: "See payment statuses at a glance: Not Paid, Paid (awaiting confirmation), Confirmed, or Not Received. Know exactly who has contributed and who still needs to.",
+      description: "See payment statuses at a glance: Not Paid, Paid (awaiting confirmation), Confirmed, or Not Received. Auto-pay payments are automatically confirmed. Manual payments require two-step confirmation. Know exactly who has contributed and who still needs to.",
       icon: "📊"
     },
     {
@@ -107,8 +122,8 @@ export default function FeaturesPage() {
       icon: "📈"
     },
     {
-      title: "Contribution Confirmation System",
-      description: "Members mark contributions as 'Paid', then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) can confirm receipt or reject if not received. Two-step verification ensures accuracy and transparency. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.",
+      title: "Payment Confirmation System",
+      description: "Auto-pay payments are automatically confirmed after successful processing by Stripe. Manual payments require two-step confirmation: members mark contributions as 'Paid', then admins/co-admins (for Subscription/General Groups) or celebrants (for Birthday Groups) can confirm receipt or reject if not received. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.",
       icon: "✅"
     },
     {
@@ -132,13 +147,13 @@ export default function FeaturesPage() {
       icon: "⏰"
     },
     {
-      title: "Transparent History",
-      description: "View complete contribution history for each member. See received contributions, payment confirmations, and track all contributions for transparency. Export functionality coming soon.",
+      title: "Transparent History & Bank Statements",
+      description: "View complete contribution history for each member. See received contributions, payment confirmations, wallet transactions, withdrawal history, and track all contributions for transparency. Access detailed transaction records and bank statements for all your financial activity.",
       icon: "📋"
     },
     {
-      title: "Secure Authentication",
-      description: "Sign up with email, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP and manage your profile securely.",
+      title: "Secure Authentication & Two-Factor Authentication",
+      description: "Sign up with email, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP. For critical actions (adding cards, withdrawals, bank account changes), two-factor authentication is required using authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar).",
       icon: "🔐"
     },
     {

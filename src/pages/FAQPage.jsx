@@ -9,15 +9,15 @@ export default function FAQPage() {
   const faqs = [
     {
       question: "Is my money safe with GroupFund?",
-      answer: "GroupFund doesn't hold or process payments directly. We're a tracking and organization tool. All payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We simply help you track who has paid and who hasn't, ensuring transparency and organization."
+      answer: "Yes! GroupFund processes automatic payments securely via Stripe, a PCI-DSS compliant payment processor. We never store your full debit card number, CVV, or expiration date. All card data is handled securely by Stripe. For manual payments, payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We also maintain an in-app wallet system for receiving and withdrawing funds securely."
     },
     {
       question: "Can I use any currency?",
-      answer: "Yes! GroupFund supports multiple currencies including NGN (Nigerian Naira), USD (US Dollar), GBP (British Pound), EUR (Euro), and more. Each group can choose its preferred currency, and the app will display local bank details accordingly. This makes it perfect for international groups with members in different countries."
+      answer: "Yes! Groups can be created in multiple currencies including NGN (Nigerian Naira), USD (US Dollar), GBP (British Pound), EUR (Euro), and more. Each group can choose its preferred currency. However, auto-pay, wallet system, and withdrawals are only available for USD, EUR, and GBP. If your group uses a different currency (like NGN), you can still use manual payments (payments made outside the app)."
     },
     {
       question: "How do I confirm payments?",
-      answer: "When a member makes a payment, they can mark it as 'Paid' in the app. For Subscription and General Groups, admins or co-admins can then verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. For Birthday Groups, only the celebrant can confirm or reject contributions (not admins or co-admins). This two-step process ensures accuracy. Everyone can also see payment details and timestamps for full transparency."
+      answer: "For automatic payments (auto-pay): Payments are automatically confirmed after successful processing by Stripe. No manual confirmation needed. For manual payments: When a member makes a payment outside the app, they mark it as 'Paid' in the app. For Subscription and General Groups, admins or co-admins can then verify and mark it as 'Confirmed' if they received the payment, or 'Not Received' if they didn't. For Birthday Groups, only the celebrant can confirm or reject contributions (not admins or co-admins). This two-step process ensures accuracy. Everyone can also see payment details and timestamps for full transparency."
     },
     {
       question: "What is a member reliability score?",
@@ -65,7 +65,7 @@ export default function FAQPage() {
     },
     {
       question: "How much does GroupFund cost?",
-      answer: "GroupFund is free to start! You can create your first group and start organizing group contributions at no cost. We believe in making group organization accessible to everyone."
+      answer: "GroupFund is free to start! You can create your first group and start organizing group contributions at no cost. For automatic payments (auto-pay), fees apply: contributor pays fees (payment processor fee + platform fee of 1-2%), recipient receives full contribution amount. Manual payments have no fees. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD. All fees are displayed transparently before you confirm."
     },
     {
       question: "What types of groups can I create?",
@@ -96,8 +96,24 @@ export default function FAQPage() {
       answer: "Yes, GroupFund will be available as a mobile app for iOS and Android devices. You can download it from the App Store or Google Play Store soon. The mobile app provides the best experience with push notifications for reminders."
     },
     {
+      question: "How does auto-pay work?",
+      answer: "Auto-pay allows your debit card to be automatically charged on payment dates (birthdays, subscription deadlines, or event deadlines). You can choose to be charged '1 day before' or 'same day'. Auto-pay is only available for groups using USD, EUR, or GBP. You need a valid debit card and bank account details. Payments are processed securely via Stripe and automatically confirmed. If payment fails after 2 attempts, auto-pay is disabled and you'll be notified."
+    },
+    {
+      question: "What is the wallet system?",
+      answer: "The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Wallet balance can only be used to receive payments and withdraw to your bank account - it cannot be used to pay contributions (you must use a debit card for that). Wallet is only available for USD, EUR, and GBP currencies. You can view your wallet balance and transaction history in the app."
+    },
+    {
+      question: "How do withdrawals work?",
+      answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
+    },
+    {
+      question: "Can I view bank statements or transaction history?",
+      answer: "Yes! You can view complete transaction history including all contributions (auto-pay and manual), wallet transactions, withdrawals, fees, and payment confirmations. Access detailed records and bank statements for all your financial activity in the app."
+    },
+    {
       question: "Can I export payment history?",
-      answer: "Not at the moment. We're working on it. Once available, you'll be able to export your contribution history for record-keeping and transparency purposes."
+      answer: "You can view complete transaction history and bank statements in the app. Export functionality for detailed reports is coming soon."
     },
     {
       question: "Can I change contribution amounts after creating a group?",

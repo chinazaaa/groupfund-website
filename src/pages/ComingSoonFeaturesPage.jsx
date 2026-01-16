@@ -41,20 +41,6 @@ export default function ComingSoonFeaturesPage() {
       statusColor: "purple"
     },
     {
-      title: "In-App Payment Processing",
-      description: "Process payments directly within the app using secure payment gateways. Support for cards, bank transfers, and mobile money.",
-      icon: "💳",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
-      title: "Automated Payouts",
-      description: "Automatically distribute collected funds to recipients (celebrants for Birthday Groups, admins for Subscription/General Groups). Set up bank accounts and enable one-click payouts.",
-      icon: "⚡",
-      status: "Planned",
-      statusColor: "purple"
-    },
-    {
       title: "Advanced Notification Settings",
       description: "Customize notification preferences for each group. Choose channels (email, SMS, push), frequency, and notification types.",
       icon: "🔔",

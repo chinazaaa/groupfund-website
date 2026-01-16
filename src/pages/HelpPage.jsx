@@ -77,20 +77,70 @@ export default function HelpPage() {
       ]
     },
     {
-      title: "Payment Methods",
+      title: "Payment Methods & Auto-Pay",
       icon: "💳",
       topics: [
         {
           question: "Does GroupFund process payments?",
-          answer: "No, GroupFund doesn't hold or process payments directly. We're a tracking and organization tool. All payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.)."
+          answer: "Yes! GroupFund processes automatic payments (auto-pay) securely via Stripe, a PCI-DSS compliant payment processor. For manual payments, payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.), and we help you track who has paid."
+        },
+        {
+          question: "How does auto-pay work?",
+          answer: "Auto-pay allows your debit card to be automatically charged on payment dates (birthdays, subscription deadlines, or event deadlines). You can choose to be charged '1 day before' or 'same day'. Auto-pay is only available for groups using USD, EUR, or GBP. You need a valid debit card and bank account details. Payments are processed securely via Stripe and automatically confirmed. If payment fails after 2 attempts, auto-pay is disabled and you'll be notified."
         },
         {
           question: "What payment methods are supported?",
-          answer: "GroupFund works with any payment method your group prefers - bank transfers, mobile money (USSD codes), cash, or online payment platforms. We simply help you track who has paid."
+          answer: "For auto-pay: Debit cards (Visa, Mastercard, etc.) processed via Stripe. For manual payments: Any payment method your group prefers - bank transfers, mobile money (USSD codes), cash, or online payment platforms. Manual payments work for all currencies."
+        },
+        {
+          question: "What are the fees for auto-pay?",
+          answer: "When you use auto-pay, you pay fees (added on top of contribution amount): payment processor fee (Stripe) + platform fee (1-2%). Recipient receives full contribution amount. Manual payments have no fees. All fees are displayed transparently before you confirm."
+        },
+        {
+          question: "How do I enable or disable auto-pay?",
+          answer: "You can enable auto-pay for a group if: the group uses USD, EUR, or GBP; you have a valid debit card; you have bank account details; you have no overdue payments. You can disable auto-pay at any time. Critical actions like enabling/disabling auto-pay require two-factor authentication (authenticator app)."
+        },
+        {
+          question: "What happens if my auto-pay payment fails?",
+          answer: "If your automatic payment fails, the system will retry once (max 2 attempts total). If both attempts fail, auto-pay will be automatically disabled for that group, and you'll receive an email notification. Contributions revert to manual payment. You can re-enable auto-pay after resolving the issue (e.g., updating your card, ensuring sufficient funds)."
         },
         {
           question: "How do I share payment details with members?",
-          answer: "All members can add bank account details in their profile. These details are visible to all group members for easy reference."
+          answer: "All members can add bank account details in their profile. These details are stored in our system and displayed to group members for manual payments. Bank details are also used to process withdrawals from your wallet."
+        }
+      ]
+    },
+    {
+      title: "Wallet & Withdrawals",
+      icon: "💼",
+      topics: [
+        {
+          question: "What is the wallet system?",
+          answer: "The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Wallet balance can only be used to receive payments and withdraw to your bank account - it cannot be used to pay contributions (you must use a debit card for that). Wallet is only available for USD, EUR, and GBP currencies."
+        },
+        {
+          question: "How do I view my wallet balance?",
+          answer: "You can view your wallet balance and transaction history in the app. The wallet shows all incoming payments from auto-pay contributions, withdrawal history, and current balance."
+        },
+        {
+          question: "How do withdrawals work?",
+          answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
+        },
+        {
+          question: "What are the withdrawal fees?",
+          answer: "Withdrawal fees vary by currency: GBP (British Pound) - FREE, EUR (Euro) - FREE, USD (US Dollar) - 1% fee. All fees are displayed transparently before you confirm a withdrawal."
+        },
+        {
+          question: "Why is there a 24-hour hold on withdrawals?",
+          answer: "The 24-hour security hold period helps prevent fraudulent withdrawals. It gives you time to detect and report any unauthorized withdrawal requests. You'll receive an email notification when your withdrawal is requested. If you didn't request it, contact security@groupfund.app immediately."
+        },
+        {
+          question: "Can I view transaction history and bank statements?",
+          answer: "Yes! You can view complete transaction history including all contributions (auto-pay and manual), wallet transactions, withdrawals, fees, and payment confirmations. Access detailed records and bank statements for all your financial activity in the app."
+        },
+        {
+          question: "Can I delete my account if I have wallet balance?",
+          answer: "No, you cannot delete your account if you have a wallet balance greater than zero. You must withdraw all funds from your wallet before deleting your account."
         }
       ]
     },
@@ -213,6 +263,10 @@ export default function HelpPage() {
         {
           question: "How does OTP verification work?",
           answer: "When you sign up or need to verify your account, you'll receive a One-Time Password (OTP) via email. Enter the OTP code in the app to complete verification. If you don't receive it, you can request a resend. OTP verification ensures account security and helps prevent unauthorized access."
+        },
+        {
+          question: "What is two-factor authentication (2FA)?",
+          answer: "Two-factor authentication (2FA) is required for critical actions like adding/deleting debit cards, changing bank account details, withdrawing funds, and enabling/disabling auto-pay. 2FA uses authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar) to generate verification codes. You must set up an authenticator app in your account settings to use these features."
         },
         {
           question: "I forgot my password. How do I reset it?",
