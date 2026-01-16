@@ -73,7 +73,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Multiple Group Types",
-      description: "Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions like Netflix, Spotify - monthly or annual), or General Groups (for weddings, events, any purpose). Each type has features tailored to your needs.",
+      description: "Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions like Netflix, Spotify - monthly or annual), or General Groups (for weddings, events, any purpose - with optional wishlist support). Each type has features tailored to your needs.",
       icon: "🎯"
     },
     {
@@ -177,8 +177,8 @@ export default function FeaturesPage() {
       icon: "👥"
     },
     {
-      title: "Birthday Wishlist",
-      description: "For Birthday Groups: Create and share your birthday wishlist with group members. Add items with pictures, prices, and quantities. Group members can claim items they want to gift, and you can track what's been claimed and what's still available. Mark items as done when received.",
+      title: "Wishlist Feature",
+      description: "For Birthday Groups and General Groups (optional): Create and share wishlists with group members. Add items with pictures, prices, and quantities. Group members can claim items they want to gift, and you can track what's been claimed and what's still available. Mark items as done when received. For General Groups, wishlist can be enabled or disabled in group settings.",
       icon: "🎁"
     },
     {

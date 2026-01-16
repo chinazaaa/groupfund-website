@@ -53,6 +53,7 @@ export default function CreatingGeneralGroupsForEventsPage() {
                 <li>Choose your currency (NGN, USD, EUR, etc.)</li>
                 <li>Set the contribution amount per person</li>
                 <li>Set the maximum number of members</li>
+                <li><strong>Enable Wishlist (Optional):</strong> Choose to enable wishlist functionality for gift coordination. You can turn this on or off later in group settings.</li>
               </ol>
             </div>
 
@@ -66,6 +67,23 @@ export default function CreatingGeneralGroupsForEventsPage() {
                 <li><strong>Deadline:</strong> Set a deadline before the event date to ensure timely contributions</li>
                 <li><strong>No Deadline:</strong> You can also leave the deadline open if needed</li>
               </ul>
+            </div>
+
+            <div className="resource-section">
+              <h2>Step 2.5: Using Wishlists in General Groups (Optional)</h2>
+              <p>
+                If you enabled wishlist when creating the group, you can use it for gift coordination:
+              </p>
+              <ul className="resource-list">
+                <li><strong>Create Wishlist Items:</strong> Add items with pictures and prices that you'd like to receive</li>
+                <li><strong>Share with Members:</strong> Group members can view the wishlist and claim items they want to purchase</li>
+                <li><strong>Avoid Duplicates:</strong> The system tracks what's been claimed to prevent duplicate gifts</li>
+                <li><strong>Manage Items:</strong> Mark items as received when you get them</li>
+                <li><strong>Turn On/Off:</strong> You can enable or disable wishlist anytime in group settings</li>
+              </ul>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                <strong>Note:</strong> Wishlists are optional for General Groups. If you don't need gift coordination, you can leave wishlist disabled. You can always enable it later in group settings if needed.
+              </p>
             </div>
 
             <div className="resource-section">

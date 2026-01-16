@@ -58,7 +58,7 @@ export default function HowItWorksPage() {
     {
       number: '6',
       title: 'Track Contributions & Deadlines',
-      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Auto-pay payments are automatically confirmed. Manual payments require confirmation from admins/co-admins (Subscription/General Groups) or celebrants (Birthday Groups). Track overdue contributions automatically.',
+      description: 'For Birthday Groups: View upcoming and past birthdays in the calendar. Create and share birthday wishlists. For Subscription Groups: Track monthly or annual subscription deadlines. For General Groups: Track event deadlines. Optionally enable wishlist for gift coordination (can be turned on/off in group settings). Auto-pay payments are automatically confirmed. Manual payments require confirmation from admins/co-admins (Subscription/General Groups) or celebrants (Birthday Groups). Track overdue contributions automatically.',
       icon: '📅'
     },
     {

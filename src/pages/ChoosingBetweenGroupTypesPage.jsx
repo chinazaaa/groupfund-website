@@ -95,8 +95,9 @@ export default function ChoosingBetweenGroupTypesPage() {
               <ul className="resource-list">
                 <li>You're organizing for a specific event</li>
                 <li>You need flexibility</li>
-                <li>You don't need birthday or subscription features</li>
+                <li>You want optional wishlist functionality (can be enabled/disabled in group settings)</li>
                 <li>You want a one-time contribution group</li>
+                <li>You don't need birthday or subscription-specific features</li>
               </ul>
             </div>
 

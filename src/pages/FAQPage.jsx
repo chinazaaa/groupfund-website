@@ -85,7 +85,11 @@ export default function FAQPage() {
     },
     {
       question: "How do General Groups work?",
-      answer: "General Groups are for any purpose - weddings, baby showers, events, or anything else. You set a contribution amount, optional deadline date, and maximum members. Members contribute to the admin (group creator) who manages the funds. You'll get reminders before deadlines (if set) and overdue reminders if deadlines pass."
+      answer: "General Groups are flexible groups for any purpose like weddings, baby showers, graduations, or events. You can set an optional deadline, choose to enable wishlist functionality for gift coordination (can be turned on/off in group settings), and manage contributions. Members contribute to the admin (group creator). You can track payments, get reminders before deadlines, and confirm when payments are received. General Groups don't require birthdays to be set."
+    },
+    {
+      question: "Can I use wishlists in General Groups?",
+      answer: "Yes! When creating a General Group, you can choose to enable wishlist functionality. You can also edit group settings later to turn wishlist on or off. Wishlists in General Groups work the same way as Birthday Groups - you can add items with pictures and prices, members can claim items they want to gift, and you can track what's been claimed to avoid duplicates."
     },
     {
       question: "Who receives contributions in different group types?",

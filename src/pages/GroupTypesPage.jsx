@@ -99,6 +99,7 @@ export default function GroupTypesPage() {
                 <li>✓ Admin account details sharing</li>
                 <li>✓ Flexible for any use case</li>
                 <li>✓ No birthday required</li>
+                <li>✓ Optional wishlist for gift coordination</li>
                 <li>✓ Perfect for one-time events</li>
               </ul>
               <div className="group-type-cta">
@@ -136,7 +137,7 @@ export default function GroupTypesPage() {
                     <td>Wishlists</td>
                     <td>✓ Yes</td>
                     <td>✗ No</td>
-                    <td>✗ No</td>
+                    <td>Optional (can enable/disable)</td>
                   </tr>
                   <tr>
                     <td>Payment Frequency</td>

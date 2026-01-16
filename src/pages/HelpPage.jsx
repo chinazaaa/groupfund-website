@@ -186,15 +186,19 @@ export default function HelpPage() {
         },
         {
           question: "Can I update group settings?",
-          answer: "Yes, group administrators and co-admins can update many group settings including the group name, group notes, accepting requests toggle, chat enabled/disabled, and deadlines. However, only full admins can change critical settings like contribution amount, max members, and currency. Co-admins also cannot close/reopen groups or delete groups - only the main admin (creator) can do that. When the contribution amount is updated, all active members (except the admin) will receive email, push, and in-app notifications with details about the old and new amounts. Changes to contribution amounts apply to future contributions only, and members are given the option to review and leave the group if they're not comfortable with the change."
+          answer: "Yes, group administrators and co-admins can update many group settings including the group name, group notes, accepting requests toggle, chat enabled/disabled, wishlist enabled/disabled (for General Groups), and deadlines. However, only full admins can change critical settings like contribution amount, max members, and currency. Co-admins also cannot close/reopen groups or delete groups - only the main admin (creator) can do that. When the contribution amount is updated, all active members (except the admin) will receive email, push, and in-app notifications with details about the old and new amounts. Changes to contribution amounts apply to future contributions only, and members are given the option to review and leave the group if they're not comfortable with the change."
+        },
+        {
+          question: "Can I use wishlists in General Groups?",
+          answer: "Yes! When creating a General Group, you can choose to enable wishlist functionality for gift coordination. You can also edit group settings later to turn wishlist on or off. Wishlists in General Groups work the same way as Birthday Groups - you can add items with pictures and prices, members can claim items they want to gift, and you can track what's been claimed to avoid duplicates. This is perfect for events like weddings, baby showers, or graduations where you want to coordinate specific gifts."
         },
         {
           question: "Can members see each other's information?",
           answer: "Group members can see who has contributed, payment statuses, and member reliability scores. This transparency helps maintain trust and accountability within the group."
         },
         {
-          question: "How does the birthday wishlist claiming feature work?",
-          answer: "For Birthday Groups, celebrants can create and share a birthday wishlist with items they'd like to receive. Group members can view the wishlist and claim items they want to gift. When a member claims an item, it shows as 'claimed' so others know it's taken. The celebrant can see which items have been claimed and by whom, and can mark items as 'done' when received. This helps avoid duplicate gifts and ensures the celebrant gets items they actually want."
+          question: "How does the wishlist claiming feature work?",
+          answer: "For Birthday Groups and General Groups (when enabled), you can create and share a wishlist with items you'd like to receive. Group members can view the wishlist and claim items they want to gift. When a member claims an item, it shows as 'claimed' so others know it's taken. You can see which items have been claimed and by whom, and can mark items as 'done' when received. This helps avoid duplicate gifts and ensures you get items you actually want. For General Groups, wishlist can be enabled or disabled in group settings."
         },
         {
           question: "How do I share subscription login credentials with group members?",
