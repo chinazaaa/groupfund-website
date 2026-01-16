@@ -323,6 +323,12 @@ export default function SitemapPage() {
         { path: "/resources/admin-account-details-guide", label: "Admin Account Details Guide" },
         { path: "/resources/organizing-international-group-contributions", label: "Organizing International Group Contributions" },
         { path: "/resources/subscription-group-payment-schedules", label: "Subscription Group Payment Schedules" },
+        { path: "/resources/using-group-chat-and-messaging", label: "Using Group Chat & Messaging" },
+        { path: "/resources/setting-up-auto-pay", label: "Setting Up Auto-Pay" },
+        { path: "/resources/using-your-wallet", label: "Using Your Wallet" },
+        { path: "/resources/withdrawing-funds", label: "Withdrawing Funds" },
+        { path: "/resources/payment-methods-guide", label: "Payment Methods Guide" },
+        { path: "/resources/best-app-for-splitting-bills", label: "Best App for Splitting Bills" },
         { path: "/blog", label: "Blog" },
         { path: "/testimonials", label: "Testimonials" },
         { path: "/faq", label: "FAQ" },
@@ -359,7 +365,11 @@ export default function SitemapPage() {
         { path: "/best-practices/international-groups", label: "International Groups" },
         { path: "/best-practices/group-trips-with-friends", label: "Group Trips with Friends" },
         { path: "/best-practices/workplace-leaving-gifts", label: "Workplace Leaving Gifts" },
-        { path: "/best-practices/group-birthday-gifts", label: "Group Birthday Gifts" }
+        { path: "/best-practices/group-birthday-gifts", label: "Group Birthday Gifts" },
+        { path: "/best-practices/group-chat-best-practices", label: "Group Chat Best Practices" },
+        { path: "/best-practices/best-way-to-collect-money-from-group", label: "Best Way to Collect Money from Group" },
+        { path: "/best-practices/auto-pay-best-practices", label: "Auto-Pay Best Practices" },
+        { path: "/best-practices/wallet-management-best-practices", label: "Wallet Management Best Practices" }
       ]
     },
     {
@@ -466,7 +476,10 @@ export default function SitemapPage() {
         { path: "/blog/summer-vacation-group-planning-organizing-trip-contributions", label: "Summer Vacation Group Planning: Organizing Trip Contributions" },
         { path: "/blog/back-to-school-contributions-organizing-group-funds-students", label: "Back-to-School Contributions: Organizing Group Funds for Students" },
         { path: "/blog/how-to-organize-halloween-party-contributions-costume-funds", label: "How to Organize Halloween Party Contributions and Costume Funds" },
-        { path: "/blog/thanksgiving-group-planning-organizing-dinner-contributions", label: "Thanksgiving Group Planning: Organizing Dinner Contributions" }
+        { path: "/blog/thanksgiving-group-planning-organizing-dinner-contributions", label: "Thanksgiving Group Planning: Organizing Dinner Contributions" },
+        { path: "/blog/never-miss-payment-benefits-auto-pay", label: "Never Miss a Payment: The Benefits of Auto-Pay" },
+        { path: "/blog/understanding-groupfund-wallet-system", label: "Understanding GroupFund's Wallet System" },
+        { path: "/blog/auto-pay-vs-manual-payments-which-choose", label: "Auto-Pay vs Manual Payments: Which Should You Choose?" }
       ]
     }
   ]
