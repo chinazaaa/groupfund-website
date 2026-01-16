@@ -46,16 +46,20 @@ export default function SecurityPage() {
             <div className="legal-section">
               <h2>Payment Security</h2>
               <p>
-                <strong>Important:</strong> GroupFund does not process, hold, or store payment information. We are a tracking and organization tool only. This means:
+                <strong>Automatic Payment Processing:</strong> GroupFund processes automatic payments securely via Stripe, a PCI-DSS Level 1 compliant payment processor. This means:
               </p>
               <ul>
-                <li>We never see or store your credit card numbers or payment credentials</li>
-                <li>All payments are made directly between group members using their preferred payment methods</li>
-                <li>We only track payment statuses (paid/unpaid) for organizational purposes</li>
-                <li>Your financial information except your bank account details never passes through our systems</li>
+                <li>We never see or store your full debit card number, CVV, or expiration date</li>
+                <li>All card data is handled securely by Stripe (PCI-DSS compliant)</li>
+                <li>We only store payment method tokens (provided by Stripe) for future charges</li>
+                <li>All payment processing is encrypted and secure</li>
+                <li>Manual payments are made directly between group members using their preferred payment methods</li>
               </ul>
               <p>
-                This design significantly reduces security risks by ensuring that sensitive payment information is never stored on our servers.
+                <strong>Wallet Security:</strong> Your in-app wallet balance is stored securely. Withdrawals require two-factor authentication and are subject to a 24-hour security hold period for fraud prevention.
+              </p>
+              <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#f0f9ff', borderLeft: '4px solid #007bff', borderRadius: '4px' }}>
+                <strong>🔒 Secure Processing:</strong> All automatic payments are processed via Stripe, which maintains the highest security standards. We use industry-standard encryption and security measures to protect your payment information.
               </p>
               <p style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#fef2f2', borderLeft: '4px solid #ef4444', borderRadius: '4px' }}>
                 <strong>⚠️ Security Warning:</strong> Please verify the identity of the group admin before joining. GroupFund is not liable for any fraudulent activities or financial losses. Only join groups with people you trust.
@@ -72,7 +76,8 @@ export default function SecurityPage() {
                 <li><strong>Password Reset:</strong> Reset passwords securely via OTP sent to your email. This ensures only authorized users can reset account passwords</li>
                 <li><strong>Change Password:</strong> If you're logged in, you can change your password from your account settings. You'll need to enter your current password and then set a new one. This helps keep your account secure and allows you to update your password regularly</li>
                 <li><strong>JWT Authentication:</strong> Secure login using JSON Web Tokens (JWT) that are cryptographically signed and expire after periods of inactivity</li>
-                <li><strong>Multi-Factor Authentication:</strong> Available as an additional layer of security for your account</li>
+                <li><strong>Two-Factor Authentication (2FA):</strong> Enhanced security for critical actions (adding/deleting debit cards, changing bank account details, withdrawing funds, enabling/disabling auto-pay). 2FA uses authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar) to generate verification codes. You must set up an authenticator app in your account settings to use these features.</li>
+                <li><strong>Email Verification:</strong> Email OTP verification for account signup and password resets ensures account authenticity. This is separate from 2FA and provides an additional layer of security for account access.</li>
                 <li><strong>Session Management:</strong> Secure session tokens that expire after periods of inactivity. You'll be automatically logged out for security</li>
                 <li><strong>Device Recognition:</strong> We monitor for suspicious login attempts from unrecognized devices</li>
               </ul>
@@ -183,12 +188,14 @@ export default function SecurityPage() {
               </p>
               <ul>
                 <li>Use a strong, unique password for your GroupFund account</li>
-                <li>Enable multi-factor authentication if available</li>
+                <li>Set up two-factor authentication using an authenticator app (Google Authenticator, Authy, Microsoft Authenticator, or similar) for critical actions</li>
                 <li>Don't share your account credentials with anyone</li>
                 <li>Log out of your account when using shared devices</li>
                 <li>Keep your device's operating system and apps updated</li>
                 <li>Be cautious of phishing attempts and suspicious links</li>
-                <li>Report any suspicious activity to us immediately</li>
+                <li>Monitor your wallet balance and transaction history regularly</li>
+                <li>Review security email notifications for all critical actions</li>
+                <li>Report any suspicious activity to security@groupfund.app immediately</li>
               </ul>
             </div>
 

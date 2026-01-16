@@ -97,6 +97,11 @@ export default function FeaturesPage() {
       icon: "📧"
     },
     {
+      title: "Full Notification Control",
+      description: "Full control over your notifications. Customize email, push, and in-app notifications. Choose what matters to you - only receive notifications you want. Manage preferences for reminders, payments, withdrawals, auto-pay status, and more. Most notification types default to ON, but you can customize each one to match your preferences.",
+      icon: "🔔"
+    },
+    {
       title: "Automatic Payment Collection (Auto-Pay)",
       description: "Enable auto-pay for groups using USD, EUR, or GBP. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount).",
       icon: "💳"
@@ -192,7 +197,7 @@ export default function FeaturesPage() {
       />
       <SEO
         title="GroupFund Features - Member Reliability, Group Health, Multi-Currency & Integrated Chat"
-        description="Discover GroupFund's powerful features: multiple group types (birthday, subscription, general), integrated per-group chat with mentions, member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, and more. Everything in one place - payments AND chat."
+        description="Discover GroupFund's powerful features: automatic payments (auto-pay), in-app wallet system, easy withdrawals, multiple group types (birthday, subscription, general), integrated per-group chat with mentions, member reliability scores, group health metrics, multi-currency support, automatic reminders, real-time payment tracking, two-factor authentication, and customizable notifications. Everything in one place - payments AND chat."
         keywords="groupfund features, group contribution app features, group payment app with chat, group contribution app with messaging, in-app messaging for group payments, birthday groups, subscription groups, general groups, member reliability scores, group health metrics, multi-currency payments, payment tracking, automatic reminders, group chat, messaging"
         canonical="https://www.groupfund.app/features"
       />

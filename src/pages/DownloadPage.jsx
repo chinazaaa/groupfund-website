@@ -64,7 +64,7 @@ export default function DownloadPage() {
       />
       <SEO
         title="Download GroupFund App - iOS & Android | GroupFund"
-        description="Download GroupFund app for iOS and Android. Organize group contributions effortlessly - birthdays, subscriptions, events. Track payments, set reminders, manage multiple groups. Free to start."
+        description="Download GroupFund app for iOS and Android. Organize group contributions effortlessly - birthdays, subscriptions, events. Enable auto-pay, use in-app wallet, withdraw funds, track payments, set reminders, manage multiple groups. Free to start."
         keywords="download GroupFund, GroupFund app, iOS download, Android download, group contribution app, contribution tracking app"
         canonical="https://www.groupfund.app/download"
       />
@@ -142,14 +142,24 @@ export default function DownloadPage() {
                   <p>View your groups and contribution status even when you're offline. Syncs automatically when you're back online. <strong>Coming soon</strong>.</p>
                 </div>
                 <div className="download-feature-card">
+                  <div className="download-feature-icon">💳</div>
+                  <h3>Auto-Pay & Wallet</h3>
+                  <p>Enable automatic payments for groups using USD, EUR, or GBP. Receive contributions directly in your in-app wallet and withdraw to your bank account.</p>
+                </div>
+                <div className="download-feature-card">
                   <div className="download-feature-icon">🔒</div>
-                  <h3>Secure & Private</h3>
-                  <p>Your data is encrypted and secure. We never store your payment information—only contribution tracking.</p>
+                  <h3>Enhanced Security</h3>
+                  <p>Two-factor authentication with authenticator apps for critical actions. Secure payment processing via Stripe. Your data is encrypted and protected.</p>
                 </div>
                 <div className="download-feature-card">
                   <div className="download-feature-icon">🌍</div>
                   <h3>Multi-Currency Support</h3>
-                  <p>Works with NGN, USD, GBP, and more. Perfect for international groups and families.</p>
+                  <p>Works with NGN, USD, GBP, EUR, and more. Auto-pay and wallet available for USD, EUR, and GBP. Perfect for international groups and families.</p>
+                </div>
+                <div className="download-feature-card">
+                  <div className="download-feature-icon">🔔</div>
+                  <h3>Customizable Notifications</h3>
+                  <p>Full control over your notifications. Customize email, push, and in-app notifications. Only receive what matters to you.</p>
                 </div>
               </div>
             </div>

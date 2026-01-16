@@ -46,7 +46,7 @@ export default function PricingPage() {
     <>
       <SEO
         title="GroupFund Pricing - Free Group Contribution App | No Hidden Fees"
-        description="GroupFund is completely free to start! Organize contributions for birthdays, subscriptions, and events at no cost. No hidden fees, no credit card required. Free forever for organizing group contributions."
+        description="GroupFund is completely free to start! Organize contributions for birthdays, subscriptions, and events at no cost. Enable auto-pay, use in-app wallet, withdraw funds. Fees only apply to auto-pay transactions (contributor pays, recipient receives full amount). Manual payments have no fees. No hidden fees, no credit card required to get started. Free forever for organizing group contributions."
         keywords="groupfund pricing, free group contribution app, free group payment app, contribution app free, groupfund cost, free contribution tracker, no cost group contributions"
         canonical="https://www.groupfund.app/pricing"
       />
@@ -139,7 +139,27 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Complete contribution history</span>
+                    <span>Automatic payments (auto-pay) for USD, EUR, GBP</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>In-app wallet system</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Easy withdrawals to bank account</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Complete contribution history & bank statements</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Two-factor authentication</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Customizable notifications</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -263,7 +283,7 @@ export default function PricingPage() {
               <div className="faq-item">
                 <h3>Do you charge transaction fees?</h3>
                 <p>
-                  No. GroupFund doesn't process payments directly, we're a tracking and organization tool. All payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We don't charge any fees for transactions.
+                  GroupFund is free to use for organizing groups and tracking contributions. For automatic payments (auto-pay), fees apply: contributor pays fees (payment processor fee + platform fee of 1-2%), recipient receives full contribution amount. Manual payments have no fees. Withdrawal fees: FREE for GBP and EUR, 1% for USD. All fees are displayed transparently before you confirm. The app itself is completely free - no subscription costs, no credit card required to get started.
                 </p>
               </div>
               <div className="faq-item">
