@@ -119,11 +119,31 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
+                    <span>Birthday wishlists with item claiming (for Birthday Groups)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
                     <span>Subscription deadline tracking (for Subscription Groups)</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
                     <span>Event deadline tracking (for General Groups)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Group chat & messaging (per-group chat rooms)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Group links for easy invitations</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Preview groups before joining</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Co-admin role for delegation</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -135,15 +155,23 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
+                    <span>Payment progress recaps</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
                     <span>Advanced group controls</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Automatic payments (auto-pay) for USD, EUR, GBP</span>
+                    <span>Automatic payments (auto-pay) for USD, EUR, GBP, CAD, AUD</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>In-app wallet system</span>
+                    <span>Auto-pay timing options (1 day before or same day)</span>
+                  </li>
+                  <li>
+                    <span className="feature-icon">✓</span>
+                    <span>Multi-currency in-app wallet system</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -155,11 +183,11 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Two-factor authentication</span>
+                    <span>Two-factor authentication (2FA) for security</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Customizable notifications</span>
+                    <span>Customizable notifications (email, push, in-app)</span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -247,6 +275,60 @@ export default function PricingPage() {
                 <div className="comparison-cell">Multiple Group Types</div>
                 <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
                 <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Automatic Payments (Auto-Pay)</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">In-App Wallet & Withdrawals</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Birthday Wishlists</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Group Chat & Messaging</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✓ Yes</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Group Links for Invitations</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✓ Yes</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Preview Groups Before Joining</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Co-Admin Role</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Payment Confirmation System</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✗ Manual</div>
+                <div className="comparison-cell" data-label="Excel Spreadsheets">✗ Manual</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell">Two-Factor Authentication</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell" data-label="WhatsApp Groups">✓ Yes</div>
                 <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">

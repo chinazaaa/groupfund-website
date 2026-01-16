@@ -26,11 +26,52 @@ export default function ComingSoonFeaturesPage() {
   }, [])
 
   const pipelineFeatures = [
-   
     {
       title: "Export & Reporting",
       description: "Export detailed contribution reports in multiple formats (PDF, Excel, CSV). Generate tax-ready financial summaries for your records.",
       icon: "📄",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Analytics & Insights Dashboard",
+      description: "Get detailed insights into your contribution patterns, spending trends, and group activity. Visualize your contribution history with charts and graphs.",
+      icon: "📊",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Calendar Integration",
+      description: "Sync birthdays and deadlines with your favorite calendar apps (Google Calendar, Apple Calendar, Outlook). Never miss a contribution deadline again.",
+      icon: "📅",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Payment Installments",
+      description: "Pay for large contributions in installments. Split a single payment (like an expensive birthday gift) into smaller monthly payments to make it more manageable. Perfect for one-time contributions that need to be spread over time.",
+      icon: "💳",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Group Templates",
+      description: "Save your group settings as templates and quickly create new groups with the same configuration. Perfect for recurring events or similar groups.",
+      icon: "📋",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "SMS Notifications",
+      description: "Receive important reminders and updates via SMS in addition to email and push notifications. Stay informed even when you're not checking the app.",
+      icon: "📱",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Mobile Widgets",
+      description: "Add GroupFund widgets to your mobile home screen for quick access to your groups, upcoming deadlines, and wallet balance. Stay on top of contributions at a glance.",
+      icon: "📲",
       status: "Planned",
       statusColor: "purple"
     },
