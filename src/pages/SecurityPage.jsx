@@ -84,7 +84,7 @@ export default function SecurityPage() {
                 <li><strong>Password Reset:</strong> Reset passwords securely via OTP sent to your email. This ensures only authorized users can reset account passwords</li>
                 <li><strong>Change Password:</strong> If you're logged in, you can change your password from your account settings. You'll need to enter your current password and then set a new one. This helps keep your account secure and allows you to update your password regularly</li>
                 <li><strong>JWT Authentication:</strong> Secure login using JSON Web Tokens (JWT) that are cryptographically signed and expire after periods of inactivity</li>
-                <li><strong>Two-Factor Authentication (2FA):</strong> Enhanced security for critical actions (adding/deleting debit cards, changing bank account details, withdrawing funds, enabling/disabling auto-pay). 2FA uses authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar) to generate verification codes. You must set up an authenticator app in your account settings to use these features.</li>
+                <li><strong>Two-Factor Authentication (2FA):</strong> Enhanced security for critical actions (adding/deleting debit cards, changing bank account details, withdrawing funds, enabling/disabling auto-pay). 2FA uses authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar) to generate verification codes. You must set up an authenticator app in your account settings to use these features. Note: Two-factor authentication (2FA) is only available on mobile apps (Android, iOS), not on the web version.</li>
                 <li><strong>Email Verification:</strong> Email OTP verification for account signup and password resets ensures account authenticity. This is separate from 2FA and provides an additional layer of security for account access.</li>
                 <li><strong>Session Management:</strong> Secure session tokens that expire after periods of inactivity. You'll be automatically logged out for security</li>
                 <li><strong>Device Recognition:</strong> We monitor for suspicious login attempts from unrecognized devices</li>
@@ -196,7 +196,7 @@ export default function SecurityPage() {
               </p>
               <ul>
                 <li>Use a strong, unique password for your GroupFund account</li>
-                <li>Set up two-factor authentication using an authenticator app (Google Authenticator, Authy, Microsoft Authenticator, or similar) for critical actions</li>
+                <li>Set up two-factor authentication using an authenticator app (Google Authenticator, Authy, Microsoft Authenticator, or similar) for critical actions. Note: 2FA is only available on mobile apps (Android, iOS)</li>
                 <li>Don't share your account credentials with anyone</li>
                 <li>Log out of your account when using shared devices</li>
                 <li>Keep your device's operating system and apps updated</li>

@@ -9,11 +9,11 @@ export default function FAQPage() {
   const faqs = [
     {
       question: "Is my money safe with GroupFund?",
-      answer: "Yes! GroupFund processes automatic payments securely via Stripe, a PCI-DSS compliant payment processor. We never store your full debit card number, CVV, or expiration date. All card data is handled securely by Stripe. For manual payments, payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We also maintain an in-app wallet system for receiving and withdrawing funds securely."
+      answer: "Yes! GroupFund processes automatic payments securely via Stripe, a PCI-DSS compliant payment processor. We never store your full debit card number, CVV, or expiration date. All card data is handled securely by Stripe. For manual payments, payments are made directly between group members using their preferred payment methods (bank transfers, mobile money, etc.). We also maintain an in-app wallet system for receiving and withdrawing funds securely. Note: Auto-pay and wallet features are only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "Can I use any currency?",
-      answer: "Yes! Groups can be created in multiple currencies including NGN (Nigerian Naira), USD (US Dollar), GBP (British Pound), EUR (Euro), CAD (Canadian Dollar), AUD (Australian Dollar), and more. Each group can choose its preferred currency. However, auto-pay, wallet system, and withdrawals are only available for USD, EUR, GBP, CAD, and AUD. If your group uses a different currency (like NGN), you can still use manual payments (payments made outside the app)."
+      answer: "Yes! Groups can be created in multiple currencies including NGN (Nigerian Naira), USD (US Dollar), GBP (British Pound), EUR (Euro), CAD (Canadian Dollar), AUD (Australian Dollar), and more. Each group can choose its preferred currency. However, auto-pay, wallet system, and withdrawals are only available for USD, EUR, GBP, CAD, and AUD. If your group uses a different currency (like NGN), you can still use manual payments (payments made outside the app). Note: Auto-pay, wallet, and withdrawals are only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "How do I confirm payments?",
@@ -105,11 +105,11 @@ export default function FAQPage() {
     },
     {
       question: "What is the wallet system?",
-      answer: "The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Wallet balance can only be used to receive payments and withdraw to your bank account - it cannot be used to pay contributions (you must use a debit card for that). Wallet is only available for USD, EUR, GBP, CAD, and AUD currencies. You can view your wallet balance and transaction history in the app."
+      answer: "The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Wallet balance can only be used to receive payments and withdraw to your bank account - it cannot be used to pay contributions (you must use a debit card for that). Wallet is only available for USD, EUR, GBP, CAD, and AUD currencies. You can view your wallet balance and transaction history in the app. Note: Wallet is only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "How do withdrawals work?",
-      answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Minimum withdrawal amounts: $10 USD, €10 EUR, £10 GBP, C$10 CAD, A$10 AUD. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
+      answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Minimum withdrawal amounts: $10 USD, €10 EUR, £10 GBP, C$10 CAD, A$10 AUD. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw. Note: Withdrawals are only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "Can I view bank statements or transaction history?",
@@ -129,7 +129,7 @@ export default function FAQPage() {
     },
     {
       question: "How do I customize notification preferences?",
-      answer: "You can customize notification preferences in your account settings. For Birthday Groups, you can choose to receive reminders 7 days before, 1 day before, and/or on the same day. For Subscription and General Groups, you can customize reminders before deadlines. You can also choose which notification channels to use (in-app, push, email) and which notification types you want to receive. Default settings: Email notifications for payments, transactions, and critical group updates default to ON (10 preferences), while reminders, newsletters, and less critical updates default to OFF (9 preferences). Most in-app and push notifications (26 of 27 types) default to ON, except chat_message which defaults to OFF (can be noisy). Security-related emails (OTP, welcome, birthday wishes, security alerts) are always sent and cannot be disabled. You can enable or disable specific notification types based on your preferences."
+      answer: "You can customize notification preferences in your account settings. For Birthday Groups, you can choose to receive reminders 7 days before, 1 day before, and/or on the same day. For Subscription and General Groups, you can customize reminders before deadlines. You can also choose which notification channels to use (in-app, push, email) and which notification types you want to receive. Default settings: Email notifications for payments, transactions, and critical group updates default to ON (10 preferences), while reminders, newsletters, and less critical updates default to OFF (9 preferences). Most in-app and push notifications (26 of 27 types) default to ON, except chat_message which defaults to OFF (can be noisy). Security-related emails (OTP, welcome, birthday wishes, security alerts) are always sent and cannot be disabled. You can enable or disable specific notification types based on your preferences. Note: Notification preferences management is only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "How does group chat work?",
@@ -137,11 +137,11 @@ export default function FAQPage() {
     },
     {
       question: "What is a co-admin role and what can they do?",
-      answer: "The co-admin role is a middle tier between regular members and full admins. Co-admins can help manage groups by: approving/rejecting member requests, removing regular members (but not admins or other co-admins), confirming subscription and general contributions, updating group name and notes, toggling accepting requests and chat, and updating deadlines. However, co-admins cannot change contribution amount, max members, or currency; close/reopen groups; delete groups; promote/demote members; or remove admins or other co-admins. Only full admins can promote/demote co-admins. For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins."
+      answer: "The co-admin role is a middle tier between regular members and full admins. Co-admins can help manage groups by: approving/rejecting member requests, removing regular members (but not admins or other co-admins), confirming subscription and general contributions, updating group name and notes, toggling accepting requests and chat, and updating deadlines. However, co-admins cannot change contribution amount, max members, or currency; close/reopen groups; delete groups; promote/demote members; or remove admins or other co-admins. Only full admins can promote/demote co-admins. For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins. Note: Co-admin role management is only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "How do I promote someone to co-admin?",
-      answer: "Only full admins can promote members to co-admin or demote co-admins back to regular members. When you promote or demote someone, they receive an in-app notification about the role change. Co-admins are especially useful for large groups where the main admin needs help with day-to-day management tasks like approving members and confirming contributions."
+      answer: "Only full admins can promote members to co-admin or demote co-admins back to regular members. When you promote or demote someone, they receive an in-app notification about the role change. Co-admins are especially useful for large groups where the main admin needs help with day-to-day management tasks like approving members and confirming contributions. Note: Co-admin promotion/demotion is only available on mobile apps (Android, iOS), not on the web version."
     },
     {
       question: "What if I need help or have questions?",

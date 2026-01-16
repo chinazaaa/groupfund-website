@@ -46,7 +46,7 @@ export default function PricingPage() {
     <>
       <SEO
         title="GroupFund Pricing - Free Group Contribution App | No Hidden Fees"
-        description="GroupFund is completely free to start! Organize contributions for birthdays, subscriptions, and events at no cost. Enable auto-pay, use in-app wallet, withdraw funds. Fees only apply to auto-pay transactions (contributor pays, recipient receives full amount). Manual payments have no fees. No hidden fees, no credit card required to get started. Free forever for organizing group contributions."
+        description="GroupFund is completely free to start! Organize contributions for birthdays, subscriptions, and events at no cost. Enable auto-pay, use in-app wallet, withdraw funds (mobile app only). Fees only apply to auto-pay transactions (contributor pays, recipient receives full amount). Manual payments have no fees. No hidden fees, no credit card required to get started. Free forever for organizing group contributions."
         keywords="groupfund pricing, free group contribution app, free group payment app, contribution app free, groupfund cost, free contribution tracker, no cost group contributions"
         canonical="https://www.groupfund.app/pricing"
       />
@@ -143,7 +143,7 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Co-admin role for delegation</span>
+                    <span>Co-admin role for delegation <em>(Mobile app only)</em></span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -163,7 +163,7 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Automatic payments (auto-pay) for USD, EUR, GBP, CAD, AUD</span>
+                    <span>Automatic payments (auto-pay) for USD, EUR, GBP, CAD, AUD <em>(Mobile app only)</em></span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -171,11 +171,11 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Multi-currency in-app wallet system</span>
+                    <span>Multi-currency in-app wallet system <em>(Mobile app only)</em></span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Easy withdrawals to bank account</span>
+                    <span>Easy withdrawals to bank account <em>(Mobile app only)</em></span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -183,11 +183,11 @@ export default function PricingPage() {
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Two-factor authentication (2FA) for security</span>
+                    <span>Two-factor authentication (2FA) for security <em>(Mobile app only)</em></span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
-                    <span>Customizable notifications (email, push, in-app)</span>
+                    <span>Customizable notifications (email, push, in-app) <em>(Notification preferences - Mobile app only)</em></span>
                   </li>
                   <li>
                     <span className="feature-icon">✓</span>
@@ -279,13 +279,13 @@ export default function PricingPage() {
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Automatic Payments (Auto-Pay)</div>
-                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes (Mobile app only)</div>
                 <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
                 <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">In-App Wallet & Withdrawals</div>
-                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes (Mobile app only)</div>
                 <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
                 <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
@@ -315,7 +315,7 @@ export default function PricingPage() {
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Co-Admin Role</div>
-                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes (Mobile app only)</div>
                 <div className="comparison-cell" data-label="WhatsApp Groups">✗ No</div>
                 <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>
@@ -327,7 +327,7 @@ export default function PricingPage() {
               </div>
               <div className="comparison-row">
                 <div className="comparison-cell">Two-Factor Authentication</div>
-                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes</div>
+                <div className="comparison-cell highlight" data-label="GroupFund">✓ Yes (Mobile app only)</div>
                 <div className="comparison-cell" data-label="WhatsApp Groups">✓ Yes</div>
                 <div className="comparison-cell" data-label="Excel Spreadsheets">✗ No</div>
               </div>

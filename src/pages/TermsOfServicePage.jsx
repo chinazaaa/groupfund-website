@@ -72,7 +72,7 @@ export default function TermsOfServicePage() {
                 <strong>Group Currencies:</strong> Groups can be created in multiple currencies, including USD (US Dollar), EUR (Euro), GBP (British Pound), NGN (Nigerian Naira), and more. The group currency is set when creating the group.
               </p>
               <p>
-                <strong>Payment Processing (Auto-Pay, Wallet, Withdrawals):</strong> Automatic payment collection (auto-pay), wallet system, and withdrawals are only available for five currencies: USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), and AUD (Australian Dollar). All automatic payments are processed via Stripe, a secure payment processor. If your group uses a currency that doesn't support auto-pay (e.g., NGN), you can still use manual payments.
+                <strong>Payment Processing (Auto-Pay, Wallet, Withdrawals):</strong> Automatic payment collection (auto-pay), wallet system, and withdrawals are only available for five currencies: USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), and AUD (Australian Dollar). All automatic payments are processed via Stripe, a secure payment processor. If your group uses a currency that doesn't support auto-pay (e.g., NGN), you can still use manual payments. <strong>Important:</strong> Auto-pay, wallet, and withdrawals are only available on mobile apps (Android, iOS), not on the web version.
               </p>
               <p>
                 <strong>Manual Payments:</strong> Users can choose to make payments manually (outside the app) and mark them as paid in the app, regardless of the group's currency. Manual payments do not go through GroupFund's payment processing system and work for all currencies.
@@ -171,6 +171,9 @@ export default function TermsOfServicePage() {
                 <li><strong>Withdrawals:</strong> You can withdraw funds from your wallet to your bank account. Withdrawals are subject to fees (see Section 6.4) and a 24-hour security hold period</li>
                 <li><strong>Account Deletion:</strong> You cannot delete your account if you have a wallet balance greater than zero. You must withdraw all funds before deleting your account</li>
               </ul>
+              <p>
+                <strong>Important:</strong> The wallet system and withdrawals are only available on mobile apps (Android, iOS), not on the web version.
+              </p>
               
               <h3>6.3 Fees for Automatic Payments</h3>
               <p>
@@ -419,7 +422,7 @@ export default function TermsOfServicePage() {
                 <li>Updating payment timing preferences</li>
               </ul>
               <p>
-                <strong>2FA Method:</strong> Two-factor authentication uses authenticator apps (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) to generate verification codes. You must set up an authenticator app in your account settings to use these features.
+                <strong>2FA Method:</strong> Two-factor authentication uses authenticator apps (such as Google Authenticator, Authy, Microsoft Authenticator, or similar apps) to generate verification codes. You must set up an authenticator app in your account settings to use these features. <strong>Note:</strong> Two-factor authentication (2FA) is only available on mobile apps (Android, iOS), not on the web version.
               </p>
               <p>
                 You will receive security email notifications for all critical actions. If you receive a notification for an action you did not perform, contact security@groupfund.app immediately.

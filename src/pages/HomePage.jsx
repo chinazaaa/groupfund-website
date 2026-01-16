@@ -41,8 +41,8 @@ export default function HomePage() {
           ? "GroupFund - New Year 2026 Contributions & Party Funds"
           : "GroupFund - Manage Birthdays, Subscriptions & Expenses"}
         description={NEW_YEAR_MODE
-          ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Enable auto-pay, use in-app wallet, withdraw funds, track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP, EUR). Free to start."
-          : "The best app to manage group expenses for birthdays, gifts, and events. Enable auto-pay for automatic payments, use in-app wallet to receive funds, withdraw to bank account, track contributions, send automatic reminders. Perfect for birthday gifts, group payments, and shared expenses. Multi-currency support (NGN, USD, GBP, EUR). Free to start."}
+                ? "🎉 Happy New Year 2026! Organize New Year contributions, party funds, and celebration expenses. Enable auto-pay, use in-app wallet, withdraw funds (mobile app only), track group payments, set deadlines, coordinate event costs. Perfect for New Year's Eve! Track who paid, see member reliability scores, set fixed amounts, get automatic reminders, communicate with per-group chat. Multi-currency support (NGN, USD, GBP, EUR). Free to start."
+                : "The best app to manage group expenses for birthdays, gifts, and events. Enable auto-pay for automatic payments, use in-app wallet to receive funds, withdraw to bank account (mobile app only), track contributions, send automatic reminders. Perfect for birthday gifts, group payments, and shared expenses. Multi-currency support (NGN, USD, GBP, EUR). Free to start."}
         keywords={NEW_YEAR_MODE
           ? "New Year contributions, New Year party funds, New Year's Eve contributions, celebration group payments, New Year 2026, organize New Year party, group celebrations, New Year contribution tracking, party cost sharing, celebration contributions, group event coordination, New Year's Eve expenses, birthday contributions, subscription groups, group payments, contribution tracking, contribution management, group wallet, family contributions, church contributions, payment reminders, multi-currency payments, Nigeria"
           : "app to manage group expenses for birthdays, best app for group payments, collect money for group gift, best way to collect money from a group, best way to collect money for a group gift, best way to collect money for a group gift without spreadsheets, group payment app, birthday expense tracker, group contribution app, manage group expenses, birthday group app, collect money from friends, collecting money from friends, how do i request money from a group of friends, pay friends easily for group events, easy way to pay friends for events, best app for splitting bills, split costs with friends, group expense tracker, split money with friends, best way to split bills, split costs app, group money app, split expenses with friends, how to split costs with friends, split bills app, collect money app, money collection app, group payment tracker, how to collect money from a group"}
@@ -84,8 +84,8 @@ export default function HomePage() {
             </h1>
             <p className="hero-subheadline">
               {NEW_YEAR_MODE
-                ? 'The smart way to organize New Year contributions, party funds, celebration expenses, birthdays, and shared subscriptions. Enable auto-pay for automatic payments, receive funds in your wallet, withdraw to your bank account, track payments in real-time, set deadlines, coordinate event costs, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'
-                : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Enable auto-pay for automatic payments, receive funds in your wallet, withdraw to your bank account, track payments in real-time, see member reliability scores, monitor group health metrics, set fixed amounts, and never miss a contribution with automatic reminders.'}
+                ? 'The smart way to organize New Year contributions, party funds, and celebration expenses. Track payments in real-time, set fixed amounts, and never miss a contribution with automatic reminders.'
+                : 'The smart way to organize group contributions for birthdays, shared subscriptions, and any purpose. Track payments in real-time, set fixed amounts, and never miss a contribution with automatic reminders.'}
             </p>
             <div className="hero-features">
               <div className="feature-tag">
@@ -197,7 +197,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Automatic Payments (Auto-Pay)</h3>
-              <p>Set up automatic payments for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose "1 day before" or "same day" timing. Never miss a contribution deadline again.</p>
+              <p>Set up automatic payments for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose "1 day before" or "same day" timing. Never miss a contribution deadline again. <em>Available on mobile apps (Android, iOS) only.</em></p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -207,7 +207,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>In-App Wallet System</h3>
-              <p>Receive contributions directly in your in-app wallet when others pay via auto-pay. Multi-currency wallet balances for USD, EUR, GBP, CAD, and AUD. Secure payment processing via Stripe. View your balance and transaction history anytime.</p>
+              <p>Receive contributions directly in your in-app wallet when others pay via auto-pay. Multi-currency wallet balances for USD, EUR, GBP, CAD, and AUD. Secure payment processing via Stripe. View your balance and transaction history anytime. <em>Available on mobile apps (Android, iOS) only.</em></p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -218,7 +218,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Easy Withdrawals</h3>
-              <p>Withdraw funds directly to your bank account at any time. Track all withdrawal requests and history. Withdrawal fees: FREE for GBP and EUR, 1% for USD, CAD, and AUD. 24-hour security hold for fraud prevention.</p>
+              <p>Withdraw funds directly to your bank account at any time. Track all withdrawal requests and history. Withdrawal fees: FREE for GBP and EUR, 1% for USD, CAD, and AUD. 24-hour security hold for fraud prevention. <em>Available on mobile apps (Android, iOS) only.</em></p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -309,7 +309,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Co-Admin Role</h3>
-              <p>Promote trusted members to co-admin to help manage large groups. Co-admins can approve members, confirm contributions, update group settings (with restrictions), and delete chat messages. Perfect for delegating management tasks while maintaining control over critical settings.</p>
+              <p>Promote trusted members to co-admin to help manage large groups. Co-admins can approve members, confirm contributions, update group settings (with restrictions), and delete chat messages. Perfect for delegating management tasks while maintaining control over critical settings. <em>Available on mobile apps (Android, iOS) only.</em></p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -319,7 +319,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Enhanced Security</h3>
-              <p>Two-factor authentication support using authenticator apps (like Google Authenticator) for critical actions. Email verification for account signup and password resets. Better protection for your account and transactions.</p>
+              <p>Two-factor authentication support using authenticator apps (like Google Authenticator) for critical actions. Email verification for account signup and password resets. Better protection for your account and transactions. <em>2FA available on mobile apps (Android, iOS) only.</em></p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -329,7 +329,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Customizable Notifications</h3>
-              <p>Full control over your notifications. Customize email, push, and in-app notifications. Choose what matters to you - only receive notifications you want. Manage preferences for reminders, payments, withdrawals, and more.</p>
+              <p>Full control over your notifications. Customize email, push, and in-app notifications. Choose what matters to you - only receive notifications you want. Manage preferences for reminders, payments, withdrawals, and more. <em>Notification preferences available on mobile apps (Android, iOS) only.</em></p>
             </article>
           </div>
         </div>

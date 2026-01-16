@@ -178,7 +178,7 @@ export default function GlossaryPage() {
     },
     {
       term: "Notification Preferences",
-      definition: "Settings that allow users to customize which notifications they receive and how. Users can choose notification channels (in-app, push, email), frequency (7 days before, 1 day before, same day), and notification types. Defaults: Email notifications for payments/transactions/critical updates default to ON (10 types), while reminders/newsletters default to OFF (9 types). Most in-app and push notifications (26 of 27 types) default to ON, except chat_message which defaults to OFF (can be noisy). Security emails (OTP, welcome, security alerts) are always sent and cannot be disabled. Users can enable or disable specific notification types in account settings.",
+      definition: "Settings that allow users to customize which notifications they receive and how. Users can choose notification channels (in-app, push, email), frequency (7 days before, 1 day before, same day), and notification types. Defaults: Email notifications for payments/transactions/critical updates default to ON (10 types), while reminders/newsletters default to OFF (9 types). Most in-app and push notifications (26 of 27 types) default to ON, except chat_message which defaults to OFF (can be noisy). Security emails (OTP, welcome, security alerts) are always sent and cannot be disabled. Users can enable or disable specific notification types in account settings. Note: Notification preferences management is only available on mobile apps (Android, iOS), not on the web version.",
       category: "features",
       relatedTerms: ["Payment Reminders", "Notifications", "Settings"]
     },

@@ -103,22 +103,22 @@ export default function FeaturesPage() {
     },
     {
       title: "Full Notification Control",
-      description: "Full control over your notifications. Customize email, push, and in-app notifications. Choose what matters to you - only receive notifications you want. Manage preferences for reminders, payments, withdrawals, auto-pay status, and more. Most notification types default to ON, but you can customize each one to match your preferences.",
+      description: "Full control over your notifications. Customize email, push, and in-app notifications. Choose what matters to you - only receive notifications you want. Manage preferences for reminders, payments, withdrawals, auto-pay status, and more. Most notification types default to ON, but you can customize each one to match your preferences. Note: Notification preferences management is only available on mobile apps (Android, iOS).",
       icon: "🔔"
     },
     {
       title: "Automatic Payment Collection (Auto-Pay)",
-      description: "Enable auto-pay for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount).",
+      description: "Enable auto-pay for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount). Note: Auto-pay is only available on mobile apps (Android, iOS).",
       icon: "💳"
     },
     {
       title: "In-App Wallet System",
-      description: "Receive payments directly into your wallet balance when others contribute via auto-pay. Wallet balance can be used to receive funds and withdraw to your bank account. Wallet is only available for USD, EUR, GBP, CAD, and AUD currencies. Wallet balance cannot be used to pay contributions - you must use a debit card for that.",
+      description: "Receive payments directly into your wallet balance when others contribute via auto-pay. Wallet balance can be used to receive funds and withdraw to your bank account. Wallet is only available for USD, EUR, GBP, CAD, and AUD currencies. Wallet balance cannot be used to pay contributions - you must use a debit card for that. Note: Wallet is only available on mobile apps (Android, iOS).",
       icon: "💼"
     },
     {
       title: "Easy Withdrawals",
-      description: "Withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. All withdrawals are processed securely via Stripe Payouts API.",
+      description: "Withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. All withdrawals are processed securely via Stripe Payouts API. Note: Withdrawals are only available on mobile apps (Android, iOS).",
       icon: "🏦"
     },
     {
@@ -163,7 +163,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Secure Authentication & Two-Factor Authentication",
-      description: "Sign up with email, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP. For critical actions (adding cards, withdrawals, bank account changes), two-factor authentication is required using authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar).",
+      description: "Sign up with email, verify with OTP, and login with secure JWT authentication. Reset passwords via OTP. For critical actions (adding cards, withdrawals, bank account changes), two-factor authentication is required using authenticator apps (Google Authenticator, Authy, Microsoft Authenticator, or similar). Note: 2FA setup and usage is only available on mobile apps (Android, iOS).",
       icon: "🔐"
     },
     {
@@ -178,7 +178,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Co-Admin Role",
-      description: "Promote trusted members to co-admin to help manage groups. Co-admins can approve/reject members, confirm contributions, update group settings (with restrictions), and delete chat messages. Perfect for large groups or when the main admin needs help. Only full admins can promote/demote co-admins.",
+      description: "Promote trusted members to co-admin to help manage groups. Co-admins can approve/reject members, confirm contributions, update group settings (with restrictions), and delete chat messages. Perfect for large groups or when the main admin needs help. Only full admins can promote/demote co-admins. Note: Co-admin role management is only available on mobile apps (Android, iOS).",
       icon: "👥"
     },
     {
