@@ -50,7 +50,10 @@ const blogPosts = [
   'summer-vacation-group-planning-organizing-trip-contributions',
   'back-to-school-contributions-organizing-group-funds-students',
   'how-to-organize-halloween-party-contributions-costume-funds',
-  'thanksgiving-group-planning-organizing-dinner-contributions'
+  'thanksgiving-group-planning-organizing-dinner-contributions',
+  'never-miss-payment-benefits-auto-pay',
+  'understanding-groupfund-wallet-system',
+  'auto-pay-vs-manual-payments-which-choose'
 ]
 
 const pages = [
@@ -1417,6 +1420,42 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/resources/using-group-chat-and-messaging',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/setting-up-auto-pay',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/using-your-wallet',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/withdrawing-funds',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/payment-methods-guide',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/best-app-for-splitting-bills',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/help',
     priority: '0.8',
     changefreq: 'monthly',
@@ -1533,6 +1572,24 @@ const pages = [
   {
     url: '/best-practices/best-way-to-collect-money-from-group',
     priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/group-chat-best-practices',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/auto-pay-best-practices',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/best-practices/wallet-management-best-practices',
+    priority: '0.8',
     changefreq: 'monthly',
     lastmod: currentDate
   },
