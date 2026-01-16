@@ -67,7 +67,7 @@ export default function AppRulesPage() {
                 <li>Group health metrics</li>
                 <li>Payment history and transparency</li>
                 <li>Support for multiple currencies when creating groups (USD, EUR, GBP, NGN, and more)</li>
-                <li>Auto-pay, wallet, and withdrawals available for USD, EUR, and GBP only</li>
+                <li>Auto-pay, wallet, and withdrawals available for USD, EUR, GBP, CAD, and AUD only</li>
               </ul>
             </div>
 
@@ -247,7 +247,7 @@ export default function AppRulesPage() {
               <ul>
                 <li>When others contribute to you via auto-pay, funds are automatically credited to your wallet balance</li>
                 <li>You can see your wallet balance in the app</li>
-                <li><strong>Currency restriction:</strong> Wallet system is only available for groups using USD (US Dollar), EUR (Euro), or GBP (British Pound). If your group uses a different currency (e.g., NGN - Nigerian Naira), the wallet system is not available, but you can still receive manual payments</li>
+                <li><strong>Currency restriction:</strong> Wallet system is only available for groups using USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). If your group uses a different currency (e.g., NGN - Nigerian Naira), the wallet system is not available, but you can still receive manual payments</li>
               </ul>
               
               <h3>Wallet Usage Rules (Important)</h3>
@@ -272,12 +272,14 @@ export default function AppRulesPage() {
               <h3>Withdrawals</h3>
               <ul>
                 <li>You can withdraw funds from your wallet to your bank account at any time</li>
-                <li><strong>Currency restriction:</strong> Withdrawals are only available for wallet balances in USD (US Dollar), EUR (Euro), or GBP (British Pound). If your group uses a different currency, withdrawals are not available</li>
+                <li><strong>Currency restriction:</strong> Withdrawals are only available for wallet balances in USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). If your group uses a different currency, withdrawals are not available</li>
                 <li><strong>Withdrawal fees:</strong>
                   <ul>
                     <li>GBP (British Pound): FREE - No withdrawal fee</li>
                     <li>EUR (Euro): FREE - No withdrawal fee</li>
                     <li>USD (US Dollar): 1% fee applies</li>
+                    <li>CAD (Canadian Dollar): 1% fee applies</li>
+                    <li>AUD (Australian Dollar): 1% fee applies</li>
                   </ul>
                 </li>
                 <li><strong>24-hour security hold:</strong> All withdrawal requests are subject to a 24-hour security hold period for fraud prevention. Funds will be sent to your bank account within 24 hours after your withdrawal request</li>
@@ -303,7 +305,7 @@ export default function AppRulesPage() {
                 <li><strong>Recipient receives full amount</strong> - The recipient receives the full contribution amount (no fees deducted from their side)</li>
                 <li><strong>Fee breakdown:</strong>
                   <ul>
-                    <li>Payment processor fee (Stripe): Approximately 2.9% + $0.30 for USD, 1.4% + €0.25 for EUR, 1.4% + £0.20 for GBP</li>
+                    <li>Payment processor fee (Stripe): Approximately 2.9% + $0.30 for USD, 1.4% + €0.25 for EUR, 1.4% + £0.20 for GBP, 2.9% + $0.30 CAD for CAD, 2.9% + $0.30 AUD for AUD</li>
                     <li>Platform fee: 1-2% of contribution amount (kept competitive to stay affordable)</li>
                   </ul>
                 </li>
@@ -327,6 +329,8 @@ export default function AppRulesPage() {
                 <li>GBP (British Pound): FREE - No withdrawal fee</li>
                 <li>EUR (Euro): FREE - No withdrawal fee</li>
                 <li>USD (US Dollar): 1% fee applies</li>
+                <li>CAD (Canadian Dollar): 1% fee applies</li>
+                <li>AUD (Australian Dollar): 1% fee applies</li>
               </ul>
               <p>
                 All fees are displayed transparently before you confirm a payment or withdrawal.

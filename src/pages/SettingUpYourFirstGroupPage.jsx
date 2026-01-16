@@ -166,7 +166,7 @@ export default function SettingUpYourFirstGroupPage() {
               </p>
               
               <h3>Option 1: Automatic Payments (Auto-Pay)</h3>
-              <p>For groups using USD, EUR, or GBP:</p>
+              <p>For groups using USD, EUR, GBP, CAD, or AUD:</p>
               <ul className="resource-list">
                 <li>Add a debit card to your account</li>
                 <li>Enable auto-pay for the group</li>

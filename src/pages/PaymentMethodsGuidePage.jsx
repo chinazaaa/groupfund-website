@@ -81,7 +81,7 @@ export default function PaymentMethodsGuidePage() {
 
               <h3>Requirements</h3>
               <ul className="resource-list">
-                <li><strong>Currency:</strong> Group must use USD, EUR, or GBP (auto-pay not available for other currencies)</li>
+                <li><strong>Currency:</strong> Group must use USD, EUR, GBP, CAD, or AUD (auto-pay not available for other currencies)</li>
                 <li><strong>Debit Card:</strong> Valid debit card (Visa, Mastercard, etc.)</li>
                 <li><strong>Bank Account:</strong> Bank account details in your profile (required for withdrawals)</li>
                 <li><strong>No Overdue:</strong> You must not have any overdue payments</li>
@@ -106,7 +106,7 @@ export default function PaymentMethodsGuidePage() {
               <h3>When to Use Auto-Pay</h3>
               <ul className="resource-list">
                 <li>You want convenience and automation</li>
-                <li>You're in groups using USD, EUR, or GBP</li>
+                <li>You're in groups using USD, EUR, GBP, CAD, or AUD</li>
                 <li>You have a valid debit card</li>
                 <li>You want to never miss a payment</li>
                 <li>You're comfortable with fees (contributor pays fees)</li>
@@ -179,7 +179,7 @@ export default function PaymentMethodsGuidePage() {
                     </tr>
                     <tr>
                       <td style={{ padding: '1rem', borderBottom: '1px solid #e5e7eb' }}><strong>Currency Support</strong></td>
-                      <td style={{ padding: '1rem', borderBottom: '1px solid #e5e7eb' }}>USD, EUR, GBP only</td>
+                      <td style={{ padding: '1rem', borderBottom: '1px solid #e5e7eb' }}>USD, EUR, GBP, CAD, AUD only</td>
                       <td style={{ padding: '1rem', borderBottom: '1px solid #e5e7eb' }}>All currencies (NGN, USD, EUR, GBP, etc.)</td>
                     </tr>
                     <tr>
@@ -229,12 +229,14 @@ export default function PaymentMethodsGuidePage() {
               </div>
 
               <div style={{ marginTop: '1.5rem', padding: '1.5rem', backgroundColor: '#fff3cd', borderRadius: '8px', borderLeft: '4px solid #ffc107' }}>
-                <h3 style={{ marginTop: '0' }}>Auto-Pay, Wallet, and Withdrawals: USD, EUR, GBP Only</h3>
+                <h3 style={{ marginTop: '0' }}>Auto-Pay, Wallet, and Withdrawals: USD, EUR, GBP, CAD, AUD Only</h3>
                 <p>These features are only available for groups using:</p>
                 <ul style={{ marginLeft: '1.5rem' }}>
                   <li>USD (US Dollar)</li>
                   <li>EUR (Euro)</li>
                   <li>GBP (British Pound)</li>
+                  <li>CAD (Canadian Dollar)</li>
+                  <li>AUD (Australian Dollar)</li>
                 </ul>
                 <p style={{ marginTop: '1rem' }}>
                   <strong>If your group uses a different currency (like NGN):</strong> You can still use manual payments. Auto-pay, wallet, and withdrawals are not available, but manual payments work perfectly for all currencies.
@@ -249,7 +251,7 @@ export default function PaymentMethodsGuidePage() {
               <h3>Choose Auto-Pay If:</h3>
               <ul className="resource-list">
                 <li>You want convenience and automation</li>
-                <li>Your group uses USD, EUR, or GBP</li>
+                <li>Your group uses USD, EUR, GBP, CAD, or AUD</li>
                 <li>You have a valid debit card</li>
                 <li>You want to never miss a payment</li>
                 <li>You're comfortable paying fees (contributor pays)</li>

@@ -87,7 +87,7 @@ export default function SettingUpSubscriptionGroupsPage() {
                 These details are stored securely and displayed to all group members when it's time to contribute (for manual payments).
               </p>
               <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
-                <strong>Note:</strong> If your group uses USD, EUR, or GBP, members can use auto-pay (funds go to your wallet). If they use manual payments, funds go directly to your bank account.
+                <strong>Note:</strong> If your group uses USD, EUR, GBP, CAD, or AUD, members can use auto-pay (funds go to your wallet). If they use manual payments, funds go directly to your bank account.
               </p>
             </div>
 

@@ -57,7 +57,7 @@ export default function UsingYourWalletPage() {
                 GroupFund's wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Think of it as your GroupFund account balance - money that's been credited to you and is ready to withdraw to your bank account.
               </p>
               <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
-                <strong>Important:</strong> Wallet is only available for groups using USD (US Dollar), EUR (Euro), or GBP (British Pound). If your group uses a different currency (like NGN), the wallet system is not available, but you can still receive manual payments.
+                <strong>Important:</strong> Wallet is only available for groups using USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). If your group uses a different currency (like NGN), the wallet system is not available, but you can still receive manual payments.
               </p>
             </div>
 
@@ -122,13 +122,13 @@ export default function UsingYourWalletPage() {
               <h2>Multi-Currency Wallet Balances</h2>
               <p>Your wallet can hold balances in multiple currencies:</p>
               <ul className="resource-list">
-                <li><strong>Separate Balances:</strong> You have separate wallet balances for USD, EUR, and GBP</li>
-                <li><strong>Currency-Specific:</strong> Funds received in USD go to your USD wallet, EUR funds go to EUR wallet, etc.</li>
+                <li><strong>Separate Balances:</strong> You have separate wallet balances for USD, EUR, GBP, CAD, and AUD</li>
+                <li><strong>Currency-Specific:</strong> Funds received in USD go to your USD wallet, EUR funds go to EUR wallet, CAD funds go to CAD wallet, etc.</li>
                 <li><strong>View All Balances:</strong> You can see all your wallet balances in one place</li>
                 <li><strong>Withdraw Separately:</strong> You withdraw from each currency balance separately</li>
               </ul>
               <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
-                <strong>Example:</strong> If you're in a USD group and receive $50, it goes to your USD wallet. If you're also in a EUR group and receive €40, it goes to your EUR wallet. You can withdraw from each balance separately.
+                <strong>Example:</strong> If you're in a USD group and receive $50, it goes to your USD wallet. If you're also in a EUR group and receive €40, it goes to your EUR wallet. If you're in a CAD group and receive $50 CAD, it goes to your CAD wallet. You can withdraw from each balance separately.
               </p>
             </div>
 

@@ -72,7 +72,7 @@ export default function TermsOfServicePage() {
                 <strong>Group Currencies:</strong> Groups can be created in multiple currencies, including USD (US Dollar), EUR (Euro), GBP (British Pound), NGN (Nigerian Naira), and more. The group currency is set when creating the group.
               </p>
               <p>
-                <strong>Payment Processing (Auto-Pay, Wallet, Withdrawals):</strong> Automatic payment collection (auto-pay), wallet system, and withdrawals are only available for three currencies: USD (US Dollar), EUR (Euro), and GBP (British Pound). All automatic payments are processed via Stripe, a secure payment processor. If your group uses a currency that doesn't support auto-pay (e.g., NGN), you can still use manual payments.
+                <strong>Payment Processing (Auto-Pay, Wallet, Withdrawals):</strong> Automatic payment collection (auto-pay), wallet system, and withdrawals are only available for five currencies: USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), and AUD (Australian Dollar). All automatic payments are processed via Stripe, a secure payment processor. If your group uses a currency that doesn't support auto-pay (e.g., NGN), you can still use manual payments.
               </p>
               <p>
                 <strong>Manual Payments:</strong> Users can choose to make payments manually (outside the app) and mark them as paid in the app, regardless of the group's currency. Manual payments do not go through GroupFund's payment processing system and work for all currencies.
@@ -141,7 +141,7 @@ export default function TermsOfServicePage() {
               <ul>
                 <li>Your debit card will be automatically charged on the payment date (birthday, subscription deadline, or general group deadline)</li>
                 <li>You can choose to be charged "1 day before" or on the "same day" as the payment date</li>
-                <li>Auto-pay is only available for groups using one of three currencies: USD (US Dollar), EUR (Euro), or GBP (British Pound)</li>
+                <li>Auto-pay is only available for groups using one of five currencies: USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar)</li>
                 <li>If your group uses a different currency (e.g., NGN), auto-pay is not available, but you can still use manual payments</li>
                 <li>Fees apply to automatic payments (see Section 6.3)</li>
                 <li>Funds are credited to the recipient's in-app wallet balance</li>
@@ -150,7 +150,7 @@ export default function TermsOfServicePage() {
                 <strong>Requirements for Auto-Pay:</strong>
               </p>
               <ul>
-                <li>The group must use a currency that supports auto-pay: USD, EUR, or GBP</li>
+                <li>The group must use a currency that supports auto-pay: USD, EUR, GBP, CAD, or AUD</li>
                 <li>You must have a valid debit card on file</li>
                 <li>You must have bank account details in your profile (required for withdrawals)</li>
                 <li>You must not have any overdue payments (defaulters cannot enable auto-pay)</li>
@@ -176,7 +176,7 @@ export default function TermsOfServicePage() {
                 <li><strong>Recipient receives full amount:</strong> The recipient receives the full contribution amount (without fees deducted)</li>
                 <li><strong>Fee structure:</strong>
                   <ul>
-                    <li>Payment processor fee (Stripe): Approximately 2.9% + $0.30 for USD, 1.4% + €0.25 for EUR, 1.4% + £0.20 for GBP</li>
+                    <li>Payment processor fee (Stripe): Approximately 2.9% + $0.30 for USD, 1.4% + €0.25 for EUR, 1.4% + £0.20 for GBP, 2.9% + $0.30 CAD for CAD, 2.9% + $0.30 AUD for AUD</li>
                     <li>Platform fee: 1-2% of contribution amount (kept competitive to stay affordable)</li>
                   </ul>
                 </li>
@@ -194,6 +194,8 @@ export default function TermsOfServicePage() {
                 <li><strong>GBP (British Pound):</strong> FREE - No withdrawal fee</li>
                 <li><strong>EUR (Euro):</strong> FREE - No withdrawal fee</li>
                 <li><strong>USD (US Dollar):</strong> 1% fee applies</li>
+                <li><strong>CAD (Canadian Dollar):</strong> 1% fee applies</li>
+                <li><strong>AUD (Australian Dollar):</strong> 1% fee applies</li>
               </ul>
               <p>
                 <strong>24-Hour Security Hold:</strong> All withdrawal requests are subject to a 24-hour security hold period. Funds will be sent to your bank account within 24 hours after your withdrawal request. You will receive an email notification when your withdrawal request is received. If you did not request the withdrawal, contact security@groupfund.app immediately.

@@ -105,7 +105,7 @@ export default function SettingUpBirthdayGroupsPage() {
               </p>
               
               <h3>Option 1: Automatic Payments (Auto-Pay)</h3>
-              <p>For groups using USD, EUR, or GBP:</p>
+              <p>For groups using USD, EUR, GBP, CAD, or AUD:</p>
               <ul className="resource-list">
                 <li>Members add debit cards and enable auto-pay</li>
                 <li>Cards are automatically charged on birthdays (or 1 day before)</li>

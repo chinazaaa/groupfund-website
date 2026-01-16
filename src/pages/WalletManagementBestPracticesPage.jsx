@@ -56,7 +56,7 @@ export default function WalletManagementBestPracticesPage() {
               <p>Your wallet is where you receive funds from auto-pay contributions:</p>
               <ul className="resource-list">
                 <li><strong>Purpose:</strong> Receive funds and withdraw to bank account</li>
-                <li><strong>Currency Support:</strong> Only available for USD, EUR, and GBP</li>
+                <li><strong>Currency Support:</strong> Only available for USD, EUR, GBP, CAD, and AUD</li>
                 <li><strong>Multi-Currency:</strong> Separate balances for each currency</li>
                 <li><strong>Cannot Pay Contributions:</strong> Wallet balance cannot be used to pay contributions (must use debit card)</li>
               </ul>
@@ -68,7 +68,7 @@ export default function WalletManagementBestPracticesPage() {
                 <li><strong>Check Regularly:</strong> Review your wallet balance periodically</li>
                 <li><strong>Monitor Incoming Payments:</strong> Track contributions you receive via auto-pay</li>
                 <li><strong>Verify Transactions:</strong> Verify that all expected contributions have been received</li>
-                <li><strong>View All Currencies:</strong> Check balances for USD, EUR, and GBP separately</li>
+                <li><strong>View All Currencies:</strong> Check balances for USD, EUR, GBP, CAD, and AUD separately</li>
                 <li><strong>Set Reminders:</strong> Set personal reminders to check your wallet balance</li>
               </ul>
             </div>
@@ -89,7 +89,7 @@ export default function WalletManagementBestPracticesPage() {
               <ul className="resource-list">
                 <li><strong>Withdraw Regularly:</strong> Consider withdrawing when balance reaches a comfortable amount</li>
                 <li><strong>Plan for 24-Hour Hold:</strong> Remember the 24-hour security hold period</li>
-                <li><strong>Understand Fees:</strong> Know withdrawal fees (FREE for GBP/EUR, 1% for USD)</li>
+                <li><strong>Understand Fees:</strong> Know withdrawal fees (FREE for GBP/EUR, 1% for USD, CAD, and AUD)</li>
                 <li><strong>Minimum Amounts:</strong> Be aware of minimum withdrawal amounts</li>
                 <li><strong>Before Account Deletion:</strong> Withdraw all funds before deleting your account</li>
               </ul>

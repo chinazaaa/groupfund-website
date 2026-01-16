@@ -86,7 +86,7 @@ export default function HelpPage() {
         },
         {
           question: "How does auto-pay work?",
-          answer: "Auto-pay allows your debit card to be automatically charged on payment dates (birthdays, subscription deadlines, or event deadlines). You can choose to be charged '1 day before' or 'same day'. Auto-pay is only available for groups using USD, EUR, or GBP. You need a valid debit card and bank account details. Payments are processed securely via Stripe and automatically confirmed. If payment fails after 2 attempts, auto-pay is disabled and you'll be notified."
+          answer: "Auto-pay allows your debit card to be automatically charged on payment dates (birthdays, subscription deadlines, or event deadlines). You can choose to be charged '1 day before' or 'same day'. Auto-pay is only available for groups using USD, EUR, GBP, CAD, or AUD. You need a valid debit card and bank account details. Payments are processed securely via Stripe and automatically confirmed. If payment fails after 2 attempts, auto-pay is disabled and you'll be notified."
         },
         {
           question: "What payment methods are supported?",
@@ -98,7 +98,7 @@ export default function HelpPage() {
         },
         {
           question: "How do I enable or disable auto-pay?",
-          answer: "You can enable auto-pay for a group if: the group uses USD, EUR, or GBP; you have a valid debit card; you have bank account details; you have no overdue payments. You can disable auto-pay at any time. Critical actions like enabling/disabling auto-pay require two-factor authentication (authenticator app)."
+          answer: "You can enable auto-pay for a group if: the group uses USD, EUR, GBP, CAD, or AUD; you have a valid debit card; you have bank account details; you have no overdue payments. You can disable auto-pay at any time. Critical actions like enabling/disabling auto-pay require two-factor authentication (authenticator app)."
         },
         {
           question: "What happens if my auto-pay payment fails?",
@@ -116,7 +116,7 @@ export default function HelpPage() {
       topics: [
         {
           question: "What is the wallet system?",
-          answer: "The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Wallet balance can only be used to receive payments and withdraw to your bank account - it cannot be used to pay contributions (you must use a debit card for that). Wallet is only available for USD, EUR, and GBP currencies."
+          answer: "The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Wallet balance can only be used to receive payments and withdraw to your bank account - it cannot be used to pay contributions (you must use a debit card for that). Wallet is only available for USD, EUR, GBP, CAD, and AUD currencies."
         },
         {
           question: "How do I view my wallet balance?",
@@ -124,7 +124,7 @@ export default function HelpPage() {
         },
         {
           question: "How do withdrawals work?",
-          answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
+          answer: "You can withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period for fraud prevention. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. You'll receive an email notification when your withdrawal request is received. Funds will be sent to your bank account within 24 hours. You must have valid bank account details in your profile to withdraw."
         },
         {
           question: "What are the withdrawal fees?",

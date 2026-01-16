@@ -56,7 +56,7 @@ export default function AutoPayBestPracticesPage() {
               <p>Auto-pay is ideal when:</p>
               <ul className="resource-list">
                 <li><strong>You want convenience:</strong> Set it once and never worry about missing payments</li>
-                <li><strong>Your group uses USD, EUR, or GBP:</strong> Auto-pay is only available for these currencies</li>
+                <li><strong>Your group uses USD, EUR, GBP, CAD, or AUD:</strong> Auto-pay is only available for these currencies</li>
                 <li><strong>You have a reliable debit card:</strong> Card that's not expiring soon and has sufficient funds</li>
                 <li><strong>You're comfortable with fees:</strong> Contributor pays fees (recipient receives full amount)</li>
                 <li><strong>You want automatic confirmation:</strong> Payments are confirmed automatically (no manual steps)</li>

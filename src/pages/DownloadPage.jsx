@@ -144,7 +144,7 @@ export default function DownloadPage() {
                 <div className="download-feature-card">
                   <div className="download-feature-icon">💳</div>
                   <h3>Auto-Pay & Wallet</h3>
-                  <p>Enable automatic payments for groups using USD, EUR, or GBP. Receive contributions directly in your in-app wallet and withdraw to your bank account.</p>
+                  <p>Enable automatic payments for groups using USD, EUR, GBP, CAD, or AUD. Receive contributions directly in your in-app wallet and withdraw to your bank account.</p>
                 </div>
                 <div className="download-feature-card">
                   <div className="download-feature-icon">🔒</div>

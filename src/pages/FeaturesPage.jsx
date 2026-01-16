@@ -38,7 +38,7 @@ export default function FeaturesPage() {
   const features = [
     {
       title: "Multi-Currency Support",
-      description: "Choose from NGN, USD, GBP, EUR, and more when creating groups. Each group can set its preferred currency, and local bank details are displayed automatically. Auto-pay, wallet, and withdrawals are available for USD, EUR, and GBP only. Groups using other currencies (like NGN) can still use manual payments.",
+      description: "Choose from NGN, USD, GBP, EUR, CAD, AUD, and more when creating groups. Each group can set its preferred currency, and local bank details are displayed automatically. Auto-pay, wallet, and withdrawals are available for USD, EUR, GBP, CAD, and AUD only. Groups using other currencies (like NGN) can still use manual payments.",
       icon: "🌍"
     },
     {
@@ -108,17 +108,17 @@ export default function FeaturesPage() {
     },
     {
       title: "Automatic Payment Collection (Auto-Pay)",
-      description: "Enable auto-pay for groups using USD, EUR, or GBP. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount).",
+      description: "Enable auto-pay for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount).",
       icon: "💳"
     },
     {
       title: "In-App Wallet System",
-      description: "Receive payments directly into your wallet balance when others contribute via auto-pay. Wallet balance can be used to receive funds and withdraw to your bank account. Wallet is only available for USD, EUR, and GBP currencies. Wallet balance cannot be used to pay contributions - you must use a debit card for that.",
+      description: "Receive payments directly into your wallet balance when others contribute via auto-pay. Wallet balance can be used to receive funds and withdraw to your bank account. Wallet is only available for USD, EUR, GBP, CAD, and AUD currencies. Wallet balance cannot be used to pay contributions - you must use a debit card for that.",
       icon: "💼"
     },
     {
       title: "Easy Withdrawals",
-      description: "Withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD. All withdrawals are processed securely via Stripe Payouts API.",
+      description: "Withdraw funds from your wallet to your bank account at any time. Withdrawals are subject to a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% fee for USD, CAD, and AUD. All withdrawals are processed securely via Stripe Payouts API.",
       icon: "🏦"
     },
     {

@@ -57,7 +57,7 @@ export default function WithdrawingFundsPage() {
                 Withdrawal is the process of transferring funds from your GroupFund wallet to your bank account. Once you receive contributions in your wallet (from auto-pay), you can withdraw the funds to your bank account at any time.
               </p>
               <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
-                <strong>Important:</strong> Withdrawals are only available for wallet balances in USD (US Dollar), EUR (Euro), or GBP (British Pound). If your group uses a different currency, withdrawals are not available.
+                <strong>Important:</strong> Withdrawals are only available for wallet balances in USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). If your group uses a different currency, withdrawals are not available.
               </p>
             </div>
 
@@ -67,8 +67,8 @@ export default function WithdrawingFundsPage() {
               <ul className="resource-list">
                 <li><strong>Wallet Balance:</strong> You must have funds in your wallet (from auto-pay contributions)</li>
                 <li><strong>Valid Bank Account:</strong> You must have valid bank account details in your profile</li>
-                <li><strong>Supported Currency:</strong> Wallet balance must be in USD, EUR, or GBP</li>
-                <li><strong>Minimum Amount:</strong> Minimum withdrawal amounts apply (typically $10 USD, €10 EUR, £10 GBP)</li>
+                <li><strong>Supported Currency:</strong> Wallet balance must be in USD, EUR, GBP, CAD, or AUD</li>
+                <li><strong>Minimum Amount:</strong> Minimum withdrawal amounts apply (typically $10 USD, €10 EUR, £10 GBP, $10 CAD, $10 AUD)</li>
               </ul>
             </div>
 
@@ -98,7 +98,7 @@ export default function WithdrawingFundsPage() {
               <ol className="resource-list">
                 <li>Enter the 6-digit OTP code from your email</li>
                 <li>Enter the withdrawal amount (must be less than or equal to your wallet balance)</li>
-                <li>Select currency (USD, EUR, or GBP)</li>
+                <li>Select currency (USD, EUR, GBP, CAD, or AUD)</li>
                 <li>Verify your bank account details (displayed for confirmation)</li>
                 <li>Review withdrawal fees (displayed transparently)</li>
                 <li>Confirm withdrawal request</li>
@@ -147,6 +147,16 @@ export default function WithdrawingFundsPage() {
                   <h3 style={{ marginTop: '0', color: '#991b1b' }}>USD (US Dollar)</h3>
                   <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#991b1b', margin: '0.5rem 0' }}>1% Fee</p>
                   <p style={{ color: '#991b1b', margin: '0' }}>Example: $100 withdrawal = $1.00 fee</p>
+                </div>
+                <div style={{ padding: '1.5rem', backgroundColor: '#fee2e2', borderRadius: '8px', borderLeft: '4px solid #ef4444' }}>
+                  <h3 style={{ marginTop: '0', color: '#991b1b' }}>CAD (Canadian Dollar)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#991b1b', margin: '0.5rem 0' }}>1% Fee</p>
+                  <p style={{ color: '#991b1b', margin: '0' }}>Example: $100 CAD withdrawal = $1.00 CAD fee</p>
+                </div>
+                <div style={{ padding: '1.5rem', backgroundColor: '#fee2e2', borderRadius: '8px', borderLeft: '4px solid #ef4444' }}>
+                  <h3 style={{ marginTop: '0', color: '#991b1b' }}>AUD (Australian Dollar)</h3>
+                  <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#991b1b', margin: '0.5rem 0' }}>1% Fee</p>
+                  <p style={{ color: '#991b1b', margin: '0' }}>Example: $100 AUD withdrawal = $1.00 AUD fee</p>
                 </div>
               </div>
 
@@ -230,7 +240,7 @@ export default function WithdrawingFundsPage() {
                 <li><strong>Withdraw Regularly:</strong> Consider withdrawing when your balance reaches a comfortable amount</li>
                 <li><strong>Plan Ahead:</strong> Remember the 24-hour hold period when planning withdrawals</li>
                 <li><strong>Keep Bank Details Updated:</strong> Ensure your bank account details are current</li>
-                <li><strong>Review Fees:</strong> Understand withdrawal fees before requesting (FREE for GBP/EUR, 1% for USD)</li>
+                <li><strong>Review Fees:</strong> Understand withdrawal fees before requesting (FREE for GBP/EUR, 1% for USD, CAD, and AUD)</li>
                 <li><strong>Check Email:</strong> Monitor email notifications for withdrawal status updates</li>
                 <li><strong>Report Issues:</strong> If you notice unauthorized withdrawal requests, contact security@groupfund.app immediately</li>
               </ul>

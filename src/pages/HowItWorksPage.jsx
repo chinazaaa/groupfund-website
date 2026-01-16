@@ -52,7 +52,7 @@ export default function HowItWorksPage() {
     {
       number: '5',
       title: 'Enable Auto-Pay or Make Manual Payments',
-      description: 'For groups using USD, EUR, or GBP: Enable auto-pay to have your debit card automatically charged on payment dates. Choose "1 day before" or "same day" timing. Payments are processed securely via Stripe and automatically confirmed. For other currencies or if you prefer: Make manual payments outside the app and mark as "Paid". Recipients confirm receipt for manual payments. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.',
+      description: 'For groups using USD, EUR, GBP, CAD, or AUD: Enable auto-pay to have your debit card automatically charged on payment dates. Choose "1 day before" or "same day" timing. Payments are processed securely via Stripe and automatically confirmed. For other currencies or if you prefer: Make manual payments outside the app and mark as "Paid". Recipients confirm receipt for manual payments. Note: For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.',
       icon: '💳'
     },
     {
@@ -70,7 +70,7 @@ export default function HowItWorksPage() {
     {
       number: '8',
       title: 'Receive Funds in Wallet & Withdraw',
-      description: 'When others contribute to you via auto-pay, funds are credited to your in-app wallet balance. Wallet is only available for USD, EUR, and GBP. You can withdraw funds from your wallet to your bank account at any time. Withdrawals have a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% for USD. View complete transaction history and bank statements in the app.',
+      description: 'When others contribute to you via auto-pay, funds are credited to your in-app wallet balance. Wallet is only available for USD, EUR, GBP, CAD, and AUD. You can withdraw funds from your wallet to your bank account at any time. Withdrawals have a 24-hour security hold period. Withdrawal fees: FREE for GBP and EUR, 1% for USD, CAD, and AUD. View complete transaction history and bank statements in the app.',
       icon: '💼'
     },
     {
@@ -146,7 +146,7 @@ export default function HowItWorksPage() {
                     <div className="payment-step-icon">💳</div>
                     <h3 className="payment-step-title">Enable Auto-Pay</h3>
                     <p className="payment-step-description">
-                      Add debit card and enable auto-pay for groups using USD, EUR, or GBP. Choose payment timing: "1 day before" or "same day".
+                      Add debit card and enable auto-pay for groups using USD, EUR, GBP, CAD, or AUD. Choose payment timing: "1 day before" or "same day".
                     </p>
                   </div>
 

@@ -3416,7 +3416,7 @@ const blogPostsData = {
       <p>Auto-pay is simple to set up:</p>
       <ol>
         <li>Add a debit card to your account</li>
-        <li>Enable auto-pay for a group (USD, EUR, or GBP only)</li>
+        <li>Enable auto-pay for a group (USD, EUR, GBP, CAD, or AUD only)</li>
         <li>Choose payment timing: "1 day before" or "same day"</li>
         <li>Your card is automatically charged on payment dates</li>
         <li>Payments are automatically confirmed</li>
@@ -3427,7 +3427,7 @@ const blogPostsData = {
       <p>Auto-pay is ideal when:</p>
       <ul>
         <li>You want convenience and automation</li>
-        <li>Your group uses USD, EUR, or GBP</li>
+        <li>Your group uses USD, EUR, GBP, CAD, or AUD</li>
         <li>You have a reliable debit card</li>
         <li>You're comfortable with fees (contributor pays, recipient receives full amount)</li>
         <li>You're in multiple groups and want to manage them effortlessly</li>
@@ -3470,7 +3470,7 @@ const blogPostsData = {
       <h2>Multi-Currency Wallet Balances</h2>
       <p>Your wallet can hold balances in multiple currencies:</p>
       <ul>
-        <li>Separate balances for USD, EUR, and GBP</li>
+        <li>Separate balances for USD, EUR, GBP, CAD, and AUD</li>
         <li>Funds received in USD go to USD wallet, EUR to EUR wallet, etc.</li>
         <li>Withdraw from each currency balance separately</li>
       </ul>
@@ -3543,7 +3543,7 @@ const blogPostsData = {
       <p>Choose auto-pay if:</p>
       <ul>
         <li>You want convenience and automation</li>
-        <li>Your group uses USD, EUR, or GBP</li>
+        <li>Your group uses USD, EUR, GBP, CAD, or AUD</li>
         <li>You have a reliable debit card</li>
         <li>You're comfortable with fees</li>
         <li>You want to never miss a payment</li>

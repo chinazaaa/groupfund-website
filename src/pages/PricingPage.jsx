@@ -283,7 +283,7 @@ export default function PricingPage() {
               <div className="faq-item">
                 <h3>Do you charge transaction fees?</h3>
                 <p>
-                  GroupFund is free to use for organizing groups and tracking contributions. For automatic payments (auto-pay), fees apply: contributor pays fees (payment processor fee + platform fee of 1-2%), recipient receives full contribution amount. Manual payments have no fees. Withdrawal fees: FREE for GBP and EUR, 1% for USD. All fees are displayed transparently before you confirm. The app itself is completely free - no subscription costs, no credit card required to get started.
+                  GroupFund is free to use for organizing groups and tracking contributions. For automatic payments (auto-pay), fees apply: contributor pays fees (payment processor fee + platform fee of 1-2%), recipient receives full contribution amount. Manual payments have no fees. Withdrawal fees: FREE for GBP and EUR, 1% for USD, CAD, and AUD. All fees are displayed transparently before you confirm. The app itself is completely free - no subscription costs, no credit card required to get started.
                 </p>
               </div>
               <div className="faq-item">

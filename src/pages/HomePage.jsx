@@ -197,7 +197,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Automatic Payments (Auto-Pay)</h3>
-              <p>Set up automatic payments for groups using USD, EUR, or GBP. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose "1 day before" or "same day" timing. Never miss a contribution deadline again.</p>
+              <p>Set up automatic payments for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose "1 day before" or "same day" timing. Never miss a contribution deadline again.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -207,7 +207,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>In-App Wallet System</h3>
-              <p>Receive contributions directly in your in-app wallet when others pay via auto-pay. Multi-currency wallet balances for USD, EUR, and GBP. Secure payment processing via Stripe. View your balance and transaction history anytime.</p>
+              <p>Receive contributions directly in your in-app wallet when others pay via auto-pay. Multi-currency wallet balances for USD, EUR, GBP, CAD, and AUD. Secure payment processing via Stripe. View your balance and transaction history anytime.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -218,7 +218,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Easy Withdrawals</h3>
-              <p>Withdraw funds directly to your bank account at any time. Track all withdrawal requests and history. Withdrawal fees: FREE for GBP and EUR, 1% for USD. 24-hour security hold for fraud prevention.</p>
+              <p>Withdraw funds directly to your bank account at any time. Track all withdrawal requests and history. Withdrawal fees: FREE for GBP and EUR, 1% for USD, CAD, and AUD. 24-hour security hold for fraud prevention.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">
@@ -257,7 +257,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Global Currency Support</h3>
-              <p>Choose your group's currency: NGN, USD, GBP, EUR, and more. Auto-pay, wallet, and withdrawals available for USD, EUR, and GBP. Groups using other currencies can use manual payments. Local bank details are displayed automatically.</p>
+              <p>Choose your group's currency: NGN, USD, GBP, EUR, CAD, AUD, and more. Auto-pay, wallet, and withdrawals available for USD, EUR, GBP, CAD, and AUD. Groups using other currencies can use manual payments. Local bank details are displayed automatically.</p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">

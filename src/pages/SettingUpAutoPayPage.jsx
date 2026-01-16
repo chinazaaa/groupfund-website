@@ -65,7 +65,7 @@ export default function SettingUpAutoPayPage() {
               <h2>Requirements for Auto-Pay</h2>
               <p>Before you can enable auto-pay, you need:</p>
               <ul className="resource-list">
-                <li><strong>Group Currency:</strong> The group must use USD (US Dollar), EUR (Euro), or GBP (British Pound). Auto-pay is not available for other currencies (like NGN).</li>
+                <li><strong>Group Currency:</strong> The group must use USD (US Dollar), EUR (Euro), GBP (British Pound), CAD (Canadian Dollar), or AUD (Australian Dollar). Auto-pay is not available for other currencies (like NGN).</li>
                 <li><strong>Valid Debit Card:</strong> You need a debit card (Visa, Mastercard, etc.) to enable auto-pay. Credit cards are not supported.</li>
                 <li><strong>Bank Account Details:</strong> You must have bank account details in your profile (required for withdrawals).</li>
                 <li><strong>No Overdue Payments:</strong> You cannot enable auto-pay if you have any overdue payments. You must clear all overdue payments first.</li>
