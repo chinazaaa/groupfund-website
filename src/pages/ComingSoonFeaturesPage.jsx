@@ -88,6 +88,34 @@ export default function ComingSoonFeaturesPage() {
       icon: "🌐",
       status: "Planned",
       statusColor: "purple"
+    },
+    {
+      title: "Group Discovery & Marketplace",
+      description: "Discover groups to join based on your interests, location, and preferences. Browse public groups, see group health scores, and find communities that match your contribution style.",
+      icon: "🔍",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Smart Budgeting & Spending Limits",
+      description: "Set monthly or yearly contribution budgets and get alerts when you're approaching limits. Plan your contributions across all groups and avoid overspending with intelligent budget management.",
+      icon: "💰",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Receipt & Invoice Management",
+      description: "Upload receipts for group purchases, generate invoices for contributions, and maintain complete financial records. Perfect for business groups and tax documentation.",
+      icon: "🧾",
+      status: "Planned",
+      statusColor: "purple"
+    },
+    {
+      title: "Voice Assistant Integration",
+      description: "Use voice commands with Alexa, Google Assistant, or Siri to check your wallet balance, upcoming deadlines, and contribution status. Hands-free contribution management.",
+      icon: "🎤",
+      status: "Planned",
+      statusColor: "purple"
     }
   ]
 
