@@ -101,15 +101,32 @@ export default function SettingUpBirthdayGroupsPage() {
             <div className="resource-section">
               <h2>Step 5: Set Up Payment Details</h2>
               <p>
-                For Birthday Groups, celebrants add their own payment account details:
+                For Birthday Groups, celebrants add their own payment account details. Members can choose between automatic payments (auto-pay) or manual payments:
               </p>
+              
+              <h3>Option 1: Automatic Payments (Auto-Pay)</h3>
+              <p>For groups using USD, EUR, or GBP:</p>
               <ul className="resource-list">
-                <li>Celebrants can add their bank account details</li>
-                <li>Bank details are displayed to members when it's time to contribute</li>
-                <li>Members transfer directly to celebrants' accounts</li>
-                <li>GroupFund tracks the payments but doesn't process them</li>
-                <li>Each birthday person manages their own account details</li>
+                <li>Members add debit cards and enable auto-pay</li>
+                <li>Cards are automatically charged on birthdays (or 1 day before)</li>
+                <li>Funds are credited to celebrant's in-app wallet balance</li>
+                <li>Payments are automatically confirmed</li>
+                <li>Fees apply (contributor pays, celebrant receives full amount)</li>
               </ul>
+              
+              <h3>Option 2: Manual Payments</h3>
+              <p>For all currencies (including NGN and others):</p>
+              <ul className="resource-list">
+                <li>Celebrants add their bank account details</li>
+                <li>Bank details are displayed to members when it's time to contribute</li>
+                <li>Members transfer directly to celebrants' accounts (outside the app)</li>
+                <li>Members mark payment as "Paid" in the app</li>
+                <li>Celebrants confirm they received the payment</li>
+                <li>No fees apply to manual payments</li>
+              </ul>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                <strong>Note:</strong> Each birthday person manages their own account details. For birthday contributions, only the celebrant can confirm/reject, not admins or co-admins.
+              </p>
             </div>
 
             <div className="resource-section">

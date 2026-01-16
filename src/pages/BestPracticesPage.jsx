@@ -123,6 +123,22 @@ export default function BestPracticesPage() {
       description: 'Learn best practices for using group chat effectively. Tips for respectful communication, when to use mentions, managing notifications, and maintaining group harmony through chat.',
       icon: '💬',
       keywords: 'group chat best practices, chat etiquette, group communication, mention best practices, chat notifications, respectful messaging'
+    },
+    {
+      slug: 'auto-pay-best-practices',
+      title: 'Auto-Pay Best Practices',
+      description: 'Learn best practices for using auto-pay effectively. Tips for payment timing, managing failed payments, keeping cards updated, and ensuring successful automatic payments.',
+      icon: '🔄',
+      keywords: 'auto-pay best practices, automatic payment tips, payment timing, failed payment handling, auto-pay strategies',
+      link: '/best-practices/auto-pay-best-practices'
+    },
+    {
+      slug: 'wallet-management-best-practices',
+      title: 'Wallet Management Best Practices',
+      description: 'Best practices for managing your GroupFund wallet. Learn how to monitor balance, review transaction history, plan withdrawals, and maintain wallet security.',
+      icon: '💼',
+      keywords: 'wallet management, wallet best practices, wallet balance, transaction history, wallet security',
+      link: '/best-practices/wallet-management-best-practices'
     }
   ]
 

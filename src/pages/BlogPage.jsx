@@ -27,6 +27,33 @@ export default function BlogPage() {
       categories: ["Event Planning", "Best Practices"]
     },
     {
+      title: "Never Miss a Payment: The Benefits of Auto-Pay",
+      excerpt: "Discover how auto-pay can transform your group contribution experience. Learn about automatic payments, never missing deadlines, automatic confirmation, and the convenience of payment automation.",
+      date: "January 15, 2026",
+      readTime: "6 min read",
+      slug: "never-miss-payment-benefits-auto-pay",
+      keywords: "auto-pay benefits, automatic payments, never miss payment, payment automation, auto-pay convenience, automatic contribution payments",
+      categories: ["Payment Methods", "Best Practices"]
+    },
+    {
+      title: "Understanding GroupFund's Wallet System",
+      excerpt: "Complete guide to GroupFund's in-app wallet system. Learn how the wallet works, how to receive funds, view balance, check transaction history, and understand wallet usage rules.",
+      date: "January 16, 2026",
+      readTime: "5 min read",
+      slug: "understanding-groupfund-wallet-system",
+      keywords: "groupfund wallet, in-app wallet, wallet system, wallet balance, receive funds, transaction history, wallet guide",
+      categories: ["Payment Methods", "Getting Started"]
+    },
+    {
+      title: "Auto-Pay vs Manual Payments: Which Should You Choose?",
+      excerpt: "Complete comparison of auto-pay vs manual payments in GroupFund. Learn when to use each method, understand the differences, and make the right choice for your group contributions.",
+      date: "January 17, 2026",
+      readTime: "7 min read",
+      slug: "auto-pay-vs-manual-payments-which-choose",
+      keywords: "auto-pay vs manual payments, payment method comparison, automatic payments, manual payments, which payment method, payment choice",
+      categories: ["Payment Methods", "Best Practices"]
+    },
+    {
       title: "How to Organize New Year Contributions and Party Funds in 2026",
       excerpt: "Complete guide to organizing New Year 2026 contributions, party funds, and celebration expenses. Learn how to set deadlines, track payments, coordinate event costs, and ensure everyone contributes fairly before New Year's Eve.",
       date: "December 31, 2025",

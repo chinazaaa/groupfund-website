@@ -3381,6 +3381,190 @@ const blogPostsData = {
       <h2>Conclusion</h2>
       <p>Thanksgiving is a perfect time to organize group contributions for holiday gatherings. By using GroupFund to coordinate contributions, you can focus on celebrating and giving thanks instead of managing payments.</p>
     `
+  },
+  "never-miss-payment-benefits-auto-pay": {
+    title: "Never Miss a Payment: The Benefits of Auto-Pay",
+    excerpt: "Discover how auto-pay can transform your group contribution experience. Learn about automatic payments, never missing deadlines, automatic confirmation, and the convenience of payment automation.",
+    date: "January 15, 2026",
+    readTime: "6 min read",
+    slug: "never-miss-payment-benefits-auto-pay",
+    keywords: "auto-pay benefits, automatic payments, never miss payment, payment automation, auto-pay convenience, automatic contribution payments",
+    content: `
+      <p>Managing group contributions can be stressful, especially when you're juggling multiple groups, deadlines, and payment reminders. Auto-pay eliminates this stress by automating your contributions. This article explores the benefits of auto-pay and how it can transform your group contribution experience.</p>
+
+      <h2>What is Auto-Pay?</h2>
+      <p>Auto-pay is GroupFund's automatic payment feature that charges your debit card automatically on payment dates (birthdays, subscription deadlines, or event deadlines). Once enabled, you never have to remember to pay - your card is charged automatically, and payments are confirmed instantly.</p>
+
+      <h2>Key Benefits of Auto-Pay</h2>
+      
+      <h3>1. Never Miss a Payment</h3>
+      <p>The biggest benefit of auto-pay is that you'll never miss a contribution deadline again. Your card is automatically charged on the scheduled date (or 1 day before, based on your preference), ensuring you always contribute on time.</p>
+
+      <h3>2. Automatic Confirmation</h3>
+      <p>Auto-pay payments are automatically confirmed after successful processing by Stripe. No manual steps required - payment is verified and confirmed instantly.</p>
+
+      <h3>3. Convenience and Peace of Mind</h3>
+      <p>Set it once and forget it. Auto-pay handles everything automatically, giving you peace of mind knowing your contributions are taken care of.</p>
+
+      <h3>4. Perfect for Multiple Groups</h3>
+      <p>If you're in multiple groups, auto-pay makes managing all your contributions effortless. No need to remember different deadlines or manually pay each group.</p>
+
+      <h3>5. Recipients Receive Funds Faster</h3>
+      <p>With auto-pay, recipients receive funds in their wallet immediately after processing. No waiting for manual payments or confirmations.</p>
+
+      <h2>How Auto-Pay Works</h2>
+      <p>Auto-pay is simple to set up:</p>
+      <ol>
+        <li>Add a debit card to your account</li>
+        <li>Enable auto-pay for a group (USD, EUR, or GBP only)</li>
+        <li>Choose payment timing: "1 day before" or "same day"</li>
+        <li>Your card is automatically charged on payment dates</li>
+        <li>Payments are automatically confirmed</li>
+        <li>Funds are credited to recipient's wallet</li>
+      </ol>
+
+      <h2>When to Use Auto-Pay</h2>
+      <p>Auto-pay is ideal when:</p>
+      <ul>
+        <li>You want convenience and automation</li>
+        <li>Your group uses USD, EUR, or GBP</li>
+        <li>You have a reliable debit card</li>
+        <li>You're comfortable with fees (contributor pays, recipient receives full amount)</li>
+        <li>You're in multiple groups and want to manage them effortlessly</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Auto-pay transforms group contributions from a stressful chore into an effortless process. Never miss a payment, enjoy automatic confirmation, and experience the convenience of payment automation. Enable auto-pay today and experience the difference.</p>
+    `
+  },
+  "understanding-groupfund-wallet-system": {
+    title: "Understanding GroupFund's Wallet System",
+    excerpt: "Complete guide to GroupFund's in-app wallet system. Learn how the wallet works, how to receive funds, view balance, check transaction history, and understand wallet usage rules.",
+    date: "January 16, 2026",
+    readTime: "5 min read",
+    slug: "understanding-groupfund-wallet-system",
+    keywords: "groupfund wallet, in-app wallet, wallet system, wallet balance, receive funds, transaction history, wallet guide",
+    content: `
+      <p>GroupFund's wallet system makes receiving and managing contributions effortless. When others contribute to you via auto-pay, funds are automatically credited to your in-app wallet balance. This article explains how the wallet system works and how to use it effectively.</p>
+
+      <h2>What is the Wallet System?</h2>
+      <p>The wallet is an in-app balance where you receive funds when others contribute to you via auto-pay. Think of it as your GroupFund account balance - money that's been credited to you and is ready to withdraw to your bank account.</p>
+
+      <h2>How Funds Enter Your Wallet</h2>
+      <p>Money is automatically credited to your wallet when:</p>
+      <ul>
+        <li>Others contribute to you via auto-pay</li>
+        <li>Stripe successfully processes the payment</li>
+        <li>Payment is automatically confirmed</li>
+      </ul>
+
+      <h2>Wallet Usage Rules</h2>
+      <p>It's important to understand what you can and cannot do with your wallet:</p>
+      <ul>
+        <li><strong>✅ Can Receive:</strong> Funds are credited when others contribute via auto-pay</li>
+        <li><strong>✅ Can Withdraw:</strong> You can withdraw funds to your bank account</li>
+        <li><strong>❌ Cannot Pay Contributions:</strong> Wallet balance cannot be used to pay contributions (must use debit card)</li>
+        <li><strong>❌ Cannot Use for Payments:</strong> All contributions must use debit cards via Stripe</li>
+      </ul>
+
+      <h2>Multi-Currency Wallet Balances</h2>
+      <p>Your wallet can hold balances in multiple currencies:</p>
+      <ul>
+        <li>Separate balances for USD, EUR, and GBP</li>
+        <li>Funds received in USD go to USD wallet, EUR to EUR wallet, etc.</li>
+        <li>Withdraw from each currency balance separately</li>
+      </ul>
+
+      <h2>Viewing Your Wallet</h2>
+      <p>You can view:</p>
+      <ul>
+        <li>Current wallet balance (for each currency)</li>
+        <li>Transaction history with details</li>
+        <li>All incoming payments from auto-pay</li>
+        <li>Withdrawal history and status</li>
+        <li>Complete bank statements and transaction records</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>The wallet system makes receiving contributions simple and secure. Funds are automatically credited when others use auto-pay, and you can withdraw to your bank account anytime. Understanding wallet usage rules helps you use the system effectively.</p>
+    `
+  },
+  "auto-pay-vs-manual-payments-which-choose": {
+    title: "Auto-Pay vs Manual Payments: Which Should You Choose?",
+    excerpt: "Complete comparison of auto-pay vs manual payments in GroupFund. Learn when to use each method, understand the differences, and make the right choice for your group contributions.",
+    date: "January 17, 2026",
+    readTime: "7 min read",
+    slug: "auto-pay-vs-manual-payments-which-choose",
+    keywords: "auto-pay vs manual payments, payment method comparison, automatic payments, manual payments, which payment method, payment choice",
+    content: `
+      <p>GroupFund offers two payment methods: automatic payments (auto-pay) and manual payments. Each has its advantages and is suited for different situations. This article helps you understand the differences and choose the right method for your needs.</p>
+
+      <h2>Automatic Payments (Auto-Pay)</h2>
+      <p>Auto-pay automatically charges your debit card on payment dates.</p>
+      
+      <h3>Advantages</h3>
+      <ul>
+        <li>✅ Never miss a payment</li>
+        <li>✅ Automatic confirmation</li>
+        <li>✅ No manual steps required</li>
+        <li>✅ Convenient and effortless</li>
+        <li>✅ Perfect for multiple groups</li>
+      </ul>
+
+      <h3>Considerations</h3>
+      <ul>
+        <li>Only available for USD, EUR, GBP</li>
+        <li>Requires debit card</li>
+        <li>Fees apply (contributor pays)</li>
+        <li>Need to keep card updated</li>
+      </ul>
+
+      <h2>Manual Payments</h2>
+      <p>Manual payments are made outside the app and marked as paid.</p>
+      
+      <h3>Advantages</h3>
+      <ul>
+        <li>✅ No fees</li>
+        <li>✅ Works for all currencies</li>
+        <li>✅ Use any payment method</li>
+        <li>✅ Full control over payments</li>
+        <li>✅ No card required</li>
+      </ul>
+
+      <h3>Considerations</h3>
+      <ul>
+        <li>Requires manual steps</li>
+        <li>Need to remember deadlines</li>
+        <li>Recipient must confirm receipt</li>
+        <li>More effort to manage</li>
+      </ul>
+
+      <h2>When to Choose Auto-Pay</h2>
+      <p>Choose auto-pay if:</p>
+      <ul>
+        <li>You want convenience and automation</li>
+        <li>Your group uses USD, EUR, or GBP</li>
+        <li>You have a reliable debit card</li>
+        <li>You're comfortable with fees</li>
+        <li>You want to never miss a payment</li>
+      </ul>
+
+      <h2>When to Choose Manual Payments</h2>
+      <p>Choose manual payments if:</p>
+      <ul>
+        <li>You want to avoid fees</li>
+        <li>Your group uses a currency that doesn't support auto-pay (like NGN)</li>
+        <li>You prefer to pay directly to bank accounts</li>
+        <li>You don't have a debit card</li>
+        <li>You want full control over when and how you pay</li>
+      </ul>
+
+      <h2>Mixing Methods in Groups</h2>
+      <p>Groups can have members using different payment methods. Some members can use auto-pay while others use manual payments. Both work together in the same group.</p>
+
+      <h2>Conclusion</h2>
+      <p>Both payment methods have their place. Auto-pay offers convenience and automation, while manual payments offer flexibility and no fees. Choose the method that works best for your situation, or mix both within the same group.</p>
+    `
   }
 }
 

@@ -162,13 +162,30 @@ export default function SettingUpYourFirstGroupPage() {
             <div className="resource-section">
               <h2>Step 5: Set Up Payment Details</h2>
               <p>
-                Configure how payments will work:
+                Configure how payments will work. You have two options:
               </p>
+              
+              <h3>Option 1: Automatic Payments (Auto-Pay)</h3>
+              <p>For groups using USD, EUR, or GBP:</p>
               <ul className="resource-list">
-                <li>Celebrants can add their bank account details</li>
+                <li>Add a debit card to your account</li>
+                <li>Enable auto-pay for the group</li>
+                <li>Choose payment timing: "1 day before" or "same day"</li>
+                <li>Your card is automatically charged on payment dates</li>
+                <li>Payments are processed securely via Stripe and automatically confirmed</li>
+                <li>Funds are credited to recipient's in-app wallet balance</li>
+                <li>Fees apply (contributor pays, recipient receives full amount)</li>
+              </ul>
+              
+              <h3>Option 2: Manual Payments</h3>
+              <p>For all currencies (including NGN and others):</p>
+              <ul className="resource-list">
+                <li>Celebrants/admins add their bank account details</li>
                 <li>Bank details are displayed to members when it's time to contribute</li>
-                <li>Members transfer directly to celebrants' or admins' accounts</li>
-                <li>GroupFund tracks the payments but doesn't process them</li>
+                <li>Members transfer directly to celebrants' or admins' accounts (outside the app)</li>
+                <li>Members mark payment as "Paid" in the app</li>
+                <li>Recipients confirm they received the payment</li>
+                <li>No fees apply to manual payments</li>
               </ul>
             </div>
 

@@ -86,6 +86,12 @@ import AdvancedGroupManagementStrategiesPage from './pages/AdvancedGroupManageme
 import OptimizingPaymentConfirmationWorkflowsPage from './pages/OptimizingPaymentConfirmationWorkflowsPage'
 import SettingUpBirthdayGroupsPage from './pages/SettingUpBirthdayGroupsPage'
 import SettingUpSubscriptionGroupsPage from './pages/SettingUpSubscriptionGroupsPage'
+import SettingUpAutoPayPage from './pages/SettingUpAutoPayPage'
+import UsingYourWalletPage from './pages/UsingYourWalletPage'
+import WithdrawingFundsPage from './pages/WithdrawingFundsPage'
+import PaymentMethodsGuidePage from './pages/PaymentMethodsGuidePage'
+import AutoPayBestPracticesPage from './pages/AutoPayBestPracticesPage'
+import WalletManagementBestPracticesPage from './pages/WalletManagementBestPracticesPage'
 import CreatingGeneralGroupsForEventsPage from './pages/CreatingGeneralGroupsForEventsPage'
 import SubscriptionGroupBestPracticesPage from './pages/SubscriptionGroupBestPracticesPage'
 import BirthdayGiftCollectionBestPracticesPage from './pages/BirthdayGiftCollectionBestPracticesPage'
@@ -414,6 +420,12 @@ function App() {
         <Route path="/help" element={<Layout><HelpPage /></Layout>} />
         <Route path="/sitemap" element={<Layout><SitemapPage /></Layout>} />
         <Route path="/glossary" element={<Layout><GlossaryPage /></Layout>} />
+        <Route path="/resources/setting-up-auto-pay" element={<Layout><SettingUpAutoPayPage /></Layout>} />
+        <Route path="/resources/using-your-wallet" element={<Layout><UsingYourWalletPage /></Layout>} />
+        <Route path="/resources/withdrawing-funds" element={<Layout><WithdrawingFundsPage /></Layout>} />
+        <Route path="/resources/payment-methods-guide" element={<Layout><PaymentMethodsGuidePage /></Layout>} />
+        <Route path="/best-practices/auto-pay-best-practices" element={<Layout><AutoPayBestPracticesPage /></Layout>} />
+        <Route path="/best-practices/wallet-management-best-practices" element={<Layout><WalletManagementBestPracticesPage /></Layout>} />
         <Route path="/waitlist" element={<Layout><WaitlistPage /></Layout>} />
         <Route path="/delete-account" element={<Layout><DeleteAccountPage /></Layout>} />
         <Route path="/report" element={<Layout><ReportPage /></Layout>} />

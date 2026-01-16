@@ -251,6 +251,56 @@ export default function ResourcesPage() {
       category: 'Best Practices',
       readTime: '8 min read'
     },
+    {
+      slug: 'setting-up-auto-pay',
+      title: 'Setting Up Auto-Pay',
+      description: 'Complete guide to setting up automatic payments (auto-pay) in GroupFund. Learn how to enable auto-pay, choose payment timing, and never miss a contribution deadline.',
+      icon: '🔄',
+      category: 'Getting Started',
+      readTime: '6 min read'
+    },
+    {
+      slug: 'using-your-wallet',
+      title: 'Using Your Wallet',
+      description: 'Complete guide to using GroupFund\'s in-app wallet system. Learn how to receive funds, view balance, check transaction history, and understand wallet usage rules.',
+      icon: '💼',
+      category: 'Getting Started',
+      readTime: '5 min read'
+    },
+    {
+      slug: 'withdrawing-funds',
+      title: 'Withdrawing Funds',
+      description: 'Complete guide to withdrawing funds from your GroupFund wallet to your bank account. Learn about withdrawal fees, 24-hour security hold, and the withdrawal process.',
+      icon: '🏦',
+      category: 'Getting Started',
+      readTime: '5 min read'
+    },
+    {
+      slug: 'payment-methods-guide',
+      title: 'Payment Methods Guide',
+      description: 'Complete guide to payment methods in GroupFund. Learn about auto-pay vs manual payments, when to use each, currency restrictions, and payment processing.',
+      icon: '💳',
+      category: 'Getting Started',
+      readTime: '7 min read'
+    },
+    {
+      slug: 'auto-pay-best-practices',
+      title: 'Auto-Pay Best Practices',
+      description: 'Best practices for using auto-pay effectively. Learn when to use auto-pay, payment timing strategies, managing failed payments, and tips for successful automatic payments.',
+      icon: '✅',
+      category: 'Best Practices',
+      readTime: '6 min read',
+      link: '/best-practices/auto-pay-best-practices'
+    },
+    {
+      slug: 'wallet-management-best-practices',
+      title: 'Wallet Management Best Practices',
+      description: 'Best practices for managing your GroupFund wallet. Learn how to monitor balance, review transaction history, plan withdrawals, and maintain wallet security.',
+      icon: '💼',
+      category: 'Best Practices',
+      readTime: '5 min read',
+      link: '/best-practices/wallet-management-best-practices'
+    },
   ]
 
   const categories = ['All', 'Getting Started', 'Best Practices', 'Planning', 'Advanced']

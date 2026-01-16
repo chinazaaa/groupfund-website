@@ -70,8 +70,13 @@ export default function SettingUpSubscriptionGroupsPage() {
             <div className="resource-section">
               <h2>Step 3: Add Admin Account Details</h2>
               <p>
-                As the group admin, you'll need to add your payment account details so members know where to send payments:
+                As the group admin, you'll need to add your bank account details. This is required for:
               </p>
+              <ul className="resource-list">
+                <li>Receiving manual payments (members send money directly to your bank account)</li>
+                <li>Withdrawing funds from your wallet (if members use auto-pay)</li>
+              </ul>
+              <p>Add your bank account details:</p>
               <ul className="resource-list">
                 <li>Bank account number</li>
                 <li>Bank name</li>
@@ -79,7 +84,10 @@ export default function SettingUpSubscriptionGroupsPage() {
                 <li>Any other relevant payment information</li>
               </ul>
               <p>
-                These details are securely displayed to all group members when it's time to contribute.
+                These details are stored securely and displayed to all group members when it's time to contribute (for manual payments).
+              </p>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0f9ff', borderRadius: '6px' }}>
+                <strong>Note:</strong> If your group uses USD, EUR, or GBP, members can use auto-pay (funds go to your wallet). If they use manual payments, funds go directly to your bank account.
               </p>
             </div>
 
