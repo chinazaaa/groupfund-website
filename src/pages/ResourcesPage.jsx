@@ -139,6 +139,15 @@ export default function ResourcesPage() {
       readTime: '8 min read'
     },
     {
+      slug: 'app-to-manage-group-expenses-for-birthdays',
+      title: 'App to Manage Group Expenses for Birthdays',
+      description: 'Discover GroupFund, the best app to manage group expenses for birthdays. Learn how to organize birthday contributions, create wishlists, send reminders, and track payments effortlessly.',
+      icon: '🎂',
+      category: 'Getting Started',
+      readTime: '10 min read',
+      link: '/app-to-manage-group-expenses-for-birthdays'
+    },
+    {
       slug: 'birthday-wishlist-meaning',
       title: 'Birthday Wishlist Meaning - What is a Birthday Wishlist?',
       description: 'Learn what a birthday wishlist means and how it works. Discover how birthday wishlists help coordinate group gift giving, prevent duplicate gifts, and ensure celebrants receive items they actually want.',

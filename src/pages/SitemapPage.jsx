@@ -329,6 +329,7 @@ export default function SitemapPage() {
         { path: "/resources/withdrawing-funds", label: "Withdrawing Funds" },
         { path: "/resources/payment-methods-guide", label: "Payment Methods Guide" },
         { path: "/resources/best-app-for-splitting-bills", label: "Best App for Splitting Bills" },
+        { path: "/resources/app-to-manage-group-expenses-for-birthdays", label: "App to Manage Group Expenses for Birthdays" },
         { path: "/blog", label: "Blog" },
         { path: "/testimonials", label: "Testimonials" },
         { path: "/faq", label: "FAQ" },

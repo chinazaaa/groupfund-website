@@ -1576,6 +1576,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/app-to-manage-group-expenses-for-birthdays',
+    priority: '0.9',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/best-practices/group-chat-best-practices',
     priority: '0.7',
     changefreq: 'monthly',
@@ -1602,6 +1608,12 @@ const pages = [
   {
     url: '/resources/best-app-for-splitting-bills',
     priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
+    url: '/resources/app-to-manage-group-expenses-for-birthdays',
+    priority: '0.9',
     changefreq: 'monthly',
     lastmod: currentDate
   },

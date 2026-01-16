@@ -652,6 +652,7 @@ function App() {
         <Route path="/resources/subscription-group-payment-schedules" element={<Layout><SubscriptionGroupPaymentSchedulesPage /></Layout>} />
         <Route path="/resources/using-group-chat-and-messaging" element={<Layout><UsingGroupChatAndMessagingPage /></Layout>} />
         <Route path="/resources/best-app-for-splitting-bills" element={<Layout><BestAppForSplittingBillsPage /></Layout>} />
+        <Route path="/resources/app-to-manage-group-expenses-for-birthdays" element={<Layout><AppToManageGroupExpensesForBirthdaysPage /></Layout>} />
         <Route path="/best-practices/group-chat-best-practices" element={<Layout><GroupChatBestPracticesPage /></Layout>} />
         <Route path="/best-practices/best-way-to-collect-money-from-group" element={<Layout><BestWayToCollectMoneyFromGroupPage /></Layout>} />
         <Route path="/app-to-manage-group-expenses-for-birthdays" element={<Layout><AppToManageGroupExpensesForBirthdaysPage /></Layout>} />
