@@ -328,6 +328,7 @@ export default function SitemapPage() {
         { path: "/resources/using-your-wallet", label: "Using Your Wallet" },
         { path: "/resources/withdrawing-funds", label: "Withdrawing Funds" },
         { path: "/resources/payment-methods-guide", label: "Payment Methods Guide" },
+        { path: "/resources/co-admin-permissions", label: "Co-Admin Permissions" },
         { path: "/resources/best-app-for-splitting-bills", label: "Best App for Splitting Bills" },
         { path: "/resources/app-to-manage-group-expenses-for-birthdays", label: "App to Manage Group Expenses for Birthdays" },
         { path: "/blog", label: "Blog" },

@@ -90,6 +90,7 @@ import SettingUpAutoPayPage from './pages/SettingUpAutoPayPage'
 import UsingYourWalletPage from './pages/UsingYourWalletPage'
 import WithdrawingFundsPage from './pages/WithdrawingFundsPage'
 import PaymentMethodsGuidePage from './pages/PaymentMethodsGuidePage'
+import CoAdminPermissionsPage from './pages/CoAdminPermissionsPage'
 import AutoPayBestPracticesPage from './pages/AutoPayBestPracticesPage'
 import WalletManagementBestPracticesPage from './pages/WalletManagementBestPracticesPage'
 import CreatingGeneralGroupsForEventsPage from './pages/CreatingGeneralGroupsForEventsPage'
@@ -425,6 +426,7 @@ function App() {
         <Route path="/resources/using-your-wallet" element={<Layout><UsingYourWalletPage /></Layout>} />
         <Route path="/resources/withdrawing-funds" element={<Layout><WithdrawingFundsPage /></Layout>} />
         <Route path="/resources/payment-methods-guide" element={<Layout><PaymentMethodsGuidePage /></Layout>} />
+        <Route path="/resources/co-admin-permissions" element={<Layout><CoAdminPermissionsPage /></Layout>} />
         <Route path="/best-practices/auto-pay-best-practices" element={<Layout><AutoPayBestPracticesPage /></Layout>} />
         <Route path="/best-practices/wallet-management-best-practices" element={<Layout><WalletManagementBestPracticesPage /></Layout>} />
         <Route path="/waitlist" element={<Layout><WaitlistPage /></Layout>} />

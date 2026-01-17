@@ -1450,6 +1450,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/resources/co-admin-permissions',
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/resources/best-app-for-splitting-bills',
     priority: '0.7',
     changefreq: 'monthly',
