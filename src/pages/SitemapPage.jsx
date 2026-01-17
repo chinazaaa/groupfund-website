@@ -311,6 +311,7 @@ export default function SitemapPage() {
         { path: "/resources/advanced-group-management-strategies", label: "Advanced Group Management Strategies" },
         { path: "/resources/optimizing-payment-confirmation-workflows", label: "Optimizing Payment Confirmation Workflows" },
         { path: "/resources/using-birthday-wishlists", label: "How to Use Birthday Wishlists" },
+        { path: "/resources/using-wishlists-in-general-groups", label: "Using Wishlists in General Groups" },
         { path: "/resources/how-to-create-birthday-wishlist", label: "How to Create a Birthday Wishlist" },
         { path: "/resources/birthday-wishlist-meaning", label: "Birthday Wishlist Meaning" },
         { path: "/resources/setting-up-birthday-groups", label: "Setting Up Birthday Groups" },

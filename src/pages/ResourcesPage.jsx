@@ -131,6 +131,14 @@ export default function ResourcesPage() {
       readTime: '10 min read'
     },
     {
+      slug: 'using-wishlists-in-general-groups',
+      title: 'Using Wishlists in General Groups',
+      description: 'Complete guide to using wishlists in General Groups for weddings, baby showers, graduations, and events. Learn how to enable wishlists, coordinate gifts, and avoid duplicates.',
+      icon: '🎁',
+      category: 'Best Practices',
+      readTime: '8 min read'
+    },
+    {
       slug: 'how-to-create-birthday-wishlist',
       title: 'How to Create a Birthday Wishlist',
       description: 'Step-by-step guide on how to create a birthday wishlist. Learn how to add items, set prices, include photos, and organize your wishlist effectively for group gift coordination.',
@@ -291,6 +299,14 @@ export default function ResourcesPage() {
       icon: '💳',
       category: 'Getting Started',
       readTime: '7 min read'
+    },
+    {
+      slug: 'co-admin-permissions',
+      title: 'Co-Admin Permissions',
+      description: 'Complete guide to co-admin permissions in GroupFund groups. Learn what co-admins can and cannot do, including group management, member management, and contribution management.',
+      icon: '👥',
+      category: 'Best Practices',
+      readTime: '5 min read'
     },
     {
       slug: 'auto-pay-best-practices',

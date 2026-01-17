@@ -72,6 +72,7 @@ import ResourcesPage from './pages/ResourcesPage'
 import HowToOrganizeBirthdayContributionsPage from './pages/HowToOrganizeBirthdayContributionsPage'
 import BirthdayContributionEtiquettePage from './pages/BirthdayContributionEtiquettePage'
 import UsingBirthdayWishlistsPage from './pages/UsingBirthdayWishlistsPage'
+import UsingWishlistsInGeneralGroupsPage from './pages/UsingWishlistsInGeneralGroupsPage'
 import HowToCreateBirthdayWishlistPage from './pages/HowToCreateBirthdayWishlistPage'
 import BirthdayWishlistMeaningPage from './pages/BirthdayWishlistMeaningPage'
 import CalculatingGroupContributionsPage from './pages/CalculatingGroupContributionsPage'
@@ -640,6 +641,7 @@ function App() {
         <Route path="/resources/advanced-group-management-strategies" element={<Layout><AdvancedGroupManagementStrategiesPage /></Layout>} />
         <Route path="/resources/optimizing-payment-confirmation-workflows" element={<Layout><OptimizingPaymentConfirmationWorkflowsPage /></Layout>} />
         <Route path="/resources/using-birthday-wishlists" element={<Layout><UsingBirthdayWishlistsPage /></Layout>} />
+        <Route path="/resources/using-wishlists-in-general-groups" element={<Layout><UsingWishlistsInGeneralGroupsPage /></Layout>} />
         <Route path="/resources/how-to-create-birthday-wishlist" element={<Layout><HowToCreateBirthdayWishlistPage /></Layout>} />
         <Route path="/resources/birthday-wishlist-meaning" element={<Layout><BirthdayWishlistMeaningPage /></Layout>} />
         <Route path="/resources/setting-up-birthday-groups" element={<Layout><SettingUpBirthdayGroupsPage /></Layout>} />

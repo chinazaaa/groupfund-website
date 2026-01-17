@@ -1348,6 +1348,12 @@ const pages = [
     lastmod: currentDate
   },
   {
+    url: '/resources/using-wishlists-in-general-groups',
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: currentDate
+  },
+  {
     url: '/resources/how-to-create-birthday-wishlist',
     priority: '0.7',
     changefreq: 'monthly',
