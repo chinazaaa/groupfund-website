@@ -29,6 +29,9 @@ export default function SubscriptionGroupsPage() {
               <p>
                 Subscription Groups are designed specifically for managing shared subscriptions like Netflix, Spotify, Disney+, and other streaming services. With monthly or annual payment schedules, deadline tracking, and admin account details, Subscription Groups make sharing subscriptions simple and organized.
               </p>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0fdf4', border: '1px solid #86efac', borderRadius: '6px' }}>
+                <strong>🔄 Automatic Recurring Subscriptions:</strong> When auto-pay is enabled (for USD, EUR, GBP, CAD, or AUD), Subscription Groups support true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month on the billing date without requiring any user action - no manual payment needed each month. This is a formal recurring subscription model with stored payment authorization and automatic monthly billing.
+              </p>
             </div>
 
             <div className="group-type-section">
@@ -39,8 +42,8 @@ export default function SubscriptionGroupsPage() {
                   <p>Specify which service you're sharing (Netflix, Spotify, etc.) and track it clearly in your group.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>⏰ Payment Frequency</h3>
-                  <p>Set monthly or annual payment schedules based on your subscription plan. Choose what works best for your group.</p>
+                  <h3>⏰ Payment Frequency & Recurring Billing</h3>
+                  <p>Set monthly or annual payment schedules based on your subscription plan. With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), this creates true recurring subscriptions - Stripe automatically charges members each month without requiring any action.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📅 Deadline Tracking</h3>
@@ -51,8 +54,8 @@ export default function SubscriptionGroupsPage() {
                   <p>Securely share payment account information so members know where to send subscription payments.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>✅ Admin Confirmation</h3>
-                  <p>Group admin confirms when payments are received, maintaining transparency and accuracy.</p>
+                  <h3>✅ Automatic Payment Confirmation</h3>
+                  <p>Auto-pay payments are automatically confirmed. For manual payments, group admin confirms when payments are received, maintaining transparency and accuracy.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📊 Payment History</h3>
@@ -80,9 +83,8 @@ export default function SubscriptionGroupsPage() {
                 <li>Add admin account details for receiving payments</li>
                 <li>Add instructions in group notes/description for sharing login credentials (e.g., "Email me at abc@example.com for login details")</li>
                 <li>Invite members to join the group using invite codes</li>
-                <li>Automatic reminders are sent before deadlines</li>
-                <li>Members mark payments as "Paid" after transferring</li>
-                <li>Admin confirms receipt of payments</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and are automatically charged each month by Stripe - no action required each billing cycle. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Automatic reminders are sent before deadlines, members mark payments as "Paid" after transferring, and admin confirms receipt of payments</li>
                 <li>Members can access subscription credentials via group description/notes after joining</li>
                 <li>Everyone can see payment statuses in real-time</li>
               </ol>

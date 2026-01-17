@@ -196,8 +196,8 @@ export default function HomePage() {
                   <path d="M20 7h-4M4 7h4m0 0v13m0-13l-4-4m4 4l4-4M4 7l4 4m8-4l-4 4m4-4v13"></path>
                 </svg>
               </div>
-              <h3>Automatic Payments (Auto-Pay)</h3>
-              <p>Set up automatic payments for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose "1 day before" or "same day" timing. Never miss a contribution deadline again. <em>Available on mobile apps (Android, iOS) only.</em></p>
+              <h3>Automatic Payments (Auto-Pay) & Recurring Subscriptions</h3>
+              <p>Set up automatic payments for groups using USD, EUR, GBP, CAD, or AUD. For Subscription Groups, enable true recurring subscriptions with automatic monthly billing via Stripe - members are charged automatically each month without needing to take action. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose "1 day before" or "same day" timing. Never miss a contribution deadline again. <em>Available on mobile apps (Android, iOS) only.</em></p>
             </article>
             <article className="feature-card">
               <div className="feature-icon-wrapper">

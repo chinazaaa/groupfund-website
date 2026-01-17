@@ -77,7 +77,11 @@ export default function FAQPage() {
     },
     {
       question: "How do Subscription Groups work?",
-      answer: "Subscription Groups are for managing shared subscriptions like Netflix, Spotify, etc. You set the subscription platform name, choose monthly or annual frequency, set a deadline day (and month for annual subscriptions), and set the contribution amount. Members contribute to the admin (group creator) who pays for the subscription. You'll get reminders before subscription deadlines."
+      answer: "Subscription Groups are for managing shared subscriptions like Netflix, Spotify, etc. You set the subscription platform name, choose monthly or annual frequency, set a deadline day (and month for annual subscriptions), and set the contribution amount. Members contribute to the admin (group creator) who pays for the subscription. When auto-pay is enabled (for USD, EUR, GBP, CAD, or AUD), this creates true recurring subscriptions with automatic monthly billing - Stripe automatically charges members each month without requiring any user action. Members with auto-pay enabled are charged automatically on each billing cycle. You'll get reminders before subscription deadlines."
+    },
+    {
+      question: "Do Subscription Groups support automatic recurring billing?",
+      answer: "Yes! When you enable auto-pay for a Subscription Group (available for USD, EUR, GBP, CAD, or AUD), GroupFund creates a true recurring subscription with automatic monthly billing. Stripe automatically charges members' debit cards each month without requiring them to take any action. This is a formal recurring subscription model - once auto-pay is enabled, members are charged automatically on each billing cycle. No manual payment needed each month."
     },
     {
       question: "How do I share subscription login credentials with group members?",
@@ -101,7 +105,7 @@ export default function FAQPage() {
     },
     {
       question: "How does auto-pay work?",
-      answer: "Auto-pay allows your debit card to be automatically charged on payment dates (birthdays, subscription deadlines, or event deadlines). You can choose to be charged '1 day before' or 'same day'. Auto-pay is only available for groups using USD, EUR, GBP, CAD, or AUD. You need a valid debit card and bank account details. Payments are processed securely via Stripe and automatically confirmed. If payment fails after 2 attempts, auto-pay is disabled and you'll be notified."
+      answer: "Auto-pay allows your debit card to be automatically charged on payment dates (birthdays, subscription deadlines, or event deadlines). For Subscription Groups, this creates true recurring subscriptions - Stripe automatically charges you each month without requiring any action on your part. You can choose to be charged '1 day before' or 'same day'. Auto-pay is only available for groups using USD, EUR, GBP, CAD, or AUD. You need a valid debit card and bank account details. Payments are processed securely via Stripe and automatically confirmed. If payment fails after 2 attempts, auto-pay is disabled and you'll be notified."
     },
     {
       question: "What is the wallet system?",

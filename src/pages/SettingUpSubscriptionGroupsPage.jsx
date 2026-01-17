@@ -37,11 +37,15 @@ export default function SettingUpSubscriptionGroupsPage() {
               </p>
               <ul className="resource-list">
                 <li><strong>Payment Frequency:</strong> Set monthly or annual payment schedules</li>
+                <li><strong>Automatic Recurring Billing:</strong> When auto-pay is enabled (for USD, EUR, GBP, CAD, or AUD), this creates true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any user action - members are charged automatically on each billing cycle.</li>
                 <li><strong>Platform Name:</strong> Specify which service you're sharing</li>
                 <li><strong>Deadline Tracking:</strong> Automatic reminders based on subscription deadlines</li>
                 <li><strong>Admin Account Details:</strong> Securely share payment account information</li>
                 <li><strong>No Birthday Required:</strong> Perfect for groups that don't need birthday tracking</li>
               </ul>
+              <p style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f0fdf4', border: '1px solid #86efac', borderRadius: '6px' }}>
+                <strong>🔄 Recurring Subscription Feature:</strong> With auto-pay enabled, Subscription Groups support automatic recurring subscriptions. Once members enable auto-pay, Stripe automatically charges their debit cards each month on the billing date - no manual payment required. This is a formal recurring subscription model with stored payment authorization and automatic monthly billing.
+              </p>
             </div>
 
             <div className="resource-section">
@@ -124,9 +128,10 @@ export default function SettingUpSubscriptionGroupsPage() {
               <h2>Managing Subscription Payments</h2>
               <p>Once your Subscription Group is set up:</p>
               <ul className="resource-list">
-                <li><strong>Automatic Reminders:</strong> GroupFund sends reminders before each payment deadline</li>
+                <li><strong>Automatic Recurring Billing:</strong> When members enable auto-pay (for USD, EUR, GBP, CAD, or AUD), Stripe automatically charges their debit cards each month without requiring any action. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>Automatic Reminders:</strong> GroupFund sends reminders before each payment deadline (for manual payments)</li>
                 <li><strong>Payment Tracking:</strong> See who has paid and who hasn't in real-time</li>
-                <li><strong>Admin Confirmation:</strong> You confirm when payments are received</li>
+                <li><strong>Admin Confirmation:</strong> Auto-pay payments are automatically confirmed. For manual payments, you confirm when payments are received</li>
                 <li><strong>Payment History:</strong> Track all subscription payments over time</li>
               </ul>
             </div>

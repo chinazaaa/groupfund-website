@@ -73,7 +73,7 @@ export default function FeaturesPage() {
     },
     {
       title: "Multiple Group Types",
-      description: "Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions like Netflix, Spotify - monthly or annual), or General Groups (for weddings, events, any purpose - with optional wishlist support). Each type has features tailored to your needs.",
+      description: "Create Birthday Groups (for birthdays with wishlists), Subscription Groups (for shared subscriptions like Netflix, Spotify - monthly or annual with automatic recurring billing), or General Groups (for weddings, events, any purpose - with optional wishlist support). Each type has features tailored to your needs.",
       icon: "🎯"
     },
     {
@@ -107,8 +107,8 @@ export default function FeaturesPage() {
       icon: "🔔"
     },
     {
-      title: "Automatic Payment Collection (Auto-Pay)",
-      description: "Enable auto-pay for groups using USD, EUR, GBP, CAD, or AUD. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount). Note: Auto-pay is only available on mobile apps (Android, iOS).",
+      title: "Automatic Payment Collection (Auto-Pay) & Recurring Subscriptions",
+      description: "Enable auto-pay for groups using USD, EUR, GBP, CAD, or AUD. For Subscription Groups, this creates true recurring subscriptions with automatic monthly billing - members are charged automatically each month via Stripe without requiring any action. Your debit card is automatically charged on birthdays, subscription deadlines, or event deadlines. Choose to be charged '1 day before' or 'same day'. Payments are processed securely via Stripe and automatically confirmed. Fees are transparently displayed (contributor pays fees, recipient receives full amount). Note: Auto-pay is only available on mobile apps (Android, iOS).",
       icon: "💳"
     },
     {
@@ -142,8 +142,8 @@ export default function FeaturesPage() {
       icon: "📅"
     },
     {
-      title: "Subscription Deadline Tracking",
-      description: "For Subscription Groups: Track monthly or annual subscription deadlines. Set deadline day (and month for annual). Get reminders before deadlines and track overdue subscriptions.",
+      title: "Subscription Deadline Tracking & Recurring Billing",
+      description: "For Subscription Groups: Track monthly or annual subscription deadlines with automatic recurring billing. When auto-pay is enabled, Stripe automatically charges members each month without requiring user action - this is a true recurring subscription. Set deadline day (and month for annual). Get reminders before deadlines and track overdue subscriptions. Members with auto-pay enabled are charged automatically on each billing cycle.",
       icon: "📺"
     },
     {

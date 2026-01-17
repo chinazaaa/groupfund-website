@@ -28,7 +28,7 @@ export default function ComingSoonFeaturesPage() {
   const pipelineFeatures = [
     {
       title: "Export & Reporting",
-      description: "Export detailed contribution reports in multiple formats (PDF, Excel, CSV). Generate tax-ready financial summaries for your records.",
+      description: "Export detailed contribution reports in multiple formats (PDF, Excel, CSV). Generate financial summaries for your records.",
       icon: "📄",
       status: "Planned",
       statusColor: "purple"
