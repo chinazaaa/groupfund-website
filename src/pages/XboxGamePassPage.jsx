@@ -51,8 +51,8 @@ export default function XboxGamePassPage() {
                   <p>The account holder confirms payments when received, keeping everyone accountable and transparent.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
-                  <p>Set up recurring monthly payments that match your Xbox Game Pass billing cycle. GroupFund handles the scheduling.</p>
+                  <h3>🔄 Automatic Recurring Billing</h3>
+                  <p>With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Xbox Game Pass billing cycle.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>

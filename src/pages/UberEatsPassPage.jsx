@@ -59,9 +59,9 @@ export default function UberEatsPassSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match GroupFund to your Uber Eats Pass billing cycle for seamless recurring contributions and continuous discounts.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Uber Eats Pass billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,10 +98,10 @@ export default function UberEatsPassSubscriptionPage() {
                   Add instructions like "Paid members get Uber Eats Pass login for discounted orders" or "Group orders using shared account."
                 </li>
                 <li>Invite housemates using your GroupFund invite code.</li>
-                <li>Members get reminders 3 days before Pass expires and mark "Paid" after contributing.</li>
-                <li>You confirm payments and ensure Pass stays active for discounted deliveries.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members get reminders 3 days before Pass expires and mark "Paid" after contributing, and you confirm payments and ensure Pass stays active for discounted deliveries</li>
                 <li>Everyone sees real-time payment status for current Pass coverage.</li>
-                <li>Repeat monthly automatically matching Uber Eats billing cycle.</li>
+                <li>Repeat monthly automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

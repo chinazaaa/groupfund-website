@@ -59,9 +59,9 @@ export default function DoorDashDashPassSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match GroupFund to your DoorDash DashPass billing cycle for seamless recurring contributions and continuous discounts.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your DoorDash DashPass billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,10 +98,10 @@ export default function DoorDashDashPassSubscriptionPage() {
                   Add instructions like "Paid members get DashPass family sharing access for $0 delivery fees" or "Use shared family account."
                 </li>
                 <li>Invite family/housemates using your GroupFund invite code.</li>
-                <li>Members get reminders 3 days before DashPass expires and mark "Paid" after contributing.</li>
-                <li>You confirm payments and ensure DashPass family sharing stays active.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members get reminders 3 days before DashPass expires and mark "Paid" after contributing, and you confirm payments and ensure DashPass family sharing stays active</li>
                 <li>Everyone sees real-time payment status for current DashPass coverage.</li>
-                <li>Repeat monthly/annually automatically matching DoorDash billing cycle.</li>
+                <li>Repeat monthly/annually automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

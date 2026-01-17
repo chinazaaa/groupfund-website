@@ -59,9 +59,9 @@ export default function AppleTvPlusSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match your GroupFund schedule to your Apple TV+ billing cycle and let the system handle recurring reminders every month.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Apple TV+ billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,11 +98,10 @@ export default function AppleTvPlusSubscriptionPage() {
                   Add clear instructions in the group description (e.g., &quot;Once you&apos;ve paid, I&apos;ll keep you in the Apple Family Sharing group for Apple TV+&quot;).
                 </li>
                 <li>Invite family members or housemates using your unique GroupFund invite link or code.</li>
-                <li>Members receive automatic reminders before the billing date so they remember to pay.</li>
-                <li>Members mark their payment as &quot;Paid&quot; after sending money.</li>
-                <li>You (the organiser/admin) confirm each payment as it arrives.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members receive automatic reminders before the billing date so they remember to pay, members mark their payment as &quot;Paid&quot; after sending money, and you (the organiser/admin) confirm each payment as it arrives</li>
                 <li>Everyone can see real-time payment statuses inside the group.</li>
-                <li>GroupFund repeats this schedule automatically based on your billing cycle settings.</li>
+                <li>GroupFund repeats this schedule automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

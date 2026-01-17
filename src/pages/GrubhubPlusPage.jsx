@@ -59,9 +59,9 @@ export default function GrubhubPlusSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match GroupFund to your Grubhub+ billing cycle for seamless recurring contributions and continuous savings.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Grubhub+ billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,10 +98,10 @@ export default function GrubhubPlusSubscriptionPage() {
                   Add instructions like "Paid members get Grubhub+ login for $0 delivery fees" or "Weekly ordering rotation with shared account."
                 </li>
                 <li>Invite friends/housemates using your GroupFund invite code.</li>
-                <li>Members get reminders 3 days before Grubhub+ expires and mark "Paid" after contributing.</li>
-                <li>You confirm payments and ensure Grubhub+ stays active for all orders.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members get reminders 3 days before Grubhub+ expires and mark "Paid" after contributing, and you confirm payments and ensure Grubhub+ stays active for all orders</li>
                 <li>Everyone sees real-time payment status for current Grubhub+ coverage.</li>
-                <li>Repeat monthly/annually automatically matching Grubhub billing cycle.</li>
+                <li>Repeat monthly/annually automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

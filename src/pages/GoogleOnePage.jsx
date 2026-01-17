@@ -51,8 +51,8 @@ export default function GoogleOnePage() {
                   <p>The account holder confirms payments when received, keeping everyone accountable and transparent.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
-                  <p>Set up recurring monthly payments that match your Google One billing cycle. GroupFund handles the scheduling.</p>
+                  <h3>🔄 Automatic Recurring Billing</h3>
+                  <p>With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Google One billing cycle.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
@@ -69,11 +69,10 @@ export default function GoogleOnePage() {
                 <li>Add your payment account details where members send contributions</li>
                 <li>Add login credential instructions in the group description</li>
                 <li>Invite family and friends using the unique invite code</li>
-                <li>Members receive automatic reminders before the billing date</li>
-                <li>Members mark their payment as "Paid" after sending money</li>
-                <li>You (the admin) confirm when you receive each payment</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members receive automatic reminders before the billing date, members mark their payment as "Paid" after sending money, and you (the admin) confirm when you receive each payment</li>
                 <li>Everyone sees payment statuses in real-time</li>
-                <li>Repeat every month - GroupFund handles the scheduling automatically</li>
+                <li>Repeat every month automatically, and with auto-pay, members are charged automatically each billing cycle</li>
               </ol>
             </div>
 

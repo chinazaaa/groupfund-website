@@ -59,9 +59,9 @@ export default function DisneyPlusSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match your recurring GroupFund schedule to your Disney+ billing cycle. GroupFund takes care of the monthly routine.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Disney+ billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,11 +98,10 @@ export default function DisneyPlusSubscriptionPage() {
                   Add clear instructions in the group description (e.g., &quot;Message me once paid and I&apos;ll add you to the Disney+ account&quot;).
                 </li>
                 <li>Invite friends or family using your unique GroupFund invite link or code.</li>
-                <li>Members receive automatic reminders before the billing date so they remember to pay.</li>
-                <li>Members mark their payment as &quot;Paid&quot; after sending money.</li>
-                <li>You (the admin) confirm each payment when you receive it.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members receive automatic reminders before the billing date so they remember to pay, members mark their payment as &quot;Paid&quot; after sending money, and you (the admin) confirm each payment when you receive it</li>
                 <li>Everyone in the group can see payment statuses in real-time.</li>
-                <li>Repeat every month – GroupFund keeps the schedule running automatically.</li>
+                <li>Repeat every month – GroupFund keeps the schedule running automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

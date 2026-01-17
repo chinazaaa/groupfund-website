@@ -59,9 +59,9 @@ export default function AppleFitnessPlusSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match GroupFund to Apple Fitness+ monthly billing for seamless recurring workout contributions across countries.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching Apple Fitness+ monthly billing.
                   </p>
                 </div>
                 <div className="feature-item">

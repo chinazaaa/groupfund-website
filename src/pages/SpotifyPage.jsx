@@ -53,8 +53,8 @@ export default function SpotifySubscriptionPage() {
                   <p>The plan owner confirms payments when received, keeping the group transparent and accountable.</p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
-                  <p>Set up recurring monthly contributions that match your Spotify billing cycle. GroupFund handles the scheduling for you.</p>
+                  <h3>🔄 Automatic Recurring Billing</h3>
+                  <p>With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching your Spotify billing cycle.</p>
                 </div>
                 <div className="feature-item">
                   <h3>📱 Mobile-Friendly</h3>
@@ -88,11 +88,10 @@ export default function SpotifySubscriptionPage() {
                   Add instructions in the group description (e.g., &quot;Message me once paid so I can send your Spotify invite link&quot;).
                 </li>
                 <li>Invite household members using your unique GroupFund invite link or code.</li>
-                <li>Members receive automatic reminders before the billing date so they pay on time.</li>
-                <li>Members mark their payment as &quot;Paid&quot; after sending money.</li>
-                <li>You (the admin) confirm each payment when received.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members receive automatic reminders before the billing date so they pay on time, members mark their payment as &quot;Paid&quot; after sending money, and you (the admin) confirm each payment when received</li>
                 <li>Everyone can see live payment statuses in the group.</li>
-                <li>Repeat every month – GroupFund keeps the schedule running for you.</li>
+                <li>Repeat every month – GroupFund keeps the schedule running automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

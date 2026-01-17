@@ -59,9 +59,9 @@ export default function PlanetFitnessBlackCardSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match GroupFund to Planet Fitness monthly billing for seamless recurring fitness contributions across locations.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching Planet Fitness monthly billing.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,11 +98,10 @@ export default function PlanetFitnessBlackCardSubscriptionPage() {
                   Add instructions like "Paid members get FREE Black Card guest passes at any Planet Fitness - tag your gym selfies!"
                 </li>
                 <li>Invite gym buddies using your GroupFund invite code.</li>
-                <li>Members get reminders 5 days before renewal and mark "Paid" after contributing.</li>
-                <li>You confirm payments and ensure Black Card stays active for guest privileges.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members get reminders 5 days before renewal and mark "Paid" after contributing, and you confirm payments and ensure Black Card stays active for guest privileges</li>
                 <li>Everyone sees real-time payment status and gym check-in logs across 2,000+ locations.</li>
-                <li>Repeat monthly automatically matching Planet Fitness billing.
-                </li>
+                <li>Repeat monthly automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

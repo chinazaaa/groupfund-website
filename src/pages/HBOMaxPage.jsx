@@ -59,9 +59,9 @@ export default function HboMaxSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Align your GroupFund schedule with your HBO Max billing cycle and let the system handle recurring reminders automatically.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for aligning with your HBO Max billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,11 +98,10 @@ export default function HboMaxSubscriptionPage() {
                   Add clear instructions in the group description (e.g., &quot;Once you&apos;ve paid, I&apos;ll confirm and make sure you have Max access&quot;).
                 </li>
                 <li>Invite housemates, family, or friends using your unique GroupFund invite link or code.</li>
-                <li>Members receive automatic reminders before the billing date so they pay on time.</li>
-                <li>Members mark their payment as &quot;Paid&quot; after sending money.</li>
-                <li>You (the admin) confirm each payment as it comes in.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members receive automatic reminders before the billing date so they pay on time, members mark their payment as &quot;Paid&quot; after sending money, and you (the admin) confirm each payment as it comes in</li>
                 <li>Everyone can see real-time payment statuses inside the group.</li>
-                <li>GroupFund repeats this schedule every month automatically based on your settings.</li>
+                <li>GroupFund repeats this schedule every month automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

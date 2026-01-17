@@ -59,9 +59,9 @@ export default function TheGymGroupUltimateSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Match GroupFund to The Gym Group's flexible monthly and saver plans for seamless recurring contributions across the whole group.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for matching The Gym Group's flexible monthly and saver plans.
                   </p>
                 </div>
                 <div className="feature-item">

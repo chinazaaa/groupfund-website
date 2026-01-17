@@ -59,9 +59,9 @@ export default function HuluSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Align your GroupFund schedule with your Hulu billing cycle and let the system handle recurring reminders.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for aligning with your Hulu billing cycle.
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,11 +98,10 @@ export default function HuluSubscriptionPage() {
                   Add clear instructions in the group description (e.g., &quot;Once you&apos;ve paid, message me and I&apos;ll confirm your Hulu access&quot;).
                 </li>
                 <li>Invite housemates, family, or friends using your unique GroupFund invite link or code.</li>
-                <li>Members receive automated reminders before the billing date so they pay on time.</li>
-                <li>Members mark their contribution as &quot;Paid&quot; after sending money.</li>
-                <li>You (the admin) confirm each payment as it arrives.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members receive automated reminders before the billing date so they pay on time, members mark their contribution as &quot;Paid&quot; after sending money, and you (the admin) confirm each payment as it arrives</li>
                 <li>Everyone can see real-time payment statuses in the group.</li>
-                <li>GroupFund repeats the process each month automatically, based on your schedule.</li>
+                <li>GroupFund repeats the process each month automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 

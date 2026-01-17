@@ -59,9 +59,9 @@ export default function CanvaProSubscriptionPage() {
                   </p>
                 </div>
                 <div className="feature-item">
-                  <h3>📅 Monthly Scheduling</h3>
+                  <h3>🔄 Automatic Recurring Billing</h3>
                   <p>
-                    Align GroupFund with your Canva Pro billing cycle (monthly or annual) for seamless recurring contributions.
+                    With auto-pay enabled (USD, EUR, GBP, CAD, or AUD), set up true recurring subscriptions with automatic monthly billing. Stripe automatically charges members each month without requiring any action - no manual payment needed each billing cycle. Perfect for aligning with your Canva Pro billing cycle (monthly or annual).
                   </p>
                 </div>
                 <div className="feature-item">
@@ -98,11 +98,10 @@ export default function CanvaProSubscriptionPage() {
                   Add instructions like "Paid members get Canva Team invites + shared brand kit access" or "Weekly login rotation for Pro account".
                 </li>
                 <li>Invite team members using your GroupFund invite code.</li>
-                <li>Members get automatic reminders before billing so they pay on time.</li>
-                <li>Members mark "Paid" after sending contributions.</li>
-                <li>Admin confirms payments and updates Canva team access/folders.</li>
+                <li><strong>For auto-pay (USD, EUR, GBP, CAD, or AUD):</strong> Members enable auto-pay and Stripe automatically charges them each month - no action required. This creates true recurring subscriptions with automatic monthly billing.</li>
+                <li><strong>For manual payments:</strong> Members get automatic reminders before billing so they pay on time, members mark "Paid" after sending contributions, and admin confirms payments and updates Canva team access/folders</li>
                 <li>Everyone sees real-time payment status and design access schedules.</li>
-                <li>Repeats monthly automatically based on Canva billing.</li>
+                <li>Repeats monthly automatically, and with auto-pay, members are charged automatically each billing cycle.</li>
               </ol>
             </div>
 
